@@ -11,76 +11,12 @@
   <link rel="manifest" href="assets/src/ico/site.webmanifest" />
   <link rel="stylesheet" href="assets/css/banniere.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <title>D2Glossary</title>
 </head>
 <body>
   <div id="banniere-container"></div>
   <div class="nav-container" id="nav-list"></div>
-  <script>
-    async function loadBanniere() {
-      const res = await fetch('assets/html/banniere.html');
-      const html = await res.text();
-      document.getElementById('banniere-container').innerHTML = html;
-    }
-
-    loadBanniere();
-  </script>
-
-  <script>
-    const subfolders = [
-      {
-        name: "Traits",
-        path: "trait",
-        image: "assets/src/Traits_thumb.jpg",
-        subtitle: "Définition des termes de doctrines de Destiny 2"
-      },
-	  
-	  {
-        name: "Champions",
-        path: "breaker",
-        image: "assets/src/Champions_thumb.jpg",
-        subtitle: "Définition des termes de Champions"
-      },
-	  
-	  {
-        name: "Dégâts",
-        path: "damagetype",
-        image: "assets/src/Doctrine_thumb.jpg",
-        subtitle: "Définition des termes de dégâts en jeu"
-      },
-
-	  {
-        name: "Modificateurs",
-        path: "modifier",
-        image: "assets/src/modifier_thumb.jpg",
-        subtitle: "Définition des modificateurs en jeu"
-      },
-
-	  {
-        name: "Activités",
-        path: "activity",
-        image: "assets/src/activity_thumb.jpg",
-        subtitle: "Définition des activités en jeu"
-      },
-    ];
-
-    const container = document.getElementById("nav-list");
-
-    subfolders.forEach(entry => {
-      const card = document.createElement("a");
-      card.className = "nav-card";
-      card.href = entry.path;
-
-      card.innerHTML = `
-        <img src="${entry.image}" class="nav-image" alt="${entry.name}">
-        <div class="nav-content">
-          <div class="nav-title">${entry.name}</div>
-          <div class="nav-subtitle">${entry.subtitle}</div>
-        </div>
-      `;
-
-      container.appendChild(card);
-    });
-  </script>
+  <script src="assets/js/index.js"></script>
 </body>
 </html>
