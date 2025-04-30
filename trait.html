@@ -25,84 +25,20 @@
 
   <div id="popupitem-container"></div>
   <script src="assets/js/popupitem.js"></script>
-  <script>
-    async function loadPopupItem() {
-      const res = await fetch('assets/html/popupitem.html');
-      const html = await res.text();
-      document.getElementById('popupitem-container').innerHTML = html;
-    }
+  <script type="module">
+    import { loadItemListPage } from './assets/js/itemListPage.js';
 
-    async function loadBanniere() {
-      const res = await fetch('assets/html/banniere.html');
-      const html = await res.text();
-      document.getElementById('banniere-container').innerHTML = html;
-    }
-
-    loadPopupItem();
-    loadBanniere();
-  </script>
-
-  <script>
-    let traitData = {};
-    let filteredTraits = [];
-
-    const excludedIds = [
-      "370766376", "500105683", "520867389",
-	  "1434215347", "2230116619", "2356777566",
-	  "2387836362", "2878306895", "3671004794", 
-	  "4105527943", "4263853822"// Ajoute ici les IDs à exclure
-    ];
-
-    async function loadTraits() {
-      try {
-        const res = await fetch('data/trait_definitions.json');
-        const data = await res.json();
-        traitData = data;
-        filteredTraits = Object.entries(data).filter(([id, trait]) => {
-          const props = trait.displayProperties;
-          return (
-            props?.name &&
-            props?.description &&
-            props?.hasIcon &&
-            props?.icon &&
-            !excludedIds.includes(id)
-          );
-        });
-        renderTraits(filteredTraits);
-
-        const urlParams = new URLSearchParams(window.location.search);
-        const traitId = urlParams.get('id');
-        if (traitId && data[traitId]) openPopupItem(traitId);
-      } catch (err) {
-        console.error("Erreur lors du chargement :", err);
-      }
-    }
-
-    function renderTraits(list) {
-      const container = document.getElementById('trait-list');
-      container.innerHTML = '';
-      for (const [id, trait] of list) {
-        const props = trait.displayProperties;
-        const card = document.createElement('div');
-        card.className = 'trait-card';
-        card.innerHTML = `
-          <img src="https://www.bungie.net${props.icon}" alt="${props.name}" />
-          <div>${props.name}</div>
-        `;
-        card.onclick = () => openPopupItem(id);
-        container.appendChild(card);
-      }
-    }
-
-    document.getElementById('search').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase();
-      const filtered = filteredTraits.filter(([_, trait]) =>
-        trait.displayProperties.name.toLowerCase().includes(query)
-      );
-      renderTraits(filtered);
+    loadItemListPage({
+      dataFile: 'data/trait_definitions.json',
+      containerId: 'trait-list',
+      inputId: 'search',
+      excludedIds: [
+        "370766376", "500105683", "520867389",
+        "1434215347", "2230116619", "2356777566",
+        "2387836362", "2878306895", "3671004794",
+        "4105527943", "4263853822"
+      ]
     });
-
-    loadTraits();
   </script>
 </body>
 </html>
