@@ -16,6 +16,9 @@ function openPopupItem(id, item) {
     if (e.target.id === 'popupitem') closePopupItem();
   };
 
+  // Ajouter l'event listener pour le bouton de partage
+  document.querySelector('.share-btn').addEventListener('click', sharePopupItem);
+
   // Écouter l'événement "keydown" pour fermer la popup avec la touche Échap
   document.addEventListener('keydown', handleEscapeKey);
 }
@@ -31,6 +34,9 @@ function closePopupItem() {
 
   // Retirer l'événement "keydown" une fois que la popup est fermée
   document.removeEventListener('keydown', handleEscapeKey);
+
+  // Retirer l'event listener pour le bouton partager
+  document.querySelector('.share-btn').removeEventListener('click', sharePopupItem);
 }
 
 // Fonction qui gère la touche "Échap"
@@ -38,4 +44,10 @@ function handleEscapeKey(e) {
   if (e.key === 'Escape') {
     closePopupItem();
   }
+}
+
+function sharePopupItem() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url);
+  alert("Lien copié dans le presse-papier :\n" + url);
 }

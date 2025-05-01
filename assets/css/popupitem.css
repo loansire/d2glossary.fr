@@ -4,14 +4,15 @@
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7); /* Fond sombre avec opacité */
   display: none;
   align-items: center;
   justify-content: center;
   z-index: 1000;
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease, backdrop-filter 0.3s ease;
+  backdrop-filter: blur(5px); /* Ajout d'un flou de fond */
 }
 
 .popupitem.show {
@@ -21,51 +22,88 @@
 }
 
 .popupitem-content {
-  background-color: #1f1f1f;
-  border-radius: 12px;
+  background-color: #2c2c2c; /* Un gris plus doux */
+  border-radius: 15px;
   padding: 2rem;
-  max-width: 400px;
+  max-width: 480px;
   width: 90%;
-  text-align: left;
+  text-align: center;
   position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Ombre douce autour de la popup */
+  animation: slideIn 0.5s ease-out;
+
+  /* Liseré sur le côté gauche */
+  border-left: 5px solid #FF5733; /* Couleur du liseré que tu peux définir */
+
+  /* Ne pas arrondir les coins gauche */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.popupitem-body {
+  text-align: center;
 }
 
 .popupitem img {
-  width: 94px;
-  height: 94px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   margin-bottom: 1rem;
+  border-radius: 50%; /* Rendre l'icône ronde */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère autour de l'icône */
 }
 
 .popupitem .name {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #f1f1f1;
+  text-transform: capitalize;
 }
 
 .popupitem .description {
-  font-size: 1rem;
+  font-size: 1.1rem;
   opacity: 0.9;
+  color: #ddd;
+  margin-bottom: 1.5rem;
 }
 
 .close-btn, .share-btn {
   position: absolute;
-  top: 0.5rem;
+  top: 1rem;
   background: none;
   border: none;
-  color: #eee;
-  font-size: 1.2rem;
+  color: #fff;
+  font-size: 1.5rem;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .close-btn {
-  right: 0.5rem;
+  right: 1rem;
 }
 
 .share-btn {
-  left: 0.5rem;
+  left: 1rem;
+}
+
+.close-btn:hover, .share-btn:hover {
+  transform: scale(1.2);
+  color: #ff6f61; /* Couleur hover */
 }
 
 body.popupitem-open {
   overflow: hidden;
+}
+
+/* Animation de la popup */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
