@@ -62,7 +62,7 @@ export async function loadItemListPage({
           <img src="https://www.bungie.net${props.icon}" alt="${props.name}" />
           <div>${props.name}</div>
         `;
-        card.onclick = () => openPopupItem(id);
+        card.onclick = () => openPopupItem(id, item);
         container.appendChild(card);
       });
     }

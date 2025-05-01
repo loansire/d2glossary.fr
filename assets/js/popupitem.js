@@ -1,7 +1,6 @@
 // popupitem.js
-function openPopupItem(id) {
-  const trait = traitData[id];
-  const props = trait.displayProperties;
+function openPopupItem(id, item) {
+  const props = item.displayProperties;
 
   document.getElementById('popupitem-icon').src = "https://www.bungie.net" + props.icon;
   document.getElementById('popupitem-name').textContent = props.name;
