@@ -1,4 +1,3 @@
-// popupitem.js
 function openPopupItem(id, item) {
   const props = item.displayProperties;
 
@@ -16,8 +15,12 @@ function openPopupItem(id, item) {
   document.getElementById('popupitem').onclick = (e) => {
     if (e.target.id === 'popupitem') closePopupItem();
   };
+
+  // Écouter l'événement "keydown" pour fermer la popup avec la touche Échap
+  document.addEventListener('keydown', handleEscapeKey);
 }
 
+// Ferme la popup et nettoie l'URL
 function closePopupItem() {
   document.getElementById('popupitem').classList.remove('show');
   document.body.classList.remove('popupitem-open');
@@ -25,10 +28,14 @@ function closePopupItem() {
   const url = new URL(window.location);
   url.searchParams.delete('id');
   history.replaceState(null, '', url);
+
+  // Retirer l'événement "keydown" une fois que la popup est fermée
+  document.removeEventListener('keydown', handleEscapeKey);
 }
 
-function sharePopupItem() {
-  const url = window.location.href;
-  navigator.clipboard.writeText(url);
-  alert("Lien copié dans le presse-papier :\n" + url);
+// Fonction qui gère la touche "Échap"
+function handleEscapeKey(e) {
+  if (e.key === 'Escape') {
+    closePopupItem();
+  }
 }
