@@ -37,7 +37,7 @@ export async function loadItemListPage({
 
     const urlParams = new URLSearchParams(window.location.search);
     const itemId = urlParams.get('id');
-    if (itemId && data[itemId]) openPopupItem(itemId);
+    if (itemId && data[itemId]) openPopupItem(itemId, data[itemId]);
 
     input?.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase();
