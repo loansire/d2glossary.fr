@@ -49,17 +49,22 @@ export async function loadItemListPage({
 
     function renderItems(list) {
       container.innerHTML = '';
-      for (const [id, item] of list) {
+      list.forEach(([id, item], index) => {
         const props = item.displayProperties;
         const card = document.createElement('div');
-        card.className = 'trait-card';
+        card.className = 'trait-card animate__animated animate__fadeInUp'; // Animation Animate.css
+
+        // Appliquer un délai progressif
+        const delay = Math.min(index * 0.05, 3); // Maximum 1s de délai
+        card.style.animationDelay = `${delay}s`;
+
         card.innerHTML = `
           <img src="https://www.bungie.net${props.icon}" alt="${props.name}" />
           <div>${props.name}</div>
         `;
         card.onclick = () => openPopupItem(id);
         container.appendChild(card);
-      }
+      });
     }
 
   } catch (err) {
