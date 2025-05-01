@@ -1,12 +1,31 @@
-<!-- popupitem.html -->
+
 <div class="popupitem" id="popupitem">
   <div class="popupitem-content">
-    <button class="close-btn" onclick="closePopupItem()">&times;</button>
-    <button class="share-btn" onclick="sharePopupItem()">Partager</button>
-    <div class="popupitem-body">
-      <img id="popupitem-icon" src="" alt="Icon">
-      <div id="popupitem-name" class="name"></div>
-      <div id="popupitem-description" class="description"></div>
+    <div class="popupitem-header">
+
+      <div class="header-info">
+        <img id="popupitem-icon" src="" alt="Icon">
+        <div class="header-text">
+          <div id="popupitem-name" class="name"></div>
+          <div id="popupitem-id" class="id"></div>
+        </div>
+      </div>
+
+      <!-- Conteneur des boutons -->
+      <div class="popupitem-buttons">
+        <button title="Partager" onclick="sharePopupItem()" aria-label="Partager">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+          </svg>
+        </button>
+        <button title="Fermer" onclick="closePopupItem()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+        </button>
+      </div>
+
     </div>
+    <div id="popupitem-description" class="description"></div>
   </div>
 </div>

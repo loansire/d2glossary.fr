@@ -4,6 +4,7 @@ function openPopupItem(id, item) {
   document.getElementById('popupitem-icon').src = "https://www.bungie.net" + props.icon;
   document.getElementById('popupitem-name').textContent = props.name;
   document.getElementById('popupitem-description').textContent = props.description;
+  document.getElementById('popupitem-id').textContent = `ID: ${id}`;
 
   document.getElementById('popupitem').classList.add('show');
   document.body.classList.add('popupitem-open');

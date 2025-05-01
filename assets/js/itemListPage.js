@@ -58,6 +58,9 @@ export async function loadItemListPage({
         const delay = Math.min(index * 0.05, 3); // Maximum 1s de délai
         card.style.animationDelay = `${delay}s`;
 
+        // Ajouter le titre avec le nom de l'item
+        card.title = props.name; // Ici, on ajoute le titre avec le nom de l'item
+
         card.innerHTML = `
           <img src="https://www.bungie.net${props.icon}" alt="${props.name}" />
           <div>${props.name}</div>
