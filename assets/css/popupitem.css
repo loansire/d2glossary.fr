@@ -150,11 +150,11 @@
 
 .popupitem-content {
   background-color: #2c2c2c;
-  border-left: 5px solid #FF5733;
+  border-left: 5px solid #F3CF55;
   border-radius: 15px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  max-width: 480px;
+  max-width: 620px;
   width: 90%;
   text-align: center;
   position: relative;
@@ -179,7 +179,6 @@
   top: 1rem;
   right: 1rem;
   display: flex;
-  gap: 0.5rem;
 }
 
 .popupitem-buttons button {
@@ -192,20 +191,20 @@
 
 .popupitem-buttons button:hover {
   transform: scale(1.2);
-  color: #ff6f61;
+  color: #F3CF55;
 }
 
 .header-info {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-right: 4rem; /* Espace réservé aux boutons en haut à droite */
+  gap: 0.5rem;
+  margin-right: 60px;
 }
 
 #popupitem-icon {
+  object-fit: contain;
   width: 60px;
   height: 60px;
-  object-fit: contain;
 }
 
 .header-text {
@@ -213,23 +212,21 @@
 }
 
 .popupitem .name {
-  letter-spacing: 0.05rem;
-  font-size: 1.6rem;
   font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+  font-size: 2rem;
   color: #f1f1f1;
   text-transform: uppercase;
 }
 
 .popupitem .id {
   color: #bbb;
-  margin-top: 0.2rem;
   letter-spacing: 0.05rem;
   font-size: 1 rem;
   font-family: "Neue Haas Grotesk Display Pro 55 Roman";
 }
 
 .popupitem .description {
-  font-family: "Neue Haas Grotesk Display Pro 56 Roman Italic";
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
   letter-spacing: 0.06rem;
   color: #ddd;
   opacity: 0.9;
