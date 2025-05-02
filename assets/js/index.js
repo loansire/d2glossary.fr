@@ -35,12 +35,6 @@ const subfolders = [
     image: "assets/src/modifier_thumb.jpg",
     subtitle: "Définition des modificateurs en jeu"
   },
-  {
-    name: "Activités",
-    path: "activity",
-    image: "assets/src/activity_thumb.jpg",
-    subtitle: "Définition des activités en jeu"
-  },
 ];
 
 const container = document.getElementById("nav-list");
