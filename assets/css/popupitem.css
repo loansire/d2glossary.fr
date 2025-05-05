@@ -1,145 +1,85 @@
+/* ==== FONT-FACE DECLARATIONS ==== */
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 45 Light';
+  src: local('Neue Haas Grotesk Display Pro 45 Light'), url('../fonts/NeueHaasDisplayLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 46 Light Italic';
+  src: local('Neue Haas Grotesk Display Pro 46 Light Italic'), url('../fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 15 XXThin';
+  src: local('Neue Haas Grotesk Display Pro 15 XXThin'), url('../fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 16 XXThin Italic';
+  src: local('Neue Haas Grotesk Display Pro 16 XXThin Italic'), url('../fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 25 XThin';
+  src: local('Neue Haas Grotesk Display Pro 25 XThin'), url('../fonts/NeueHaasDisplayXThin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 26 XThin Italic';
+  src: local('Neue Haas Grotesk Display Pro 26 XThin Italic'), url('../fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 35 Thin';
+  src: local('Neue Haas Grotesk Display Pro 35 Thin'), url('../fonts/NeueHaasDisplayThin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 36 Thin Italic';
+  src: local('Neue Haas Grotesk Display Pro 36 Thin Italic'), url('../fonts/NeueHaasDisplayThinItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
+  src: local('Neue Haas Grotesk Display Pro 55 Roman'), url('../fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 56 Roman Italic';
+  src: local('Neue Haas Grotesk Display Pro 56 Roman Italic'), url('../fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
+  src: local('Neue Haas Grotesk Display Pro 65 Medium'), url('../fonts/NeueHaasDisplayMediu.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 66 Medium Italic';
+  src: local('Neue Haas Grotesk Display Pro 66 Medium Italic'), url('../fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 75 Bold';
+  src: local('Neue Haas Grotesk Display Pro 75 Bold'), url('../fonts/NeueHaasDisplayBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 76 Bold Italic';
+  src: local('Neue Haas Grotesk Display Pro 76 Bold Italic'), url('../fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 95 Black';
+  src: local('Neue Haas Grotesk Display Pro 95 Black'), url('../fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro 96 Black Italic';
+  src: local('Neue Haas Grotesk Display Pro 96 Black Italic'), url('../fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+}
 
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 45 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 45 Light'), url('../fonts/NeueHaasDisplayLight.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 46 Light Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 46 Light Italic'), url('../fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 15 XXThin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 15 XXThin'), url('../fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 16 XXThin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 16 XXThin Italic'), url('../fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 25 XThin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 25 XThin'), url('../fonts/NeueHaasDisplayXThin.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 26 XThin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 26 XThin Italic'), url('../fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 35 Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 35 Thin'), url('../fonts/NeueHaasDisplayThin.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 36 Thin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 36 Thin Italic'), url('../fonts/NeueHaasDisplayThinItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 55 Roman'), url('../fonts/NeueHaasDisplayRoman.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 56 Roman Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 56 Roman Italic'), url('../fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 65 Medium'), url('../fonts/NeueHaasDisplayMediu.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 66 Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 66 Medium Italic'), url('../fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 75 Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 75 Bold'), url('../fonts/NeueHaasDisplayBold.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 76 Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 76 Bold Italic'), url('../fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 95 Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 95 Black'), url('../fonts/NeueHaasDisplayBlack.ttf') format('truetype');
-    }
-
-
-    @font-face {
-    font-family: 'Neue Haas Grotesk Display Pro 96 Black Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Neue Haas Grotesk Display Pro 96 Black Italic'), url('../fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
-    }
-
+/* ==== POPUP OVERLAY ==== */
 .popupitem {
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
   opacity: 0;
   transform: scale(0.9);
   transition: opacity 0.3s ease, transform 0.3s ease, backdrop-filter 0.3s ease;
-  backdrop-filter: blur(5px);
+  z-index: 1000;
 }
 
 .popupitem.show {
@@ -148,6 +88,7 @@
   transform: scale(1);
 }
 
+/* ==== POPUP CONTENT ==== */
 .popupitem-content {
   background-color: #2c2c2c;
   border-left: 5px solid #F3CF55;
@@ -159,21 +100,66 @@
   text-align: center;
   position: relative;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  animation: slideIn 0.5s ease-out;
+  animation: slideIn 0.3s ease-out;
 }
 
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ==== HEADER ==== */
 .popupitem-header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #1a1a1a;
   padding: 1rem;
-  border-radius: 10px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 10px 10px 0 0;
 }
 
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 60px;
+}
+
+#popupitem-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.header-text {
+  text-align: left;
+}
+
+/* ==== TEXT STYLES ==== */
+.popupitem .name {
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+  font-size: 2rem;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.popupitem .id {
+  color: #bbb;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+}
+
+.popupitem .description {
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+  color: #ddd;
+  opacity: 0.9;
+  letter-spacing: 0.06rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+/* ==== BUTTONS ==== */
 .popupitem-buttons {
   position: absolute;
   top: 1rem;
@@ -187,6 +173,7 @@
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
 }
 
 .popupitem-buttons button:hover {
@@ -194,57 +181,7 @@
   color: #F3CF55;
 }
 
-.header-info {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-right: 60px;
-}
-
-#popupitem-icon {
-  object-fit: contain;
-  width: 60px;
-  height: 60px;
-}
-
-.header-text {
-  text-align: left;
-}
-
-.popupitem .name {
-  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-  font-size: 2rem;
-  color: #f1f1f1;
-  text-transform: uppercase;
-}
-
-.popupitem .id {
-  color: #bbb;
-  letter-spacing: 0.05rem;
-  font-size: 1 rem;
-  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-}
-
-.popupitem .description {
-  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-  letter-spacing: 0.06rem;
-  color: #ddd;
-  opacity: 0.9;
-  text-align: left;
-  padding: 1rem;
-}
-
+/* ==== BODY STATE ==== */
 body.popupitem-open {
   overflow: hidden;
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }

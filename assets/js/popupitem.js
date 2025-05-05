@@ -1,104 +1,83 @@
-function parseDescription(text) {
+<!-- popupitem.js -->
+function processDescription(text) {
+  return text
+    .replace(/\{var:[a-zA-Z0-9_]+\}/g, '25') // Remplacer {var:xxx}
+    .replace(/ ?•/g, '<br>•') // Sauts avant chaque puce
+    .replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>') // Sauts après points
+    .replace(/(<br>\s*){2,}/g, '<br>') // Nettoyer doubles sauts
+    .trim();
+}
+
+function parseKeywords(text) {
   const replacements = {
-    '\\[Solaire\\]': '<span class="solar"></span>',
-    '\\[Filobscur\\]': '<span class="strand"></span>',
-    '\\[Chancellement\\]': '<span class="unstoppable"></span>',
-    '\\[Perforation de bouclier\\]': '<span class="barrier"></span>',
-    '\\[Perturbation\\]': '<span class="overload"></span>',
-    '\\[Stase\\]': '<span class="stasis"></span>',
-    '\\[Abyssal\\]': '<span class="void"></span>',
-    '\\[Cryo-électrique\\]': '<span class="arc"></span>',
-    '\\[Primaire\\]': '<span class="primary"></span>',
-    '\\[Spéciale\\]': '<span class="special"></span>',
-    '\\[Lourde\\]': '<span class="heavy"></span>',
-    '\\[PVE\\]': '<span class="pve"></span>',
-    '\\[PVP\\]': '<span class="pvp"></span>',
-    '\\[Chasseur\\]': '<span class="hunter"></span>',
-    '\\[Arcaniste\\]': '<span class="warlock"></span>',
-    '\\[Titan\\]': '<span class="titan"></span>'
+    'Solaire': 'solar',
+    'Filobscur': 'strand',
+    'Chancellement': 'unstoppable',
+    'Perforation de bouclier': 'barrier',
+    'Perturbation': 'overload',
+    'Stase': 'stasis',
+    'Abyssal': 'void',
+    'Cryo-électrique': 'arc',
+    'Primaire': 'primary',
+    'Spéciale': 'special',
+    'Lourde': 'heavy',
+    'PVE': 'pve',
+    'PVP': 'pvp',
+    'Chasseur': 'hunter',
+    'Arcaniste': 'warlock',
+    'Titan': 'titan'
   };
 
-  for (const [key, value] of Object.entries(replacements)) {
-    const regex = new RegExp(key, 'g');
-    text = text.replace(regex, value);
+  for (const [key, className] of Object.entries(replacements)) {
+    const regex = new RegExp(`\\[${key}\\]`, 'g');
+    text = text.replace(regex, `<span class="${className}"></span>`);
   }
-
   return text;
 }
 
-function replaceVariablesInDescription(description) {
-  // Remplacer toutes les occurrences de {var:xxxxx} par "25"
-  const regex = /\{var:([a-zA-Z0-9_]+)\}/g; // Recherche du pattern {var:xxxxx}
-  return description.replace(regex, '25'); // Remplace par "25"
-}
-
-function formatDescriptionLayout(text) {
-  // Ajouter un saut de ligne avant chaque puce
-  text = text.replace(/ ?•/g, '<br>•');
-
-  // Ajouter un saut de ligne après un point suivi d'une majuscule (y compris lettres accentuées), même après plusieurs espaces ou retours à la ligne
-  text = text.replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>');
-
-  // Supprimer les <br> en double
-  text = text.replace(/(<br>\s*){2,}/g, '<br>');
-
-  return text.trim();
-}
-
 function openPopupItem(id, item) {
+  const iconEl = document.getElementById('popupitem-icon');
+  const nameEl = document.getElementById('popupitem-name');
+  const descEl = document.getElementById('popupitem-description');
+  const idEl = document.getElementById('popupitem-id');
+  const popup = document.getElementById('popupitem');
+
   const props = item.displayProperties;
+  iconEl.src = "https://www.bungie.net" + props.icon;
+  nameEl.textContent = props.name;
 
-  document.getElementById('popupitem-icon').src = "https://www.bungie.net" + props.icon;
-  document.getElementById('popupitem-name').textContent = props.name;
-  const rawDescription = props.description;
-  const replacedVars = replaceVariablesInDescription(rawDescription);
-  const formatted = formatDescriptionLayout(replacedVars);
-  document.getElementById('popupitem-description').innerHTML = parseDescription(formatted);
+  const finalDescription = parseKeywords(processDescription(props.description));
+  descEl.innerHTML = finalDescription;
+  idEl.textContent = `ID: ${id}`;
 
-
-
-  document.getElementById('popupitem-id').textContent = `ID: ${id}`;
-
-  document.getElementById('popupitem').classList.add('show');
+  popup.classList.add('show');
   document.body.classList.add('popupitem-open');
 
   const url = new URL(window.location);
   url.searchParams.set('id', id);
   history.replaceState(null, '', url);
 
-  document.getElementById('popupitem').onclick = (e) => {
+  popup.onclick = (e) => {
     if (e.target.id === 'popupitem') closePopupItem();
   };
-
-  // Ajouter l'event listener pour le bouton de partage
-  document.querySelector('.share-btn').addEventListener('click', sharePopupItem);
-
-  // Écouter l'événement "keydown" pour fermer la popup avec la touche Échap
-  document.addEventListener('keydown', handleEscapeKey);
 }
 
-// Ferme la popup et nettoie l'URL
 function closePopupItem() {
-  document.getElementById('popupitem').classList.remove('show');
+  const popup = document.getElementById('popupitem');
+  popup.classList.remove('show');
   document.body.classList.remove('popupitem-open');
 
   const url = new URL(window.location);
   url.searchParams.delete('id');
   history.replaceState(null, '', url);
-
-  // Retirer l'événement "keydown" une fois que la popup est fermée
-  document.removeEventListener('keydown', handleEscapeKey);
-
-  // Retirer l'event listener pour le bouton partager
-  document.querySelector('.share-btn').removeEventListener('click', sharePopupItem);
 }
 
-// Fonction qui gère la touche "Échap"
-function handleEscapeKey(e) {
-  if (e.key === 'Escape') {
-    closePopupItem();
-  }
-}
+// Gestion globale
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closePopupItem();
+});
+
+document.querySelector('.share-btn').addEventListener('click', sharePopupItem, { once: true });
 
 function sharePopupItem() {
   const url = window.location.href;
