@@ -52,7 +52,7 @@ export async function loadItemListPage({
       list.forEach(([id, item], index) => {
         const props = item.displayProperties;
         const card = document.createElement('div');
-        card.className = 'trait-card animate__animated animate__fadeInUp'; // Animation Animate.css
+        card.className = 'card-item animate__animated animate__fadeInUp'; // Animation Animate.css
 
         // Appliquer un délai progressif
         const delay = Math.min(index * 0.05, 3); // Maximum 1s de délai
@@ -62,7 +62,7 @@ export async function loadItemListPage({
         card.title = props.name; // Ici, on ajoute le titre avec le nom de l'item
 
         card.innerHTML = `
-          <img src="https://www.bungie.net${props.icon}" alt="${props.name}" />
+          <img src="https://www.bungie.net${props.icon}" alt="d2glossary - ${props.name}" />
           <div>${props.name}</div>
         `;
         card.onclick = () => openPopupItem(id, item);

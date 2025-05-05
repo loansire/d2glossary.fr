@@ -21,7 +21,7 @@
     <input type="text" id="search" placeholder="Rechercher un type de champion...">
   </div>
 
-  <div class="grid" id="trait-list"></div>
+  <div class="grid" id="card-list"></div>
 
   <div id="popupitem-container"></div>
   <script src="assets/js/popupitem.js"></script>
@@ -31,7 +31,7 @@
     loadItemListPage({
       dataFile: 'data/breaker_definitions.json',
       excludedIds: [],
-      containerId: 'trait-list',
+      containerId: 'card-list',
       inputId: 'search'
     });
   </script>

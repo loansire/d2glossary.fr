@@ -40,7 +40,7 @@
   text-align: center;
   position: relative;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  animation: slideIn 0.3s ease-out;
+  animation: slideIn 0.5s ease-out;
 }
 
 @keyframes slideIn {
@@ -124,4 +124,51 @@
 /* ==== BODY STATE ==== */
 body.popupitem-open {
   overflow: hidden;
+}
+
+.icon-word {
+  white-space: nowrap;
+}
+
+
+/* ==== FIX SPAN ICON ALIGNMENT ==== */
+.void,
+.solar,
+.arc,
+.stasis,
+.strand,
+.barrier,
+.unstoppable,
+.overload,
+.primary,
+.special,
+.heavy,
+.pve,
+.pvp,
+.hunter,
+.titan,
+.warlock {
+  display: inline-block;
+  line-height: 1;
+}
+
+.void::before,
+.solar::before,
+.arc::before,
+.stasis::before,
+.strand::before,
+.barrier::before,
+.unstoppable::before,
+.overload::before,
+.primary::before,
+.special::before,
+.heavy::before,
+.pve::before,
+.pvp::before,
+.hunter::before,
+.titan::before,
+.warlock::before {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
 }

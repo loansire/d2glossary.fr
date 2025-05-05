@@ -91,7 +91,7 @@ h1 {
   margin: 1rem auto;
 }
 
-.trait-card {
+.card-item {
   background-color: #1f1f1f;
   border-radius: 10px;
   padding: 1rem;
@@ -101,11 +101,11 @@ h1 {
   box-shadow: 0 2px 10px rgba(0,0,0,0.4);
 }
 
-.trait-card:hover {
+.card-item:hover {
   transform: scale(1.05);
 }
 
-.trait-card img {
+.card-item img {
   width: 64px;
   height: 64px;
   object-fit: contain;

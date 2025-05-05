@@ -29,8 +29,11 @@ function parseKeywords(text) {
   };
 
   for (const [key, className] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\[${key}\\](\\s)?`, 'g');
-    text = text.replace(regex, `<span class="${className}"></span>&nbsp;`);
+    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'g');
+    text = text.replace(
+      regex,
+      `<span class="icon-word"><span class="${className}"></span>&nbsp;$2</span>`
+    );
   }
   return text;
 }
@@ -44,6 +47,7 @@ function openPopupItem(id, item) {
 
   const props = item.displayProperties;
   iconEl.src = "https://www.bungie.net" + props.icon;
+  iconEl.alt = `d2glossary - ${props.name}`;
   nameEl.textContent = props.name;
 
   const finalDescription = parseKeywords(processDescription(props.description));

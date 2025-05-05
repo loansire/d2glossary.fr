@@ -51,7 +51,7 @@ subfolders.forEach((entry, index) => {
   card.title = entry.name;
 
   card.innerHTML = `
-    <img src="${entry.image}" class="nav-image" alt="${entry.name}">
+    <img src="${entry.image}" class="nav-image" alt="d2glossary - ${entry.name}">
     <div class="nav-content">
       <div class="nav-title">${entry.name}</div>
       <div class="nav-subtitle">${entry.subtitle}</div>

@@ -1,3 +1,5 @@
+/*d2elementstyles.css*/
+
 /* Déclaration des variables de couleurs et polices */
 :root {
     /* Couleurs principales */
@@ -135,7 +137,6 @@
 .unstoppable::before {
     content: '\E072'; /* Unicode pour Unstoppable */
     color: var(--mod-fg-color);
-    vertical-align: -2px;
     font-size: 20px;
 }
 
@@ -143,7 +144,6 @@
 .overload::before {
     content: '\E071'; /* Unicode pour Overload */
     color: var(--mod-fg-color);
-    vertical-align: -2px;
     font-size: 20px;
 }
 
@@ -190,3 +190,4 @@
 .yellow {
     color: var(--exotic-label-color);
 }
+
