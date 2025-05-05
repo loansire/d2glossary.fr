@@ -32,14 +32,31 @@ function replaceVariablesInDescription(description) {
   return description.replace(regex, '25'); // Remplace par "25"
 }
 
+function formatDescriptionLayout(text) {
+  // Ajouter un saut de ligne avant chaque puce
+  text = text.replace(/ ?•/g, '<br>•');
+
+  // Ajouter un saut de ligne après un point suivi d'une majuscule (y compris lettres accentuées), même après plusieurs espaces ou retours à la ligne
+  text = text.replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>');
+
+  // Supprimer les <br> en double
+  text = text.replace(/(<br>\s*){2,}/g, '<br>');
+
+  return text.trim();
+}
 
 function openPopupItem(id, item) {
   const props = item.displayProperties;
 
   document.getElementById('popupitem-icon').src = "https://www.bungie.net" + props.icon;
   document.getElementById('popupitem-name').textContent = props.name;
-  const modifiedDescription = replaceVariablesInDescription(props.description);
-  document.getElementById('popupitem-description').innerHTML = parseDescription(modifiedDescription);
+  const rawDescription = props.description;
+  const replacedVars = replaceVariablesInDescription(rawDescription);
+  const formatted = formatDescriptionLayout(replacedVars);
+  document.getElementById('popupitem-description').innerHTML = parseDescription(formatted);
+
+
+
   document.getElementById('popupitem-id').textContent = `ID: ${id}`;
 
   document.getElementById('popupitem').classList.add('show');
