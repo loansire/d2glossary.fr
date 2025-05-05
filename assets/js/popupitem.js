@@ -29,8 +29,8 @@ function parseKeywords(text) {
   };
 
   for (const [key, className] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\[${key}\\]`, 'g');
-    text = text.replace(regex, `<span class="${className}"></span>`);
+    const regex = new RegExp(`\\[${key}\\](\\s)?`, 'g');
+    text = text.replace(regex, `<span class="${className}"></span>&nbsp;`);
   }
   return text;
 }
