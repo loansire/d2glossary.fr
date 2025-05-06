@@ -2,7 +2,8 @@ export async function loadItemListPage({
   dataFile,
   excludedIds = [],
   containerId,
-  inputId
+  inputId,
+  filterOptions = {}
 }) {
   const container = document.getElementById(containerId);
   const input = document.getElementById(inputId);
@@ -24,14 +25,40 @@ export async function loadItemListPage({
     const data = await res.json();
     const filtered = Object.entries(data).filter(([id, item]) => {
       const props = item.displayProperties;
+
+      const matchesCategoryHash = () => {
+        const filterHash = filterOptions.itemCategoryHash;
+        if (!filterHash) return true;
+        if (!Array.isArray(item.itemCategoryHashes)) return false;
+
+        // Un seul hash à vérifier
+        if (typeof filterHash === 'number') {
+          return item.itemCategoryHashes.includes(filterHash);
+        }
+
+        // Tous les hash du filtre doivent être présents
+        if (Array.isArray(filterHash)) {
+          return filterHash.every(hash => item.itemCategoryHashes.includes(hash));
+        }
+
+        return false;
+      };
+
       return (
         props?.name &&
         props?.description &&
         props?.hasIcon &&
         props?.icon &&
-        !excludedIds.includes(id)
+        !excludedIds.includes(id) &&
+        matchesCategoryHash() &&
+        (filterOptions.itemType === undefined || item.itemType === filterOptions.itemType) &&
+        (filterOptions.itemSubType === undefined || item.itemSubType === filterOptions.itemSubType) &&
+        (filterOptions.classType === undefined || item.classType === filterOptions.classType) &&
+        (filterOptions.breakerType === undefined || item.breakerType === filterOptions.breakerType)
       );
     });
+
+
 
     renderItems(filtered);
 

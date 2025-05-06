@@ -12,10 +12,16 @@ async function loadBanniere() {
 
 const subfolders = [
   {
+    name: "Perks",
+    path: "perk",
+    image: "assets/src/Perks_thumb.jpg",
+    subtitle: "Définition des termes de perks d'armes"
+  },
+  {
     name: "Traits",
     path: "trait",
     image: "assets/src/Traits_thumb.jpg",
-    subtitle: "Définition des termes de doctrines de Destiny 2"
+    subtitle: "Définition des termes de doctrines"
   },
   {
     name: "Champions",
@@ -27,7 +33,7 @@ const subfolders = [
     name: "Dégâts",
     path: "damagetype",
     image: "assets/src/Doctrine_thumb.jpg",
-    subtitle: "Définition des termes de dégâts en jeu"
+    subtitle: "Définition des termes de dégâts"
   },
   {
     name: "Modificateurs",
