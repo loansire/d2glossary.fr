@@ -8,6 +8,70 @@ function processDescription(text) {
     .trim();
 }
 
+function boldPatterns(text) {
+    if (!text) return "";
+    text = text.replace(/[\u200B-\u200D\u2060\uFEFF]/g, '');
+    const pattern = /(\d+(\.\d+)?)([x%])?/g;
+    return text.replace(pattern, '<strong>$&</strong>');
+}
+
+function renderClarityInPopup(item) {
+    const clarityEl = document.getElementById('popupitem-clarity');
+    const claritySeparator = document.getElementById('clarity-separator');
+
+    // Réinitialiser les éléments
+    clarityEl.innerHTML = '';
+
+    // Vérifie si l'élément 'descriptions' existe et contient du contenu
+    if (!item || !item.descriptions || !item.descriptions.en || item.descriptions.en.length === 0) {
+        // Si les données sont vides, cacher le séparateur et la zone de Clarity
+        clarityEl.classList.add('hidden');
+        claritySeparator.classList.add('hidden');
+        return;
+    }
+
+    // Si le contenu existe, afficher les éléments
+    item.descriptions.en.forEach(section => {
+        if (section.linesContent) {
+            const p = document.createElement('p');
+            section.linesContent.forEach(line => {
+                let element;
+
+                if (line.link) {
+                    element = document.createElement('a');
+                    element.href = line.link;
+                    element.target = '_blank';
+                    element.innerHTML = boldPatterns(line.text || "");
+                } else if (line.text) {
+                    element = document.createElement('span');
+                    element.innerHTML = boldPatterns(line.text);
+                } else {
+                    element = document.createElement('span');
+                    element.textContent = "";
+                }
+
+                if (line.classNames) {
+                    line.classNames.forEach(cls => {
+                        element.classList.add(cls);
+                    });
+                }
+
+                p.appendChild(element);
+                p.append(' ');
+            });
+            clarityEl.appendChild(p);
+        } else if (section.classNames && section.classNames.includes('spacer')) {
+            const spacer = document.createElement('div');
+            spacer.style.margin = '1rem 0';
+            clarityEl.appendChild(spacer);
+        }
+    });
+
+    // Afficher les éléments seulement si le contenu est trouvé
+    clarityEl.classList.remove('hidden');
+    claritySeparator.classList.remove('hidden');
+}
+
 function parseKeywords(text) {
   const replacements = {
     'Solaire': 'solar',
@@ -52,6 +116,20 @@ function openPopupItem(id, item) {
 
   const finalDescription = parseKeywords(processDescription(props.description));
   descEl.innerHTML = finalDescription;
+  const clarityEl = document.getElementById('popupitem-clarity');
+  const claritySeparator = document.getElementById('clarity-separator');
+
+  fetch('data/clarity.json')
+      .then(res => res.json())
+      .then(data => {
+          const itemClarity = data[id];
+          renderClarityInPopup(itemClarity);
+      })
+      .catch(err => {
+          console.error('Erreur Clarity JSON:', err);
+          document.getElementById('popupitem-clarity').classList.add('hidden');
+          document.getElementById('clarity-separator').classList.add('hidden');
+      });
   idEl.textContent = `ID: ${id}`;
 
   popup.classList.add('show');
@@ -80,8 +158,6 @@ function closePopupItem() {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closePopupItem();
 });
-
-document.querySelector('.share-btn').addEventListener('click', sharePopupItem, { once: true });
 
 function sharePopupItem() {
   const url = window.location.href;
