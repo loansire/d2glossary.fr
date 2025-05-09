@@ -1,5 +1,4 @@
 import json
-
 import requests
 import os
 import ApiKey as APIKey
@@ -23,6 +22,19 @@ manifestlist = {
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 
+# Fonction pour nettoyer les items avec "hasIcon": false
+def clean_data(data):
+    if isinstance(data, dict):
+        if 'hasIcon' in data and data['hasIcon'] is False:
+            return None  # Supprime cet élément si "hasIcon" est False
+        # Applique récursivement le nettoyage aux sous-éléments
+        for key in data:
+            data[key] = clean_data(data[key])
+    elif isinstance(data, list):
+        # Applique récursivement le nettoyage aux éléments de la liste
+        return [clean_data(item) for item in data]
+    return data
+
 # Étape 1 : Requête pour obtenir le manifeste
 manifest_url = 'https://www.bungie.net/platform/Destiny2/Manifest'
 response = requests.get(manifest_url, headers=HEADERS)
@@ -43,10 +55,12 @@ for definition_key, file_name in manifestlist.items():
         r = requests.get(full_url, headers=HEADERS)
         try:
             data = r.json()
+            # Appliquer le nettoyage avant de sauvegarder
+            cleaned_data = clean_data(data)
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)  # Formate le JSON pour une meilleure lisibilité
+                json.dump(cleaned_data, f, ensure_ascii=False)  # Format compact sans indentation
             print(f"{definition_key} enregistré sous {file_path}.")
         except ValueError:
             print(f"Erreur lors de la conversion en JSON pour {definition_key}. Contenu de la réponse : {r.text[:500]}")
 
-print("Téléchargement terminé.")
+print("Téléchargement et nettoyage terminés.")
