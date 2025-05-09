@@ -55,7 +55,7 @@
   justify-content: flex-start;
   background-color: #1a1a1a;
   padding: 1rem;
-  border-radius: 10px 10px 0 0;
+  border-top-right-radius: 10px;
 }
 
 .header-info {
@@ -134,10 +134,12 @@ body.popupitem-open {
 #popupitem-clarity {
   font-family: "Neue Haas Grotesk Display Pro 55 Roman";
   color: #ddd;
-  opacity: 0.9;
+  opacity: 0.5;
   letter-spacing: 0.06rem;
   text-align: left;
   padding: 1rem;
+  font-style: italic;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 #clarity-separator {

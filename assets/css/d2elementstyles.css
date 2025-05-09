@@ -87,7 +87,7 @@
 .pve::before {
     content: "\0048";
     color: #6A8DFF; /* bleu clair plus vif */
-    text-shadow: 0 0 5px #6A8DFF;
+    text-shadow: 0 0 2px #6A8DFF;
     vertical-align: -5px;
     font-size: 20px;
 }
@@ -96,7 +96,7 @@
 .pvp::before {
     content: "\004a";
     color: #FF5E57; /* rouge clair vif */
-    text-shadow: 0 0 5px #FF5E57;
+    text-shadow: 0 0 2px #FF5E57;
     vertical-align: -5px;
     font-size: 20px;
 }
@@ -191,3 +191,6 @@
     color: var(--exotic-label-color);
 }
 
+a {
+    color: var(--yellow-color);
+}
