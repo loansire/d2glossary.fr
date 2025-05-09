@@ -1,3 +1,5 @@
+import json
+
 import requests
 import os
 import ApiKey as APIKey
@@ -39,10 +41,12 @@ for definition_key, file_name in manifestlist.items():
         file_path = os.path.join(data_dir, f"{file_name}.json")
         print(f"Téléchargement de {definition_key} depuis {full_url}...")
         r = requests.get(full_url, headers=HEADERS)
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(r.text)
-        print(f"{definition_key} enregistré sous {file_path}.")
-    else:
-        print(f"Clé {definition_key} introuvable dans le manifeste français.")
+        try:
+            data = r.json()
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)  # Formate le JSON pour une meilleure lisibilité
+            print(f"{definition_key} enregistré sous {file_path}.")
+        except ValueError:
+            print(f"Erreur lors de la conversion en JSON pour {definition_key}. Contenu de la réponse : {r.text[:500]}")
 
 print("Téléchargement terminé.")
