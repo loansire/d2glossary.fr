@@ -32,16 +32,26 @@ def clean_data(data):
         # Vérifier si 'displayProperties' existe et si 'name' ou 'description' sont vides
         if 'displayProperties' in data:
             if ('name' in data['displayProperties'] and not data['displayProperties']['name']) or \
-               ('description' in data['displayProperties'] and not data['displayProperties']['description']):
+                    ('description' in data['displayProperties'] and not data['displayProperties']['description']):
                 return None  # Supprimer l'élément entier si 'name' ou 'description' sont vides
 
         # Appliquer récursivement le nettoyage aux sous-éléments
-        for key in data:
-            data[key] = clean_data(data[key])
+        # On doit supprimer les clés qui sont None ou qui ont été marquées pour suppression
+        keys_to_remove = []
+        for key, value in data.items():
+            cleaned_value = clean_data(value)
+            if cleaned_value is None:
+                keys_to_remove.append(key)  # Marquer la clé pour suppression
+            else:
+                data[key] = cleaned_value
+
+        # Supprimer les clés marquées
+        for key in keys_to_remove:
+            del data[key]
 
     elif isinstance(data, list):
         # Applique récursivement le nettoyage aux éléments de la liste
-        return [clean_data(item) for item in data]
+        return [clean_data(item) for item in data if clean_data(item) is not None]
 
     return data
 
