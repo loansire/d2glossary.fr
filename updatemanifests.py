@@ -25,14 +25,24 @@ os.makedirs(data_dir, exist_ok=True)
 # Fonction pour nettoyer les items avec "hasIcon": false
 def clean_data(data):
     if isinstance(data, dict):
+        # Vérifier et supprimer l'élément si 'hasIcon' est False
         if 'hasIcon' in data and data['hasIcon'] is False:
-            return None  # Supprime cet élément si "hasIcon" est False
-        # Applique récursivement le nettoyage aux sous-éléments
+            return None
+
+        # Vérifier si 'displayProperties' existe et si 'name' ou 'description' sont vides
+        if 'displayProperties' in data:
+            if ('name' in data['displayProperties'] and not data['displayProperties']['name']) or \
+               ('description' in data['displayProperties'] and not data['displayProperties']['description']):
+                return None  # Supprimer l'élément entier si 'name' ou 'description' sont vides
+
+        # Appliquer récursivement le nettoyage aux sous-éléments
         for key in data:
             data[key] = clean_data(data[key])
+
     elif isinstance(data, list):
         # Applique récursivement le nettoyage aux éléments de la liste
         return [clean_data(item) for item in data]
+
     return data
 
 # Étape 1 : Requête pour obtenir le manifeste
