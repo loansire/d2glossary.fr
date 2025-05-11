@@ -58,14 +58,14 @@ export async function loadItemListPage({
       );
     });
 
-
-
+    // Appeler la fonction pour rendre les éléments filtrés
     renderItems(filtered);
 
     const urlParams = new URLSearchParams(window.location.search);
     const itemId = urlParams.get('id');
     if (itemId && data[itemId]) openPopupItem(itemId, data[itemId]);
 
+    // Ajouter l'écouteur pour la recherche
     input?.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase();
       const filteredResults = filtered.filter(([_, item]) =>
@@ -74,15 +74,19 @@ export async function loadItemListPage({
       renderItems(filteredResults);
     });
 
+    // Fonction pour afficher les éléments
     function renderItems(list) {
+      // Mélange des éléments
+      const shuffledList = list.sort(() => Math.random() - 0.5); // Mélange aléatoire
+
       container.innerHTML = '';
-      list.forEach(([id, item], index) => {
+      shuffledList.forEach(([id, item], index) => {
         const props = item.displayProperties;
         const card = document.createElement('div');
         card.className = 'card-item animate__animated animate__fadeInUp'; // Animation Animate.css
 
         // Appliquer un délai progressif
-        const delay = Math.min(index * 0.05, 3); // Maximum 1s de délai
+        const delay = Math.min(index * 0.05, 3); // Maximum 3s de délai
         card.style.animationDelay = `${delay}s`;
 
         // Ajouter le titre avec le nom de l'item
