@@ -7,6 +7,8 @@ export async function loadItemListPage({
 }) {
   const container = document.getElementById(containerId);
   const input = document.getElementById(inputId);
+  const resultCount = document.getElementById('result-count');
+    const clearButton = document.getElementById('clear-button');
   const popupContainer = document.getElementById('popupitem-container');
   const banniereContainer = document.getElementById('banniere-container');
 
@@ -31,12 +33,10 @@ export async function loadItemListPage({
         if (!filterHash) return true;
         if (!Array.isArray(item.itemCategoryHashes)) return false;
 
-        // Un seul hash à vérifier
         if (typeof filterHash === 'number') {
           return item.itemCategoryHashes.includes(filterHash);
         }
 
-        // Tous les hash du filtre doivent être présents
         if (Array.isArray(filterHash)) {
           return filterHash.every(hash => item.itemCategoryHashes.includes(hash));
         }
@@ -47,8 +47,7 @@ export async function loadItemListPage({
       return (
         props?.name &&
         props?.description &&
-        props?.hasIcon &&
-        props?.icon &&
+        props?.icon &&  // Retirer la vérification de hasIcon ici
         !excludedIds.includes(id) &&
         matchesCategoryHash() &&
         (filterOptions.itemType === undefined || item.itemType === filterOptions.itemType) &&
@@ -57,6 +56,9 @@ export async function loadItemListPage({
         (filterOptions.breakerType === undefined || item.breakerType === filterOptions.breakerType)
       );
     });
+
+    // Display total number of results on initial page load
+    updateResultCount(filtered);
 
     // Appeler la fonction pour rendre les éléments filtrés
     renderItems(filtered);
@@ -71,7 +73,23 @@ export async function loadItemListPage({
       const filteredResults = filtered.filter(([_, item]) =>
         item.displayProperties.name.toLowerCase().includes(query)
       );
+      updateResultCount(filteredResults); // Update result count on search
       renderItems(filteredResults);
+
+      // Afficher ou masquer le bouton clear
+      if (e.target.value) {
+        clearButton.style.display = 'block'; // Afficher le bouton clear
+      } else {
+        clearButton.style.display = 'none'; // Cacher le bouton clear
+      }
+    });
+
+    // Ajouter un gestionnaire d'événement pour effacer l'input
+    clearButton?.addEventListener('click', () => {
+      input.value = '';  // Effacer le texte
+      clearButton.style.display = 'none';  // Cacher le bouton clear
+      updateResultCount(filtered);  // Réinitialiser le comptage des résultats
+      renderItems(filtered);  // Réafficher les éléments
     });
 
     // Fonction pour afficher les éléments
@@ -85,12 +103,10 @@ export async function loadItemListPage({
         const card = document.createElement('div');
         card.className = 'card-item animate__animated animate__fadeInUp'; // Animation Animate.css
 
-        // Appliquer un délai progressif
         const delay = Math.min(index * 0.05, 3); // Maximum 3s de délai
         card.style.animationDelay = `${delay}s`;
 
-        // Ajouter le titre avec le nom de l'item
-        card.title = props.name; // Ici, on ajoute le titre avec le nom de l'item
+        card.title = props.name;
 
         card.innerHTML = `
           <img src="https://www.bungie.net${props.icon}" alt="d2glossary - ${props.name}" />
@@ -99,6 +115,11 @@ export async function loadItemListPage({
         card.onclick = () => openPopupItem(id, item);
         container.appendChild(card);
       });
+    }
+
+    // Function to update the result count
+    function updateResultCount(list) {
+      resultCount.textContent = `Résultats trouvés: ${list.length}`;
     }
 
   } catch (err) {

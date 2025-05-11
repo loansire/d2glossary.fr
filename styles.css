@@ -69,19 +69,50 @@ h1 {
 }
 
 .search-box {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligner tout à gauche pour éviter que tout soit centré */
   margin-bottom: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px; /* Largeur maximale de .search-box */
+  width: 100%; /* Occupe toute la largeur disponible */
+  margin: 0 auto; /* Centrer le conteneur horizontalement */
+}
+
+.input-container {
+  position: relative; /* Conteneur relatif pour positionner le bouton clear à l'intérieur de l'input */
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* L'input-container prend tout l'espace restant sauf celui occupé par #result-count */
 }
 
 .search-box input {
   padding: 0.5rem;
-  width: 90%;
+  width: 100%; /* L'input prend toute la largeur de l'input-container */
+  max-width: none; /* Annuler la largeur maximale sur l'input pour qu'il prenne toute la place dans le conteneur */
   border-radius: 6px;
   border: none;
   font-size: 1rem;
+  padding-right: 2.5rem; /* Faire de la place pour l'icône de suppression */
 }
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #aaa;
+  display: none; /* Initialement masqué */
+}
+
+#result-count {
+  margin-left: 1rem;
+  font-size: 1rem;
+  white-space: nowrap; /* Empêche le texte de se diviser sur plusieurs lignes */
+  display: inline-block; /* Empêche qu'il occupe toute la largeur */
+}
+
 
 .grid {
   display: grid;

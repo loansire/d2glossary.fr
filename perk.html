@@ -38,7 +38,11 @@
   <div id="banniere-container"></div>
 
   <div class="search-box">
-    <input type="text" id="search" placeholder="Rechercher un type d'un perk d'arme...">
+    <div class="input-container">
+      <input type="text" id="search" placeholder="Rechercher une perk d'arme...">
+      <button id="clear-button" class="clear-button" aria-label="Clear">✖</button>
+    </div>
+    <div id="result-count"></div>
   </div>
 
   <div class="grid" id="card-list"></div>
