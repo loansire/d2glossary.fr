@@ -93,6 +93,7 @@ h1 {
   border: none;
   font-size: 1rem;
   padding-right: 2.5rem; /* Faire de la place pour l'icône de suppression */
+  box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur totale */
 }
 
 .clear-button {
@@ -104,6 +105,9 @@ h1 {
   cursor: pointer;
   color: #aaa;
   display: none; /* Initialement masqué */
+  width: 20px; /* Fixer la largeur du bouton pour éviter qu'il ne se redimensionne */
+  height: 20px; /* Fixer la hauteur du bouton pour éviter tout redimensionnement */
+  line-height: 20px; /* Centrer le "X" verticalement */
 }
 
 #result-count {
