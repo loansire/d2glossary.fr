@@ -36,7 +36,7 @@
   border-radius: 15px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  max-width: 620px;
+  max-width: 520px;
   width: 90%;
   text-align: center;
   position: relative;
@@ -63,7 +63,6 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-right: 60px;
 }
 
 #popupitem-icon {
@@ -102,8 +101,8 @@
 /* ==== BUTTONS ==== */
 .popupitem-buttons {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: -2rem;
+  right: 0rem;
   display: flex;
 }
 
