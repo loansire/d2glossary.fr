@@ -164,3 +164,13 @@ function sharePopupItem() {
   navigator.clipboard.writeText(url);
   alert("Lien copié dans le presse-papier :\n" + url);
 }
+
+function copyDiscordMarkdown() {
+  const name = document.getElementById('popupitem-name').textContent.trim();
+  const url = window.location.href;
+  const markdown = `[${name}](<${url}>)`;
+  navigator.clipboard.writeText(markdown)
+    .then(() => alert("Lien Discord copié dans le presse-papier:\n" + markdown))
+    .catch(err => alert("Erreur lors de la copie : " + err));
+}
+
