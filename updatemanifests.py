@@ -25,18 +25,16 @@ os.makedirs(data_dir, exist_ok=True)
 # Fonction pour nettoyer les items avec "hasIcon": false
 def clean_data(data):
     if isinstance(data, dict):
-        # Vérifier et supprimer l'élément si 'hasIcon' est False
-        if 'hasIcon' in data and data['hasIcon'] is False:
-            return None
-
-        # Vérifier si 'displayProperties' existe et si 'name' ou 'description' sont vides
+        # Vérifier et supprimer l'élément si 'hasIcon' est False dans 'displayProperties'
+        # ou si 'name' ou 'description' sont vides
         if 'displayProperties' in data:
-            if ('name' in data['displayProperties'] and not data['displayProperties']['name']) or \
-                    ('description' in data['displayProperties'] and not data['displayProperties']['description']):
-                return None  # Supprimer l'élément entier si 'name' ou 'description' sont vides
+            display_props = data['displayProperties']
+            if ('hasIcon' in display_props and display_props['hasIcon'] is False) or \
+               ('name' in display_props and not display_props['name']) or \
+               ('description' in display_props and not display_props['description']):
+                return None
 
         # Appliquer récursivement le nettoyage aux sous-éléments
-        # On doit supprimer les clés qui sont None ou qui ont été marquées pour suppression
         keys_to_remove = []
         for key, value in data.items():
             cleaned_value = clean_data(value)
