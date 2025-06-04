@@ -1765,7 +1765,7 @@
  "95528736": {
   "hash": 95528736,
   "name": "Onslaught",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748096928214,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -1790,7 +1790,7 @@
     {
      "linesContent": [
       {
-       "text": "• 16% | 28% | 37% decreased Firing Delay"
+       "text": "• 16.7% | 28.6% | 37.5% decreased Firing Delay"
       }
      ]
     },
@@ -1987,7 +1987,7 @@
   "name": "The Dance",
   "itemHash": 1702288800,
   "itemName": "Radiant Dance Machines",
-  "lastUpload": 1739485788981,
+  "lastUpload": 1748244523030,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -2011,7 +2011,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants the followng benefits while a "
+       "text": "Grants the following benefits while a "
       },
       {
        "classNames": [ "primary" ]
@@ -2121,7 +2121,7 @@
  "120721526": {
   "hash": 120721526,
   "name": "Runneth Over",
-  "lastUpload": 1739032704660,
+  "lastUpload": 1746913518852,
   "type": "Weapon Trait Origin",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -2136,7 +2136,7 @@
     {
      "linesContent": [
       {
-       "text": "• Finishing a reload overfills the Magazine from reserves by 10% of the Base Magazine Capacity (rounded up) for each ally. Maximum of a 50% overfill."
+       "text": "• Finishing a reload overfills the Magazine from reserves by 10% of the Base Magazine Capacity (rounded up) for each ally"
       }
      ]
     },
@@ -3234,7 +3234,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " weapon-matching elemental damage in a 4.5 meter radius."
+       "text": " weapon-matching elemental damage in a 4.5-meter radius."
       }
      ]
     },
@@ -4457,7 +4457,7 @@
     {
      "linesContent": [
       {
-       "text": "Passively grants 30 Magazine Size stat. (Identical to Extended Mag)"
+       "text": "Passively grants 30 Magazine Size stat. (Identical to a Backup Mag mod)"
       }
      ]
     },
@@ -4484,7 +4484,7 @@
     {
      "linesContent": [
       {
-       "text": "Explosions inherit the weapon's "
+       "text": "Explosions inherit the weapon's element and "
       },
       {
        "text": "Combatant Damage Scaling",
@@ -4492,7 +4492,7 @@
        "classNames": [ "link" ]
       },
       {
-       "text": " and deal 30% increased damage if triggered with a Linear Fusion Rifle."
+       "text": ". Explosions triggered with Linear Fusion Rifle kills deal an additional 30% increased damage."
       }
      ]
     },
@@ -5946,7 +5946,7 @@
  "365154968": {
   "hash": 365154968,
   "name": "Target Lock",
-  "lastUpload": 1738687242983,
+  "lastUpload": 1748277860890,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -5954,7 +5954,7 @@
     {
      "linesContent": [
       {
-       "text": "Successive Hits within 0.2 seconds of each grant a ramping Damage Buff after scoring 12.5% of the Magazine Capacity as hits (20% on SMGs). Missing deactivates the buff."
+       "text": "Successive Hits within 0.2 seconds of each grant a ramping Damage Buff after scoring 12.5% of the Magazine Capacity as hits. Missing deactivates the buff."
       }
      ]
     },
@@ -8400,7 +8400,7 @@
  "531057500": {
   "hash": 531057500,
   "name": "Lucent Blades",
-  "lastUpload": 1745179110048,
+  "lastUpload": 1748277860890,
   "stats": {
    "Guard Charge Rate": [
     {
@@ -10189,7 +10189,7 @@
     {
      "linesContent": [
       {
-       "text": "Kills while the perk active add "
+       "text": "Kills while the perk is active add "
       },
       {
        "text": "🡅",
@@ -13031,7 +13031,7 @@
  "830282363": {
   "hash": 830282363,
   "name": "Phase Magazine",
-  "lastUpload": 1738687242983,
+  "lastUpload": 1748096928214,
   "type": "Weapon Perk",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -13039,7 +13039,17 @@
     {
      "linesContent": [
       {
-       "text": "Sets the Submachine Gun's damage and Magazine profile to that of a Precision Frame."
+       "text": "Sets the Submachine Gun's damage and magazine profile to that of a Precision Frame."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Does not grant Precision Frame intrinsic benefits."
       }
      ]
     }
@@ -15154,7 +15164,7 @@
     {
      "linesContent": [
       {
-       "text": "• 16% | 28% | 37% decreased Firing Delay"
+       "text": "• 16.7% | 28.6% | 37.5% decreased Firing Delay"
       }
      ]
     },
@@ -20066,7 +20076,7 @@
   "name": "Starless Night",
   "itemHash": 106575079,
   "itemName": "Helm of Saint-14",
-  "lastUpload": 1717539628564,
+  "lastUpload": 1748244523030,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -20098,7 +20108,7 @@
     {
      "linesContent": [
       {
-       "text": "You and allies inside your Ward of Dawn receive Starless Night and Weapons of Light. Enemies that enter your Ward of Dawn are disoriented for 5 seconds."
+       "text": "You and allies inside your Ward of Dawn receive 'Armor of Light' and 'Weapons of Light'. Enemies that enter your Ward of Dawn are disoriented for 5 seconds."
       }
      ]
     },
@@ -20108,7 +20118,7 @@
     {
      "linesContent": [
       {
-       "text": "Starless Night grants a 45 HP "
+       "text": "'Armor of Light' grants a 45 HP "
       },
       {
        "classNames": [ "void" ]
@@ -20130,7 +20140,7 @@
     {
      "linesContent": [
       {
-       "text": "Weapons of Light grants 25% increased weapon damage ("
+       "text": "'Weapons of Light' grants 25% increased weapon damage ("
       },
       {
        "text": "Empowering Buff",
@@ -21112,7 +21122,7 @@
  "1427256713": {
   "hash": 1427256713,
   "name": "Reservoir Burst",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748096928214,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -21120,7 +21130,7 @@
     {
      "linesContent": [
       {
-       "text": "Passively grants 30 Magazine Size stat. (Identical to Extended Mag)"
+       "text": "Passively grants 30 Magazine Size stat. (Identical to a Backup Mag mod)"
       }
      ]
     },
@@ -21147,7 +21157,7 @@
     {
      "linesContent": [
       {
-       "text": "Explosions inherit the weapon's "
+       "text": "Explosions inherit the weapon's element and "
       },
       {
        "text": "Combatant Damage Scaling",
@@ -21155,7 +21165,7 @@
        "classNames": [ "link" ]
       },
       {
-       "text": " and deal 30% increased damage if triggered with a Linear Fusion Rifle."
+       "text": ". Explosions triggered with Linear Fusion Rifle kills deal an additional 30% increased damage."
       }
      ]
     }
@@ -23781,7 +23791,7 @@
  "1607056502": {
   "hash": 1607056502,
   "name": "Hakke Breach Armaments",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748244523030,
   "type": "Weapon Trait Origin",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -23799,7 +23809,7 @@
        "text": "• "
       },
       {
-       "text": "Vehicles",
+       "text": "Vehicles and Automatons",
        "link": "https://url.d2clarity.com/combatants",
        "classNames": [ "link" ]
       },
@@ -23814,7 +23824,7 @@
        "text": "• "
       },
       {
-       "text": "Constructs",
+       "text": "Turrets, Sentries, and Emplacements",
        "link": "https://url.d2clarity.com/combatants",
        "classNames": [ "link" ]
       },
@@ -33143,7 +33153,7 @@
     {
      "linesContent": [
       {
-       "text": "Firing the weapon comsumes 1 Stack per Shot, granting increased damage and setting Blast Radius to 100."
+       "text": "Firing the weapon comsumes 1 Stack per Shot, granting increased damage and 100 Blast Radius."
       }
      ]
     },
@@ -33163,7 +33173,14 @@
     {
      "linesContent": [
       {
-       "text": "Rocket Launchers: 25% increased Impact and Explosive damage. (No effect on Wolfpack Rounds)"
+       "text": "Rocket Launchers: 25% increased Impact and Explosive damage. (Does not affect "
+      },
+      {
+       "text": "Wolfpack Rounds",
+       "classNames": [ "yellow" ]
+      },
+      {
+       "text": ")"
       }
      ]
     },
@@ -38743,7 +38760,7 @@
  "2652708987": {
   "hash": 2652708987,
   "name": "Successful Warm-Up",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748244523030,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38761,7 +38778,7 @@
     {
      "linesContent": [
       {
-       "text": "Kills while the perk active add 4 seconds to the duration up to a maximum of 20 seconds."
+       "text": "Kills while the perk is active add 4 seconds to the duration up to a maximum of 20 seconds."
       }
      ]
     },
@@ -39106,7 +39123,7 @@
   "name": "Relentless Tracker",
   "itemHash": 896224899,
   "itemName": "Foetracer",
-  "lastUpload": 1738687242983,
+  "lastUpload": 1748244829768,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -39114,7 +39131,7 @@
     {
      "linesContent": [
       {
-       "text": "Dealing Ability Damage to an "
+       "text": "Dealing Ability damage to an "
       },
       {
        "text": "Elite, Miniboss, Boss, or Player",
@@ -39122,17 +39139,17 @@
        "classNames": [ "link" ]
       },
       {
-       "text": " target highlights them and grants 4 Stacks of Weapon Surge matching the element of the used ability for "
+       "text": " target highlights them for 10 seconds and grants 4 Stacks of Weapon Surge matching the element of the used ability for "
       },
       {
-       "text": "15",
+       "text": "16",
        "classNames": [ "pve" ]
       },
       {
        "text": " "
       },
       {
-       "text": "[6]",
+       "text": "[11]",
        "classNames": [ "pvp" ]
       },
       {
@@ -39146,13 +39163,7 @@
     {
      "linesContent": [
       {
-       "text": "Weapon Surge duration is not refreshable. Currently does not work with "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Solar abilities."
+       "text": "Highlight duration is not refreshable. Dealing Ability damage to already highlighted targets does not grant you the Weapon Surge benefit."
       }
      ]
     },
@@ -42617,7 +42628,7 @@
  "2848615171": {
   "hash": 2848615171,
   "name": "Dragonfly",
-  "lastUpload": 1738687242983,
+  "lastUpload": 1748244523030,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -42639,7 +42650,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " weapon-matching elemental damage in a 4.5 meter radius."
+       "text": " weapon-matching elemental damage in a 4.5-meter radius."
       }
      ]
     },
@@ -44014,7 +44025,7 @@
     {
      "linesContent": [
       {
-       "text": "Successive Hits within 0.2 seconds of each grant a ramping Damage Buff after scoring 12.5% of the Magazine Capacity as hits (20% on SMGs). Missing deactivates the buff."
+       "text": "Successive Hits within 0.2 seconds of each grant a ramping Damage Buff after scoring 12.5% of the Magazine Capacity as hits. Missing deactivates the buff."
       }
      ]
     },
@@ -44830,7 +44841,7 @@
  "2988596335": {
   "hash": 2988596335,
   "name": "Alacrity",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748096928214,
   "type": "Weapon Trait Origin",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -44838,7 +44849,31 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20 Range, 20 Stability, 50 Reload Speed, and 10 Aim Assist while Last Guardian Standing or Solo."
+       "text": "While 1 teammate is currently dead:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Grants ? Range, ? Stability, ? Reload Speed, and ? Aim Assist."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "While Solo or 2+ teammates are currently dead:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Grants 20 Range, 20 Stability, 50 Reload Speed, and 10 Aim Assist."
       }
      ]
     },
@@ -45330,7 +45365,7 @@
  "3032599245": {
   "hash": 3032599245,
   "name": "Disorienting Grenades",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1748096928214,
   "type": "Weapon Perk",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -45348,15 +45383,22 @@
     {
      "linesContent": [
       {
-       "text": "Enemies within ? meters of the explosion are disoriented for 4.5 seconds. "
-      },
+       "text": "Enemies within ? meters of the explosion are disoriented for 4.5 seconds. Disorient radius cannot be increased using other perks."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
       {
        "text": "Champions and Bosses",
        "link": "https://url.d2clarity.com/combatants",
        "classNames": [ "link" ]
       },
       {
-       "text": " are unaffected."
+       "text": " are unaffected by Disorient."
       }
      ]
     },
@@ -47151,7 +47193,7 @@
  "3194351027": {
   "hash": 3194351027,
   "name": "Explosive Light",
-  "lastUpload": 1743183422022,
+  "lastUpload": 1748244523030,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -47169,7 +47211,7 @@
     {
      "linesContent": [
       {
-       "text": "Firing the weapon comsumes 1 Stack per Shot, granting increased damage and setting Blast Radius to 100."
+       "text": "Firing the weapon comsumes 1 Stack per Shot, granting increased damage and 100 Blast Radius."
       }
      ]
     },
@@ -47189,7 +47231,14 @@
     {
      "linesContent": [
       {
-       "text": "Rocket Launchers: 25% increased Impact and Explosive damage. (No effect on Wolfpack Rounds)"
+       "text": "Rocket Launchers: 25% increased Impact and Explosive damage. (Does not affect "
+      },
+      {
+       "text": "Wolfpack Rounds",
+       "classNames": [ "yellow" ]
+      },
+      {
+       "text": ")"
       }
      ]
     }
@@ -51596,26 +51645,6 @@
      "linesContent": [
       {
        "text": "Stack acquisition progress doesn't reset upon gaining a Stack, all progress is kept until reaching 600% (max Stacks)."
-      }
-     ]
-    }
-   ]
-  }
- },
- "3504197951": {
-  "hash": 3504197951,
-  "name": "Unforeseen Repercussions",
-  "itemHash": 2069224589,
-  "itemName": "One Thousand Voices",
-  "lastUpload": 1675798177540,
-  "type": "Weapon Trait Exotic",
-  "uploadedBy": "Stardust",
-  "descriptions": {
-   "en": [
-    {
-     "linesContent": [
-      {
-       "text": "This weapon's beam superheats its targets upon impact, causing delayed explosions."
       }
      ]
     }
@@ -56228,7 +56257,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " weapon-matching elemental damage in a 4.5 meter radius."
+       "text": " weapon-matching elemental damage in a 4.5-meter radius."
       }
      ]
     },
