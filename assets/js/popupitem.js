@@ -30,13 +30,30 @@ function renderClarityInPopup(item) {
         return;
     }
 
+    // Ajouter l'en-tête avec le texte et le lien vers D2Clarity
+    const header = document.createElement('div');
+    header.style.display = 'flex';
+    header.style.alignItems = 'center';
+    header.style.marginBottom = '1rem';
+    header.style.color = '#aaa';
+    header.innerHTML = `
+        <p style="margin: 0;">
+            Informations délivrées par
+            <a href="https://www.d2clarity.com" target="_blank" style="display: inline-flex; align-items: center; vertical-align: middle;">
+                <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity Logo" style="height: 25px; width: 25px; margin: 0 0.1rem;">
+                D2Clarity
+            </a>
+            (Anglais uniquement)
+        </p>
+    `;
+    clarityEl.appendChild(header);
+
     // Si le contenu existe, afficher les éléments
     item.descriptions.en.forEach(section => {
         if (section.linesContent) {
             const p = document.createElement('p');
             section.linesContent.forEach(line => {
                 let element;
-
                 if (line.link) {
                     element = document.createElement('a');
                     element.href = line.link;
@@ -49,13 +66,11 @@ function renderClarityInPopup(item) {
                     element = document.createElement('span');
                     element.textContent = "";
                 }
-
                 if (line.classNames) {
                     line.classNames.forEach(cls => {
                         element.classList.add(cls);
                     });
                 }
-
                 p.appendChild(element);
                 p.append(' ');
             });
