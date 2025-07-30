@@ -1,10 +1,11 @@
 import json
 import requests
 import os
-import ApiKey as APIKey
+
+from Scripts import ApiKey
 
 # Clé API de Bungie à insérer ici (nécessaire pour les requêtes)
-API_KEY = APIKey.bungie_api
+API_KEY = ApiKey.bungie_api
 HEADERS = {
     'X-API-Key': API_KEY
 }
@@ -19,7 +20,7 @@ manifestlist = {
 }
 
 # Dossier de destination
-data_dir = 'data'
+data_dir = '../data'
 os.makedirs(data_dir, exist_ok=True)
 
 # Fonction pour nettoyer les items avec "hasIcon": false
@@ -30,8 +31,7 @@ def clean_data(data):
         if 'displayProperties' in data:
             display_props = data['displayProperties']
             if ('hasIcon' in display_props and display_props['hasIcon'] is False) or \
-               ('name' in display_props and not display_props['name']) or \
-               ('description' in display_props and not display_props['description']):
+               ('name' in display_props and not display_props['name']):
                 return None
 
         # Appliquer récursivement le nettoyage aux sous-éléments
