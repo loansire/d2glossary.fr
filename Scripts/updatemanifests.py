@@ -2,10 +2,8 @@ import json
 import requests
 import os
 
-from Scripts import ApiKey
-
 # Clé API de Bungie à insérer ici (nécessaire pour les requêtes)
-API_KEY = ApiKey.bungie_api
+API_KEY = 'votre_clé_api'
 HEADERS = {
     'X-API-Key': API_KEY
 }
@@ -23,9 +21,24 @@ manifestlist = {
 data_dir = '../data'
 os.makedirs(data_dir, exist_ok=True)
 
-# Fonction pour nettoyer les items avec "hasIcon": false
+# Liste des clés à exclure
+keys_to_exclude = ["uiItemDisplayStyle", "displaySource", "action", "equippingBlock",
+                   "translationBlock", "preview", "quality", "acquireRewardSiteHash",
+                   "acquireUnlockHash", "doesPostmasterPullHaveSideEffects", "nonTransferrable",
+                   "tooltipNotifications", "backgroundColor", "crafting",
+                   "stats", "investmentStats", "allowActions",
+                   "nonTransferrable", "isWrapper", "equippable",
+                   "traitIds", "traitHashes", "index",
+                   "redacted", "blacklisted"
+                   ]
+
 def clean_data(data):
     if isinstance(data, dict):
+        # Supprimer les clés indésirables
+        for key in keys_to_exclude:
+            if key in data:
+                del data[key]
+
         # Vérifier et supprimer l'élément si 'hasIcon' est False dans 'displayProperties'
         # ou si 'name' ou 'description' sont vides
         if 'displayProperties' in data:
@@ -48,7 +61,7 @@ def clean_data(data):
             del data[key]
 
     elif isinstance(data, list):
-        # Applique récursivement le nettoyage aux éléments de la liste
+        # Appliquer récursivement le nettoyage aux éléments de la liste
         return [clean_data(item) for item in data if clean_data(item) is not None]
 
     return data
@@ -76,7 +89,7 @@ for definition_key, file_name in manifestlist.items():
             # Appliquer le nettoyage avant de sauvegarder
             cleaned_data = clean_data(data)
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(cleaned_data, f, ensure_ascii=False)  # Format compact sans indentation
+                json.dump(cleaned_data, f, ensure_ascii=False)
             print(f"{definition_key} enregistré sous {file_path}.")
         except ValueError:
             print(f"Erreur lors de la conversion en JSON pour {definition_key}. Contenu de la réponse : {r.text[:500]}")
