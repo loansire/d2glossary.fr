@@ -2,10 +2,10 @@ import json
 import requests
 import os
 
-# Clé API de Bungie à insérer ici (nécessaire pour les requêtes)
-API_KEY = 'votre_clé_api'
+from Scripts.ApiKey import bungie_api
+
 HEADERS = {
-    'X-API-Key': API_KEY
+    'X-API-Key': bungie_api
 }
 
 # Liste des définitions à télécharger
