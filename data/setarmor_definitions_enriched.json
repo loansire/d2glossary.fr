@@ -1,0 +1,850 @@
+{
+  "1223381128": {
+    "displayProperties": {
+      "description": "",
+      "name": "Renouvellement d'AÏON",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 94775422,
+        "name": "Poings du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/e9593ee50c0adc61bfc1491cf65c6b9b.jpg"
+      },
+      {
+        "hash": 3389206211,
+        "name": "Cape du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/579f990d360d19ca7c4da85540299e03.jpg"
+      },
+      {
+        "hash": 3218422834,
+        "name": "Veste du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/845c213ddbb34fb6400180e323c97160.jpg"
+      },
+      {
+        "hash": 1021364471,
+        "name": "Masque du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/e85da3e53cd3aaa3e8b5ed885874ba6b.jpg"
+      },
+      {
+        "hash": 938718424,
+        "name": "Foulées du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/5cc760b75234a3a356be077ad96b86dc.jpg"
+      },
+      {
+        "hash": 1148225208,
+        "name": "Gantelets du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/a331ccdfe39e3dba1ccd4daf8605e36c.jpg"
+      },
+      {
+        "hash": 3070333453,
+        "name": "Fanion du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/015ca40516c62af1ccf9ad5b4a43436b.jpg"
+      },
+      {
+        "hash": 3718617552,
+        "name": "Plate du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/498d0484023e7757eceea2e01cbc5340.jpg"
+      },
+      {
+        "hash": 351882401,
+        "name": "Heaume du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/eb51d5401d0856e771f7d46fd6e1ca1f.jpg"
+      },
+      {
+        "hash": 3478460146,
+        "name": "Grèves du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/8c3e84b9ca9b8ec01098c9921a17a486.jpg"
+      },
+      {
+        "hash": 3406093957,
+        "name": "Gants du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/90ceab734ff0b0e84dc3077070993917.jpg"
+      },
+      {
+        "hash": 1643127154,
+        "name": "Brassard du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/82e8c67b0ae5d4c4e606f8e583e9eb9b.jpg"
+      },
+      {
+        "hash": 2903426907,
+        "name": "Robe du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/1a4d474452ecfa96ff1e7122c20a1c40.jpg"
+      },
+      {
+        "hash": 4251796172,
+        "name": "Coiffe du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/45c0fa60c25febbb78af4d9eca084cf8.jpg"
+      },
+      {
+        "hash": 3328966151,
+        "name": "Bottes du renouvellement d'AÏON",
+        "icon": "/common/destiny2_content/icons/895312dce26e510001e1fc432e8e6d99.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 2140508055,
+        "displayProperties": {
+          "name": "Convertisseur de force",
+          "description": "Après un frag avec un lance-roquettes ou un lance-grenades, sprintez pendant un court moment pour obtenir un boost de vitesse.",
+          "icon": "/common/destiny2_content/icons/005db44d00a46515888db51ffd60f1bd.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 2140508054,
+        "displayProperties": {
+          "name": "Amplificateur réactif",
+          "description": "Une fois par activation de Convertisseur de force, sprinter avec une santé très basse, être suspendu ou être ralenti par un effet stasique confère immédiatement un boost de vitesse pendant une courte durée.",
+          "icon": "/common/destiny2_content/icons/609405930d800a057c5e6eef3edac14e.png"
+        }
+      }
+    ],
+    "hash": 1223381128
+  },
+  "894715166": {
+    "displayProperties": {
+      "description": "",
+      "name": "Adaptateur d'AÏON",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 1629686472,
+        "name": "Poings de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/9afb304fc5255e32212e0b792897abf2.jpg"
+      },
+      {
+        "hash": 2725736573,
+        "name": "Cape de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/7997f09582d5d50c50fd0e2a166401ab.jpg"
+      },
+      {
+        "hash": 3798581184,
+        "name": "Veste de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/b14ebd7288d827c5b45d517eb6b6e720.jpg"
+      },
+      {
+        "hash": 3013134961,
+        "name": "Masque de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/53dda5883a6e5e340c5313eb80ffda68.jpg"
+      },
+      {
+        "hash": 2306671522,
+        "name": "Poings de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/e917eae496769b9c5d9634a2f1708c8f.jpg"
+      },
+      {
+        "hash": 1764010530,
+        "name": "Gantelets de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/8e91ecbf1520b4b58a22ab9bb0f98744.jpg"
+      },
+      {
+        "hash": 3374948591,
+        "name": "Fanion de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/d8693a3cca0af1c5a3995f4e1069066a.jpg"
+      },
+      {
+        "hash": 2632499718,
+        "name": "Plate de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/f5a2af2fe664db99c673fbc053656246.jpg"
+      },
+      {
+        "hash": 4271003923,
+        "name": "Heaume de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/f77b2802da61b9eaf08adb8795a970e3.jpg"
+      },
+      {
+        "hash": 4274190428,
+        "name": "Grèves de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/84a4ff81373c5301f9e578ede1efe530.jpg"
+      },
+      {
+        "hash": 1828890675,
+        "name": "Gants de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/759ae62f0a761e62a69b51383b2006f3.jpg"
+      },
+      {
+        "hash": 119770768,
+        "name": "Brassard de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/e7074e5aa6634c8490f157332454f22a.jpg"
+      },
+      {
+        "hash": 2528292701,
+        "name": "Robe de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/fe7b566398dd1cb1ddc015591bfd0f4a.jpg"
+      },
+      {
+        "hash": 2247786986,
+        "name": "Coiffe de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/8a6645fa56242d8b7559d8de7638bec2.jpg"
+      },
+      {
+        "hash": 1563741445,
+        "name": "Bottes de l'adaptateur d'AÏON",
+        "icon": "/common/destiny2_content/icons/22240d508842242dafde8791f27a06ad.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 2840280305,
+        "displayProperties": {
+          "name": "Absorption de force",
+          "description": "Les frags avec un lance-roquettes ou un lance-grenades réduisent temporairement les dégâts de zone subis.",
+          "icon": "/common/destiny2_content/icons/93c69df9a8c648602b10844524e8a0e6.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 2840280304,
+        "displayProperties": {
+          "name": "Choc réactif",
+          "description": "Quand Absorption de force est active, subir des dégâts de mêlée vous fait émettre une rafale qui désoriente une seule fois.",
+          "icon": "/common/destiny2_content/icons/96a637543fc3a60cf55d6b333ad87661.png"
+        }
+      }
+    ],
+    "hash": 894715166
+  },
+  "239346083": {
+    "displayProperties": {
+      "description": "",
+      "name": "Sécurité technique",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 3129990424,
+        "name": "Poings de sécurité technique",
+        "icon": "/common/destiny2_content/icons/e400486efea1054dba5c1ed41c1e57d2.jpg"
+      },
+      {
+        "hash": 4150538093,
+        "name": "Cape de sécurité technique",
+        "icon": "/common/destiny2_content/icons/9fb2115108406658bb1e4f5c44441527.jpg"
+      },
+      {
+        "hash": 503854896,
+        "name": "Veste de sécurité technique",
+        "icon": "/common/destiny2_content/icons/36f28a99ea7466149edb9756254261bd.jpg"
+      },
+      {
+        "hash": 2292070913,
+        "name": "Masque de sécurité technique",
+        "icon": "/common/destiny2_content/icons/dde2616fd8507c43759400d10f4e4307.jpg"
+      },
+      {
+        "hash": 1589715538,
+        "name": "Foulées de sécurité technique",
+        "icon": "/common/destiny2_content/icons/e727d23343ba7bcd632517cfbedb0fa4.jpg"
+      },
+      {
+        "hash": 2709760314,
+        "name": "Gantelets de sécurité technique",
+        "icon": "/common/destiny2_content/icons/742593125b2bd51f7e3117ae931c6320.jpg"
+      },
+      {
+        "hash": 2719854935,
+        "name": "Fanion de sécurité technique",
+        "icon": "/common/destiny2_content/icons/b33208b69c5e22fc89c2840f59b4fc86.jpg"
+      },
+      {
+        "hash": 2401760398,
+        "name": "Plate de sécurité technique",
+        "icon": "/common/destiny2_content/icons/7b56d68a23f98c1838aa052a3da065f9.jpg"
+      },
+      {
+        "hash": 517096395,
+        "name": "Heaume de sécurité technique",
+        "icon": "/common/destiny2_content/icons/514be1a6a19e5f4b2e8e6aa4c8f3e58a.jpg"
+      },
+      {
+        "hash": 95722356,
+        "name": "Bottes de sécurité technique",
+        "icon": "/common/destiny2_content/icons/7b3db8556619e1851607f6a5d3342428.jpg"
+      },
+      {
+        "hash": 489126477,
+        "name": "Gants de sécurité technique",
+        "icon": "/common/destiny2_content/icons/4e79525783d6fd248031e088bd38705f.jpg"
+      },
+      {
+        "hash": 1963424554,
+        "name": "Brassard de sécurité technique",
+        "icon": "/common/destiny2_content/icons/fb97dffd2959fda125e5c90d6934e756.jpg"
+      },
+      {
+        "hash": 4052965875,
+        "name": "Cuirasse de sécurité technique",
+        "icon": "/common/destiny2_content/icons/91cdfce7eba06046e26382fc2113ce51.jpg"
+      },
+      {
+        "hash": 2082858804,
+        "name": "Coiffe de sécurité technique",
+        "icon": "/common/destiny2_content/icons/775b0ad683e1911f6e55ce6b44ef168b.jpg"
+      },
+      {
+        "hash": 1159925519,
+        "name": "Bottes de sécurité technique",
+        "icon": "/common/destiny2_content/icons/cdb191b5d727c321dfb5c2d1e4d0e47e.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 1130213040,
+        "displayProperties": {
+          "name": "Destructeur",
+          "description": "Vous infligez des dégâts cinétiques bien plus importants aux boucliers de combattants, surboucliers, véhicules et structures. Les constructions incluent les barricades, les tourelles, les cristaux de stase et tous les autres objets créés sur le terrain.",
+          "icon": "/common/destiny2_content/icons/bd2c44c6cb6a7f2a168a90be278aa8c4.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 1130213041,
+        "displayProperties": {
+          "name": "Munitions percutantes",
+          "description": "Éliminer des combattants puissants ou briser un bouclier avec des dégâts cinétiques libère une onde cinétique qui désoriente.",
+          "icon": "/common/destiny2_content/icons/56a10b99ed0b4b28d33696ec828b29b5.png"
+        }
+      }
+    ],
+    "hash": 239346083
+  },
+  "3252452908": {
+    "displayProperties": {
+      "description": "",
+      "name": "Dernière discipline",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 1172384181,
+        "name": "Poings de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/e5c926016921220d4b4f634a6a662f87.jpg"
+      },
+      {
+        "hash": 1109145282,
+        "name": "Cape de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/4149f95578f01d6ae9664c542c1e42f9.jpg"
+      },
+      {
+        "hash": 2752429099,
+        "name": "Veste de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/860dcb5e36df2943fd7f387ba716661c.jpg"
+      },
+      {
+        "hash": 4112577340,
+        "name": "Masque de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/c6f44f74dabcf1fd0e4b3ba9a022fe3c.jpg"
+      },
+      {
+        "hash": 2748506263,
+        "name": "Poings de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/a8404f4cf304b42211503cae02f12de7.jpg"
+      },
+      {
+        "hash": 4079706495,
+        "name": "Gantelets de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/a300aff2e7484728d5e1cc4fd85cbeb5.jpg"
+      },
+      {
+        "hash": 2773786868,
+        "name": "Fanion de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/90deeb6f24506b8f3553f68554ada533.jpg"
+      },
+      {
+        "hash": 1459620921,
+        "name": "Plate de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/5534a2af08981225d1435d5e7e50f490.jpg"
+      },
+      {
+        "hash": 2629942414,
+        "name": "Heaume de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/9f2f06bc94326bc0282deacdc8848c24.jpg"
+      },
+      {
+        "hash": 3000956609,
+        "name": "Grèves de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/66f5a868f570462a548fd91b1611ab13.jpg"
+      },
+      {
+        "hash": 2403923088,
+        "name": "Gants de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/a465d51ef1440218c1541a5a1bb6b4a5.jpg"
+      },
+      {
+        "hash": 420604757,
+        "name": "Brassard de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/708646793d8e99044a2e47db5a48e31a.jpg"
+      },
+      {
+        "hash": 2025110456,
+        "name": "Cuirasse de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/4f0138f789758bd579ba610f3ea49512.jpg"
+      },
+      {
+        "hash": 2932138009,
+        "name": "Coiffe de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/9a4f49eb414f007cf49ff291d2644769.jpg"
+      },
+      {
+        "hash": 2762558442,
+        "name": "Bottes de la dernière discipline",
+        "icon": "/common/destiny2_content/icons/a0f3b59eef5ed98de45bcd66439eb649.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 2433863523,
+        "displayProperties": {
+          "name": "Vitesse terminale",
+          "description": "Les frags avec des armes à munitions principales améliorent temporairement la vitesse de rechargement de ces armes.",
+          "icon": "/common/destiny2_content/icons/6d90a805ee5c1a2a3eafe5b64b29f1ec.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 2433863522,
+        "displayProperties": {
+          "name": "Ravitailleur de puissance",
+          "description": "Ramasser un orbe de puissance confère de la progression de munitions spéciales.",
+          "icon": "/common/destiny2_content/icons/c918b80d815f1a54755a0b9b8fcbf7ed.png"
+        }
+      }
+    ],
+    "hash": 3252452908
+  },
+  "1007956300": {
+    "displayProperties": {
+      "description": "",
+      "name": "Psyché collective",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 2565439347,
+        "name": "Manches de psyché collective",
+        "icon": "/common/destiny2_content/icons/4998ffdcf965e9f9207c9d425c66ec29.jpg"
+      },
+      {
+        "hash": 3858892752,
+        "name": "Cape de psyché collective",
+        "icon": "/common/destiny2_content/icons/bdcc595dfe3be37c64e880aa5532fa69.jpg"
+      },
+      {
+        "hash": 2396904861,
+        "name": "Cuirasse de psyché collective",
+        "icon": "/common/destiny2_content/icons/df0210e8c47af92cfcc10cde395663b2.jpg"
+      },
+      {
+        "hash": 2559878186,
+        "name": "Casque de psyché collective",
+        "icon": "/common/destiny2_content/icons/75d2b1b707dc3eeba293c143b235a464.jpg"
+      },
+      {
+        "hash": 2300393285,
+        "name": "Foulées de psyché collective",
+        "icon": "/common/destiny2_content/icons/a9e018626027a983489784576d83090a.jpg"
+      },
+      {
+        "hash": 1004271921,
+        "name": "Gantelets de psyché collective",
+        "icon": "/common/destiny2_content/icons/f5cdbdfb22f0f78b7acd318ddb2ad035.jpg"
+      },
+      {
+        "hash": 4131269494,
+        "name": "Fanion de psyché collective",
+        "icon": "/common/destiny2_content/icons/408d0fd1de8b6c2d3b8558709d15ccdf.jpg"
+      },
+      {
+        "hash": 3415771751,
+        "name": "Plate de psyché collective",
+        "icon": "/common/destiny2_content/icons/9aa352f1b4fd2a5b048f747e1cbf280e.jpg"
+      },
+      {
+        "hash": 3396725088,
+        "name": "Heaume de psyché collective",
+        "icon": "/common/destiny2_content/icons/04fb8637f82f72da8dfdb9b8ca3e7339.jpg"
+      },
+      {
+        "hash": 835524739,
+        "name": "Grèves de psyché collective",
+        "icon": "/common/destiny2_content/icons/5699d12f27dbcbd2d74322ce7fa33e27.jpg"
+      },
+      {
+        "hash": 285521900,
+        "name": "Gants de psyché collective",
+        "icon": "/common/destiny2_content/icons/168a8e46548fcd4c58bf789589034dcd.jpg"
+      },
+      {
+        "hash": 3090407945,
+        "name": "Brassard de psyché collective",
+        "icon": "/common/destiny2_content/icons/66a3ae8e127737f17f0af8a0871aa439.jpg"
+      },
+      {
+        "hash": 1880646964,
+        "name": "Robe de psyché collective",
+        "icon": "/common/destiny2_content/icons/a96253e4a3f28b388cccb79332840aa4.jpg"
+      },
+      {
+        "hash": 1822989949,
+        "name": "Cagoule de psyché collective",
+        "icon": "/common/destiny2_content/icons/f32fcbe2c97296a246f7f32d976f4927.jpg"
+      },
+      {
+        "hash": 931254038,
+        "name": "Bottes de psyché collective",
+        "icon": "/common/destiny2_content/icons/c0821c700e1490edbd1c49ba6f2aab1e.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 1901305283,
+        "displayProperties": {
+          "name": "Accrétion",
+          "description": "Ramasser une brique de munitions vous confère un bonus cumulable pour le changement d'arme et la vitesse de rangement jusqu'à votre mort.",
+          "icon": "/common/destiny2_content/icons/e8dc7995d41ec6eb0e68e6b811643a3b.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 1901305282,
+        "displayProperties": {
+          "name": "Effet Doppler",
+          "description": "Les effets de suspension, d'effilochage et de sectionnement appliqués aux cibles, ainsi que les effets de Radiance et de Restauration appliqués à vous voient leur durée rallongée.",
+          "icon": "/common/destiny2_content/icons/a96cbdea0b06d28d2780e100ac0ae51f.png"
+        }
+      }
+    ],
+    "hash": 1007956300
+  },
+  "1083114430": {
+    "displayProperties": {
+      "description": "",
+      "name": "Bushido",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 81786728,
+        "name": "Poings du bushido",
+        "icon": "/common/destiny2_content/icons/761d69220af8862204ca10c56d8cb083.jpg"
+      },
+      {
+        "hash": 464665629,
+        "name": "Cape du bushido",
+        "icon": "/common/destiny2_content/icons/48e367c247102755127e37a94ddb1a38.jpg"
+      },
+      {
+        "hash": 1154629600,
+        "name": "Veste du bushido",
+        "icon": "/common/destiny2_content/icons/31b6f42ddf188b60e01329b649621691.jpg"
+      },
+      {
+        "hash": 1465235089,
+        "name": "Capuche du bushido",
+        "icon": "/common/destiny2_content/icons/601034f9d9b77d8f67a6b15146c569a2.jpg"
+      },
+      {
+        "hash": 1183125954,
+        "name": "Foulées du bushido",
+        "icon": "/common/destiny2_content/icons/1ec4a26b34593d50c395a30c637638eb.jpg"
+      },
+      {
+        "hash": 2195895938,
+        "name": "Gantelets du bushido",
+        "icon": "/common/destiny2_content/icons/e86359473dd2513e5a8f594914693798.jpg"
+      },
+      {
+        "hash": 2517367247,
+        "name": "Fanion du bushido",
+        "icon": "/common/destiny2_content/icons/1e23eb74652b5db50b4971e0cd7926a5.jpg"
+      },
+      {
+        "hash": 2199272806,
+        "name": "Plate du bushido",
+        "icon": "/common/destiny2_content/icons/134e2b3d67cd29b02b44335a50811c4e.jpg"
+      },
+      {
+        "hash": 407922163,
+        "name": "Heaume du bushido",
+        "icon": "/common/destiny2_content/icons/ac4ebb47f8268ba6f93cbae3413f147e.jpg"
+      },
+      {
+        "hash": 4281618492,
+        "name": "Grèves du bushido",
+        "icon": "/common/destiny2_content/icons/3801908e7e59352eadd8c308978317a7.jpg"
+      },
+      {
+        "hash": 970712027,
+        "name": "Gants du bushido",
+        "icon": "/common/destiny2_content/icons/039187aefa01ceea97e75e9ce34691f3.jpg"
+      },
+      {
+        "hash": 743956488,
+        "name": "Brassard du bushido",
+        "icon": "/common/destiny2_content/icons/b8c7d2d2d5de7dca7d03cd551353d652.jpg"
+      },
+      {
+        "hash": 2046361909,
+        "name": "Robe du bushido",
+        "icon": "/common/destiny2_content/icons/2c8ef94a7094dee0074279a2719def8d.jpg"
+      },
+      {
+        "hash": 545935602,
+        "name": "Capuche du bushido",
+        "icon": "/common/destiny2_content/icons/e873e0377a2d256fa6ea781e942a031b.jpg"
+      },
+      {
+        "hash": 3715719501,
+        "name": "Bottes du bushido",
+        "icon": "/common/destiny2_content/icons/d09dbb9c449c651254592d7681ee29c8.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 1964062929,
+        "displayProperties": {
+          "name": "Iaido",
+          "description": "Les frags avec des armes que vous venez de dégainer ou de recharger vous soignent.",
+          "icon": "/common/destiny2_content/icons/40abb2a18a499cc24222f052fca2a694.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 1964062928,
+        "displayProperties": {
+          "name": "Concentration infaillible",
+          "description": "Les frags à l'arc, au fusil à pompe ou à l'épée réduisent temporairement les dégâts subis. Infliger des dégâts à des cibles avec ces armes rallonge la durée de l'effet.",
+          "icon": "/common/destiny2_content/icons/533277959c64b90c06bdea0a6dbaa723.png"
+        }
+      }
+    ],
+    "hash": 1083114430
+  },
+  "3259216565": {
+    "displayProperties": {
+      "description": "",
+      "name": "Double couronne",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 2116325413,
+        "name": "Poings de la double couronne",
+        "icon": "/common/destiny2_content/icons/86efa1d0516695f2bf097f1876df4a7a.jpg"
+      },
+      {
+        "hash": 4241698066,
+        "name": "Cape de la double couronne",
+        "icon": "/common/destiny2_content/icons/2f0c9d31b95cc3876c0e45de2f0ad0b1.jpg"
+      },
+      {
+        "hash": 1590014587,
+        "name": "Veste de la double couronne",
+        "icon": "/common/destiny2_content/icons/0acb09d9c1606f086cb50ab60ec8da8d.jpg"
+      },
+      {
+        "hash": 2962027628,
+        "name": "Masque de la double couronne",
+        "icon": "/common/destiny2_content/icons/9346f174b5c5fefc098ce8ebd8d2441f.jpg"
+      },
+      {
+        "hash": 2463655079,
+        "name": "Foulées de la double couronne",
+        "icon": "/common/destiny2_content/icons/448a9e67f1cbd1614f12c35681d8c28a.jpg"
+      },
+      {
+        "hash": 2534133191,
+        "name": "Gantelets de la double couronne",
+        "icon": "/common/destiny2_content/icons/96e425982c224af9490b5e12b5c96d8b.jpg"
+      },
+      {
+        "hash": 3384001164,
+        "name": "Fanion de la double couronne",
+        "icon": "/common/destiny2_content/icons/5068aa67104d0fc1a0e777343e631d4a.jpg"
+      },
+      {
+        "hash": 1230148081,
+        "name": "Plate de la double couronne",
+        "icon": "/common/destiny2_content/icons/4439ef7e2caa68cd26ba2856c45148c7.jpg"
+      },
+      {
+        "hash": 1330142838,
+        "name": "Heaume de la double couronne",
+        "icon": "/common/destiny2_content/icons/e199fe652e70c67c3d838bdd4ebf6a8d.jpg"
+      },
+      {
+        "hash": 1286938889,
+        "name": "Grèves de la double couronne",
+        "icon": "/common/destiny2_content/icons/f8c2f3c310ea59b8c0b618b16a43b536.jpg"
+      },
+      {
+        "hash": 3453853118,
+        "name": "Gants de la double couronne",
+        "icon": "/common/destiny2_content/icons/f3530d06adda124eda64651bdd77f90f.jpg"
+      },
+      {
+        "hash": 3533586691,
+        "name": "Brassard de la double couronne",
+        "icon": "/common/destiny2_content/icons/23848488a019813879ed3eae9d20d211.jpg"
+      },
+      {
+        "hash": 2896769138,
+        "name": "Robe de la double couronne",
+        "icon": "/common/destiny2_content/icons/ad014464ad035c9119677dce33f50e1c.jpg"
+      },
+      {
+        "hash": 85371703,
+        "name": "Capuche de la double couronne",
+        "icon": "/common/destiny2_content/icons/ae796449ac7b6efa6a83021f386a8fc2.jpg"
+      },
+      {
+        "hash": 3873235480,
+        "name": "Bottes de la double couronne",
+        "icon": "/common/destiny2_content/icons/2bc88cfda69c4cf99a75e2525a392e00.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 1025384966,
+        "displayProperties": {
+          "name": "Houlette et fléau",
+          "description": "Ramasser une brique de munitions vous confère des soins.",
+          "icon": "/common/destiny2_content/icons/b80634df8d4c10ccd0b3d77f6c03094d.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 1025384967,
+        "displayProperties": {
+          "name": "Don de vision",
+          "description": "Les frags avec des armes à munitions principales augmentent brièvement la résolution de votre radar.",
+          "icon": "/common/destiny2_content/icons/d45b0c7e60cb34ef703d20c85e3737a5.png"
+        }
+      }
+    ],
+    "hash": 3259216565
+  },
+  "3737690559": {
+    "displayProperties": {
+      "description": "",
+      "name": "Chatoyant",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 3446591075,
+        "name": "Poings chatoyants",
+        "icon": "/common/destiny2_content/icons/689a75795ccb6955d5f888e7f818f2a7.jpg"
+      },
+      {
+        "hash": 3643047597,
+        "name": "Veste chatoyante",
+        "icon": "/common/destiny2_content/icons/963f6023c1b0b65d43ac4daab3ecf66b.jpg"
+      },
+      {
+        "hash": 1756958880,
+        "name": "Cape chatoyante",
+        "icon": "/common/destiny2_content/icons/0799a3f7e0c754506adc8e6e0cc38a4d.jpg"
+      },
+      {
+        "hash": 1209319450,
+        "name": "Casque chatoyant",
+        "icon": "/common/destiny2_content/icons/f6124b874b6bf7dede7bbf865c7303f4.jpg"
+      },
+      {
+        "hash": 1072603541,
+        "name": "Foulées chatoyantes",
+        "icon": "/common/destiny2_content/icons/a4ed7019f2ef7c8c3ca401a60faa94ac.jpg"
+      },
+      {
+        "hash": 2739996165,
+        "name": "Gantelets chatoyants",
+        "icon": "/common/destiny2_content/icons/946a1e05ab36afc23bfa7ea13627b043.jpg"
+      },
+      {
+        "hash": 2901472731,
+        "name": "Plate chatoyante",
+        "icon": "/common/destiny2_content/icons/b7d44e1c0a04eca066eae8f0e29307e2.jpg"
+      },
+      {
+        "hash": 1641172978,
+        "name": "Fanion chatoyant",
+        "icon": "/common/destiny2_content/icons/3fbea0be4b52662108cde4af528a4249.jpg"
+      },
+      {
+        "hash": 3585698380,
+        "name": "Heaume chatoyant",
+        "icon": "/common/destiny2_content/icons/c9b2e94fd6c3d77562e94cc3d1572689.jpg"
+      },
+      {
+        "hash": 2662868359,
+        "name": "Grèves chatoyantes",
+        "icon": "/common/destiny2_content/icons/d7a6d2d2271cdc2e3fa36b4c5ddee520.jpg"
+      },
+      {
+        "hash": 1806024532,
+        "name": "Manches chatoyantes",
+        "icon": "/common/destiny2_content/icons/a7ce5c6af2fcf636c52d91c8d326ccd1.jpg"
+      },
+      {
+        "hash": 1809917548,
+        "name": "Robe chatoyante",
+        "icon": "/common/destiny2_content/icons/af294cdae1f0176fd6e57848c9b55cb7.jpg"
+      },
+      {
+        "hash": 213708705,
+        "name": "Brassard chatoyant",
+        "icon": "/common/destiny2_content/icons/d84b54c1a96119b2136273f9b8113c50.jpg"
+      },
+      {
+        "hash": 1025347717,
+        "name": "Cagoule chatoyante",
+        "icon": "/common/destiny2_content/icons/6de7bdfd32b6901bf6b284ae1d9c5432.jpg"
+      },
+      {
+        "hash": 2052186462,
+        "name": "Bottes chatoyantes",
+        "icon": "/common/destiny2_content/icons/2aea8aafccaa619ba1dfd02e77e76799.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 4048287940,
+        "displayProperties": {
+          "name": "Photogalvanisation",
+          "description": "Recevoir des soins confère temporairement à vos \narmes solaires une résistance au sursaut, un maniement et une vitesse de rechargement améliorés.",
+          "icon": "/common/destiny2_content/icons/3c9918529fb85eb95b151c2461b63b9c.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 4048287941,
+        "displayProperties": {
+          "name": "Cautérisation",
+          "description": "Les frags solaires rapides vous soignent.",
+          "icon": "/common/destiny2_content/icons/fb229a054586415903e6539ea363f63a.png"
+        }
+      }
+    ],
+    "hash": 3737690559
+  }
+}

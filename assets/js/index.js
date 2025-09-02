@@ -12,6 +12,12 @@ async function loadBanniere() {
 
 const subfolders = [
   {
+    name: "[🎉NEW] - Set d'armures",
+    path: "setarmor",
+    image: "assets/src/Setarmor_thumb.jpg",
+    subtitle: "Définition des Sets d'armures"
+  },
+  {
     name: "Perks",
     path: "perk",
     image: "assets/src/Perks_thumb.jpg",
