@@ -14,7 +14,9 @@ manifestlist = {
     "DestinyTraitDefinition": "trait_definitions",
     "DestinyBreakerTypeDefinition": "breaker_definitions",
     "DestinyDamageTypeDefinition": "damagetype_definitions",
-    "DestinyActivityModifierDefinition": "modifier_definitions"
+    "DestinyActivityModifierDefinition": "modifier_definitions",
+    "DestinyEquipableItemSetDefinition": "setarmor_definitions",
+    "DestinySandboxPerkDefinition": "sandboxperk_definitions"
 }
 
 # Dossier de destination
@@ -32,37 +34,36 @@ keys_to_exclude = ["uiItemDisplayStyle", "displaySource", "action", "equippingBl
                    "redacted", "blacklisted"
                    ]
 
-def clean_data(data):
+def clean_data(data, definition_type=None):
     if isinstance(data, dict):
         # Supprimer les clés indésirables
         for key in keys_to_exclude:
             if key in data:
                 del data[key]
 
-        # Vérifier et supprimer l'élément si 'hasIcon' est False dans 'displayProperties'
-        # ou si 'name' ou 'description' sont vides
-        if 'displayProperties' in data:
-            display_props = data['displayProperties']
-            if ('hasIcon' in display_props and display_props['hasIcon'] is False) or \
-               ('name' in display_props and not display_props['name']):
-                return None
+        # Vérifier et supprimer l'élément si 'hasIcon' est False ou 'name' vide
+        # 🚨 Sauf si on est dans setarmor_definitions
+        if definition_type != "setarmor_definitions":
+            if 'displayProperties' in data:
+                display_props = data['displayProperties']
+                if ('hasIcon' in display_props and display_props['hasIcon'] is False) or \
+                   ('name' in display_props and not display_props['name']):
+                    return None
 
         # Appliquer récursivement le nettoyage aux sous-éléments
         keys_to_remove = []
         for key, value in data.items():
-            cleaned_value = clean_data(value)
+            cleaned_value = clean_data(value, definition_type)
             if cleaned_value is None:
-                keys_to_remove.append(key)  # Marquer la clé pour suppression
+                keys_to_remove.append(key)
             else:
                 data[key] = cleaned_value
 
-        # Supprimer les clés marquées
         for key in keys_to_remove:
             del data[key]
 
     elif isinstance(data, list):
-        # Appliquer récursivement le nettoyage aux éléments de la liste
-        return [clean_data(item) for item in data if clean_data(item) is not None]
+        return [clean_data(item, definition_type) for item in data if clean_data(item, definition_type) is not None]
 
     return data
 
@@ -86,8 +87,8 @@ for definition_key, file_name in manifestlist.items():
         r = requests.get(full_url, headers=HEADERS)
         try:
             data = r.json()
-            # Appliquer le nettoyage avant de sauvegarder
-            cleaned_data = clean_data(data)
+            # 👇 on passe le type de fichier pour adapter le nettoyage
+            cleaned_data = clean_data(data, file_name)
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(cleaned_data, f, ensure_ascii=False)
             print(f"{definition_key} enregistré sous {file_path}.")
