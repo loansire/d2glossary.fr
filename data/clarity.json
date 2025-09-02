@@ -10,177 +10,7 @@
     {
      "linesContent": [
       {
-       "text": "Spawns a "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Heavy Ammo Brick upon scoring a Weapon Kill after reaching 100% Counter Progress. Counter is only progressed by Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks grant 27.5%|60%|100% of a Regular Ammo Brick's Pickup Amount with 1|2|3 Mods equipped. Pickup Amount is determined on Brick Spawn."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Counter Progress on Weapon Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "1.1% to 1.33%. Average of 83.5 Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Progress Multipliers on Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons: 4.25x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapons:",
-       "classNames": [ "green" ]
-      },
-      {
-       "text": " 1.05x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "text": "Exotic",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons:",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " further 1.3?x on top of the Primary Multiplier (total of 5.525?⁠x)"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Playing Solo: 1.2?⁠x"
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Glaive Melee Kills count as "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Winterbite",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " Melee Kills count as "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Power Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Eriana's Vow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " inherits the Exotic Primary Multiplier but is still treated as a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapon."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks have less variablity compared to Regular Bricks. (i.e. they can't go as far above or under the average ammo amount granted)"
+       "text": "Grants a 1.33x|1.66x|2x multiplier to all Heavy Ammo Meter progress with 1|2|3 Mods equipped."
       }
      ]
     }
@@ -393,7 +223,7 @@
     {
      "linesContent": [
       {
-       "text": "Increases Kinetic Weapon Damage while you have active Armor Charges:"
+       "text": "Increases Kinetic Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -1022,13 +852,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 5% with Xenophage."
+       "text": "Solar Weapons matching the Ammo Type."
       }
      ]
     },
@@ -1038,18 +868,7 @@
     {
      "linesContent": [
       {
-       "text": "Eyes of Tomorrow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and "
-      },
-      {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " do not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -1059,7 +878,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -1240,6 +1059,34 @@
       },
       {
        "text": " Passively grants 5 Reload Speed."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "65797256": {
+  "hash": 65797256,
+  "name": "Fleet Footed",
+  "lastUpload": 1755815364903,
+  "type": "Weapon Trait Origin",
+  "uploadedBy": "Stardust",
+  "descriptions": {
+   "en": [
+    {
+     "linesContent": [
+      {
+       "text": "Dealing damage grants 15 Airborne Effectiveness and ?% increased Movement Speed for ? seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Scoring a Weapon Kill increases this to 30 Airborne Effectiveness and ?% Increased Movement Speed for ? seconds."
       }
      ]
     }
@@ -1606,7 +1453,7 @@
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapons 1 second after readying them:"
+       "text": "Strand Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -1770,7 +1617,7 @@
  "113508675": {
   "hash": 113508675,
   "name": "Reaper's Tithe",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -1778,7 +1625,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants stacks of 'Reaper's Tithe' based on the number of simultaneously killed enemies. Maximum of 3 stacks."
+       "text": "Grants stacks of 'Reaper's Tithe' based on the number of simultaneously killed enemies. Maximum of 4 stacks. (e.g. triple kill ⇒ 3 stacks)"
       }
      ]
     },
@@ -1788,7 +1635,7 @@
     {
      "linesContent": [
       {
-       "text": "'Reaper's Tithe' grants 20%|30%|40% increased damage for 15 seconds. Timer only start after firing."
+       "text": "'Reaper's Tithe' grants 20%|30%|40% increased damage for 15 seconds. Timer only starts after firing."
       }
      ]
     },
@@ -2266,7 +2113,7 @@
  "124726499": {
   "hash": 124726499,
   "name": "Facet of Ruin",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -2277,7 +2124,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Ignitions have 20?% increased radius."
+       "text": "Ignitions have a 25% increased blast radius."
       }
      ]
     },
@@ -3099,7 +2946,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants stacks of 'Reaper's Tithe' based on the number of simultaneously killed enemies. Maximum of 3 stacks."
+       "text": "Grants stacks of 'Reaper's Tithe' based on the number of simultaneously killed enemies. Maximum of 4 stacks. (e.g. triple kill ⇒ 3 stacks)"
       }
      ]
     },
@@ -3116,7 +2963,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "17 seconds. Timer only start after firing."
+       "text": "17 seconds. Timer only starts after firing."
       }
      ]
     },
@@ -3603,7 +3450,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -3757,7 +3604,7 @@
        "text": "20 Hits within ? seconds of each triggers an explosion around the target, dealing up to "
       },
       {
-       "text": "266",
+       "text": "250",
        "classNames": [ "pve" ]
       },
       {
@@ -3768,7 +3615,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " weapon element-matching damage in a ? meter radius."
+       "text": " weapon element-matching damage in a 8 meter radius."
       }
      ]
     },
@@ -3782,7 +3629,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": " Number of Hits required is decreased by 5?."
+       "text": " Number of Hits required is decreased by 5."
       }
      ]
     }
@@ -4816,7 +4663,7 @@
     {
      "linesContent": [
       {
-       "text": "Maximum of 6 stacks. Missing removes all stacks."
+       "text": "Maximum of 6 stacks. Reloading the weapon (except on Bows) or missing removes all stacks."
       }
      ]
     },
@@ -4826,7 +4673,7 @@
     {
      "linesContent": [
       {
-       "text": "Heavy Burst Hand Cannons can only gain 1 stack per burst."
+       "text": "Heavy Burst Frame weapons can only gain 1 stack per burst."
       }
      ]
     },
@@ -4928,7 +4775,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -5279,7 +5126,7 @@
  "362132290": {
   "hash": 362132290,
   "name": "Ember of Tempering",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -5290,7 +5137,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapon Kills grant a Stack of Ember of Tempering for 8 seconds to you and allies within 12.5 meters."
+       "text": "Solar Weapon Kills grant a Stack of Ember of Tempering for 8 seconds to you and allies within 15 meters."
       }
      ]
     },
@@ -5310,7 +5157,7 @@
     {
      "linesContent": [
       {
-       "text": "• 10|20|30 Recovery at 1|2|3 Stacks"
+       "text": "• 20|40|60 Health stat at 1|2|3 Stacks"
       }
      ]
     },
@@ -5395,7 +5242,7 @@
  "362132292": {
   "hash": 362132292,
   "name": "Ember of Benevolence",
-  "lastUpload": 1709226265485,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -5403,17 +5250,17 @@
     {
      "linesContent": [
       {
-       "text": "Applying certain buffs to allies grants 400% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for "
+       "text": "Applying certain buffs to allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for "
       },
       {
-       "text": "6",
+       "text": "7",
        "classNames": [ "pve" ]
       },
       {
        "text": " "
       },
       {
-       "text": "[3]",
+       "text": "[3.5?]",
        "classNames": [ "pvp" ]
       },
       {
@@ -5495,14 +5342,7 @@
        "classNames": [ "yellow" ]
       },
       {
-       "text": "'s Healing Pulse, and "
-      },
-      {
-       "text": "Aeon Sect of Vigor",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "'s Healing"
+       "text": "'s Healing Pulse, Mothkeeper's Wraps Overshield Moth, Non-Solar Support Frame Auto Rifles"
       }
      ]
     }
@@ -6788,7 +6628,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "solar" ]
@@ -6805,16 +6645,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -6970,7 +6800,7 @@
  "426473316": {
   "hash": 426473316,
   "name": "Marksman's Dodge",
-  "lastUpload": 1732219732702,
+  "lastUpload": 1755984214899,
   "type": "Subclass Class",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -6988,7 +6818,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -6999,16 +6829,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -7118,8 +6938,8 @@
  },
  "450381139": {
   "hash": 450381139,
-  "name": "Arc Reserves",
-  "lastUpload": 1719594243302,
+  "name": "Arc Ammo Generation",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -7127,7 +6947,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "arc" ]
@@ -7144,16 +6964,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -7396,7 +7206,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -8388,7 +8198,7 @@
  "531057500": {
   "hash": 531057500,
   "name": "Lucent Blades",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755986339031,
   "stats": {
    "Guard Charge Rate": [
     {
@@ -8449,7 +8259,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -8459,7 +8269,7 @@
  "534479613": {
   "hash": 534479613,
   "name": "Arc Scavenger",
-  "lastUpload": 1735009175023,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -8477,13 +8287,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 5% for Grand Overture."
+       "text": "Arc Weapons matching the Ammo Type."
       }
      ]
     },
@@ -8493,11 +8303,7 @@
     {
      "linesContent": [
       {
-       "text": "Wardcliff Coil",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " does not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -8507,7 +8313,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -8910,7 +8716,7 @@
  "554409585": {
   "hash": 554409585,
   "name": "Heavy Ammo Finder",
-  "lastUpload": 1735009175023,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -8918,177 +8724,7 @@
     {
      "linesContent": [
       {
-       "text": "Spawns a "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Heavy Ammo Brick upon scoring a Weapon Kill after reaching 100% Counter Progress. Counter is only progressed by Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks grant 27.5%|60%|100% of a Regular Ammo Brick's Pickup Amount with 1|2|3 Mods equipped. Pickup Amount is determined on Brick Spawn."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Counter Progress on Weapon Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "1.1% to 1.33%. Average of 83.5 Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Progress Multipliers on Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons: 4.25x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapons:",
-       "classNames": [ "green" ]
-      },
-      {
-       "text": " 1.05x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "text": "Exotic",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons:",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " further 1.3?x on top of the Primary Multiplier (total of 5.525?⁠x)"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Playing Solo: 1.2?⁠x"
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Glaive Melee Kills count as "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Winterbite",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " Melee Kills count as "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Power Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Eriana's Vow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " inherits the Exotic Primary Multiplier but is still treated as a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapon."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks have less variablity compared to Regular Bricks. (i.e. they can't go as far above or under the average ammo amount granted)"
+       "text": "Grants a 1.33x|1.66x|2x multiplier to all Heavy Ammo Meter progress with 1|2|3 Mods equipped."
       }
      ]
     }
@@ -9098,7 +8734,7 @@
  "555281244": {
   "hash": 555281244,
   "name": "Precision Instrument",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -9116,7 +8752,7 @@
     {
      "linesContent": [
       {
-       "text": "Maximum of 6 stacks. Missing removes all stacks."
+       "text": "Maximum of 6 stacks. Reloading the weapon (except on Bows) or missing removes all stacks."
       }
      ]
     },
@@ -9126,7 +8762,7 @@
     {
      "linesContent": [
       {
-       "text": "Heavy Burst Hand Cannons can only gain 1 stack per burst."
+       "text": "Heavy Burst Frame weapons can only gain 1 stack per burst."
       }
      ]
     },
@@ -9635,21 +9271,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to Kinetic Weapons matching the Ammo Type. This is increased to 10?% with "
-      },
-      {
-       "text": "Microcosm",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " and to 2% with "
-      },
-      {
-       "text": "Forerunner",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to Kinetic Weapons matching the Ammo Type."
       }
      ]
     },
@@ -9659,7 +9281,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -10350,8 +9982,8 @@
  },
  "633101315": {
   "hash": 633101315,
-  "name": "Font of Vigor",
-  "lastUpload": 1679865752213,
+  "name": "Melee Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -10359,7 +9991,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Strength with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Melee stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -10393,7 +10025,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapons 1 second after readying them:"
+       "text": "Solar Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -10793,8 +10425,8 @@
  },
  "686455429": {
   "hash": 686455429,
-  "name": "Font of Endurance",
-  "lastUpload": 1679865752213,
+  "name": "Health Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -10802,7 +10434,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Resilience with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Health stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -10822,7 +10454,7 @@
  "688956976": {
   "hash": 688956976,
   "name": "Solar Scavenger",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -10840,13 +10472,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 5% with Xenophage."
+       "text": "Solar Weapons matching the Ammo Type."
       }
      ]
     },
@@ -10856,18 +10488,7 @@
     {
      "linesContent": [
       {
-       "text": "Eyes of Tomorrow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and "
-      },
-      {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " do not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -10877,7 +10498,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -11222,7 +10843,7 @@
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapons 1 second after readying them:"
+       "text": "Stasis Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -12459,21 +12080,55 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "10 of the 12 Shotgun Pellets in the spread increases the damage of your next Melee attack within 3 seconds by "
+       "text": "10 of the 12 Pellets in the spread increases the damage of your next Melee attack within 3 seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Melee Damage increase by weapon type:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Shotgun: 150% additional base melee damage"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Hand Cannon: "
       },
       {
-       "text": "150%",
+       "text": "75%",
        "classNames": [ "pve" ]
       },
       {
        "text": " "
       },
       {
-       "text": "[100%]",
+       "text": "[100?%]",
        "classNames": [ "pvp" ]
       },
       {
-       "text": ". Stowing the weapon removes the buff."
+       "text": " additional base melee damage"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Stowing the weapon removes the buff."
       }
      ]
     },
@@ -12503,7 +12158,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": " Requires 2 fewer Shotgun Pellets to activate."
+       "text": " Requires 2 fewer Pellets to activate."
       }
      ]
     }
@@ -12595,7 +12250,7 @@
  "802695661": {
   "hash": 802695661,
   "name": "Void Scavenger",
-  "lastUpload": 1727530279353,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -12613,20 +12268,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 2% with "
-      },
-      {
-       "text": "Choir of One",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Void Weapons matching the Ammo Type."
       }
      ]
     },
@@ -12636,11 +12284,7 @@
     {
      "linesContent": [
       {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " does not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -12650,7 +12294,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -12679,6 +12323,55 @@
      "linesContent": [
       {
        "text": "Grants 67% increased damage for Grounded Heavy Attacks that consume all remaining ammo."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "820036316": {
+  "hash": 820036316,
+  "name": "Proximity Power",
+  "lastUpload": 1755815364903,
+  "type": "Weapon Trait Enhanced",
+  "uploadedBy": "Stardust",
+  "descriptions": {
+   "en": [
+    {
+     "linesContent": [
+      {
+       "text": "Weapon Kills while within 15 meters of enemies grant a stack of Proximity Power 10 seconds. Maximum of 3 stacks."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Each stack grants "
+      },
+      {
+       "text": "🡅",
+       "classNames": [ "enhancedArrow" ]
+      },
+      {
+       "text": "18 Melee stat."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "🡅",
+       "classNames": [ "enhancedArrow" ]
+      },
+      {
+       "text": " Grants 3 more Melee stat per stack."
       }
      ]
     }
@@ -13644,28 +13337,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to Weapons matching your Super Element and the Ammo Type. This is increased to 10% with Trace Rifles and Swords, to 5% with "
-      },
-      {
-       "text": "Grand Overture",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " and "
-      },
-      {
-       "text": "Xenophage",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and to 2% with "
-      },
-      {
-       "text": "Choir of One",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to Weapons matching your Super Element and the Ammo Type."
       }
      ]
     },
@@ -13675,25 +13347,7 @@
     {
      "linesContent": [
       {
-       "text": "Eyes of Tomorrow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", "
-      },
-      {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and "
-      },
-      {
-       "text": "Wardcliff Coil",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " do not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -13703,7 +13357,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -13992,7 +13646,17 @@
     {
      "linesContent": [
       {
-       "text": "Picking up a Crossbow Bolt grants ? Handling and ? Reload Speed for 15 seconds."
+       "text": "Picking up a Crossbow Bolt grants ? Handling and ? Reload Speed for 4 seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Picking up additional Bolts adds 3? seconds to the buff duration up to the maximum of 15 seconds."
       }
      ]
     }
@@ -14123,9 +13787,7 @@
  "902934539": {
   "hash": 902934539,
   "name": "Blessing of Order",
-  "itemHash": 3045642045,
-  "itemName": "Boots of the Assembler",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -14140,7 +13802,7 @@
        "classNames": [ "yellow" ]
       },
       {
-       "text": "."
+       "text": " and Noble Seekers grant Noble Rounds to it."
       }
      ]
     },
@@ -14156,7 +13818,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Well of Radiance creates Noble Seekers every 5 seconds that seek out allies within 35 meters and apply a buff to them:"
+       "text": "Well of Radiance creates Noble Seekers that seek out allies within 40 meters and apply buffs to them:"
       }
      ]
     },
@@ -14170,7 +13832,7 @@
     {
      "linesContent": [
       {
-       "text": "• Empowering Rift Seeker: Grants "
+       "text": "• Empowering Rift Seeker: grants "
       },
       {
        "text": "35%",
@@ -14202,7 +13864,7 @@
     {
      "linesContent": [
       {
-       "text": "Noble Seekers grant Noble Rounds to Lumina."
+       "text": "Noble seekers spawn at a constant rate based on your Fireteam size."
       }
      ]
     },
@@ -14212,7 +13874,7 @@
     {
      "linesContent": [
       {
-       "text": "Number of Noble Seekers spawned is equal to [Fireteam Size]-1, with a minimum of 1 Seeker."
+       "text": "Buffing allies with Noble Seekers grants Class Ability energy based on your Fireteam size."
       }
      ]
     },
@@ -14222,7 +13884,7 @@
     {
      "linesContent": [
       {
-       "text": "Each time a Noble Seeker applies a buff, the Rift Duration is paused for 5 seconds."
+       "text": "Seekers prioritize allies who have not been healed in the last 8 seconds followed by nearby allies. Seekers will not target an ally more than once every 4 seconds."
       }
      ]
     }
@@ -14638,9 +14300,7 @@
  "926349160": {
   "hash": 926349160,
   "name": "Tome of Dawn",
-  "itemHash": 370930766,
-  "itemName": "Wings of Sacred Dawn",
-  "lastUpload": 1727530279353,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -14695,13 +14355,6 @@
     {
      "linesContent": [
       {
-       "text": "• 25% Flinch Resistance"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
        "text": "• 15% Damage Resistance"
       }
      ]
@@ -14709,7 +14362,27 @@
     {
      "linesContent": [
       {
-       "text": "• Weapon Kills "
+       "text": "• 25% Flinch Resistance"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Enemies are less accurate when targeting you"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Weapon Kills grant "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Restoration x1 and "
       },
       {
        "text": "refill",
@@ -14725,13 +14398,7 @@
        "classNames": [ "title" ]
       },
       {
-       "text": " the magazines of all equipped "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Solar Weapons from reserves"
+       "text": " the magazines of stowed weapons from reserves"
       }
      ]
     }
@@ -15580,13 +15247,13 @@
     {
      "linesContent": [
       {
-       "text": "• "
+       "text": "• Kinetic, "
       },
       {
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis and "
+       "text": "Stasis, and "
       },
       {
        "classNames": [ "strand" ]
@@ -15889,7 +15556,7 @@
  "1017229899": {
   "hash": 1017229899,
   "name": "Blast Distributor",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -15897,7 +15564,7 @@
     {
      "linesContent": [
       {
-       "text": "Dealing Explosive damage grants a stack of 'Blast Distributor' for 5? seconds. Maximum of 5 stacks."
+       "text": "Dealing Explosive damage grants a stack of 'Blast Distributor' for 5 seconds. Maximum of 5 stacks."
       }
      ]
     },
@@ -15941,7 +15608,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -16440,7 +16107,7 @@
  "1051276348": {
   "hash": 1051276348,
   "name": "Ember of Eruption",
-  "lastUpload": 1704200924259,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -16451,7 +16118,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Ignitions have a 20?% increased blast radius."
+       "text": "Ignitions have a 25% increased blast radius (8﻿🠚﻿10 meters)."
       }
      ]
     }
@@ -16738,7 +16405,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapons 1 second after readying them:"
+       "text": "Solar Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -17019,7 +16686,7 @@
  "1097608874": {
   "hash": 1097608874,
   "name": "Kinetic Scavenger",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -17037,21 +16704,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to Kinetic Weapons matching the Ammo Type. This is increased to 10?% with "
-      },
-      {
-       "text": "Microcosm",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " and to 2% with "
-      },
-      {
-       "text": "Forerunner",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to Kinetic Weapons matching the Ammo Type."
       }
      ]
     },
@@ -17061,7 +16714,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -17089,7 +16752,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to Weapons matching your Super Element with 1|2|3 Mods equipped."
+       "text": "Grants 20|40|50 Ammo Generation stat to Weapons matching your Super Element with 1|2|3 Mods equipped."
       }
      ]
     },
@@ -17100,16 +16763,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -17202,7 +16855,7 @@
  "1125523126": {
   "hash": 1125523126,
   "name": "Arc Loader",
-  "lastUpload": 1717548513901,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -17216,7 +16869,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapons 1 second after readying them:"
+       "text": "Arc Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -17293,7 +16946,7 @@
  "1126264488": {
   "hash": 1126264488,
   "name": "Threat Remover",
-  "lastUpload": 1723486934727,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -17301,7 +16954,7 @@
     {
      "linesContent": [
       {
-       "text": "Hitting a target with 11 of the 12 Shotgun Pellets in the spread improves Stability, Handling, and Reload Speed for 7 seconds."
+       "text": "Hitting a target with 11 of the 12 Pellets in the spread grants ? Stability, ? Handling, and 60 Reload Speed for 7 seconds."
       }
      ]
     }
@@ -17310,8 +16963,8 @@
  },
  "1130820873": {
   "hash": 1130820873,
-  "name": "Font of Wisdom",
-  "lastUpload": 1679867725995,
+  "name": "Super Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -17319,7 +16972,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Intellect with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Super stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -17330,6 +16983,96 @@
      "linesContent": [
       {
        "text": "Armor Charge now decays over time at the rate of 1 every 10 seconds by default."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "1133590731": {
+  "hash": 1133590731,
+  "name": "Enhanced Athletics",
+  "lastUpload": 1755815364903,
+  "type": "Armor Mod General",
+  "uploadedBy": "Stardust",
+  "descriptions": {
+   "en": [
+    {
+     "linesContent": [
+      {
+       "text": "Passively increases non-sprinting Movement Speed and non-ability Jump Height."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Note: the below values represent the "
+      },
+      {
+       "text": "currently bugged",
+       "link": "https://www.reddit.com/r/DestinyTheGame/comments/1mpwq30/update_the_mobility_stat_is_still_bugged_but_in_a/",
+       "classNames": [ "link" ]
+      },
+      {
+       "text": " state of these mods as of August 21."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "(Diagonally) Forward Walk Speed with 0|1|2|3 Mods equipped by class:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Warlocks and Titans: 5.6|6.0|6.2|6.4 m/s"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Hunters: 5.8|6.2|6.4|6.6 m/s"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Strafing (side-to-side and backwards movement) decreases these speeds by 15%. Strafe speed is capped at 6 m/s."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Crouching decreases these speeds by 45%. Crouch speed is capped at 4 m/s."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Sprint speed is set to 8 m/s by default and is capped at 9 m/s. This cap applies to regular Forward Walk Speed as well."
       }
      ]
     }
@@ -17439,7 +17182,7 @@
     {
      "linesContent": [
       {
-       "text": "• 45% increased Auto Aim Cone size"
+       "text": "• 45% increased Projectile Tracking Cone size"
       }
      ]
     },
@@ -19104,8 +18847,8 @@
  },
  "1193713026": {
   "hash": 1193713026,
-  "name": "Font of Restoration",
-  "lastUpload": 1679865752213,
+  "name": "Class Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -19113,7 +18856,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Recovery with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Class stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -19458,7 +19201,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Discipline with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Grenade stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -19958,7 +19701,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -19969,16 +19712,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -20121,7 +19854,7 @@
  "1301391064": {
   "hash": 1301391064,
   "name": "Harmonic Scavenger",
-  "lastUpload": 1727530279353,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -20139,28 +19872,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to Weapons matching your Super Element and the Ammo Type. This is increased to 10% with Trace Rifles and Swords, to 5% with "
-      },
-      {
-       "text": "Grand Overture",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " and "
-      },
-      {
-       "text": "Xenophage",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and to 2% with "
-      },
-      {
-       "text": "Choir of One",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to Weapons matching your Super Element and the Ammo Type."
       }
      ]
     },
@@ -20170,25 +19882,7 @@
     {
      "linesContent": [
       {
-       "text": "Eyes of Tomorrow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", "
-      },
-      {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": ", and "
-      },
-      {
-       "text": "Wardcliff Coil",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " do not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -20198,7 +19892,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -20275,13 +19969,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords."
+       "text": "Strand Weapons matching the Ammo Type."
       }
      ]
     },
@@ -20291,7 +19985,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -20515,9 +20219,7 @@
  "1341199512": {
   "hash": 1341199512,
   "name": "Devouring Rift",
-  "itemHash": 511888814,
-  "itemName": "Secant Filaments",
-  "lastUpload": 1738687242983,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -20563,7 +20265,15 @@
        "classNames": [ "void" ]
       },
       {
-       "text": "Devour active grant you ?% Class Ability energy."
+       "text": "Devour active grant you 10% Class Ability energy. Ability energy gained may be significantly decreased based on your selected ability's Chunk Energy Scalar. Learn more about this mechanic in "
+      },
+      {
+       "text": "our explainer blog post on the Clarity website",
+       "link": "https://url.d2clarity.com/chunk-energy-scalars",
+       "classNames": [ "link" ]
+      },
+      {
+       "text": "."
       }
      ]
     },
@@ -21348,9 +21058,7 @@
  "1420473289": {
   "hash": 1420473289,
   "name": "Blood Magic",
-  "itemHash": 3070555693,
-  "itemName": "Sanguine Alchemy",
-  "lastUpload": 1731793916910,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -21396,6 +21104,16 @@
      "linesContent": [
       {
        "text": "Blood Magic pauses the duration of Rifts for as long as it is active. Doesn't apply to Well of Radiance."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Swapping to Sanguine Alchemy in combat disables its effects for 10 seconds."
       }
      ]
     }
@@ -22345,7 +22063,7 @@
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapon Damage while you have active Armor Charges:"
+       "text": "Strand Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -22800,7 +22518,7 @@
  "1546142478": {
   "hash": 1546142478,
   "name": "Binary Orbit",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -22872,13 +22590,13 @@
     {
      "linesContent": [
       {
-       "text": "• "
+       "text": "• Kinetic, "
       },
       {
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis and "
+       "text": "Stasis, and "
       },
       {
        "classNames": [ "strand" ]
@@ -22912,7 +22630,7 @@
  "1546637391": {
   "hash": 1546637391,
   "name": "Vorpal Weapon",
-  "lastUpload": 1712883202187,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -22999,7 +22717,7 @@
        "classNames": [ "heavy" ]
       },
       {
-       "text": "Heavy Weapons: "
+       "text": "Power Weapons: "
       },
       {
        "text": "10%",
@@ -23010,6 +22728,30 @@
       },
       {
        "text": "[20%]",
+       "classNames": [ "pvp" ]
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "heavy" ]
+      },
+      {
+       "text": "Crossbows: "
+      },
+      {
+       "text": "32%",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[92?%]",
        "classNames": [ "pvp" ]
       }
      ]
@@ -23082,7 +22824,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " damage in a 5? meter radius. Shockwaves deal 33.33% more damage when activated on "
+       "text": " damage in a 6 meter radius. Shockwaves deal 33.33% more damage when activated on "
       },
       {
        "text": "Miniboss or higher tier",
@@ -23255,7 +22997,7 @@
     {
      "linesContent": [
       {
-       "text": "• Precision (180 RPM) Hand Cannons and Rapid-Fire (180 RPM) Scout Rifles: "
+       "text": "• Precision Hand Cannons and Precision Scout Rifles: "
       },
       {
        "text": "🡅",
@@ -23534,7 +23276,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -25162,7 +24904,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "void" ]
@@ -25181,16 +24923,6 @@
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
       }
      ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
-      }
-     ]
     }
    ]
   }
@@ -25206,7 +24938,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Recovery with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Class stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -25272,7 +25004,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -25707,7 +25439,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants the following to Weapons matching your Super Element 1 second after readying them:"
+       "text": "Grants the following to Weapons matching your Super Element ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -25943,7 +25675,7 @@
  "1727069361": {
   "hash": 1727069361,
   "name": "Spark of Frequency",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -25951,7 +25683,7 @@
     {
      "linesContent": [
       {
-       "text": "Scoring a Melee Hit grants 15 Stability, 50 Reload Speed, and a 0.8x Reload Duration Multiplier for 5 seconds."
+       "text": "Scoring a Melee Hit grants 15 Stability, 50 Reload Speed, and a 0.8x Reload Duration Multiplier for 5.25 seconds."
       }
      ]
     },
@@ -25974,20 +25706,20 @@
     {
      "linesContent": [
       {
-       "text": "• Stronger effect"
+       "text": "• Stronger? effect (no increase to the Reload Speed bonuses)"
       }
      ]
     },
     {
      "linesContent": [
       {
-       "text": "• All sources of "
+       "text": "• (Almost) all sources of "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Bolt Charge now grant an additional Stack"
+       "text": "Bolt Charge now grant an additional stack"
       }
      ]
     }
@@ -26161,7 +25893,7 @@
  "1727069365": {
   "hash": 1727069365,
   "name": "Spark of Momentum",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -26185,7 +25917,7 @@
        "classNames": [ "title" ]
       },
       {
-       "text": " your held weapon's magazine from reserves and grants 3 Stacks of "
+       "text": " your held weapon's magazine from reserves and grants 3 stacks of "
       },
       {
        "classNames": [ "arc" ]
@@ -26243,7 +25975,7 @@
  "1727069367": {
   "hash": 1727069367,
   "name": "Spark of Beacons",
-  "lastUpload": 1717539628564,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -26278,7 +26010,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Blinding enemies within ? meters of the target."
+       "text": "Blinding enemies within 7.5 meters of the target."
       }
      ]
     }
@@ -27072,8 +26804,8 @@
  },
  "1781551382": {
   "hash": 1781551382,
-  "name": "Font of Focus",
-  "lastUpload": 1679865752213,
+  "name": "Grenade Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -27081,7 +26813,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Discipline with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Grenade stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -27537,7 +27269,7 @@
  "1834163303": {
   "hash": 1834163303,
   "name": "Arc Weapon Surge",
-  "lastUpload": 1716120788496,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -27551,7 +27283,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapon Damage while you have active Armor Charges:"
+       "text": "Arc Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -28577,7 +28309,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Mobility with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Weapons stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -29173,9 +28905,7 @@
  "1939153390": {
   "hash": 1939153390,
   "name": "Close Enough",
-  "itemHash": 121305948,
-  "itemName": "Geomag Stabilizers",
-  "lastUpload": 1739032704660,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -29189,13 +28919,13 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Ionic Traces grants 7% Super Energy with "
+       "text": "Ionic Traces grants 4% "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Chaos Reach selected."
+       "text": "Chaos Reach Super Energy."
       }
      ]
     },
@@ -29205,19 +28935,19 @@
     {
      "linesContent": [
       {
-       "text": "While at 6 Stacks of "
+       "text": "While at 5 Stacks of "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Bolt Charge or higher, after having sprinted for at least 3.8 seconds, maintaining sprint grants you a Stack of "
+       "text": "Bolt Charge or higher, after having sprinted for at least 1.5 seconds, maintaining sprint grants you a Stack of "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Bolt Charge every 2 seconds."
+       "text": "Bolt Charge every 0.33 seconds."
       }
      ]
     },
@@ -29243,7 +28973,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Chaos Reach duration by ~120%."
+       "text": "Chaos Reach duration by up to ~120%."
       }
      ]
     }
@@ -29731,7 +29461,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to Weapons matching your Super Element with 1|2|3 Mods equipped."
+       "text": "Grants 20|40|50 Ammo Generation stat to Weapons matching your Super Element with 1|2|3 Mods equipped."
       }
      ]
     },
@@ -29742,16 +29472,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -30664,7 +30384,7 @@
  "2059068466": {
   "hash": 2059068466,
   "name": "Arc Dexterity",
-  "lastUpload": 1717548513901,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -30688,7 +30408,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -30807,7 +30527,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -32791,7 +32511,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants the following to Kinetic Weapons 1 second after readying them:"
+       "text": "Grants the following to Kinetic Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -33003,7 +32723,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapon Damage while you have active Armor Charges:"
+       "text": "Arc Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -33099,7 +32819,7 @@
  "2257238439": {
   "hash": 2257238439,
   "name": "Strand Scavenger",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -33117,13 +32837,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords."
+       "text": "Strand Weapons matching the Ammo Type."
       }
      ]
     },
@@ -33133,7 +32853,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -33177,7 +32907,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -33264,7 +32994,7 @@
  "2272984657": {
   "hash": 2272984657,
   "name": "Echo of Domineering",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -33308,7 +33038,7 @@
     {
      "linesContent": [
       {
-       "text": "• Grants 30 mobility for 10 seconds"
+       "text": "• Grants 30 Weapons stat for 10 seconds"
       }
      ]
     },
@@ -33357,7 +33087,7 @@
  "2272984664": {
   "hash": 2272984664,
   "name": "Echo of Provision",
-  "lastUpload": 1735009175023,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -33406,6 +33136,22 @@
       },
       {
        "text": "Chaos Accelerant aspect)"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Does not work with "
+      },
+      {
+       "classNames": [ "void" ]
+      },
+      {
+       "text": "Unbreakable."
       }
      ]
     },
@@ -33891,7 +33637,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapon Damage while you have active Armor Charges:"
+       "text": "Solar Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -34023,7 +33769,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "strand" ]
@@ -34040,16 +33786,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     },
@@ -34077,17 +33813,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to Kinetic Weapons with 1|2|3 Mods equipped."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
+       "text": "Grants 20|40|50 Ammo Generation stat to Kinetic Weapons with 1|2|3 Mods equipped."
       }
      ]
     }
@@ -34285,7 +34011,7 @@
     {
      "linesContent": [
       {
-       "text": "Increases Kinetic Weapon Damage while you have active Armor Charges:"
+       "text": "Increases Kinetic Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -34478,7 +34204,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Solar Weapon Damage while you have active Armor Charges:"
+       "text": "Solar Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -35256,17 +34982,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to Kinetic Weapons with 1|2|3 Mods equipped."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
+       "text": "Grants 20|40|50 Ammo Generation stat to Kinetic Weapons with 1|2|3 Mods equipped."
       }
      ]
     }
@@ -35284,7 +35000,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "void" ]
@@ -35301,16 +35017,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -35643,13 +35349,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 5% for Grand Overture."
+       "text": "Arc Weapons matching the Ammo Type."
       }
      ]
     },
@@ -35659,11 +35365,7 @@
     {
      "linesContent": [
       {
-       "text": "Wardcliff Coil",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " does not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -35673,7 +35375,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -35961,7 +35663,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -36246,7 +35948,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "10 of the 12 Shotgun Pellets in the spread improves Stability, Handling, and Reload Speed for 7 seconds."
+       "text": "10 of the 12 Pellets in the spread grants ? Stability, ? Handling, and 60 Reload Speed for 7 seconds."
       }
      ]
     },
@@ -36260,7 +35962,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": " Requires hitting with 1? fewer Shotgun Pellet to activate."
+       "text": " Requires hitting with 1? fewer Pellet to activate."
       }
      ]
     }
@@ -36288,7 +35990,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -37041,7 +36743,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "solar" ]
@@ -37058,16 +36760,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -37091,7 +36783,7 @@
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapon Damage while you have active Armor Charges:"
+       "text": "Stasis Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -38037,7 +37729,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants the following to Kinetic Weapons 1 second after readying them:"
+       "text": "Grants the following to Kinetic Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -38224,7 +37916,7 @@
  "2595839237": {
   "hash": 2595839237,
   "name": "Special Ammo Finder",
-  "lastUpload": 1735009175023,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38232,13 +37924,7 @@
     {
      "linesContent": [
       {
-       "text": "Spawns a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Ammo Brick upon scoring a Weapon Kill after reaching 100% Counter Progress. Counter is only progressed by Weapon Kills."
+       "text": "Grants a 1.25x|1.4x|1.5x multiplier to all Special Ammo Meter progress with 1|2|3 Mods equipped."
       }
      ]
     },
@@ -38248,161 +37934,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Finder Bricks grant 27.5%|60%|100% of a Regular Ammo Brick's Pickup Amount with 1|2|3 Mods equipped. Pickup Amount is determined on Brick Spawn."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Counter Progress on Weapon Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "1.66% to 1.8%. Average of 57.25 Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Progress Multiplier on Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons: 3.25x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapons:",
-       "classNames": [ "green" ]
-      },
-      {
-       "text": " 1.1x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "text": "Exotic",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons:",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " further 1.3?x on top of the Primary Multiplier (total of 4.225?⁠x)"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Playing Solo: 1.2?⁠x"
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Glaive Melee Kills count as "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Winterbite",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " Melee Kills count as "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Power Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Eriana's Vow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " inherits the Exotic Primary Multiplier but is still treated as a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapon."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks have less variablity compared to Regular Bricks. (i.e. they can't go as far above or under the average ammo amount granted)"
+       "text": "This works in the Crucible as well."
       }
      ]
     }
@@ -38585,9 +38117,7 @@
  "2618534366": {
   "hash": 2618534366,
   "name": "Absorption Cells",
-  "itemHash": 3301944824,
-  "itemName": "Mantle of Battle Harmony",
-  "lastUpload": 1731793916910,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38638,7 +38168,7 @@
     {
      "linesContent": [
       {
-       "text": "• Players: ?%"
+       "text": "• Players: 2.5?%"
       }
      ]
     },
@@ -38832,7 +38362,7 @@
  "2626922120": {
   "hash": 2626922120,
   "name": "Facet of Protection",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38854,7 +38384,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " Damage Resistance while within 15? meters of 3 enemies."
+       "text": " Damage Resistance while within 15 meters of 3 enemies."
       }
      ]
     },
@@ -38930,7 +38460,7 @@
  "2626922122": {
   "hash": 2626922122,
   "name": "Facet of Hope",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38938,7 +38468,17 @@
     {
      "linesContent": [
       {
-       "text": "Elemental buffs grant 60% Additional Base Class Ability Regeneration Rate."
+       "text": "Having an active elemental buff grants an additional 40% Base Class Ability Regeneration Rate."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Having 2+ active elemental buffs grants an additional 60% instead."
       }
      ]
     }
@@ -38948,7 +38488,7 @@
  "2626922123": {
   "hash": 2626922123,
   "name": "Facet of Solitude",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -38988,7 +38528,7 @@
        "classNames": [ "strand" ]
       },
       {
-       "text": "Sever to enemies in a 3? meter radius. Radius is increased to ? meters while Transcendent."
+       "text": "Sever to enemies in a 3 meter radius. Radius is increased to 6 meters while Transcendent."
       }
      ]
     },
@@ -39032,7 +38572,7 @@
  "2626922124": {
   "hash": 2626922124,
   "name": "Facet of Courage",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -39053,6 +38593,16 @@
       },
       {
        "text": "Strand elemental debuffs."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Light Melee Abilities in PVE instead deal an additional 50% of their base damage."
       }
      ]
     }
@@ -39120,7 +38670,7 @@
  "2626922126": {
   "hash": 2626922126,
   "name": "Facet of Dawn",
-  "lastUpload": 1738975855601,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -39134,7 +38684,7 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Radiant for 4 seconds."
+       "text": "Radiant for 5 seconds."
       }
      ]
     },
@@ -39372,7 +38922,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -39481,7 +39031,7 @@
  "2649291407": {
   "hash": 2649291407,
   "name": "Fastball",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -39489,7 +39039,7 @@
     {
      "linesContent": [
       {
-       "text": "Increases velocity of thrown grenade abilities by 25%."
+       "text": "Increases velocity of thrown grenade abilities by ~25%."
       }
      ]
     }
@@ -39545,7 +39095,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants the following to Weapons matching your Super Element 1 second after readying them:"
+       "text": "Grants the following to Weapons matching your Super Element ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -40315,7 +39865,7 @@
  "2679249093": {
   "hash": 2679249093,
   "name": "One-Two Punch",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -40323,21 +39873,55 @@
     {
      "linesContent": [
       {
-       "text": "Hitting a target with all 12 Shotgun Pellets in the spread increases the damage of your next Melee attack within 3 seconds by "
+       "text": "Hitting a target with all 12 Pellets in the spread increases the damage of your next Melee attack within 3 seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Melee Damage increase by weapon type:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Shotgun: 150% additional base melee damage"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Hand Cannon: "
       },
       {
-       "text": "150%",
+       "text": "75%",
        "classNames": [ "pve" ]
       },
       {
        "text": " "
       },
       {
-       "text": "[100%]",
+       "text": "[100?%]",
        "classNames": [ "pvp" ]
       },
       {
-       "text": ". Stowing the weapon removes the buff."
+       "text": " additional base melee damage"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Stowing the weapon removes the buff."
       }
      ]
     },
@@ -40486,9 +40070,7 @@
  "2710254013": {
   "hash": 2710254013,
   "name": "The Lost Voice",
-  "itemHash": 50291571,
-  "itemName": "Speaker's Sight",
-  "lastUpload": 1749077250275,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -40535,7 +40117,15 @@
     {
      "linesContent": [
       {
-       "text": "• Lasts 15 seconds and has 100? HP"
+       "text": "• Lasts 9 seconds and has 100? "
+      },
+      {
+       "text": "Construct",
+       "link": "https://url.d2clarity.com/combatants",
+       "classNames": [ "link" ]
+      },
+      {
+       "text": " HP"
       }
      ]
     },
@@ -40702,7 +40292,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -40713,16 +40303,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -41244,9 +40824,7 @@
  "2731901709": {
   "hash": 2731901709,
   "name": "Warlord's Sigil",
-  "itemHash": 3844826443,
-  "itemName": "Winter's Guile",
-  "lastUpload": 1731793916910,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -41271,7 +40849,7 @@
     {
      "linesContent": [
       {
-       "text": "55% | 110% | 165% | 220% | 275%"
+       "text": "55% | 110% | 165% | 220% | 400%"
       }
      ]
     },
@@ -41459,7 +41037,7 @@
  "2734674728": {
   "hash": 2734674728,
   "name": "Stasis Scavenger",
-  "lastUpload": 1723480728683,
+  "lastUpload": 1755984214899,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -41477,13 +41055,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords."
+       "text": "Stasis Weapons matching the Ammo Type."
       }
      ]
     },
@@ -41493,7 +41071,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -41667,7 +41255,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Strength with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Melee stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -42010,7 +41598,7 @@
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapons 1 second after readying them:"
+       "text": "Stasis Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -42058,7 +41646,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -42359,7 +41947,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -42552,7 +42140,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -42682,20 +42270,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords and to 2% with "
-      },
-      {
-       "text": "Choir of One",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": "."
+       "text": "Void Weapons matching the Ammo Type."
       }
      ]
     },
@@ -42705,11 +42286,7 @@
     {
      "linesContent": [
       {
-       "text": "Two-Tailed Fox",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " does not receive any extra ammo on pickups."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
       }
      ]
     },
@@ -42719,7 +42296,7 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -42757,7 +42334,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -42768,16 +42345,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -43071,6 +42638,78 @@
       },
       {
        "text": "."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2826938963": {
+  "hash": 2826938963,
+  "name": "Consul's Pitch",
+  "itemHash": 3481695565,
+  "itemName": "Eunoia",
+  "lastUpload": 1755986339031,
+  "type": "Armor Trait Exotic",
+  "uploadedBy": "Stardust",
+  "descriptions": {
+   "en": [
+    {
+     "linesContent": [
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Hellion projectiles deal 25% increased damage after being in flight for ? seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Hellion projectiles that have been in flight for for 1? second release 4 pieces of Shrapnel with slight tracking capabilities."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Shrapnel projectiles deal "
+      },
+      {
+       "text": "18",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[?]",
+       "classNames": [ "pvp" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Solar Damage and apply 5? stacks of "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch."
       }
      ]
     }
@@ -43419,7 +43058,7 @@
  "2859149211": {
   "hash": 2859149211,
   "name": "Beacon Rounds",
-  "lastUpload": 1731793916910,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -43478,7 +43117,7 @@
     {
      "linesContent": [
       {
-       "text": "• 45% increased Auto Aim Cone size"
+       "text": "• 45% increased Projectile Tracking Cone size"
       }
      ]
     }
@@ -44057,50 +43696,11 @@
  "2890807135": {
   "hash": 2890807135,
   "name": "Burning Ambition",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
    "en": [
-    {
-     "linesContent": [
-      {
-       "text": "Scoring multiple Direct Hits within 3? seconds of each causes the next Direct Hit to "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Scorch the target."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Hit counter persists through stow."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Scorch applied by Burning Ambition counts as Weapon Damage."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
     {
      "linesContent": [
       {
@@ -44116,7 +43716,120 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Scorch on a 0.5 second cooldown. (note: this part needs more testing)"
+       "text": "Scorch on a 0.5 second cooldown:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "primary" ]
+      },
+      {
+       "text": "Primary Weapons apply "
+      },
+      {
+       "text": "10",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[4]",
+       "classNames": [ "pvp" ]
+      },
+      {
+       "text": " additional "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch per Direct Hit ("
+      },
+      {
+       "text": "15",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[9?]",
+       "classNames": [ "pvp" ]
+      },
+      {
+       "text": " with "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Ember of Ashes)"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "special" ]
+      },
+      {
+       "text": "Special and "
+      },
+      {
+       "classNames": [ "heavy" ]
+      },
+      {
+       "text": "Power Weapons apply 20 additional "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch (20 with "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Ember of Ashes)"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Scoring multiple Direct Hits within 3? seconds of each causes the next Direct Hit to "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch the target. Hit counter persists through stow."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch applied by Burning Ambition to Unscorched targets counts as Weapon Damage."
       }
      ]
     },
@@ -44145,26 +43858,13 @@
     {
      "linesContent": [
       {
-       "text": "• Submachine Gun: ? Hits | ? "
+       "text": "• Auto Rifle: 29 Hits | 10 "
       },
       {
        "classNames": [ "solar" ]
       },
       {
        "text": "Scorch"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Auto Rifle: 29 Hits | "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "10"
       }
      ]
     },
@@ -44184,33 +43884,33 @@
     {
      "linesContent": [
       {
-       "text": "• Pulse Rifle: ? Hits | "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "?"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
        "text": "• Machine Gun: ? Hits | "
       },
       {
        "classNames": [ "solar" ]
       },
       {
-       "text": "?"
+       "text": "20"
       }
      ]
     },
     {
      "linesContent": [
       {
-       "text": "• Hand Cannon: ? Hits | "
+       "text": "• Pulse Rifle: 18  Hits | "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "10"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Hand Cannon, Submachine Gun: 70% of Magazine size rounded up Hits | "
       },
       {
        "classNames": [ "solar" ]
@@ -44715,7 +44415,7 @@
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapon Damage while you have active Armor Charges:"
+       "text": "Stasis Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -46450,7 +46150,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Arc Weapons 1 second after readying them:"
+       "text": "Arc Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -46759,7 +46459,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -46777,7 +46477,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Resilience with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Health stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -47069,7 +46769,7 @@
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapon Damage while you have active Armor Charges:"
+       "text": "Strand Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -47678,13 +47378,13 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Brick Pickups grants an additional 1% of your Total Reserves to "
+       "text": "Ammo Brick pickups generally grant an 1 additional ammo to "
       },
       {
        "classNames": [ "stasis" ]
       },
       {
-       "text": "Stasis Weapons matching the Ammo Type. This is increased to 10% with Trace Rifles and Swords."
+       "text": "Stasis Weapons matching the Ammo Type."
       }
      ]
     },
@@ -47694,7 +47394,17 @@
     {
      "linesContent": [
       {
-       "text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+       "text": "Machine Guns receive 7 additional ammo, Trace Rifles receive 10% of their Total Reserves (rounded up) as additional ammo."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Functions the same way regardless of what spawned the Ammo Brick."
       }
      ]
     },
@@ -48428,7 +48138,7 @@
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapons 1 second after readying them:"
+       "text": "Void Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -49122,7 +48832,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -49162,7 +48872,7 @@
  "3277705905": {
   "hash": 3277705905,
   "name": "Spark of Brilliance",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -49188,7 +48898,7 @@
        "classNames": [ "arc" ]
       },
       {
-       "text": "Blinding enemies within 3? meters."
+       "text": "Blinding enemies within 7.5 meters."
       }
      ]
     }
@@ -49232,7 +48942,7 @@
  "3277705907": {
   "hash": 3277705907,
   "name": "Spark of Feedback",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -49240,10 +48950,10 @@
     {
      "linesContent": [
       {
-       "text": "Being struck by a Melee Attack grants "
+       "text": "Being struck by a Melee Attack grants an additional "
       },
       {
-       "text": "75%",
+       "text": "100%",
        "classNames": [ "pve" ]
       },
       {
@@ -49254,7 +48964,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " increased Melee Damage for your next Melee Attack within 5 seconds."
+       "text": " of your base Melee damage for your next Melee Attack within 5 seconds."
       }
      ]
     },
@@ -49410,7 +49120,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "stasis" ]
@@ -49427,16 +49137,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -49846,7 +49546,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -50871,7 +50571,7 @@
        "classNames": [ "heavy" ]
       },
       {
-       "text": "Heavy Weapons: "
+       "text": "Power Weapons: "
       },
       {
        "text": "10%",
@@ -50882,6 +50582,30 @@
       },
       {
        "text": "[20%]",
+       "classNames": [ "pvp" ]
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "heavy" ]
+      },
+      {
+       "text": "Crossbows: "
+      },
+      {
+       "text": "32%",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[92?%]",
        "classNames": [ "pvp" ]
       }
      ]
@@ -51635,7 +51359,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Intellect with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Super stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -51663,7 +51387,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "stasis" ]
@@ -51680,16 +51404,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     }
@@ -51713,7 +51427,7 @@
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapon Damage while you have active Armor Charges:"
+       "text": "Void Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -51901,7 +51615,7 @@
  "3469412970": {
   "hash": 3469412970,
   "name": "Whisper of Hedrons",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -51919,28 +51633,14 @@
     {
      "linesContent": [
       {
-       "text": "• 60 Mobility, Resilience, and Recovery"
+       "text": "• ? Handling"
       }
      ]
     },
     {
      "linesContent": [
       {
-       "text": "• 30? Stability"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• 15 Aim Assist"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• 20 Airborne Effectiveness"
+       "text": "• 30 Health stat"
       }
      ]
     }
@@ -52101,7 +51801,7 @@
  "3478354816": {
   "hash": 3478354816,
   "name": "Spark of Instinct",
-  "lastUpload": 1732219732702,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -52125,7 +51825,7 @@
        "text": "Arc Energy, dealing "
       },
       {
-       "text": "50",
+       "text": "46",
        "classNames": [ "pve" ]
       },
       {
@@ -52162,7 +51862,7 @@
  "3478354817": {
   "hash": 3478354817,
   "name": "Spark of Haste",
-  "lastUpload": 1714219892088,
+  "lastUpload": 1755984214899,
   "type": "Subclass Fragment",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -52170,14 +51870,7 @@
     {
      "linesContent": [
       {
-       "text": "After 1.25 seconds of sprinting and while maintaining both sprint and a movement speed of at least 5 meters per second:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Grants 20 Mobility, Resilience, and Recovery."
+       "text": "Grants 50 Health stat after 1.25 seconds of sprinting and while maintaining both sprint and a movement speed of at least 5 meters per second."
       }
      ]
     }
@@ -53264,7 +52957,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -53321,7 +53014,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -53339,45 +53032,6 @@
     {
      "linesContent": [
       {
-       "text": "Scoring multiple Direct Hits within 3? seconds of each causes the next Direct Hit to "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Scorch the target."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Hit counter persists through stow."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Scorch applied by Burning Ambition counts as Weapon Damage."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
        "text": "Direct Hits against "
       },
       {
@@ -53390,7 +53044,120 @@
        "classNames": [ "solar" ]
       },
       {
-       "text": "Scorch on a 0.5 second cooldown. (note: this part needs more testing)"
+       "text": "Scorch on a 0.5 second cooldown:"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "primary" ]
+      },
+      {
+       "text": "Primary Weapons apply "
+      },
+      {
+       "text": "10",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[4]",
+       "classNames": [ "pvp" ]
+      },
+      {
+       "text": " additional "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch per Direct Hit ("
+      },
+      {
+       "text": "15",
+       "classNames": [ "pve" ]
+      },
+      {
+       "text": " "
+      },
+      {
+       "text": "[9?]",
+       "classNames": [ "pvp" ]
+      },
+      {
+       "text": " with "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Ember of Ashes)"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• "
+      },
+      {
+       "classNames": [ "special" ]
+      },
+      {
+       "text": "Special and "
+      },
+      {
+       "classNames": [ "heavy" ]
+      },
+      {
+       "text": "Power Weapons apply 20 additional "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch (20 with "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Ember of Ashes)"
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Scoring multiple Direct Hits within 3? seconds of each causes the next Direct Hit to "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch the target. Hit counter persists through stow."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "Scorch applied by Burning Ambition to Unscorched targets counts as Weapon Damage."
       }
      ]
     },
@@ -53419,26 +53186,6 @@
     {
      "linesContent": [
       {
-       "text": "• Submachine Gun: "
-      },
-      {
-       "text": "🡅",
-       "classNames": [ "enhancedArrow" ]
-      },
-      {
-       "text": "? Hits | ? "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Scorch"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
        "text": "• Auto Rifle: "
       },
       {
@@ -53446,13 +53193,13 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "26 Hits | "
+       "text": "26 Hits | 10 "
       },
       {
        "classNames": [ "solar" ]
       },
       {
-       "text": "10"
+       "text": "Scorch"
       }
      ]
     },
@@ -53479,26 +53226,6 @@
     {
      "linesContent": [
       {
-       "text": "• Pulse Rifle: "
-      },
-      {
-       "text": "🡅",
-       "classNames": [ "enhancedArrow" ]
-      },
-      {
-       "text": "14 Hits | "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "?"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
        "text": "• Machine Gun: "
       },
       {
@@ -53506,27 +53233,47 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "? Hits | "
+       "text": "16 Hits | "
       },
       {
        "classNames": [ "solar" ]
       },
       {
-       "text": "?"
+       "text": "20"
       }
      ]
     },
     {
      "linesContent": [
       {
-       "text": "• Hand Cannon: "
+       "text": "• Pulse Rifle: "
       },
       {
        "text": "🡅",
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "10 Hits | "
+       "text": "14  Hits | "
+      },
+      {
+       "classNames": [ "solar" ]
+      },
+      {
+       "text": "10"
+      }
+     ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "• Hand Cannon, Submachine Gun: "
+      },
+      {
+       "text": "🡅",
+       "classNames": [ "enhancedArrow" ]
+      },
+      {
+       "text": "50% of Magazine size rounded up Hits | "
       },
       {
        "classNames": [ "solar" ]
@@ -53546,7 +53293,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "? Hits | "
+       "text": "3 Hits | "
       },
       {
        "classNames": [ "solar" ]
@@ -53586,7 +53333,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "1 Hits | "
+       "text": "1 Hit | "
       },
       {
        "classNames": [ "solar" ]
@@ -54028,7 +53775,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -54039,16 +53786,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -55035,7 +54772,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -55253,7 +54990,7 @@
     {
      "linesContent": [
       {
-       "text": "Dealing Explosive damage grants a stack of 'Blast Distributor' for 5? seconds. Maximum of 5 stacks."
+       "text": "Dealing Explosive damage grants a stack of 'Blast Distributor' for 5 seconds. Maximum of 5 stacks."
       }
      ]
     },
@@ -55270,7 +55007,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": "10 Grenade stat per stack."
+       "text": "13 Grenade stat per stack."
       }
      ]
     },
@@ -55284,7 +55021,7 @@
        "classNames": [ "enhancedArrow" ]
       },
       {
-       "text": " Grants 1? more Grenade stat per stack."
+       "text": " Grants 3 more Grenade stat per stack."
       }
      ]
     }
@@ -56260,13 +55997,7 @@
     {
      "linesContent": [
       {
-       "text": "Spawns a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Ammo Brick upon scoring a Weapon Kill after reaching 100% Counter Progress. Counter is only progressed by Weapon Kills."
+       "text": "Grants a 1.25x|1.4x|1.5x multiplier to all Special Ammo Meter progress with 1|2|3 Mods equipped."
       }
      ]
     },
@@ -56276,161 +56007,7 @@
     {
      "linesContent": [
       {
-       "text": "Ammo Finder Bricks grant 27.5%|60%|100% of a Regular Ammo Brick's Pickup Amount with 1|2|3 Mods equipped. Pickup Amount is determined on Brick Spawn."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Counter Progress on Weapon Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "1.66% to 1.8%. Average of 57.25 Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Progress Multiplier on Kills:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons: 3.25x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapons:",
-       "classNames": [ "green" ]
-      },
-      {
-       "text": " 1.1x"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• "
-      },
-      {
-       "text": "Exotic",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapons:",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " further 1.3?x on top of the Primary Multiplier (total of 4.225?⁠x)"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Playing Solo: 1.2?⁠x"
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Glaive Melee Kills count as "
-      },
-      {
-       "classNames": [ "primary" ]
-      },
-      {
-       "text": "Primary Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Winterbite",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " Melee Kills count as "
-      },
-      {
-       "classNames": [ "heavy" ]
-      },
-      {
-       "text": "Power Weapon Kills."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Eriana's Vow",
-       "classNames": [ "yellow" ]
-      },
-      {
-       "text": " inherits the Exotic Primary Multiplier but is still treated as a "
-      },
-      {
-       "classNames": [ "special" ]
-      },
-      {
-       "text": "Special Weapon."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Ammo Finder Bricks have less variablity compared to Regular Bricks. (i.e. they can't go as far above or under the average ammo amount granted)"
+       "text": "This works in the Crucible as well."
       }
      ]
     }
@@ -56487,7 +56064,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -56738,7 +56315,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -57720,7 +57297,7 @@
  "3891536761": {
   "hash": 3891536761,
   "name": "Kinetic Tremors",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -57762,7 +57339,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " damage in a 5? meter radius. Shockwaves deal 33.33% more damage when activated on "
+       "text": " damage in a 6 meter radius. Shockwaves deal 33.33% more damage when activated on "
       },
       {
        "text": "Miniboss or higher tier",
@@ -57886,7 +57463,7 @@
     {
      "linesContent": [
       {
-       "text": "• Precision (180 RPM) Hand Cannons and Rapid-Fire (180 RPM) Scout Rifles: 6"
+       "text": "• Precision Hand Cannons and Precision Scout Rifles: 6"
       }
      ]
     },
@@ -58092,7 +57669,7 @@
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapon Damage while you have active Armor Charges:"
+       "text": "Void Weapon damage while you have active Armor Charges:"
       }
      ]
     },
@@ -58454,9 +58031,7 @@
  "3927963103": {
   "hash": 3927963103,
   "name": "Conduction Tines",
-  "itemHash": 3381022969,
-  "itemName": "Crown of Tempests",
-  "lastUpload": 1739032704660,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -58534,13 +58109,13 @@
     {
      "linesContent": [
       {
-       "text": "• 22%|44%|66% Decreased Passive Super Drain (with the exception of "
+       "text": "• 22%|44%|66% decreased Passive "
       },
       {
        "classNames": [ "arc" ]
       },
       {
-       "text": "Chaos Reach)"
+       "text": "Stormtrance Super Drain"
       }
      ]
     }
@@ -58568,7 +58143,7 @@
     {
      "linesContent": [
       {
-       "text": "Performs an evasive maneuver in your movement input's direction."
+       "text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
       }
      ]
     },
@@ -58579,16 +58154,6 @@
      "linesContent": [
       {
        "text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Instantly reloads your held weapon upon dodging."
       }
      ]
     },
@@ -59044,7 +58609,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
@@ -59308,7 +58873,7 @@
     {
      "linesContent": [
       {
-       "text": "Stow Animation Duration cannot be reduced below what it would be at 100 Handling."
+       "text": "Stow Animation Duration cannot be decreased below what it would be at 100 Handling."
       }
      ]
     }
@@ -59373,7 +58938,7 @@
        "classNames": [ "void" ]
       },
       {
-       "text": "Void Weapons 1 second after readying them:"
+       "text": "Void Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -60186,7 +59751,7 @@
  "4042220767": {
   "hash": 4042220767,
   "name": "Bolt Scavenger",
-  "lastUpload": 1753831097929,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -60194,7 +59759,17 @@
     {
      "linesContent": [
       {
-       "text": "Picking up a Crossbow Bolt grants ? Handling and ? Reload Speed for 15 seconds."
+       "text": "Picking up a Crossbow Bolt grants ? Handling and ? Reload Speed for 4 seconds."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Picking up additional Bolts adds 3? seconds to the buff duration up to the maximum of 15 seconds."
       }
      ]
     }
@@ -60293,8 +59868,8 @@
  },
  "4046357305": {
   "hash": 4046357305,
-  "name": "Font of Agility",
-  "lastUpload": 1679865752213,
+  "name": "Weapons Font",
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -60302,7 +59877,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 30|50|60 Mobility with 1|2|3 Mods equipped while you have active Armor Charges."
+       "text": "Grants 20|40|50 Weapons stat with 1|2|3 Mods equipped while you have active Armor Charges."
       }
      ]
     },
@@ -60692,7 +60267,7 @@
  "4087056174": {
   "hash": 4087056174,
   "name": "Recuperation",
-  "lastUpload": 1732219732702,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -60700,17 +60275,7 @@
     {
      "linesContent": [
       {
-       "text": "Orb of Power Pickups immediately restore 70 HP."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Equipping multiple copies provides no benefit."
+       "text": "Orb of Power Pickups immediately restore 15|75|75 HP with 1|2|3 Mods equipped."
       }
      ]
     }
@@ -61636,9 +61201,7 @@
  "4174493725": {
   "hash": 4174493725,
   "name": "Insatiable",
-  "itemHash": 1096253259,
-  "itemName": "Apotheosis Veil",
-  "lastUpload": 1727530279353,
+  "lastUpload": 1755986339031,
   "type": "Armor Trait Exotic",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -61646,27 +61209,7 @@
     {
      "linesContent": [
       {
-       "text": "On Super Ability activation:"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Fully restores Health, Grenade, Melee, and Class Ability Energy"
-      }
-     ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "• Grants "
-      },
-      {
-       "classNames": [ "solar" ]
-      },
-      {
-       "text": "Cure x3 to allies within ? meters"
+       "text": "Super Ability activation fully restores Health, Grenade, Melee, and Class Ability Energy for you and allies within ? meters."
       }
      ]
     },
@@ -62138,10 +61681,38 @@
    ]
   }
  },
+ "4190679284": {
+  "hash": 4190679284,
+  "name": "Proximity Power",
+  "lastUpload": 1755815364903,
+  "type": "Weapon Trait",
+  "uploadedBy": "Stardust",
+  "descriptions": {
+   "en": [
+    {
+     "linesContent": [
+      {
+       "text": "Weapon Kills while within 15 meters of enemies grant a stack of Proximity Power 10 seconds. Maximum of 3 stacks."
+      }
+     ]
+    },
+    {
+     "classNames": [ "spacer" ]
+    },
+    {
+     "linesContent": [
+      {
+       "text": "Each stack grants 15 Melee stat."
+      }
+     ]
+    }
+   ]
+  }
+ },
  "4198902903": {
   "hash": 4198902903,
   "name": "Detonator Beam",
-  "lastUpload": 1743183422022,
+  "lastUpload": 1755815364903,
   "type": "Weapon Trait",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -62152,7 +61723,7 @@
        "text": "Scoring 25 Hits within ? seconds of each triggers an explosion around the target, dealing up to "
       },
       {
-       "text": "266",
+       "text": "250",
        "classNames": [ "pve" ]
       },
       {
@@ -62163,7 +61734,7 @@
        "classNames": [ "pvp" ]
       },
       {
-       "text": " weapon element-matching damage in a ? meter radius."
+       "text": " weapon element-matching damage in a 8 meter radius."
       }
      ]
     }
@@ -63225,7 +62796,7 @@
        "classNames": [ "strand" ]
       },
       {
-       "text": "Strand Weapons 1 second after readying them:"
+       "text": "Strand Weapons ~0.5 seconds after readying them:"
       }
      ]
     },
@@ -63964,7 +63535,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "arc" ]
@@ -63983,16 +63554,6 @@
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
       }
      ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
-      }
-     ]
     }
    ]
   }
@@ -64008,7 +63569,7 @@
     {
      "linesContent": [
       {
-       "text": "Grants 20|40|50 Inventory Size Stat to "
+       "text": "Grants 20|40|50 Ammo Generation stat to "
       },
       {
        "classNames": [ "strand" ]
@@ -64025,16 +63586,6 @@
      "linesContent": [
       {
        "text": "Swords receive 20|30|35 Ammo Capacity Stat instead (these values are the equivalent of having Hungry Edge, Backup Mag, or Enduring Blade equipped respectively)."
-      }
-     ]
-    },
-    {
-     "classNames": [ "spacer" ]
-    },
-    {
-     "linesContent": [
-      {
-       "text": "Total Ammo Reserves are determined by both the Inventory Size and Magazine Stats."
       }
      ]
     },
@@ -64201,7 +63752,7 @@
  "4294909663": {
   "hash": 4294909663,
   "name": "Arc Holster",
-  "lastUpload": 1731793916910,
+  "lastUpload": 1755815364903,
   "type": "Armor Mod General",
   "uploadedBy": "Stardust",
   "descriptions": {
@@ -64248,7 +63799,7 @@
     {
      "linesContent": [
       {
-       "text": "Does not work with Breech-Loaded Grenades Launchers and Rocket Launchers."
+       "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers."
       }
      ]
     }
