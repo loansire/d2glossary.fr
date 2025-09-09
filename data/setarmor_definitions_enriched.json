@@ -89,7 +89,7 @@
         "sandboxPerkHash": 2140508055,
         "displayProperties": {
           "name": "Convertisseur de force",
-          "description": "Après un frag avec un lance-roquettes ou un lance-grenades, sprintez pendant un court moment pour obtenir un boost de vitesse.",
+          "description": "Après un frag avec un lance-roquettes, un lance-grenades ou un micro-missile, sprintez pendant un court moment pour obtenir Boost de vitesse.",
           "icon": "/common/destiny2_content/icons/005db44d00a46515888db51ffd60f1bd.png"
         }
       },
@@ -195,7 +195,7 @@
         "sandboxPerkHash": 2840280305,
         "displayProperties": {
           "name": "Absorption de force",
-          "description": "Les frags avec un lance-roquettes ou un lance-grenades réduisent temporairement les dégâts de zone subis.",
+          "description": "Les frags avec un lance-roquettes, un lance-grenades ou un micro-missile réduisent temporairement les dégâts de zone subis.",
           "icon": "/common/destiny2_content/icons/93c69df9a8c648602b10844524e8a0e6.png"
         }
       },
@@ -831,7 +831,7 @@
         "sandboxPerkHash": 4048287940,
         "displayProperties": {
           "name": "Photogalvanisation",
-          "description": "Recevoir des soins confère temporairement à vos \narmes solaires une résistance au sursaut, un maniement et une vitesse de rechargement améliorés.",
+          "description": "Recevoir des soins confère temporairement à vos armes solaires une résistance au sursaut, un maniement et une vitesse de rechargement améliorés.",
           "icon": "/common/destiny2_content/icons/3c9918529fb85eb95b151c2461b63b9c.png"
         }
       },
@@ -846,5 +846,429 @@
       }
     ],
     "hash": 3737690559
+  },
+  "2751989785": {
+    "displayProperties": {
+      "description": "",
+      "name": "Ensemble des âmes désespérées",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 2280816555,
+        "name": "Poings de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/c6ceeb9a5751180bdd7c99439a4c52ab.jpg"
+      },
+      {
+        "hash": 1003997240,
+        "name": "Cape de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/4e700b992eb737d488fb0063aab4300e.jpg"
+      },
+      {
+        "hash": 2348082405,
+        "name": "Veste de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/7e7d150111d951216eccd6e33b0c34ca.jpg"
+      },
+      {
+        "hash": 2941172034,
+        "name": "Masque de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/475986be57c419c59cc9e012d2a6e479.jpg"
+      },
+      {
+        "hash": 3755454909,
+        "name": "Foulées de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/fa5767371f6873a19922ef485008fb16.jpg"
+      },
+      {
+        "hash": 589006711,
+        "name": "Gantelets de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/b8e1d123fbda5049b7f76cdbb2fd40dd.jpg"
+      },
+      {
+        "hash": 4129998876,
+        "name": "Fanion de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/eb7f47e45fac99fd61abcd6bc2be938f.jpg"
+      },
+      {
+        "hash": 3347493825,
+        "name": "Plate de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/799eb8cb8363a5126e75ae4634fbd87a.jpg"
+      },
+      {
+        "hash": 1575046822,
+        "name": "Heaume de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/4e90e5c4d3ff901637802b09f90640e5.jpg"
+      },
+      {
+        "hash": 2397541401,
+        "name": "Bottes de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/15c3a83be21ce72bc8622ad059527ab7.jpg"
+      },
+      {
+        "hash": 986078848,
+        "name": "Gants de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/e07b72b8e9c7941dea60de3f8968ea2a.jpg"
+      },
+      {
+        "hash": 1619647653,
+        "name": "Brassard de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/45530d62a27340d0dc3d92db020bdd7c.jpg"
+      },
+      {
+        "hash": 3788059976,
+        "name": "Cuirasse de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/c2ea0ea3b11564e933786d6d5881c516.jpg"
+      },
+      {
+        "hash": 3577550601,
+        "name": "Coiffe de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/64a2ccd7d7fb9cc09056486e945c8fa3.jpg"
+      },
+      {
+        "hash": 63899322,
+        "name": "Bottes de pompier parachutiste",
+        "icon": "/common/destiny2_content/icons/329339b9da159ae8938a02204e068dc1.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 3078673682,
+        "displayProperties": {
+          "name": "Lutter ensemble, mourir ensemble",
+          "description": "Quand vous ramassez un orbe de puissance, vous gagnez une brève période de réduction des dégâts qui faiblit rapidement.",
+          "icon": "/common/destiny2_content/icons/e752466e7923c7137927722f38f18550.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 3078673683,
+        "displayProperties": {
+          "name": "Trop vieux pour tout ça",
+          "description": "Éliminer un combattant puissant avec un coup de grâce vous confère de la progression de munitions spéciales et restaure une petite quantité de santé.",
+          "icon": "/common/destiny2_content/icons/a76d27306334a934577ef92a037f2ce0.png"
+        }
+      }
+    ],
+    "hash": 2751989785
+  },
+  "2947197258": {
+    "displayProperties": {
+      "description": "",
+      "name": "Allégeance prodigieuse",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 517814638,
+        "name": "Poings du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/add40217328f6b3b8d86e237b3f4b31a.jpg"
+      },
+      {
+        "hash": 3957372883,
+        "name": "Cape du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/f77d74262891259b867445cc883d3438.jpg"
+      },
+      {
+        "hash": 438409602,
+        "name": "Veste du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/33ed2590118bf2ebaf69c7b9ae358c97.jpg"
+      },
+      {
+        "hash": 2571112423,
+        "name": "Masque du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/6044b804c1febbfd5cda96de5f1e9a0c.jpg"
+      },
+      {
+        "hash": 2600892776,
+        "name": "Foulées du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/8236316d0f99e55b3e129182dcd9dfbd.jpg"
+      },
+      {
+        "hash": 250597586,
+        "name": "Gantelets du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/810b0805a2465186699e6598f3f7ef00.jpg"
+      },
+      {
+        "hash": 2757996223,
+        "name": "Fanion du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/8accb9f3b6d8ad549f500bbccc6c9ef5.jpg"
+      },
+      {
+        "hash": 3428369046,
+        "name": "Plate du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/7bc074e1bb1c6c30e197b591e73e9149.jpg"
+      },
+      {
+        "hash": 3408026115,
+        "name": "Heaume du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/73fe7526d5d046fad9a554936cf2263e.jpg"
+      },
+      {
+        "hash": 651836012,
+        "name": "Grèves du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/bcb9e0ea22716faa8be08bddf050ea25.jpg"
+      },
+      {
+        "hash": 2557300061,
+        "name": "Gants du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/ddbc1b71b0fa2553636bc3017f0a62aa.jpg"
+      },
+      {
+        "hash": 1703017178,
+        "name": "Brassard du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/dfdecf4113f271ef24914dc68888d692.jpg"
+      },
+      {
+        "hash": 2804194275,
+        "name": "Cuirasse du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/168315d6fcccb08c1bd32a8bca87cc60.jpg"
+      },
+      {
+        "hash": 2992986244,
+        "name": "Coiffe du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/6ae53f7ef0a29ed7156d517cc1a0528a.jpg"
+      },
+      {
+        "hash": 586381823,
+        "name": "Bottes du corps anti-désastres",
+        "icon": "/common/destiny2_content/icons/5fb6ca1e1bcd39ceefdb8dd8620f8441.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 2513809221,
+        "displayProperties": {
+          "name": "Plaidoyers entendus",
+          "description": "Recharger un fusil automatique, un fusil d'éclaireur ou un pistolet après un frag restaure de la santé jusqu'à ce que vous repreniez le combat.",
+          "icon": "/common/destiny2_content/icons/ff4d0d19141fee88ce61994a3aea8bbc.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 2513809220,
+        "displayProperties": {
+          "name": "Devoir magnifique",
+          "description": "Quand votre santé est critique ou que vous soignez un allié dont la santé est critique, les fusils automatiques, les fusils d'éclaireur et les pistolets gagnent une brève période de portée, de stabilité et de vitesse de rechargement améliorées.",
+          "icon": "/common/destiny2_content/icons/5dee6c3209d00db6558954aec7fa7219.png"
+        }
+      }
+    ],
+    "hash": 2947197258
+  },
+  "2450108908": {
+    "displayProperties": {
+      "description": "",
+      "name": "Déviants débridés",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 1575226736,
+        "name": "Manches de psyché rétive",
+        "icon": "/common/destiny2_content/icons/44b7442da431a6dbbc279e4e7923d85c.jpg"
+      },
+      {
+        "hash": 1550311576,
+        "name": "Cuirasse de psyché rétive",
+        "icon": "/common/destiny2_content/icons/91d1ab197ce1fd8f804dbf7ae794fda2.jpg"
+      },
+      {
+        "hash": 4240773301,
+        "name": "Cape de psyché rétive",
+        "icon": "/common/destiny2_content/icons/9c87e6dae2fae8a0f329b861f97028eb.jpg"
+      },
+      {
+        "hash": 2061864953,
+        "name": "Casque de psyché rétive",
+        "icon": "/common/destiny2_content/icons/be06d5a247f7ec92daf875bcee42e27c.jpg"
+      },
+      {
+        "hash": 1892285258,
+        "name": "Foulées de psyché rétive",
+        "icon": "/common/destiny2_content/icons/692803637fe17219fdd66cf93f2b1231.jpg"
+      },
+      {
+        "hash": 3110734908,
+        "name": "Gantelets de psyché rétive",
+        "icon": "/common/destiny2_content/icons/178de001e4978d5a1c00457a127d22cf.jpg"
+      },
+      {
+        "hash": 2919430564,
+        "name": "Plate de psyché rétive",
+        "icon": "/common/destiny2_content/icons/d46767331068cd8437630e01cb7bff98.jpg"
+      },
+      {
+        "hash": 3663260665,
+        "name": "Fanion de psyché rétive",
+        "icon": "/common/destiny2_content/icons/e430fab1190c501ef6f3704b97e26b80.jpg"
+      },
+      {
+        "hash": 2458069069,
+        "name": "Heaume de psyché rétive",
+        "icon": "/common/destiny2_content/icons/f1058184f5eb0acd761acf8c10873e0b.jpg"
+      },
+      {
+        "hash": 2496543558,
+        "name": "Grèves de psyché rétive",
+        "icon": "/common/destiny2_content/icons/2ea132c7a4f3ac1647fb0518877a52aa.jpg"
+      },
+      {
+        "hash": 2578879401,
+        "name": "Gants de psyché rétive",
+        "icon": "/common/destiny2_content/icons/188a96c35f6eaf06e7292cd7f1e360d5.jpg"
+      },
+      {
+        "hash": 1182916911,
+        "name": "Robe de psyché rétive",
+        "icon": "/common/destiny2_content/icons/12a325b032af4dae79bd760354558b5a.jpg"
+      },
+      {
+        "hash": 2896109758,
+        "name": "Brassard de psyché rétive",
+        "icon": "/common/destiny2_content/icons/8220a6e7317af8723da49554a13f4f4e.jpg"
+      },
+      {
+        "hash": 2115178968,
+        "name": "Cagoule de psyché rétive",
+        "icon": "/common/destiny2_content/icons/a76d594fc4adbf8838d86db41066218a.jpg"
+      },
+      {
+        "hash": 2404890235,
+        "name": "Bottes de psyché rétive",
+        "icon": "/common/destiny2_content/icons/d121c71ef91631b3c6395e5a3c37b0e0.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 3376007203,
+        "displayProperties": {
+          "name": "Relativité spéciale",
+          "description": "Ramasser des munitions recharge les armes rangées à partir des réserves.",
+          "icon": "/common/destiny2_content/icons/daf157f0334a83d1870ef0f325b1c25a.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 3376007202,
+        "displayProperties": {
+          "name": "Mouvement superluminique",
+          "description": "Après avoir infligé des dégâts avec votre Super, votre santé et vos boucliers se régénèrent au fil du temps lorsque vous êtes en mouvement. Les dégâts supplémentaires de Super renouvellent cet effet.",
+          "icon": "/common/destiny2_content/icons/bfaac852d350fb7cabb9a7a06deef4a6.png"
+        }
+      }
+    ],
+    "hash": 2450108908
+  },
+  "305966751": {
+    "displayProperties": {
+      "description": "",
+      "name": "Ensemble bichromatique de fer",
+      "iconHash": 0,
+      "hasIcon": false
+    },
+    "setItems": [
+      {
+        "hash": 1800556337,
+        "name": "Poings de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/fb104957d2570e0038891d40159bf364.jpg"
+      },
+      {
+        "hash": 2195844199,
+        "name": "Veste de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/36d8baf738ec1edaddd8aa4a2b22f625.jpg"
+      },
+      {
+        "hash": 2911341942,
+        "name": "Cape de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/0703f594b6f3e9761526dc3fb0a6bce9.jpg"
+      },
+      {
+        "hash": 4193009504,
+        "name": "Masque de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/1d0ac0747ad748ef67d35c37c8b22d59.jpg"
+      },
+      {
+        "hash": 1631809155,
+        "name": "Foulées de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/a9579806ee10cd4f5cfa2e858727e6fa.jpg"
+      },
+      {
+        "hash": 3578811197,
+        "name": "Gantelets de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/1acaa62b7850cec485d767374bdd7304.jpg"
+      },
+      {
+        "hash": 4126332611,
+        "name": "Plate de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/3ebb0d9af2c20d432d1edb52429a8019.jpg"
+      },
+      {
+        "hash": 3408036410,
+        "name": "Fanion de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/f97a9d82da0303ca7d1bae714b3a84cc.jpg"
+      },
+      {
+        "hash": 3631616612,
+        "name": "Heaume de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/8d8243a0ee6252558f82d4f79492309d.jpg"
+      },
+      {
+        "hash": 1649469535,
+        "name": "Grèves de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/2293d2032b7dd00cbf851b2f1d5bab65.jpg"
+      },
+      {
+        "hash": 717101494,
+        "name": "Gants de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/423235f38eb545828d133402e01587df.jpg"
+      },
+      {
+        "hash": 3053825914,
+        "name": "Cuirasse de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/1510acb721603b03fce5ad1cdb39b8e7.jpg"
+      },
+      {
+        "hash": 2702279243,
+        "name": "Brassard de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/b1abec8ff532f85b30b2f29eec623ed8.jpg"
+      },
+      {
+        "hash": 2898513455,
+        "name": "Coiffe de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/3e27ec986e7976f65d1908de6bae66ab.jpg"
+      },
+      {
+        "hash": 1929483792,
+        "name": "Bottes de béryllium ferreux",
+        "icon": "/common/destiny2_content/icons/6460dd5baf7b961b3e4ffda466bad35d.jpg"
+      }
+    ],
+    "setPerks": [
+      {
+        "requiredSetCount": 2,
+        "sandboxPerkHash": 3157066724,
+        "displayProperties": {
+          "name": "Garde vigilante",
+          "description": "Quand votre santé baisse, vos armes obtiennent une stabilité et un maniement améliorés. Les frags à l'arme quand vos boucliers sont épuisés vous soignent.",
+          "icon": "/common/destiny2_content/icons/141304b7b66d2b8fad5b72c4ad29c40f.png"
+        }
+      },
+      {
+        "requiredSetCount": 4,
+        "sandboxPerkHash": 3157066725,
+        "displayProperties": {
+          "name": "Conviction de fer",
+          "description": "Quand vos boucliers sont brisés, vous améliorez votre génération de munitions, votre résistance au sursaut et votre résistance aux dégâts contre les combattants proches pendant une courte durée. Les frags prolongent cet effet.",
+          "icon": "/common/destiny2_content/icons/729f24f6efeca3f59162885c8eddbaf3.png"
+        }
+      }
+    ],
+    "hash": 305966751
   }
 }
