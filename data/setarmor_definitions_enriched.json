@@ -850,7 +850,7 @@
   "2751989785": {
     "displayProperties": {
       "description": "",
-      "name": "Ensemble des âmes désespérées",
+      "name": "Ensemble de pompier parachutiste",
       "iconHash": 0,
       "hasIcon": false
     },
@@ -956,7 +956,7 @@
   "2947197258": {
     "displayProperties": {
       "description": "",
-      "name": "Allégeance prodigieuse",
+      "name": "Ensemble du corps anti-désastres",
       "iconHash": 0,
       "hasIcon": false
     },
@@ -1062,7 +1062,7 @@
   "2450108908": {
     "displayProperties": {
       "description": "",
-      "name": "Déviants débridés",
+      "name": "Ensemble de psyché rétive",
       "iconHash": 0,
       "hasIcon": false
     },
@@ -1168,85 +1168,85 @@
   "305966751": {
     "displayProperties": {
       "description": "",
-      "name": "Ensemble bichromatique de fer",
+      "name": "Ensemble de panoplie en fer",
       "iconHash": 0,
       "hasIcon": false
     },
     "setItems": [
       {
         "hash": 1800556337,
-        "name": "Poings de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/fb104957d2570e0038891d40159bf364.jpg"
+        "name": "Poings de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/2e0ba83031eefb92247896e94c0d46cf.jpg"
       },
       {
         "hash": 2195844199,
-        "name": "Veste de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/36d8baf738ec1edaddd8aa4a2b22f625.jpg"
+        "name": "Veste de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/fb36f126a6c23fa96b517cb698fcd196.jpg"
       },
       {
         "hash": 2911341942,
-        "name": "Cape de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/0703f594b6f3e9761526dc3fb0a6bce9.jpg"
+        "name": "Cape de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/6d266f3e5f594c7c3f8a468c33cd217d.jpg"
       },
       {
         "hash": 4193009504,
-        "name": "Masque de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/1d0ac0747ad748ef67d35c37c8b22d59.jpg"
+        "name": "Masque de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/51c6c956d8c8779ecbe9db35b4299564.jpg"
       },
       {
         "hash": 1631809155,
-        "name": "Foulées de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/a9579806ee10cd4f5cfa2e858727e6fa.jpg"
+        "name": "Foulées de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/381827fb03baa9c6ed0d7997c5a73fcf.jpg"
       },
       {
         "hash": 3578811197,
-        "name": "Gantelets de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/1acaa62b7850cec485d767374bdd7304.jpg"
+        "name": "Gantelets de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/dcf2b43e9b7acf085322404daadc1e26.jpg"
       },
       {
         "hash": 4126332611,
-        "name": "Plate de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/3ebb0d9af2c20d432d1edb52429a8019.jpg"
+        "name": "Plate de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/e4aa3d8df93863a8b63050bd5455e67f.jpg"
       },
       {
         "hash": 3408036410,
-        "name": "Fanion de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/f97a9d82da0303ca7d1bae714b3a84cc.jpg"
+        "name": "Fanion de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/505405faae2cd207cb1768feb5e032b3.jpg"
       },
       {
         "hash": 3631616612,
-        "name": "Heaume de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/8d8243a0ee6252558f82d4f79492309d.jpg"
+        "name": "Heaume de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/cce3bc797ef34ecf8237133911f6c0e9.jpg"
       },
       {
         "hash": 1649469535,
-        "name": "Grèves de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/2293d2032b7dd00cbf851b2f1d5bab65.jpg"
+        "name": "Grèves de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/8f277c741d19b5ce1cf6cfc9dbfa5586.jpg"
       },
       {
         "hash": 717101494,
-        "name": "Gants de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/423235f38eb545828d133402e01587df.jpg"
+        "name": "Gants de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/3e0016dd0aaf36fbda194b300bcdf339.jpg"
       },
       {
         "hash": 3053825914,
-        "name": "Cuirasse de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/1510acb721603b03fce5ad1cdb39b8e7.jpg"
+        "name": "Cuirasse de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/31e23dbda800a3778d1c1eec9d0d3af0.jpg"
       },
       {
         "hash": 2702279243,
-        "name": "Brassard de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/b1abec8ff532f85b30b2f29eec623ed8.jpg"
+        "name": "Brassard de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/b6074b1acc938f18608ce50df177ed1f.jpg"
       },
       {
         "hash": 2898513455,
-        "name": "Coiffe de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/3e27ec986e7976f65d1908de6bae66ab.jpg"
+        "name": "Coiffe de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/1bef6e89b004d52593e0e93cad0a336d.jpg"
       },
       {
         "hash": 1929483792,
-        "name": "Bottes de béryllium ferreux",
-        "icon": "/common/destiny2_content/icons/6460dd5baf7b961b3e4ffda466bad35d.jpg"
+        "name": "Bottes de panoplie en fer",
+        "icon": "/common/destiny2_content/icons/fee40dadecffc92ec50024ef196ec2e2.jpg"
       }
     ],
     "setPerks": [
