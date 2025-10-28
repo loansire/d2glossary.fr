@@ -180,12 +180,39 @@ function sharePopupItem() {
   alert("Lien copié dans le presse-papier :\n" + url);
 }
 
+// Fonction pour retirer espaces et accents
+function normalizeName(name) {
+  return name
+    .normalize("NFD")                // décompose accents
+    .replace(/[\u0300-\u036f]/g, "") // retire les accents
+    .replace(/\s+/g, "")             // retire espaces
+}
+
 function copyDiscordMarkdown() {
   const name = document.getElementById('popupitem-name').textContent.trim();
   const url = window.location.href;
-  const markdown = `[${name}](<${url}>)`;
+  const iconSwitch = document.getElementById('iconSwitch');
+  const iconEnabled = iconSwitch && iconSwitch.checked;
+
+  let markdown = `[${name}](<${url}>)`;
+
+  if (iconEnabled) {
+    const cleanName = normalizeName(name);
+    markdown = `:${cleanName}: ${markdown}`;
+  }
+
   navigator.clipboard.writeText(markdown)
     .then(() => alert("Lien Discord copié dans le presse-papier:\n" + markdown))
     .catch(err => alert("Erreur lors de la copie : " + err));
 }
 
+// Gestionnaire du bouton Discord simplifié
+document.addEventListener('DOMContentLoaded', () => {
+  const discordBtn = document.getElementById('discord-btn');
+
+  if (discordBtn) {
+    discordBtn.addEventListener('click', () => {
+      copyDiscordMarkdown();
+    });
+  }
+});
