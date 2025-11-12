@@ -31,7 +31,10 @@ keys_to_exclude = ["uiItemDisplayStyle", "displaySource", "action", "equippingBl
                    "stats", "investmentStats", "allowActions",
                    "nonTransferrable", "isWrapper", "equippable",
                    "traitIds", "traitHashes", "index",
-                   "redacted", "blacklisted"
+                   "redacted", "blacklisted", "iconWatermark",
+                   "iconWatermarkShelved", "iconWatermarkFeatured",
+                   "isFeaturedItem", "isHolofoil", "isAdept",
+                   "flavorText", "inventory"
                    ]
 
 def clean_data(data, definition_type=None):
