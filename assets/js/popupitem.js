@@ -185,12 +185,13 @@ function sharePopupItem() {
   alert("Lien copié dans le presse-papier :\n" + url);
 }
 
-// Fonction pour retirer espaces et accents
+// Fonction pour retirer espaces, accents et caractères spéciaux
 function normalizeName(name) {
   return name
     .normalize("NFD")                // décompose accents
     .replace(/[\u0300-\u036f]/g, "") // retire les accents
     .replace(/\s+/g, "")             // retire espaces
+    .replace(/[^a-zA-Z0-9]/g, "")    // retire tous les caractères spéciaux (apostrophes, virgules, etc.)
 }
 
 function copyDiscordMarkdown() {
