@@ -1,0 +1,90 @@
+/* setarmor.css - Styles spécifiques aux cartes de sets d'armure */
+
+.sets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.sets-container .card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sets-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 30px rgba(243, 207, 85, 0.3);
+}
+
+.sets-container .card .title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #f1f1f1;
+}
+
+.sets-container .card .description {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.sets-container .card .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.perk-section {
+  background: #2a2a2a;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.perk-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #F3CF55;
+  font-weight: bold;
+}
+
+.perk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: #333;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: transform 0.2s ease, background 0.2s ease;
+  text-align: center;
+}
+
+.perk:hover {
+  transform: scale(1.05);
+  background: #444;
+}
+
+.perk img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+}
+
+.perk span {
+  font-size: 14px;
+  color: #ddd;
+}

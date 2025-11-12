@@ -124,6 +124,10 @@ function openPopupItem(id, item) {
   const idEl = document.getElementById('popupitem-id');
   const popup = document.getElementById('popupitem');
 
+  // Masquer la section setarmor par défaut
+  document.getElementById('setarmor-separator').classList.add('hidden');
+  document.getElementById('popupitem-setarmor').classList.add('hidden');
+
   const props = item.displayProperties;
   iconEl.src = "https://www.bungie.net" + props.icon;
   iconEl.alt = `d2glossary - ${props.name}`;
@@ -131,8 +135,6 @@ function openPopupItem(id, item) {
 
   const finalDescription = parseKeywords(processDescription(props.description));
   descEl.innerHTML = finalDescription;
-  const clarityEl = document.getElementById('popupitem-clarity');
-  const claritySeparator = document.getElementById('clarity-separator');
 
   fetch('data/clarity.json')
       .then(res => res.json())
@@ -168,6 +170,9 @@ function closePopupItem() {
   url.searchParams.delete('id');
   history.replaceState(null, '', url);
 }
+
+// Rendre closePopupItem accessible globalement (pour setarmorPage.js)
+window.closePopupItem = closePopupItem;
 
 // Gestion globale
 document.addEventListener('keydown', (e) => {

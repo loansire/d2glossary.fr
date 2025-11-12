@@ -2,338 +2,44 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Set Armor Viewer</title>
-  <style>
-    body {
-      margin-left: 15%;
-      margin-right: 15%;
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #eee;
-      padding: 20px;
-    }
-    .sets-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-      gap: 20px;
-      justify-content: center;
-    }
-    .card {
-      background: #1e1e1e;
-      padding: 20px;
-      border-radius: 16px;
-      width: 90%;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-      display: flex;
-      flex-direction: column;
-    }
-    .title {
-      text-align: center;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-    .description {
-      text-align: center;
-      color: #aaa;
-      margin-bottom: 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      flex-grow: 1;
-    }
-    .perk-section {
-      background: #2a2a2a;
-      padding: 12px;
-      border-radius: 12px;
-    }
-    .perk-title {
-      text-align: center;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    .perk {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 6px;
-      background: #333;
-      padding: 12px;
-      border-radius: 8px;
-      margin-bottom: 5px;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      text-align: center;
-    }
-    .perk:hover {
-      transform: scale(1.05);
-      background: #444;
-    }
-    .perk img {
-      width: 48px;
-      height: 48px;
-      border-radius: 6px;
-    }
-    /* Modal */
-    .modal {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.7);
-      display: none;
-      justify-content: center;
-      align-items: center;
-    }
-    .modal-content {
-      background: #222;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 500px;
-      width: 50%;
-      color: #eee;
-    }
-    .modal-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 20px;
-      font-weight: bold;
-    }
-    .modal-header img {
-      width: 40px;
-      height: 40px;
-      border-radius: 6px;
-    }
-    .modal p {
-      margin-top: 10px;
-      color: #ccc;
-    }
-    .separator {
-      height: 1px;
-      background: #444;
-      margin: 15px 0;
-    }
-    .items-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 60px);
-      gap: 10px;
-      justify-content: center;
-    }
-    .items-grid img {
-      width: 60px;
-      height: 60px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-    }
-    .items-grid img:hover {
-      transform: scale(1.1);
-    }
-    .tooltip {
-      position: absolute;
-      background: black;
-      color: white;
-      padding: 4px 8px;
-      border-radius: 4px;
-      font-size: 12px;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    #modal-items {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-    }
+  <link rel="icon" type="image/png" href="assets/src/ico/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/src/ico/favicon.svg" />
+  <link rel="shortcut icon" href="assets/src/ico/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/src/ico/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="D2Glossary" />
+  <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
-    .modal-classes {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 15px;
-      max-width: 100%; /* évite que ça dépasse */
-    }
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/setarmor.css">
+  <script src="assets/js/popupitem.js"></script>
+  <script type="module">
+    import { loadSetArmorPage } from './assets/js/setarmorPage.js';
 
+    loadSetArmorPage({
+      dataFile: 'data/setarmor_definitions_enriched.json',
+      containerId: 'card-list',
+      inputId: 'search'
+    });
+  </script>
 
-    .class-section {
-      background: #2a2a2a;
-      padding: 12px;
-      border-radius: 12px;
-    }
-
-    .class-title {
-      text-align: center;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #fff;
-    }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <title>D2Glossary - Set d'armures</title>
 </head>
 <body>
+  <div id="banniere-container"></div>
 
-<div class="sets-container" id="sets-container"></div>
-
-<!-- Modal -->
-<div class="modal" id="modal">
-  <div class="modal-content">
-    <div class="modal-header" id="modal-header"></div>
-    <p id="modal-description"></p>
-    <div class="separator"></div>
-    <div class="items-grid" id="modal-items"></div>
+  <div class="search-box">
+    <div class="input-container">
+      <input type="text" id="search" placeholder="Rechercher un set d'armure...">
+      <button id="clear-button" class="clear-button" aria-label="Clear">✖</button>
+    </div>
+    <div id="result-count"></div>
   </div>
-</div>
 
-<div class="tooltip" id="tooltip"></div>
+  <div class="sets-container" id="card-list"></div>
 
-<script>
-  const prefix = "https://www.bungie.net";
-
-  const container = document.getElementById("sets-container");
-  const modal = document.getElementById("modal");
-  const modalHeader = document.getElementById("modal-header");
-  const modalDesc = document.getElementById("modal-description");
-  const modalItems = document.getElementById("modal-items");
-  const tooltip = document.getElementById("tooltip");
-
-  function createPerk(perk, setItems) {
-    const div = document.createElement("div");
-    div.className = "perk";
-    div.innerHTML = `
-      <img src="${prefix + perk.displayProperties.icon}" alt="${perk.displayProperties.name}"/>
-      <span>${perk.displayProperties.name}</span>
-    `;
-    div.onclick = () => openModal(perk, setItems);
-    return div;
-  }
-
-  function createSetCard(data) {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const title = document.createElement("div");
-    title.className = "title";
-    title.textContent = data.displayProperties.name;
-
-    const desc = document.createElement("div");
-    desc.className = "description";
-    desc.textContent = data.displayProperties.description || "";
-
-    const grid = document.createElement("div");
-    grid.className = "grid";
-
-    const armure2 = document.createElement("div");
-    armure2.className = "perk-section";
-    armure2.innerHTML = `<div class="perk-title">Armure x2</div>`;
-
-    const armure4 = document.createElement("div");
-    armure4.className = "perk-section";
-    armure4.innerHTML = `<div class="perk-title">Armure x4</div>`;
-
-    data.setPerks.forEach(perk => {
-      const section = perk.requiredSetCount === 2 ? armure2 : armure4;
-      section.appendChild(createPerk(perk, data.setItems));
-    });
-
-    grid.appendChild(armure2);
-    grid.appendChild(armure4);
-
-    card.appendChild(title);
-    if (data.displayProperties.description) {
-      card.appendChild(desc);
-    }
-    card.appendChild(grid);
-
-    return card;
-  }
-
-  function openModal(perk, setItems) {
-    modalHeader.innerHTML = `
-      <img src="${prefix + perk.displayProperties.icon}" alt="${perk.displayProperties.name}"/>
-      ${perk.displayProperties.name}
-    `;
-    modalDesc.textContent = perk.displayProperties.description;
-
-    modalItems.innerHTML = "";
-
-    // Ordre d’affichage
-    const order = [3, 0, 2, 4, 1];
-
-    // Création du conteneur pour les 3 classes
-    const classesContainer = document.createElement("div");
-    classesContainer.className = "modal-classes";
-
-    // Fonction pour créer une section
-    function createClassSection(title, baseIndex) {
-      const section = document.createElement("div");
-      section.className = "class-section";
-
-      const classTitle = document.createElement("div");
-      classTitle.className = "class-title";
-      classTitle.textContent = title;
-      section.appendChild(classTitle);
-
-      const grid = document.createElement("div");
-      grid.className = "items-grid";
-
-      order.forEach(i => {
-        const item = setItems[baseIndex + i];
-        if (item) {
-          const img = document.createElement("img");
-          img.src = prefix + item.icon;
-          img.alt = item.name;
-          img.onmouseover = (e) => showTooltip(item.name, e);
-          img.onmousemove = (e) => moveTooltip(e);
-          img.onmouseleave = () => hideTooltip();
-          grid.appendChild(img);
-        }
-      });
-
-      section.appendChild(grid);
-      return section;
-    }
-
-    // Ajout des 3 classes
-    classesContainer.appendChild(createClassSection("Chasseur", 0));
-    classesContainer.appendChild(createClassSection("Titan", 5));
-    classesContainer.appendChild(createClassSection("Arcaniste", 10));
-
-    modalItems.appendChild(classesContainer);
-
-    modal.style.display = "flex";
-  }
-
-  modal.onclick = (e) => {
-    if (e.target === modal) modal.style.display = "none";
-  };
-
-  function showTooltip(text, e) {
-    tooltip.textContent = text;
-    tooltip.style.opacity = 1;
-    moveTooltip(e);
-  }
-
-  function moveTooltip(e) {
-    tooltip.style.left = e.pageX + 10 + "px";
-    tooltip.style.top = e.pageY + 10 + "px";
-  }
-
-  function hideTooltip() {
-    tooltip.style.opacity = 0;
-  }
-
-  // Charger le JSON externe et créer toutes les cartes
-  fetch("data/setarmor_definitions_enriched.json")
-    .then(res => res.json())
-    .then(json => {
-      Object.values(json).forEach(setData => {
-        container.appendChild(createSetCard(setData));
-      });
-    })
-    .catch(err => {
-      console.error("Erreur de chargement du JSON", err);
-    });
-</script>
+  <div id="popupitem-container"></div>
 </body>
 </html>
