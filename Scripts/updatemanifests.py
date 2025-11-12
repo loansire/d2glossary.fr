@@ -16,7 +16,8 @@ manifestlist = {
     "DestinyDamageTypeDefinition": "damagetype_definitions",
     "DestinyActivityModifierDefinition": "modifier_definitions",
     "DestinyEquipableItemSetDefinition": "setarmor_definitions",
-    "DestinySandboxPerkDefinition": "sandboxperk_definitions"
+    "DestinySandboxPerkDefinition": "sandboxperk_definitions",
+    "DestinyArtifactDefinition": "artefact_definitions"
 }
 
 # Dossier de destination
