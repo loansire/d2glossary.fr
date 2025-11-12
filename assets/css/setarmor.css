@@ -88,3 +88,90 @@
   font-size: 14px;
   color: #ddd;
 }
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .sets-container {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .sets-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .sets-container .card {
+    padding: 15px;
+  }
+
+  .sets-container .card .title {
+    font-size: 20px;
+  }
+
+  .sets-container .card .description {
+    font-size: 13px;
+  }
+
+  .perk-title {
+    font-size: 16px;
+  }
+
+  .perk img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .perk span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sets-container {
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .sets-container .card {
+    padding: 12px;
+  }
+
+  .sets-container .card .title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .sets-container .card .description {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .sets-container .card .grid {
+    gap: 12px;
+  }
+
+  .perk-section {
+    padding: 10px;
+  }
+
+  .perk-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .perk {
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .perk img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .perk span {
+    font-size: 12px;
+  }
+}

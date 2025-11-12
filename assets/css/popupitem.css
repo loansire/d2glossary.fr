@@ -193,3 +193,61 @@ body.popupitem-open {
 .icon-word {
   white-space: nowrap;
 }
+
+/* Responsive pour la popup */
+@media (max-width: 768px) {
+  .popupitem-content {
+    max-width: 95%;
+    width: 95%;
+  }
+
+  .popupitem .name {
+    font-size: 1.5rem;
+  }
+
+  .popupitem .description {
+    font-size: 0.9rem;
+  }
+
+  #popupitem-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .popupitem-content {
+    max-width: 98%;
+    width: 98%;
+  }
+
+  .popupitem .name {
+    font-size: 1.3rem;
+  }
+
+  .popupitem .id {
+    font-size: 0.85rem;
+  }
+
+  .popupitem .description {
+    font-size: 0.85rem;
+    padding: 0.75rem;
+  }
+
+  .popupitem-header {
+    padding: 0.75rem;
+  }
+
+  #popupitem-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .popupitem-buttons {
+    top: -1.5rem;
+  }
+
+  .popupitem-buttons button {
+    font-size: 1.2rem;
+  }
+}

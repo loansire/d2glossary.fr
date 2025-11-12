@@ -8,6 +8,29 @@
   border-top: 1px solid #555;
 }
 
+/* Informations du set */
+.setarmor-set-name {
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman", sans-serif;
+  color: #ddd;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.setarmor-set-name strong {
+  color: #F3CF55;
+}
+
+.setarmor-required-count {
+  font-family: "Neue Haas Grotesk Display Pro 55 Roman", sans-serif;
+  color: #ddd;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.setarmor-required-count strong {
+  color: #F3CF55;
+}
+
 /* Section des perks */
 .setarmor-perks-section {
   margin-bottom: 1.5rem;
@@ -64,8 +87,8 @@
 
 /* Section des classes */
 .modal-classes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -81,35 +104,73 @@
   margin-bottom: 10px;
   color: #fff;
   font-family: "Neue Haas Grotesk Display Pro 55 Roman", sans-serif;
+  font-size: 0.95rem;
 }
 
 .items-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 60px);
-  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
   justify-content: center;
+  overflow-x: auto;
 }
 
 .items-grid img {
   width: 60px;
   height: 60px;
+  min-width: 60px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.items-grid img:hover {
-  transform: scale(1.1);
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .modal-classes {
     grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   .setarmor-perk-description {
     padding-left: 0;
     margin-top: 0.5rem;
+  }
+
+  .class-section {
+    padding: 10px;
+  }
+
+  .class-title {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+
+  .items-grid {
+    gap: 6px;
+  }
+
+  .items-grid img {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .items-grid {
+    gap: 4px;
+  }
+
+  .items-grid img {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+  }
+
+  .class-title {
+    font-size: 0.85rem;
+  }
+
+  .setarmor-set-name,
+  .setarmor-required-count {
+    font-size: 0.85rem;
   }
 }
