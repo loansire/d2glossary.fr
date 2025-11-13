@@ -6,6 +6,14 @@
 #setarmor-separator {
   border: none;
   border-top: 1px solid #555;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.setarmor-items-separator {
+  border: none;
+  border-top: 1px solid #555;
+  margin: 1.5rem -1rem;
 }
 
 /* Informations du set */
@@ -79,17 +87,11 @@
   font-family: "Neue Haas Grotesk Display Pro 55 Roman", sans-serif;
 }
 
-.setarmor-items-separator {
-  border: none;
-  border-top: 1px solid #444;
-  margin: 1.5rem 0;
-}
-
 /* Section des classes */
 .modal-classes {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
 }
 
 .class-section {
@@ -126,7 +128,6 @@
 @media (max-width: 768px) {
   .modal-classes {
     grid-template-columns: 1fr;
-    gap: 15px;
   }
 
   .setarmor-perk-description {
