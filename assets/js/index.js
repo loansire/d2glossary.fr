@@ -14,7 +14,7 @@ const subfolders = [
   {
     name: "Artefact Saisonnier",
     path: "artefact",
-    image: "assets/src/Artefact_thumb.jpg",
+    image: "assets/src/artefact_thumb.jpg",
     subtitle: "Définition de l'artefect saisonnier"
   },
   {
