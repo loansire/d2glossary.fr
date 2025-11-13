@@ -12,7 +12,13 @@ async function loadBanniere() {
 
 const subfolders = [
   {
-    name: "[🎉NEW] - Set d'armures",
+    name: "Artefact Saisonnier",
+    path: "artefact",
+    image: "assets/src/Artefact_thumb.jpg",
+    subtitle: "Définition de l'artefect saisonnier"
+  },
+  {
+    name: "Set d'armures",
     path: "setarmor",
     image: "assets/src/Setarmor_thumb.jpg",
     subtitle: "Définition des Sets d'armures"

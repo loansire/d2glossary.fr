@@ -2,10 +2,13 @@
 
 .sets-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   gap: 20px;
   justify-content: center;
   margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sets-container .card {
@@ -84,12 +87,6 @@
 }
 
 /* Responsive */
-@media (max-width: 1200px) {
-  .sets-container {
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  }
-}
-
 @media (max-width: 768px) {
   .sets-container {
     grid-template-columns: 1fr;
