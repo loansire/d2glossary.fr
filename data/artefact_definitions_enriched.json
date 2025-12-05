@@ -13,123 +13,53 @@
         "displayTitle": "Palier 1",
         "items": [
           {
-            "itemHash": 1360604625,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 4217417017,
+            "perkHash": "2269748027",
+            "name": "Revolver anti-barrière",
+            "description": "Vos revolvers équipés tirent des munitions perforatrices de bouclier et étourdissent les [Perforation de bouclier] Champions bloqueurs.",
+            "icon": "/common/destiny2_content/icons/9a2c53359db42bf87f48304efe7cae7b.png"
           },
           {
-            "itemHash": 1360604626,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 4217417018,
+            "perkHash": "3144088660",
+            "name": "Fusil de précision anti-barrière",
+            "description": "Vos fusils de précision équipés tirent des munitions perforatrices de bouclier et étourdissent les [Perforation de bouclier] Champions bloqueurs.",
+            "icon": "/common/destiny2_content/icons/b74605a00dc8f942f64a7879359ab828.png"
           },
           {
-            "itemHash": 1360604627,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 4217417019,
+            "perkHash": "3845907181",
+            "name": "Fusil à impulsion surchargé",
+            "description": "Les fusils à impulsion équipés tirent des munitions perturbatrices qui étourdissent la cible, ralentissant la régénération d'énergie de compétence et réduisant les dégâts infligés par un combattant.\n\nEfficace contre les [Perturbation] Champions surchargés.",
+            "icon": "/common/destiny2_content/icons/781184e10d840a1463298cffd822aa02.png"
           },
           {
-            "itemHash": 1360604628,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 4217417020,
+            "perkHash": "805688323",
+            "name": "Pistolet-mitrailleur surchargé",
+            "description": "Les pistolets-mitrailleurs équipés tirent des munitions perturbatrices qui étourdissent la cible, ralentissant la régénération d'énergie de compétence et réduisant les dégâts infligés par un combattant.\n\nEfficace contre les [Perturbation] Champions surchargés.",
+            "icon": "/common/destiny2_content/icons/8bb684eec1afb53877e2e57134c28572.png"
           },
           {
-            "itemHash": 1360604629,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 4217417021,
+            "perkHash": "1753587492",
+            "name": "Arc imparable",
+            "description": "Les arbalètes et les arcs bandés à fond pendant un court moment déclenchent une puissante charge explosive qui étourdit les combattants sans bouclier. Efficace contre les [Chancellement] Champions implacables.",
+            "icon": "/common/destiny2_content/icons/286b844dd82bdc5f4fffa7671e283c60.png"
           },
           {
-            "itemHash": 846698094,
-            "perkHash": "2711735579",
-            "name": "Fusil automatique anti-barrière",
-            "description": "Vos fusils automatiques équipés tirent des munitions perforatrices de bouclier et étourdissent [Perforation de bouclier] les Champions bloqueurs. De plus, les fusils automatiques sont toujours surchargés quand le modificateur est actif.",
-            "icon": "/common/destiny2_content/icons/fd1120a2c398e906996a8369bf375762.png"
+            "itemHash": 4217417022,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           },
           {
-            "itemHash": 846698093,
-            "perkHash": "2711735576",
-            "name": "Revolver imparable",
-            "description": "En maniant un revolver, tirer en regardant brièvement dans le viseur déclenche une puissante charge explosive qui étourdit les combattants dépourvus de bouclier. Efficace contre les [Chancellement] Champions implacables. De plus, les revolvers sont toujours surchargés quand le modificateur est actif.",
-            "icon": "/common/destiny2_content/icons/3516b95441c13e2a25892118684ef8af.png"
-          },
-          {
-            "itemHash": 846698092,
-            "perkHash": "2711735577",
-            "name": "Fusil d'éclaireur surchargé",
-            "description": "Toucher plusieurs fois des combattants avec un fusil d'éclaireur les perturbe, ralentissant leur régénération d'énergie de compétence et réduisant les dégâts qu'ils infligent. Efficace contre les [Perturbation] Champions surchargés. De plus, les fusils d'éclaireur sont toujours surchargés quand le modificateur est actif.",
-            "icon": "/common/destiny2_content/icons/823d0b23a9815069d3f9140995b3fd70.png"
-          },
-          {
-            "itemHash": 846698091,
-            "perkHash": "2711735582",
-            "name": "Fusils à rayon surchargés",
-            "description": "Un tir ininterrompu de votre fusil à rayon équipé permet au rayon d'étourdir les combattants, ce qui ralentit la régénération d'énergie de compétence et les épuise.\n\nEfficace contre les [Perturbation] Champions surchargés.\n\nLes cibles épuisées infligent des dégâts réduits.",
-            "icon": "/common/destiny2_content/icons/7aa1f3b9957d197192848baba85c3387.png"
-          },
-          {
-            "itemHash": 846698090,
-            "perkHash": "2711735583",
-            "name": "Glaive implacable",
-            "description": "Les glaives que vous maniez déclenchent une puissante charge explosive qui étourdit les combattants dépourvus de bouclier. Efficace contre les [Chancellement] Champions implacables. De plus, les glaives sont toujours surchargés quand le modificateur est actif.",
-            "icon": "/common/destiny2_content/icons/007ea6d49b25a9eb998006931e348e51.png"
-          },
-          {
-            "itemHash": 3387424184,
-            "perkHash": "2038234753",
-            "name": "Fusil d'éclaireur et à impulsion anti-barrière",
-            "description": "Vos fusils d'éclaireur et à impulsion équipés tirent des munitions perforatrices de bouclier et étourdissent les [Perforation de bouclier] Champions bloqueurs.",
-            "icon": "/common/destiny2_content/icons/d8df5e3d24b17772f00bfa34e7623697.png"
-          },
-          {
-            "itemHash": 3387424187,
-            "perkHash": "4016932856",
-            "name": "Revolver et pistolet implacables",
-            "description": "En maniant un revolver ou un pistolet, regarder brièvement dans le viseur déclenche une puissante charge qui étourdit les combattants dépourvus de bouclier.\n\nEfficace contre les [Chancellement] Champions implacables.",
-            "icon": "/common/destiny2_content/icons/b9a35476871701c942714323a7a76dd8.png"
-          },
-          {
-            "itemHash": 3387424186,
-            "perkHash": "2149012580",
-            "name": "Fusil de précision implacable",
-            "description": "En maniant un fusil de précision, regarder brièvement dans le viseur déclenche une puissante charge qui étourdit les combattants dépourvus de bouclier.\n\nEfficace contre les [Chancellement] Champions implacables.",
-            "icon": "/common/destiny2_content/icons/a1dd5ac4b12a891f956c126055be2db7.png"
-          },
-          {
-            "itemHash": 3387424189,
-            "perkHash": "2188343775",
-            "name": "Fusil à pompe surchargé",
-            "description": "Les fusils à pompe équipés tirent des munitions perturbatrices qui étourdissent la cible, ralentissant la régénération d'énergie de compétence et réduisant les dégâts infligés par un combattant.\n\nEfficace contre les [Perturbation] Champions surchargés.",
-            "icon": "/common/destiny2_content/icons/940b143e038daf1e02b0acbcdb415be6.png"
-          },
-          {
-            "itemHash": 3387424188,
-            "perkHash": "4292535165",
-            "name": "Tir rapide surchargé",
-            "description": "Un tir ininterrompu de pistolet-mitrailleur ou de fusil automatique équipé confère des balles qui étourdissent les combattants, ralentissant la récupération d'énergie de compétence et réduisant les dégâts infligés par un combattant.\n\nEfficace contre les [Perturbation] Champions surchargés.",
-            "icon": "/common/destiny2_content/icons/35cdfcb14803150b7ef76e69380d6e98.png"
-          },
-          {
-            "itemHash": 3387424191,
-            "perkHash": "2639138292",
-            "name": "Arc anti-barrière",
-            "description": "Vos arcs équipés tirent des flèches perforatrices de bouclier et étourdissent les [Perforation de bouclier] Champions bloqueurs.",
-            "icon": "/common/destiny2_content/icons/61b29c72fd6f0ce4efc75730f1b62ffe.png"
-          },
-          {
-            "itemHash": 3387424190,
-            "perkHash": "806337968",
-            "name": "Épée surchargée",
-            "description": "Les épées équipées perturbent les combattants et les étourdissent, ralentissant la régénération d'énergie de compétence et réduisant les dégâts infligés par un combattant.\n\nEfficace contre les [Perturbation] Champions surchargés.",
-            "icon": "/common/destiny2_content/icons/c4b5172c7b1155a7ab32df568d7c7bfa.png"
+            "itemHash": 4217417023,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           }
         ],
         "minimumUnlockPointsUsedRequirement": 0
@@ -139,123 +69,53 @@
         "displayTitle": "Palier 2",
         "items": [
           {
-            "itemHash": 4058375008,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3619040072,
+            "perkHash": "3297340159",
+            "name": "Impact, choc, pesanteur",
+            "description": "Donne accès aux mods de casque : Siphon cinétique/abyssal et Siphon cinétique/cryo-électrique.\n\nCes mods associent deux siphons élémentaires pour un coût réduit.",
+            "icon": "/common/destiny2_content/icons/a8270c4670a71162f1d45477888b82ae.png"
           },
           {
-            "itemHash": 4058375011,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3619040075,
+            "perkHash": "3297340156",
+            "name": "Charge gravitovoltaïque",
+            "description": "Quand vous avez un Super cryo-électrique ou abyssal équipé, augmente de 1 le maximum de cumuls de charge d'armure que vous pouvez porter.",
+            "icon": "/common/destiny2_content/icons/24585408cad390bf80fff7f33c7e20ca.png"
           },
           {
-            "itemHash": 4058375010,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3619040074,
+            "perkHash": "3297340157",
+            "name": "Maniement d'expert",
+            "description": "Les frags à l'arme confèrent un bonus cumulé à la stabilité qui se réinitialise quand vous rechargez ou rangez l'arme. Les épées gagnent de la résistance de la garde.",
+            "icon": "/common/destiny2_content/icons/e0dd4e954cebb62915528decaf28360b.png"
           },
           {
-            "itemHash": 4058375013,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3619040077,
+            "perkHash": "3297340154",
+            "name": "Gâchette la plus rapide",
+            "description": "Si le premier tir peu après avoir rechargé ou dégainé votre arme est un tir de précision, vous gagnez de la résistance au sursaut.",
+            "icon": "/common/destiny2_content/icons/01c73e5250259ab4a59dd3153ce08e51.png"
           },
           {
-            "itemHash": 4058375012,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3619040076,
+            "perkHash": "3297340155",
+            "name": "Siphon élémentaire",
+            "description": "Les frags rapides à l'aide d'une arme cinétique ou d'une arme correspondant à votre Super équipé créent un objet élémentaire à ramasser, et qui correspond à votre Super équipé.",
+            "icon": "/common/destiny2_content/icons/729357078b7e324467add99816bfda4b.png"
           },
           {
-            "itemHash": 4152585339,
-            "perkHash": "189755662",
-            "name": "Mods autorisés : Cryo-électrique",
-            "description": "Les coûts énergétiques d'armure de tous les mods d'armure qui affectent vos armes cryo-électriques sont nettement réduits.",
-            "icon": "/common/destiny2_content/icons/40d4db8d8ab67eacd81c207c233318dc.png"
+            "itemHash": 3619040079,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           },
           {
-            "itemHash": 4152585336,
-            "perkHash": "189755661",
-            "name": "Mods autorisés : Abysse",
-            "description": "Les coûts énergétiques d'armure de tous les mods d'armure qui affectent vos armes abyssales sont nettement réduits.",
-            "icon": "/common/destiny2_content/icons/3e58760b2f0f35f90136fa0211be6fdd.png"
-          },
-          {
-            "itemHash": 4152585337,
-            "perkHash": "189755660",
-            "name": "Mods autorisés : Filobscur",
-            "description": "Les coûts énergétiques d'armure de tous les mods d'armure qui affectent vos armes filobscures sont nettement réduits.",
-            "icon": "/common/destiny2_content/icons/ec0a1ad21fb95de7b49f9846d30eff3a.png"
-          },
-          {
-            "itemHash": 4152585342,
-            "perkHash": "189755659",
-            "name": "Mods autorisés : Mêlée",
-            "description": "Les coûts énergétiques d'armure de tous les mods d'armure qui affectent votre attaque de mêlée sont nettement réduits.",
-            "icon": "/common/destiny2_content/icons/09ce00f90e9056c9710bfdadc37ec47f.png"
-          },
-          {
-            "itemHash": 4152585343,
-            "perkHash": "189755658",
-            "name": "Mods multi-siphon",
-            "description": "Donne accès à des mods d'armure pour casque qui associent les effets du mod Siphon filobscur à ceux du mod Siphon cryo-électrique.",
-            "icon": "/common/destiny2_content/icons/9e6a513612d4609bc547359cfdbeab8f.png"
-          },
-          {
-            "itemHash": 1876183145,
-            "perkHash": "3107346548",
-            "name": "Flamme, fibre et givre",
-            "description": "Réunit les mods Siphon solaire/filobscur et Siphon solaire/stasique en un seul.",
-            "icon": "/common/destiny2_content/icons/2819ca4dc3148880ee471b175e8aec3a.png"
-          },
-          {
-            "itemHash": 1876183146,
-            "perkHash": "3107346551",
-            "name": "Réduction du devin",
-            "description": "Tous les mods Récupérateur sont en promotion.",
-            "icon": "/common/destiny2_content/icons/b4a6808ec49b18efd4f686d4bf6f630b.png"
-          },
-          {
-            "itemHash": 1876183147,
-            "perkHash": "3107346550",
-            "name": "Communion avec le gel",
-            "description": "Quand Armure de givre est active, les [Stase] armes stasiques voient leur vitesse de rechargement et leur stabilité améliorées. Les épées stasiques ont une résistance de garde améliorée.",
-            "icon": "/common/destiny2_content/icons/b10c30c6074730faa2b01104827f1541.png"
-          },
-          {
-            "itemHash": 1876183148,
-            "perkHash": "3107346545",
-            "name": "Tissage serré",
-            "description": "Quand Maille tissée est active, vous gagnez des statistiques de compétence de classe et de grenade améliorées.",
-            "icon": "/common/destiny2_content/icons/1cad9d96b06026ed5a7ccc646785ad5d.png"
-          },
-          {
-            "itemHash": 1876183149,
-            "perkHash": "3107346544",
-            "name": "Rainurage de précision rapide",
-            "description": "Les tirs de précision rapides ou les frags à l'aide de fusils d'éclaireur leur confèrent un meilleur temps de rechargement et réduisent le sursaut occasionné.",
-            "icon": "/common/destiny2_content/icons/e925c533cae47344fbff0cafea9c33c4.png"
-          },
-          {
-            "itemHash": 1876183150,
-            "perkHash": "3107346547",
-            "name": "Plomb forgé par la lumière",
-            "description": "Les armes cinétiques voient leur génération de munitions améliorée. Récupérer un orbe de puissance améliore ce bonus pendant une courte durée.",
-            "icon": "/common/destiny2_content/icons/66e7a53b43798a7787a8b8635cf07ff7.png"
-          },
-          {
-            "itemHash": 1876183151,
-            "perkHash": "3107346546",
-            "name": "Prolifération de Brindilles",
-            "description": "Infliger des dégâts avec des armes [Filobscur] filobscures confère une chance de faire apparaître une Brindille. Éliminer une cible ayant un malus filobscur augmente cette chance.",
-            "icon": "/common/destiny2_content/icons/eca9e764a42f335fe54f3488296a60e1.png"
+            "itemHash": 3619040078,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           }
         ],
         "minimumUnlockPointsUsedRequirement": 3
@@ -265,123 +125,53 @@
         "displayTitle": "Palier 3",
         "items": [
           {
-            "itemHash": 2092805631,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3834273543,
+            "perkHash": "193266676",
+            "name": "Profiter de l'avantage",
+            "description": "Briser le bouclier d'un combattant augmente la stabilité, le maniement et la vitesse de rechargement d'arme. Les épées obtiennent une résistance de garde améliorée.",
+            "icon": "/common/destiny2_content/icons/e79751de6d62c4820278fd3f0b833b0b.png"
           },
           {
-            "itemHash": 2092805628,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3834273540,
+            "perkHash": "193266679",
+            "name": "Synthèse cinétique",
+            "description": "Les dégâts d'arme cinétique continus et les frags rapides ont une chance de générer une seule brique de munitions. Ramasser cette brique vous donne des munitions pour les armes à dégâts cinétiques équipées et octroie de la progression de munitions lourdes et spéciales.",
+            "icon": "/common/destiny2_content/icons/cf96e4e6ccba04d4948a7bb0ca90761b.png"
           },
           {
-            "itemHash": 2092805629,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3834273541,
+            "perkHash": "193266678",
+            "name": "Rechargement à distance",
+            "description": "Les tirs de précision avec des arcs et des fusils de précision confèrent un bonus cumulé à leur vitesse de rechargement.",
+            "icon": "/common/destiny2_content/icons/2dacdd67e219bb9ec62226c82bfcfaaf.png"
           },
           {
-            "itemHash": 2092805626,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3834273538,
+            "perkHash": "193266673",
+            "name": "Riposte",
+            "description": "Peu après avoir paré avec une épée, vos attaques lourdes et légères étourdissent les combattants sans bouclier. Efficace contre les [Chancellement] Champions implacables.",
+            "icon": "/common/destiny2_content/icons/379e370534eed91f6ac666196ce56d3d.png"
           },
           {
-            "itemHash": 2092805627,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 3834273539,
+            "perkHash": "193266672",
+            "name": "Douleur contre puissance",
+            "description": "Les frags rapides contre des combattants affaiblis vous confèrent Dévoration.",
+            "icon": "/common/destiny2_content/icons/b59af0e3a3880873b9055c3e0697b216.png"
           },
           {
-            "itemHash": 255237660,
-            "perkHash": "2482799789",
-            "name": "Effilochage amélioré",
-            "description": "Augmentez la quantité de dégâts infligés en Effilochant une cible.",
-            "icon": "/common/destiny2_content/icons/d0a3d776e9edc7c2cb24870707937b15.png"
+            "itemHash": 3834273536,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           },
           {
-            "itemHash": 255237663,
-            "perkHash": "2482799790",
-            "name": "Origines plus profondes",
-            "description": "Améliore grandement les avantages offerts par les particularités Appétit non rassasié, Roquettes chercheuses nanotechnologiques, Résonance harmonieuse et Nobles tâches.",
-            "icon": "/common/destiny2_content/icons/1a1c8a77c3c83a8418988725618f09de.png"
-          },
-          {
-            "itemHash": 255237662,
-            "perkHash": "2482799791",
-            "name": "Jusqu'à la brèche",
-            "description": "Éliminer une cible qui subit un malus abyssal crée une Brèche abyssale quand vous avez votre doctrine abyssale équipée.",
-            "icon": "/common/destiny2_content/icons/7e8236bfa362af6e9d6bad1c44c22085.png"
-          },
-          {
-            "itemHash": 255237657,
-            "perkHash": "2482799784",
-            "name": "Énergisé",
-            "description": "Restez plus longtemps sous l'effet d'Amplificateur quand vous avez votre doctrine cryo-électrique équipée.",
-            "icon": "/common/destiny2_content/icons/1aaf471a9b1e75ddf7a50416b6104035.png"
-          },
-          {
-            "itemHash": 255237656,
-            "perkHash": "2482799785",
-            "name": "Riposte foudroyante",
-            "description": "Confère un bonus de dégâts au Super cryo-électrique si ce dernier est activé durant une blessure critique ou sous l'effet d'Amplificateur. Dure jusqu'à la fin de l'activation du Super.",
-            "icon": "/common/destiny2_content/icons/67f99870af07f9244a7ee0bb8ca0dda9.png"
-          },
-          {
-            "itemHash": 3153265450,
-            "perkHash": "1916452735",
-            "name": "Fièvre et frisson",
-            "description": "Les tirs de précision rapides avec des armes [Solaire] solaires confèrent Radiance. Les tirs de précision rapides avec des armes[Stase] stasiques confèrent Armure de givre.",
-            "icon": "/common/destiny2_content/icons/8b19ceba1b2b7a5453de5198a2ca8a97.png"
-          },
-          {
-            "itemHash": 3153265449,
-            "perkHash": "1916452732",
-            "name": "Bienveillance élémentaire",
-            "description": "Donner un bonus élémentaire aux alliés confère de l'énergie de compétence de classe.",
-            "icon": "/common/destiny2_content/icons/17c1fe9ffd2c624a32b2a82c28eaa124.png"
-          },
-          {
-            "itemHash": 3153265448,
-            "perkHash": "1916452733",
-            "name": "Renouveau glacé",
-            "description": "Quand vous avez Armure de givre, subir des dégâts critiques libère une rafale qui gèle les combattants proches et vous confère Armure de givre, ainsi qu'à vos alliés.",
-            "icon": "/common/destiny2_content/icons/f0a3adfaf8d6c88df24a35f38b3968d2.png"
-          },
-          {
-            "itemHash": 3153265455,
-            "perkHash": "1916452730",
-            "name": "Tirage réciproque",
-            "description": "Les frags rapides avec autre chose qu'un pistolet confèrent une période de dégâts accrus aux pistolets pendant une courte durée la prochaine fois que vous dégainez.",
-            "icon": "/common/destiny2_content/icons/edde1d9a1e32badc1079f05ae2d172fa.png"
-          },
-          {
-            "itemHash": 3153265454,
-            "perkHash": "1916452731",
-            "name": "Fils rafraîchis",
-            "description": "Ramasser un objet élémentaire qui correspond à votre doctrine ou un Enchevêtrement quand vous avez un Super [Filobscur] filobscur équipé confère de l'énergie à votre compétence la moins chargée.",
-            "icon": "/common/destiny2_content/icons/d17dfad7a1475ae53527c9a208f19928.png"
-          },
-          {
-            "itemHash": 3153265453,
-            "perkHash": "1916452728",
-            "name": "Tactiques de meute",
-            "description": "Infliger des dégâts avec des Brindilles augmente les dégâts des Brindilles. Lorsque les cumuls sont au maximum, les Brindilles étourdissent les [Chancellement] Champions implacables.",
-            "icon": "/common/destiny2_content/icons/b912d5f9bba66cc24c2c282d768c6061.png"
-          },
-          {
-            "itemHash": 3153265452,
-            "perkHash": "1916452729",
-            "name": "Assaillant semi-automatique",
-            "description": "Si vous avez moins de 2 unités de charge d'armure, les tirs de précision rapides avec les arcs, les fusils de précision et les fusils d'éclaireur génèrent une charge d'armure.",
-            "icon": "/common/destiny2_content/icons/b65af53611708b2ed9d6a6d9b079fb5b.png"
+            "itemHash": 3834273537,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           }
         ],
         "minimumUnlockPointsUsedRequirement": 5
@@ -391,123 +181,53 @@
         "displayTitle": "Palier 4",
         "items": [
           {
-            "itemHash": 3138762878,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2903198438,
+            "perkHash": "3369784249",
+            "name": "Diélectrique",
+            "description": "Éliminer des cibles souffrant de malus [Cryo-électrique] cryo-électriques confère Charge éclair.\n\nÉliminer rapidement des cibles souffrant de malus cryo-électriques fait apparaître un orbe de puissance et restaure une petite portion de santé.",
+            "icon": "/common/destiny2_content/icons/2ba8a6fb47d9a36d8e5651bad5a86752.png"
           },
           {
-            "itemHash": 3138762877,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2903198437,
+            "perkHash": "3369784250",
+            "name": "Spécialiste des armures",
+            "description": "Briser le bouclier d'un combattant vous confère temporairement de la résistance aux dégâts et des dégâts de mêlée augmentés.",
+            "icon": "/common/destiny2_content/icons/f48754b849cbc1b813ea2d078e36ed0c.png"
           },
           {
-            "itemHash": 3138762876,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2903198436,
+            "perkHash": "3369784251",
+            "name": "Énergie de contre",
+            "description": "Quand vous ou un membre de votre escouade étourdissez un Champion, vous gagnez de l'énergie pour votre compétence la moins chargée.",
+            "icon": "/common/destiny2_content/icons/f9cff3113b9be57572ed6697be195a1a.png"
           },
           {
-            "itemHash": 3138762875,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2903198435,
+            "perkHash": "3369784252",
+            "name": "Combo Lame d'argent",
+            "description": "Faites une courte pause après une attaque légère, puis réalisez un combo attaque légère et attaque lourde pour énergiser votre épée pendant un court moment, ce qui lui confère un bonus de dégâts et de vitesse de charge.",
+            "icon": "/common/destiny2_content/icons/b1f285e95953d68a6e72312234bfd363.png"
           },
           {
-            "itemHash": 3138762874,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2903198434,
+            "perkHash": "3369784253",
+            "name": "Lame de singularité",
+            "description": "Quand vous bénéficiez d'un bonus élémentaire abyssal, les coups de mêlée et d'épée affaiblissent les cibles, et les frags à l'épée et en mêlée créent une rafale affaiblissante.",
+            "icon": "/common/destiny2_content/icons/f510c3b6aaee8ff2da5da4368bd4c63a.png"
           },
           {
-            "itemHash": 4232817857,
-            "perkHash": "1602976880",
-            "name": "Soldat de filobscur",
-            "description": "Vos armes filobscures ont des Munitions effilochantes dès que vous obtenez Maille tissée quand vous avez votre doctrine filobscure équipée.",
-            "icon": "/common/destiny2_content/icons/6c0a55f052695864d195376f21a0fc0c.png"
+            "itemHash": 2903198433,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           },
           {
-            "itemHash": 4232817858,
-            "perkHash": "1602976883",
-            "name": "Affûtage originel",
-            "description": "Les armes avec les particularités Appétit non rassasié, Roquettes chercheuses nanotechnologiques, Résonance harmonieuse et Nobles tâches sont toujours surchargées quand le modificateur est actif.",
-            "icon": "/common/destiny2_content/icons/cde4e5374c3cbda464b485608c265ae0.png"
-          },
-          {
-            "itemHash": 4232817859,
-            "perkHash": "1602976882",
-            "name": "Brèche protectrice",
-            "description": "Ramasser une Brèche abyssale vous procure un surbouclier supplémentaire ou restaure votre surbouclier actuel.",
-            "icon": "/common/destiny2_content/icons/0fd65c61c83cbaafaebeb0a03a0f9456.png"
-          },
-          {
-            "itemHash": 4232817860,
-            "perkHash": "1602976885",
-            "name": "Charge de contre",
-            "description": "Gagnez une charge d'armure quand vous étourdissez un Champion.",
-            "icon": "/common/destiny2_content/icons/e0c34da78b75368ee1c50926f895ab1a.png"
-          },
-          {
-            "itemHash": 4232817861,
-            "perkHash": "1602976884",
-            "name": "Bouclier amplifié",
-            "description": "Obtenez une résistance aux dégâts quand vous êtes sous l'effet d'Amplificateur.",
-            "icon": "/common/destiny2_content/icons/1aaf471a9b1e75ddf7a50416b6104035.png"
-          },
-          {
-            "itemHash": 3459646243,
-            "perkHash": "3593115886",
-            "name": "Explosion entrelacée",
-            "description": "Détruire un Enchevêtrement avec des dégâts [Filobscur] filobscurs augmente le rayon de l'explosion et ses dégâts.",
-            "icon": "/common/destiny2_content/icons/1857757ec95e15d5e42311e647f86163.png"
-          },
-          {
-            "itemHash": 3459646240,
-            "perkHash": "3593115885",
-            "name": "Ténèbres cautérisées",
-            "description": "Les combattants non boss avec des malus [Stase] stasiques ou [Filobscur] filobscurs subissent plus de dégâts [Solaire] solaires de toutes les sources.",
-            "icon": "/common/destiny2_content/icons/e1eb1a3e3bf6057643a9b52dd36d7cf0.png"
-          },
-          {
-            "itemHash": 3459646241,
-            "perkHash": "3593115884",
-            "name": "Confusion élémentaire",
-            "description": "Étourdir un Champion avec une arme élémentaire crée une explosion élémentairement alignée, qui applique un malus élémentaire correspondant au Champion et aux cibles proches.",
-            "icon": "/common/destiny2_content/icons/c9c223a63575ed646de09b28bf8e9297.png"
-          },
-          {
-            "itemHash": 3459646246,
-            "perkHash": "3593115883",
-            "name": "Soutien mutuel",
-            "description": "Infliger des dégâts de précision continus contre des combattants quand vous êtes près d'au moins deux alliés vous confère de la résistance aux dégâts.",
-            "icon": "/common/destiny2_content/icons/50d5aacb8e5ea334f20e6effb16c669d.png"
-          },
-          {
-            "itemHash": 3459646247,
-            "perkHash": "3593115882",
-            "name": "Coalescence élémentaire",
-            "description": "Éliminer des cibles confère une chance de créer un objet élémentaire qui correspond à votre élément de Super équipé.",
-            "icon": "/common/destiny2_content/icons/b84ec3e24f1cb8931885b69f18d31ce8.png"
-          },
-          {
-            "itemHash": 3459646244,
-            "perkHash": "3593115881",
-            "name": "L'arôme des balles neuves",
-            "description": "Ramasser une brique de munitions augmente les dégâts de vos armes cinétiques pendant une courte durée.",
-            "icon": "/common/destiny2_content/icons/6c3ed1334ca597eb7c4a3efeca50d172.png"
-          },
-          {
-            "itemHash": 3459646245,
-            "perkHash": "3593115880",
-            "name": "Accélération énergétique",
-            "description": "Des dégâts continus avec des micro-missiles font émettre au combattant une onde de choc cinétique qui inflige des dégâts aux combattants proches.",
-            "icon": "/common/destiny2_content/icons/7b7148c2dbb084f5ce94262022ff9c21.png"
+            "itemHash": 2903198432,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           }
         ],
         "minimumUnlockPointsUsedRequirement": 7
@@ -517,123 +237,53 @@
         "displayTitle": "Palier 5",
         "items": [
           {
-            "itemHash": 632888029,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2742146821,
+            "perkHash": "679036014",
+            "name": "Orbes élémentaires : cryo-électriques",
+            "description": "Les frags à l'arme [Cryo-électrique] cryo-électrique ont une chance de faire apparaître un orbe élémentaire cryo-électrique. Les orbes cryo-électriques peuvent être lancés ou tirés pour créer une explosion cryo-électrique qui inflige Secousse aux ennemis touchés.",
+            "icon": "/common/destiny2_content/icons/57df71b415811ddee77e55f4b95519aa.png"
           },
           {
-            "itemHash": 632888030,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2742146822,
+            "perkHash": "679036013",
+            "name": "Rupture cinétique",
+            "description": "Les dégâts d'arme cinétique sur un combattant puissant ont une chance de créer une rupture cinétique. Cibler cette rupture crée une explosion qui inflige des dégâts et fait chanceler les combattants. Efficace contre les [Chancellement] Champions implacables.",
+            "icon": "/common/destiny2_content/icons/01fddf1eba3b2cca594be0fec0af049e.png"
           },
           {
-            "itemHash": 632888031,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2742146823,
+            "perkHash": "679036012",
+            "name": "Méditation du tireur",
+            "description": "Les tirs au fusil de précision octroient un cumul de dégâts de fusil de précision, de stabilité et de bonus de rechargement pendant un court moment. Les tirs au fusil de précision avec des munitions lourdes comptent pour plus d'un tir.",
+            "icon": "/common/destiny2_content/icons/e7a8b3b1eb71f1d70e31d5642c92c5fb.png"
           },
           {
-            "itemHash": 632888024,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2742146816,
+            "perkHash": "679036011",
+            "name": "Combo Tempête de lames",
+            "description": "Réaliser trois attaques légères à l'épée suivies d'une attaque lourde invoque des lames ténébreuses qui vous entourent afin d'infliger des dégâts et de désorienter les combattants. Les frags à l'épée allongent la durée de ces lames ténébreuses.",
+            "icon": "/common/destiny2_content/icons/daaa2ac873cf0d92f0386667b84450bd.png"
           },
           {
-            "itemHash": 632888025,
-            "perkHash": "45014399",
-            "name": "Attribut obsolète",
-            "description": "Attribut obsolète",
-            "icon": "/common/destiny2_content/icons/bac622a66416ebb9598d710dacd38b0c.png"
+            "itemHash": 2742146817,
+            "perkHash": "679036010",
+            "name": "Infestation abyssale",
+            "description": "Éliminer une cible affaiblie fait apparaître un projectile traqueur qui affaiblit d'autres cibles.",
+            "icon": "/common/destiny2_content/icons/5eacb6ab8ca7b9ed147dc842accdb41a.png"
           },
           {
-            "itemHash": 2311625538,
-            "perkHash": "4187005647",
-            "name": "Aiguille cosmique conductrice",
-            "description": "Les cibles affectées par des malus de filobscur subissent plus de dégâts des compétences abyssales et cryo-électriques.",
-            "icon": "/common/destiny2_content/icons/802a490f2b11e346091926e4b0a1ebb7.png"
+            "itemHash": 2742146818,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           },
           {
-            "itemHash": 2311625537,
-            "perkHash": "4187005644",
-            "name": "Choc et effroi",
-            "description": "Les frags cryo-électriques sous l'effet d'Amplificateur attirent un éclair qui inflige des dégâts ainsi que des Secousses aux cibles.",
-            "icon": "/common/destiny2_content/icons/d0619bebb5fe2dbaede5282a51c6d3fb.png"
-          },
-          {
-            "itemHash": 2311625536,
-            "perkHash": "4187005645",
-            "name": "Supernova",
-            "description": "Ramasser une Brèche abyssale permet à votre prochaine source de dégâts abyssaux de créer un grand rayon affaiblissant.",
-            "icon": "/common/destiny2_content/icons/815e319a7dd9b8675619aa2f515f03b8.png"
-          },
-          {
-            "itemHash": 2311625543,
-            "perkHash": "4187005642",
-            "name": "Chef d'équipe",
-            "description": "Réaliser un coup de grâce sous l'effet d'Amplificateur confère Amplificateur aux alliés proches quand vous avez votre doctrine cryo-électrique équipée. \n\nRéaliser un coup de grâce quand vous bénéficiez de Maille tissée confère Maille tissée aux alliés proches quand vous avez votre doctrine filobscure équipée. \n\nRéaliser un coup de grâce quand vous bénéficiez de Dévoration confère Dévoration aux alliés proches quand vous avez votre doctrine abyssale équipée.",
-            "icon": "/common/destiny2_content/icons/46656d890be5ef3870606c84360429b0.png"
-          },
-          {
-            "itemHash": 2311625542,
-            "perkHash": "4187005643",
-            "name": "Deuxième coup de foudre",
-            "description": "Après avoir jeté une grenade cryo-électrique, vous obtenez une recharge de grenade améliorée pendant un bref moment. Les frags cryo-électriques augmentent la durée de ce bonus.",
-            "icon": "/common/destiny2_content/icons/11401dfda102df2b4da5c9ff09950144.png"
-          },
-          {
-            "itemHash": 2659604388,
-            "perkHash": "1988896825",
-            "name": "Mitraille rayonnante",
-            "description": "Infliger des dégâts continus sous l'effet de Radiance ou éliminer un combattant souffrant de Blessures solaires avec une arme pousse la cible à libérer des projectiles solaires qui infligent des dégâts et des Blessures solaires à l'impact.",
-            "icon": "/common/destiny2_content/icons/8abd6d007f5a6a53e85202fddbb0fbb7.png"
-          },
-          {
-            "itemHash": 2659604391,
-            "perkHash": "1988896826",
-            "name": "Broyeur de bouclier",
-            "description": "Lorsque vous avez Maille tissée, Armure de givre ou un surbouclier abyssal, votre mêlée se recharge plus vite et inflige plus de dégâts.\n\nLorsque vous êtes sous l'effet d'Amplificateur ou de Radiance, votre grenade se recharge plus vite et inflige plus de dégâts.",
-            "icon": "/common/destiny2_content/icons/fdd095c3fee6fff410f09a57fe5c9f0e.png"
-          },
-          {
-            "itemHash": 2659604390,
-            "perkHash": "1988896827",
-            "name": "Suralimentation élémentaire",
-            "description": "Ramasser un objet élémentaire ou un Enchevêtrement confère des dégâts accrus aux armes du même élément.",
-            "icon": "/common/destiny2_content/icons/08d63e99efb583e4d0d13058a7ed63f4.png"
-          },
-          {
-            "itemHash": 2659604385,
-            "perkHash": "1988896828",
-            "name": "Toile enchevêtrée",
-            "description": "Créer un Enchevêtrement en éliminant une cible ayant un malus [Filobscur] filobscur suspend les combattants proches.",
-            "icon": "/common/destiny2_content/icons/82befe9a89b07a901cd352d7a4663239.png"
-          },
-          {
-            "itemHash": 2659604384,
-            "perkHash": "1988896829",
-            "name": "Regard glacial",
-            "description": "Quand Armure de givre est active, les frags de précision [Stase] stasiques poussent les combattants à libérer une rafale de gel.",
-            "icon": "/common/destiny2_content/icons/a8e0ad8585c13eead66d224a18608556.png"
-          },
-          {
-            "itemHash": 2659604387,
-            "perkHash": "1988896830",
-            "name": "Vigueur du Seigneur de Fer",
-            "description": "Quand vous portez une épée, vous subissez moins de dégâts ; les frags rapides octroient des munitions au porteur.",
-            "icon": "/common/destiny2_content/icons/08493ea0baf9f657c82c5a7e32e0ff66.png"
-          },
-          {
-            "itemHash": 2659604386,
-            "perkHash": "1988896831",
-            "name": "Carquois argenté",
-            "description": "Recharger un arc consomme un cumul de charge d'armure, augmentant les dégâts et la vitesse de rechargement de vos 3 prochains tirs ou jusqu'à ce que vous rangiez votre arc.",
-            "icon": "/common/destiny2_content/icons/be505c181030939d775fdd38fef428e5.png"
+            "itemHash": 2742146819,
+            "perkHash": null,
+            "name": "",
+            "description": "",
+            "icon": null
           }
         ],
         "minimumUnlockPointsUsedRequirement": 10
