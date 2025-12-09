@@ -423,7 +423,7 @@
             }
         }
 
-        function displayArtifact(data) {
+                function displayArtifact(data) {
             const artifactId = Object.keys(data)[0];
             const artifact = data[artifactId];
 
@@ -441,7 +441,12 @@
                 // Ne garder que les 7 derniers éléments
                 const lastSevenItems = tier.items.slice(-7);
 
-                lastSevenItems.forEach(item => {
+                // Filtrer les items qui ont des informations valides
+                const validItems = lastSevenItems.filter(item =>
+                    item.name && item.name.trim() !== '' && item.icon
+                );
+
+                validItems.forEach(item => {
                     const iconUrl = item.icon ? `${BUNGIE_BASE_URL}${item.icon}` : '';
                     html += `
                         <div class="item-icon"
