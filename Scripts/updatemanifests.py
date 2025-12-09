@@ -17,7 +17,8 @@ manifestlist = {
     "DestinyActivityModifierDefinition": "modifier_definitions",
     "DestinyEquipableItemSetDefinition": "setarmor_definitions",
     "DestinySandboxPerkDefinition": "sandboxperk_definitions",
-    "DestinyArtifactDefinition": "artefact_definitions"
+    "DestinyArtifactDefinition": "artefact_definitions",
+    "DestinyIconDefinition": "icon_definition"
 }
 
 # Dossier de destination
@@ -38,6 +39,57 @@ keys_to_exclude = ["uiItemDisplayStyle", "displaySource", "action", "equippingBl
                    "flavorText", "inventory"
                    ]
 
+
+def has_any_icon_field(data):
+    """
+    Vérifie si l'élément possède au moins un des champs d'icône.
+    Retourne True si au moins un champ existe (même vide).
+    """
+    icon_fields = [
+        'foreground',
+        'background',
+        'secondaryBackground',
+        'specialBackground',
+        'highResForeground'
+    ]
+
+    for field in icon_fields:
+        if field in data:
+            return True
+
+    return False
+
+
+def all_icon_fields_empty(data):
+    """
+    Vérifie si TOUS les champs d'icône présents sont vides.
+    Retourne True seulement si au moins un champ existe ET que tous sont vides.
+    """
+    icon_fields = [
+        'foreground',
+        'background',
+        'secondaryBackground',
+        'specialBackground',
+        'highResForeground'
+    ]
+
+    found_fields = []
+    for field in icon_fields:
+        if field in data:
+            found_fields.append(field)
+
+    # Si aucun champ trouvé, on retourne False (on garde l'item)
+    if not found_fields:
+        return False
+
+    # Si au moins un champ existe, vérifier s'ils sont TOUS vides
+    for field in found_fields:
+        if data[field] and data[field].strip():
+            return False  # Au moins un champ non vide trouvé
+
+    return True  # Tous les champs présents sont vides
+
+
 def clean_data(data, definition_type=None):
     if isinstance(data, dict):
         # Supprimer les clés indésirables
@@ -51,8 +103,12 @@ def clean_data(data, definition_type=None):
             if 'displayProperties' in data:
                 display_props = data['displayProperties']
                 if ('hasIcon' in display_props and display_props['hasIcon'] is False) or \
-                   ('name' in display_props and not display_props['name']):
+                        ('name' in display_props and not display_props['name']):
                     return None
+
+            # Vérifier si des champs d'icône existent ET sont tous vides
+            if all_icon_fields_empty(data):
+                return None
 
         # Appliquer récursivement le nettoyage aux sous-éléments
         keys_to_remove = []
@@ -70,6 +126,7 @@ def clean_data(data, definition_type=None):
         return [clean_data(item, definition_type) for item in data if clean_data(item, definition_type) is not None]
 
     return data
+
 
 # Étape 1 : Requête pour obtenir le manifeste
 manifest_url = 'https://www.bungie.net/platform/Destiny2/Manifest'

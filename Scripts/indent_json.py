@@ -10,4 +10,4 @@ def indent_json(input_file_path, output_file_path):
         json.dump(data, output_file, indent=4, ensure_ascii=False)
 
 # Exemple d'utilisation
-indent_json(r'..\data\item_definitions.json', r'..\data\item_definitions_indented.json')
+indent_json(r'..\data\artefact_definitions_enriched.json', r'..\data\artefact_definitions_indented.json')
