@@ -82,11 +82,228 @@
             letter-spacing: 0.05rem;
         }
 
+        /* Mode switch */
+        .mode-switch-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .mode-switch {
+            display: flex;
+            gap: 0;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .mode-btn {
+            background-color: transparent;
+            color: #aaa;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Neue Haas Grotesk Display Pro 55 Roman', sans-serif;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .mode-btn:hover {
+            color: #F3CF55;
+        }
+
+        .mode-btn.active {
+            background-color: #F3CF55;
+            color: #1a1a1a;
+            font-weight: bold;
+        }
+
+        /* Masquer en mode consultation */
+        body.consultation-mode .progress-container,
+        body.consultation-mode .control-buttons {
+            display: none;
+        }
+
+        body.consultation-mode .item-icon {
+            cursor: default;
+        }
+
+        body.consultation-mode .tier-column {
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+
+        body.consultation-mode .tier-column.locked::after {
+            display: none;
+        }
+
+        body.consultation-mode .item-icon:hover {
+            border-color: #F3CF55;
+            transform: scale(1.05);
+        }
+
+        /* Conteneur de la jauge */
+        .progress-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .progress-title {
+            font-size: 1.2em;
+            color: #F3CF55;
+        }
+
+        .progress-counter {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #F3CF55;
+        }
+
+        /* Jauge principale */
+        .progress-bar-container {
+            position: relative;
+            height: 40px;
+            background-color: #2c2c2c;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .progress-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: linear-gradient(90deg, #F3CF55, #f5d975);
+            border-radius: 20px;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px rgba(243, 207, 85, 0.5);
+        }
+
+        /* Marqueurs de tiers */
+        .tier-markers {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .tier-marker {
+            flex: 1;
+            position: relative;
+            border-right: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .tier-marker:last-child {
+            border-right: none;
+        }
+
+        .tier-marker.unlocked {
+            background-color: rgba(243, 207, 85, 0.1);
+        }
+
+        .tier-marker.next {
+            background: repeating-linear-gradient(
+                45deg,
+                rgba(243, 207, 85, 0.1),
+                rgba(243, 207, 85, 0.1) 10px,
+                transparent 10px,
+                transparent 20px
+            );
+            animation: breathing 2s ease-in-out infinite;
+        }
+
+        @keyframes breathing {
+            0%, 100% {
+                opacity: 0.3;
+                box-shadow: inset 0 0 10px rgba(243, 207, 85, 0.3);
+            }
+            50% {
+                opacity: 0.6;
+                box-shadow: inset 0 0 20px rgba(243, 207, 85, 0.6);
+            }
+        }
+
+        .tier-marker-label {
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.75em;
+            color: #aaa;
+            white-space: nowrap;
+        }
+
+        .tier-marker.unlocked .tier-marker-label {
+            color: #F3CF55;
+            font-weight: bold;
+        }
+
+        .tier-marker.next .tier-marker-label {
+            color: #f5d975;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        /* Boutons de contrôle */
+        .control-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 20px 0;
+        }
+
+        .control-btn {
+            background-color: #1a1a1a;
+            color: #F3CF55;
+            border: 2px solid #F3CF55;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Neue Haas Grotesk Display Pro 55 Roman', sans-serif;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background-color: #F3CF55;
+            color: #1a1a1a;
+        }
+
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 20px;
-            margin-top: 30px;
+            margin-top: 50px;
         }
 
         .tier-column {
@@ -95,9 +312,25 @@
             padding: 20px;
             transition: all 0.3s ease;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+            position: relative;
         }
 
-        .tier-column:hover {
+        .tier-column.locked {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        .tier-column.locked::after {
+            content: '🔒';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            opacity: 0.5;
+        }
+
+        .tier-column:not(.locked):hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 20px rgba(243, 207, 85, 0.3);
         }
@@ -132,6 +365,29 @@
             border: 2px solid #555;
             background-color: #2c2c2c;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        .item-icon.selected {
+            border-color: #F3CF55;
+            box-shadow: 0 0 15px rgba(243, 207, 85, 0.6);
+        }
+
+        .item-icon.selected::after {
+            content: '✓';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background-color: #F3CF55;
+            color: #1a1a1a;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
         }
 
         .item-icon:hover {
@@ -261,6 +517,23 @@
                 font-size: 0.95em;
             }
 
+            .mode-btn {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+
+            .progress-container {
+                padding: 15px;
+            }
+
+            .progress-title {
+                font-size: 1em;
+            }
+
+            .progress-counter {
+                font-size: 1.2em;
+            }
+
             .tier-column {
                 padding: 10px;
             }
@@ -286,6 +559,15 @@
             .tooltip-name {
                 font-size: 1.5rem;
             }
+
+            .control-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .control-btn {
+                width: 80%;
+            }
         }
 
         @media (max-width: 600px) {
@@ -309,6 +591,27 @@
 
             .header p {
                 font-size: 0.8em;
+            }
+
+            .mode-switch {
+                flex-direction: column;
+            }
+
+            .mode-btn {
+                padding: 10px 15px;
+                font-size: 0.85em;
+            }
+
+            .progress-container {
+                padding: 10px;
+            }
+
+            .progress-bar-container {
+                height: 30px;
+            }
+
+            .tier-marker-label {
+                font-size: 0.65em;
             }
 
             .tier-column {
@@ -383,7 +686,7 @@
         }
     </style>
 </head>
-<body>
+<body class="consultation-mode">
     <div class="logo-wrapper">
         <a href="https://d2glossary.fr">
             <img src="assets/src/ico/logo-d2glossaire.png" alt="d2glossary" class="logo-img">
@@ -393,6 +696,33 @@
     <div class="container">
         <div class="header">
             <h1>Artefact Saisonnier</h1>
+        </div>
+
+        <div class="mode-switch-container">
+            <div class="mode-switch">
+                <button class="mode-btn active" data-mode="consultation">
+                    👁️ Consultation
+                </button>
+                <button class="mode-btn" data-mode="configuration">
+                    ⚙️ Configuration
+                </button>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-header">
+                <div class="progress-title">Progression de sélection</div>
+                <div class="progress-counter" id="progressCounter">0/12</div>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="tier-markers" id="tierMarkers"></div>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <button class="control-btn" id="shareBtn" title="Partager la sélection">📤 Partager</button>
+            <button class="control-btn" id="resetBtn" title="Réinitialiser la sélection">🔄 Réinitialiser</button>
         </div>
 
         <div id="content"></div>
@@ -412,13 +742,64 @@
 
     <script>
         const BUNGIE_BASE_URL = 'https://www.bungie.net';
+        const MAX_SELECTIONS = 12;
+
         const content = document.getElementById('content');
         const tooltip = document.getElementById('tooltip');
         const tooltipIcon = document.getElementById('tooltipIcon');
         const tooltipName = document.getElementById('tooltipName');
         const tooltipDescription = document.getElementById('tooltipDescription');
+        const shareBtn = document.getElementById('shareBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const progressBar = document.getElementById('progressBar');
+        const progressCounter = document.getElementById('progressCounter');
+        const tierMarkers = document.getElementById('tierMarkers');
 
-        window.addEventListener('DOMContentLoaded', loadJsonAutomatically);
+        let artifactData = null;
+        let selectedItems = new Set();
+        let tierRequirements = [];
+        let currentMode = 'consultation';
+
+        window.addEventListener('DOMContentLoaded', () => {
+            loadJsonAutomatically();
+            initModeSwitch();
+        });
+
+        function initModeSwitch() {
+            const modeBtns = document.querySelectorAll('.mode-btn');
+
+            modeBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const mode = btn.dataset.mode;
+                    switchMode(mode);
+                });
+            });
+        }
+
+        function switchMode(mode) {
+            currentMode = mode;
+
+            // Mettre à jour les boutons
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.mode === mode);
+            });
+
+            // Mettre à jour le body
+            if (mode === 'consultation') {
+                document.body.classList.add('consultation-mode');
+                document.body.classList.remove('configuration-mode');
+
+                // Clear les sélections
+                selectedItems.clear();
+                document.querySelectorAll('.item-icon.selected').forEach(element => {
+                    element.classList.remove('selected');
+                });
+            } else {
+                document.body.classList.remove('consultation-mode');
+                document.body.classList.add('configuration-mode');
+                updateProgress();
+            }
+        }
 
         async function loadJsonAutomatically() {
             try {
@@ -427,7 +808,12 @@
                     throw new Error(`Erreur HTTP: ${response.status}`);
                 }
                 const data = await response.json();
+                artifactData = data;
                 displayArtifact(data);
+                loadSelectionFromURL();
+                if (currentMode === 'configuration') {
+                    updateProgress();
+                }
             } catch (error) {
                 console.error('Erreur lors du chargement automatique:', error);
                 content.innerHTML = `
@@ -444,11 +830,25 @@
             const artifactId = Object.keys(data)[0];
             const artifact = data[artifactId];
 
+            // Créer les marqueurs de tiers
+            let markersHtml = '';
+            artifact.tiers.forEach((tier, index) => {
+                const requirement = tier.minimumUnlockPointsUsedRequirement || 0;
+                tierRequirements.push(requirement);
+                markersHtml += `
+                    <div class="tier-marker" data-tier="${index}" data-requirement="${requirement}">
+                        <div class="tier-marker-label">${tier.displayTitle}</div>
+                    </div>
+                `;
+            });
+            tierMarkers.innerHTML = markersHtml;
+
+            // Créer les colonnes
             let html = '<div class="grid">';
 
-            artifact.tiers.forEach(tier => {
+            artifact.tiers.forEach((tier, tierIndex) => {
                 html += `
-                    <div class="tier-column">
+                    <div class="tier-column" data-tier="${tierIndex}">
                         <div class="tier-header">
                             <div class="tier-title">${tier.displayTitle}</div>
                         </div>
@@ -462,8 +862,11 @@
 
                 validItems.forEach(item => {
                     const iconUrl = item.icon ? `${BUNGIE_BASE_URL}${item.icon}` : '';
+                    const itemId = `${tierIndex}-${item.perkHash || item.itemHash}`;
                     html += `
                         <div class="item-icon"
+                             data-item-id="${itemId}"
+                             data-tier="${tierIndex}"
                              data-name="${escapeHtml(item.name)}"
                              data-description="${escapeHtml(item.description)}"
                              data-icon="${iconUrl}">
@@ -482,17 +885,151 @@
             content.innerHTML = html;
 
             document.querySelectorAll('.item-icon').forEach(icon => {
+                icon.addEventListener('click', toggleSelection);
                 icon.addEventListener('mouseenter', showTooltip);
                 icon.addEventListener('mousemove', moveTooltip);
                 icon.addEventListener('mouseleave', hideTooltip);
             });
         }
 
+        function toggleSelection(event) {
+            // Ne rien faire en mode consultation
+            if (currentMode === 'consultation') {
+                return;
+            }
+
+            const element = event.currentTarget;
+            const itemId = element.dataset.itemId;
+
+            if (selectedItems.has(itemId)) {
+                selectedItems.delete(itemId);
+                element.classList.remove('selected');
+            } else {
+                if (selectedItems.size < MAX_SELECTIONS) {
+                    selectedItems.add(itemId);
+                    element.classList.add('selected');
+                } else {
+                    alert(`Vous ne pouvez sélectionner que ${MAX_SELECTIONS} items maximum !`);
+                    return;
+                }
+            }
+
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const totalSelections = selectedItems.size;
+
+            // Nettoyer les sélections des colonnes qui redeviennent verrouillées
+            const itemsToRemove = [];
+            selectedItems.forEach(itemId => {
+                const tierIndex = parseInt(itemId.split('-')[0]);
+                const requirement = tierRequirements[tierIndex] || 0;
+
+                if (totalSelections < requirement) {
+                    itemsToRemove.push(itemId);
+                    const element = document.querySelector(`[data-item-id="${itemId}"]`);
+                    if (element) {
+                        element.classList.remove('selected');
+                    }
+                }
+            });
+
+            itemsToRemove.forEach(itemId => selectedItems.delete(itemId));
+
+            // Recalculer le total après nettoyage
+            const cleanedTotal = selectedItems.size;
+
+            // Mettre à jour le compteur
+            progressCounter.textContent = `${cleanedTotal}/${MAX_SELECTIONS}`;
+
+            // Mettre à jour la barre de progression
+            const progressPercent = (cleanedTotal / MAX_SELECTIONS) * 100;
+            progressBar.style.width = `${progressPercent}%`;
+
+            // Mettre à jour les marqueurs de tiers
+            document.querySelectorAll('.tier-marker').forEach((marker, index) => {
+                const requirement = parseInt(marker.dataset.requirement);
+                marker.classList.remove('unlocked', 'next');
+
+                // Colonne déjà complètement débloquée (requirement atteint)
+                if (index < tierRequirements.length - 1 && cleanedTotal >= tierRequirements[index + 1]) {
+                    marker.classList.add('unlocked');
+                }
+                // Colonne en cours d'édition (accessible maintenant)
+                else if (cleanedTotal >= requirement) {
+                    marker.classList.add('next');
+                }
+            });
+
+            // Mettre à jour les colonnes verrouillées/déverrouillées
+            document.querySelectorAll('.tier-column').forEach(column => {
+                const tier = parseInt(column.dataset.tier);
+                const requirement = tierRequirements[tier] || 0;
+
+                if (cleanedTotal >= requirement) {
+                    column.classList.remove('locked');
+                } else {
+                    column.classList.add('locked');
+                }
+            });
+        }
+
+        function loadSelectionFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const selection = urlParams.get('selection');
+
+            if (selection) {
+                try {
+                    const items = selection.split(',');
+                    items.forEach(itemId => {
+                        if (itemId && selectedItems.size < MAX_SELECTIONS) {
+                            selectedItems.add(itemId);
+                            const element = document.querySelector(`[data-item-id="${itemId}"]`);
+                            if (element) {
+                                element.classList.add('selected');
+                            }
+                        }
+                    });
+                } catch (error) {
+                    console.error('Erreur lors du chargement de la sélection:', error);
+                }
+            }
+        }
+
+        shareBtn.addEventListener('click', () => {
+            if (selectedItems.size === 0) {
+                alert('Aucune sélection à partager !');
+                return;
+            }
+
+            const selectionString = Array.from(selectedItems).join(',');
+            const url = new URL(window.location.href);
+            url.searchParams.set('selection', selectionString);
+
+            navigator.clipboard.writeText(url.toString())
+                .then(() => alert('Lien copié dans le presse-papier !\n' + url.toString()))
+                .catch(err => alert('Erreur lors de la copie : ' + err));
+        });
+
+        resetBtn.addEventListener('click', () => {
+            if (confirm('Voulez-vous réinitialiser votre sélection ?')) {
+                selectedItems.clear();
+                document.querySelectorAll('.item-icon.selected').forEach(element => {
+                    element.classList.remove('selected');
+                });
+                updateProgress();
+
+                const url = new URL(window.location.href);
+                url.searchParams.delete('selection');
+                history.replaceState(null, '', url);
+            }
+        });
+
         function showTooltip(event) {
             const element = event.currentTarget;
             tooltipName.textContent = element.dataset.name;
 
-            // Utilisation des fonctions de popupitem.js pour traiter la description
             const processedDesc = processDescription(element.dataset.description);
             const finalDesc = parseKeywords(processedDesc);
             tooltipDescription.innerHTML = finalDesc;

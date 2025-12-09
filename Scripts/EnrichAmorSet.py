@@ -136,10 +136,10 @@ enriched_artefact = enrich_artefact(artefact_data)
 
 # Sauvegarder
 with open(enriched_setarmor_file, "w", encoding="utf-8") as f:
-    json.dump(enriched_setarmor, f, ensure_ascii=False, indent=2)
+    json.dump(enriched_setarmor, f, ensure_ascii=False)
 
 with open(enriched_artefact_file, "w", encoding="utf-8") as f:
-    json.dump(enriched_artefact, f, ensure_ascii=False, indent=2)
+    json.dump(enriched_artefact, f, ensure_ascii=False)
 
 print(f"✅ Enrichissement terminé.")
 print(f"   - SetArmor: {enriched_setarmor_file}")
