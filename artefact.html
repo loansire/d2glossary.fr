@@ -82,7 +82,6 @@
             letter-spacing: 0.05rem;
         }
 
-        /* Mode switch */
         .mode-switch-container {
             max-width: 1200px;
             margin: 20px auto;
@@ -121,7 +120,6 @@
             font-weight: bold;
         }
 
-        /* Masquer en mode consultation */
         body.consultation-mode .progress-container,
         body.consultation-mode .control-buttons {
             display: none;
@@ -145,7 +143,6 @@
             transform: scale(1.05);
         }
 
-        /* Conteneur de la jauge */
         .progress-container {
             max-width: 1200px;
             margin: 20px auto;
@@ -173,7 +170,6 @@
             color: #F3CF55;
         }
 
-        /* Jauge principale */
         .progress-bar-container {
             position: relative;
             height: 40px;
@@ -194,7 +190,6 @@
             box-shadow: 0 0 10px rgba(243, 207, 85, 0.5);
         }
 
-        /* Marqueurs de tiers */
         .tier-markers {
             position: absolute;
             top: 0;
@@ -205,7 +200,6 @@
         }
 
         .tier-marker {
-            flex: 1;
             position: relative;
             border-right: 2px solid rgba(255, 255, 255, 0.3);
         }
@@ -269,7 +263,6 @@
             }
         }
 
-        /* Boutons de contrôle */
         .control-buttons {
             display: flex;
             justify-content: center;
@@ -402,7 +395,6 @@
             border-radius: 8px;
         }
 
-        /* Tooltip harmonisé avec le style popup */
         .tooltip {
             position: fixed;
             background-color: #2c2c2c;
@@ -757,6 +749,7 @@
         let artifactData = null;
         let selectedItems = new Set();
         let tierRequirements = [];
+        let perksPerTier = [];
         let currentMode = 'consultation';
 
         window.addEventListener('DOMContentLoaded', () => {
@@ -778,17 +771,14 @@
         function switchMode(mode) {
             currentMode = mode;
 
-            // Mettre à jour les boutons
             document.querySelectorAll('.mode-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.mode === mode);
             });
 
-            // Mettre à jour le body
             if (mode === 'consultation') {
                 document.body.classList.add('consultation-mode');
                 document.body.classList.remove('configuration-mode');
 
-                // Clear les sélections
                 selectedItems.clear();
                 document.querySelectorAll('.item-icon.selected').forEach(element => {
                     element.classList.remove('selected');
@@ -829,13 +819,35 @@
             const artifactId = Object.keys(data)[0];
             const artifact = data[artifactId];
 
-            // Créer les marqueurs de tiers
+            // Compter le nombre de perks par tier pour calculer les proportions
+            perksPerTier = artifact.tiers.map(tier => {
+                const lastSevenItems = tier.items.slice(-7);
+                return lastSevenItems.filter(item =>
+                    item.name && item.name.trim() !== '' && item.icon
+                ).length;
+            });
+
+            // Créer les marqueurs de tiers avec les bonnes proportions basées sur les seuils
             let markersHtml = '';
             artifact.tiers.forEach((tier, index) => {
                 const requirement = tier.minimumUnlockPointsUsedRequirement || 0;
                 tierRequirements.push(requirement);
+
+                // Calculer la taille de chaque section basée sur les seuils de déverrouillage
+                let sectionSize;
+                if (index === 0) {
+                    // Première section : de 0 à requirement du tier suivant
+                    sectionSize = artifact.tiers[1].minimumUnlockPointsUsedRequirement;
+                } else if (index < artifact.tiers.length - 1) {
+                    // Sections intermédiaires : différence entre ce requirement et le suivant
+                    sectionSize = artifact.tiers[index + 1].minimumUnlockPointsUsedRequirement - requirement;
+                } else {
+                    // Dernière section : de requirement à MAX_SELECTIONS
+                    sectionSize = MAX_SELECTIONS - requirement;
+                }
+
                 markersHtml += `
-                    <div class="tier-marker" data-tier="${index}" data-requirement="${requirement}">
+                    <div class="tier-marker" data-tier="${index}" data-requirement="${requirement}" style="flex: ${sectionSize} 0 0;">
                         <div class="tier-marker-label">${tier.displayTitle}</div>
                     </div>
                 `;
@@ -892,7 +904,6 @@
         }
 
         function toggleSelection(event) {
-            // Ne rien faire en mode consultation
             if (currentMode === 'consultation') {
                 return;
             }
@@ -919,7 +930,6 @@
         function updateProgress() {
             const totalSelections = selectedItems.size;
 
-            // Nettoyer les sélections des colonnes qui redeviennent verrouillées
             const itemsToRemove = [];
             selectedItems.forEach(itemId => {
                 const tierIndex = parseInt(itemId.split('-')[0]);
@@ -936,32 +946,25 @@
 
             itemsToRemove.forEach(itemId => selectedItems.delete(itemId));
 
-            // Recalculer le total après nettoyage
             const cleanedTotal = selectedItems.size;
 
-            // Mettre à jour le compteur
             progressCounter.textContent = `${cleanedTotal}/${MAX_SELECTIONS}`;
 
-            // Mettre à jour la barre de progression
             const progressPercent = (cleanedTotal / MAX_SELECTIONS) * 100;
             progressBar.style.width = `${progressPercent}%`;
 
-            // Mettre à jour les marqueurs de tiers
             document.querySelectorAll('.tier-marker').forEach((marker, index) => {
                 const requirement = parseInt(marker.dataset.requirement);
                 marker.classList.remove('unlocked', 'next');
 
-                // Colonne déjà complètement débloquée (requirement atteint)
                 if (index < tierRequirements.length - 1 && cleanedTotal >= tierRequirements[index + 1]) {
                     marker.classList.add('unlocked');
                 }
-                // Colonne en cours d'édition (accessible maintenant)
                 else if (cleanedTotal >= requirement) {
                     marker.classList.add('next');
                 }
             });
 
-            // Mettre à jour les colonnes verrouillées/déverrouillées
             document.querySelectorAll('.tier-column').forEach(column => {
                 const tier = parseInt(column.dataset.tier);
                 const requirement = tierRequirements[tier] || 0;
