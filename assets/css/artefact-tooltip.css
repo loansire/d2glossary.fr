@@ -1,0 +1,95 @@
+/* artefact-tooltip.css */
+
+.tooltip {
+    position: fixed;
+    background-color: #2c2c2c;
+    border-left: 5px solid #F3CF55;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    max-width: 520px;
+    width: 90%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip.visible {
+    opacity: 1;
+}
+
+.tooltip-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-top-right-radius: 10px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tooltip-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.tooltip-name {
+    font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+
+.tooltip-description {
+    font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+    color: #ddd;
+    letter-spacing: 0.06rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+@media (max-width: 900px) {
+    .tooltip {
+        max-width: 95%;
+    }
+
+    .tooltip-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .tooltip {
+        max-width: 98%;
+    }
+
+    .tooltip-name {
+        font-size: 1.3rem;
+    }
+
+    .tooltip-description {
+        font-size: 0.85rem;
+        padding: 0.75rem;
+    }
+
+    .tooltip-header {
+        padding: 0.75rem;
+    }
+
+    .tooltip-icon {
+        width: 45px;
+        height: 45px;
+    }
+}
