@@ -12,12 +12,11 @@
     <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/d2elementstyles.css">
     <script src="assets/js/popupitem.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D2Glossary - Artefact</title>
 
     <style>
-        /* Font Face */
         @font-face {
             font-family: 'Neue Haas Grotesk Display Pro 55 Roman';
             src: url('assets/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
@@ -37,7 +36,6 @@
             min-height: 100vh;
         }
 
-        /* Bannière */
         .logo-wrapper {
             display: flex;
             justify-content: center;
@@ -52,13 +50,11 @@
             object-fit: contain;
         }
 
-        /* Container */
         .container {
             max-width: 1600px;
             margin: 0 auto;
         }
 
-        /* Header */
         .header {
             text-align: center;
             margin-bottom: 20px;
@@ -86,7 +82,6 @@
             letter-spacing: 0.05rem;
         }
 
-        /* Grid des tiers - TOUJOURS 5 COLONNES */
         .grid {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -152,7 +147,7 @@
             border-radius: 8px;
         }
 
-        /* Tooltip */
+        /* Tooltip harmonisé avec le style popup */
         .tooltip {
             position: fixed;
             background-color: #2c2c2c;
@@ -160,13 +155,13 @@
             border-radius: 15px;
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
-            padding: 20px;
-            max-width: 400px;
+            max-width: 520px;
+            width: 90%;
             pointer-events: none;
             opacity: 0;
             transition: opacity 0.3s ease;
             z-index: 1000;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
 
         .tooltip.visible {
@@ -175,44 +170,42 @@
 
         .tooltip-header {
             display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #555;
+            flex-direction: column;
+            justify-content: flex-start;
             background-color: #1a1a1a;
             padding: 1rem;
-            margin: -20px -20px 15px -20px;
             border-top-right-radius: 10px;
+        }
+
+        .header-info {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .tooltip-icon {
             width: 60px;
             height: 60px;
-            border-radius: 10px;
-            flex-shrink: 0;
             object-fit: contain;
         }
 
-        .tooltip-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 8px;
+        .header-text {
+            text-align: left;
         }
 
         .tooltip-name {
-            font-size: 1.3em;
-            font-weight: 700;
-            line-height: 1.3;
+            font-family: "Neue Haas Grotesk Display Pro 55 Roman";
+            font-size: 2rem;
+            color: #f1f1f1;
             text-transform: uppercase;
         }
 
         .tooltip-description {
-            font-size: 0.95em;
-            line-height: 1.6;
+            font-family: "Neue Haas Grotesk Display Pro 55 Roman";
             color: #ddd;
             letter-spacing: 0.06rem;
+            text-align: left;
+            padding: 1rem;
         }
 
         .error-message {
@@ -226,7 +219,6 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
 
-        /* Responsive - TOUJOURS 5 COLONNES */
         @media (max-width: 1400px) {
             .grid {
                 gap: 15px;
@@ -286,6 +278,14 @@
             .items-container {
                 gap: 10px;
             }
+
+            .tooltip {
+                max-width: 95%;
+            }
+
+            .tooltip-name {
+                font-size: 1.5rem;
+            }
         }
 
         @media (max-width: 600px) {
@@ -337,8 +337,25 @@
             }
 
             .tooltip {
-                max-width: 90vw;
-                font-size: 0.9em;
+                max-width: 98%;
+            }
+
+            .tooltip-name {
+                font-size: 1.3rem;
+            }
+
+            .tooltip-description {
+                font-size: 0.85rem;
+                padding: 0.75rem;
+            }
+
+            .tooltip-header {
+                padding: 0.75rem;
+            }
+
+            .tooltip-icon {
+                width: 45px;
+                height: 45px;
             }
         }
 
@@ -367,7 +384,6 @@
     </style>
 </head>
 <body>
-    <!-- Bannière -->
     <div class="logo-wrapper">
         <a href="https://d2glossary.fr">
             <img src="assets/src/ico/logo-d2glossaire.png" alt="d2glossary" class="logo-img">
@@ -384,10 +400,12 @@
 
     <div class="tooltip" id="tooltip">
         <div class="tooltip-header">
-            <div class="tooltip-icon">
-                <img id="tooltipIcon" src="" alt="">
+            <div class="header-info">
+                <img class="tooltip-icon" id="tooltipIcon" src="" alt="">
+                <div class="header-text">
+                    <div class="tooltip-name" id="tooltipName"></div>
+                </div>
             </div>
-            <div class="tooltip-name" id="tooltipName"></div>
         </div>
         <div class="tooltip-description" id="tooltipDescription"></div>
     </div>
@@ -400,7 +418,6 @@
         const tooltipName = document.getElementById('tooltipName');
         const tooltipDescription = document.getElementById('tooltipDescription');
 
-        // Charger automatiquement le JSON au chargement de la page
         window.addEventListener('DOMContentLoaded', loadJsonAutomatically);
 
         async function loadJsonAutomatically() {
@@ -423,7 +440,7 @@
             }
         }
 
-                function displayArtifact(data) {
+        function displayArtifact(data) {
             const artifactId = Object.keys(data)[0];
             const artifact = data[artifactId];
 
@@ -438,10 +455,7 @@
                         <div class="items-container">
                 `;
 
-                // Ne garder que les 7 derniers éléments
                 const lastSevenItems = tier.items.slice(-7);
-
-                // Filtrer les items qui ont des informations valides
                 const validItems = lastSevenItems.filter(item =>
                     item.name && item.name.trim() !== '' && item.icon
                 );
@@ -467,7 +481,6 @@
             html += '</div>';
             content.innerHTML = html;
 
-            // Ajouter les événements de tooltip
             document.querySelectorAll('.item-icon').forEach(icon => {
                 icon.addEventListener('mouseenter', showTooltip);
                 icon.addEventListener('mousemove', moveTooltip);
@@ -478,7 +491,12 @@
         function showTooltip(event) {
             const element = event.currentTarget;
             tooltipName.textContent = element.dataset.name;
-            tooltipDescription.innerHTML = processDescription(element.dataset.description);
+
+            // Utilisation des fonctions de popupitem.js pour traiter la description
+            const processedDesc = processDescription(element.dataset.description);
+            const finalDesc = parseKeywords(processedDesc);
+            tooltipDescription.innerHTML = finalDesc;
+
             tooltipIcon.src = element.dataset.icon;
             tooltip.classList.add('visible');
             moveTooltip(event);
@@ -489,7 +507,6 @@
             let x = event.clientX + 20;
             let y = event.clientY + 20;
 
-            // Ajuster si la tooltip dépasse de l'écran
             if (x + tooltipRect.width > window.innerWidth) {
                 x = event.clientX - tooltipRect.width - 20;
             }
@@ -503,16 +520,6 @@
 
         function hideTooltip() {
             tooltip.classList.remove('visible');
-        }
-
-        function processDescription(text) {
-            if (!text) return '';
-            return text
-                .replace(/\{var:[a-zA-Z0-9_]+\}/g, '25')
-                .replace(/ ?•/g, '<br>•')
-                .replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>')
-                .replace(/(<br>\s*){2,}/g, '<br>')
-                .trim();
         }
 
         function escapeHtml(text) {
