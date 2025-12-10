@@ -5,9 +5,13 @@ import {
   getUrlParam,
   setUrlParam,
   removeUrlParam,
+  getCurrentUrl,
+  copyToClipboard,
   processDescription,
   getBungieIconUrl,
-  shuffleArray
+  shuffleArray,
+  normalizeName,
+  onEscapeKey
 } from './utils.js';
 
 export async function loadSetArmorPage({
@@ -22,19 +26,72 @@ export async function loadSetArmorPage({
   const popupContainer = document.getElementById('popupitem-container');
   const banniereContainer = document.getElementById('banniere-container');
 
+  // Fonctions de popup définies en premier
+  function closePopupItem() {
+    const popup = document.getElementById('popupitem');
+    if (popup) {
+      popup.classList.remove('show');
+      document.body.classList.remove('popupitem-open');
+      removeUrlParam('id');
+    }
+  }
+
+  function sharePopupItem() {
+    const url = getCurrentUrl();
+    copyToClipboard(url, 'Lien copié dans le presse-papier :\n' + url);
+  }
+
+  function copyDiscordMarkdown() {
+    const name = document.getElementById('popupitem-name')?.textContent.trim();
+    const url = getCurrentUrl();
+    const iconSwitch = document.getElementById('iconSwitch');
+    const iconEnabled = iconSwitch?.checked;
+
+    let markdown = `[${name}](<${url}>)`;
+
+    if (iconEnabled && name) {
+      const cleanName = normalizeName(name);
+      markdown = `:${cleanName}: ${markdown}`;
+    }
+
+    copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
+  }
+
+  // Exposer globalement AVANT le chargement du HTML
+  window.closePopupItem = closePopupItem;
+  window.sharePopupItem = sharePopupItem;
+  window.copyDiscordMarkdown = copyDiscordMarkdown;
+
+  // Escape key handler
+  onEscapeKey(closePopupItem);
+
   // Charger les composants HTML
   await loadHTML('assets/html/popupitem.html', popupContainer);
   await loadHTML('assets/html/banniere.html', banniereContainer);
+
+  // Attacher les event listeners après chargement du HTML
+  const discordBtn = document.getElementById('discord-btn');
+  if (discordBtn) {
+    // Supprimer l'ancien onclick s'il existe et ajouter le listener
+    discordBtn.onclick = null;
+    discordBtn.addEventListener('click', copyDiscordMarkdown);
+  }
 
   try {
     const data = await loadJSON(dataFile);
     if (!data) throw new Error('Données non chargées');
 
-    const dataArray = Object.entries(data).map(([id, setData]) => ({
-      id,
-      hash: setData.hash,
-      ...setData
-    }));
+    const dataArray = Object.entries(data)
+      .map(([id, setData]) => ({
+        id,
+        hash: setData.hash,
+        ...setData
+      }))
+      .filter(setData =>
+        setData.displayProperties?.name &&
+        setData.setPerks?.length > 0 &&
+        setData.setPerks.some(p => p.displayProperties?.name)
+      );
 
     updateResultCount(dataArray);
     renderSets(dataArray);
@@ -43,7 +100,7 @@ export async function loadSetArmorPage({
     const perkHash = getUrlParam('id');
     if (perkHash) {
       for (const setData of dataArray) {
-        const perk = setData.setPerks.find(p => p.sandboxPerkHash == perkHash);
+        const perk = setData.setPerks.find(p => String(p.sandboxPerkHash) === String(perkHash));
         if (perk) {
           openPerkPopup(perk.sandboxPerkHash, perk, setData);
           break;
@@ -105,10 +162,12 @@ export async function loadSetArmorPage({
       armure4.className = 'perk-section';
       armure4.innerHTML = '<div class="perk-title">Armure x4</div>';
 
-      setData.setPerks.forEach(perk => {
-        const section = perk.requiredSetCount === 2 ? armure2 : armure4;
-        section.appendChild(createPerkElement(perk, setData));
-      });
+      setData.setPerks
+        .filter(perk => perk.displayProperties?.name)
+        .forEach(perk => {
+          const section = perk.requiredSetCount === 2 ? armure2 : armure4;
+          section.appendChild(createPerkElement(perk, setData));
+        });
 
       grid.appendChild(armure2);
       grid.appendChild(armure4);
@@ -125,9 +184,14 @@ export async function loadSetArmorPage({
     function createPerkElement(perk, setData) {
       const div = document.createElement('div');
       div.className = 'perk';
+
+      const props = perk.displayProperties || {};
+      const icon = props.icon || '';
+      const name = props.name || 'Perk inconnu';
+
       div.innerHTML = `
-        <img src="${getBungieIconUrl(perk.displayProperties.icon)}" alt="${perk.displayProperties.name}"/>
-        <span>${perk.displayProperties.name}</span>
+        <img src="${getBungieIconUrl(icon)}" alt="${name}"/>
+        <span>${name}</span>
       `;
       div.onclick = () => openPerkPopup(perk.sandboxPerkHash, perk, setData);
       return div;
@@ -141,13 +205,13 @@ export async function loadSetArmorPage({
       const popup = document.getElementById('popupitem');
 
       // Masquer clarity, afficher setarmor
-      document.getElementById('clarity-separator').classList.add('hidden');
-      document.getElementById('popupitem-clarity').classList.add('hidden');
+      document.getElementById('clarity-separator')?.classList.add('hidden');
+      document.getElementById('popupitem-clarity')?.classList.add('hidden');
 
       const setarmorSeparator = document.getElementById('setarmor-separator');
       const setarmorContent = document.getElementById('popupitem-setarmor');
-      setarmorSeparator.classList.remove('hidden');
-      setarmorContent.classList.remove('hidden');
+      setarmorSeparator?.classList.remove('hidden');
+      setarmorContent?.classList.remove('hidden');
 
       const perkProps = perk.displayProperties;
       iconEl.src = getBungieIconUrl(perkProps.icon);
@@ -165,29 +229,29 @@ export async function loadSetArmorPage({
       setUrlParam('id', sandboxPerkHash);
 
       popup.onclick = (e) => {
-        if (e.target.id === 'popupitem') closePerkPopup();
+        if (e.target.id === 'popupitem') closePopupItem();
       };
     }
 
-    function renderPerkContent(perk, setData, container) {
-      container.innerHTML = '';
+    function renderPerkContent(perk, setData, contentContainer) {
+      contentContainer.innerHTML = '';
 
       // Nom du set
       const setNameDiv = document.createElement('div');
       setNameDiv.className = 'setarmor-set-name';
       setNameDiv.innerHTML = `<strong>Set :</strong> ${setData.displayProperties.name}`;
-      container.appendChild(setNameDiv);
+      contentContainer.appendChild(setNameDiv);
 
       // Compteur requis
       const requiredCount = document.createElement('div');
       requiredCount.className = 'setarmor-required-count';
       requiredCount.innerHTML = `<strong>Pièces requises :</strong> ${perk.requiredSetCount} armures`;
-      container.appendChild(requiredCount);
+      contentContainer.appendChild(requiredCount);
 
       // Séparateur
       const separator = document.createElement('hr');
       separator.className = 'setarmor-items-separator';
-      container.appendChild(separator);
+      contentContainer.appendChild(separator);
 
       // Section des items par classe
       const order = [3, 0, 2, 4, 1]; // casque, gants, plastron, jambes, marque
@@ -226,19 +290,8 @@ export async function loadSetArmorPage({
       classesContainer.appendChild(createClassSection('Titan', 5));
       classesContainer.appendChild(createClassSection('Arcaniste', 10));
 
-      container.appendChild(classesContainer);
+      contentContainer.appendChild(classesContainer);
     }
-
-    function closePerkPopup() {
-      const popup = document.getElementById('popupitem');
-      popup.classList.remove('show');
-      document.body.classList.remove('popupitem-open');
-      removeUrlParam('id');
-    }
-
-    // Global bindings
-    window.closePerkPopup = closePerkPopup;
-    window.closePopupItem = closePerkPopup;
 
     function updateResultCount(list) {
       resultCount.textContent = `Résultats trouvés: ${list.length}`;
