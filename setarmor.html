@@ -16,12 +16,12 @@
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/d2elementstyles.css">
+  <link rel="stylesheet" href="assets/css/pagination.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/css/setarmor.css">
   <link rel="stylesheet" href="assets/css/popupitem.css">
   <link rel="stylesheet" href="assets/css/clarity-popup.css">
   <link rel="stylesheet" href="assets/css/setarmor-popup.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <!-- JS -->
   <script type="module">
@@ -30,7 +30,8 @@
     loadSetArmorPage({
       dataFile: 'data/setarmor_definitions_enriched.json',
       containerId: 'card-list',
-      inputId: 'search'
+      inputId: 'search',
+      itemsPerPage: 50
     });
   </script>
 

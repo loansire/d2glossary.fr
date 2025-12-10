@@ -12,15 +12,15 @@
   <meta name="apple-mobile-web-app-title" content="D2Glossary" />
   <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
-  <!-- CSS - Ordre important: variables d'abord, puis composants, puis spécifiques -->
+  <!-- CSS -->
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/d2elementstyles.css">
+  <link rel="stylesheet" href="assets/css/pagination.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/css/popupitem.css">
   <link rel="stylesheet" href="assets/css/clarity-popup.css">
   <link rel="stylesheet" href="assets/css/setarmor-popup.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <!-- JS -->
   <script type="module">
@@ -31,6 +31,7 @@
       excludedIds: ["2962854089", "2823622571", "3196242660"],
       containerId: 'card-list',
       inputId: 'search',
+      itemsPerPage: 20,
       filterOptions: {
         itemCategoryHash: [59, 3708671066, 610365472],
         itemType: 19,

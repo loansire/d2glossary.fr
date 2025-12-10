@@ -4,16 +4,18 @@ import {
   loadJSON, 
   getUrlParam, 
   getBungieIconUrl,
-  shuffleArray 
+  debounce
 } from './utils.js';
 import { openPopupItem } from './popupitem.js';
+import { Pagination } from './pagination.js';
 
 export async function loadItemListPage({
   dataFile,
   excludedIds = [],
   containerId,
   inputId,
-  filterOptions = {}
+  filterOptions = {},
+  itemsPerPage = 50
 }) {
   const container = document.getElementById(containerId);
   const input = document.getElementById(inputId);
@@ -22,15 +24,21 @@ export async function loadItemListPage({
   const popupContainer = document.getElementById('popupitem-container');
   const banniereContainer = document.getElementById('banniere-container');
 
-  // Charger les composants HTML
-  await loadHTML('assets/html/popupitem.html', popupContainer);
-  await loadHTML('assets/html/banniere.html', banniereContainer);
+  let pagination = null;
+  let allFilteredItems = [];
+
+  // Charger les composants HTML en parallèle
+  await Promise.all([
+    loadHTML('assets/html/popupitem.html', popupContainer),
+    loadHTML('assets/html/banniere.html', banniereContainer)
+  ]);
 
   try {
     const data = await loadJSON(dataFile);
     if (!data) throw new Error('Données non chargées');
 
-    const filtered = Object.entries(data).filter(([id, item]) => {
+    // Filtrer les items une seule fois
+    allFilteredItems = Object.entries(data).filter(([id, item]) => {
       const props = item.displayProperties;
 
       const matchesCategoryHash = () => {
@@ -62,8 +70,31 @@ export async function loadItemListPage({
       );
     });
 
-    updateResultCount(filtered);
-    renderItems(filtered);
+    // Créer le renderer d'item
+    const renderItem = ([id, item]) => {
+      const props = item.displayProperties;
+      const card = document.createElement('div');
+      card.className = 'card-item';
+      card.title = props.name;
+
+      card.innerHTML = `
+        <img src="${getBungieIconUrl(props.icon)}" alt="d2glossary - ${props.name}" loading="lazy" />
+        <div>${props.name}</div>
+      `;
+      card.onclick = () => openPopupItem(id, item);
+      return card;
+    };
+
+    // Initialiser la pagination
+    pagination = new Pagination({
+      container,
+      items: allFilteredItems,
+      itemsPerPage,
+      renderItem
+    });
+
+    updateResultCount(allFilteredItems);
+    pagination.render();
 
     // Gestion de l'URL avec ID
     const itemId = getUrlParam('id');
@@ -71,14 +102,21 @@ export async function loadItemListPage({
       openPopupItem(itemId, data[itemId]);
     }
 
-    // Gestion de la recherche
+    // Gestion de la recherche avec debounce
+    const handleSearch = debounce((query) => {
+      const filteredResults = query
+        ? allFilteredItems.filter(([_, item]) =>
+            item.displayProperties.name.toLowerCase().includes(query)
+          )
+        : allFilteredItems;
+
+      updateResultCount(filteredResults);
+      pagination.setItems(filteredResults);
+    }, 150);
+
     input?.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase();
-      const filteredResults = filtered.filter(([_, item]) =>
-        item.displayProperties.name.toLowerCase().includes(query)
-      );
-      updateResultCount(filteredResults);
-      renderItems(filteredResults);
+      handleSearch(query);
       clearButton.style.display = e.target.value ? 'block' : 'none';
     });
 
@@ -86,29 +124,9 @@ export async function loadItemListPage({
     clearButton?.addEventListener('click', () => {
       input.value = '';
       clearButton.style.display = 'none';
-      updateResultCount(filtered);
-      renderItems(filtered);
+      updateResultCount(allFilteredItems);
+      pagination.setItems(allFilteredItems);
     });
-
-    function renderItems(list) {
-      const shuffledList = shuffleArray(list);
-      container.innerHTML = '';
-
-      shuffledList.forEach(([id, item], index) => {
-        const props = item.displayProperties;
-        const card = document.createElement('div');
-        card.className = 'card-item animate__animated animate__fadeInUp';
-        card.style.animationDelay = `${Math.min(index * 0.05, 3)}s`;
-        card.title = props.name;
-
-        card.innerHTML = `
-          <img src="${getBungieIconUrl(props.icon)}" alt="d2glossary - ${props.name}" />
-          <div>${props.name}</div>
-        `;
-        card.onclick = () => openPopupItem(id, item);
-        container.appendChild(card);
-      });
-    }
 
     function updateResultCount(list) {
       resultCount.textContent = `Résultats trouvés: ${list.length}`;
@@ -116,5 +134,11 @@ export async function loadItemListPage({
 
   } catch (err) {
     console.error('Erreur lors du chargement des données:', err);
+    container.innerHTML = `
+      <div class="error-message">
+        <h3>⚠️ Erreur de chargement</h3>
+        <p>${err.message}</p>
+      </div>
+    `;
   }
 }
