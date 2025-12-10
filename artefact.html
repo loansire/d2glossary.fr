@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" href="assets/src/ico/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="assets/src/ico/favicon.svg" />
-    <link rel="shortcut icon" href="assets/src/ico/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/src/ico/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="D2Glossary" />
-    <link rel="manifest" href="assets/src/ico/site.webmanifest" />
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="assets/src/ico/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/src/ico/favicon.svg" />
+  <link rel="shortcut icon" href="assets/src/ico/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/src/ico/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="D2Glossary" />
+  <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="assets/css/d2elementstyles.css">
-    <link rel="stylesheet" href="assets/css/artefact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- CSS - Ordre important -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/d2elementstyles.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/artefact.css">
+  <link rel="stylesheet" href="assets/css/artefact-tooltip.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <title>D2Glossary - Artefact</title>
+  <title>D2Glossary - Artefact</title>
 </head>
 <body class="consultation-mode">
-    <div id="banniere-container"></div>
+  <div id="banniere-container"></div>
 
-    <div class="container">
-        <div class="header">
-            <h1>Artefact Saisonnier</h1>
-        </div>
-
-        <div class="mode-switch-container">
-            <div class="mode-switch">
-                <button class="mode-btn active" data-mode="consultation">
-                    Consultation
-                </button>
-                <button class="mode-btn" data-mode="configuration">
-                    Configuration
-                </button>
-            </div>
-        </div>
-
-        <div class="control-buttons">
-            <button class="control-btn" id="shareBtn" title="Partager la sélection">📤 Partager</button>
-            <button class="control-btn" id="resetBtn" title="Réinitialiser la sélection">🔄 Réinitialiser</button>
-        </div>
-
-        <div class="progress-container">
-            <div class="progress-header">
-                <div class="progress-title">Progression de sélection</div>
-                <div class="progress-counter" id="progressCounter">0/12</div>
-            </div>
-            <div class="progress-bar-container">
-                <div class="progress-bar" id="progressBar"></div>
-                <div class="tier-markers" id="tierMarkers"></div>
-            </div>
-        </div>
-
-        <div id="content"></div>
+  <div class="container">
+    <div class="header">
+      <h1>Artefact Saisonnier</h1>
     </div>
 
-    <div id="tooltip-container"></div>
+    <div class="mode-switch-container">
+      <div class="mode-switch">
+        <button class="mode-btn active" data-mode="consultation">Consultation</button>
+        <button class="mode-btn" data-mode="configuration">Configuration</button>
+      </div>
+    </div>
 
-    <script type="module">
-        import { loadArtefactPage } from './assets/js/artefactPage.js';
+    <div class="control-buttons">
+      <button class="control-btn" id="shareBtn" title="Partager la sélection">📤 Partager</button>
+      <button class="control-btn" id="resetBtn" title="Réinitialiser la sélection">🔄 Réinitialiser</button>
+    </div>
 
-        // Charger la bannière
-        async function loadHTML(url, target) {
-            const res = await fetch(url);
-            const html = await res.text();
-            target.innerHTML = html;
-        }
+    <div class="progress-container">
+      <div class="progress-header">
+        <div class="progress-title">Progression de sélection</div>
+        <div class="progress-counter" id="progressCounter">0/12</div>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+        <div class="tier-markers" id="tierMarkers"></div>
+      </div>
+    </div>
 
-        await loadHTML('assets/html/banniere.html', document.getElementById('banniere-container'));
-        await loadHTML('assets/html/artefact-tooltip.html', document.getElementById('tooltip-container'));
+    <div id="content"></div>
+  </div>
 
-        loadArtefactPage({
-            dataFile: 'data/artefact_definitions_enriched.json',
-            containerId: 'content',
-            tooltipId: 'tooltip'
-        });
-    </script>
+  <div id="tooltip-container"></div>
+
+  <script type="module">
+    import { loadHTML } from './assets/js/utils.js';
+    import { loadArtefactPage } from './assets/js/artefactPage.js';
+
+    // Charger la bannière et le tooltip
+    await loadHTML('assets/html/banniere.html', 'banniere-container');
+    await loadHTML('assets/html/artefact-tooltip.html', 'tooltip-container');
+
+    loadArtefactPage({
+      dataFile: 'data/artefact_definitions_enriched.json',
+      containerId: 'content',
+      tooltipId: 'tooltip'
+    });
+  </script>
 </body>
 </html>

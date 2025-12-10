@@ -1,22 +1,19 @@
-/* ==== CLARITY ==== */
+/* clarity-popup.css - Section Clarity dans les popups */
+/* Dépend de: variables.css */
+
 #popupitem-clarity {
-  font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-  color: #ddd;
+  font-family: var(--font-primary);
+  color: var(--color-text-secondary);
   opacity: 0.7;
   letter-spacing: 0.06rem;
   text-align: left;
-  padding: 1rem;
   font-style: italic;
-  padding: 1rem;
+  padding: var(--spacing-base);
 }
 
 #clarity-separator {
   border: none;
-  border-top: 1px solid #555;
+  border-top: 1px solid var(--color-border);
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.hidden {
-    display: none;
 }

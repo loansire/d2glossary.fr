@@ -1,9 +1,19 @@
+/* artefactPage.js - Gestion de la page artefact */
+import {
+  loadJSON,
+  processDescription,
+  parseKeywords,
+  escapeHtml,
+  getBungieIconUrl,
+  copyToClipboard,
+  getCurrentUrl
+} from './utils.js';
+
 export async function loadArtefactPage({
   dataFile,
   containerId,
   tooltipId
 }) {
-  const BUNGIE_BASE_URL = 'https://www.bungie.net';
   const MAX_SELECTIONS = 12;
 
   const content = document.getElementById(containerId);
@@ -20,24 +30,14 @@ export async function loadArtefactPage({
   let artifactData = null;
   let selectedItems = new Set();
   let tierRequirements = [];
-  let perksPerTier = [];
   let currentMode = 'consultation';
 
-  // Charger les composants HTML (bannière déjà chargée par le HTML principal)
-
-  // Initialiser le mode switch
   initModeSwitch();
-
-  // Charger les données
-  await loadJsonData();
+  await loadData();
 
   function initModeSwitch() {
-    const modeBtns = document.querySelectorAll('.mode-btn');
-    modeBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const mode = btn.dataset.mode;
-        switchMode(mode);
-      });
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => switchMode(btn.dataset.mode));
     });
   }
 
@@ -51,11 +51,8 @@ export async function loadArtefactPage({
     if (mode === 'consultation') {
       document.body.classList.add('consultation-mode');
       document.body.classList.remove('configuration-mode');
-
       selectedItems.clear();
-      document.querySelectorAll('.item-icon.selected').forEach(element => {
-        element.classList.remove('selected');
-      });
+      document.querySelectorAll('.item-icon.selected').forEach(el => el.classList.remove('selected'));
     } else {
       document.body.classList.remove('consultation-mode');
       document.body.classList.add('configuration-mode');
@@ -63,26 +60,21 @@ export async function loadArtefactPage({
     }
   }
 
-  async function loadJsonData() {
+  async function loadData() {
     try {
-      const response = await fetch(dataFile);
-      if (!response.ok) {
-        throw new Error(`Erreur HTTP: ${response.status}`);
-      }
-      const data = await response.json();
+      const data = await loadJSON(dataFile);
+      if (!data) throw new Error('Données non chargées');
       artifactData = data;
       displayArtifact(data);
       loadSelectionFromURL();
-      if (currentMode === 'configuration') {
-        updateProgress();
-      }
+      if (currentMode === 'configuration') updateProgress();
     } catch (error) {
-      console.error('Erreur lors du chargement:', error);
+      console.error('Erreur:', error);
       content.innerHTML = `
         <div class="error-message">
           <h3>⚠️ Erreur de chargement</h3>
           <p>Impossible de charger les données de l'artefact</p>
-          <p style="font-size: 0.85em; margin-top: 10px; opacity: 0.7;">${error.message}</p>
+          <p style="font-size:0.85em;margin-top:10px;opacity:0.7">${error.message}</p>
         </div>
       `;
     }
@@ -91,14 +83,6 @@ export async function loadArtefactPage({
   function displayArtifact(data) {
     const artifactId = Object.keys(data)[0];
     const artifact = data[artifactId];
-
-    // Compter les perks par tier
-    perksPerTier = artifact.tiers.map(tier => {
-      const lastSevenItems = tier.items.slice(-7);
-      return lastSevenItems.filter(item =>
-        item.name && item.name.trim() !== '' && item.icon
-      ).length;
-    });
 
     // Créer les marqueurs de tiers
     let markersHtml = '';
@@ -116,7 +100,7 @@ export async function loadArtefactPage({
       }
 
       markersHtml += `
-        <div class="tier-marker" data-tier="${index}" data-requirement="${requirement}" style="flex: ${sectionSize} 0 0;">
+        <div class="tier-marker" data-tier="${index}" data-requirement="${requirement}" style="flex:${sectionSize} 0 0">
           <div class="tier-marker-label">${tier.displayTitle}</div>
         </div>
       `;
@@ -135,13 +119,12 @@ export async function loadArtefactPage({
           <div class="items-container">
       `;
 
-      const lastSevenItems = tier.items.slice(-7);
-      const validItems = lastSevenItems.filter(item =>
-        item.name && item.name.trim() !== '' && item.icon
+      const validItems = tier.items.slice(-7).filter(item =>
+        item.name?.trim() && item.icon
       );
 
       validItems.forEach(item => {
-        const iconUrl = item.icon ? `${BUNGIE_BASE_URL}${item.icon}` : '';
+        const iconUrl = getBungieIconUrl(item.icon);
         const itemId = `${tierIndex}-${item.perkHash || item.itemHash}`;
         html += `
           <div class="item-icon"
@@ -155,16 +138,13 @@ export async function loadArtefactPage({
         `;
       });
 
-      html += `
-          </div>
-        </div>
-      `;
+      html += '</div></div>';
     });
 
     html += '</div>';
     content.innerHTML = html;
 
-    // Ajouter les event listeners
+    // Event listeners
     document.querySelectorAll('.item-icon').forEach(icon => {
       icon.addEventListener('click', toggleSelection);
       icon.addEventListener('mouseenter', showTooltip);
@@ -174,154 +154,116 @@ export async function loadArtefactPage({
   }
 
   function toggleSelection(event) {
-    if (currentMode === 'consultation') {
-      return;
-    }
+    if (currentMode === 'consultation') return;
 
-    const element = event.currentTarget;
-    const itemId = element.dataset.itemId;
+    const el = event.currentTarget;
+    const itemId = el.dataset.itemId;
 
     if (selectedItems.has(itemId)) {
       selectedItems.delete(itemId);
-      element.classList.remove('selected');
+      el.classList.remove('selected');
+    } else if (selectedItems.size < MAX_SELECTIONS) {
+      selectedItems.add(itemId);
+      el.classList.add('selected');
     } else {
-      if (selectedItems.size < MAX_SELECTIONS) {
-        selectedItems.add(itemId);
-        element.classList.add('selected');
-      } else {
-        alert(`Vous ne pouvez sélectionner que ${MAX_SELECTIONS} items maximum !`);
-        return;
-      }
+      alert(`Maximum ${MAX_SELECTIONS} items !`);
+      return;
     }
 
     updateProgress();
   }
 
   function updateProgress() {
-    const totalSelections = selectedItems.size;
-
+    // Nettoyer les sélections invalides
     const itemsToRemove = [];
     selectedItems.forEach(itemId => {
       const tierIndex = parseInt(itemId.split('-')[0]);
       const requirement = tierRequirements[tierIndex] || 0;
-
-      if (totalSelections < requirement) {
+      if (selectedItems.size < requirement) {
         itemsToRemove.push(itemId);
-        const element = document.querySelector(`[data-item-id="${itemId}"]`);
-        if (element) {
-          element.classList.remove('selected');
-        }
+        document.querySelector(`[data-item-id="${itemId}"]`)?.classList.remove('selected');
       }
     });
+    itemsToRemove.forEach(id => selectedItems.delete(id));
 
-    itemsToRemove.forEach(itemId => selectedItems.delete(itemId));
+    const total = selectedItems.size;
+    progressCounter.textContent = `${total}/${MAX_SELECTIONS}`;
+    progressBar.style.width = `${(total / MAX_SELECTIONS) * 100}%`;
 
-    const cleanedTotal = selectedItems.size;
-
-    progressCounter.textContent = `${cleanedTotal}/${MAX_SELECTIONS}`;
-
-    const progressPercent = (cleanedTotal / MAX_SELECTIONS) * 100;
-    progressBar.style.width = `${progressPercent}%`;
-
+    // Mise à jour des marqueurs
     document.querySelectorAll('.tier-marker').forEach((marker, index) => {
       const requirement = parseInt(marker.dataset.requirement);
       marker.classList.remove('unlocked', 'next');
 
-      if (index < tierRequirements.length - 1 && cleanedTotal >= tierRequirements[index + 1]) {
+      if (index < tierRequirements.length - 1 && total >= tierRequirements[index + 1]) {
         marker.classList.add('unlocked');
-      }
-      else if (cleanedTotal >= requirement) {
+      } else if (total >= requirement) {
         marker.classList.add('next');
       }
     });
 
-    document.querySelectorAll('.tier-column').forEach(column => {
-      const tier = parseInt(column.dataset.tier);
+    // Mise à jour des colonnes
+    document.querySelectorAll('.tier-column').forEach(col => {
+      const tier = parseInt(col.dataset.tier);
       const requirement = tierRequirements[tier] || 0;
-
-      if (cleanedTotal >= requirement) {
-        column.classList.remove('locked');
-      } else {
-        column.classList.add('locked');
-      }
+      col.classList.toggle('locked', total < requirement);
     });
   }
 
   function loadSelectionFromURL() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const selection = urlParams.get('selection');
+    const selection = new URLSearchParams(window.location.search).get('selection');
+    if (!selection) return;
 
-    if (selection) {
-      try {
-        const items = selection.split(',');
-        items.forEach(itemId => {
-          if (itemId && selectedItems.size < MAX_SELECTIONS) {
-            selectedItems.add(itemId);
-            const element = document.querySelector(`[data-item-id="${itemId}"]`);
-            if (element) {
-              element.classList.add('selected');
-            }
-          }
-        });
-      } catch (error) {
-        console.error('Erreur lors du chargement de la sélection:', error);
-      }
+    try {
+      selection.split(',').forEach(itemId => {
+        if (itemId && selectedItems.size < MAX_SELECTIONS) {
+          selectedItems.add(itemId);
+          document.querySelector(`[data-item-id="${itemId}"]`)?.classList.add('selected');
+        }
+      });
+    } catch (e) {
+      console.error('Erreur chargement sélection:', e);
     }
   }
 
+  // Share & Reset buttons
   shareBtn.addEventListener('click', () => {
-    if (selectedItems.size === 0) {
+    if (!selectedItems.size) {
       alert('Aucune sélection à partager !');
       return;
     }
-
-    const selectionString = Array.from(selectedItems).join(',');
-    const url = new URL(window.location.href);
-    url.searchParams.set('selection', selectionString);
-
-    navigator.clipboard.writeText(url.toString())
-      .then(() => alert('Lien copié dans le presse-papier !\n' + url.toString()))
-      .catch(err => alert('Erreur lors de la copie : ' + err));
+    const url = new URL(getCurrentUrl());
+    url.searchParams.set('selection', Array.from(selectedItems).join(','));
+    copyToClipboard(url.toString(), 'Lien copié !\n' + url.toString());
   });
 
   resetBtn.addEventListener('click', () => {
-    if (confirm('Voulez-vous réinitialiser votre sélection ?')) {
-      selectedItems.clear();
-      document.querySelectorAll('.item-icon.selected').forEach(element => {
-        element.classList.remove('selected');
-      });
-      updateProgress();
-
-      const url = new URL(window.location.href);
-      url.searchParams.delete('selection');
-      history.replaceState(null, '', url);
-    }
+    if (!confirm('Réinitialiser la sélection ?')) return;
+    selectedItems.clear();
+    document.querySelectorAll('.item-icon.selected').forEach(el => el.classList.remove('selected'));
+    updateProgress();
+    const url = new URL(getCurrentUrl());
+    url.searchParams.delete('selection');
+    history.replaceState(null, '', url);
   });
 
-  function showTooltip(event) {
-    const element = event.currentTarget;
-    tooltipName.textContent = element.dataset.name;
-
-    const processedDesc = processDescription(element.dataset.description);
-    const finalDesc = parseKeywords(processedDesc);
-    tooltipDescription.innerHTML = finalDesc;
-
-    tooltipIcon.src = element.dataset.icon;
+  // Tooltip functions
+  function showTooltip(e) {
+    const el = e.currentTarget;
+    tooltipName.textContent = el.dataset.name;
+    tooltipDescription.innerHTML = parseKeywords(processDescription(el.dataset.description));
+    tooltipIcon.src = el.dataset.icon;
     tooltip.classList.add('visible');
-    moveTooltip(event);
+    moveTooltip(e);
   }
 
-  function moveTooltip(event) {
-    const tooltipRect = tooltip.getBoundingClientRect();
-    let x = event.clientX + 20;
-    let y = event.clientY + 20;
+  function moveTooltip(e) {
+    const rect = tooltip.getBoundingClientRect();
+    let x = e.clientX + 20;
+    let y = e.clientY + 20;
 
-    if (x + tooltipRect.width > window.innerWidth) {
-      x = event.clientX - tooltipRect.width - 20;
-    }
-    if (y + tooltipRect.height > window.innerHeight) {
-      y = event.clientY - tooltipRect.height - 20;
-    }
+    if (x + rect.width > window.innerWidth) x = e.clientX - rect.width - 20;
+    if (y + rect.height > window.innerHeight) y = e.clientY - rect.height - 20;
 
     tooltip.style.left = x + 'px';
     tooltip.style.top = y + 'px';
@@ -329,51 +271,5 @@ export async function loadArtefactPage({
 
   function hideTooltip() {
     tooltip.classList.remove('visible');
-  }
-
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-
-  function processDescription(text) {
-    if (!text) return '';
-    return text
-      .replace(/\{var:[a-zA-Z0-9_]+\}/g, '25')
-      .replace(/ ?•/g, '<br>•')
-      .replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>')
-      .replace(/(<br>\s*){2,}/g, '<br>')
-      .trim();
-  }
-
-  function parseKeywords(text) {
-    const replacements = {
-      'Solaire': 'solar',
-      'Filobscur': 'strand',
-      'Chancellement': 'unstoppable',
-      'Perforation de bouclier': 'barrier',
-      'Perturbation': 'overload',
-      'Stase': 'stasis',
-      'Abyssal': 'void',
-      'Cryo-électrique': 'arc',
-      'Primaire': 'primary',
-      'Spéciale': 'special',
-      'Lourde': 'heavy',
-      'PVE': 'pve',
-      'PVP': 'pvp',
-      'Chasseur': 'hunter',
-      'Arcaniste': 'warlock',
-      'Titan': 'titan'
-    };
-
-    for (const [key, className] of Object.entries(replacements)) {
-      const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'g');
-      text = text.replace(
-        regex,
-        `<span class="icon-word"><span class="${className}"></span>&nbsp;$2</span>`
-      );
-    }
-    return text;
   }
 }

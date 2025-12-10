@@ -1,123 +1,79 @@
-<!-- popupitem.js -->
-function processDescription(text) {
-  return text
-    .replace(/\{var:[a-zA-Z0-9_]+\}/g, '25') // Remplacer {var:xxx}
-    .replace(/ ?•/g, '<br>•') // Sauts avant chaque puce
-    .replace(/\.\s*(?=[A-ZÉÈÀÂÎÔÙÜÇ])/g, '.<br>') // Sauts après points
-    .replace(/(<br>\s*){2,}/g, '<br>') // Nettoyer doubles sauts
-    .trim();
-}
+/* popupitem.js - Gestion des popups d'items */
+import {
+  processDescription,
+  parseKeywords,
+  boldPatterns,
+  normalizeName,
+  setUrlParam,
+  removeUrlParam,
+  getCurrentUrl,
+  copyToClipboard,
+  getBungieIconUrl,
+  onEscapeKey,
+  loadJSON
+} from './utils.js';
 
-function boldPatterns(text) {
-    if (!text) return "";
-    text = text.replace(/[\u200B-\u200D\u2060\uFEFF]/g, '');
-    const pattern = /(\d+(\.\d+)?)([x%])?/g;
-    return text.replace(pattern, '<strong>$&</strong>');
-}
-
+// === CLARITY RENDERING ===
 function renderClarityInPopup(item) {
-    const clarityEl = document.getElementById('popupitem-clarity');
-    const claritySeparator = document.getElementById('clarity-separator');
+  const clarityEl = document.getElementById('popupitem-clarity');
+  const claritySeparator = document.getElementById('clarity-separator');
 
-    // Réinitialiser les éléments
-    clarityEl.innerHTML = '';
+  clarityEl.innerHTML = '';
 
-    // Vérifie si l'élément 'descriptions' existe et contient du contenu
-    if (!item || !item.descriptions || !item.descriptions.en || item.descriptions.en.length === 0) {
-        // Si les données sont vides, cacher le séparateur et la zone de Clarity
-        clarityEl.classList.add('hidden');
-        claritySeparator.classList.add('hidden');
-        return;
-    }
-
-    // Ajouter l'en-tête avec le texte et le lien vers D2Clarity
-    const header = document.createElement('div');
-    header.style.display = 'flex';
-    header.style.alignItems = 'center';
-    header.style.marginBottom = '1rem';
-    header.style.color = '#aaa';
-    header.innerHTML = `
-        <p style="margin: 0;">
-            Informations délivrées par
-            <a href="https://www.d2clarity.com" target="_blank" style="display: inline-flex; align-items: center; vertical-align: middle;">
-                <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity Logo" style="height: 25px; width: 25px; margin: 0 0.1rem;">
-                D2Clarity
-            </a>
-            (Anglais uniquement)
-        </p>
-    `;
-    clarityEl.appendChild(header);
-
-    // Si le contenu existe, afficher les éléments
-    item.descriptions.en.forEach(section => {
-        if (section.linesContent) {
-            const p = document.createElement('p');
-            section.linesContent.forEach(line => {
-                let element;
-                if (line.link) {
-                    element = document.createElement('a');
-                    element.href = line.link;
-                    element.target = '_blank';
-                    element.innerHTML = boldPatterns(line.text || "");
-                } else if (line.text) {
-                    element = document.createElement('span');
-                    element.innerHTML = boldPatterns(line.text);
-                } else {
-                    element = document.createElement('span');
-                    element.textContent = "";
-                }
-                if (line.classNames) {
-                    line.classNames.forEach(cls => {
-                        element.classList.add(cls);
-                    });
-                }
-                p.appendChild(element);
-                p.append(' ');
-            });
-            clarityEl.appendChild(p);
-        } else if (section.classNames && section.classNames.includes('spacer')) {
-            const spacer = document.createElement('div');
-            spacer.style.margin = '1rem 0';
-            clarityEl.appendChild(spacer);
-        }
-    });
-
-    // Afficher les éléments seulement si le contenu est trouvé
-    clarityEl.classList.remove('hidden');
-    claritySeparator.classList.remove('hidden');
-}
-
-function parseKeywords(text) {
-  const replacements = {
-    'Solaire': 'solar',
-    'Filobscur': 'strand',
-    'Chancellement': 'unstoppable',
-    'Perforation de bouclier': 'barrier',
-    'Perturbation': 'overload',
-    'Stase': 'stasis',
-    'Abyssal': 'void',
-    'Cryo-électrique': 'arc',
-    'Primaire': 'primary',
-    'Spéciale': 'special',
-    'Lourde': 'heavy',
-    'PVE': 'pve',
-    'PVP': 'pvp',
-    'Chasseur': 'hunter',
-    'Arcaniste': 'warlock',
-    'Titan': 'titan'
-  };
-
-  for (const [key, className] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'g');
-    text = text.replace(
-      regex,
-      `<span class="icon-word"><span class="${className}"></span>&nbsp;$2</span>`
-    );
+  if (!item?.descriptions?.en?.length) {
+    clarityEl.classList.add('hidden');
+    claritySeparator.classList.add('hidden');
+    return;
   }
-  return text;
+
+  // Header avec lien D2Clarity
+  const header = document.createElement('div');
+  header.style.cssText = 'display:flex;align-items:center;margin-bottom:1rem;color:#aaa';
+  header.innerHTML = `
+    <p style="margin:0">
+      Informations délivrées par
+      <a href="https://www.d2clarity.com" target="_blank" style="display:inline-flex;align-items:center;vertical-align:middle">
+        <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity" style="height:25px;width:25px;margin:0 0.1rem">
+        D2Clarity
+      </a>
+      (Anglais uniquement)
+    </p>
+  `;
+  clarityEl.appendChild(header);
+
+  // Contenu
+  item.descriptions.en.forEach(section => {
+    if (section.linesContent) {
+      const p = document.createElement('p');
+      section.linesContent.forEach(line => {
+        let el;
+        if (line.link) {
+          el = document.createElement('a');
+          el.href = line.link;
+          el.target = '_blank';
+          el.innerHTML = boldPatterns(line.text || '');
+        } else {
+          el = document.createElement('span');
+          el.innerHTML = boldPatterns(line.text || '');
+        }
+        line.classNames?.forEach(cls => el.classList.add(cls));
+        p.appendChild(el);
+        p.append(' ');
+      });
+      clarityEl.appendChild(p);
+    } else if (section.classNames?.includes('spacer')) {
+      const spacer = document.createElement('div');
+      spacer.style.margin = '1rem 0';
+      clarityEl.appendChild(spacer);
+    }
+  });
+
+  clarityEl.classList.remove('hidden');
+  claritySeparator.classList.remove('hidden');
 }
 
-function openPopupItem(id, item) {
+// === POPUP FUNCTIONS ===
+export function openPopupItem(id, item) {
   const iconEl = document.getElementById('popupitem-icon');
   const nameEl = document.getElementById('popupitem-name');
   const descEl = document.getElementById('popupitem-description');
@@ -125,80 +81,57 @@ function openPopupItem(id, item) {
   const popup = document.getElementById('popupitem');
 
   // Masquer la section setarmor par défaut
-  document.getElementById('setarmor-separator').classList.add('hidden');
-  document.getElementById('popupitem-setarmor').classList.add('hidden');
+  document.getElementById('setarmor-separator')?.classList.add('hidden');
+  document.getElementById('popupitem-setarmor')?.classList.add('hidden');
 
   const props = item.displayProperties;
-  iconEl.src = "https://www.bungie.net" + props.icon;
+  iconEl.src = getBungieIconUrl(props.icon);
   iconEl.alt = `d2glossary - ${props.name}`;
   nameEl.textContent = props.name;
 
   const finalDescription = parseKeywords(processDescription(props.description));
   descEl.innerHTML = finalDescription;
 
-  fetch('data/clarity.json')
-      .then(res => res.json())
-      .then(data => {
-          const itemClarity = data[id];
-          renderClarityInPopup(itemClarity);
-      })
-      .catch(err => {
-          console.error('Erreur Clarity JSON:', err);
-          document.getElementById('popupitem-clarity').classList.add('hidden');
-          document.getElementById('clarity-separator').classList.add('hidden');
-      });
+  // Charger les données Clarity
+  loadJSON('data/clarity.json')
+    .then(data => {
+      if (data) renderClarityInPopup(data[id]);
+    })
+    .catch(() => {
+      document.getElementById('popupitem-clarity')?.classList.add('hidden');
+      document.getElementById('clarity-separator')?.classList.add('hidden');
+    });
+
   idEl.textContent = `ID: ${id}`;
 
   popup.classList.add('show');
   document.body.classList.add('popupitem-open');
 
-  const url = new URL(window.location);
-  url.searchParams.set('id', id);
-  history.replaceState(null, '', url);
+  setUrlParam('id', id);
 
   popup.onclick = (e) => {
     if (e.target.id === 'popupitem') closePopupItem();
   };
 }
 
-function closePopupItem() {
+export function closePopupItem() {
   const popup = document.getElementById('popupitem');
-  popup.classList.remove('show');
+  popup?.classList.remove('show');
   document.body.classList.remove('popupitem-open');
-
-  const url = new URL(window.location);
-  url.searchParams.delete('id');
-  history.replaceState(null, '', url);
+  removeUrlParam('id');
 }
 
-// Rendre closePopupItem accessible globalement (pour setarmorPage.js)
-window.closePopupItem = closePopupItem;
-
-// Gestion globale
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closePopupItem();
-});
-
-function sharePopupItem() {
-  const url = window.location.href;
-  navigator.clipboard.writeText(url);
-  alert("Lien copié dans le presse-papier :\n" + url);
+// === SHARE FUNCTIONS ===
+export function sharePopupItem() {
+  const url = getCurrentUrl();
+  copyToClipboard(url, 'Lien copié dans le presse-papier :\n' + url);
 }
 
-// Fonction pour retirer espaces, accents et caractères spéciaux
-function normalizeName(name) {
-  return name
-    .normalize("NFD")                // décompose accents
-    .replace(/[\u0300-\u036f]/g, "") // retire les accents
-    .replace(/\s+/g, "")             // retire espaces
-    .replace(/[^a-zA-Z0-9]/g, "")    // retire tous les caractères spéciaux (apostrophes, virgules, etc.)
-}
-
-function copyDiscordMarkdown() {
-  const name = document.getElementById('popupitem-name').textContent.trim();
-  const url = window.location.href;
+export function copyDiscordMarkdown() {
+  const name = document.getElementById('popupitem-name')?.textContent.trim();
+  const url = getCurrentUrl();
   const iconSwitch = document.getElementById('iconSwitch');
-  const iconEnabled = iconSwitch && iconSwitch.checked;
+  const iconEnabled = iconSwitch?.checked;
 
   let markdown = `[${name}](<${url}>)`;
 
@@ -207,18 +140,19 @@ function copyDiscordMarkdown() {
     markdown = `:${cleanName}: ${markdown}`;
   }
 
-  navigator.clipboard.writeText(markdown)
-    .then(() => alert("Lien Discord copié dans le presse-papier:\n" + markdown))
-    .catch(err => alert("Erreur lors de la copie : " + err));
+  copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
 }
 
-// Gestionnaire du bouton Discord simplifié
-document.addEventListener('DOMContentLoaded', () => {
-  const discordBtn = document.getElementById('discord-btn');
+// === GLOBAL BINDINGS ===
+window.openPopupItem = openPopupItem;
+window.closePopupItem = closePopupItem;
+window.sharePopupItem = sharePopupItem;
+window.copyDiscordMarkdown = copyDiscordMarkdown;
 
-  if (discordBtn) {
-    discordBtn.addEventListener('click', () => {
-      copyDiscordMarkdown();
-    });
-  }
+// Escape key handler
+onEscapeKey(closePopupItem);
+
+// Discord button handler
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('discord-btn')?.addEventListener('click', copyDiscordMarkdown);
 });

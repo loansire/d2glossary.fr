@@ -1,0 +1,134 @@
+/* variables.css - Design tokens centralisés */
+
+:root {
+  /* === COULEURS PRINCIPALES === */
+  --color-primary: #F3CF55;
+  --color-primary-light: #f5d975;
+  --color-primary-dark: #B09C4F;
+
+  /* === COULEURS DE FOND === */
+  --color-bg-dark: #0e0e0e;
+  --color-bg-card: #1a1a1a;
+  --color-bg-elevated: #1f1f1f;
+  --color-bg-surface: #2a2a2a;
+  --color-bg-surface-light: #2c2c2c;
+  --color-bg-hover: #333;
+  --color-bg-hover-light: #444;
+  --color-bg-overlay: rgba(0, 0, 0, 0.7);
+
+  /* === COULEURS DE TEXTE === */
+  --color-text-primary: #f1f1f1;
+  --color-text-secondary: #ddd;
+  --color-text-muted: #bbb;
+  --color-text-disabled: #aaa;
+  --color-text-hint: #888;
+
+  /* === COULEURS DE BORDURE === */
+  --color-border: #555;
+  --color-border-light: #666;
+
+  /* === COULEURS DESTINY 2 === */
+  --color-void: #B283CC;
+  --color-solar: #F16F27;
+  --color-arc: #7AECF3;
+  --color-stasis: #4D87FF;
+  --color-strand: #35E366;
+  --color-kinetic: #FFFFFF;
+
+  /* === COULEURS MUNITIONS === */
+  --color-ammo-primary: #FFFFFF;
+  --color-ammo-special: #7AF48B;
+  --color-ammo-heavy: #B286FF;
+
+  /* === COULEURS CHAMPIONS === */
+  --color-champion: #0AF3F3;
+
+  /* === COULEURS RARETÉ === */
+  --color-exotic: #B09C4F;
+  --color-legendary: #644D71;
+
+  /* === COULEURS ACTIVITÉS === */
+  --color-pve: #6A8DFF;
+  --color-pvp: #FF5E57;
+
+  /* === POLICES === */
+  --font-primary: 'Neue Haas Grotesk Display Pro 55 Roman', 'Segoe UI', sans-serif;
+  --font-destiny-symbols: 'Destiny2Symbols', sans-serif;
+  --font-destiny-class: 'Destiny2Class-ammo-activity', sans-serif;
+
+  /* === TAILLES DE POLICE === */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.85rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.1rem;
+  --font-size-xl: 1.3rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+
+  /* === ESPACEMENTS === */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 0.75rem;
+  --spacing-base: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* === RAYONS DE BORDURE === */
+  --radius-sm: 6px;
+  --radius-base: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 15px;
+  --radius-full: 50%;
+
+  /* === OMBRES === */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-base: 0 2px 10px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-primary: 0 0 15px rgba(243, 207, 85, 0.6);
+  --shadow-primary-sm: 0 0 10px rgba(243, 207, 85, 0.5);
+  --shadow-inset: inset 0 2px 5px rgba(0, 0, 0, 0.5);
+
+  /* === TRANSITIONS === */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease-out;
+
+  /* === Z-INDEX === */
+  --z-dropdown: 100;
+  --z-modal: 1000;
+  --z-tooltip: 1100;
+
+  /* === DIMENSIONS === */
+  --max-width-content: 1200px;
+  --max-width-wide: 1600px;
+  --icon-size-sm: 45px;
+  --icon-size-base: 60px;
+  --icon-size-lg: 64px;
+  --icon-size-xl: 80px;
+
+  /* === BORDURE ACCENT (popup/tooltip) === */
+  --border-accent-width: 5px;
+}
+
+/* === MEDIA QUERIES HELPERS === */
+@media (max-width: 768px) {
+  :root {
+    --font-size-3xl: 1.5rem;
+    --font-size-2xl: 1.3rem;
+    --icon-size-base: 50px;
+    --icon-size-lg: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-3xl: 1.3rem;
+    --font-size-2xl: 1.1rem;
+    --icon-size-base: 45px;
+    --icon-size-lg: 45px;
+  }
+}

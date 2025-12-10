@@ -1,95 +1,97 @@
-/* artefact-tooltip.css */
+/* artefact-tooltip.css - Tooltip flottant pour l'artefact */
+/* Dépend de: variables.css */
 
 .tooltip {
-    position: fixed;
-    background-color: #2c2c2c;
-    border-left: 5px solid #F3CF55;
-    border-radius: 15px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    max-width: 520px;
-    width: 90%;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1000;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  background-color: var(--color-bg-surface-light);
+  border-left: var(--border-accent-width) solid var(--color-primary);
+  border-radius: var(--radius-xl);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  max-width: 520px;
+  width: 90%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  z-index: var(--z-tooltip);
+  box-shadow: var(--shadow-lg);
 }
 
 .tooltip.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 .tooltip-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #1a1a1a;
-    padding: 1rem;
-    border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--color-bg-card);
+  padding: var(--spacing-base);
+  border-top-right-radius: var(--radius-md);
 }
 
 .header-info {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
 }
 
 .tooltip-icon {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
+  width: var(--icon-size-base);
+  height: var(--icon-size-base);
+  object-fit: contain;
 }
 
 .header-text {
-    text-align: left;
+  text-align: left;
 }
 
 .tooltip-name {
-    font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-    font-size: 2rem;
-    color: #f1f1f1;
-    text-transform: uppercase;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-3xl);
+  color: var(--color-text-primary);
+  text-transform: uppercase;
 }
 
 .tooltip-description {
-    font-family: "Neue Haas Grotesk Display Pro 55 Roman";
-    color: #ddd;
-    letter-spacing: 0.06rem;
-    text-align: left;
-    padding: 1rem;
+  font-family: var(--font-primary);
+  color: var(--color-text-secondary);
+  letter-spacing: 0.06rem;
+  text-align: left;
+  padding: var(--spacing-base);
 }
 
+/* === RESPONSIVE === */
 @media (max-width: 900px) {
-    .tooltip {
-        max-width: 95%;
-    }
+  .tooltip {
+    max-width: 95%;
+  }
 
-    .tooltip-name {
-        font-size: 1.5rem;
-    }
+  .tooltip-name {
+    font-size: var(--font-size-2xl);
+  }
 }
 
 @media (max-width: 600px) {
-    .tooltip {
-        max-width: 98%;
-    }
+  .tooltip {
+    max-width: 98%;
+  }
 
-    .tooltip-name {
-        font-size: 1.3rem;
-    }
+  .tooltip-name {
+    font-size: var(--font-size-xl);
+  }
 
-    .tooltip-description {
-        font-size: 0.85rem;
-        padding: 0.75rem;
-    }
+  .tooltip-description {
+    font-size: var(--font-size-sm);
+    padding: var(--spacing-md);
+  }
 
-    .tooltip-header {
-        padding: 0.75rem;
-    }
+  .tooltip-header {
+    padding: var(--spacing-md);
+  }
 
-    .tooltip-icon {
-        width: 45px;
-        height: 45px;
-    }
+  .tooltip-icon {
+    width: 45px;
+    height: 45px;
+  }
 }

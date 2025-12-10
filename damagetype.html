@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Favicons -->
   <link rel="icon" type="image/png" href="assets/src/ico/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="assets/src/ico/favicon.svg" />
   <link rel="shortcut icon" href="assets/src/ico/favicon.ico" />
@@ -11,8 +12,16 @@
   <meta name="apple-mobile-web-app-title" content="D2Glossary" />
   <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/d2elementstyles.css">
   <link rel="stylesheet" href="styles.css">
-  <script src="assets/js/popupitem.js"></script>
+  <link rel="stylesheet" href="assets/css/popupitem.css">
+  <link rel="stylesheet" href="assets/css/clarity-popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- JS -->
   <script type="module">
     import { loadItemListPage } from './assets/js/itemListPage.js';
 
@@ -24,15 +33,14 @@
     });
   </script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <title>D2Glossary - Dégats</title>
+  <title>D2Glossary - Dégâts</title>
 </head>
 <body>
   <div id="banniere-container"></div>
 
   <div class="search-box">
     <div class="input-container">
-      <input type="text" id="search" placeholder="Rechercher un type de dégat...">
+      <input type="text" id="search" placeholder="Rechercher un type de dégât...">
       <button id="clear-button" class="clear-button" aria-label="Clear">✖</button>
     </div>
     <div id="result-count"></div>
