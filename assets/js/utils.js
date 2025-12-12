@@ -3,6 +3,12 @@
 // === CONSTANTS ===
 export const BUNGIE_BASE_URL = 'https://www.bungie.net';
 
+// Fichiers lourds nécessitant un loader
+const HEAVY_FILES = [
+  'data/item_definitions.json',
+  'data/clarity.json'
+];
+
 // === DOM HELPERS ===
 
 /**
@@ -27,9 +33,20 @@ export async function loadHTML(url, target) {
 }
 
 /**
- * Charge un fichier JSON
+ * Charge un fichier JSON avec gestion intelligente du cache
+ * Utilise le dataManager si disponible, sinon fetch classique
  */
 export async function loadJSON(url) {
+  // Vérifier si dataManager est disponible
+  if (window.D2DataManager?.loadJSONWithCache) {
+    const isHeavy = HEAVY_FILES.some(f => url.includes(f));
+    return window.D2DataManager.loadJSONWithCache(url, {
+      showProgress: isHeavy,
+      progressMessage: getLoadingMessage(url)
+    });
+  }
+
+  // Fallback classique
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -38,6 +55,19 @@ export async function loadJSON(url) {
     console.error(`Erreur chargement JSON (${url}):`, err);
     return null;
   }
+}
+
+/**
+ * Retourne un message de chargement adapté au fichier
+ */
+function getLoadingMessage(url) {
+  if (url.includes('item_definitions')) return 'Chargement des définitions...';
+  if (url.includes('clarity')) return 'Chargement des données Clarity...';
+  if (url.includes('trait')) return 'Chargement des traits...';
+  if (url.includes('modifier')) return 'Chargement des modificateurs...';
+  if (url.includes('setarmor')) return 'Chargement des sets d\'armure...';
+  if (url.includes('artefact')) return 'Chargement de l\'artefact...';
+  return 'Chargement des données...';
 }
 
 /**

@@ -34,7 +34,12 @@ export async function loadItemListPage({
   ]);
 
   try {
-    const data = await loadJSON(dataFile);
+    // Charger les données principales ET clarity.json en parallèle
+    const [data] = await Promise.all([
+      loadJSON(dataFile),
+      loadJSON('data/clarity.json') // Précharge clarity pour les popups
+    ]);
+
     if (!data) throw new Error('Données non chargées');
 
     // Filtrer les items une seule fois

@@ -1,0 +1,18 @@
+{
+  "version": "2025-06-12",
+  "lastUpdate": "2025-06-12T12:00:00Z",
+  "files": {
+    "light": [
+      "data/trait_definitions.json",
+      "data/breaker_definitions.json",
+      "data/modifier_definitions.json",
+      "data/damagetype_definitions.json",
+      "data/setarmor_definitions_enriched.json",
+      "data/artefact_definitions_enriched.json",
+      "data/clarity.json"
+    ],
+    "heavy": [
+      "data/item_definitions.json"
+    ]
+  }
+}

@@ -9,9 +9,20 @@ import {
   getCurrentUrl,
   copyToClipboard,
   getBungieIconUrl,
-  onEscapeKey,
-  loadJSON
+  onEscapeKey
 } from './utils.js';
+
+const CLARITY_URL = 'data/clarity.json';
+
+/**
+ * Récupère les données Clarity depuis le cache mémoire
+ */
+function getClarityData() {
+  if (window.D2DataManager?.getFromMemoryCache) {
+    return window.D2DataManager.getFromMemoryCache(CLARITY_URL);
+  }
+  return null;
+}
 
 // === CLARITY RENDERING ===
 function renderClarityInPopup(item) {
@@ -92,15 +103,14 @@ export function openPopupItem(id, item) {
   const finalDescription = parseKeywords(processDescription(props.description));
   descEl.innerHTML = finalDescription;
 
-  // Charger les données Clarity
-  loadJSON('data/clarity.json')
-    .then(data => {
-      if (data) renderClarityInPopup(data[id]);
-    })
-    .catch(() => {
-      document.getElementById('popupitem-clarity')?.classList.add('hidden');
-      document.getElementById('clarity-separator')?.classList.add('hidden');
-    });
+  // Charger les données Clarity depuis le cache mémoire (déjà préchargé)
+  const clarityData = getClarityData();
+  if (clarityData) {
+    renderClarityInPopup(clarityData[id]);
+  } else {
+    document.getElementById('popupitem-clarity')?.classList.add('hidden');
+    document.getElementById('clarity-separator')?.classList.add('hidden');
+  }
 
   idEl.textContent = `ID: ${id}`;
 
