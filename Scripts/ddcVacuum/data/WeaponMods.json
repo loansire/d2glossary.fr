@@ -1,0 +1,146 @@
+[
+  {
+    "Name":"Abundant Ammo",
+    "Description":"+10 ↑+12 Ammo Generation."
+  },
+  {
+    "Name":"Aerodynamics",
+    "Description":"+6 ↑+7 Blast Radius and +6 ↑+7 Velocity."
+  },
+  {
+    "Name":"Anti-Flinch",
+    "Description":"15% ↑20%? Flinch Resist."
+  },
+  {
+    "Name":"Backup Mag",
+    "Description":"+30 ↑+40 Magazine Stat.\nComplicated, think of it as an equivalent to Extended Mag ↑+Tactical Mag."
+  },
+  {
+    "Name":"Ballistics",
+    "Description":"+6 ↑+7 Range and +6 ↑+7 Stability."
+  },
+  {
+    "Name":"Bandolier",
+    "Description":"+5 ↑+7 Ammo Generation and +15 ↑+17 Magazine Stat."
+  },
+  {
+    "Name":"Counterbalance Stock",
+    "Description":"+15 ↑+35 Recoil Direction."
+  },
+  {
+    "Name":"CQC Optics: High",
+    "Description":"+1 Zoom."
+  },
+  {
+    "Name":"CQC Optics: Low",
+    "Description":"-1 Zoom."
+  },
+  {
+    "Name":"Edge",
+    "Description":"+6 ↑+7 Charge Rate and +6 ↑+7 Guard Resistance."
+  },
+  {
+    "Name":"Enhanced Accuracy",
+    "Description":"+10 Accuracy."
+  },
+  {
+    "Name":"Enhanced Blast Radius",
+    "Description":"+10 Blast Radius."
+  },
+  {
+    "Name":"Enhanced Charge Time",
+    "Description":"-40ms Charge Time.\nDoes not reduce damage. Does not display in the stats."
+  },
+  {
+    "Name":"Enhanced Draw Time",
+    "Description":"-40ms Draw Time."
+  },
+  {
+    "Name":"Enhanced Handling",
+    "Description":"+10 Handling."
+  },
+  {
+    "Name":"Enhanced Impact",
+    "Description":"+5 Impact."
+  },
+  {
+    "Name":"Enhanced Persistence",
+    "Description":"+10 Persistence."
+  },
+  {
+    "Name":"Enhanced Projectile Speed",
+    "Description":"+10 Velocity."
+  },
+  {
+    "Name":"Enhanced Range",
+    "Description":"+10 Range."
+  },
+  {
+    "Name":"Enhanced Reload",
+    "Description":"+10 Reload."
+  },
+  {
+    "Name":"Enhanced Shield Duration",
+    "Description":"+10 Shield Duration."
+  },
+  {
+    "Name":"Enhanced Stability",
+    "Description":"+10 Stability."
+  },
+  {
+    "Name":"Flight",
+    "Description":"+6 ↑+7 Persistence and +6 ↑+7 Velocity."
+  },
+  {
+    "Name":"Freehand Grip",
+    "Description":"-30% ↑-30% Hipfire Accuracy Cone Size.\n0.95x ↑0.?x Ready Animation Duration Multiplier."
+  },
+  {
+    "Name":"Icarus Grip",
+    "Description":"+15 Airborne Effectiveness ↑and +5 Handling."
+  },
+  {
+    "Name":"Marksman Optics: High",
+    "Description":"+2 Zoom."
+  },
+  {
+    "Name":"Marksman Optics: Low",
+    "Description":"-2 Zoom."
+  },
+  {
+    "Name":"Quick Access Sling",
+    "Description":"0.9x ↑0.?x Ready\/Stow Animation Duration Multiplier."
+  },
+  {
+    "Name":"Radar Booster",
+    "Description":"Maximum Radar Distance increased by 8 metres.\nIncreases the radar range from 48 meters to 56 meters."
+  },
+  {
+    "Name":"Radar Tuner",
+    "Description":"Radar returns instantly after no longer ADS.\nRadar normally returns after 1.5 seconds.\n↑Adds the benefits of Radar Booster."
+  },
+  {
+    "Name":"Sprint Grip",
+    "Description":"After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting."
+  },
+  {
+    "Name":"Stunloader",
+    "Description":"Upon stunning a Champion:\nRefills 50% ↑60% of Magazine."
+  },
+  {
+    "Name":"Synergy",
+    "Description":"Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation."
+  },
+  {
+    "Name":"Tactical",
+    "Description":"+6 ↑+7 Handling and +6 ↑+7 Reload Speed."
+  },
+  {
+    "Name":"Targeting Adjuster",
+    "Description":"+5 ↑+7 Aim Assist."
+  },
+  {
+    "Name":"Tension",
+    "Description":"+6 ↑+7 Draw Time and +6 ↑+7 Accuracy."
+  }
+]
