@@ -1,0 +1,158 @@
+[
+  {
+    "Name": "AION Renewal\n\nKepler ",
+    "Description": "2 Piece | Force Converter\n\n<span class=\"trigger\">Upon scoring</span> a Micro-Missile, <span class=\"weapon-type\">Rocket Launcher</span> or <span class=\"weapon-type\">Grenade Launcher</span> Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants <span class=\"arc\">Speed Booster</span>.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Reactive Booster\n\nSprinting while at <span class=\"player-state\">Critical Health</span>, being <span class=\"strand\">Suspended</span>, or being affected by a <span class=\"element\">Stasis</span> Debuff will grant <span class=\"arc\">Speed Booster</span>.\nCan only trigger once per Force Converter activation."
+  },
+  {
+    "Name": "AION Adapter\n\nKepler",
+    "Description": "2 Piece | Force Absorption\n\n<span class=\"trigger\">Upon scoring</span> a Missile, <span class=\"weapon-type\">Rocket Launcher</span> or <span class=\"weapon-type\">Grenade Launcher</span> Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for <span class=\"duration\">15 seconds</span>.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Reactive Shock\n\nWhile Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within <span class=\"uncertain\">?</span> meters for <span class=\"uncertain\">?</span> seconds.\nCan only trigger once per Reactive Shock activation."
+  },
+  {
+    "Name": "Bushido\n\nPinnacle Ops ",
+    "Description": "2 Piece | Iaido\n\nScoring a <span class=\"stat\">Weapon Kill</span> within <span class=\"uncertain\">?</span> seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~<span class=\"duration\">3 second</span> cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Unfaltering Focus\n\nOn <span class=\"weapon-type\">Bow</span>, <span class=\"weapon-type\">Shotgun</span>, or <span class=\"weapon-type\">Sword</span> Kill:\nGrants Resist <span class=\"stack\">x1</span> (10% | 2.5%) for <span class=\"duration\">7 seconds</span>.\nDealing additional <span class=\"stat\">Weapon Damage</span> extends the buff duration by +<span class=\"duration\">2 seconds</span>, up to <span class=\"duration\">9 seconds</span>."
+  },
+  {
+    "Name": "Collective Psyche\n\nDesert Perpetual\nRaid",
+    "Description": "2 Piece | Accretion\n\nOn <span class=\"ammo\">Ammo Brick</span> Pickup:\nGrants stacks of Accretion, <span class=\"stack\">up to a maximum of 20 stacks</span>. Stacks persist until death.\n<span class=\"ammo\">Special Ammo</span> Bricks grant <span class=\"stack\">1 stack</span> of Accretion. <span class=\"ammo\">Heavy Ammo</span> Bricks grant <span class=\"stack\">3 stacks</span> of Accretion.\n\nAccretion:\nGrants a Ready/Stow Animation Duration Multiplier <span class=\"stack\">per stack</span>, up to a maximum of <span class=\"multiplier\">0.8x</span> Ready/Stow Animation Duration at <span class=\"stack\">20 stacks</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Doppler Efect\n\n<span class=\"element\">Solar</span> Buffs applied to the user and <span class=\"element\">Strand</span> Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer."
+  },
+  {
+    "Name": "Costumes\n\nFestival of the Lost ",
+    "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus."
+  },
+  {
+    "Name": "Disaster Corps\n\nCrucible",
+    "Description": "2 Piece | Pleas Heard\n\nUpon finishing an <span class=\"weapon-type\">Auto Rifle</span>, <span class=\"weapon-type\">Scout Rifle</span>, or <span class=\"weapon-type\">Sidearm</span> reload within <span class=\"duration\">3 seconds</span> of a kill:\nRestores 12.5HP/s until firing any weapon, casting Grenade, Melee, Class, or <span class=\"ability\">Super Ability</span>, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen. "
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Magnificent Duty\n\n<span class=\"trigger\">Upon reaching</span> <span class=\"player-state\">Critical Health</span> or healing an ally at <span class=\"player-state\">Critical Health</span>:\n\nFor <span class=\"weapon-type\">Auto Rifles</span>, <span class=\"weapon-type\">Scout Rifles</span>, and <span class=\"weapon-type\">Sidearms</span>:\n<span class=\"stat-positive\">+20</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+30</span> <span class=\"stat\">Reload Speed</span>, and <span class=\"multiplier\">0.9x</span> <span class=\"stat\">Reload</span> Duration Multiplier for <span class=\"duration\">11 seconds</span>.\n\nUsing a <span class=\"frame\">Support Frame</span> Auto to heal a <span class=\"player-state\">Critical Health</span> Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie<span class=\"uncertain\">?</span>"
+  },
+  {
+    "Name": "Ferropotent \n\nSolo/Fireteam Ops",
+    "Description": "2 Piece | Rapid Repair\n\n Upon healing <span class=\"player-state\">Shield HP</span>:\n 10% [2.5%] Damage Resist (Resist <span class=\"stack\">x1</span>) and <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span> for <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Hot Shot\n\nWhile Heavy<span class=\"uncertain\">?</span> Ammo <span class=\"ammo\">Reserves</span> are <% Maximum Total Ammo:\n<span class=\"enemy-rank\">Combatant</span> Kills grant additional Ammo Progress based on their Ammo Type.\n<span class=\"ammo\">Primary Ammo</span> Weapons receive <span class=\"uncertain\">1.?</span>x <span class=\"ammo\">Special Ammo</span> Progress Multiplier.\n<span class=\"ammo\">Special Ammo</span> Weapons receive <span class=\"uncertain\">1.?</span>x <span class=\"ammo\">Heavy Ammo</span> Progress Multiplier."
+  },
+  {
+    "Name": "Iron Panoply\n\nIron Banner",
+    "Description": "2 Piece | Vigilant Watch\n\nAs <span class=\"player-state\">Shield HP</span> drops, initially triggering at <span class=\"uncertain\">?</span> <span class=\"player-state\">Shield HP</span>, maxing out in effect at <span class=\"uncertain\">?</span> <span class=\"player-state\">Shield HP</span>:\nLinearly<span class=\"uncertain\">?</span> grants up to +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>\n\n<span class=\"trigger\">While at Critical</span> Health:\nWeapon Kills restore 30HP.\nIncurs a <span class=\"duration\">5 second</span> cooldown between triggers."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Iron Conviction\n\n<span class=\"trigger\">Upon reaching</span> <span class=\"player-state\">Critical Health</span>:\n\n<span class=\"stat-positive\">+35</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> Stat, <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span>, and 15% Damage Resist against <span class=\"enemy-rank\">Combatants</span> within <span class=\"uncertain\">15?</span> meters for <span class=\"duration\">7 seconds</span>.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching <span class=\"player-state\">Critical Health</span> for <span class=\"uncertain\">?</span> seconds upon triggering."
+  },
+  {
+    "Name": "Last Discipline\n\nCrucible",
+    "Description": "2 Piece | Terminal <span class=\"stat\">Velocity</span>\n\n<span class=\"trigger\">Upon scoring</span> a Primary <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span> and <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Reload</span> Duration Multiplier for <span class=\"weapon-type\">Primary Weapons</span> for <span class=\"duration\">6 seconds</span>.\nAlso triggers from destroying <span class=\"enemy-rank\">Constructs</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Power Loader\n\n<span class=\"trigger\">Upon picking up</span> an <span class=\"ability\">Orb of Power</span>:\nGrants 6% <span class=\"ammo\">Special Ammo</span> Progress."
+  },
+  {
+    "Name": "Lustrous\n\nSolstice",
+    "Description": "2 Piece | Photogalvanic\n\nUpon receiving ANY healing while not at Full HP:\n+<span class=\"uncertain\">20?</span> <span class=\"stat\">Handling</span>, <span class=\"stat-positive\">+10</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.85x</span> <span class=\"stat\">Reload</span> Duration Multiplier, and <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span> for <span class=\"element\">Solar</span> Weapons for <span class=\"duration\">4 seconds</span>.\nWorks with ANY source of healing, such as Orb Pickups. <span class=\"solar\">Restoration</span> constantly refreshes it"
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Cauterize\n\n<span class=\"trigger\">Upon scoring</span> 3 <span class=\"element\">Solar</span> Kills within <span class=\"uncertain\">3?</span> seconds of each:\nRestores 35 HP."
+  },
+  {
+    "Name": "New Demonic\n\nTrials",
+    "Description": "2 Piece | Paroli\n\n<span class=\"trigger\">Upon sliding</span>:\n<span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span> for <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Martingale\n\n<span class=\"trigger\">On Ally Death</span> or Ally Revival:\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and <span class=\"uncertain\">0.?</span>x <span class=\"player-state\">ADS</span> Duration Multiplier for <span class=\"uncertain\">?</span> seconds.\n"
+  },
+  {
+    "Name": "Sage Protector\n\nEquilibrium \nDungeon",
+    "Description": "2 Piece | Combat Meditation\n\nOn <span class=\"weapon-type\">Sword</span> Hit:\nGrants <span class=\"uncertain\">5?</span>% Grenade and <span class=\"uncertain\">5?</span>% Class Energy. \nDoubled to <span class=\"uncertain\">10?</span>% Grenade and <span class=\"uncertain\">10?</span>% Class Energy while Blade Focus is active."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Blade Focus\n\nUpon guarding for <span class=\"duration\">1.35 seconds</span>:\nGrants Blade Focus Ready for <span class=\"duration\">1 second</span>.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased <span class=\"weapon-type\">Sword</span> Damage, 100% Increased <span class=\"weapon-type\">Sword</span> Lunge Distance, and doubled Combat Meditation Energy Gains for <span class=\"duration\">7 seconds</span>.\nBlade Focus is removed upon guarding or stowing the sword."
+  },
+  {
+    "Name": "Shrewd Survivor\n\nLawless Frontier",
+    "Description": "2 Piece | Reflex Action\n\n<span class=\"trigger\">Upon readying</span> a Heat Weapon, <span class=\"weapon-type\">Submachine Gun</span>, or <span class=\"weapon-type\">Hand Cannon</span>:\nGrants Reflex Action for <span class=\"duration\">1.5 seconds</span>.\n Dealing Additional <span class=\"stat\">Weapon Damage</span> refreshes the buff duration.\n\nReflex Action | +<span class=\"uncertain\">50?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\">0.6?</span>x Ready Duration Multiplier, and <span class=\"stat-negative\">-2.5%</span> <span class=\"stat\">Accuracy</span> Cone Size for <span class=\"duration\">1.5 seconds</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Hot Shot\n\nWhile Reflex Action is active:\nScoring a kill grants Hotshot for <span class=\"duration\">10 seconds</span>.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">15?</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>, and +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span> for Heat Weapons, <span class=\"weapon-type\">Submachine Guns</span>, and <span class=\"weapon-type\">Hand Cannons</span>. Additionally, it grants <span class=\"stat-positive\">+30</span> Weapons stat."
+  },
+  {
+    "Name": "Smoke Jumper\n\nSolo/Fireteam Ops",
+    "Description": "2 Piece | Ride Together, Die Together\n\nOn <span class=\"ability\">Orb of Power</span> Pickup:\nGrants Ride Together, Die Together for <span class=\"duration\">3 seconds</span>.\nRide Together, Die Together initially grants 45% Damage Resist, scaling down to <span class=\"uncertain\">15%?</span> over the <span class=\"duration\">3 second</span> duration."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Too Old for This\n\nUpon finishing an <span class=\"enemy-rank\">Elite</span>+ <span class=\"enemy-rank\">Combatant</span>:\nGrants 16% <span class=\"ammo\">Special Ammo</span> Progress and restores 35 HP."
+  },
+  {
+    "Name": "Swordmaster\n\nPinnacle Ops",
+    "Description": "2 Piece | Balestra\n\n Upon damaging an enemy with a <span class=\"weapon-type\">Sword</span>, <span class=\"weapon-type\">Glaive</span>, or Melee Attack:\nInflicts Exhaustion for <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Stesso Tempo\n\n<span class=\"trigger\">Upon blocking</span> damage with a <span class=\"weapon-type\">Glaive</span> or a <span class=\"weapon-type\">Sword</span>:\n50% [10%] Damage Resist (Resist <span class=\"stack\">x4</span>) for <span class=\"duration\">3 seconds</span> upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires."
+  },
+  {
+    "Name": "Techsec\n\nSolo/Fireteam Ops",
+    "Description": "2 Piece | Wrecker\n\nPassively grants increased <span class=\"element\">Kinetic</span> Damage towards <span class=\"enemy-rank\">Combatant</span> Shields, Overshields, <span class=\"enemy-rank\">Vehicles</span>, and <span class=\"enemy-rank\">Constructs</span>.\n200% increased <span class=\"element\">Kinetic</span> Damage towards <span class=\"enemy-rank\">Combatant</span> Shields and <span class=\"enemy-rank\">Combatant</span> Overshields. Damage shows up as Yellow Numbers.\n15% increased <span class=\"element\">Kinetic</span> Damage towards <span class=\"enemy-rank\">Constructs</span>. Koregos is not a <span class=\"enemy-rank\">Construct</span> lol\nIt's ALL <span class=\"element\">Kinetic</span> Damage, including Poison and Unpowered/<span class=\"weapon-type\">Glaive</span> Melee!"
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Concussive Rounds\n\nUpon killing an <span class=\"enemy-rank\">Elite</span>+ <span class=\"enemy-rank\">Combatant</span>, or breaking a <span class=\"enemy-rank\">Combatant</span> Shield with <span class=\"element\">Kinetic</span> Damage:\nTriggers a disorienting <span class=\"element\">Kinetic</span> blast, dealing up to 162 <span class=\"element\">Kinetic</span> Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Thriving Survivor\n\nLawless Frontier",
+    "Description": "2 Piece | Opening Act\n\n<span class=\"trigger\">Upon scoring</span> a <span class=\"ability\">Grenade Kill</span>:\nGrants Opening Act for <span class=\"duration\">15 seconds</span>.\n\nOpening Act | +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">?</span> Vent Speed to Heat Weapons. <span class=\"weapon-type\">Primary Weapons</span> are instead granted +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Room Clearing\n\n<span class=\"trigger\">Upon scoring</span> 3 Heat Weapons or <span class=\"weapon-type\">Primary Weapon</span> Kills within <span class=\"duration\">4 seconds</span> of each:\nGrants Room Cleaning for <span class=\"duration\">10 seconds</span>.\n\nRoom Cleaning | <span class=\"stat-positive\">+40</span> Grenade and <span class=\"stat-positive\">+40</span> Weapon. Additionally, it grants +<span class=\"uncertain\">?</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> for Heat Weapons and <span class=\"ammo\">Primary Ammo</span> Weapons."
+  },
+  {
+    "Name": "Twofold Crown\n\nTrials",
+    "Description": "2 Piece | Crook and Flail\n\nOn <span class=\"ammo\">Ammo Brick</span> Pickup:\nRestores 70 HP."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Gift of Sight\n\n<span class=\"trigger\">Upon scoring</span> a Primary <span class=\"stat\">Weapon Kill</span>:\nGrants Enhanced Radar for <span class=\"duration\">5 seconds</span>.\nAlso triggers from destroying <span class=\"enemy-rank\">Constructs</span>."
+  },
+  {
+    "Name": "Uncaged Deviants\n\nDesert Perpetual\nEpic Raid",
+    "Description": "2 Piece | Special Relativity\n\nOn <span class=\"ammo\">Ammo Brick</span> Pickup:\nRefills stowed <span class=\"weapon-type\">Special Weapons</span>."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Superluminal Motion\n\n<span class=\"trigger\">Upon dealing</span> <span class=\"ability\">Super</span> Damage:, while Movement Speed isn't 0m/s:\nRestores 17.5HP/s for <span class=\"duration\">11 seconds</span>. \nDealing Additional <span class=\"ability\">Super</span> Damage refreshes the buff duration."
+  },
+  {
+    "Name": "Wild Anthem\n\nCrucible",
+    "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of <span class=\"stat\">Magazine</span> AND Ammo ≠ 0:\n<span class=\"stat-positive\">+15</span> <span class=\"stat\">Reload Speed</span> and <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Reload</span> Duration Multiplier.\nDoes not trigger at 0 Ammo."
+  },
+  {
+    "Name": NaN,
+    "Description": "4 Piece | Suros Harmony\n\n<span class=\"trigger\">Upon finishing a reload</span>:\nSUROS Harmony | +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span> for <span class=\"duration\">6 seconds</span>.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted <span class=\"stat-positive\">+15</span> <span class=\"stat\">Range</span>. \nFor some reason, the +<span class=\"stat\">Range</span> benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao."
+  }
+]

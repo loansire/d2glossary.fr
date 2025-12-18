@@ -1,0 +1,69 @@
+
+:root {
+    --color-base-value: #74c0fc;
+    --color-upgrade-arrow: #51cf66;
+    --color-enhanced-value: #51cf66;
+    --color-enhanced-line: #51cf66;
+    --color-enhanced-addition: #8ce99a;
+    --color-enhanced-text: #51cf66;
+    --color-uncertain: #fcc419;
+    --color-stat-positive: #339af0;
+    --color-stat-negative: #ff6b6b;
+    --color-duration: #fcc419;
+    --color-multiplier: #20c997;
+    --color-stat: #74c0fc;
+    --color-solar: #ff6b35;
+    --color-arc: #7ec8e3;
+    --color-void: #b388ff;
+    --color-stasis: #4fc3f7;
+    --color-strand: #66bb6a;
+    --color-element: #f06595;
+    --color-weapon-type: #adb5bd;
+    --color-frame: #868e96;
+    --color-champion: #ffd43b;
+    --color-enemy-rank: #ffe066;
+    --color-ability: #da77f2;
+    --color-trigger: #ced4da;
+    --color-stack: #e599f7;
+    --color-ammo: #69db7c;
+    --color-player-state: #ffa94d;
+    --color-damage-type: #ff8787;
+    --color-shield: #fab005;
+}
+
+.base-value { color: var(--color-base-value); }
+.upgrade-arrow { color: var(--color-upgrade-arrow); font-weight: bold; }
+.enhanced-value { color: var(--color-enhanced-value); font-weight: bold; }
+.enhanced-line { 
+    color: var(--color-enhanced-line); 
+    font-style: italic; 
+    display: block; 
+    border-left: 3px solid var(--color-enhanced-line); 
+    padding-left: 8px; 
+    margin-top: 4px; 
+}
+.enhanced-addition { color: var(--color-enhanced-addition); }
+.enhanced-text { color: var(--color-enhanced-text); }
+.uncertain { color: var(--color-uncertain); font-style: italic; }
+.stat-positive { color: var(--color-stat-positive); }
+.stat-negative { color: var(--color-stat-negative); }
+.duration { color: var(--color-duration); }
+.multiplier { color: var(--color-multiplier); }
+.stat { color: var(--color-stat); }
+.solar { color: var(--color-solar); font-weight: 500; }
+.arc { color: var(--color-arc); font-weight: 500; }
+.void { color: var(--color-void); font-weight: 500; }
+.stasis { color: var(--color-stasis); font-weight: 500; }
+.strand { color: var(--color-strand); font-weight: 500; }
+.element { color: var(--color-element); }
+.weapon-type { color: var(--color-weapon-type); }
+.frame { color: var(--color-frame); }
+.champion { color: var(--color-champion); font-weight: bold; }
+.enemy-rank { color: var(--color-enemy-rank); }
+.ability { color: var(--color-ability); }
+.trigger { color: var(--color-trigger); font-style: italic; }
+.stack { color: var(--color-stack); }
+.ammo { color: var(--color-ammo); }
+.player-state { color: var(--color-player-state); }
+.damage-type { color: var(--color-damage-type); }
+.shield { color: var(--color-shield); }

@@ -1,0 +1,950 @@
+[
+  {
+    "Name": "Adagio",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n30% increased damage, <span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, and <span class=\"multiplier\">1.2x</span> Fire <span class=\"stat\">Recovery</span> Delay/Charge Time Multiplier/<span class=\"stat\">Draw Time</span> Multiplier for 7 ↑<span class=\"duration\">8 seconds</span>.\n<span class=\"weapon-type\">Bows</span> and <span class=\"weapon-type\">Shotguns</span> are instead granted 20% increased damage.\nBuff is removed on stow.\n\n↑Buff duration is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "Adaptive Munitions",
+    "Description": "Upon damaging a <span class=\"shield\">Non-Matching Shield</span> or a <span class=\"champion\">Barrier Champion</span> Shield: \nStacking damage increase against <span class=\"enemy-rank\">Combatant</span> Shields.\nBuff is removed upon hitting a <span class=\"shield\">Matching Shield</span> or an Unshielded <span class=\"enemy-rank\">Combatant</span>.\n\n<span class=\"uncertain\">?</span><span class=\"uncertain\">?</span><span class=\"uncertain\">?%</span> ↑<span class=\"uncertain\">?</span><span class=\"uncertain\">?</span><span class=\"uncertain\">?%</span> per hit, up to <span class=\"uncertain\">?</span><span class=\"uncertain\">?</span><span class=\"uncertain\">?%</span> ↑<span class=\"uncertain\">?</span><span class=\"uncertain\">?</span><span class=\"uncertain\">?%</span>: <span class=\"weapon-type\">Fusion Rifles</span>.\n10% ↑14% per hit, up to 50% ↑69.5%: <span class=\"weapon-type\">Auto Rifles</span>, <span class=\"weapon-type\">Machine Guns</span>, <span class=\"weapon-type\">Pulse Rifles</span>, and <span class=\"weapon-type\">Trace Rifles</span>.\n 22% ↑31% per hit, up to 44.5% ↑61.5%: <span class=\"weapon-type\">Linear Fusion Rifles</span>.\n25% ↑34.5% per hit, up to 50% ↑69.5%: <span class=\"weapon-type\">Bows</span>, <span class=\"weapon-type\">Glaives</span>, <span class=\"weapon-type\">Hand Cannons</span>, and <span class=\"weapon-type\">Scout Rifles</span>.\n\n↑Increases Damage Buff by ~40%."
+  },
+  {
+    "Name": "Adhesive Ordnance",
+    "Description": "<span class=\"trigger\">Upon picking up</span> an <span class=\"ammo\">Ammo Brick</span>:\nThe next shot fired adheres a Sticky Bomb on impact.\n\nSticky Bomb detonates after <span class=\"duration\">0.8 seconds</span>, dealing up to ↑410 <span class=\"uncertain\">[?]</span> <span class=\"element\">Kinetic</span> Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against <span class=\"enemy-rank\">Combatants</span> scales with <span class=\"enemy-rank\">Combatant</span> Rank Modifiers and counts as <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>."
+  },
+  {
+    "Name": "Adrenaline Junkie",
+    "Description": "On Weapon or <span class=\"ability\">Grenade Kill</span>:\n6.7% | 13.3% | 20% | 26.6% | 33.3% increased damage and <span class=\"stat-positive\">+20</span> <span class=\"stat\">Handling</span> for 4.5 ↑<span class=\"duration\">5 seconds</span>. Grenade Kills grant <span class=\"stack\">5 stacks</span>, even if stowed.\nAdditional Weapon or Grenade Kills refresh the buff duration.\nBuff persists through stow.\n\n↑Buff duration is increased to a maximum of <span class=\"duration\">5 seconds</span>."
+  },
+  {
+    "Name": "Aggregate Charge",
+    "Description": "Against Elementally-Debuffed Enemies:\n10% ↑11% [<span class=\"uncertain\">?%</span>] | 20% ↑22% [<span class=\"uncertain\">?%</span>] | 30% ↑33% [<span class=\"uncertain\">?%</span>] increased damage. \nEffect scales with the amount of unique debuffs on the enemy, maxing out at 3 unique debuffs.\n\nDebuff List:\n<span class=\"arc\">Blind</span> - <span class=\"arc\">Jolt</span> | <span class=\"solar\">Scorch</span> - <span class=\"solar\">Ignition</span> | <span class=\"void\">Suppression</span> - <span class=\"void\">Volatile</span> - <span class=\"void\">Weaken</span>\n<span class=\"stasis\">Slow</span> - <span class=\"stasis\">Freeze</span> - <span class=\"stasis\">Shatter</span> | <span class=\"strand\">Sever</span> - <span class=\"strand\">Suspend</span> - <span class=\"strand\">Unravel</span>\n\n↑Damage buff is increased."
+  },
+  {
+    "Name": "Air Assault",
+    "Description": "Passively grants <span class=\"stat-positive\">+10</span> ↑12 <span class=\"stat\">Airborne Effectiveness</span>.\n\nOn <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-positive\">+30</span> ↑32 <span class=\"stat\">Airborne Effectiveness</span> <span class=\"stack\">per stack</span> for <span class=\"duration\">5 seconds</span>, <span class=\"stack\">up to a maximum of 2 stacks</span>. Airborne Kills grant <span class=\"stack\">2 stacks</span>.\nAdditional Weapon Kills refresh the buff duration.\nBuff is removed on stow.\n\n↑Passively grants <span class=\"stat-positive\">+12</span> <span class=\"stat\">Airborne Effectiveness</span>. <span class=\"stat-positive\">+32</span> <span class=\"stat\">Airborne Effectiveness</span> per Stack."
+  },
+  {
+    "Name": "Air Trigger",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+30</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>.\n\n<span class=\"trigger\">While Airborne</span>:\n<span class=\"stat-positive\">+30</span> ↑<span class=\"uncertain\">35?</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier, -<span class=\"uncertain\">15?</span>% ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size, and -<span class=\"uncertain\">20?</span>% ↑-<span class=\"uncertain\">?%</span> Auto Aim Cone Size.\n\n↑+<span class=\"uncertain\">35?</span> <span class=\"stat\">Reload Speed</span>, <span class=\"uncertain\">0.8?</span>x <span class=\"stat\">Reload</span> Duration Multiplier, -<span class=\"uncertain\">15?</span>% <span class=\"stat\">Accuracy</span> Cone Size, and -<span class=\"uncertain\">20?</span>% Auto Aim Cone Size while Airborne. <span class=\"stat-positive\">+30</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>."
+  },
+  {
+    "Name": "All-Star",
+    "Description": "<span class=\"trigger\">Upon picking up</span> an <span class=\"ammo\">Ammo Brick</span>:\nRefills <span class=\"stat\">Magazine</span>.\n15% [<span class=\"uncertain\">?%</span>] Increased Damage and +<span class=\"uncertain\">100?</span> <span class=\"stat\">Reload Speed</span> for <span class=\"uncertain\">9?</span> ↑<span class=\"duration\">10 seconds</span>.\n\nPicking up a <span class=\"element\">Kinetic</span> <span class=\"ammo\">Ammo Brick</span> (from the <span class=\"element\">Kinetic</span> Synthesis Artifact Perk) only grants All-Star for <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": "Alloy Mag",
+    "Description": "Upon starting a reload, while at or below 50% <span class=\"stat\">Magazine</span> Capacity:\nLinearly grants up to <span class=\"multiplier\">0.8x</span> ↑<span class=\"multiplier\">0.75x</span> <span class=\"stat\">Reload</span> Duration Multiplier.\nPerk dynamically scales from <span class=\"multiplier\">0.9x</span> ↑<span class=\"multiplier\">0.85x</span> <span class=\"stat\">Reload</span> Duration Multiplier at 50% <span class=\"stat\">Magazine</span>, up to <span class=\"multiplier\">0.8x</span> ↑<span class=\"multiplier\">0.75x</span> <span class=\"stat\">Reload</span> Duration Multiplier at 0% <span class=\"stat\">Magazine</span>."
+  },
+  {
+    "Name": "Ancillary Ordinance",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 3 Elemental Kills within <span class=\"uncertain\">?</span> seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of <span class=\"uncertain\">?</span> ↑<span class=\"stack\">5 stacks</span>.\nKills can be scored through any means. \nScoring a <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Kill</span> against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with <span class=\"strand\">Unravel</span> or <span class=\"solar\">Scorching</span> Rounds!\n\n<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Weapon Kill</span> while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing <span class=\"element\">Kinetic</span> Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing 330 (At least the <span class=\"weapon-type\">Auto Rifle</span>) [100] <span class=\"element\">Kinetic</span> Damage over a tiny radius.\n\n↑Increases the maximum amount of stored micro-missiles to 5."
+  },
+  {
+    "Name": "Ambitious Assassin",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> after scoring Weapon Kills:\nOverflows <span class=\"stat\">Magazine</span> from reserves based on the amount of kills achieved, up to a maximum of 150% Increased <span class=\"stat\">Magazine</span> Capacity. \nAlways rounds magazine up. Kill Counter persists through stow.\n\n<span class=\"weapon-type\">Primary Weapons</span>: 20% Increased <span class=\"stat\">Magazine</span> Capacity per Kill.\n<span class=\"weapon-type\">Special Weapons</span> | <span class=\"weapon-type\">Power Weapons</span>: 10% Increased <span class=\"stat\">Magazine</span> Capacity per Kill.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Reload Speed</span>. Timer between kills is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "Archer's Gambit",
+    "Description": "On Hipfired <span class=\"stat\">Precision Hit</span>:\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span>, <span class=\"uncertain\"><span class=\"multiplier\">0.x</span>?</span> <span class=\"stat\">Reload</span> Duration Multiplier, and <span class=\"multiplier\">0.4x</span> <span class=\"stat\">Draw Time</span> Multiplier for <span class=\"duration\">4 seconds</span>.\nScoring additional Hipfired Precision Hits extends the buff duration by +<span class=\"duration\">4 seconds</span>, up to 8 ↑<span class=\"uncertain\">?</span> seconds.\nBuff persists through stow.\n\n↑Buff duration is increased to <span class=\"uncertain\">5?</span> seconds<span class=\"uncertain\">?</span>"
+  },
+  {
+    "Name": "Archer's Tempo",
+    "Description": "On <span class=\"stat\">Precision Hit</span>:\n<span class=\"multiplier\">0.75x</span> <span class=\"stat\">Draw Time</span> Multiplier for 3 ↑<span class=\"duration\">4 seconds</span>.\nBuff is removed on stow.\n\n↑Buff duration is increased to <span class=\"duration\">4 seconds</span>."
+  },
+  {
+    "Name": "Armor-Piercing Rounds",
+    "Description": "Grants 5% increased damage against <span class=\"enemy-rank\">Combatant</span> <span class=\"shield\">Elemental Shields</span> and <span class=\"champion\">Barrier Champion</span>'s Shield.\nPassively grants <span class=\"stat-positive\">+5</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Range</span>.\n\nBullets overpenetrate enemies once."
+  },
+  {
+    "Name": "Assassin's Blade",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n15% Increased damage and maximizes Movement Speed for 5 ↑<span class=\"duration\">5.5 seconds</span>.\nAdditional Weapon Kills refresh the buff duration.\n Buff remains active while stowed.\n\n↑Buff duration is increased to <span class=\"duration\">5.5 seconds</span>."
+  },
+  {
+    "Name": "Attrition Orbs",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Magazine</span>-Based amount of damage instances within <span class=\"duration\">5 seconds</span> of each:\nCreates an <span class=\"ability\">Orb of Power</span> that grants 0.8% ↑1.1% <span class=\"ability\">Super</span> Energy.\n\nHits required to activate:\n55% of <span class=\"stat\">Magazine</span> + 2, rounded down.\n<span class=\"weapon-type\">Bows</span>: 5 | <span class=\"weapon-type\">Swords</span>: 6 | Area-Denial <span class=\"weapon-type\">Grenade Launchers</span>: ~<span class=\"uncertain\">48?</span>\nSupport <span class=\"weapon-type\">Auto Rifles</span>: 33.5% of <span class=\"stat\">Magazine</span> + 2, rounded down on healing hits on damaged allies.\n<span class=\"solar\">Scorch</span> ticks from Weapon Perks do not count.\n Incurs a <span class=\"duration\">0.5 second</span> cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.\nCounter persists through stow.\n\n↑<span class=\"ability\">Orb of Power</span> grants 1.1% <span class=\"ability\">Super</span> Energy."
+  },
+  {
+    "Name": "Auto-Loading Holster",
+    "Description": "Refills stowed weapon from reserves 3.5 ↑<span class=\"duration\">3.3 seconds</span> after stowing.\n\n↑Activation timer is decreased to <span class=\"duration\">3.3 seconds</span>."
+  },
+  {
+    "Name": "Backup Plan",
+    "Description": "<span class=\"trigger\">Upon readying</span>:\n20% decreased damage, <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, and <span class=\"multiplier\">0.7x</span> Charge Time Multiplier for 2 ↑<span class=\"duration\">2.5 seconds</span>.\n<span class=\"weapon-type\">Linear Fusion Rifle</span> exclusive: Shooting refreshes the buff duration.\nWeapon must be stowed for <span class=\"duration\">3 seconds</span> before it can be reactivated.\n\n↑Buff duration is increased to <span class=\"duration\">2.5 seconds</span>."
+  },
+  {
+    "Name": "Bait and Switch",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a damage instance with each equipped weapon within <span class=\"duration\">7 seconds</span> of the last damage instance:\n30% increased damage for 10 ↑<span class=\"duration\">11 seconds</span>. \nBuff cannot be refreshed until its duration expires. Damage Timer is disabled while the perk is active. Buff persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "Barrel Constrictor",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-negative\">-20%</span> Pellet/Projectile Spread for <span class=\"duration\">7.5 seconds</span>.\nBuff cannot be refreshed. Buff persists through stow.\n\n↑Buff Duration is increased to <span class=\"duration\">8.5 seconds</span>."
+  },
+  {
+    "Name": "Beacon Rounds",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants a stack of Beacon Rounds for 6 ↑<span class=\"uncertain\">7?</span> seconds, <span class=\"stack\">up to a maximum of 4 stacks</span>.\nDealing additional damage extends the buff duration to <span class=\"duration\">4 seconds</span> if the duration is <<span class=\"duration\">4 seconds</span>.\nBuff can be activated while stowed, and persists through stow.\n\nGrants <span class=\"stat-positive\">+15</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.9x</span> <span class=\"stat\">Reload</span> Duration Multiplier, and 45% Increased Projectile Tracking Cone Size.\nAdditional stacks only increase the strength of the projectile tracking. Projectile Tracking is only in effect when the Targeted Reticle is active.\n\n↑Initial buff duration is increased to <span class=\"uncertain\">7?</span> seconds."
+  },
+  {
+    "Name": "Bewildering Burst",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"uncertain\">?</span> seconds of a Kill:\nGrants Bewildering Burst for 6 ↑<span class=\"duration\">7 seconds</span>.\n\nThe next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after <span class=\"duration\">0.85 seconds</span>.\nFlashbang deals 10 [~2.5] <span class=\"element\">Kinetic</span> Damage and inflicts disorient to enemies within 9 meters for <span class=\"duration\">3.5 seconds</span>.\nBuff persists through stow.\n\n↑Buff Duration is increased to <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": "Binary Orbit",
+    "Description": "<span class=\"trigger\">Upon scoring</span> an Opposing Alignment Elemental Kill:\n25% increased damage for 8.5 ↑<span class=\"duration\">10.5 seconds</span>.\nAdditional Kills with Opposing-Alignment sources refresh the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n<span class=\"element\">Arc</span>, <span class=\"element\">Solar</span>, or <span class=\"element\">Void</span> Kill => <span class=\"element\">Kinetic</span>, <span class=\"element\">Stasis</span> and <span class=\"element\">Strand</span> Weapons receive buff.\n <span class=\"element\">Kinetic</span>, <span class=\"element\">Stasis</span>, or <span class=\"element\">Strand</span> Kill =>  <span class=\"element\">Arc</span>, <span class=\"element\">Solar</span>, and <span class=\"element\">Void</span> Weapons receive buff.\n\n↑Buff Duration is increased to <span class=\"duration\">10.5 seconds</span>."
+  },
+  {
+    "Name": "Bipod",
+    "Description": "Passively grants the following:\n<span class=\"stat-positive\">+1</span> <span class=\"stat\">Magazine</span> Capacity, <span class=\"stat-positive\">+5</span> <span class=\"ammo\">Reserves</span>, and <span class=\"multiplier\">0.75x</span> Fire <span class=\"stat\">Recovery</span> Delay\n25% decreased damage, <span class=\"stat-negative\">-30</span> ↑<span class=\"stat-negative\">-25</span> <span class=\"stat\">Blast Radius</span>, and <span class=\"stat-negative\">-20</span> ↑<span class=\"stat-negative\">-15</span> <span class=\"stat\">Reload Speed</span>.\nWolfpack Rounds are affected by the damage penalty.\n\n↑Stat Penalties are lowered by <span class=\"stat-positive\">+5</span>, down to <span class=\"stat-negative\">-25</span> <span class=\"stat\">Blast Radius</span> and <span class=\"stat-negative\">-15</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Blast Distributor",
+    "Description": "<span class=\"trigger\">Upon dealing</span> Weapon <span class=\"damage-type\">Explosive Damage</span>:\n<span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+13</span> Grenade Stat <span class=\"stack\">per stack</span> for <span class=\"duration\">5 seconds</span>, up to a maximum of <span class=\"stat-positive\">+50</span> ↑<span class=\"stat-positive\">+65</span> Grenade Stat at <span class=\"stack\">5 stacks</span>.\nBuff remains active through stow.\n\n↑Grants <span class=\"stat-positive\">+13</span> Grenade Stat <span class=\"stack\">per stack</span>, up to a maximum of <span class=\"stat-positive\">+65</span> Grenade Stat."
+  },
+  {
+    "Name": "Blunt Execution Rounds",
+    "Description": "<span class=\"trigger\">Upon dealing</span> Melee Damage while within 15 metres of an enemy:\n500% [100%] increased damage and <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span> for the next burst within 10 ↑<span class=\"duration\">11 seconds</span>.\nIncurs a <span class=\"duration\">4 second</span> cooldown after buff expires before it can be reactivated. \nBuff can be triggered while stowed, but is removed on stow if active.\n\nAny <span class=\"ability\">Powered Melee</span> which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds.\n\n↑Buff duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "Bolt Scavenger",
+    "Description": "<span class=\"trigger\">Upon picking up</span> a Crossbow Bolt:\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span> for 15 ↑<span class=\"uncertain\">?</span> seconds.\n\n↑Buff duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Bottomless Grief",
+    "Description": "Passively grants <span class=\"stat-positive\">+30</span> <span class=\"stat\">Magazine</span> Stat.\n\nWhile Last <span class=\"enemy-rank\">Guardian</span> Standing:\nOn <span class=\"stat\">Weapon Kill</span>:\nRefills <span class=\"stat\">Magazine</span>."
+  },
+  {
+    "Name": "Box Breathing",
+    "Description": "After 1.5 ↑<span class=\"duration\">1.4 seconds</span> of <span class=\"player-state\">ADS</span> without firing:\n10% Increased <span class=\"stat\">Aim Assist</span> Falloff Distance and grants 40% increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> for the next shot while <span class=\"player-state\">ADS</span>. \n<span class=\"weapon-type\">Scout Rifles</span> receive 5% Decreased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> while Box Breathing is active. Heavy <span class=\"weapon-type\">Sniper Rifles</span> only receive 30% increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\n↑Activation timer is decreased to <span class=\"duration\">1.4 seconds</span>."
+  },
+  {
+    "Name": "Built To Blast",
+    "Description": "While <span class=\"void\"><span class=\"element\">Void</span> <span class=\"player-state\">Overshield</span></span>, <span class=\"stasis\">Frost Armor</span>, or <span class=\"strand\">Woven Mail</span> are active:\n+<span class=\"uncertain\">30?</span> <span class=\"stat\">Stability</span>, +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span>, and <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span>\n\n↑Buff lingers for <span class=\"uncertain\">?</span> seconds once criteria isn't met. "
+  },
+  {
+    "Name": "Burning Ambition OLD",
+    "Description": "<span class=\"trigger\">Upon scoring</span> multiple direct hits within <span class=\"uncertain\">3?</span> seconds of each:\nThe next direct hit inflicts <span class=\"solar\">Scorch</span>.\nHit counter persists through stow. Hits do not have to be on the same target.\n<span class=\"solar\">Scorch</span> inflicted by Burning Ambition counts as <span class=\"stat\">Weapon Damage</span>.\n\nDirect hits against <span class=\"solar\">Scorched</span> Enemies inflict <span class=\"solar\">Scorch</span>.\n\n<span class=\"weapon-type\">Primary Weapons</span> inflict <span class=\"stack\">x10</span><span class=\"stat-positive\">+5</span> [<span class=\"stack\">x4</span>+<span class=\"uncertain\">5?</span> against <span class=\"solar\">Scorched</span> <span class=\"enemy-rank\">Guardians</span>] <span class=\"solar\">Scorch</span>.\nSpecial and <span class=\"weapon-type\">Power Weapons</span> inflict <span class=\"stack\">x20</span><span class=\"stat-positive\">+10</span> <span class=\"solar\">Scorch</span>.\nIncurs a <span class=\"duration\">0.5 second</span> cooldown upon inflicting <span class=\"solar\">Scorch</span> before additional <span class=\"solar\">Scorch</span> can be inflicted. Cooldown is GLOBAL, not per-enemy.\n\nHits needed to prepare <span class=\"solar\">Scorching</span> Shot:\n<span class=\"weapon-type\">Auto Rifle</span>: 29 ↑26 | <span class=\"stack\">x10</span><span class=\"stat-positive\">+5</span>\n<span class=\"weapon-type\">Fusion Rifle</span>: 24 ↑<span class=\"uncertain\">?</span> | x<span class=\"uncertain\">?</span>+<span class=\"uncertain\">?</span>\n<span class=\"weapon-type\">Machine Gun</span>: <span class=\"uncertain\">?</span> ↑16 | <span class=\"stack\">x20</span><span class=\"stat-positive\">+10</span>\n<span class=\"weapon-type\">Hand Cannon</span>, <span class=\"weapon-type\">Pulse Rifle</span>, and <span class=\"weapon-type\">Submachine Gun</span>: 70% ↑55% of <span class=\"stat\">Magazine</span>, rounded up | <span class=\"stack\">x10</span><span class=\"stat-positive\">+5</span>\nRocket <span class=\"weapon-type\">Sidearm</span> and GLs: 4 ↑3 | <span class=\"stack\">x20</span><span class=\"stat-positive\">+10</span>\n<span class=\"weapon-type\">Sword</span>: <span class=\"uncertain\">?</span> ↑2 | <span class=\"stack\">x20</span><span class=\"stat-positive\">+10</span>\n<span class=\"weapon-type\">Bow</span>: 2 ↑1 | <span class=\"stack\">x10</span><span class=\"stat-positive\">+5</span>\n\n↑<span class=\"solar\">Scorching</span> Shot hit requirement is decreased."
+  },
+  {
+    "Name": "Burning Ambition",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Magazine</span>-based amount of direct hits within <span class=\"duration\">2 seconds</span> of each:\nThe next direct hit inflicts <span class=\"solar\">Scorch</span>.\nHit counter persists through stow. Hits do not have to be on the same target.\n<span class=\"solar\">Scorch</span> inflicted by Burning Ambition counts as <span class=\"stat\">Weapon Damage</span>.\n\nHits needed to prepare <span class=\"solar\">Scorching</span> Shot:\n55% of <span class=\"stat\">Magazine</span> ↑<span class=\"stat-negative\">-1.</span> \n<span class=\"weapon-type\">Bow</span>: <span class=\"uncertain\">2?</span> ↑1 | <span class=\"weapon-type\">Sword</span>: 3 ↑2\n\nAdditionally, direct hits against <span class=\"solar\">Scorched</span> Enemies inflict <span class=\"solar\">Scorch</span>.\n<span class=\"weapon-type\">Primary Weapons</span> inflict <span class=\"stack\">x10</span><span class=\"stat-positive\">+5</span> [<span class=\"stack\">x4</span>+<span class=\"uncertain\">5?</span> against <span class=\"solar\">Scorched</span> <span class=\"enemy-rank\">Guardians</span>] <span class=\"solar\">Scorch</span>.\nSpecial and <span class=\"weapon-type\">Power Weapons</span> inflict <span class=\"stack\">x20</span><span class=\"stat-positive\">+10</span> <span class=\"solar\">Scorch</span>.\nIncurs a <span class=\"duration\">0.5 second</span> cooldown upon inflicting <span class=\"solar\">Scorch</span> before additional <span class=\"solar\">Scorch</span> can be inflicted. Cooldown is GLOBAL, not per-enemy.\n\n↑<span class=\"solar\">Scorching</span> Shot hit requirement is decreased by 1."
+  },
+  {
+    "Name": "Butterfly",
+    "Description": "After <span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">?</span> seconds of <span class=\"player-state\">ADS</span> without firing:\nAiming this weapon for a short period without firing causes your target to explode the next time you deal final blows.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\nBasically No Distractions + Dragonfly, it seems<span class=\"uncertain\">?</span>"
+  },
+  {
+    "Name": "Cascade Point",
+    "Description": "<span class=\"trigger\">Upon scoring</span> multiple Precision Hits within <span class=\"duration\">5 seconds</span> of each with a different weapon or upon scoring a kill with a different weapon:\nGrants Cascade Point Ready for <span class=\"duration\">5 seconds</span>.\n\n<span class=\"trigger\">Upon readying</span> the weapon while Cascade Point Ready is active:\nGrants Cascade Point for 2.5 ↑<span class=\"duration\">2.75 seconds</span>.\nCascade Point grants <span class=\"multiplier\">0.7x</span> Fire <span class=\"stat\">Recovery</span> Delay for <span class=\"weapon-type\">Machine Guns</span> and <span class=\"weapon-type\">Submachine Guns</span>, and <span class=\"multiplier\">0.6x</span> Fire <span class=\"stat\">Recovery</span> Delay for everything else.\n\nPrecision Hits work on a Counter System, granting Cascade Point Ready upon reaching 100%.\n50% Counter per <span class=\"stat\">Precision Hit</span>: <span class=\"weapon-type\">Bows</span>, <span class=\"weapon-type\">Linear Fusion Rifles</span>, <span class=\"weapon-type\">Shotguns</span>, and <span class=\"weapon-type\">Sniper Rifles</span>.\n17.5% Counter per <span class=\"stat\">Precision Hit</span>: <span class=\"weapon-type\">Hand Cannons</span>, <span class=\"weapon-type\">Scout Rifles</span>, and <span class=\"weapon-type\">Sidearms</span>.\n8% Counter per <span class=\"stat\">Precision Hit</span>: <span class=\"weapon-type\">Auto Rifles</span>, <span class=\"weapon-type\">Machine Guns</span>, <span class=\"weapon-type\">Pulse Rifles</span>, <span class=\"weapon-type\">Submachine Guns</span>, and <span class=\"weapon-type\">Trace Rifles</span>. \n\n↑Buff duration is increased to <span class=\"duration\">2.75 seconds</span>."
+  },
+  {
+    "Name": "Celerity",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>.\n\nWhile Last <span class=\"enemy-rank\">Guardian</span> Standing:\n<span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, <span class=\"stat-positive\">+100</span> <span class=\"stat\">Reload Speed</span>, +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span>, <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span>, increased accuracy, stronger scope highlight, and enables radar while <span class=\"player-state\">ADS</span>."
+  },
+  {
+    "Name": "Chain Reaction",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"weapon-type\">Primary Weapons</span>: Target explodes, dealing up to 84 ↑92.4 [56 ↑62] Weapon-Element Matching Damage in a 3 meter radius.\n<span class=\"weapon-type\">Special Weapons</span>: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \n<span class=\"weapon-type\">Power Weapons</span>: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Chain Reaction Damage is increased by 10%."
+  },
+  {
+    "Name": "Chaos Reshaped",
+    "Description": "<span class=\"trigger\">After having maintained</span> a state of dealing or receiving damage every <span class=\"duration\">5 seconds</span> for at least 12 ↑<span class=\"duration\">11.5 seconds</span>:\nChaos Reshaped <span class=\"stack\">x1</span> | 20% Increased damage for <span class=\"duration\">7 seconds</span>. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped <span class=\"stack\">x1</span> for an additional 12 ↑<span class=\"duration\">11.5 seconds</span>:\nChaos Reshaped <span class=\"stack\">x2</span> | 35% Increased damage for <span class=\"duration\">7 seconds</span>. Periodically releases a healing burst while active.\nHealing burst builds up at a rate of 5 HP/s while readied, up to 35 HP. Healing Burst is triggered after <span class=\"duration\">7 seconds</span>, or upon stowing the weapon, consuming the built-up charge.\nHealing burst additionally begins <span class=\"player-state\">Critical Health</span> Regeneration, regardless of how much charge it has.\n Dealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to <span class=\"duration\">11.5 seconds</span>."
+  },
+  {
+    "Name": "Chill Clip",
+    "Description": "While at or above 50% ↑40% <span class=\"stat\">Magazine</span> Capacity:\n<span class=\"damage-type\">Direct Hits</span> trigger a <span class=\"element\">Stasis</span> Burst, inflicting <span class=\"stack\">x60</span> <span class=\"stasis\">Slow</span> for 4<span class=\"stat-positive\">+4</span> [1.5<span class=\"stat-positive\">+0.5</span>] seconds to enemies within <span class=\"uncertain\">4?</span> meters.\nRapid-Fire <span class=\"weapon-type\">Fusion Rifles</span> and Rocket <span class=\"weapon-type\">Sidearms</span> only inflict <span class=\"stack\">x40</span> <span class=\"stasis\">Slow</span>.\nCan only trigger once per shot.\n\n↑<span class=\"element\">Stasis</span> Burst can be triggered while at or above 40% <span class=\"stat\">Magazine</span> Capacity."
+  },
+  {
+    "Name": "Circle of Life",
+    "Description": "Upon triggering <span class=\"frame\">Support Frame</span> Boost:\n25% [12.5%] increased damage for 10 ↑<span class=\"duration\">11 seconds</span>.\nBuff persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "Close To Melee",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"weapon-type\">Glaive</span> Projectile Kill:\n60% [30%] increased <span class=\"weapon-type\">Glaive</span> Melee Damage for 10 ↑<span class=\"duration\">11 seconds</span>.\nBuff persists through stow.\n\nDealing additional Projectile or Melee Damage extends the buff duration by +<span class=\"duration\">5 seconds</span>, up to 10 ↑<span class=\"duration\">11 seconds</span>.\n\n↑Initial and maximum buff duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "Closing Time",
+    "Description": "As <span class=\"stat\">Magazine</span> decreases below 50%, down to 0%:\n Grants <span class=\"stat-positive\">+10</span> ↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Range</span>, +<span class=\"uncertain\">30?</span> ↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\"><span class=\"multiplier\">0.9x</span>?</span> <span class=\"stat\">Handling</span> Duration Multiplier, and -<span class=\"uncertain\">5%?</span> ↑-%<span class=\"uncertain\">?</span> <span class=\"stat\">Accuracy</span> Cone Size at 50% <span class=\"stat\">Magazine</span>.\nDynamically scales up to <span class=\"stat-positive\">+20</span> ↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Range</span>, +<span class=\"uncertain\">50?</span> ↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\"><span class=\"multiplier\">0.8x</span>?</span> <span class=\"stat\">Handling</span> Duration Multiplier, and -<span class=\"uncertain\">10%?</span> ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size at 0% <span class=\"stat\">Magazine</span>.\n<span class=\"weapon-type\">Special Weapons</span> receive halved benefits, up to a maximum of <span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+25</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\"><span class=\"multiplier\">0.9x</span>?</span> <span class=\"stat\">Handling</span> Duration Multiplier, and -<span class=\"uncertain\">5?</span>% <span class=\"stat\">Accuracy</span> Cone Size at 0% <span class=\"stat\">Magazine</span>.\n\n↑ <span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\">?</span>x <span class=\"stat\">Handling</span> Duration Multiplier, and -%<span class=\"uncertain\">?</span> <span class=\"stat\">Accuracy</span> Cone Size at 50% <span class=\"stat\">Magazine</span>.\nUp to +<span class=\"uncertain\">?</span> <span class=\"stat\">Range</span>, +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\">?</span>x <span class=\"stat\">Handling</span> Duration Multiplier, and ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size at 0% <span class=\"stat\">Magazine</span>."
+  },
+  {
+    "Name": "Clown Cartridge",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span>:\nRandomly grants between 10% ↑13% to 50% Increased <span class=\"stat\">Magazine</span> Capacity. Always rounds up.\nAverages out to 30% ↑31.5% Increased <span class=\"stat\">Magazine</span> Capacity.\n\n↑Compresses the effect range to 13% – 50%.\nAverages out to 31.5% Increased <span class=\"stat\">Magazine</span> Capacity. \nBetter RNG!  🎰 🎰 🎰 "
+  },
+  {
+    "Name": "Cluster Bomb",
+    "Description": "Releases 8 Cluster Bombs on impact.\nCluster Bombs explode on impact, each dealing up to 150 ↑165 [11 ↑12] damage with no falloff over 4 meters.\n\n↑Cluster Bomb damage is increased by 10%. "
+  },
+  {
+    "Name": "Cold Steel",
+    "Description": "Powered <span class=\"weapon-type\">Sword</span> Hits inflict <span class=\"stasis\">Slow</span> for 4.25+<span class=\"uncertain\">?</span> [1.5+<span class=\"uncertain\">?</span>] seconds.\n\nLight Attacks inflict <span class=\"stack\">x40</span> <span class=\"stasis\">Slow</span>.\nHeavy Attacks inflict <span class=\"stack\">x60</span> <span class=\"stasis\">Slow</span>.\nFlash Counter's disorienting blast inflicts <span class=\"stack\">x60</span> <span class=\"stasis\">Slow</span>.\n\n↑Passively grants <span class=\"stat-positive\">+10</span> Ammo Capacity (<span class=\"weapon-type\">Swords</span>) and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Magazine</span> Stat (Identical to Tactical Mag)"
+  },
+  {
+    "Name": "Collective Action",
+    "Description": "On Subclass-Pickup Interaction:\n20% [10%] increased damage for 7 ↑<span class=\"duration\">8 seconds</span>.\nAdditional pickups increase the duration by <span class=\"duration\">7 seconds</span>, up to <span class=\"duration\">12 seconds</span>.\nBuff can be activated while stowed, and persists through stow.\n\nSubclass Pickups: <span class=\"solar\">Firesprites</span>, <span class=\"void\"><span class=\"element\">Void</span> Breaches</span>, <span class=\"stasis\"><span class=\"element\">Stasis</span> Shards</span>, <span class=\"arc\">Ionic Traces</span>, and <span class=\"strand\">Tangles</span>. Elemental Orbs from Artifact Perks.\n\n↑Initial buff duration is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "Collective Pugilism",
+    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased <span class=\"ability\">Melee Ability</span> Energy for <span class=\"duration\">8 seconds</span>.\nAdditional pickups increase the duration by <span class=\"duration\">8 seconds</span>, up to <span class=\"duration\">16 seconds</span>.\n\n<span class=\"ability\">Melee Ability</span> Gains:\nSMG: <span class=\"uncertain\">2%?</span>\n<span class=\"weapon-type\">Bow</span>: <span class=\"uncertain\">?%</span>\n<span class=\"weapon-type\">Sidearm</span>: <span class=\"uncertain\">?%</span>\n<span class=\"weapon-type\">Shotgun</span>: <span class=\"uncertain\">?%</span>\n<span class=\"weapon-type\">Rocket Launcher</span>: <span class=\"uncertain\">?%</span>\n\nSubclass Pickups: <span class=\"solar\">Firesprites</span>, <span class=\"void\"><span class=\"element\">Void</span> Breaches</span>, <span class=\"stasis\"><span class=\"element\">Stasis</span> Shards</span>, <span class=\"arc\">Ionic Traces</span>, and <span class=\"strand\">Tangles</span>. Elemental Orbs from Artifact Perks.\n\n↑Grants increased <span class=\"ability\">Melee Ability</span> Energy."
+  },
+  {
+    "Name": "Compulsive Reloader",
+    "Description": "While above 50% <span class=\"stat\">Magazine</span> Capacity:\n<span class=\"stat-positive\">+50</span> ↑55 <span class=\"stat\">Reload Speed</span> and <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Reload</span> Duration Multiplier.\n\n↑<span class=\"stat\">Reload Speed</span> is increased to <span class=\"stat-positive\">+55.</span>"
+  },
+  {
+    "Name": "Controlled Burst",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit with every bolt in the burst, or upon scoring a <span class=\"stat\">Weapon Kill</span>:\n20% increased damage and <span class=\"multiplier\">0.9x</span> Charge Time Multiplier for 2 ↑<span class=\"uncertain\">?</span> seconds.\nBuff persists through stow.\n\n↑Currently bugged and does not increase buff duration."
+  },
+  {
+    "Name": "Cooling Baubles",
+    "Description": "Upon collecting an Elemental Pickup or <span class=\"ability\">Orb of Power</span>:\nDissipates -<span class=\"uncertain\">33?</span>% ↑<span class=\"stat-negative\">-35%</span> Heat."
+  },
+  {
+    "Name": "Cornered",
+    "Description": "<span class=\"trigger\">While within</span> 15 metres of 2 enemies:\n<span class=\"multiplier\">0.85x</span> Charge/<span class=\"stat\">Draw Time</span> Multiplier ↑and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>.\nBuff lingers for <span class=\"duration\">1.5 seconds</span> once criteria isn't met.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>. Grants <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span> while buff is active."
+  },
+  {
+    "Name": "Counterattack",
+    "Description": "Upon receiving damage within <span class=\"duration\">0.5 seconds</span> of starting to guard:\n50% increased damage for 2 ↑<span class=\"duration\">3 seconds</span>.\n\n↑Buff duration is increased to <span class=\"duration\">3 seconds</span>."
+  },
+  {
+    "Name": "Crystalline Corpsebloom",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants Crystalline Corpsebloom for <span class=\"duration\">4 seconds</span>.\nScoring additional Weapon Kills while Crystalline Corpsebloom is active causes the enemy to release a <span class=\"element\">Stasis</span> Seeker.\n<span class=\"element\">Stasis</span> Seeker travels <span class=\"uncertain\">3?</span> meters in a random direction (and doesn't seek enemies), spawning a Medium<span class=\"uncertain\">?</span> ↑Large <span class=\"stasis\"><span class=\"element\">Stasis</span> Crystal</span> upon expiring.\n\n↑<span class=\"stasis\"><span class=\"element\">Stasis</span> Crystal</span> is upgraded to Large Size."
+  },
+  {
+    "Name": "Danger Zone",
+    "Description": "<span class=\"trigger\">While within</span> 15 metres of 3 enemies:\n<span class=\"uncertain\">?%</span> Increased <span class=\"stat\">Blast Radius</span> and decreased self damage.\nBuff lingers for <span class=\"duration\">3.5 seconds</span> once criteria isn't met.\n\n<span class=\"weapon-type\">Grenade Launchers</span>: 40% Decreased Self Damage.\n<span class=\"weapon-type\">Rocket Launchers</span>: 99.99% Decreased Self Damage, and allows Rocket Jumping.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Blast Radius</span>."
+  },
+  {
+    "Name": "Deconstruct",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Magazine</span>-Based amount of hits within <span class=\"duration\">6 seconds</span> of each:\n40% increased damage against <span class=\"enemy-rank\">Constructs</span> and <span class=\"enemy-rank\">Vehicles</span> for 5 ↑<span class=\"duration\">6 seconds</span>. Additional hits while the perk is active will refresh the duration of the damage buff.\nRefills 10% Ammo, rounded up.\nAmmo Refill has no cooldown and can be triggered repeatedly by scoring the needed hits again.\n\nHits required to activate:\n50% [25% Primary] of <span class=\"stat\">Magazine</span> + 2, rounded down | <span class=\"weapon-type\">Bows</span>: 3 Hits\nHits against <span class=\"enemy-rank\">Constructs</span>/<span class=\"enemy-rank\">Vehicles</span> progress <span class=\"weapon-type\">Primary Weapons</span> by <span class=\"multiplier\">1.5x</span> and <span class=\"weapon-type\">Special Weapons</span> by <span class=\"multiplier\">2x</span>.\n\n<span class=\"frame\">Wave Frame</span> <span class=\"weapon-type\">Grenade Launchers</span>:\n3 Hits. <span class=\"damage-type\">Direct Hits</span> count as 2 hits. Doesn't receive bonus progress against <span class=\"enemy-rank\">Constructs</span>/<span class=\"enemy-rank\">Vehicles</span>.\n\n↑Buff Duration is increased to <span class=\"duration\">6 seconds</span>."
+  },
+  {
+    "Name": "Delicate Tuning",
+    "Description": "As Heat increases from 0%, up to 50%:\nGrants up to +<span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">22?</span> <span class=\"stat\">Range</span>, +<span class=\"uncertain\">?</span> ↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, and -<span class=\"uncertain\">?%</span> ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size at 0% Heat.\nBuff dynamically scales from 100% effect at 0% Heat, down to 50% effect at 50% Heat."
+  },
+  {
+    "Name": "Demolitionist",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants 10% ↑11% <span class=\"ability\">Grenade Ability</span> Energy. \n <span class=\"weapon-type\">Fusion Rifles</span>, <span class=\"weapon-type\">Glaives</span>, <span class=\"weapon-type\">Shotguns</span>, and <span class=\"weapon-type\">Sniper Rifles</span> grant 20% ↑22% <span class=\"ability\">Grenade Ability</span> Energy.\n\n <span class=\"ability\">Grenade Ability</span> Usage refills <span class=\"stat\">Magazine</span>. \nIncurs a <span class=\"duration\">3 second</span> cooldown between <span class=\"stat\">Magazine</span> Refills.\n\n↑Kills grant 11% and 22% <span class=\"ability\">Grenade Ability</span> Energy respectively."
+  },
+  {
+    "Name": "Demoralize",
+    "Description": "On <span class=\"stat\">Precision Kill</span>: \nTarget triggers a <span class=\"element\">Void</span> Burst, inflicting <span class=\"void\">Weaken</span> to enemies within 7 meters.\nIncurs a <span class=\"uncertain\">1.5?</span> ↑<span class=\"duration\">1 second</span> cooldown between activations.\n\n↑Cooldown is decreased to <span class=\"duration\">1 seconds</span>."
+  },
+  {
+    "Name": "Desperado",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"duration\">5.2 seconds</span> of a <span class=\"stat\">Precision Kill</span>:\n<span class=\"multiplier\">0.7x</span> Fire <span class=\"stat\">Recovery</span> Delay for 6 ↑<span class=\"duration\">7 seconds</span>.\nBuff can be refreshed by reactivating the perk. Buff is removed on stow.\n\n↑Buff Duration is increased to <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": "Desperate Measures",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nDesperate Measures <span class=\"stack\">x1</span> | 10% increased damage for 7 ↑<span class=\"duration\">7.5 seconds</span>. Additional Weapon Kills refresh the buff duration.\n\nOn Grenade or <span class=\"ability\">Melee Kill</span>:\nDesperate Measures <span class=\"stack\">x2</span> | 20% increased damage for 7 ↑<span class=\"duration\">7.5 seconds</span>. Additional Weapon Kills refresh the buff duration.\n\n<span class=\"trigger\">Upon scoring</span> an additional Grenade or <span class=\"ability\">Melee Kill</span> while Desperate Measures <span class=\"stack\">x2</span> is active:\nDesperate Measures <span class=\"stack\">x3</span> | 30% increased damage for 7 ↑<span class=\"duration\">7.5 seconds</span>. Additional Weapon, Grenade, and Melee Kills refresh the buff duration.\n\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff Duration is increased to <span class=\"duration\">7.5 seconds</span>."
+  },
+  {
+    "Name": "Destabilizing Rounds",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nTarget triggers a <span class=\"element\">Void</span> Burst, inflicting <span class=\"void\">Volatile</span> to enemies within 7 metres.\nGrants <span class=\"void\">Volatile</span> Rounds for 4.5 ↑<span class=\"duration\">5.25 seconds</span>.\nIncurs a <span class=\"duration\">1.5 second</span> cooldown upon activating.\n\n↑<span class=\"void\">Volatile</span> Rounds duration is increased to <span class=\"duration\">5.25 seconds</span>."
+  },
+  {
+    "Name": "Detonator Beam",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 25 ↑20 hits within <span class=\"uncertain\">?</span> seconds of each:\nTriggers an explosion around the target, dealing up to 250 <span class=\"uncertain\">[?]</span> Element-Matching Damage over 8 meters.\n\n↑Triggers in 20 hits."
+  },
+  {
+    "Name": "Discord",
+    "Description": "<span class=\"trigger\">Upon readying</span> a weapon within <span class=\"uncertain\">7?</span> seconds of scoring a kill with a different weapon:\n<span class=\"multiplier\">0.75x</span> <span class=\"player-state\">ADS</span> Duration Multiplier, <span class=\"stat-negative\">-25%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-positive\">+30</span> <span class=\"stat\">Airborne Effectiveness</span> for 7 ↑<span class=\"duration\">8 seconds</span>.\nBuff persists through stow.\n\nOn <span class=\"stat\">Weapon Kill</span>, while Discord is active:\nRefills <span class=\"stat\">Magazine</span> on <span class=\"weapon-type\">Primary Weapons</span> | Refunds 1 Ammo per shot on Special and <span class=\"weapon-type\">Heavy Weapons</span>.\n\n↑Buff Duration is increased to <span class=\"uncertain\">8?</span> seconds."
+  },
+  {
+    "Name": "Disorienting Grenades",
+    "Description": "Passively grants <span class=\"stat-negative\">-200</span> <span class=\"stat\">Blast Radius</span> and 25% decreased damage.\n\n<span class=\"enemy-rank\">Rank-and-File</span>, <span class=\"enemy-rank\">Elite</span>, and <span class=\"enemy-rank\">Miniboss</span> <span class=\"enemy-rank\">Combatants</span> within <span class=\"uncertain\">?</span> metres of the explosion are disoriented for <span class=\"duration\">4.5 seconds</span>.\n<span class=\"champion\">Champions</span> and <span class=\"enemy-rank\">Bosses</span> are unaffected by disorient. Disorient radius cannot be altered.\n\n<span class=\"enemy-rank\">Guardians</span> briefly lose their HUD and have their screen distorted for up to <span class=\"uncertain\">?</span> seconds. Duration varies depending on the distance from the blast."
+  },
+  {
+    "Name": "Disruption Break",
+    "Description": "On Elemental, Barrier or <span class=\"enemy-rank\">Guardian</span> Shield Break:\nInflicts <span class=\"element\">Kinetic</span> Damage Vulnerability on the enemy, increasing <span class=\"element\">Kinetic</span> Damage Taken by 50% for 5.5 ↑<span class=\"uncertain\">?</span> [5] seconds. Does not affect <span class=\"element\">Stasis</span> or <span class=\"element\">Strand</span> Damage.\nStacks with all other Buffs and Debuffs (including itself).\n Can be applied multiple times on a single enemy, with each stack having its own duration and stacking multiplicatively.\n\n↑Debuff Duration is increased to <span class=\"uncertain\">?</span> seconds against <span class=\"enemy-rank\">Combatants</span>."
+  },
+  {
+    "Name": "Dragonfly",
+    "Description": "On <span class=\"stat\">Precision Kill</span>:\nTarget explodes, dealing 123.89 [95.3] Weapon-Matching Damage over a 8 metre radius.\nDamage against <span class=\"enemy-rank\">Combatants</span> scales differently by Weapon Type and <span class=\"enemy-rank\">Combatant</span> Rank :)\n\n↑Increases Explosion Damage by 10% to <span class=\"uncertain\">?</span> <span class=\"uncertain\">[?]</span>."
+  },
+  {
+    "Name": "Drop Mag",
+    "Description": "Passively grants <span class=\"stat-positive\">+30</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.9x</span> Duration Multiplier, and <span class=\"stat-negative\">-20</span> <span class=\"stat\">Magazine</span> Size Stat."
+  },
+  {
+    "Name": "Dual Loader",
+    "Description": "Reloading refills an extra 1 ↑2 Ammo at a time.\n\n↑Reloading refills an extra 2 Ammo at a time."
+  },
+  {
+    "Name": "Duelist's Trance",
+    "Description": "On <span class=\"weapon-type\">Sword</span> Kill:\n<span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+65</span> <span class=\"stat\">Guard Efficiency</span>, <span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+65</span> <span class=\"stat\">Guard Resistance</span>, <span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+60</span> <span class=\"stat\">Guard Endurance</span>, and <span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+65</span> <span class=\"stat\">Charge Rate</span>.\nBuff is removed on stow.\n\n↑Grants <span class=\"stat-positive\">+65</span> <span class=\"stat\">Guard Efficiency</span>, <span class=\"stat-positive\">+65</span> <span class=\"stat\">Guard Resistance</span>, <span class=\"stat-positive\">+60</span> <span class=\"stat\">Guard Endurance</span>, and <span class=\"stat-positive\">+65</span> <span class=\"stat\">Charge Rate</span>."
+  },
+  {
+    "Name": "Dynamic Sway Reduction",
+    "Description": "While holding down the trigger:\n-<span class=\"uncertain\">?%</span> ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size, <span class=\"stat-negative\">-10%</span> ↑<span class=\"stat-negative\">-12.5%</span> <span class=\"stat\">Accuracy</span> Cone Growth, and <span class=\"stat-positive\">+1</span> <span class=\"stat\">Stability</span> per shot.\nStacks up to -<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size, <span class=\"stat-negative\">-100%</span> <span class=\"stat\">Accuracy</span> Cone Growth, and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span> after firing 10 ↑8 shots.\nEffect at maximum strength removes all bullet spread and grants higher than initial accuracy.\n\n↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-12.5%</span> <span class=\"stat\">Accuracy</span> Cone Growth per shot, reaching full effect after firing 8 shots."
+  },
+  {
+    "Name": "Eager Edge",
+    "Description": "<span class=\"trigger\">Upon readying</span> a <span class=\"weapon-type\">Sword</span>:\n80% ↑100% Increased Lunge Distance for the next swing within <span class=\"duration\">3 seconds</span>. Airborne Lunge Distance is decreased by 20%.\nIncurs a <span class=\"duration\">3 second</span> cooldown after the buff is removed. Buff is removed on stow.\n\n↑Lunge Distance is increased to 100%."
+  },
+  {
+    "Name": "Eddy Current",
+    "Description": "<span class=\"trigger\">After sprinting</span> for <span class=\"duration\">1.5 seconds</span> while the weapon is readied:\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Handling</span> Animation Multiplier, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>, and <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Reload</span> Duration Multiplier for 3 ↑<span class=\"uncertain\">?</span> seconds.\nStarting to sprint refreshes the buff duration.\n\nWhile <span class=\"arc\">Amplified</span>:\nGrants the sprint bonuses passively, and increases the <span class=\"stat\">Reload Speed</span> buff to <span class=\"stat-positive\">+60</span> ↑+<span class=\"uncertain\">?</span>.\n\n↑Buff Duration after sprinting is increased to <span class=\"uncertain\">?</span> seconds. Being <span class=\"arc\">Amplified</span> now grants +<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span> and <span class=\"uncertain\">0.?</span>x <span class=\"stat\">Reload</span> Duration Multiplier."
+  },
+  {
+    "Name": "Elemental Capacitor",
+    "Description": "Passively grants Stat Bonuses depending on the element of the equipped <span class=\"ability\">Super Ability</span>.\n\n<span class=\"element\">Solar</span>: <span class=\"stat-positive\">+50</span> ↑<span class=\"stat-positive\">+55</span> <span class=\"stat\">Reload Speed</span>.\n<span class=\"element\">Arc</span>: <span class=\"stat-positive\">+50</span> ↑<span class=\"stat-positive\">+55</span> <span class=\"stat\">Handling</span>.\n<span class=\"element\">Void</span>: <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Stability</span>.\n <span class=\"element\">Stasis</span>: <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Recoil Direction</span> and 20% Decreased <span class=\"player-state\">ADS</span> Movement Speed Penalty.\n<span class=\"element\">Strand</span>: <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Airborne Effectiveness</span>.\n\n↑Adds an additional <span class=\"stat-positive\">+5</span> to the corresponding Subclass Stat Bonus."
+  },
+  {
+    "Name": "Elemental Honing",
+    "Description": "Dealing <span class=\"damage-type\">Elemental Damage</span> grants a stack of Elemental Honing for <span class=\"duration\">20 seconds</span> for each unique Element used, <span class=\"stack\">up to a maximum of 5 stacks</span> by using 5 unique elements.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once <span class=\"stack\">5 stacks</span> have been reached.\nBuff can be activated and persists through stow. <span class=\"element\">Kinetic</span> Damage does not trigger the buff.\n\nElemental Honing <span class=\"stack\">x1</span> | 2.5% Increased Elemental <span class=\"stat\">Weapon Damage</span> and 10% Increased <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>.\nElemental Honing <span class=\"stack\">x2</span> | 10% Increased Elemental <span class=\"stat\">Weapon Damage</span> and 20% Increased <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>.\nElemental Honing <span class=\"stack\">x3</span> | 20% Increased Elemental <span class=\"stat\">Weapon Damage</span> and 30% Increased <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>.\nElemental Honing <span class=\"stack\">x4</span> | 30% Increased Elemental <span class=\"stat\">Weapon Damage</span> and 35% Increased <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>.\nElemental Honing <span class=\"stack\">x5</span> | 35% Increased Elemental <span class=\"stat\">Weapon Damage</span> and 40% Increased <span class=\"element\">Kinetic</span> <span class=\"stat\">Weapon Damage</span>.\n\n↑Buff duration is increased to <span class=\"duration\">23 seconds</span>."
+  },
+  {
+    "Name": "En Garde",
+    "Description": "<span class=\"trigger\">Upon readying</span> a <span class=\"weapon-type\">Sword</span>:\n30% Increased damage for 1.5 ↑<span class=\"uncertain\">2?</span> seconds.\nIncurs a <span class=\"uncertain\">2?</span> second cooldown after the buff is removed.\n\n↑Buff duration is increased to <span class=\"uncertain\">2?</span> seconds."
+  },
+  {
+    "Name": "Encore",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-positive\">+5</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+8</span> <span class=\"stat\">Stability</span>, and <span class=\"stat-negative\">-1.25%</span> <span class=\"stat\">Accuracy</span> Cone Size <span class=\"stack\">per stack</span> for 7 ↑<span class=\"duration\">7.5 seconds</span>, <span class=\"stack\">up to a maximum of 4 stacks</span>. Precision Kills grant <span class=\"stack\">2 stacks</span>.\nAdditional Weapon Kills refresh the buff duration.\nBuff persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">7.5 seconds</span>."
+  },
+  {
+    "Name": "Energy Transfer",
+    "Description": "<span class=\"trigger\">While Guarding</span> with a <span class=\"weapon-type\">Sword</span>:\nEvery point of damage taken grants <span class=\"ability\">Class Ability</span> Energy.\n1.5% ↑1.55% <span class=\"ability\">Class Ability</span> Energy when Melee Damage is blocked.\n1% ↑1.25% <span class=\"ability\">Class Ability</span> Energy when Non-Melee Damage is blocked.\n0.5% ↑0.625% <span class=\"ability\">Class Ability</span> Energy when receiving Non-Blocked damage.\n\n↑<span class=\"ability\">Class Ability</span> Energy gains are increased to 1.55% ,1.25%, and 0.625% respectively."
+  },
+  {
+    "Name": "Enlightened Action",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit:\nGrants stacks of Enlightened Action for <span class=\"duration\">2 seconds</span>, up to a maximum of 12.\nEnlightened Action grants an average of <span class=\"stat-positive\">+4</span> <span class=\"stat\">Handling</span> and <span class=\"stat\">Reload Speed</span> <span class=\"stack\">per stack</span>, up to <span class=\"stat-positive\">+50</span> ↑+<span class=\"uncertain\">55?</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+50</span> ↑+<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span>.\n\nEnlightened Action:\n<span class=\"stat-positive\">+2</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+3</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+3</span> | <span class=\"stat-positive\">+2</span> | <span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span> and <span class=\"stat\">Reload Speed</span>.\n\n<span class=\"weapon-type\">Hand Cannon</span> hits grant <span class=\"stack\">3 stacks</span>. <span class=\"weapon-type\">Bow</span> hits grant <span class=\"uncertain\">?</span> stacks.\nAutomatic Weapons grant <span class=\"stack\">1 stack</span> per hit.\n\n↑Grants up to +<span class=\"uncertain\">55?</span> <span class=\"stat\">Handling</span> and +<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Ensemble",
+    "Description": "While an ally is within 15 metres:\n<span class=\"stat-positive\">+30</span> ↑+<span class=\"uncertain\">35?</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+40</span> ↑+<span class=\"uncertain\">45?</span> <span class=\"stat\">Reload Speed</span>.\nBuff lingers for <span class=\"duration\">1.5 seconds</span> once criteria isn't met.\n\n↑Stronger Effect. <span class=\"uncertain\">35?</span> <span class=\"stat\">Handling</span> and <span class=\"uncertain\">45?</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Envious Assassin",
+    "Description": "<span class=\"trigger\">Upon readying</span> the weapon after scoring kills with a different weapon:\nOverflows <span class=\"stat\">Magazine</span> from reserves based on the amount of kills achieved, up to 200% Increased <span class=\"stat\">Magazine</span> Size.\n\n<span class=\"weapon-type\">Primary Weapons</span>: 10% ↑12.5% Increased <span class=\"stat\">Magazine</span> Capacity per Kill.\n<span class=\"weapon-type\">Special Weapons</span> | <span class=\"weapon-type\">Power Weapons</span>: 20% ↑22.5% Increased <span class=\"stat\">Magazine</span> Capacity per Kill.\n\nEach activation can grant up to 100% Increased <span class=\"stat\">Magazine</span> Capacity if activated with a full magazine. Always rounds magazine up.\n Can overflow based on the magazine size at the moment of swapping, i.e. if empty and after reaching the max bonus, magazine capacity will be fully refilled. \n\n↑<span class=\"weapon-type\">Primary Weapons</span> grant 12.5% Increased <span class=\"stat\">Magazine</span> Capacity per Kill. Special and <span class=\"weapon-type\">Power Weapons</span> grant 22.5% Increased <span class=\"stat\">Magazine</span> Capacity per Kill."
+  },
+  {
+    "Name": "Envious Arsenal",
+    "Description": "<span class=\"trigger\">Upon dealing</span> ANY damage with both other weapons, and then readying the weapon:\nFully refills magazine.\nDamage-Over-Time effects also work.\n\n↑Passively grants <span class=\"stat-positive\">+10</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>."
+  },
+  {
+    "Name": "Explosive Head",
+    "Description": "<span class=\"weapon-type\">Bows</span> deal 50% of their Non-Precision Direct <span class=\"stat\">Impact</span> Damage as an Explosive Payload.\nExplosive Payload detonates after a distance-based timer, damaging enemies within 3 meters.\nExplosive Payload portion deals 30% increased damage and inflicts increased stagger against <span class=\"enemy-rank\">Combatants</span>.\n\n<span class=\"stat\">Impact</span> Damage's Precision Multiplier is increased to offset the Explosive Payload portion lacking the ability to score Precision Hits.\nNew Ratio = (Base Ratio - 50%) / (1 - 50%)\n\nOverall Damage Increase:\nDamage is increased by 15% of the Weapon's <span class=\"damage-type\">Bodyshot Damage</span>. <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Increase is equal to 15% / Precision Multiplier.\nDamage remains the same.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Accuracy</span>."
+  },
+  {
+    "Name": "Explosive Light",
+    "Description": "On <span class=\"ability\">Orb of Power</span> Pickup: \nGrants a stack of Explosive Light, up to a maximum of 6 ↑<span class=\"stack\">7 stacks</span>.\nStacks can be obtained while stowed, and are lost on death.\n\nFiring consumes a stack of Explosive Light, granting increased damage, and setting the <span class=\"stat\">Blast Radius</span> stat to 100.\n<span class=\"weapon-type\">Grenade Launchers</span> receive 60% increased explosive damage.\n<span class=\"weapon-type\">Rocket Launchers</span> receive 25% increased impact and explosive damage. Does not increase Wolfpack Rounds Damage.\n\n↑Maximum Explosive Light stacks are increased to 7."
+  },
+  {
+    "Name": "Explosive Payload",
+    "Description": "Weapons deal 50% of their Non-Precision Direct <span class=\"stat\">Impact</span> Damage as an Explosive Payload.\nExplosive Payload detonates on impact, damaging enemies within 3 meters.\nExplosive Payload portion deals 30% increased [7% decreased on <span class=\"weapon-type\">Hand Cannons</span>, ] damage and inflicts increased stagger.\n\n<span class=\"stat\">Impact</span> Damage's Precision Multiplier is increased to offset the Explosive Payload portion lacking the ability to score Precision Hits.\nNew Ratio = (Base Ratio - 50%) / (1 - 50%)\n\nOverall Damage Increase:\nDamage is increased by 15% of the Weapon's <span class=\"damage-type\">Bodyshot Damage</span>. <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Increase is equal to 15% / Precision Multiplier.\nBodyshot damage remains the same. <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> remains \"roughly\" the same.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Eye of the Storm",
+    "Description": "As <span class=\"player-state\">Shield HP</span> drops, initially triggering at 40 <span class=\"player-state\">Shield HP</span>, maxing out in effect at 0 <span class=\"player-state\">Shield HP</span>:\nLinearly grants up to <span class=\"stat-positive\">+30</span> ↑<span class=\"stat-positive\">+33</span> <span class=\"stat\">Handling</span>, <span class=\"stat-negative\">-40%</span> ↑<span class=\"stat-negative\">-44%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-17%</span> ↑<span class=\"stat-negative\">-19%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\nBuff dynamically scales from 0% effect at 80 <span class=\"player-state\">Shield HP</span>, up to 100% effect at 0 <span class=\"player-state\">Shield HP</span> (also known as <span class=\"player-state\">Critical Health</span>)\n Buff lasts until Shields are restored to 80 <span class=\"player-state\">Shield HP</span>.\n\n↑Grants up to <span class=\"stat-positive\">+33</span> <span class=\"stat\">Handling</span>, <span class=\"stat-negative\">-44%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-19%</span> <span class=\"stat\">Accuracy</span> Cone Growth."
+  },
+  {
+    "Name": "Feeding Frenzy",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"stat\">Reload Speed</span> and <span class=\"stat\">Reload</span> Duration Multiplier <span class=\"stack\">per stack</span> for <span class=\"duration\">3.5 seconds</span>, <span class=\"stack\">up to a maximum of 5 stacks</span>.\nBuff persist through stow.\n\n<span class=\"stat-positive\">+8</span> ↑<span class=\"stat-positive\">+13</span> | <span class=\"stat-positive\">+50</span> ↑<span class=\"stat-positive\">+55</span> | <span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+65</span> | <span class=\"stat-positive\">+75</span> ↑<span class=\"stat-positive\">+85</span> | <span class=\"stat-positive\">+100</span> ↑<span class=\"stat-positive\">+100</span> <span class=\"stat\">Reload Speed</span>.\n<span class=\"multiplier\">0.975x</span> | <span class=\"multiplier\">0.9x</span> | <span class=\"multiplier\">0.87x</span> | <span class=\"multiplier\">0.84x</span> | <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier.\n\n↑<span class=\"stat-positive\">+13</span> | <span class=\"stat-positive\">+55</span> | <span class=\"stat-positive\">+65</span> | <span class=\"stat-positive\">+85</span> | <span class=\"stat-positive\">+100</span> <span class=\"stat\">Reload Speed</span>. <span class=\"stat\">Reload</span> Duration Multipliers are unchanged."
+  },
+  {
+    "Name": "Field Prep",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+30</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>.\n\n<span class=\"trigger\">While Crouched</span>:\n<span class=\"stat-positive\">+50</span> ↑+<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier, and <span class=\"multiplier\">0.8x</span> Ready/Stow Duration Multiplier.\n\n↑+<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span>. <span class=\"stat-positive\">+30</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>."
+  },
+  {
+    "Name": "Firefly",
+    "Description": "On <span class=\"stat\">Precision Kill</span>:\nTarget explodes, dealing up to 104 [80] <span class=\"element\">Solar</span> Damage in a 7.5 metre radius, and grants <span class=\"stat-positive\">+50</span> +<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span> for <span class=\"duration\">6 seconds</span>. \n<span class=\"stat\">Reload</span> Buff persists through stow. Damage against <span class=\"enemy-rank\">Combatants</span> scales differently by Weapon Type and <span class=\"enemy-rank\">Combatant</span> Rank :)\n\n↑<span class=\"stat\">Reload</span> Buff is increased to +<span class=\"uncertain\">55?</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Firing Line",
+    "Description": "<span class=\"trigger\">While within</span> 15 metres of 2 allies:\n20% Increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>.\n\n↑Grants <span class=\"stat-positive\">+10</span> <span class=\"stat\">Handling</span> while perk is active."
+  },
+  {
+    "Name": "Firmly Planted",
+    "Description": "<span class=\"trigger\">While Crouched</span>:\n<span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+30</span> ↑<span class=\"stat-positive\">+35</span> <span class=\"stat\">Handling</span>, <span class=\"stat-negative\">-40%</span> <span class=\"stat\">Accuracy</span> Cone Size, <span class=\"stat-negative\">-17%</span> <span class=\"stat\">Accuracy</span> Cone Growth, and <span class=\"stat-negative\">-80%</span> Recoil Yaw (Horizontal Recoil)\n[<span class=\"weapon-type\">Fusion Rifles</span>] 10 ↑<span class=\"stat-positive\">+13</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+18</span> <span class=\"stat\">Handling</span>, <span class=\"stat-negative\">-20%</span> <span class=\"stat\">Accuracy</span> Cone Size, <span class=\"stat-negative\">-8.5%</span> <span class=\"stat\">Accuracy</span> Cone Growth, and <span class=\"stat-negative\">-40%</span> Recoil Yaw (Horizontal Recoil)\n\n↑Grants an additional <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span> while crouched. <span class=\"weapon-type\">Fusion Rifles</span> receive <span class=\"stat-positive\">+3</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+3</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Flash Counter",
+    "Description": "Upon receiving damage while guarding:\nTriggers a Frontal Blast, dealing up to 110 <span class=\"uncertain\">[?]</span> Weapon-Matching Damage and disorienting <span class=\"enemy-rank\">Combatants</span> in a large cone up to ~<span class=\"uncertain\">8?</span> meters away for 5 ↑<span class=\"duration\">6 seconds</span>.\nDamage scales from 75 [14] at point-blank, up to 110 [45] at <span class=\"uncertain\">?</span> meters. Concussion strength against <span class=\"enemy-rank\">Guardians</span> scale similarly with distance.\nDamage against <span class=\"enemy-rank\">Combatants</span> scales with <span class=\"enemy-rank\">Combatant</span> Rank Modifiers and counts as <span class=\"stat\">Weapon Damage</span>.\nIncurs a <span class=\"duration\">2.25 second</span> cooldown between activations.\n\n↑Disorient duration is increased to <span class=\"duration\">6 seconds</span>."
+  },
+  {
+    "Name": "Focused Fury",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 50% of <span class=\"stat\">Magazine</span> as Precision Hits:\n20% increased damage for 11 ↑<span class=\"duration\">12 seconds</span>. Precision counter is reset on stow or reload.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n↑Buff Duration is increased to <span class=\"duration\">12 seconds</span>."
+  },
+  {
+    "Name": "Fourth Time's The Charm",
+    "Description": "Scoring 4 Precision Hits within 2 ↑<span class=\"duration\">3 seconds</span> of each generates 2 Ammo to <span class=\"stat\">Magazine</span>.\n<span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> cannot generate ammo past Base <span class=\"stat\">Magazine</span> Size.\nTimer between hits persists through stow.\n\n↑Timer between Precision Hits increased to <span class=\"duration\">3 seconds</span>."
+  },
+  {
+    "Name": "Fragile Focus",
+    "Description": "Grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Range</span> while Shields are active.\nDeactivates upon reaching <span class=\"player-state\">Critical Health</span>. Reactivates after 1↑<span class=\"duration\">0.5 seconds</span> of <span class=\"player-state\">Shield HP</span> being restored to full.\n\n↑Reactivation Delay is decreased to <span class=\"duration\">0.5 seconds</span>."
+  },
+  {
+    "Name": "Frenzy",
+    "Description": "<span class=\"trigger\">After having maintained</span> a state of dealing or receiving damage every 5 ↑<span class=\"duration\">5 seconds</span> for at least <span class=\"duration\">12 seconds</span>:\n15% Increased damage, <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+100</span> <span class=\"stat\">Reload Speed</span> for <span class=\"duration\">7 seconds</span>. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to <span class=\"duration\">5.5 seconds</span>, but is currently not working. \nRetested in Update 9.0.0.3 (Edge of Fate) aaaaaand still broken LMAO"
+  },
+  {
+    "Name": "Full Auto Trigger System",
+    "Description": "Passively grants <span class=\"multiplier\">0.9x</span> Fire <span class=\"stat\">Recovery</span> Delay on <span class=\"weapon-type\">Shotguns</span>."
+  },
+  {
+    "Name": "Full Choke",
+    "Description": "<span class=\"trigger\">While <span class=\"player-state\">ADS</span></span>:\n<span class=\"stat-negative\">-3.75%</span> Pellet Spread.\nReduces <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Multiplier from <span class=\"multiplier\">1.1078x</span> to <span class=\"multiplier\">1.0294x</span>, or a 7.6% <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Penalty."
+  },
+  {
+    "Name": "Full Court",
+    "Description": "After <span class=\"duration\">0.2 seconds</span> of the projectile being fired:\nGrants up to 25% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at <span class=\"duration\">0.2 seconds</span>, up to 25% increased damage at <span class=\"duration\">1.1 seconds</span> of projectile lifetime\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Blast Radius</span>."
+  },
+  {
+    "Name": "Genesis",
+    "Description": " <span class=\"weapon-type\">Energy Weapons</span> generate 1 Ammo against Matching <span class=\"enemy-rank\">Combatant</span> <span class=\"shield\">Elemental Shields</span> per hit.\n\n<span class=\"trigger\">Upon breaking</span> a <span class=\"enemy-rank\">Combatant</span>, Barrier, or <span class=\"enemy-rank\">Guardian</span> Shield:\n Refills magazine.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Golden Tricorn",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGolden Tricorn <span class=\"stack\">x1</span> | 15% Increased damage for <span class=\"duration\">7 seconds</span>. \nAdditional Weapon Kills refresh the buff duration to 7 ↑<span class=\"duration\">8 seconds</span>.\nBuff is removed on stow.\n\nOn Grenade or <span class=\"ability\">Powered Melee</span> Kill, while the buff is active, if the Weapon's Element matches the Grenade or Melee Element, respectively:\nGolden Tricorn <span class=\"stack\">x2</span> | 50% increased damage for <span class=\"duration\">10 seconds</span>.\n Additional Grenade or <span class=\"ability\">Powered Melee</span> Kills refresh the buff duration to <span class=\"duration\">10 seconds</span>.\nBuff is removed on stow.\n\n↑Golden Tricorn <span class=\"stack\">x1</span> damage buff duration is increased to <span class=\"duration\">8 seconds</span> upon scoring additional weapon kills."
+  },
+  {
+    "Name": "Grave Robber",
+    "Description": "<span class=\"trigger\">Upon dealing</span> <span class=\"ability\">Powered Melee</span> Damage, or upon scoring a <span class=\"ability\">Melee Kill</span>:\nRefills <span class=\"stat\">Magazine</span>.\nIncurs a <span class=\"duration\">3 second</span> cooldown between <span class=\"stat\">Magazine</span> Refills.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Gutshot Straight",
+    "Description": "<span class=\"trigger\">While <span class=\"player-state\">ADS</span></span>:\n <span class=\"stat-negative\">-20%</span> ↑-<span class=\"uncertain\">15%?</span> Auto Aim Cone Size and increased non-<span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>,\n\n20% Increased Non-<span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>: <span class=\"weapon-type\">Auto Rifles</span>, <span class=\"weapon-type\">Bows</span>, <span class=\"weapon-type\">Hand Cannons</span>, <span class=\"weapon-type\">Scout Rifles</span>, and <span class=\"weapon-type\">Sniper Rifles</span>.\n10% Increased Non-<span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>: <span class=\"weapon-type\">Trace Rifles</span>, <span class=\"weapon-type\">Pulse Rifles</span>, <span class=\"weapon-type\">Sidearm</span>, <span class=\"weapon-type\">Submachine Guns</span>\n\n↑Reduces Aim Assistance Cone Size penalty to -<span class=\"uncertain\">15?</span>%."
+  },
+  {
+    "Name": "Harmony",
+    "Description": "<span class=\"trigger\">Upon readying</span> a weapon within <span class=\"duration\">3 seconds</span> of getting a kill with a different weapon:\n20% Increased damage and <span class=\"stat-positive\">+15</span> <span class=\"stat\">Handling</span> for 7 ↑<span class=\"duration\">8 seconds</span>.\nBuff persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "Hatchling",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Precision Kill</span> OR 3 kills within <span class=\"duration\">3 seconds</span> of each:\nSpawns 1 ↑although sometimes 2 <span class=\"strand\">Threadling</span> on Enemy Death Location. \n\n↑Spawns an additional <span class=\"strand\">Threadling</span> every <span class=\"uncertain\">?</span> Hatchling triggers."
+  },
+  {
+    "Name": "Headseeker",
+    "Description": "<span class=\"trigger\">Upon dealing</span> direct non-Precision <span class=\"stat\">Weapon Damage</span>:\nGrants increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> and <span class=\"uncertain\">3?</span>% Increased Auto Aim Cone Size for <span class=\"duration\">0.55 seconds</span>. \nDealing additional Non-<span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by <span class=\"multiplier\">1.2x</span>, but the actual <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Increase results are easier to explain.\n\n<span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | <span class=\"frame\">Heavy Burst</span> Pulse = 9.5%\nHigh-<span class=\"stat\">Impact</span> Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\n<span class=\"frame\">Adaptive Burst</span> <span class=\"weapon-type\">Sidearm</span> = 8.46% | <span class=\"frame\">Heavy Burst</span> <span class=\"weapon-type\">Sidearm</span> = 7.36%\n<span class=\"frame\">Heavy Burst</span> <span class=\"weapon-type\">Hand Cannon</span> = 7% increased <span class=\"damage-type\">Weakspot</span> Damage.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>.\n\nWhat even is a <span class=\"damage-type\">Weakspot</span><span class=\"uncertain\">?</span> How is it different from a <span class=\"stat\">Precision Hit</span><span class=\"uncertain\">?</span>\n<span class=\"damage-type\">Weakspot</span> Hits that do not register as a <span class=\"stat\">Precision Hit</span> can still benefit or trigger <span class=\"damage-type\">Weakspot</span> effects, such as Headseeker, or <span class=\"frame\">Heavy Burst</span> <span class=\"weapon-type\">Hand Cannon</span>'s intrinsic 9.5% <span class=\"damage-type\">Weakspot</span> Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger <span class=\"damage-type\">Weakspot</span> effects.\nCurrently, the existence of \"<span class=\"damage-type\">Weakspot</span> Modifiers\" is a bug."
+  },
+  {
+    "Name": "Headstone",
+    "Description": "On <span class=\"stat\">Precision Kill</span>:\nCreates a <span class=\"stasis\"><span class=\"element\">Stasis</span> Crystal</span> on Enemy Death Location. \n\nTier 1 and Tier 2 <span class=\"enemy-rank\">Combatants</span> = Medium ↑Large Crystal\n Tier 3 and Tier 4 <span class=\"enemy-rank\">Combatants</span> = Large Crystal \n<span class=\"enemy-rank\">Guardians</span> = Large Crystal\n\nIncurs a <span class=\"duration\">5 second</span> cooldown if 5 <span class=\"stasis\"><span class=\"element\">Stasis</span> Crystals</span> are created within <span class=\"uncertain\">?</span> seconds of the first.\n\n↑Tier 1 and Tier 2 <span class=\"enemy-rank\">Combatants</span> now spawn a Large Crystal."
+  },
+  {
+    "Name": "Heal Clip",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"uncertain\">5.3?</span> ↑<span class=\"uncertain\">?</span> seconds of a Kill:\nGrants <span class=\"stack\">x2</span> <span class=\"solar\">Cure</span>.\nAllies within <span class=\"uncertain\">15?</span> metres receive <span class=\"stack\">x1</span> <span class=\"solar\">Cure</span>.\n\n↑<span class=\"stat\">Reload</span> Window is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Heating Up",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants a stack of Heating Up for 5.5 ↑<span class=\"duration\">6.5 seconds</span>, <span class=\"stack\">up to a maximum of 2 stacks</span>. \nBuff persists through stow.\n\nHeating Up <span class=\"stack\">x1</span> | <span class=\"stat-positive\">+15</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Recoil Direction</span>, <span class=\"stat-negative\">-15%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-15%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\nHeating Up <span class=\"stack\">x2</span> | <span class=\"stat-positive\">+30</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+40</span> <span class=\"stat\">Recoil Direction</span>, <span class=\"stat-negative\">-25%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-25%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\n\n↑Buff duration is increased to <span class=\"duration\">6.5 seconds</span>."
+  },
+  {
+    "Name": "High Ground",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants 1 [2] stacks of High Ground.\n\n<span class=\"trigger\">Upon dealing</span> damage while <span class=\"uncertain\">2?</span> [5 on Primaries | 2 on Special and Heavy weapons] meters above an enemy, while grounded:\nGrants 3 [1 on <span class=\"weapon-type\">Primary Weapons</span> | 3 on others] stacks of High Ground. \nThe shot that triggers High Ground does receive the damage increase.\n\nHigh Ground:\n10% [5%] | 17.5% [10%] | 25% [15%] Increased Damage for <span class=\"duration\">7 seconds</span>.\nDealing additional damage while above an enemy, or scoring a kill refreshes the buff duration.\nBuff persists through stow.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "High-Caliber Rounds",
+    "Description": "Passively grants <span class=\"stat-positive\">+5</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Range</span>.\n\nHits inflict increased Flinch on Enemies.\nTier 1 and Tier 2 <span class=\"enemy-rank\">Rank-and-File</span> can be repeatedly staggered. Higher Tier <span class=\"enemy-rank\">Combatants</span> stagger quicker.\n Flinch against <span class=\"enemy-rank\">Guardians</span> varies based on <span class=\"stat\">Weapon Damage</span> and Weapon Archetype. Flinch Increase ranges between 5% to 10%"
+  },
+  {
+    "Name": "High-<span class=\"stat\">Impact</span> <span class=\"ammo\">Reserves</span>",
+    "Description": "As <span class=\"stat\">Magazine</span> decreases below 50% ↑55%, down to 0%:\n12.1% [3%] to 25.6% [6%] Increased damage. \nDoes not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n↑Activates at the 55% <span class=\"stat\">Magazine</span> Threshold."
+  },
+  {
+    "Name": "Hip-Fire Grip",
+    "Description": "While hipfiring:\n20% Increased <span class=\"stat\">Aim Assist</span> Falloff Distance, Reticle Stickiness Falloff Distance, and Damage Falloff Distance.\n<span class=\"stat-positive\">+15</span> <span class=\"stat\">Aim Assist</span>, <span class=\"stat-positive\">+2.7</span>° Precision Angle Threshold, <span class=\"stat-negative\">-30%</span> <span class=\"stat\">Accuracy</span> Cone Size and <span class=\"stat-positive\">+25</span> <span class=\"stat\">Stability</span>.\nPrecision Angle Threshold does not prefer Precision Hits over Body Hits if both cones overlap.\n\n<span class=\"weapon-type\">Shotguns</span>, <span class=\"weapon-type\">Sniper Rifles</span>, <span class=\"weapon-type\">Fusion Rifles</span>, and The Last Word do not benefit from Damage Falloff Increases.\nPrecision Angle Threshold cannot exceed regular <span class=\"stat\">Aim Assist</span> Cone Size.\n\n↑Stronger effect. <span class=\"stat\">Accuracy</span> Cone Size remains unchanged."
+  },
+  {
+    "Name": "Immovable Object",
+    "Description": "While blocking and stationary:\n<span class=\"weapon-type\">Glaive</span> Projectile Hits grant <span class=\"stat-positive\">+90%</span> ↑<span class=\"stat-positive\">+100%</span> increased Weapon Energy.\n<span class=\"weapon-type\">Glaive</span> Projectiles hits grant 25% Weapon Energy by default.\n\n↑Grants 100% increased Weapon Energy."
+  },
+  {
+    "Name": "<span class=\"stat\">Impact</span> Casing",
+    "Description": "Passively grants 10% Increased <span class=\"stat\">Impact</span> Damage and <span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+12</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Impromptu Ammunition",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"multiplier\">1.15x</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> Multiplier for <span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">?</span> seconds.\n\n↑Buff duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Impulse Amplifier",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Reload Speed</span>, <span class=\"multiplier\">0.85x</span> <span class=\"stat\">Reload</span> Duration Multiplier, and Increased Projectile <span class=\"stat\">Velocity</span>,\n<span class=\"weapon-type\">Rocket Launchers</span> are instead granted <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier, alongside the usual bonuses.\n\nProjectile <span class=\"stat\">Velocity</span> Increase:\n<span class=\"weapon-type\">Rocket Launchers</span>: 10% Increased Projectile <span class=\"stat\">Velocity</span> Speed.\nSupport <span class=\"weapon-type\">Auto Rifles</span>: 15% Increased Projectile <span class=\"stat\">Velocity</span> Speed.\nRocket <span class=\"weapon-type\">Sidearm</span>: 25% Increased Projectile <span class=\"stat\">Velocity</span> Speed.\n\n↑<span class=\"stat-positive\">+25</span> <span class=\"stat\">Reload Speed</span>. <span class=\"stat\">Reload</span> Duration Multiplier remains unchanged."
+  },
+  {
+    "Name": "Incandescent",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nTarget explodes, dealing up to 30 <span class=\"element\">Solar</span> Damage and inflicting <span class=\"stack\">x30</span><span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+15</span> <span class=\"solar\">Scorch</span> over 4 meters.\n<span class=\"enemy-rank\">Elite</span>+ <span class=\"enemy-rank\">Combatants</span> and <span class=\"enemy-rank\">Guardians</span> trigger a stronger explosion that inflicts <span class=\"stack\">x40</span><span class=\"stat-positive\">+10</span> ↑<span class=\"stack\">x45</span><span class=\"stat-positive\">+15</span> <span class=\"solar\">Scorch</span> over 8 meters.\nDamage from the <span class=\"solar\">Scorching</span> Explosion and <span class=\"solar\">Scorch</span> can be increased through <span class=\"stat\">Weapon Damage</span> Buffs and Debuffs and are unaffected by <span class=\"enemy-rank\">Combatant</span> Rank Multipliers.\n\n↑Increases the number of <span class=\"solar\">Scorch</span> Stacks applied."
+  },
+  {
+    "Name": "<span class=\"void\">Invisible</span> Hand",
+    "Description": "Upon consecutively missing multiple shots within <span class=\"duration\">2.5 seconds</span> of each:\nGrants +<span class=\"uncertain\">25?</span> <span class=\"stat\">Stability</span> for <span class=\"duration\">2.5 seconds</span>. Additional misses refresh the buff duration.\nBuff is removed after <span class=\"uncertain\">1?</span> ↑<span class=\"uncertain\">?</span> seconds of failing to miss.\n\nMisses in a row required:\n<span class=\"weapon-type\">Auto Rifles</span> and <span class=\"weapon-type\">Submachine Guns</span>: 10 misses.\n<span class=\"weapon-type\">Pulse Rifle</span>: 9 misses.\n<span class=\"weapon-type\">Hand Cannons</span>: 4 misses.\n<span class=\"weapon-type\">Linear Fusion Rifle</span>: 2 misses.\n↑Buff is removed within <span class=\"uncertain\">?</span> seconds of scoring a hit."
+  },
+  {
+    "Name": "Iron Gaze",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Aim Assist</span> and <span class=\"stat-negative\">-20</span> ↑<span class=\"stat-negative\">-15</span> <span class=\"stat\">Range</span>.\n\n↑Reduces <span class=\"stat\">Range</span> Penalty to <span class=\"stat-negative\">-15.</span>"
+  },
+  {
+    "Name": "Iron Grip",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Stability</span> and <span class=\"stat-negative\">-20</span> ↑<span class=\"stat-negative\">-15</span> <span class=\"stat\">Reload Speed</span>.\n\n↑Reduces <span class=\"stat\">Reload Speed</span> Penalty to <span class=\"stat-negative\">-15.</span>"
+  },
+  {
+    "Name": "Iron Reach",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Range</span> and <span class=\"stat-negative\">-20</span> ↑<span class=\"stat-negative\">-15</span> <span class=\"stat\">Stability</span>\n\n↑Reduces <span class=\"stat\">Stability</span> Penalty to <span class=\"stat-negative\">-15.</span>"
+  },
+  {
+    "Name": "<span class=\"arc\">Jolting</span> Feedback",
+    "Description": "<span class=\"trigger\">Upon scoring</span> multiple direct hits within <span class=\"duration\">3 seconds</span> of each:\nThe next direct hit inflicts <span class=\"arc\">Jolt</span>.\nBeing <span class=\"arc\">Amplified</span> reduces the amount of hits needed to trigger <span class=\"arc\">Jolting</span> Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant <span class=\"arc\">Jolting</span> Shot | <span class=\"arc\">Amplified</span>:\n<span class=\"weapon-type\">Submachine Gun</span> and <span class=\"weapon-type\">Trace Rifle</span>: 18 ↑17 | 13\n<span class=\"weapon-type\">Machine Gun</span>: 16 ↑<span class=\"uncertain\">15?</span> | 11\n<span class=\"weapon-type\">Auto Rifle</span>: 15 ↑14 | 11\n<span class=\"weapon-type\">Pulse Rifles</span>: <span class=\"uncertain\">14?</span> ↑11 | 9\n<span class=\"weapon-type\">Scout Rifles</span>: <span class=\"uncertain\">?</span> ↑6 | 4\nRocket Pulse: <span class=\"uncertain\">?</span><span class=\"uncertain\">?</span> ↑7 | 5\nSpecial <span class=\"weapon-type\">Hand Cannon</span>: <span class=\"uncertain\">?</span><span class=\"uncertain\">?</span> ↑6 | 4\nRocket <span class=\"weapon-type\">Sidearm</span>: <span class=\"uncertain\">?</span> ↑3 | 2 \n<span class=\"weapon-type\">Glaive</span>: 4 ↑3 | 3\n<span class=\"weapon-type\">Linear Fusion Rifle</span>: <span class=\"uncertain\">4?</span> ↑3 | 2\nHeavy <span class=\"weapon-type\">Grenade Launcher</span>: 3 ↑2 | 2\n\n↑Non-<span class=\"arc\">Amplified</span> Hit requirement is decreased."
+  },
+  {
+    "Name": "Keep Away",
+    "Description": "<span class=\"trigger\">While no enemies</span> are within 15 metres:\n<span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+30</span> ↑<span class=\"stat-positive\">+35</span> <span class=\"stat\">Reload Speed</span>, and -<span class=\"uncertain\">5?</span>% ↑-<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Growth\n\n↑<span class=\"stat-positive\">+35</span> <span class=\"stat\">Reload Speed</span>, and -<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Growth."
+  },
+  {
+    "Name": "Kickstart",
+    "Description": "<span class=\"trigger\">Upon sliding</span>, after sprinting for <span class=\"duration\">1.5 seconds</span>:\n15% Increased damage and <span class=\"multiplier\">0.8x</span> Charge Time for <span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">?</span> seconds. \n\n↑Buff duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Kill Clip",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"duration\">3.6 seconds</span> of a <span class=\"stat\">Weapon Kill</span>:\n25% Increased damage for 5 ↑<span class=\"duration\">5.5 seconds</span>. \nBuff can be refreshed through additional activations.\nBuff is removed on stow. Does not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n↑Buff duration is increased to <span class=\"duration\">5.5 seconds</span>."
+  },
+  {
+    "Name": "Killing Tally",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants a stack of Killing Tally, up to <span class=\"stack\">3 stacks</span>. \nStacks are removed on stow or reload.\n\nKilling Tally:\n10% | 20% | 30% increased damage\n5% | 10% | 15% increased damage\n\n↑Passively grants <span class=\"stat-positive\">+10</span> <span class=\"stat\">Magazine</span> Stat (Identical to Tactical Mag)."
+  },
+  {
+    "Name": "Killing Wind",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-positive\">+20</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+50</span> <span class=\"stat\">Mobility</span>, <span class=\"stat-positive\">+40</span> <span class=\"stat\">Handling</span>, and 5% Increased Damage Falloff Distance for 5 ↑<span class=\"duration\">5.5 seconds</span>.\nScoring additional Weapon Kills extends the buff duration by +<span class=\"duration\">5 seconds</span>, up to <span class=\"duration\">8 seconds</span>.\nBuff is removed on stow.\n\n↑Initial buff duration is increased to <span class=\"duration\">5.5 seconds</span>."
+  },
+  {
+    "Name": "<span class=\"element\">Kinetic</span> Tremors",
+    "Description": "After <span class=\"duration\">0.25 seconds</span> of scoring multiple direct hits within <span class=\"duration\">3 seconds</span> of each against a single enemy:\nEmits 3 shockwaves underneath the enemy at the place of activation, at a rate of one per second.\nEach Shockwave deals up to 90 [20] <span class=\"element\">Kinetic</span> Damage over a 6 metre radius. Shockwave hits count as weapon damage.\n<span class=\"element\">Kinetic</span> Tremors cannot be re-triggered on the same enemy within <span class=\"duration\">2 seconds</span> of the last shockwave.\nHit counter persists through stow.\n\nTremor Damage against <span class=\"enemy-rank\">Combatants</span>:\nShockwave damage is based off of the <span class=\"enemy-rank\">Combatant</span> Rank it is initially triggered on. \nDeals 33.3% increased damage if triggered on an <span class=\"enemy-rank\">Miniboss</span> or <span class=\"enemy-rank\">Boss</span>.\nDamage is affected by <span class=\"element\">Kinetic</span> Bonus Damage and scales with <span class=\"enemy-rank\">Combatant</span> Rank Modifiers. \n\nHits needed to activate:\n<span class=\"weapon-type\">Submachine Guns</span>: 14 ↑13\n<span class=\"weapon-type\">Auto Rifles</span>: 12 ↑11\n <span class=\"weapon-type\">Pulse Rifles</span>: 11 ↑10\nHigh-<span class=\"stat\">Impact</span> <span class=\"weapon-type\">Auto Rifles</span>: 9 ↑8\nNon-Burst <span class=\"weapon-type\">Sidearms</span>: 8 ↑7\n180RPM <span class=\"weapon-type\">Hand Cannons</span> and <span class=\"weapon-type\">Scout Rifles</span>: 6 ↑5\n120RPM and 150RPM <span class=\"weapon-type\">Scout Rifles</span> | 140RPM <span class=\"weapon-type\">Hand Cannons</span> : 5 ↑4\n120RPM <span class=\"weapon-type\">Hand Cannons</span>: 4 ↑3\n<span class=\"weapon-type\">Bows</span> and <span class=\"weapon-type\">Sniper Rifles</span>: 3 ↑2\n\n↑Requires 1 less hit to activate."
+  },
+  {
+    "Name": "Lasting Impression",
+    "Description": "Passively grants <span class=\"stat-positive\">+50</span> <span class=\"stat\">Blast Radius</span>.\n\nRockets attach on impact, detonating after <span class=\"duration\">3 seconds</span>, dealing an additional 25% <span class=\"damage-type\">Explosive Damage</span>.\n\n↑Passively grants an additional <span class=\"stat-positive\">+5</span> <span class=\"stat\">Blast Radius</span>."
+  },
+  {
+    "Name": "Lead from Gold",
+    "Description": "On <span class=\"ammo\">Heavy Ammo</span> Brick Pickup:\nGrants 25% ↑35% of <span class=\"ammo\">Special Ammo</span> <span class=\"ammo\">Reserves</span>.\nEquipping two <span class=\"weapon-type\">Special Weapons</span> halves the amount of ammo granted to 12.5% ↑17.5%.\nBuff can be activated while stowed\n\n↑Increases the amount of <span class=\"ammo\">Special Ammo</span> received to 35%."
+  },
+  {
+    "Name": "Lead from Light",
+    "Description": "On <span class=\"ability\">Orb of Power</span> Pickup: \nGrants a stack of Lead from Light, up to <span class=\"uncertain\">?</span> stacks.\n\nWeapon Kills consume a stack of Lead From Light to grant <span class=\"multiplier\">1.25x</span> Special <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> Multiplier.\n\n↑Maximum Lead from Light stacks are increased to 6."
+  },
+  {
+    "Name": "Lone Wolf",
+    "Description": "Passively grants <span class=\"stat-positive\">+5</span> ↑<span class=\"stat-positive\">+6</span> <span class=\"stat\">Aim Assist</span>, <span class=\"multiplier\">0.9x</span> ↑<span class=\"multiplier\">0.85x</span> <span class=\"player-state\">ADS</span> Duration Multiplier, and <span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+16</span> <span class=\"stat\">Airborne Effectiveness</span>.\n\n<span class=\"trigger\">While no allies</span> are within 15 meters:\nBonuses are doubled to <span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+11</span> <span class=\"stat\">Aim Assist</span>, <span class=\"multiplier\">0.8x</span> ↑<span class=\"multiplier\">0.75x</span> <span class=\"player-state\">ADS</span> Duration Multiplier, and <span class=\"stat-positive\">+30</span> ↑<span class=\"stat-positive\">+32</span> <span class=\"stat\">Airborne Effectiveness</span>.\nBuff appears as active on the weapon buff display.\n\n↑<span class=\"stat-positive\">+6</span> <span class=\"stat\">Aim Assist</span>, <span class=\"multiplier\">0.85x</span> <span class=\"player-state\">ADS</span> Duration Multiplier, and <span class=\"stat-positive\">+16</span> <span class=\"stat\">Airborne Effectiveness</span>.\n<span class=\"stat-positive\">+11</span> <span class=\"stat\">Aim Assist</span>, <span class=\"multiplier\">0.75x</span> <span class=\"player-state\">ADS</span> Duration Multiplier, and <span class=\"stat-positive\">+32</span> <span class=\"stat\">Airborne Effectiveness</span> while no allies are within 15 meters."
+  },
+  {
+    "Name": "Loose Change",
+    "Description": "Upon inflicting an Elemental Debuff:\n<span class=\"stat-positive\">+50</span> <span class=\"stat\">Reload Speed</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Aim Assist</span>, and 20% Decreased <span class=\"player-state\">ADS</span> Movement Speed Penalty for 9 ↑<span class=\"duration\">10 seconds</span>.\nReactivating the perk refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">5 seconds</span>."
+  },
+  {
+    "Name": "Magnificent Howl",
+    "Description": "Scoring a <span class=\"stat\">Precision Kill</span> grants a stack of Precision Final Blows, up to <span class=\"stack\">10 stacks</span>. \nStacks are consumed on reload, and persist through stow. Cannot gain stacks while Magnificent Howl is active.\n\n<span class=\"trigger\">Upon finishing a reload</span> while having Precision Final Blows stacks:\nConverts all Precision Final Blow stacks into Magnificent Howl stacks.\nFiring consumes a stack of Magnificent Howl per shot, granting 50% ↑55% increased damage and <span class=\"uncertain\">?%</span> Increased Damage Falloff Distance.  \nScoring a <span class=\"stat\">Precision Kill</span> while Magnificent Howl is active grants <span class=\"stack\">x1</span> Magnificent Howl stacks.\nMagnificent Howl stacks persist through stow.\n\n↑Magnificent Howl Damage Buff is increased to 55%."
+  },
+  {
+    "Name": "Master of Arms",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Weapon Kill</span> with any weapon:\nMaster of Arms <span class=\"stack\">x1</span> | 15% Increased Damage for 7 ↑<span class=\"uncertain\">8?</span> seconds. Timer starts on <span class=\"stat\">Weapon Kill</span>.\nBuff persists through stow.\n\n<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Weapon Kill</span> with any weapon, while Master of Arms <span class=\"stack\">x1</span> is active:\nMaster of Arms <span class=\"stack\">x2</span> | 25% Increased Damage for 4 ↑<span class=\"uncertain\">5?</span> seconds. Timer starts on <span class=\"stat\">Weapon Kill</span>.\nAdditional Kills with any weapon refresh the Master of Arms duration. Buff drops down to <span class=\"stack\">x1</span> Master of Arms upon expiring.\nBuff persists through stow.\n\n↑Buff duration is increased. <span class=\"stack\">x1</span> to <span class=\"duration\">8 seconds</span>, and <span class=\"stack\">x2</span> to <span class=\"uncertain\">5?</span> seconds."
+  },
+  {
+    "Name": "Meganeura",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Precision Hit</span>:\nGrants a stack of Meganeura for 3.5 ↑<span class=\"duration\">4 seconds</span>, increasing <span class=\"stack\">up to a maximum of 3 stacks</span>.\nBuff persists through stow.\n\nOn <span class=\"stat\">Precision Kill</span>:\nTarget explodes, dealing 123.89 [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\n<span class=\"stack\">x1</span> == Dragonfly | <span class=\"stack\">x2</span> = 40% [<span class=\"uncertain\">?%</span>] | <span class=\"stack\">x3</span> = 67.4% [<span class=\"uncertain\">?%</span>]\nDamage against <span class=\"enemy-rank\">Combatants</span> scales differently by Weapon Type and <span class=\"enemy-rank\">Combatant</span> Rank :)"
+  },
+  {
+    "Name": "Melee Momentum",
+    "Description": "On <span class=\"weapon-type\">Glaive</span> <span class=\"ability\">Melee Kill</span>:\nGrants Weapon Energy and <span class=\"uncertain\">?%</span> Increased Movement Speed while Blocking for <span class=\"duration\">10 seconds</span>.\n<span class=\"enemy-rank\">Rank-and-File</span> = 16.7% ↑<span class=\"uncertain\">?%</span> Energy | <span class=\"enemy-rank\">Elite</span> = <span class=\"uncertain\">?%</span> ↑<span class=\"uncertain\">?%</span> | <span class=\"enemy-rank\">Miniboss</span> = 50% ↑<span class=\"uncertain\">?%</span> | <span class=\"enemy-rank\">Guardian</span> = <span class=\"uncertain\">?%</span> ↑<span class=\"uncertain\">?%</span>\n\n↑Increased Weapon Energy on <span class=\"ability\">Melee Kill</span>."
+  },
+  {
+    "Name": "Moving Target",
+    "Description": "<span class=\"trigger\">While <span class=\"player-state\">ADS</span></span>:\n<span class=\"stat-positive\">+10</span> ↑+<span class=\"uncertain\">11?</span> <span class=\"stat\">Aim Assist</span>. \n10% Decreased <span class=\"player-state\">ADS</span> Movement Speed Penalty.\n\n↑<span class=\"stat\">Aim Assist</span> bonus is increased by an unknown amount."
+  },
+  {
+    "Name": "Mulligan",
+    "Description": "On Miss:\n<span class=\"weapon-type\">Primary Weapons</span> have a 35% ↑40% chance to generate 1 Ammo.\n<span class=\"weapon-type\">Special Weapons</span> and <span class=\"weapon-type\">Power Weapons</span> have a 20% ↑<span class=\"uncertain\">25%?</span> chance to generate 1 Ammo.\n\n↑<span class=\"weapon-type\">Primary Weapons</span> have a <span class=\"uncertain\">40%?</span> chance to generate ammo. \n<span class=\"weapon-type\">Special Weapons</span> and <span class=\"weapon-type\">Power Weapons</span> have a <span class=\"uncertain\">25%?</span> chance to generate ammo."
+  },
+  {
+    "Name": "Multikill Clip",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"duration\">3.6 seconds</span> of a <span class=\"stat\">Weapon Kill</span>:\n17% | 33% | 50% increased damage for 5 ↑<span class=\"duration\">5.5 seconds</span> if 1 | 2 | 3+ enemies were killed within <span class=\"duration\">3.5 seconds</span> of each.\nBuff is overwritten every time it is reactivated.\nBuff is removed on stow. Kill counter persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">5.5 seconds</span>."
+  },
+  {
+    "Name": "No Distractions",
+    "Description": "After 1 ↑<span class=\"duration\">0.9 seconds</span> of <span class=\"player-state\">ADS</span> without firing:\n 35% <span class=\"stat\">Flinch Resist</span> while <span class=\"player-state\">ADS</span>.\nTimer starts as soon as the <span class=\"player-state\">ADS</span> input is pressed.\n\n↑<span class=\"player-state\">ADS</span> timer is decreased to <span class=\"uncertain\">0.9?</span> seconds."
+  },
+  {
+    "Name": "Offhand Strike",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>, and only while hipfiring:\n45% Increased Damage Falloff Start and End Distance, <span class=\"uncertain\">?%</span> Increased <span class=\"stat\">Aim Assist</span> Falloff Start and End Distance.\n<span class=\"stat-positive\">+30</span> <span class=\"stat\">Stability</span>, -<span class=\"uncertain\">95%?</span> <span class=\"stat\">Accuracy</span> Cone Size, -<span class=\"uncertain\">95%?</span> <span class=\"stat\">Accuracy</span> Cone Growth, and +~3° Precision Angle Threshold for 7 ↑+<span class=\"duration\">8 seconds</span>.\nPrecision Angle Threshold cannot exceed regular <span class=\"stat\">Aim Assist</span> Cone Size.\nBuff is removed on stow.\n\n↑Buff duration is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "One For All",
+    "Description": "Upon damaging 3 separate enemies within <span class=\"duration\">3 seconds</span> of each:\n35% Increased damage for 10 ↑<span class=\"duration\">11 seconds</span>.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.\n\n↑Buff duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "One-Two Punch",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit with 12 ↑10 pellets:\nGrants 150% <span class=\"weapon-type\">Shotgun</span> | 75% <span class=\"weapon-type\">Hand Cannon</span> [<span class=\"uncertain\">100%?</span>] increased Melee Damage for the next Melee Hit within three<span class=\"duration\">3 seconds</span>.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against <span class=\"stasis\">Frozen</span> non-<span class=\"enemy-rank\">Boss</span> targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10."
+  },
+  {
+    "Name": "Onslaught",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants a stack of Onslaught, increasing Fire Rate and <span class=\"stat\">Reload Speed</span> <span class=\"stack\">per stack</span> for 4.5 ↑<span class=\"uncertain\">5?</span> seconds, <span class=\"stack\">up to a maximum of 3 stacks</span>.\nAdditional Weapon Kills refresh the buff duration.\nBuff persists through stow.\n\nOnslaught:\n<span class=\"multiplier\">1.2x</span> | <span class=\"multiplier\">1.4x</span> | <span class=\"multiplier\">1.6x</span> Fire Rate.\n<span class=\"stat-positive\">+15</span> | <span class=\"stat-positive\">+25</span> | <span class=\"stat-positive\">+35</span> <span class=\"stat\">Reload Speed</span>.\n\n↑Buff duration is increased to <span class=\"uncertain\">5?</span> seconds."
+  },
+  {
+    "Name": "Opening Shot",
+    "Description": "Grants the following bonuses for the first shot (of the burst):\nPrimary/<span class=\"weapon-type\">Power Weapons</span>: <span class=\"stat-positive\">+25</span> <span class=\"stat-positive\">+30</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat-positive\">+25</span> <span class=\"stat\">Aim Assist</span>, <span class=\"stat-negative\">-5%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-10%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\n<span class=\"weapon-type\">Special Weapons</span>: <span class=\"stat-positive\">+13</span> ↑<span class=\"stat-positive\">+15</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+10</span> <span class=\"stat-positive\">+13</span> <span class=\"stat\">Aim Assist</span>, <span class=\"stat-negative\">-2.5%</span> <span class=\"stat\">Accuracy</span> Cone Size, and <span class=\"stat-negative\">-5%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\nIncurs a <span class=\"duration\">3 second</span> cooldown after shooting.\n\n↑Grants additional <span class=\"stat\">Aim Assist</span> and <span class=\"stat\">Range</span>."
+  },
+  {
+    "Name": "Osmosis",
+    "Description": "On <span class=\"ability\">Grenade Ability</span> Usage:\nRefills 50% of <span class=\"stat\">Magazine</span>\nChanges Weapon Element to match Equipped Grenade-Element until stowed.\n<span class=\"element\">Kinetic</span> Damage Weapons lose their <span class=\"enemy-rank\">Combatant</span> Damage Bonus. Can only refill once per activation until weapon is stowed.\nEffects that replace Grenade Abilities will trigger Osmosis, replacing the weapon's element with the currently equipped grenade.\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Outlaw ",
+    "Description": "On <span class=\"stat\">Precision Kill</span>:\n<span class=\"stat-positive\">+70</span> <span class=\"stat\">Reload Speed</span>, and <span class=\"multiplier\">0.9x</span> <span class=\"stat\">Reload</span> Duration Multiplier for 6 ↑<span class=\"duration\">7 seconds</span>.\nBuff is removed on stow.\n\n↑Buff duration is increased to <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": "Overflow",
+    "Description": "On Special or <span class=\"ammo\">Heavy Ammo</span> Brick Pickup:\nRefills <span class=\"stat\">Magazine</span> and grants 100 ↑120% Increased <span class=\"stat\">Magazine</span> Capacity. \nBuff can be activated while stowed.\n\n↑<span class=\"ammo\">Ammo Brick</span> Pickup grants 120% Increased <span class=\"stat\">Magazine</span> Capacity."
+  },
+  {
+    "Name": "Paracausal Affinity",
+    "Description": "<span class=\"trigger\">Upon scoring</span> an Alignment-matching Elemental Kill:\n20% increased damage for 6 ↑<span class=\"duration\">7 seconds</span>.\nAdditional Kills with Alignment-matching sources refresh the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\nLight Alignment = <span class=\"element\">Arc</span>, <span class=\"element\">Solar</span>, and <span class=\"element\">Void</span>.\n Darkness Alignment = <span class=\"element\">Stasis</span> and <span class=\"element\">Strand</span>.\n\n↑Buff Duration is increased to <span class=\"duration\">7 seconds</span>."
+  },
+  {
+    "Name": "Perfect Float",
+    "Description": "<span class=\"trigger\">After having maintained</span> a state of dealing or receiving damage every 3 ↑<span class=\"duration\">3.5 seconds</span> for at least <span class=\"duration\">6 seconds</span>:\n<span class=\"stat-positive\">+30</span> <span class=\"stat\">Airborne Effectiveness</span> and 35% <span class=\"stat\">Flinch Resist</span> for 10 ↑<span class=\"duration\">12 seconds</span>. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer is increased to <span class=\"duration\">3.5 seconds</span>. Buff duration is increased to <span class=\"duration\">12 seconds</span>."
+  },
+  {
+    "Name": "Permeability",
+    "Description": "On <span class=\"ability\">Class Ability</span> Usage:\nRefills 50% of <span class=\"stat\">Magazine</span> and changes Weapon Element to match <span class=\"ability\">Super</span>-Element until stowed.\nCan only refill once per activation until weapon is stowed.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Perpetual Motion",
+    "Description": "While maintaining a movement speed of at least 2 meters per second:\nGrants <span class=\"stack\">x1</span> Perpetual Motion after <span class=\"duration\">2 seconds</span>, and <span class=\"stack\">x2</span> Perpetual Motion after 10 ↑<span class=\"duration\">9 seconds</span>.\nBuff can be activated while stowed, and persists through stow, as long as criteria is met. Buff lingers for <span class=\"duration\">0.5 seconds</span> once criteria isn't met.\n\nPerpetual Motion <span class=\"stack\">x1</span> | <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+10</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Reload Speed</span>.\nPerpetual Motion <span class=\"stack\">x2</span> | <span class=\"stat-positive\">+20</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>.\n\n↑Perpetual Motion <span class=\"stack\">x2</span> is activated in <span class=\"duration\">9 seconds</span>."
+  },
+  {
+    "Name": "Phase Mag",
+    "Description": "Sets the <span class=\"weapon-type\">Submachine Gun</span>'s Damage and <span class=\"stat\">Magazine</span> Profile into that of a <span class=\"frame\">Precision Frame</span>'s.\nDoes not change the intrinsic Frame bonus."
+  },
+  {
+    "Name": "Physic",
+    "Description": "Upon triggering <span class=\"frame\">Support Frame</span> Boost:\nGrants <span class=\"stack\">x1</span> <span class=\"solar\">Restoration</span> for 4+<span class=\"duration\">2 seconds</span> to the user and the targeted ally.\n\n↑<span class=\"solar\">Restoration</span> duration is increased to 5+<span class=\"duration\">2.5 seconds</span>."
+  },
+  {
+    "Name": "Precision Instrument",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a Direct Weapon Hit:\nGrants a stack of Precision Instrument, <span class=\"stack\">up to a maximum of 6 stacks</span> for <span class=\"duration\">1.1 seconds</span>. Lasts <span class=\"duration\">2.1 seconds</span> on weapons with Draw/Charge Time.\nEach stack grants a 1/6th of the maximum 25% ↑30% increased Precision damage. \nAdditional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing.\n<span class=\"frame\">Adaptive Burst</span> <span class=\"weapon-type\">Linear Fusion Rifle</span> exclusive: Requires 2 hits <span class=\"stack\">per stack</span>. All stacks are removed upon missing, except when it doesn't :)\n<span class=\"frame\">Heavy Burst</span> Frame exclusive: Can only get <span class=\"stack\">1 stack</span> per burst.\nBuff persists through stow.\n\n4.17% | 8.34% | 12.5% | 16.7% | 20.83% | 25% Increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>.\n↑5% | 10% | 15% | 20% | 25% | 30% Increased <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>."
+  },
+  {
+    "Name": "Proximity Power",
+    "Description": "On <span class=\"stat\">Weapon Kill</span> while within 15 meters of an enemy:\n<span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+18</span> Melee Stat <span class=\"stack\">per stack</span> for <span class=\"duration\">10 seconds</span>, up to a maximum of <span class=\"stat-positive\">+45</span> ↑<span class=\"stat-positive\">+54</span> Melee Stat at <span class=\"stack\">3 stacks</span>.\n\n↑Grants <span class=\"stat-positive\">+18</span> Melee Stat <span class=\"stack\">per stack</span>, up to a maximum of 54 Melee Stat."
+  },
+  {
+    "Name": "Pugilist",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants 10% ↑11% <span class=\"ability\">Melee Ability</span> Energy.\n<span class=\"weapon-type\">Fusion Rifles</span>, <span class=\"weapon-type\">Glaives</span>, <span class=\"weapon-type\">Shotguns</span>, and <span class=\"weapon-type\">Sniper Rifles</span> grant 20% ↑22% <span class=\"ability\">Melee Ability</span> Energy.\n\n<span class=\"trigger\">Upon dealing</span> Melee Damage:\nGrants <span class=\"stat-positive\">+35</span> <span class=\"stat\">Handling</span> for <span class=\"duration\">3 seconds</span>.\n\n↑Kills grant 11% and 22% <span class=\"ability\">Melee Ability</span> Energy respectively."
+  },
+  {
+    "Name": "Pulse Monitor",
+    "Description": "<span class=\"trigger\">Upon reaching</span> 30% ↑<span class=\"uncertain\">35%?</span> <span class=\"player-state\">Shield HP</span>:\nRefills Weapon. Grants <span class=\"stat-positive\">+50</span> <span class=\"stat\">Handling</span>, and <span class=\"multiplier\">0.95x</span> Ready/Stow Animation Duration Multiplier.\nBuff lasts until <span class=\"player-state\">Shield HP</span> is restored above 30% ↑<span class=\"uncertain\">35%?</span>, then lingers for <span class=\"duration\">1 second</span>.\nBuff can be activated while stowed, and persists through stow.\n\n↑Trigger Requirement is decreased to <span class=\"uncertain\">35%?</span> <span class=\"player-state\">Shield HP</span>."
+  },
+  {
+    "Name": "Quickdraw",
+    "Description": "<span class=\"trigger\">Upon readying</span>:\n<span class=\"stat-positive\">+100</span> Ready/Stow <span class=\"stat\">Handling</span>, and <span class=\"multiplier\">0.95x</span> Ready Animation Duration Multiplier for <span class=\"duration\">1 second</span>, or until <span class=\"player-state\">ADS</span>.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Rampage",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n10% | 21% | 33.1% increased damage for 4.5 ↑<span class=\"duration\">5 seconds</span>.\nAdditional Weapon Kills refresh the buff duration. Stacks decay one at a time.\nBuff persists through stow. Does not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n↑Buff Duration is increased to <span class=\"duration\">5 seconds</span>."
+  },
+  {
+    "Name": "Rangefinder",
+    "Description": "<span class=\"trigger\">While <span class=\"player-state\">ADS</span></span>:\n<span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, 10% Increased <span class=\"stat\">Zoom</span> and 5% Increased Projectile <span class=\"stat\">Velocity</span>.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>"
+  },
+  {
+    "Name": "Rapid Hit",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a <span class=\"stat\">Precision Hit</span>:\nGrants a stack of Rapid Hit for <span class=\"duration\">2 seconds</span>, <span class=\"stack\">up to a maximum of 5 stacks</span>.\nRapid Hit grants <span class=\"stat\">Stability</span>, <span class=\"stat\">Reload Speed</span>, and <span class=\"stat\">Reload</span> Duration Multiplier.\nTriggers on any yellow damage number, such as bodyshots on <span class=\"void\">Weakened</span> Enemies.\nBuff persists through stow.\n\n+<span class=\"uncertain\">2?</span> | +<span class=\"uncertain\">12?</span> | +<span class=\"uncertain\">14?</span> | +<span class=\"uncertain\">18?</span> | <span class=\"stat-positive\">+25</span> <span class=\"stat\">Stability</span>\n<span class=\"stat-positive\">+5</span> | <span class=\"stat-positive\">+30</span> | <span class=\"stat-positive\">+35</span> | <span class=\"stat-positive\">+42</span> | <span class=\"stat-positive\">+60</span> <span class=\"stat\">Reload Speed</span>\n<span class=\"multiplier\">0.99x</span> | <span class=\"multiplier\">0.96x</span> | <span class=\"multiplier\">0.95x</span> | <span class=\"multiplier\">0.945x</span> | <span class=\"multiplier\">0.92x</span> Duration Multiplier\n\n↑Stronger Effect."
+  },
+  {
+    "Name": "Reaper's Tithe",
+    "Description": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, <span class=\"stack\">up to a maximum of 4 stacks</span>.\n2 enemies = <span class=\"stack\">x2</span> | 3 enemies = <span class=\"stack\">x3</span> | 4 enemies = <span class=\"stack\">x4</span>\n\nReaper's Tithe:\n20% | 30% | 40% Increased <span class=\"stat\">Weapon Damage</span> for 15 ↑<span class=\"duration\">17 seconds</span>. Timer only begins after firing.\nAdditional Weapon Kills extends the buff duration by +<span class=\"duration\">6 seconds</span>, up to 15 ↑<span class=\"duration\">17 seconds</span>.\nScoring a higher amount of simultaneous kills than the currently active stack amount will not \"upgrade\" the damage buff.\n\n↑Initial buff duration is increased to <span class=\"duration\">17 seconds</span>."
+  },
+  {
+    "Name": "Reciprocity",
+    "Description": "Healing Allies restores 3 ↑3.5 HP to the user per healing shot.\n\n↑Restores 3.5 HP per healing shot."
+  },
+  {
+    "Name": "Recombination",
+    "Description": "<span class=\"trigger\">Upon scoring</span> an Elemental Kill:\nGrants a stack of Recombination, increasing the damage of the next shot of the weapon, <span class=\"stack\">up to a maximum of 10 stacks</span>.\nStacks can be obtained while stowed, and persist through stow.\n\nDamage Increase for the next shot:\n10% | 20% | 30% | 40% | 50% | 60% | 70% | 80% | 90% | 100%.\n5% | 10% | 15% | 20% | 25% | 30% | 35% | 40% | 45% | 50%.\n\n↑Damage ramps up 25% faster, increasing by 12.5% [6.25%] per kill, up to their maximum of 100% [50%] after 8 kills instead of 10."
+  },
+  {
+    "Name": "Reconstruction",
+    "Description": "Every 6 ↑<span class=\"duration\">5.5 seconds</span>, after not shooting for 6 ↑<span class=\"duration\">5.5 seconds</span>:\n Refills 25% of <span class=\"stat\">Magazine</span> Capacity.\nRefill can overflow magazine up to 100% Increased <span class=\"stat\">Magazine</span> Capacity.\nBuff can be activated while stowed, and persists through stow.\n\n↑Triggers <span class=\"duration\">0.5 seconds</span> earlier. "
+  },
+  {
+    "Name": "Recycled Energy",
+    "Description": "Upon manually loading Ammo within <span class=\"uncertain\">?</span> seconds of a <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"uncertain\">?%</span> ↑<span class=\"uncertain\">?%</span> Ability Energy to the least-charged Ability.\n\n↑Loading ammo reload grants <span class=\"uncertain\">?%</span> Ability Energy."
+  },
+  {
+    "Name": "Redirection",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit against <span class=\"enemy-rank\">Rank-And-File</span> <span class=\"enemy-rank\">Combatants</span>:\nGrants <span class=\"stack\">2 stacks</span> of Redirection, <span class=\"stack\">up to a maximum of 30 stacks</span>.\nStacks persist through stow.\n\n<span class=\"trigger\">Upon scoring</span> a hit against an <span class=\"enemy-rank\">Elite</span>, <span class=\"enemy-rank\">Miniboss</span>, <span class=\"enemy-rank\">Boss</span>, or <span class=\"enemy-rank\">Vehicle</span>:\nConsumes up to 3 ↑<span class=\"stack\">2 stacks</span>, granting 33% ↑50% increased damage <span class=\"stack\">per stack</span>, up to 100% at 3 ↑<span class=\"stack\">2 stacks</span>.\n\n↑Consumes up to <span class=\"stack\">2 stacks</span> per hit. Each stack grants 25% increased damage."
+  },
+  {
+    "Name": "Relentless Strikes",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 3 Powered <span class=\"weapon-type\">Sword</span> Hits within <span class=\"uncertain\">2?</span> ↑<span class=\"uncertain\">?</span> seconds of each:\nGenerates <span class=\"stat-positive\">+1</span> Ammo.\n\n↑Timer between Hits is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Replenishing Aegis",
+    "Description": "While guarding with a <span class=\"weapon-type\">Glaive</span>:\nRefills 1 Ammo upon receiving damage.\nIncurs a 1 ↑<span class=\"uncertain\">?</span> second cooldown upon activating.\n\n↑Cooldown is decreased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Repulsor Brace",
+    "Description": "On <span class=\"stat\">Weapon Kill</span> against a <span class=\"element\">Void</span>-Debuffed Enemy:\nGrants <span class=\"void\"><span class=\"element\">Void</span> <span class=\"player-state\">Overshield</span></span> for 8<span class=\"stat-positive\">+4</span> ↑10+<span class=\"uncertain\">5?</span> seconds.\n\n↑Buff Duration is increased to <span class=\"duration\">10 seconds</span>."
+  },
+  {
+    "Name": "Reservoir Burst",
+    "Description": "Passively grants <span class=\"stat-positive\">+30</span> <span class=\"stat\">Magazine</span> Size.\n\nWhile at or above 100% <span class=\"stat\">Magazine</span> Capacity:\nGrants 25% ↑27.5% Increased damage.\nKills cause enemies to explode on death, dealing 162 <span class=\"damage-type\">Elemental Damage</span> in a <span class=\"uncertain\">?</span> metre radius.\nDamage against <span class=\"enemy-rank\">Combatants</span> scales with <span class=\"enemy-rank\">Combatant</span> Rank Modifiers. <span class=\"weapon-type\">Linear Fusion Rifles</span> have an additional <span class=\"multiplier\">1.3x</span> multiplier against <span class=\"enemy-rank\">Combatants</span>.\n\n↑Damage Buff is increased to 27.5%."
+  },
+  {
+    "Name": "Reverberation",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"stat-positive\">+100</span> <span class=\"stat\">Blast Radius</span> for 5.5 ↑<span class=\"uncertain\">6?</span> seconds. Does not affect <span class=\"frame\">Area Denial Frame</span> DoT Fields.\nAdditional Weapon Kills refresh the buff duration.\nBuff is removed on stow<span class=\"uncertain\">?</span> / Buff persists through stow<span class=\"uncertain\">?</span>\n\n↑Buff duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Reversal of Fortune",
+    "Description": "Upon missing twice within <span class=\"duration\">6 seconds</span> of each shot:\nGenerates 1 Ammo."
+  },
+  {
+    "Name": "Rewind Rounds",
+    "Description": "Upon emptying the <span class=\"stat\">Magazine</span>:\nRefills 60% ↑70% of all damage instances scored. Always rounds up. Counter persists through stow.\nRequires shooting at least 28.5% of the <span class=\"stat\">Magazine</span> Capacity for refill to activate. Always rounds up.\nHits within <span class=\"uncertain\">1?</span> seconds of triggering the refill do not count. Displayed by the active buff indicator.\n\n<span class=\"frame\">Adaptive Burst</span> <span class=\"weapon-type\">Linear Fusion Rifle</span> Behavior:\nCounts each bolt individually. Refill Amount is 14% of damage instances scored.\n\n↑Refills 70% of all damage instances scored into the <span class=\"stat\">Magazine</span>."
+  },
+  {
+    "Name": "Ricochet Rounds",
+    "Description": "Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Range</span> and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>.\n\nBullets are guaranteed to ricochet off of surfaces."
+  },
+  {
+    "Name": "Rimestealer",
+    "Description": "Upon shattering a crystal or killing a <span class=\"stasis\">Frozen</span> Enemy:\nGrants a stack of <span class=\"stasis\">Frost Armor</span>.\nCan also trigger with <span class=\"weapon-type\">Glaive</span> Melee.\n\n↑Grants <span class=\"stack\">2 stacks</span> of <span class=\"stasis\">Frost Armor</span>."
+  },
+  {
+    "Name": "Rolling Storm",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"stack\">x1</span> <span class=\"arc\">Bolt Charge</span>.\n\nOn <span class=\"stat\">Weapon Kill</span>, while <span class=\"arc\">Amplified</span>:\nGrants <span class=\"stack\">x2</span> <span class=\"arc\">Bolt Charge</span>.\n\n↑Weapon Kills while <span class=\"arc\">Bolt Charge</span> isn't active grant an additional <span class=\"arc\">Bolt Charge</span> stack."
+  },
+  {
+    "Name": "Seraph Rounds",
+    "Description": "Passively grants <span class=\"stat-positive\">+3</span> <span class=\"stat\">Range</span> and <span class=\"stat-positive\">+7</span> <span class=\"stat\">Stability</span>.\n\nCombines the penetration from Armor-Piercing Rounds, the guaranteed ricochets from Ricochet Rounds, and the flinch increase from High-Caliber Rounds."
+  },
+  {
+    "Name": "Sharp Harvest",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 3 Powered <span class=\"weapon-type\">Sword</span> Hits within <span class=\"uncertain\">1.5?</span> ↑<span class=\"duration\">2 seconds</span> of each:\n Grants 5% of <span class=\"ammo\">Special Ammo</span> <span class=\"ammo\">Reserves</span>.\nEquipping two <span class=\"weapon-type\">Special Weapons</span> halves the amount of ammo granted to 2.5%.\n\n↑Timer between Hits is increased to <span class=\"duration\">2 seconds</span>."
+  },
+  {
+    "Name": "Shattering Blade",
+    "Description": "If Heavy Attack consumes all remaining <span class=\"ammo\">Heavy Ammo</span>:\n67% Increased damage for Grounded Heavy Attack."
+  },
+  {
+    "Name": "Shield Disorient",
+    "Description": "On Matching <span class=\"shield\">Elemental Shield</span> Break:\nEnemies within 7 metres become disoriented for <span class=\"duration\">5 seconds</span>"
+  },
+  {
+    "Name": "Shoot to Loot",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit on a Special or <span class=\"ammo\">Heavy Ammo</span> Brick:\nPicks up Ammo and refills all equipped weapons.\nTriggers Ammo Pickup effects. Only activates if picking up ammo is possible by not having full Ammo.\nCan also pick up <span class=\"ability\">Orbs of Power</span> without any additional effect. Splash Damage can also trigger Shoot To Loot.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Range</span>."
+  },
+  {
+    "Name": "Shot Swap",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"stack\">2 stacks</span> of Shot Swap, <span class=\"stack\">up to a maximum of 6 stacks</span>.\n \n<span class=\"trigger\">Upon readying</span> or stowing the weapon:\nConsumes a stack on stow.\nGrants <span class=\"stat-positive\">+100</span> Ready/Stow <span class=\"stat\">Handling</span> and <span class=\"multiplier\">0.7x</span> ↑<span class=\"multiplier\">0.65x</span> Ready/Stow Duration Multiplier. "
+  },
+  {
+    "Name": "Sleight of Hand",
+    "Description": "<span class=\"trigger\">Upon readying</span> the weapon after getting kills with other weapons and abilities while this weapon is stowed:\nGrants a stack of Sleight of Hand for 8.5 ↑<span class=\"duration\">9 seconds</span>, <span class=\"stack\">up to a maximum of 3 stacks</span>.\nBuff is removed on stow.\n\nSleight of Hand <span class=\"stack\">x1</span> = <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+10</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Reload Speed</span>.\nSleight of Hand <span class=\"stack\">x2</span> = <span class=\"stat-positive\">+20</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+20</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>.\nSleight of Hand <span class=\"stack\">x3</span> = <span class=\"stat-positive\">+30</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+30</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+30</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Slice",
+    "Description": "On <span class=\"ability\">Class Ability</span> Usage:\nThe next 5 damage instances on non-<span class=\"strand\">Severed</span> Enemies within 8 ↑<span class=\"duration\">9 seconds</span> of each inflict sever.\nScoring a damage instance on a non-<span class=\"strand\">Severed</span> Enemy refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow. If the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies.\n\n↑Buff duration is increased to <span class=\"duration\">9 seconds</span>."
+  },
+  {
+    "Name": "Slickdraw",
+    "Description": "Passively grants <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, <span class=\"multiplier\">0.95x</span> Ready Animation Duration Multiplier, and <span class=\"stat-negative\">-20%</span> ↑-<span class=\"uncertain\">15%?</span> Auto Aim Cone Size.\n\n↑Reduces the Aim Assistance Cone Size Penalty to -<span class=\"uncertain\">15?</span>%."
+  },
+  {
+    "Name": "Slideshot",
+    "Description": "Upon Sliding:\nRefills 15% of <span class=\"stat\">Magazine</span>, and grants <span class=\"stat-positive\">+20</span> ↑<span class=\"stat-positive\">+22</span> <span class=\"stat\">Range</span>, and +<span class=\"uncertain\">20?</span> +<span class=\"uncertain\">22?</span> <span class=\"stat\">Stability</span> for <span class=\"duration\">2.5 seconds</span>. Only affects the first shot.\nIncurs a <span class=\"duration\">0.3 seconds</span> cooldown after activation. Can be activated multiple times in one slide. Buff is removed on stow.\n\n↑Buff Effect increased to <span class=\"stat-positive\">+22</span> <span class=\"stat\">Range</span> and +<span class=\"uncertain\">22?</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Slideways",
+    "Description": "Upon Sliding:\nRefills 15% of <span class=\"stat\">Magazine</span>, and grants +<span class=\"uncertain\">15?</span> ↑+<span class=\"uncertain\">17?</span> <span class=\"stat\">Stability</span> and <span class=\"stat-positive\">+30</span> ↑+<span class=\"uncertain\">33?</span> <span class=\"stat\">Handling</span> for <span class=\"duration\">3 seconds</span>. \nIncurs a <span class=\"duration\">0.5 seconds</span> cooldown after activation. Buff is removed on stow.\n\n↑Buff Effect increased to +<span class=\"uncertain\">17?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">33?</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Smoothbore",
+    "Description": "Passively grants <span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+17</span> <span class=\"stat\">Range</span> and <span class=\"stat-positive\">+7.5%</span> Pellet Spread."
+  },
+  {
+    "Name": "Snapshot Sights",
+    "Description": "Passively grants an <span class=\"player-state\">ADS</span> Duration Multiplier.\n\n<span class=\"multiplier\">0.5x</span> <span class=\"player-state\">ADS</span> Duration Multiplier on <span class=\"weapon-type\">Primary Weapons</span>\n<span class=\"multiplier\">0.8x</span> <span class=\"player-state\">ADS</span> Duration Multiplier on <span class=\"weapon-type\">Special Weapons</span>\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Sneak <span class=\"weapon-type\">Bow</span>",
+    "Description": "<span class=\"trigger\">While Crouched</span>:\nPrevents Radar Ping when firing and increases Arrow Hold Time by 25%.\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span> and <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier. \n\n↑Grants +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Reload Speed</span> while Crouched."
+  },
+  {
+    "Name": "Spike Grenades",
+    "Description": "Grants 12.12% | 12.5% increased Grenade <span class=\"stat\">Impact</span> Damage and <span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+12</span> <span class=\"stat\">Stability</span>.\nDue to the <span class=\"stat\">Impact</span> Damage being tied to the <span class=\"stat\">Blast Radius</span> Stat on <span class=\"weapon-type\">Grenade Launchers</span>, a lower <span class=\"stat\">Blast Radius</span> will provide higher overall damage. \nExplosive Light increases <span class=\"stat\">Blast Radius</span> to 100, decreasing the effect of Spike Grenades.\n\nBreech-Loaded <span class=\"weapon-type\">Grenade Launchers</span>\n0 <span class=\"stat\">Blast Radius</span> = <span class=\"uncertain\">?%</span> total increased damage \n100 <span class=\"stat\">Blast Radius</span> = 2.5% total increased damage.\n\nDrum-Loaded <span class=\"weapon-type\">Grenade Launchers</span>\n0 <span class=\"stat\">Blast Radius</span> = <span class=\"uncertain\">?%</span> total increased damage\n 100 <span class=\"stat\">Blast Radius</span> = 1% total increased damage."
+  },
+  {
+    "Name": "Stats for All",
+    "Description": "After Damaging 3 Separate Enemies within <span class=\"duration\">3 seconds</span> of each:\n<span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>, 5% Increased Damage Falloff Distance, <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+35</span> <span class=\"stat\">Handling</span>, <span class=\"stat-positive\">+35</span> <span class=\"stat\">Reload Speed</span>, and <span class=\"multiplier\">0.95x</span> <span class=\"stat\">Reload</span> Duration Multiplier for 10 ↑+<span class=\"duration\">11 seconds</span>.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.\n\n↑Buff Duration is increased to <span class=\"duration\">11 seconds</span>."
+  },
+  {
+    "Name": "Sticky Grenades",
+    "Description": "Grenades stick to surfaces for up to <span class=\"uncertain\">?</span> seconds on impact, and detonate once an enemy is within <span class=\"uncertain\">?</span> meters.\nExplosive Light increases <span class=\"stat\">Blast Radius</span> to 100, increasing the effect of Sticky Grenades.\n\nGrants 30% Increased <span class=\"damage-type\">Explosive Damage</span> and 85% Decreased <span class=\"stat\">Impact</span> Damage.\n20 <span class=\"stat\">Blast Radius</span> = <span class=\"stat-negative\">-6%</span> total decreased damage.\n48 <span class=\"stat\">Blast Radius</span> = Unchanged damage.\n100 <span class=\"stat\">Blast Radius</span> = 11% total increased damage."
+  },
+  {
+    "Name": "Stopping Power",
+    "Description": "Grants increased stagger against <span class=\"enemy-rank\">Combatants</span> and increased damage against enemies on low health. Shields are ignored.\n\n7% Increased Damage at <34% Health.\n10% Increased Damage at <23% Health.\nDOES NOT WORK AT 18% Health. ¯\\_.(ツ)._/¯\n15% Increased Damage at <18% Health."
+  },
+  {
+    "Name": "Strategist",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants 10% ↑11% <span class=\"ability\">Class Ability</span> Energy.\n<span class=\"weapon-type\">Fusion Rifles</span>, <span class=\"weapon-type\">Glaives</span>, <span class=\"weapon-type\">Shotguns</span>, and <span class=\"weapon-type\">Sniper Rifles</span> grant 20% ↑22% <span class=\"ability\">Class Ability</span> Energy.\n\nOn <span class=\"ability\">Class Ability</span> Usage:\nGrants +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> for <span class=\"uncertain\">?</span> seconds.\n\n↑Kills grant <span class=\"uncertain\">11?</span>% and <span class=\"uncertain\">22?</span>% <span class=\"ability\">Class Ability</span> Energy respectively."
+  },
+  {
+    "Name": "Steady Hands",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span> and <span class=\"multiplier\">0.825x</span> <span class=\"stat\">Handling</span> Duration Multiplier for all equipped weapons for 8.5 ↑<span class=\"duration\">9.5 seconds</span>.\nAdditional Weapon Kills refresh the buff duration to <span class=\"duration\">6.5 seconds</span>.\nBuff remains active while stowed.\n\n↑Initial Buff Duration is increased to <span class=\"duration\">9.5 seconds</span>."
+  },
+  {
+    "Name": "Subsistence",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nRefills 10% ↑20% of <span class=\"stat\">Magazine</span>.\n<span class=\"weapon-type\">Submachine Guns</span> and <span class=\"weapon-type\">Auto Rifles</span> refill 17% ↑20% of <span class=\"stat\">Magazine</span>.\n\n↑Refill Amount is increased to 20%."
+  },
+  {
+    "Name": "Successful Warm-Up",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\n<span class=\"multiplier\">0.625x</span> Charge/<span class=\"stat\">Draw Time</span> Multiplier for <span class=\"duration\">6 seconds</span>. \nAdditional Weapon Kills extends the buff duration by <span class=\"stat-positive\">+4</span> ↑+<span class=\"duration\">5 seconds</span>, up to <span class=\"duration\">20 seconds</span>.\nBuff is removed on stow.\n\n↑Additional Weapon Kills extend the duration by <span class=\"duration\">5 seconds</span>."
+  },
+  {
+    "Name": "Supercharged <span class=\"stat\">Magazine</span>\nCentrifuse pls",
+    "Description": "While <span class=\"arc\">Amplified</span>:\nRefills 5% of <span class=\"stat\">Magazine</span> every <span class=\"duration\">1.5 seconds</span>..\n\nWhile <span class=\"arc\">Speed Booster</span> is active:\nRefills 5% of <span class=\"stat\">Magazine</span> every <span class=\"duration\">0.25 seconds</span>. Can grant up to 100% Increased <span class=\"stat\">Magazine</span> Capacity through refilling."
+  },
+  {
+    "Name": "Surplus",
+    "Description": "Grants Stat Bonuses based on the amount of Powered Ability Charges.\n\n<span class=\"stack\">x1</span> Ability Charges = <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+10</span> <span class=\"stat\">Reload Speed</span>.\n<span class=\"stack\">x2</span> Ability Charges = <span class=\"stat-positive\">+15</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+25</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+25</span> <span class=\"stat\">Reload Speed</span>.\n<span class=\"stack\">x3</span> Ability Charges = <span class=\"stat-positive\">+25</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+60</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+60</span> <span class=\"stat\">Reload Speed</span>.\n\n↑Stronger Effect."
+  },
+  {
+    "Name": "Surrounded",
+    "Description": "<span class=\"trigger\">While within</span> 15 meters of 3 enemies:\n40% ↑47% Increased Damage. <span class=\"weapon-type\">Swords</span> are granted 35% ↑41.8% Increased Damage.\n<span class=\"weapon-type\">Rocket Launchers</span> and <span class=\"weapon-type\">Grenade Launchers</span> are granted 35% ↑41.8% Increased <span class=\"damage-type\">Explosive Damage</span> and 40% ↑47% Increased <span class=\"stat\">Impact</span> Damage.\nWolfpack Rounds are granted 35% ↑41.8% Increased <span class=\"damage-type\">Explosive Damage</span>.\n Buff lingers for <span class=\"duration\">1.5 seconds</span> once criteria isn't met.\n\n↑Surrounded's damage buff is increased by a multiplicative 5%. | 40% -> 47% | 35% -> 41.8% "
+  },
+  {
+    "Name": "Swap Mag",
+    "Description": "Passively grants <span class=\"multiplier\">0.9x</span> Ready/Stow Duration Multiplier."
+  },
+  {
+    "Name": "Swashbuckler",
+    "Description": "On Weapon or <span class=\"ability\">Melee Kill</span>:\n6.7% | 13.3% | 20% | 26.6% | 33.3% Increased Damage for 4.5 ↑<span class=\"duration\">6.5 seconds</span>. Melee Kills grant <span class=\"stack\">5 stacks</span>.\nAdditional Weapon or Melee Kills refresh the buff duration.\nBuff is removed on stow.\n\n↑Buff Duration is increased to <span class=\"duration\">6.5 seconds</span>."
+  },
+  {
+    "Name": "<span class=\"weapon-type\">Sword</span> Logic",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants stacks of <span class=\"weapon-type\">Sword</span> Logic. The number of stacks gained is tied to the highest Enemy Rank killed in the current activation of <span class=\"weapon-type\">Sword</span> Logic.\n<span class=\"enemy-rank\">Rank-and-File</span> <span class=\"enemy-rank\">Combatants</span> = <span class=\"stack\">x1</span> | <span class=\"enemy-rank\">Elite</span> = <span class=\"stack\">x2</span> | <span class=\"champion\">Champions</span>, <span class=\"enemy-rank\">Minibosses</span> = <span class=\"stack\">x3</span> | <span class=\"enemy-rank\">Boss</span> = <span class=\"stack\">x4</span> | <span class=\"enemy-rank\">Guardians</span> = <span class=\"stack\">x2</span> | <span class=\"enemy-rank\">Guardians</span> in <span class=\"ability\">Super</span> = <span class=\"stack\">x4</span> \n\n<span class=\"weapon-type\">Sword</span> Logic <span class=\"stack\">x1</span> | 15% Increased Damage for 5.5 ↑<span class=\"duration\">6.5 seconds</span>.\n<span class=\"weapon-type\">Sword</span> Logic <span class=\"stack\">x2</span> | 25% [15%] Increased Damage for 7.5 ↑<span class=\"duration\">8.5 seconds</span>.\n<span class=\"weapon-type\">Sword</span> Logic <span class=\"stack\">x3</span> | 35% Increased Damage for 10.5 ↑<span class=\"duration\">11.5 seconds</span>.\n<span class=\"weapon-type\">Sword</span> Logic <span class=\"stack\">x4</span> | 50% Increased Damage for 15.5 ↑<span class=\"duration\">16.5 seconds</span>.\n\nAdditional Weapon Kills refresh the buff duration to the duration tied to the highest Enemy Rank killed.\nBuff persists through stow. Does not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n↑Buff Duration is increased by <span class=\"duration\">1 second</span>."
+  },
+  {
+    "Name": "Sympathetic Arsenal",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Reload Speed</span>.\n\n<span class=\"trigger\">Upon finishing a reload</span> within 3.6 ↑<span class=\"uncertain\">?</span> seconds of a <span class=\"stat\">Weapon Kill</span>:\nRefills stowed weapons.\n\n↑<span class=\"stat\">Reload</span> Timer Window is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Tap The Trigger",
+    "Description": "Upon initially firing:\n<span class=\"stat-positive\">+40</span> <span class=\"stat\">Stability</span>, <span class=\"stat-negative\">-50%</span> Recoil, and <span class=\"stat-negative\">-10%</span> <span class=\"stat\">Accuracy</span> Cone Size for 0.6 ↑<span class=\"duration\">0.76 seconds</span>.\n[<span class=\"weapon-type\">Fusion Rifles</span> Only] <span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>, <span class=\"stat-negative\">-12.5%</span> Recoil, and <span class=\"stat-negative\">-2.5%</span> <span class=\"stat\">Accuracy</span> Cone Size for 0.6 ↑<span class=\"duration\">0.76 seconds</span>.\n\n↑Effect is increased to +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span>, -<span class=\"uncertain\">?%</span> Recoil, -<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Size for <span class=\"duration\">0.76 seconds</span>.\n1/4th of the benefits for <span class=\"weapon-type\">Fusion Rifles</span>."
+  },
+  {
+    "Name": "Target Lock",
+    "Description": "Damage instances within <span class=\"duration\">0.2 seconds</span> of each without missing increments a <span class=\"stat\">Magazine</span>-capacity based counter towards a damage increase.\n\n<span class=\"trigger\">Upon scoring</span> >12.5% of <span class=\"stat\">Magazine</span> as hits. \nGrants a continuously increasing damage buff as further hits are scored, up to 110.33% of the <span class=\"stat\">Magazine</span> capacity.\nVisual Buff Stacks to <span class=\"stat\">Magazine</span> Thresholds:\n<span class=\"stack\">x2</span> = >35.5% | <span class=\"stack\">x3</span> = >54.5% | <span class=\"stack\">x4</span> = >74.5% | <span class=\"stack\">x5</span> = >110.33%\n\nInitially grants 16.7% ↑18.8% [10.46% ↑12.54%] increased damage that ramps up to 40% ↑45% [25% ↑30%] increased damage after scoring >110.33% of <span class=\"stat\">Magazine</span> as hits\nEmptying a Full <span class=\"stat\">Magazine</span> without misses grants an average of 25% ↑28.3% [15.85% ↑19.02%] Increased Damage without the usage of <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> or <span class=\"stat\">Magazine</span> Increasing Perks.\n\n↑Damage Increase begins at 18.8% [12.54%] and ends at 45% [30%]. Results in a 28.3% [19.02%] Average Damage Increase over a full <span class=\"stat\">Magazine</span>.\n\nTarget Lock Calculator, courtesy of Clarity."
+  },
+  {
+    "Name": "Tear",
+    "Description": "On <span class=\"stat\">Precision Kill</span>: \nInflicts sever to enemies within <span class=\"uncertain\">?</span> meters for <span class=\"uncertain\">?</span> seconds.\nIncurs a <span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">?</span> second cooldown between activations.\n\n↑Cooldown is decreased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Thermal Atomization",
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [<span class=\"uncertain\">?%</span>] to ~14% [<span class=\"uncertain\">?%</span>] Increased Damage.\nDoes not increase the damage of <span class=\"damage-type\">Explosive Damage</span>...High-<span class=\"stat\">Impact</span> <span class=\"ammo\">Reserves</span> | Rev.1\n\nTargets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao <span class=\"uncertain\">[?]</span> Damage | SMG: 289 <span class=\"uncertain\">[?]</span> Damage | Sniper: 552 <span class=\"uncertain\">[?]</span> Damage "
+  },
+  {
+    "Name": "Threat Detector",
+    "Description": "Grants a stack of Threat Detector for each enemy within 15 meters, <span class=\"stack\">up to a maximum of 2 stacks</span>.\n\nThreat Detector <span class=\"stack\">x1</span> | +<span class=\"uncertain\">15?</span> ↑<span class=\"uncertain\">19?</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+25</span> ↑+<span class=\"uncertain\">28?</span> <span class=\"stat\">Handling</span>, <span class=\"multiplier\">0.9x</span> <span class=\"stat\">Handling</span> Animation Duration Multiplier, and <span class=\"stat-positive\">+18</span> ↑<span class=\"stat-positive\">+19</span> <span class=\"stat\">Reload Speed</span>.\nThreat Detector <span class=\"stack\">x2</span> | +<span class=\"uncertain\">40?</span> ↑+<span class=\"uncertain\">44?</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, <span class=\"multiplier\">0.81x</span> <span class=\"stat\">Handling</span> Animation Duration Multiplier, and <span class=\"stat-positive\">+60</span> ↑<span class=\"stat-positive\">+63</span> <span class=\"stat\">Reload Speed</span>.\n\n↑Increases <span class=\"stack\">x1</span> Stat Bonuses to +<span class=\"uncertain\">19?</span> <span class=\"stat\">Stability</span>, +<span class=\"uncertain\">28?</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+19</span> <span class=\"stat\">Reload Speed</span>.\nIncreases <span class=\"stack\">x2</span> Stat Bonuses to +<span class=\"uncertain\">44?</span> <span class=\"stat\">Stability</span>, <span class=\"stat-positive\">+100</span> <span class=\"stat\">Handling</span>, and <span class=\"stat-positive\">+63</span> <span class=\"stat\">Reload Speed</span>."
+  },
+  {
+    "Name": "Threat Remover",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a hit with 11 ↑<span class=\"uncertain\">10?</span> pellets:\n+<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span>, +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>, <span class=\"uncertain\"><span class=\"multiplier\">0.x</span>?</span> <span class=\"stat\">Handling</span> Duration Multiplier, and <span class=\"stat-positive\">+60</span> <span class=\"stat\">Reload Speed</span> for <span class=\"duration\">7 seconds</span>.\n\n↑Pellet Activation Requirement is decreased from 11 to <span class=\"uncertain\">10?</span>."
+  },
+  {
+    "Name": "Thresh",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants an additional 1% ↑1.33% <span class=\"ability\">Super Ability</span> Energy.\n <span class=\"weapon-type\">Fusion Rifles</span>, <span class=\"weapon-type\">Glaives</span>, <span class=\"weapon-type\">Shotguns</span>, and <span class=\"weapon-type\">Sniper Rifles</span> grant an additional 1.5% ↑2% <span class=\"ability\">Super Ability</span> Energy.\n\n↑Bonus <span class=\"ability\">Super</span> is increased to an additional 1.33% and 2% <span class=\"ability\">Super Ability</span> Energy respectively"
+  },
+  {
+    "Name": "Tilting at Windmills",
+    "Description": "<span class=\"trigger\">Upon blocking</span> damage with the <span class=\"weapon-type\">Glaive</span> Shield:\n<span class=\"uncertain\">25?</span>% Increased Movement Speed while Blocking for 4 ↑<span class=\"uncertain\">5?</span> seconds until no longer blocking, or when Weapon Energy depletes.\n\n↑Buff Duration is increased to <span class=\"uncertain\">5?</span> seconds."
+  },
+  {
+    "Name": "Timed Payload",
+    "Description": "Weapons deal 55% of their Non-Precision Direct <span class=\"stat\">Impact</span> Damage as a Timed Payload.\nTimed Payload detonates after <span class=\"duration\">0.6 seconds</span> of impact, damaging enemies within <span class=\"uncertain\">?</span> meters.\nTimed Payload portion deals 30% increased damage and inflicts increased stagger against <span class=\"enemy-rank\">Combatants</span>.\n\n<span class=\"stat\">Impact</span> Damage's Precision Multiplier is increased to offset the Timed Payload portion lacking the ability to score Precision Hits.\nNew Ratio = (Base Ratio - 55%) / (1 - 55%)\n\nOverall Damage Increase:\nDamage is increased by 16.5% of the Weapon's <span class=\"damage-type\">Bodyshot Damage</span>. <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> Increase is equal to 16.5% / Precision Multiplier.\nBodyshot damage remains the same. <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span> remains \"roughly\" the same.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Tireless Blade",
+    "Description": "<span class=\"trigger\">Upon scoring</span> 2 Powered <span class=\"weapon-type\">Sword</span> Kills:\nGenerate <span class=\"stat-positive\">+1</span> Ammo ↑with a <span class=\"uncertain\">?%</span> chance of granting <span class=\"stat-positive\">+2</span> Ammo.\nThe first kill upon spawning will trigger the buff. Counter persists through stow.\n\n↑<span class=\"uncertain\">?%</span> Chance to grant <span class=\"stat-positive\">+2</span> Ammo instead of <span class=\"stat-positive\">+1</span> Ammo."
+  },
+  {
+    "Name": "To The Pain",
+    "Description": "While this weapon is readied:\nGrants a stack of To The Pain for every 30 damage taken, up to <span class=\"stack\">10 stacks</span> after receiving 300 damage.\nStacks are removed on stow.\n\nTo The Pain grants +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+2</span> <span class=\"stat\">Aim Assist</span> <span class=\"stack\">per stack</span>, up to +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+20</span> <span class=\"stat\">Aim Assist</span> at <span class=\"stack\">10 stacks</span>.\n+<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> | +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span>\n<span class=\"stat-positive\">+2</span> | <span class=\"stat-positive\">+4</span> | <span class=\"stat-positive\">+6</span> | <span class=\"stat-positive\">+8</span> | <span class=\"stat-positive\">+10</span> | <span class=\"stat-positive\">+12</span> | <span class=\"stat-positive\">+14</span> | <span class=\"stat-positive\">+16</span> | <span class=\"stat-positive\">+18</span> | <span class=\"stat-positive\">+20</span> <span class=\"stat\">Aim Assist</span>\n\n↑+<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span> <span class=\"stack\">per stack</span>, up to +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span> at <span class=\"stack\">10 stacks</span>."
+  },
+  {
+    "Name": "Tracking Module",
+    "Description": "<span class=\"trigger\">While <span class=\"player-state\">ADS</span></span> and targeting an enemy:\nRockets track enemies [with diminshed effectiveness]\n\nTracking persists for <span class=\"duration\">1 second</span> after not aiming at the enemy.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Blast Radius</span>."
+  },
+  {
+    "Name": "Transcendent Moment",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants Transcendent Moment for <span class=\"uncertain\">?</span> ↑<span class=\"uncertain\">?</span> seconds.\nAdditional Kills refresh the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\nTranscendent Moment | Grants Weapon Stats based on the weapon's alignment. \n+<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Handling</span> | +<span class=\"uncertain\">?</span> <span class=\"stat\">Range</span> and +<span class=\"uncertain\">?</span> <span class=\"stat\">Aim Assist</span>\nBoth bonuses are active while <span class=\"ability\">Transcendence</span> is active.\n\nLight Alignment = <span class=\"element\">Arc</span>, <span class=\"element\">Solar</span>, and <span class=\"element\">Void</span>.\n Darkness Alignment = <span class=\"element\">Kinetic</span>, <span class=\"element\">Stasis</span> and <span class=\"element\">Strand</span>.\n\n↑Buff Duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Trench Barrel",
+    "Description": "<span class=\"trigger\">Upon dealing</span> Melee Damage:\n50% Increased damage, <span class=\"stat-positive\">+30</span> ↑+<span class=\"uncertain\">35?</span> <span class=\"stat\">Handling</span>, and +<span class=\"uncertain\">30?</span> ↑+<span class=\"uncertain\">35?</span> <span class=\"stat\">Reload Speed</span> for the next 3 shots within <span class=\"duration\">5 seconds</span>.\nBuff is removed on stow.\n\n↑Buff Effect is increased to +<span class=\"uncertain\">35?</span> <span class=\"stat\">Reload</span> and +<span class=\"uncertain\">35?</span> <span class=\"stat\">Handling</span>."
+  },
+  {
+    "Name": "Trickle Charge",
+    "Description": "Upon receiving a <span class=\"arc\">Bolt Charge</span> stack:\nRefills <span class=\"uncertain\">?%</span> ↑10% of <span class=\"stat\">Magazine</span>.\nDoes NOT dissipate heat.\n\nUpon discharging <span class=\"arc\">Bolt Charge</span>:\nRefills <span class=\"uncertain\">?%</span> ↑20% of <span class=\"stat\">Magazine</span> / Dissipates ↑100% Heat.\nTrickle Charge will refill/dissipate stowed weapons."
+  },
+  {
+    "Name": "Triple Tap",
+    "Description": "Scoring 3 Precision Hits within 2 ↑<span class=\"duration\">3 seconds</span> of each generates 1 Ammo to <span class=\"stat\">Magazine</span>.\n<span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> cannot generate ammo past Base <span class=\"stat\">Magazine</span> Size.\nTimer between hits persists through stow.\n\n↑Timer between Precision Hits is increased to <span class=\"duration\">3 seconds</span>."
+  },
+  {
+    "Name": "Tunnel Vision",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"duration\">3.6 seconds</span> of a <span class=\"stat\">Weapon Kill</span>:\nGrants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Aim Assist</span>, -<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Growth, and +<span class=\"uncertain\">?</span> <span class=\"player-state\">ADS</span> <span class=\"stat\">Handling</span> for <span class=\"duration\">5 seconds</span>.\nBuff duration can be refreshed through additional activations.\n\n↑Buff Duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Turnabout",
+    "Description": "<span class=\"trigger\">Upon breaking</span> a <span class=\"enemy-rank\">Combatant</span>'s <span class=\"shield\">Elemental Shield</span> or a <span class=\"enemy-rank\">Guardian</span>'s Shield while in <span class=\"ability\">Super</span>:\nGrants a 30 HP <span class=\"player-state\">Overshield</span> for 10 ↑<span class=\"duration\">11.4 seconds</span>.\n\n↑Increases the <span class=\"player-state\">Overshield</span> duration to <span class=\"duration\">11.4 seconds</span>."
+  },
+  {
+    "Name": "Under Pressure",
+    "Description": "As <span class=\"stat\">Magazine</span> decreases below 50%, down to 0%:\n Linearly grants <span class=\"stat-negative\">-12.5%</span> to <span class=\"stat-negative\">-25%</span> ↑-<span class=\"uncertain\">30%?</span> <span class=\"stat\">Accuracy</span> Cone Size, and up to +<span class=\"uncertain\">30?</span> <span class=\"stat\">Stability</span>.\n\n↑Buff Effect is increased up to -<span class=\"uncertain\">30%?</span> <span class=\"stat\">Accuracy</span> Cone Size, and +<span class=\"uncertain\">?</span> <span class=\"stat\">Stability</span>."
+  },
+  {
+    "Name": "Under-Over",
+    "Description": "Passively increases damage against shielded enemies.\nDoes not increase the damage of <span class=\"damage-type\">Explosive Damage</span> Perks.\n\n50% ↑55% Increased Damage against <span class=\"enemy-rank\">Combatant</span> <span class=\"shield\">Elemental Shields</span> and <span class=\"champion\">Barrier Champion</span> Shields.\n125% ↑140% Increased Damage against <span class=\"enemy-rank\">Combatant</span> Overshields.\n\n20% ↑<span class=\"uncertain\">?%</span> Increased Damage against <span class=\"enemy-rank\">Guardian</span> Overshields.\n20% ↑<span class=\"uncertain\">?%</span> Increased <span class=\"damage-type\">Bodyshot Damage</span> against <span class=\"enemy-rank\">Guardians</span> with <span class=\"strand\">Woven Mail</span>.\n\n↑Further increased damage to Shields and Overshields."
+  },
+  {
+    "Name": "Unrelenting",
+    "Description": "<span class=\"trigger\">Upon reaching</span> 100% Counter Progress through Weapon Kills within <span class=\"duration\">5 seconds</span> of each:\n<span class=\"enemy-rank\">Rank-And-File</span> = 34% | <span class=\"enemy-rank\">Elites</span>/<span class=\"enemy-rank\">Minibosses</span>/<span class=\"enemy-rank\">Bosses</span> = 100% | <span class=\"enemy-rank\">Guardians</span> = 67%.\n\nBegins Health Regeneration and restores 65 ↑70 HP.\n\n↑Restores an additional <span class=\"stat-positive\">+5</span> HP."
+  },
+  {
+    "Name": "Unstoppable Force",
+    "Description": "<span class=\"trigger\">Upon blocking</span> damage with <span class=\"weapon-type\">Glaive</span> Shield:\n20% increased projectile damage for <span class=\"duration\">4 seconds</span>, or until no longer blocking.\nBlocking additional damage refreshes the buff duration.\n\n↑Buff Duration is increased to <span class=\"duration\">5 seconds</span>."
+  },
+  {
+    "Name": "Valiant Charge",
+    "Description": "Upon guarding against a hit...or receiving healing from an ally while guarding<span class=\"uncertain\">?</span>:\n80% Increased Lunge Distance for the next swing within <span class=\"duration\">1 second</span>.\nGuarding against additional hits refreshes the buff duration.\n\n↑Buff Duration is increased to <span class=\"uncertain\">?</span> seconds."
+  },
+  {
+    "Name": "Voltshot",
+    "Description": "<span class=\"trigger\">Upon finishing a reload</span> within <span class=\"duration\">5.3 seconds</span> of a <span class=\"stat\">Weapon Kill</span>:\nThe next Weapon Hit within <span class=\"duration\">7 seconds</span> inflicts jolt. \n<span class=\"stat\">Reload</span> timer and buff both persist through stow. <span class=\"arc\">Jolt</span> is not counted as <span class=\"stat\">Weapon Damage</span>.\n\n↑Buff Duration is increased to <span class=\"duration\">8 seconds</span>."
+  },
+  {
+    "Name": "Vorpal Weapon",
+    "Description": "Passively increases damage dealt towards <span class=\"enemy-rank\">Miniboss</span>, <span class=\"champion\">Champion</span>, <span class=\"enemy-rank\">Boss</span>, and <span class=\"enemy-rank\">Vehicle</span> <span class=\"enemy-rank\">Combatants</span>, as well as <span class=\"enemy-rank\">Guardians</span> in their <span class=\"ability\">Super Ability</span>.\n\nDamage Increases:\n<span class=\"weapon-type\">Primary Weapons</span>: 20% | 60%\n<span class=\"weapon-type\">Special Weapons</span>: 15% | 20%\n<span class=\"weapon-type\">Power Weapons</span>: 10% | 20%\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span> and <span class=\"stat-positive\">+5</span> <span class=\"stat\">Guard Resistance</span> (<span class=\"weapon-type\">Swords</span>)."
+  },
+  {
+    "Name": "Well-Rounded",
+    "Description": "<span class=\"ability\">Grenade Ability</span> Usage and <span class=\"ability\">Powered Melee</span> Hits grants a stack of Well-Rounded for <span class=\"duration\">15 seconds</span>, <span class=\"stack\">up to a maximum of 2 stacks</span>. <span class=\"ability\">Super Ability</span> Cast grants two stacks.\nAdditional <span class=\"ability\">Grenade Ability</span> Usage, <span class=\"ability\">Powered Melee</span> Hits, or <span class=\"ability\">Super Ability</span> Casts refresh the buff duration.\nBuff persists through stow.\n\nWell-Rounded:\n<span class=\"stack\">x1</span> = <span class=\"stat-positive\">+10</span> ↑+<span class=\"uncertain\">12?</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+10</span> ↑+<span class=\"uncertain\">12?</span> <span class=\"stat\">Stability</span>, and <span class=\"stat-positive\">+10</span> ↑+<span class=\"uncertain\">12?</span> <span class=\"stat\">Handling</span>.\n<span class=\"stack\">x2</span> =  <span class=\"stat-positive\">+20</span> ↑+<span class=\"uncertain\">24?</span> <span class=\"stat\">Range</span>, <span class=\"stat-positive\">+20</span> ↑+<span class=\"uncertain\">24?</span> <span class=\"stat\">Stability</span>, and <span class=\"stat-positive\">+20</span> ↑+<span class=\"uncertain\">24?</span> <span class=\"stat\">Handling</span>.\n\n↑Increases Stat Bonuses to +<span class=\"uncertain\">12?</span> <span class=\"stack\">per stack</span>."
+  },
+  {
+    "Name": "Wellspring",
+    "Description": "On <span class=\"stat\">Weapon Kill</span>:\nGrants 8% ↑9% Ability Energy split equally amongst all uncharged abilities.\nOn Abilities with multiple charges, once the ability has at least one full charge it will count as charged and will only receive a third of the regular Ability Energy per kill.\n\n↑Grants 9% Ability Energy split equally amongst all uncharged abilities."
+  },
+  {
+    "Name": "Whirlwind Blade",
+    "Description": "On Powered <span class=\"weapon-type\">Sword</span> Hit:\n3% | 6% | 9% | 12% | 15% | 18% | 21% | 24% | 27% | 30% Increased damage for 3.5 ↑<span class=\"duration\">4 seconds</span>.\nAdditional Powered <span class=\"weapon-type\">Sword</span> Hits refresh the buff duration.\nBlocking or stowing removes all stacks.\n\n↑Buff duration is increased to <span class=\"duration\">4 seconds</span>."
+  },
+  {
+    "Name": "Withering Gaze",
+    "Description": "After 1.5 ↑<span class=\"duration\">1.4 seconds</span> of <span class=\"player-state\">ADS</span> without firing:\nThe next direct damage shot fired while <span class=\"player-state\">ADS</span> inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to <span class=\"duration\">1.4 seconds</span>."
+  },
+  {
+    "Name": "Zen Moment",
+    "Description": "<span class=\"trigger\">On Hit</span>:\n Grants <span class=\"uncertain\">?%</span> <span class=\"stat\">Flinch Resist</span>, -<span class=\"uncertain\">15?</span>% Visual Weapon Shake and -<span class=\"uncertain\">15?</span>% Reticle Bounce <span class=\"stack\">per stack</span> for <span class=\"duration\">1 second</span>, up to <span class=\"uncertain\">5?</span> stacks. \nHas no effect on actual recoil/camera movement, despite the in-game perk description.\n\n<span class=\"weapon-type\">Pulse Rifles</span> and <span class=\"weapon-type\">Sidearms</span> grant <span class=\"multiplier\">1.5x</span> as many stacks per hit, only needing <span class=\"uncertain\">?</span> hits to be at maximum effect.\n <span class=\"weapon-type\">Hand Cannons</span> and <span class=\"weapon-type\">Scout Rifles</span> grant <span class=\"multiplier\">2x</span> as many stacks per hit, only needing <span class=\"uncertain\">?</span> hits to be at maximum effect.\n\n↑Passively grants <span class=\"stat-positive\">+5</span> <span class=\"stat\">Stability</span>."
+  }
+]

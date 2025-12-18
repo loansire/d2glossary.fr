@@ -1,0 +1,118 @@
+[
+  {
+    "Name": "<span class=\"frame\">Adaptive Burst</span>",
+    "Description": "Fires 3-round bursts."
+  },
+  {
+    "Name": "<span class=\"frame\">Adaptive Frame</span>",
+    "Description": "No intrinsic bonuses whatsoever."
+  },
+  {
+    "Name": "<span class=\"frame\">Adaptive Frame</span>\n(<span class=\"weapon-type\">Rocket Launchers</span>)",
+    "Description": "Deals 10% increased damage over High-<span class=\"stat\">Impact</span> <span class=\"weapon-type\">Rocket Launchers</span>.\n1 <span class=\"stat\">Impact</span> : 3.5 <span class=\"damage-type\">Explosive Damage</span> Ratio. 50.5 RPM"
+  },
+  {
+    "Name": "Aggressive Burst",
+    "Description": "Fires 4-round bursts."
+  },
+  {
+    "Name": "<span class=\"frame\">Aggressive Frame</span>",
+    "Description": "No intrinsic bonuses whatsoever."
+  },
+  {
+    "Name": "<span class=\"frame\">Aggressive Frame</span>\n(<span class=\"weapon-type\">Fusion Rifles</span>)",
+    "Description": "Fires a 3-round burst of 4 pellets each in an increasingly wider spread.\nDeals 113 [28.8] damage per pellet x 4 = 452 [115.2] per burst x 3 = 1356 [345.6] damage per ammo spent."
+  },
+  {
+    "Name": "<span class=\"frame\">Aggressive Frame</span>\n(<span class=\"weapon-type\">Rocket Launchers</span>)",
+    "Description": "Deals 10% increased damage over High-<span class=\"stat\">Impact</span> <span class=\"weapon-type\">Rocket Launchers</span>.\n1 <span class=\"stat\">Impact</span> : 3.5 <span class=\"damage-type\">Explosive Damage</span> Ratio. 54.5 RPM"
+  },
+  {
+    "Name": "<span class=\"frame\">Aggressive Frame</span>\n(<span class=\"weapon-type\">Scout Rifles</span>)",
+    "Description": "Reloads two ammo at a time."
+  },
+  {
+    "Name": "<span class=\"frame\">Aggressive Frame</span>\n(<span class=\"weapon-type\">Shotguns</span>)",
+    "Description": "<span class=\"trigger\">Upon scoring</span> a Kill:\nGrants <span class=\"multiplier\">0.75x</span> Fire <span class=\"stat\">Recovery</span> Delay for <span class=\"duration\">4 seconds</span>."
+  },
+  {
+    "Name": "<span class=\"frame\">Area Denial Frame</span>",
+    "Description": "Shoots a burst of 5 projectiles at the cost of 1 Ammo.\n\nProjectiles create a lingering damage field after <span class=\"duration\">0.5 seconds</span> of impacting.\n\nDamaging Field deals damage every <span class=\"duration\">0.25 seconds</span> for <span class=\"duration\">5.65 seconds</span>, dealing 52.5 <span class=\"uncertain\">[?]</span> damage up to 22 times per field.\nEnemies can only receive damage from a single field at a time."
+  },
+  {
+    "Name": "Double Fire",
+    "Description": "Fires 2 rounds at a slight offset from the reticle at the cost of 1 Ammo. "
+  },
+  {
+    "Name": "<span class=\"frame\">Heavy Burst</span>",
+    "Description": "Fires 2-round burst.\nGrants <span class=\"uncertain\">10?</span>% <span class=\"stat\">Flinch Resist</span> when <span class=\"player-state\">ADS</span>."
+  },
+  {
+    "Name": "<span class=\"frame\">Heavy Burst</span>\n(<span class=\"weapon-type\">Hand Cannon</span>)",
+    "Description": "Fires a 2-round burst that deals 9.5% Increased <span class=\"damage-type\">Weakspot</span> Damage. \nNot to be confused with <span class=\"stat\"><span class=\"damage-type\">Precision Damage</span></span>, as they are independent of each other, such as shooting a Divinity Cage, or scoring a hit on a weakspot while not being within the Precision Angle Cone.\nGrants 10% <span class=\"stat\">Flinch Resist</span> when <span class=\"player-state\">ADS</span>."
+  },
+  {
+    "Name": "High-<span class=\"stat\">Impact</span> Frame",
+    "Description": "While moving at or below 2.8 metres per second and <span class=\"player-state\">ADS</span>:\n<span class=\"stat-negative\">-20%</span> <span class=\"stat\">Accuracy</span> Cone Size and <span class=\"stat-negative\">-17%</span> <span class=\"stat\">Accuracy</span> Cone Growth.\nCan also work while airborne if the movement speed criteria is met."
+  },
+  {
+    "Name": "High-<span class=\"stat\">Impact</span> Frame\n(<span class=\"weapon-type\">Rocket Launchers</span>)",
+    "Description": "Baseline damage for <span class=\"weapon-type\">Rocket Launchers</span>.\n1 <span class=\"stat\">Impact</span> : 8.7 <span class=\"damage-type\">Explosive Damage</span> Ratio. 46.5 RPM"
+  },
+  {
+    "Name": "Legacy PR<span class=\"stat-negative\">-55</span> Frame",
+    "Description": "While hipfiring:\n+<span class=\"uncertain\">30?</span> <span class=\"stat\">Stability</span>, +<span class=\"uncertain\">1?</span> Precision Angle Threshold, -<span class=\"uncertain\">70?</span>% <span class=\"stat\">Accuracy</span> Cone Size, and -<span class=\"uncertain\">?%</span> <span class=\"stat\">Accuracy</span> Cone Growth."
+  },
+  {
+    "Name": "<span class=\"frame\">Lightweight Frame</span>",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Mobility</span>, and 6.25% Forward Movement Speed Bonus."
+  },
+  {
+    "Name": "Micro-Missile Frame",
+    "Description": "Passively grants <span class=\"stat-positive\">+20</span> <span class=\"stat\">Mobility</span>, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage."
+  },
+  {
+    "Name": "Micro-Missile Frame",
+    "Description": "Uses <span class=\"ammo\">Special Ammo</span>. \nShoots micro-missiles that track locked-on enemies."
+  },
+  {
+    "Name": "MIDA Synergy",
+    "Description": "SMG: Behaves like a Lightweight SMG | <span class=\"weapon-type\">Shotgun</span>: Behaves like a Precision <span class=\"weapon-type\">Shotgun</span>\nForward Movement Speed Bonus is increased to 10% while MIDA Multi-Tool is equipped."
+  },
+  {
+    "Name": "<span class=\"frame\">Precision Frame</span>",
+    "Description": "<span class=\"stat-negative\">-20%</span> Recoil Yaw (Horizontal Recoil)."
+  },
+  {
+    "Name": "<span class=\"frame\">Precision Frame</span>\n(<span class=\"weapon-type\">Rocket Launchers</span>)",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-<span class=\"stat\">Impact</span> <span class=\"weapon-type\">Rocket Launchers</span>.\n1 <span class=\"stat\">Impact</span> : 3.5 <span class=\"damage-type\">Explosive Damage</span> Ratio. 42.5 RPM"
+  },
+  {
+    "Name": "<span class=\"frame\">Precision Frame</span> \n(<span class=\"weapon-type\">Fusion Rifle</span>)",
+    "Description": "<span class=\"stat-negative\">-10%</span> Recoil Yaw (Horizontal Recoil)."
+  },
+  {
+    "Name": "<span class=\"frame\">Precision Frame</span> \n(<span class=\"weapon-type\">Hand Cannon</span>)",
+    "Description": "<span class=\"stat-positive\">+25</span> <span class=\"stat\">Airborne Effectiveness</span>, 10% Decreased <span class=\"player-state\">ADS</span> Movement Speed Penalty, and <span class=\"stat-negative\">-20%</span> Recoil Yaw (Horizontal Recoil)."
+  },
+  {
+    "Name": "<span class=\"frame\">Rapid-Fire Frame</span>",
+    "Description": "Upon starting a reload while magazine is empty:\n<span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier."
+  },
+  {
+    "Name": "<span class=\"frame\">Rapid-Fire Frame</span>\n(<span class=\"weapon-type\">Shotguns</span>)",
+    "Description": "Passively grants <span class=\"multiplier\">0.8x</span> <span class=\"stat\">Reload</span> Duration Multiplier."
+  },
+  {
+    "Name": "Spread Shot",
+    "Description": "Fires a spread of 12 pellets, each dealing 30 <span class=\"uncertain\">[?]</span> damage with a <span class=\"multiplier\">1.2x</span> Precision Multiplier.\nPellets disappear after 25 meters, and deal a minimum of <span class=\"multiplier\">0.33x</span> damage at Maximum Damage Falloff."
+  },
+  {
+    "Name": "<span class=\"frame\">Support Frame</span>",
+    "Description": "Shoots slow, tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers.\n Has 50% Increased <span class=\"stat\">Aim Assist</span> Falloff Distance at 0 <span class=\"stat\">Range</span>, down to 25% at 100 <span class=\"stat\">Range</span>, compared to a regular <span class=\"weapon-type\">Auto Rifle</span>.\n\nDealing ANY (really, ANY!) damage generates Weapon Energy, at a rate of 1% Energy for every 4 [3.6] damage dealt, reaching 100% Charge after dealing 400 [360] damage.\nDealing damage with the Support <span class=\"weapon-type\">Auto Rifle</span> doubles the Weapon Energy gains, generating 1% Energy for every 2 [1.8] damage, requiring 200 [180] damage to fully charge.\n\nLooking near an ally within range widens the reticle. <span class=\"player-state\">Hipfiring</span> while an ally is in healing range will shoot healing projectiles that have much stronger tracking.\nConsumes 2% Weapon Energy per healing shot fired towards an ally, restoring 13.3 HP to them on impact.\nTargeting <span class=\"stat\">Range</span> = 28 + (0.1 x <span class=\"stat\">Range</span> Stat) meters, up to 38 Meters at 100 <span class=\"stat\">Range</span>.\nIf multiple allies are targeted, then the healing shots will alternate between allies.\n\n<span class=\"trigger\">Upon scoring</span> 5 healing hits within <span class=\"duration\">1 second</span> of each on allies:\nThe next healing hits within <span class=\"duration\">1 seconds</span> of each on allies bestows them with an Element-Matching Effect, and applies <span class=\"frame\">Support Frame</span> Boost to the user and the targeted ally.\n<span class=\"frame\">Support Frame</span> Boost grants 10% increased weapon damage for <span class=\"duration\">6 seconds</span>. Stacks with everything.\n<span class=\"element\">Strand</span> Support Frames cause the targeted ally to release 4 <span class=\"strand\">Unraveling</span> Projectiles.\n<span class=\"element\">Solar</span> Support Frames bestow <span class=\"solar\">Restoration</span> <span class=\"stack\">x1</span> for 4+<span class=\"duration\">2 seconds</span> to the targeted ally.\n<span class=\"element\">Void</span> Support Frames bestow 15 <span class=\"void\"><span class=\"element\">Void</span> <span class=\"player-state\">Overshield</span></span> for 10+<span class=\"duration\">5 seconds</span> to the targeted ally. \n\nOnly triggers On-Heal Effects upon applying Rapid Healing. Shots that restore missing health count for \"on-hit\" related interactions.\nIncurs a <span class=\"duration\">1.5 second</span> cooldown upon applying <span class=\"frame\">Support Frame</span> Boost before additional healing hits are counted on the same ally."
+  },
+  {
+    "Name": "Together Forever",
+    "Description": "Weapon Kills refill Sturm and grant it an Overcharged Bullet with increased damage, up to 25 Sturm Overcharge stacks.\nScoring an additional <span class=\"stat\">Weapon Kill</span> within <span class=\"duration\">3 seconds</span> of the first grants 3 Sturm Overcharge stacks.\nFurther Weapon Kills within <span class=\"uncertain\">?</span> seconds of the last grant 5 Sturm Overcharge stacks."
+  }
+]
