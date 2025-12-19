@@ -17,15 +17,12 @@ def main():
         print(f"📥 Récupération de {name}...")
 
         try:
-            # Fetch
             records = fetch_sheet(name, gid)
             all_raw[name] = records
 
-            # Stylize
             styled_records = stylize_records(records)
             all_styled[name] = styled_records
 
-            # Export individuel
             save_json(records, f"{OUTPUT_DIR}/{name}.json")
             save_json(styled_records, f"{OUTPUT_DIR}/{name}_styled.json")
 
@@ -34,7 +31,6 @@ def main():
         except Exception as e:
             print(f"   ✗ Erreur: {e}")
 
-    # Exports globaux
     save_json(all_raw, f"{OUTPUT_DIR}/all_data.json")
     save_json(all_styled, f"{OUTPUT_DIR}/all_data_styled.json")
     save_css(f"{OUTPUT_DIR}/styles.css")

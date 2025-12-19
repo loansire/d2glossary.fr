@@ -1,146 +1,959 @@
 [
   {
     "Name": "Abundant Ammo",
-    "Description": "<span class=\"stat-positive\">+10</span> ↑<span class=\"stat-positive\">+12</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span>."
+    "Description": "+10 ↑+12 Ammo Generation.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 "
+            },
+            {
+              "text": "↑+12",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Ammo Generation."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Aerodynamics",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Blast Radius</span> and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Velocity</span>."
+    "Description": "+6 ↑+7 Blast Radius and +6 ↑+7 Velocity.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Blast Radius and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Velocity."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Anti-Flinch",
-    "Description": "15% ↑<span class=\"uncertain\">20%?</span> <span class=\"stat\">Flinch Resist</span>."
+    "Description": "15% ↑20%? Flinch Resist.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "15% "
+            },
+            {
+              "text": "↑20%?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Flinch Resist."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Backup Mag",
-    "Description": "<span class=\"stat-positive\">+30</span> ↑<span class=\"stat-positive\">+40</span> <span class=\"stat\">Magazine</span> Stat.\nComplicated, think of it as an equivalent to Extended Mag ↑+Tactical Mag."
+    "Description": "+30 ↑+40 Magazine Stat.\nComplicated, think of it as an equivalent to Extended Mag ↑+Tactical Mag.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+30 "
+            },
+            {
+              "text": "↑+40",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Magazine Stat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Complicated, think of it as an equivalent to Extended Mag "
+            },
+            {
+              "text": "↑+Tactical",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Mag."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Ballistics",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Range</span> and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Stability</span>."
+    "Description": "+6 ↑+7 Range and +6 ↑+7 Stability.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Range and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Stability."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Bandolier",
-    "Description": "<span class=\"stat-positive\">+5</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\"><span class=\"ammo\">Ammo Generation</span></span> and <span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+17</span> <span class=\"stat\">Magazine</span> Stat."
+    "Description": "+5 ↑+7 Ammo Generation and +15 ↑+17 Magazine Stat.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+5 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Ammo Generation and +15 "
+            },
+            {
+              "text": "↑+17",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Magazine Stat."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Counterbalance Stock",
-    "Description": "<span class=\"stat-positive\">+15</span> ↑<span class=\"stat-positive\">+35</span> <span class=\"stat\">Recoil Direction</span>."
+    "Description": "+15 ↑+35 Recoil Direction.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+15 "
+            },
+            {
+              "text": "↑+35",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Recoil Direction."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "CQC Optics: High",
-    "Description": "<span class=\"stat-positive\">+1</span> <span class=\"stat\">Zoom</span>."
+    "Description": "+1 Zoom.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+1 Zoom."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "CQC Optics: Low",
-    "Description": "<span class=\"stat-negative\">-1</span> <span class=\"stat\">Zoom</span>."
+    "Description": "-1 Zoom.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "-1 Zoom."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Edge",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Charge Rate</span> and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Guard Resistance</span>."
+    "Description": "+6 ↑+7 Charge Rate and +6 ↑+7 Guard Resistance.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Charge Rate and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Guard Resistance."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Accuracy</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Accuracy</span>."
+    "Name": "Enhanced Accuracy",
+    "Description": "+10 Accuracy.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Accuracy."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Blast Radius</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Blast Radius</span>."
+    "Name": "Enhanced Blast Radius",
+    "Description": "+10 Blast Radius.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Blast Radius."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Enhanced Charge Time",
-    "Description": "<span class=\"stat-negative\">-40</span>ms Charge Time.\nDoes not reduce damage. Does not display in the stats."
+    "Description": "-40ms Charge Time.\nDoes not reduce damage. Does not display in the stats.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "-40ms Charge Time."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not reduce damage. Does not display in the stats."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Draw Time</span>",
-    "Description": "<span class=\"stat-negative\">-40</span>ms <span class=\"stat\">Draw Time</span>."
+    "Name": "Enhanced Draw Time",
+    "Description": "-40ms Draw Time.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "-40ms Draw Time."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Handling</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Handling</span>."
+    "Name": "Enhanced Handling",
+    "Description": "+10 Handling.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Handling."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Impact</span>",
-    "Description": "<span class=\"stat-positive\">+5</span> <span class=\"stat\">Impact</span>."
+    "Name": "Enhanced Impact",
+    "Description": "+5 Impact.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+5 Impact."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Enhanced Persistence",
-    "Description": "<span class=\"stat-positive\">+10</span> Persistence."
+    "Description": "+10 Persistence.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Persistence."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Enhanced Projectile Speed",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Velocity</span>."
+    "Description": "+10 Velocity.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Velocity."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Range</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Range</span>."
+    "Name": "Enhanced Range",
+    "Description": "+10 Range.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Range."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Reload</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Reload</span>."
+    "Name": "Enhanced Reload",
+    "Description": "+10 Reload.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Reload."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Enhanced Shield Duration",
-    "Description": "<span class=\"stat-positive\">+10</span> Shield Duration."
+    "Description": "+10 Shield Duration.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Shield Duration."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "Name": "Enhanced <span class=\"stat\">Stability</span>",
-    "Description": "<span class=\"stat-positive\">+10</span> <span class=\"stat\">Stability</span>."
+    "Name": "Enhanced Stability",
+    "Description": "+10 Stability.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+10 Stability."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Flight",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> Persistence and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Velocity</span>."
+    "Description": "+6 ↑+7 Persistence and +6 ↑+7 Velocity.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Persistence and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Velocity."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Freehand Grip",
-    "Description": "<span class=\"stat-negative\">-30%</span> ↑<span class=\"stat-negative\">-30%</span> <span class=\"player-state\">Hipfire</span> <span class=\"stat\">Accuracy</span> Cone Size.\n<span class=\"multiplier\">0.95x</span> ↑<span class=\"uncertain\">0.?</span>x Ready Animation Duration Multiplier."
+    "Description": "-30% ↑-30% Hipfire Accuracy Cone Size.\n0.95x ↑0.?x Ready Animation Duration Multiplier.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "-30% "
+            },
+            {
+              "text": "↑-30%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Hipfire Accuracy Cone Size."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.95x "
+            },
+            {
+              "text": "↑0.?x",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Ready Animation Duration Multiplier."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Icarus Grip",
-    "Description": "<span class=\"stat-positive\">+15</span> <span class=\"stat\">Airborne Effectiveness</span> ↑and <span class=\"stat-positive\">+5</span> <span class=\"stat\">Handling</span>."
+    "Description": "+15 Airborne Effectiveness ↑and +5 Handling.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+15 Airborne Effectiveness "
+            },
+            {
+              "text": "↑and +5 Handling.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Marksman Optics: High",
-    "Description": "<span class=\"stat-positive\">+2</span> <span class=\"stat\">Zoom</span>."
+    "Description": "+2 Zoom.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+2 Zoom."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Marksman Optics: Low",
-    "Description": "<span class=\"stat-negative\">-2</span> <span class=\"stat\">Zoom</span>."
+    "Description": "-2 Zoom.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "-2 Zoom."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Quick Access Sling",
-    "Description": "<span class=\"multiplier\">0.9x</span> ↑<span class=\"uncertain\">0.?</span>x Ready/Stow Animation Duration Multiplier."
+    "Description": "0.9x ↑0.?x Ready/Stow Animation Duration Multiplier.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "0.9x "
+            },
+            {
+              "text": "↑0.?x",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Ready/Stow Animation Duration Multiplier."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Radar Booster",
-    "Description": "Maximum Radar Distance increased by 8 metres.\nIncreases the radar range from 48 meters to 56 meters."
+    "Description": "Maximum Radar Distance increased by 8 metres.\nIncreases the radar range from 48 meters to 56 meters.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Maximum Radar Distance increased by 8 metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Increases the radar range from 48 meters to 56 meters."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Radar Tuner",
-    "Description": "Radar returns instantly after no longer <span class=\"player-state\">ADS</span>.\nRadar normally returns after <span class=\"duration\">1.5 seconds</span>.\n↑Adds the benefits of Radar Booster."
+    "Description": "Radar returns instantly after no longer ADS.\nRadar normally returns after 1.5 seconds.\n↑Adds the benefits of Radar Booster.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Radar returns instantly after no longer ADS."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Radar normally returns after 1.5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Adds the benefits of Radar Booster.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Sprint Grip",
-    "Description": "<span class=\"trigger\">After sprinting</span> for <span class=\"duration\">1.5 seconds</span>:\n<span class=\"stat-positive\">+35</span> ↑+<span class=\"uncertain\">?</span> <span class=\"player-state\">ADS</span> and Ready Speed <span class=\"stat\">Handling</span> until no longer sprinting."
+    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After sprinting for 1.5 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+35 "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ADS and Ready Speed Handling until no longer sprinting."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Stunloader",
-    "Description": "Upon stunning a <span class=\"champion\">Champion</span>:\nRefills 50% ↑60% of <span class=\"stat\">Magazine</span>."
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon stunning a Champion:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 50% "
+            },
+            {
+              "text": "↑60%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " of Magazine."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Synergy",
-    "Description": "Scoring 12 ↑8 [6 ↑<span class=\"uncertain\">4?</span>] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n <span class=\"element\">Kinetic</span> Weapons instead spawn an <span class=\"ability\">Orb of Power</span> that grants 7.15% <span class=\"ability\">Super</span> Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\n<span class=\"arc\">Ionic Traces</span> = <span class=\"duration\">0 seconds</span>\n<span class=\"solar\">Firesprites</span>, <span class=\"void\"><span class=\"element\">Void</span> Breaches</span>, and <span class=\"stasis\"><span class=\"element\">Stasis</span> Shards</span> = <span class=\"duration\">5 seconds</span>.\n<span class=\"strand\">Tangles</span> = <span class=\"duration\">12 seconds</span>\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation."
+    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 12 "
+            },
+            {
+              "text": "↑8",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " [6 "
+            },
+            {
+              "text": "↑4?]",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kill counter persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Synergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Synergy has its own cooldown depending on the spawned Pickup:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " = 0 seconds"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Firesprites",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Breaches, and "
+            },
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Shards = 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " = 12 seconds"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills during Synergy's cooldown do not contribute to the activation."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Tactical",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Handling</span> and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Reload Speed</span>."
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Handling and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Reload Speed."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Targeting Adjuster",
-    "Description": "<span class=\"stat-positive\">+5</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Aim Assist</span>."
+    "Description": "+5 ↑+7 Aim Assist.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+5 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Aim Assist."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "Name": "Tension",
-    "Description": "<span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Draw Time</span> and <span class=\"stat-positive\">+6</span> ↑<span class=\"stat-positive\">+7</span> <span class=\"stat\">Accuracy</span>."
+    "Description": "+6 ↑+7 Draw Time and +6 ↑+7 Accuracy.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Draw Time and +6 "
+            },
+            {
+              "text": "↑+7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Accuracy."
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

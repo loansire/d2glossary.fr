@@ -7,7 +7,7 @@ def indent_json(input_file_path, output_file_path):
 
     # Écrire le fichier JSON avec une indentation de 4 espaces
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
-        json.dump(data, output_file, indent=4, ensure_ascii=False)
+        json.dump(data, output_file, ensure_ascii=False)
 
 # Exemple d'utilisation
-indent_json(r'..\data\artefact_definitions_enriched.json', r'..\data\artefact_definitions_indented.json')
+indent_json(r'..\data\clarity.json', r'ddcVacuum\data\clarity.json')

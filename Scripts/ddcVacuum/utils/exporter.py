@@ -1,5 +1,4 @@
 import json
-import os
 from utils.styles import CSS_STYLES
 
 
@@ -13,6 +12,38 @@ def save_css(filepath: str) -> None:
     """Sauvegarde le CSS"""
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(CSS_STYLES)
+
+
+def clarity_to_html(clarity_content: list[dict]) -> str:
+    """Convertit le format Clarity linesContent en HTML"""
+    if not clarity_content:
+        return ""
+
+    html_parts = []
+
+    for item in clarity_content:
+        if "classNames" in item and "spacer" in item.get("classNames", []):
+            html_parts.append('<div class="spacer"></div>')
+            continue
+
+        if "linesContent" in item:
+            line_html = ""
+            for segment in item["linesContent"]:
+                text = segment.get("text", "")
+                classes = segment.get("classNames", [])
+                link = segment.get("link")
+
+                if link:
+                    line_html += f'<a href="{link}" class="link" target="_blank">{text}</a>'
+                elif classes:
+                    class_str = " ".join(classes)
+                    line_html += f'<span class="{class_str}">{text}</span>'
+                else:
+                    line_html += text
+
+            html_parts.append(f'<div class="line">{line_html}</div>')
+
+    return "\n".join(html_parts)
 
 
 def generate_html(data: dict[str, list[dict]], filepath: str) -> None:
@@ -65,8 +96,11 @@ def generate_html(data: dict[str, list[dict]], filepath: str) -> None:
             color: #fff;
             margin-bottom: 8px;
         }}
-        .perk-description {{
-            white-space: pre-wrap;
+        .perk-description .line {{
+            margin: 2px 0;
+        }}
+        .perk-description .spacer {{
+            height: 8px;
         }}
         .count {{
             color: #868e96;
@@ -81,24 +115,27 @@ def generate_html(data: dict[str, list[dict]], filepath: str) -> None:
     <nav class="nav">
 """
 
-    # Navigation
     for sheet_name in data.keys():
         html += f'        <a href="#{sheet_name}">{sheet_name}</a>\n'
 
     html += "    </nav>\n"
 
-    # Contenu
     for sheet_name, records in data.items():
         html += f'    <h2 id="{sheet_name}">{sheet_name}<span class="count">({len(records)} items)</span></h2>\n'
 
         for record in records:
             name = record.get("Name", "")
-            description = record.get("Description", "")
 
-            if name or description:
+            # Utilise le format Clarity
+            if "descriptions" in record:
+                description_html = clarity_to_html(record["descriptions"].get("en", []))
+            else:
+                description_html = record.get("Description", "")
+
+            if name or description_html:
                 html += f"""    <div class="perk">
         <div class="perk-name">{name if name else "—"}</div>
-        <div class="perk-description">{description if description else "—"}</div>
+        <div class="perk-description">{description_html if description_html else "—"}</div>
     </div>
 """
 

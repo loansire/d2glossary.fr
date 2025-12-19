@@ -1,230 +1,421 @@
+"""
+Styles configuration for DDCVacuum - Clarity Format Compatible
+Produces JSON output matching D2Clarity's linesContent structure
+"""
 import re
+from typing import Any
 
-STYLES_CONFIG = {
-    # === PATTERNS ↑ (priorité haute) ===
-    "enhanced_line": {
-        "pattern": r'^(â†\'[^\n]+)$',
-        "class": "enhanced-line",
-        "flags": re.MULTILINE
-    },
-    "upgrade_value": {
-        "pattern": r'([\+\-]?\d+\.?\d*[%x]?)\s*(â†\')\s*([\+\-]?\d+\.?\d*[%x]?\??)',
-        "replacement": r'<span class="base-value">\1</span><span class="upgrade-arrow">\2</span><span class="enhanced-value">\3</span>',
-    },
-    "enhanced_addition": {
-        "pattern": r'(â†\')(and |or )([^,\.\n]+)',
-        "replacement": r'<span class="upgrade-arrow">\1</span><span class="enhanced-addition">\2\3</span>',
-    },
-    "enhanced_text": {
-        "pattern": r'(â†\')([^â†\'\n]+?)(?=\.|,|\n|â†\'|$)',
-        "replacement": r'<span class="upgrade-arrow">\1</span><span class="enhanced-text">\2</span>',
-    },
+# =============================================================================
+# CLARITY CLASS NAMES - Match exactly what Clarity uses
+# =============================================================================
 
-    # === VALEURS ===
-    "uncertain": {
-        "pattern": r'(\d+\.?\d*[%x]?\?|\?\d*%?|\[\?\]|\?%)',
-        "class": "uncertain"
-    },
-    "stat_positive": {
-        "pattern": r'(\+\d+\.?\d*%?)',
-        "class": "stat-positive"
-    },
-    "stat_negative": {
-        "pattern": r'(-\d+\.?\d*%?)',
-        "class": "stat-negative"
-    },
-    "duration": {
-        "pattern": r'(\d+\.?\d*\s*seconds?)',
-        "class": "duration"
-    },
-    "multiplier": {
-        "pattern": r'(\d+\.?\d*x)\b',
-        "class": "multiplier"
-    },
+CLARITY_CLASSES = {
+    # Elements / Subclasses
+    "solar": "solar",
+    "arc": "arc",
+    "void": "void",
+    "stasis": "stasis",
+    "strand": "strand",
 
-    # === STATS ===
-    "stats": {
-        "pattern": r'\b(Range|Stability|Handling|Reload Speed|Reload|Aim Assist|Blast Radius|Velocity|Magazine|Charge Rate|Draw Time|Guard Resistance|Guard Efficiency|Guard Endurance|Airborne Effectiveness|Recoil Direction|Zoom|Flinch Resist|Accuracy|Impact|Ammo Generation|Mobility|Recovery|Resilience|Precision Damage|Precision Hit|Precision Kill|Weapon Kill|Weapon Damage)\b',
-        "class": "stat"
-    },
+    # Game modes
+    "pve": "pve",
+    "pvp": "pvp",
 
-    # === SUBCLASS VERBS ===
-    "solar": {
-        "pattern": r'\b(Scorch|Scorched|Scorching|Ignition|Ignite|Ignites|Cure|Restoration|Radiant|Firesprite|Firesprites)\b',
-        "class": "solar"
-    },
-    "arc": {
-        "pattern": r'\b(Jolt|Jolted|Jolting|Blind|Blinded|Amplified|Speed Booster|Ionic Trace|Ionic Traces|Bolt Charge)\b',
-        "class": "arc"
-    },
-    "void": {
-        "pattern": r'\b(Suppress|Suppression|Suppressed|Weaken|Weakened|Volatile|Void Overshield|Devour|Invisibility|Invisible|Void Breach|Void Breaches)\b',
-        "class": "void"
-    },
-    "stasis": {
-        "pattern": r'\b(Slow|Slowed|Freeze|Frozen|Shatter|Shattered|Stasis Crystal|Stasis Crystals|Stasis Shard|Stasis Shards|Frost Armor)\b',
-        "class": "stasis"
-    },
-    "strand": {
-        "pattern": r'\b(Sever|Severed|Suspend|Suspended|Unravel|Unraveling|Woven Mail|Tangle|Tangles|Threadling|Threadlings)\b',
-        "class": "strand"
-    },
+    # Special formatting
+    "spacer": "spacer",
+    "link": "link",
+    "title": "title",
 
-    # === ÉLÉMENTS ===
-    "elements": {
-        "pattern": r'\b(Solar|Arc|Void|Stasis|Strand|Kinetic)\b',
-        "class": "element"
-    },
+    # Ammo types
+    "primary": "primary",
+    "special": "special",
+    "heavy": "heavy",
 
-    # === ARMES ===
-    "weapon_types": {
-        "pattern": r'\b(Auto Rifles?|Scout Rifles?|Pulse Rifles?|Hand Cannons?|Sidearms?|Submachine Guns?|Shotguns?|Sniper Rifles?|Fusion Rifles?|Linear Fusion Rifles?|Trace Rifles?|Grenade Launchers?|Rocket Launchers?|Swords?|Glaives?|Bows?|Machine Guns?|Primary Weapons?|Special Weapons?|Power Weapons?|Heavy Weapons?|Energy Weapons?)\b',
-        "class": "weapon-type"
-    },
-    "frames": {
-        "pattern": r'\b(Adaptive Frame|Aggressive Frame|Precision Frame|Rapid-Fire Frame|High-Impact Frame|Lightweight Frame|Heavy Burst|Support Frame|Area Denial Frame|Wave Frame|Adaptive Burst)\b',
-        "class": "frame"
-    },
+    # Champions
+    "barrier": "barrier",
+    "overload": "overload",
+    "unstoppable": "unstoppable",
 
-    # === ENNEMIS ===
-    "champions": {
-        "pattern": r'\b(Champions?|Barrier Champions?|Overload Champions?|Unstoppable Champions?|Barrier Champion\'?s? Shield|Stunning a Champion)\b',
-        "class": "champion"
-    },
-    "enemy_ranks": {
-        "pattern": r'\b(Rank-and-File|Rank-And-File|Elites?|Miniboss|Minibosses|Boss|Bosses|Guardians?|Combatants?|Vehicles?|Constructs?|Turrets?)\b',
-        "class": "enemy-rank"
-    },
+    # Enhanced perks
+    "enhancedArrow": "enhancedArrow",
 
-    # === GAMEPLAY ===
-    "abilities": {
-        "pattern": r'\b(Grenade Ability|Melee Ability|Class Ability|Super Ability|Powered Melee|Finisher|Grenade Kill|Melee Kill|Super|Transcendence|Transcending|Orb of Power|Orbs of Power)\b',
-        "class": "ability"
-    },
-    "triggers": {
-        "pattern": r'\b(On Weapon Kill|On Precision Kill|On Precision Hit|On Hit|On Melee Kill|On Ally Death|On Ally Revival|Upon finishing a reload|Upon readying|Upon sliding|Upon sprinting|Upon picking up|Upon scoring|Upon dealing|Upon breaking|Upon reaching|Upon blocking|While ADS|While Crouched|While Airborne|While Guarding|While within|While no enemies|While no allies|While at Full|While at Critical|After sprinting|After having maintained)\b',
-        "class": "trigger"
-    },
-    "stacks": {
-        "pattern": r'\b(x\d+|up to a maximum of \d+ stacks?|\d+ stacks?|per stack)\b',
-        "class": "stack"
-    },
-    "ammo_pickups": {
-        "pattern": r'\b(Ammo Bricks?|Primary Ammo|Special Ammo|Heavy Ammo|Reserves|Ammo Generation)\b',
-        "class": "ammo"
-    },
-    "player_states": {
-        "pattern": r'\b(Critical Health|Overshield|Shield HP|ADS|Hipfire|Hipfiring|Last Guardian Standing|Full Magazine|Magazine Capacity)\b',
-        "class": "player-state"
-    },
-    "damage_types": {
-        "pattern": r'\b(Explosive Damage|Impact Damage|Precision Damage|Elemental Damage|Kinetic Damage|Bodyshot Damage|Weakspot|Direct Hit|Direct Hits)\b',
-        "class": "damage-type"
-    },
-    "shields": {
-        "pattern": r'\b(Elemental Shields?|Matching Shields?|Non-Matching Shields?|Guardian Shields?|Combatant Shields?)\b',
-        "class": "shield"
-    }
+    # Custom additions (not in original Clarity but useful)
+    "yellow": "yellow",  # For exotic names
 }
 
-# Ordre d'application des styles
+# =============================================================================
+# PATTERN DEFINITIONS - Order matters for application priority
+# =============================================================================
+
+STYLE_PATTERNS = {
+    # === ENHANCED PERK INDICATORS ===
+    "enhanced_arrow_text": {
+        "pattern": r'(↑[a-zA-Z\s](?:(?!\.\s|\.$).)*\.)',
+        "class": "enhancedArrow",
+        "description": "Enhanced perk: arrow + letter/space then until period (included)"
+    },
+    "enhanced_arrow_value": {
+        "pattern": r'(↑(?![a-zA-Z\s])\S+)',
+        "class": "enhancedArrow",
+        "description": "Enhanced perk: arrow + non-letter/space until first space"
+    },
+
+    # === PVE/PVP VALUES ===
+    "pve_value": {
+        "pattern": r'"(\d+\.?\d*%?)"',
+        "class": "pve",
+        "capture_group": 1,
+        "description": "PVE-specific values in quotes"
+    },
+    "pvp_value": {
+        "pattern": r'\[(\d+\.?\d*%?)\]',
+        "class": "pvp",
+        "capture_group": 1,
+        "description": "PVP-specific values in brackets"
+    },
+
+    # === ELEMENTS / SUBCLASSES ===
+    "solar_keywords": {
+        "pattern": r'\b(Solar|Scorch|Scorched|Scorching|Ignition|Ignite|Ignites|Ignited|Cure|Restoration|Radiant|Firesprite|Firesprites|Ember of \w+|Song of Flame|Blade Barrage|Daybreak|Well of Radiance|Golden Gun)\b',
+        "class": "solar",
+        "description": "Solar subclass keywords"
+    },
+    "arc_keywords": {
+        "pattern": r'\b(Arc|Jolt|Jolted|Jolting|Jolt Shot|Blind|Blinded|Amplified|Speed Booster|Ionic Trace|Ionic Traces|Bolt Charge|Arc Staff|Thundercrash|Fist of Havoc|Stormtrance)\b',
+        "class": "arc",
+        "description": "Arc subclass keywords"
+    },
+    "void_keywords": {
+        "pattern": r'\b(Void|Suppress|Suppression|Suppressed|Weaken|Weakened|Weakening|Volatile|Void Overshield|Overshield|Devour|Invisibility|Invisible|Void Breach|Void Breaches|Echo of \w+|Chaos Accelerant|Smoke Bomb)\b',
+        "class": "void",
+        "description": "Void subclass keywords"
+    },
+    "stasis_keywords": {
+        "pattern": r'\b(Stasis|Slow|Slowed|Freeze|Frozen|Shatter|Shattered|Shattering|Stasis Crystal|Stasis Crystals|Stasis Shard|Stasis Shards|Frost Armor|Whisper of \w+|Glacial Guard)\b',
+        "class": "stasis",
+        "description": "Stasis subclass keywords"
+    },
+    "strand_keywords": {
+        "pattern": r'\b(Strand|Sever|Severed|Suspend|Suspended|Unravel|Unraveling|Unraveling Rounds|Woven Mail|Tangle|Tangles|Threadling|Threadlings|Thread of \w+)\b',
+        "class": "strand",
+        "description": "Strand subclass keywords"
+    },
+
+    # === CHAMPIONS ===
+    "barrier_champion": {
+        "pattern": r'\b(Barrier Champions?|Barrier Champion\'?s?)\b',
+        "class": "barrier",
+        "description": "Barrier champion references"
+    },
+    "overload_champion": {
+        "pattern": r'\b(Overload Champions?|Overload Champion\'?s?|Disruption)\b',
+        "class": "overload",
+        "description": "Overload champion references"
+    },
+    "unstoppable_champion": {
+        "pattern": r'\b(Unstoppable Champions?|Unstoppable Champion\'?s?)\b',
+        "class": "unstoppable",
+        "description": "Unstoppable champion references"
+    },
+
+    # === AMMO TYPES ===
+    "primary_ammo": {
+        "pattern": r'\b(Primary Weapons?|Primary Ammo)\b',
+        "class": "primary",
+        "description": "Primary ammo type"
+    },
+    "special_ammo": {
+        "pattern": r'\b(Special Weapons?|Special Ammo)\b',
+        "class": "special",
+        "description": "Special ammo type"
+    },
+    "heavy_ammo": {
+        "pattern": r'\b(Power Weapons?|Heavy Weapons?|Heavy Ammo)\b',
+        "class": "heavy",
+        "description": "Heavy/Power ammo type"
+    },
+}
+
+# Order of pattern application (important for overlapping matches)
 STYLES_ORDER = [
-    "enhanced_line",
-    "upgrade_value",
-    "enhanced_addition",
-    "enhanced_text",
-    "uncertain",
-    "multiplier",
-    "duration",
-    "stat_positive",
-    "stat_negative",
-    "stats",
-    "solar",
-    "arc",
-    "void",
-    "stasis",
-    "strand",
-    "elements",
-    "weapon_types",
-    "frames",
-    "champions",
-    "enemy_ranks",
-    "abilities",
-    "triggers",
-    "stacks",
-    "ammo_pickups",
-    "player_states",
-    "damage_types",
-    "shields"
+    "enhanced_arrow_text",
+    "enhanced_arrow_value",
+    "pve_value",
+    "pvp_value",
+    "solar_keywords",
+    "arc_keywords",
+    "void_keywords",
+    "stasis_keywords",
+    "strand_keywords",
+    "barrier_champion",
+    "overload_champion",
+    "unstoppable_champion",
+    "primary_ammo",
+    "special_ammo",
+    "heavy_ammo",
 ]
+
+# =============================================================================
+# CLARITY JSON CONVERTER
+# =============================================================================
+
+def text_to_clarity_line(text: str) -> list[dict[str, Any]]:
+    """
+    Convert a text string to Clarity's linesContent format.
+    Returns a list of segments with text and optional classNames.
+
+    Example output:
+    [
+        {"text": "Grants "},
+        {"text": "20%", "classNames": ["pve"]},
+        {"text": " "},
+        {"text": "[15%]", "classNames": ["pvp"]},
+        {"text": " increased damage"}
+    ]
+    """
+    if not text or not isinstance(text, str):
+        return [{"text": str(text) if text else ""}]
+
+    segments = []
+    current_pos = 0
+    matches = []
+
+    # Collect all matches with their positions
+    for style_name in STYLES_ORDER:
+        config = STYLE_PATTERNS.get(style_name)
+        if not config:
+            continue
+
+        pattern = config["pattern"]
+        css_class = config["class"]
+        flags = config.get("flags", 0)
+
+        for match in re.finditer(pattern, text, flags):
+            capture_group = config.get("capture_group", 0)
+            start, end = match.span(capture_group) if capture_group else match.span()
+            matched_text = match.group(capture_group) if capture_group else match.group()
+
+            matches.append({
+                "start": start,
+                "end": end,
+                "text": matched_text,
+                "class": css_class,
+                "full_match": match.group(0),
+                "full_start": match.start(),
+                "full_end": match.end()
+            })
+
+    # Sort by position and remove overlaps (keep first match)
+    matches.sort(key=lambda x: (x["start"], -x["end"]))
+    filtered_matches = []
+    last_end = 0
+
+    for m in matches:
+        if m["start"] >= last_end:
+            filtered_matches.append(m)
+            last_end = m["end"]
+
+    # Build segments
+    for m in filtered_matches:
+        # Add plain text before this match
+        if m["start"] > current_pos:
+            plain_text = text[current_pos:m["start"]]
+            if plain_text:
+                segments.append({"text": plain_text})
+
+        # Add styled segment
+        segment = {"text": m["text"]}
+        if m["class"]:
+            segment["classNames"] = [m["class"]]
+        segments.append(segment)
+
+        current_pos = m["end"]
+
+    # Add remaining text
+    if current_pos < len(text):
+        remaining = text[current_pos:]
+        if remaining:
+            segments.append({"text": remaining})
+
+    # If no segments created, return the original text
+    if not segments:
+        return [{"text": text}]
+
+    return segments
+
+
+def description_to_clarity_format(description: str) -> list[dict[str, Any]]:
+    """
+    Convert a full description to Clarity's descriptions.en format.
+    Splits by newlines and creates linesContent arrays with spacers.
+
+    Example output:
+    [
+        {"linesContent": [{"text": "First line"}, {"text": " with ", "classNames": ["solar"]}, {"text": "style"}]},
+        {"classNames": ["spacer"]},
+        {"linesContent": [{"text": "Second paragraph"}]}
+    ]
+    """
+    if not description or not isinstance(description, str):
+        return []
+
+    result = []
+
+    # Split by double newlines (paragraphs) or single newlines
+    # Clarity uses spacer objects between paragraphs
+    paragraphs = re.split(r'\n\s*\n|\r\n\s*\r\n', description)
+
+    for i, para in enumerate(paragraphs):
+        if not para.strip():
+            continue
+
+        # Split paragraph into lines
+        lines = para.strip().split('\n')
+
+        for j, line in enumerate(lines):
+            line = line.strip()
+            if not line:
+                continue
+
+            # Convert line to Clarity format
+            line_content = text_to_clarity_line(line)
+            result.append({"linesContent": line_content})
+
+        # Add spacer between paragraphs (not after the last one)
+        if i < len(paragraphs) - 1:
+            result.append({"classNames": ["spacer"]})
+
+    return result
+
+
+def record_to_clarity_format(record: dict, hash_key: str = "Hash") -> dict[str, Any]:
+    """
+    Convert a DDCVacuum record to Clarity JSON format.
+
+    Input record example:
+    {
+        "Hash": 12345,
+        "Name": "Rampage",
+        "Description": "Kills grant damage...",
+        "Type": "Weapon Trait"
+    }
+
+    Output Clarity format:
+    {
+        "12345": {
+            "hash": 12345,
+            "name": "Rampage",
+            "type": "Weapon Trait",
+            "descriptions": {
+                "en": [
+                    {"linesContent": [{"text": "Kills grant damage..."}]}
+                ]
+            }
+        }
+    }
+    """
+    hash_value = record.get(hash_key, record.get("hash", 0))
+    name = record.get("Name", record.get("name", ""))
+    description = record.get("Description", record.get("description", ""))
+    perk_type = record.get("Type", record.get("type", ""))
+
+    clarity_record = {
+        "hash": hash_value,
+        "name": name,
+        "type": perk_type,
+        "descriptions": {
+            "en": description_to_clarity_format(description)
+        }
+    }
+
+    # Add optional fields if present
+    if "itemHash" in record:
+        clarity_record["itemHash"] = record["itemHash"]
+    if "itemName" in record:
+        clarity_record["itemName"] = record["itemName"]
+
+    return {str(hash_value): clarity_record}
+
+
+def records_to_clarity_json(records: list[dict], hash_key: str = "Hash") -> dict[str, Any]:
+    """
+    Convert a list of records to a full Clarity-compatible JSON structure.
+    """
+    result = {}
+
+    for record in records:
+        clarity_record = record_to_clarity_format(record, hash_key)
+        result.update(clarity_record)
+
+    return result
+
+
+# =============================================================================
+# CSS STYLES (for HTML preview)
+# =============================================================================
 
 CSS_STYLES = """
 :root {
-    --color-base-value: #74c0fc;
-    --color-upgrade-arrow: #51cf66;
-    --color-enhanced-value: #51cf66;
-    --color-enhanced-line: #51cf66;
-    --color-enhanced-addition: #8ce99a;
-    --color-enhanced-text: #51cf66;
-    --color-uncertain: #fcc419;
-    --color-stat-positive: #339af0;
-    --color-stat-negative: #ff6b6b;
-    --color-duration: #fcc419;
-    --color-multiplier: #20c997;
-    --color-stat: #74c0fc;
     --color-solar: #ff6b35;
     --color-arc: #7ec8e3;
     --color-void: #b388ff;
     --color-stasis: #4fc3f7;
     --color-strand: #66bb6a;
-    --color-element: #f06595;
-    --color-weapon-type: #adb5bd;
-    --color-frame: #868e96;
-    --color-champion: #ffd43b;
-    --color-enemy-rank: #ffe066;
-    --color-ability: #da77f2;
-    --color-trigger: #ced4da;
-    --color-stack: #e599f7;
-    --color-ammo: #69db7c;
-    --color-player-state: #ffa94d;
-    --color-damage-type: #ff8787;
-    --color-shield: #fab005;
+    --color-pve: #74c0fc;
+    --color-pvp: #ff6b6b;
+    --color-primary: #c8c8c8;
+    --color-special: #7cfc00;
+    --color-heavy: #9370db;
+    --color-barrier: #ff4081;
+    --color-overload: #00bcd4;
+    --color-unstoppable: #ff9800;
+    --color-enhanced: #ffd700;
+    --color-yellow: #ffd43b;
 }
 
-.base-value { color: var(--color-base-value); }
-.upgrade-arrow { color: var(--color-upgrade-arrow); font-weight: bold; }
-.enhanced-value { color: var(--color-enhanced-value); font-weight: bold; }
-.enhanced-line { 
-    color: var(--color-enhanced-line); 
-    font-style: italic; 
-    display: block; 
-    border-left: 3px solid var(--color-enhanced-line); 
-    padding-left: 8px; 
-    margin-top: 4px; 
-}
-.enhanced-addition { color: var(--color-enhanced-addition); }
-.enhanced-text { color: var(--color-enhanced-text); }
-.uncertain { color: var(--color-uncertain); font-style: italic; }
-.stat-positive { color: var(--color-stat-positive); }
-.stat-negative { color: var(--color-stat-negative); }
-.duration { color: var(--color-duration); }
-.multiplier { color: var(--color-multiplier); }
-.stat { color: var(--color-stat); }
 .solar { color: var(--color-solar); font-weight: 500; }
 .arc { color: var(--color-arc); font-weight: 500; }
 .void { color: var(--color-void); font-weight: 500; }
 .stasis { color: var(--color-stasis); font-weight: 500; }
 .strand { color: var(--color-strand); font-weight: 500; }
-.element { color: var(--color-element); }
-.weapon-type { color: var(--color-weapon-type); }
-.frame { color: var(--color-frame); }
-.champion { color: var(--color-champion); font-weight: bold; }
-.enemy-rank { color: var(--color-enemy-rank); }
-.ability { color: var(--color-ability); }
-.trigger { color: var(--color-trigger); font-style: italic; }
-.stack { color: var(--color-stack); }
-.ammo { color: var(--color-ammo); }
-.player-state { color: var(--color-player-state); }
-.damage-type { color: var(--color-damage-type); }
-.shield { color: var(--color-shield); }
+.pve { color: var(--color-pve); }
+.pvp { color: var(--color-pvp); }
+.primary { color: var(--color-primary); }
+.special { color: var(--color-special); }
+.heavy { color: var(--color-heavy); }
+.barrier { color: var(--color-barrier); font-weight: bold; }
+.overload { color: var(--color-overload); font-weight: bold; }
+.unstoppable { color: var(--color-unstoppable); font-weight: bold; }
+.enhancedArrow { color: var(--color-enhanced); font-weight: bold; }
+.yellow { color: var(--color-yellow); }
+.spacer { display: block; height: 0.5em; }
+.link { color: #74c0fc; text-decoration: underline; cursor: pointer; }
+.title { border-bottom: 1px dotted currentColor; cursor: help; }
 """
+
+
+# =============================================================================
+# UTILITY FUNCTIONS
+# =============================================================================
+
+def add_link(text: str, url: str) -> dict[str, Any]:
+    """Create a link segment in Clarity format"""
+    return {
+        "text": text,
+        "link": url,
+        "classNames": ["link"]
+    }
+
+
+def add_tooltip(text: str, tooltip_content: list[dict]) -> dict[str, Any]:
+    """Create a tooltip segment in Clarity format"""
+    return {
+        "text": text,
+        "title": tooltip_content,
+        "classNames": ["title"]
+    }
+
+
+def create_spacer() -> dict[str, Any]:
+    """Create a spacer element"""
+    return {"classNames": ["spacer"]}
