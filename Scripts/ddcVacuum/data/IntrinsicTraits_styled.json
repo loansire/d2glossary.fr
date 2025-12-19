@@ -221,7 +221,16 @@
         {
           "linesContent": [
             {
-              "text": "Damaging Field deals damage every 0.25 seconds for 5.65 seconds, dealing 52.5 [?] damage up to 22 times per field."
+              "text": "Damaging Field deals damage every 0.25 seconds for 5.65 seconds, dealing 52.5 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage up to 22 times per field."
             }
           ]
         },
@@ -583,7 +592,16 @@
         {
           "linesContent": [
             {
-              "text": "Fires a spread of 12 pellets, each dealing 30 [?] damage with a 1.2x Precision Multiplier."
+              "text": "Fires a spread of 12 pellets, each dealing 30 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage with a 1.2x Precision Multiplier."
             }
           ]
         },
@@ -786,16 +804,7 @@
               "text": " Support Frames bestow 15 "
             },
             {
-              "text": "Void",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " "
-            },
-            {
-              "text": "Overshield",
+              "text": "Void Overshield",
               "classNames": [
                 "void"
               ]

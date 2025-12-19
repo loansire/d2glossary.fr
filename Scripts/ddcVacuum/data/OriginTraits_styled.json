@@ -89,7 +89,16 @@
               ]
             },
             {
-              "text": " [?%] increased damage for 4 seconds."
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
             }
           ]
         },
@@ -686,7 +695,16 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters."
+              "text": "Scoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage over ? meters."
             }
           ]
         },
@@ -764,7 +782,16 @@
         {
           "linesContent": [
             {
-              "text": "Weapon Kills cause the enemy to explode, dealing up to 123.5 [?] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds."
+              "text": "Weapon Kills cause the enemy to explode, dealing up to 123.5 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds."
             }
           ]
         },
@@ -1129,7 +1156,16 @@
         {
           "linesContent": [
             {
-              "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters."
+              "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Explosive Damage over ? meters."
             }
           ]
         },
@@ -1756,13 +1792,13 @@
               "text": "45?% Increased Damage against "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Crystals",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Crystals."
+              "text": "."
             }
           ]
         },
@@ -1965,7 +2001,16 @@
         {
           "linesContent": [
             {
-              "text": "Additonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy."
+              "text": "Additonally, each stack grants 3.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage while above 50% Heat/below ?% Sword Energy."
             }
           ]
         },
@@ -1977,21 +2022,48 @@
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x1 | +? Cooling Efficiency, +? Charge Rate, and 3.5% [?%] increased damage."
+              "text": "Imperial Allegiance x1 | +? Cooling Efficiency, +? Charge Rate, and 3.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x2 | +? Cooling Efficiency, +? Charge Rate, and 7% [?%] increased damage."
+              "text": "Imperial Allegiance x2 | +? Cooling Efficiency, +? Charge Rate, and 7% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x3 | +? Cooling Efficiency, +? Charge Rate, and 10.5% [?%] increased damage."
+              "text": "Imperial Allegiance x3 | +? Cooling Efficiency, +? Charge Rate, and 10.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
             }
           ]
         }
@@ -2889,14 +2961,32 @@
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing up to 67.5 [?] damage over 3? meters, and creating a Radiolaria Pool under them."
+              "text": "Target explodes, dealing up to 67.5 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage over 3? meters, and creating a Radiolaria Pool under them."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Radiolaria Pools deal 15 [?] "
+              "text": "Radiolaria Pools deal 15 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
             },
             {
               "text": "Arc",

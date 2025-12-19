@@ -254,7 +254,16 @@
                 ]
               },
               {
-                "text": " [?] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
+                "text": " ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
               }
             ]
           },
@@ -352,7 +361,16 @@
                 ]
               },
               {
-                "text": " [?%] | 20% "
+                "text": " ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] | 20% "
               },
               {
                 "text": "↑22%",
@@ -361,7 +379,16 @@
                 ]
               },
               {
-                "text": " [?%] | 30% "
+                "text": " ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] | 30% "
               },
               {
                 "text": "↑33%",
@@ -370,7 +397,16 @@
                 ]
               },
               {
-                "text": " [?%] increased damage."
+                "text": " ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage."
               }
             ]
           },
@@ -724,7 +760,16 @@
           {
             "linesContent": [
               {
-                "text": "15% [?%] Increased Damage and +100? Reload Speed for 9? "
+                "text": "15% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Increased Damage and +100? Reload Speed for 9? "
               },
               {
                 "text": "↑10",
@@ -1654,7 +1699,16 @@
           {
             "linesContent": [
               {
-                "text": "Flashbang deals 10 [~2.5] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 seconds."
+                "text": "Flashbang deals 10 ["
+              },
+              {
+                "text": "~2.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 seconds."
               }
             ]
           },
@@ -2219,16 +2273,7 @@
                 "text": "While "
               },
               {
-                "text": "Void",
-                "classNames": [
-                  "void"
-                ]
-              },
-              {
-                "text": " "
-              },
-              {
-                "text": "Overshield",
+                "text": "Void Overshield",
                 "classNames": [
                   "void"
                 ]
@@ -2373,16 +2418,16 @@
                 ]
               },
               {
-                "text": " inflict x10+5 [x4+5? against "
+                "text": " inflict x10+5 ["
               },
               {
-                "text": "Scorched",
+                "text": "x4+5? against Scorched Guardians",
                 "classNames": [
-                  "solar"
+                  "pvp"
                 ]
               },
               {
-                "text": " Guardians] "
+                "text": "] "
               },
               {
                 "text": "Scorch",
@@ -2739,16 +2784,16 @@
                 ]
               },
               {
-                "text": " inflict x10+5 [x4+5? against "
+                "text": " inflict x10+5 ["
               },
               {
-                "text": "Scorched",
+                "text": "x4+5? against Scorched Guardians",
                 "classNames": [
-                  "solar"
+                  "pvp"
                 ]
               },
               {
-                "text": " Guardians] "
+                "text": "] "
               },
               {
                 "text": "Scorch",
@@ -3048,16 +3093,16 @@
                 ]
               },
               {
-                "text": " [56 "
+                "text": " ["
               },
               {
-                "text": "↑62]",
+                "text": "56 ↑62",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " Weapon-Element Matching Damage in a 3 meter radius."
+                "text": "] Weapon-Element Matching Damage in a 3 meter radius."
               }
             ]
           },
@@ -3079,16 +3124,16 @@
                 ]
               },
               {
-                "text": " [44.8 "
+                "text": " ["
               },
               {
-                "text": "↑49.3]",
+                "text": "44.8 ↑49.3",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " damage in a 2.4 meter radius."
+                "text": "] damage in a 2.4 meter radius."
               }
             ]
           },
@@ -3110,16 +3155,16 @@
                 ]
               },
               {
-                "text": " [72.8 "
+                "text": " ["
               },
               {
-                "text": "↑80]",
+                "text": "72.8 ↑80",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " damage in a 3 meter radius."
+                "text": "] damage in a 3 meter radius."
               }
             ]
           },
@@ -3299,7 +3344,16 @@
                 ]
               },
               {
-                "text": " for 4+4 [1.5+0.5] seconds to enemies within 4? meters."
+                "text": " for 4+4 ["
+              },
+              {
+                "text": "1.5+0.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds to enemies within 4? meters."
               }
             ]
           },
@@ -3716,16 +3770,16 @@
                 ]
               },
               {
-                "text": " [11 "
+                "text": " ["
               },
               {
-                "text": "↑12]",
+                "text": "11 ↑12",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " damage with no falloff over 4 meters."
+                "text": "] damage with no falloff over 4 meters."
               }
             ]
           },
@@ -3764,7 +3818,16 @@
                 ]
               },
               {
-                "text": " for 4.25+? [1.5+?] seconds."
+                "text": " for 4.25+? ["
+              },
+              {
+                "text": "1.5+?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
               }
             ]
           },
@@ -3907,22 +3970,22 @@
                 "text": ", "
               },
               {
-                "text": "Void",
+                "text": "Void Breaches",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Breaches, "
+                "text": ", "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Shards",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Shards, "
+                "text": ", "
               },
               {
                 "text": "Ionic Traces",
@@ -4061,22 +4124,22 @@
                 "text": ", "
               },
               {
-                "text": "Void",
+                "text": "Void Breaches",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Breaches, "
+                "text": ", "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Shards",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Shards, "
+                "text": ", "
               },
               {
                 "text": "Ionic Traces",
@@ -4537,7 +4600,16 @@
           {
             "linesContent": [
               {
-                "text": "50% [25% Primary] of Magazine + 2, rounded down | Bows: 3 Hits"
+                "text": "50% ["
+              },
+              {
+                "text": "25% Primary",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] of Magazine + 2, rounded down | Bows: 3 Hits"
               }
             ]
           },
@@ -5089,7 +5161,16 @@
           {
             "linesContent": [
               {
-                "text": "Triggers an explosion around the target, dealing up to 250 [?] Element-Matching Damage over 8 meters."
+                "text": "Triggers an explosion around the target, dealing up to 250 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Element-Matching Damage over 8 meters."
               }
             ]
           },
@@ -6706,7 +6787,16 @@
           {
             "linesContent": [
               {
-                "text": "Explosive Payload portion deals 30% increased [7% decreased on Hand Cannons, ] damage and inflicts increased stagger."
+                "text": "Explosive Payload portion deals 30% increased ["
+              },
+              {
+                "text": "7% decreased on Hand Cannons, ",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage and inflicts increased stagger."
               }
             ]
           },
@@ -7171,7 +7261,16 @@
           {
             "linesContent": [
               {
-                "text": "[Fusion Rifles] 10 "
+                "text": "["
+              },
+              {
+                "text": "Fusion Rifles",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] 10 "
               },
               {
                 "text": "↑+13",
@@ -7229,7 +7328,16 @@
           {
             "linesContent": [
               {
-                "text": "Triggers a Frontal Blast, dealing up to 110 [?] Weapon-Matching Damage and disorienting Combatants in a large cone up to ~8? meters away for 5 "
+                "text": "Triggers a Frontal Blast, dealing up to 110 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Weapon-Matching Damage and disorienting Combatants in a large cone up to ~8? meters away for 5 "
               },
               {
                 "text": "↑6",
@@ -8095,13 +8203,13 @@
                 "text": "Creates a "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Crystal",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Crystal on Enemy Death Location."
+                "text": " on Enemy Death Location."
               }
             ]
           },
@@ -8142,13 +8250,13 @@
                 "text": "Incurs a 5 second cooldown if 5 "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Crystals",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Crystals are created within ? seconds of the first."
+                "text": " are created within ? seconds of the first."
               }
             ]
           },
@@ -8349,23 +8457,32 @@
           {
             "linesContent": [
               {
-                "text": "Upon dealing damage while 2? [5 on Primaries | 2 on Special and Heavy weapons] meters above an enemy, while grounded:"
+                "text": "Upon dealing damage while 2? ["
+              },
+              {
+                "text": "5 on Primaries | 2 on Special and Heavy weapons",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] meters above an enemy, while grounded:"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Grants 3 [1 on "
+                "text": "Grants 3 ["
               },
               {
-                "text": "Primary Weapons",
+                "text": "1 on Primary Weapons | 3 on others",
                 "classNames": [
-                  "primary"
+                  "pvp"
                 ]
               },
               {
-                "text": " | 3 on others] stacks of High Ground."
+                "text": "] stacks of High Ground."
               }
             ]
           },
@@ -10597,7 +10714,25 @@
           {
             "linesContent": [
               {
-                "text": "x1 == Dragonfly | x2 = 40% [?%] | x3 = 67.4% [?%]"
+                "text": "x1 == Dragonfly | x2 = 40% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] | x3 = 67.4% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "]"
               }
             ]
           },
@@ -11103,7 +11238,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants 150% Shotgun | 75% Hand Cannon [100%?] increased Melee Damage for the next Melee Hit within three3 seconds."
+                "text": "Grants 150% Shotgun | 75% Hand Cannon ["
+              },
+              {
+                "text": "100%?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased Melee Damage for the next Melee Hit within three3 seconds."
               }
             ]
           },
@@ -12913,16 +13057,7 @@
                 "text": "Grants "
               },
               {
-                "text": "Void",
-                "classNames": [
-                  "void"
-                ]
-              },
-              {
-                "text": " "
-              },
-              {
-                "text": "Overshield",
+                "text": "Void Overshield",
                 "classNames": [
                   "void"
                 ]
@@ -15092,7 +15227,16 @@
           {
             "linesContent": [
               {
-                "text": "[Fusion Rifles Only] +10 Stability, -12.5% Recoil, and -2.5% Accuracy Cone Size for 0.6 "
+                "text": "["
+              },
+              {
+                "text": "Fusion Rifles Only",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] +10 Stability, -12.5% Recoil, and -2.5% Accuracy Cone Size for 0.6 "
               },
               {
                 "text": "↑0.76",
@@ -15192,16 +15336,16 @@
                 ]
               },
               {
-                "text": " [10.46% "
+                "text": " ["
               },
               {
-                "text": "↑12.54%]",
+                "text": "10.46% ↑12.54%",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " increased damage that ramps up to 40% "
+                "text": "] increased damage that ramps up to 40% "
               },
               {
                 "text": "↑45%",
@@ -15210,16 +15354,16 @@
                 ]
               },
               {
-                "text": " [25% "
+                "text": " ["
               },
               {
-                "text": "↑30%]",
+                "text": "25% ↑30%",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " increased damage after scoring >110.33% of Magazine as hits"
+                "text": "] increased damage after scoring >110.33% of Magazine as hits"
               }
             ]
           },
@@ -15235,16 +15379,16 @@
                 ]
               },
               {
-                "text": " [15.85% "
+                "text": " ["
               },
               {
-                "text": "↑19.02%]",
+                "text": "15.85% ↑19.02%",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " Increased Damage without the usage of Ammo Generation or Magazine Increasing Perks."
+                "text": "] Increased Damage without the usage of Ammo Generation or Magazine Increasing Perks."
               }
             ]
           },
@@ -15358,7 +15502,25 @@
           {
             "linesContent": [
               {
-                "text": "8.25% [?%] to ~14% [?%] Increased Damage."
+                "text": "8.25% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] to ~14% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Increased Damage."
               }
             ]
           },
@@ -15384,7 +15546,34 @@
           {
             "linesContent": [
               {
-                "text": "HC: 74 lmao [?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage"
+                "text": "HC: 74 lmao ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage | SMG: 289 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage | Sniper: 552 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage"
               }
             ]
           }
@@ -15879,7 +16068,16 @@
           {
             "linesContent": [
               {
-                "text": "Rockets track enemies [with diminshed effectiveness]"
+                "text": "Rockets track enemies ["
+              },
+              {
+                "text": "with diminshed effectiveness",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "]"
               }
             ]
           },
@@ -17929,16 +18127,16 @@
                 ]
               },
               {
-                "text": " [6 "
+                "text": " ["
               },
               {
-                "text": "↑4?]",
+                "text": "6 ↑4?",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+                "text": "] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
               }
             ]
           },
@@ -18000,22 +18198,22 @@
                 "text": ", "
               },
               {
-                "text": "Void",
+                "text": "Void Breaches",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Breaches, and "
+                "text": ", and "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Shards",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Shards = 5 seconds."
+                "text": " = 5 seconds."
               }
             ]
           },
@@ -18888,16 +19086,16 @@
                 ]
               },
               {
-                "text": " [6 "
+                "text": " ["
               },
               {
-                "text": "↑4?]",
+                "text": "6 ↑4?",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+                "text": "] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
               }
             ]
           },
@@ -18959,22 +19157,22 @@
                 "text": ", "
               },
               {
-                "text": "Void",
+                "text": "Void Breaches",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Breaches, and "
+                "text": ", and "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Shards",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Shards = 5 seconds."
+                "text": " = 5 seconds."
               }
             ]
           },
@@ -19327,7 +19525,16 @@
           {
             "linesContent": [
               {
-                "text": "Damaging Field deals damage every 0.25 seconds for 5.65 seconds, dealing 52.5 [?] damage up to 22 times per field."
+                "text": "Damaging Field deals damage every 0.25 seconds for 5.65 seconds, dealing 52.5 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage up to 22 times per field."
               }
             ]
           },
@@ -19689,7 +19896,16 @@
           {
             "linesContent": [
               {
-                "text": "Fires a spread of 12 pellets, each dealing 30 [?] damage with a 1.2x Precision Multiplier."
+                "text": "Fires a spread of 12 pellets, each dealing 30 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage with a 1.2x Precision Multiplier."
               }
             ]
           },
@@ -19892,16 +20108,7 @@
                 "text": " Support Frames bestow 15 "
               },
               {
-                "text": "Void",
-                "classNames": [
-                  "void"
-                ]
-              },
-              {
-                "text": " "
-              },
-              {
-                "text": "Overshield",
+                "text": "Void Overshield",
                 "classNames": [
                   "void"
                 ]
@@ -20054,7 +20261,16 @@
                 ]
               },
               {
-                "text": " [?%] increased damage for 4 seconds."
+                "text": " ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage for 4 seconds."
               }
             ]
           },
@@ -20651,7 +20867,16 @@
           {
             "linesContent": [
               {
-                "text": "Scoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters."
+                "text": "Scoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage over ? meters."
               }
             ]
           },
@@ -20729,7 +20954,16 @@
           {
             "linesContent": [
               {
-                "text": "Weapon Kills cause the enemy to explode, dealing up to 123.5 [?] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds."
+                "text": "Weapon Kills cause the enemy to explode, dealing up to 123.5 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds."
               }
             ]
           },
@@ -21094,7 +21328,16 @@
           {
             "linesContent": [
               {
-                "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters."
+                "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Explosive Damage over ? meters."
               }
             ]
           },
@@ -21721,13 +21964,13 @@
                 "text": "45?% Increased Damage against "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Crystals",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Crystals."
+                "text": "."
               }
             ]
           },
@@ -21930,7 +22173,16 @@
           {
             "linesContent": [
               {
-                "text": "Additonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy."
+                "text": "Additonally, each stack grants 3.5% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage while above 50% Heat/below ?% Sword Energy."
               }
             ]
           },
@@ -21942,21 +22194,48 @@
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x1 | +? Cooling Efficiency, +? Charge Rate, and 3.5% [?%] increased damage."
+                "text": "Imperial Allegiance x1 | +? Cooling Efficiency, +? Charge Rate, and 3.5% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x2 | +? Cooling Efficiency, +? Charge Rate, and 7% [?%] increased damage."
+                "text": "Imperial Allegiance x2 | +? Cooling Efficiency, +? Charge Rate, and 7% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x3 | +? Cooling Efficiency, +? Charge Rate, and 10.5% [?%] increased damage."
+                "text": "Imperial Allegiance x3 | +? Cooling Efficiency, +? Charge Rate, and 10.5% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage."
               }
             ]
           }
@@ -22854,14 +23133,32 @@
           {
             "linesContent": [
               {
-                "text": "Target explodes, dealing up to 67.5 [?] damage over 3? meters, and creating a Radiolaria Pool under them."
+                "text": "Target explodes, dealing up to 67.5 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage over 3? meters, and creating a Radiolaria Pool under them."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Radiolaria Pools deal 15 [?] "
+                "text": "Radiolaria Pools deal 15 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] "
               },
               {
                 "text": "Arc",

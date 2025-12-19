@@ -741,16 +741,16 @@
               ]
             },
             {
-              "text": " [6 "
+              "text": " ["
             },
             {
-              "text": "↑4?]",
+              "text": "6 ↑4?",
               "classNames": [
-                "enhancedArrow"
+                "pvp"
               ]
             },
             {
-              "text": " Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+              "text": "] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
             }
           ]
         },
@@ -812,22 +812,22 @@
               "text": ", "
             },
             {
-              "text": "Void",
+              "text": "Void Breaches",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Breaches, and "
+              "text": ", and "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Shards",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Shards = 5 seconds."
+              "text": " = 5 seconds."
             }
           ]
         },

@@ -61,42 +61,36 @@ STYLE_PATTERNS = {
     },
 
     # === PVE/PVP VALUES ===
-    "pve_value": {
-        "pattern": r'"(\d+\.?\d*%?)"',
-        "class": "pve",
-        "capture_group": 1,
-        "description": "PVE-specific values in quotes"
-    },
     "pvp_value": {
-        "pattern": r'\[(\d+\.?\d*%?)\]',
+        "pattern": r'\[([^\]]+)\]',
         "class": "pvp",
         "capture_group": 1,
-        "description": "PVP-specific values in brackets"
+        "description": "PVP-specific values in brackets - captures everything between []"
     },
 
     # === ELEMENTS / SUBCLASSES ===
     "solar_keywords": {
-        "pattern": r'\b(Solar|Scorch|Scorched|Scorching|Ignition|Ignite|Ignites|Ignited|Cure|Restoration|Radiant|Firesprite|Firesprites|Ember of \w+|Song of Flame|Blade Barrage|Daybreak|Well of Radiance|Golden Gun)\b',
+        "pattern": r'\b(Well of Radiance|Blade Barrage|Song of Flame|Ember of \w+|Firesprites|Firesprite|Restoration|Scorching|Ignition|Scorched|Daybreak|Golden Gun|Ignited|Ignites|Radiant|Ignite|Scorch|Solar|Cure)\b',
         "class": "solar",
         "description": "Solar subclass keywords"
     },
     "arc_keywords": {
-        "pattern": r'\b(Arc|Jolt|Jolted|Jolting|Jolt Shot|Blind|Blinded|Amplified|Speed Booster|Ionic Trace|Ionic Traces|Bolt Charge|Arc Staff|Thundercrash|Fist of Havoc|Stormtrance)\b',
+        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces|Stormtrance|Bolt Charge|Ionic Trace|Arc Staff|Jolt Shot|Amplified|Blinded|Jolting|Jolted|Blind|Jolt|Arc)\b',
         "class": "arc",
         "description": "Arc subclass keywords"
     },
     "void_keywords": {
-        "pattern": r'\b(Void|Suppress|Suppression|Suppressed|Weaken|Weakened|Weakening|Volatile|Void Overshield|Overshield|Devour|Invisibility|Invisible|Void Breach|Void Breaches|Echo of \w+|Chaos Accelerant|Smoke Bomb)\b',
+        "pattern": r'\b(Chaos Accelerant|Void Overshield|Void Breaches|Invisibility|Suppression|Suppressed|Void Breach|Echo of \w+|Smoke Bomb|Weakening|Invisible|Weakened|Volatile|Overshield|Suppress|Devour|Weaken|Void)\b',
         "class": "void",
         "description": "Void subclass keywords"
     },
     "stasis_keywords": {
-        "pattern": r'\b(Stasis|Slow|Slowed|Freeze|Frozen|Shatter|Shattered|Shattering|Stasis Crystal|Stasis Crystals|Stasis Shard|Stasis Shards|Frost Armor|Whisper of \w+|Glacial Guard)\b',
+        "pattern": r'\b(Stasis Crystals|Stasis Crystal|Stasis Seeker|Stasis Debuff|Whisper of \w+|Stasis Shards|Glacial Guard|Frost Armor|Stasis Shard|Shattering|Shattered|Shatter|Slowed|Frozen|Freeze|Stasis|Slow)\b',
         "class": "stasis",
         "description": "Stasis subclass keywords"
     },
     "strand_keywords": {
-        "pattern": r'\b(Strand|Sever|Severed|Suspend|Suspended|Unravel|Unraveling|Unraveling Rounds|Woven Mail|Tangle|Tangles|Threadling|Threadlings|Thread of \w+)\b',
+        "pattern": r'\b(Unraveling Rounds|Thread of \w+|Threadlings|Woven Mail|Threadling|Unraveling|Suspended|Unravel|Tangles|Severed|Suspend|Tangle|Strand|Sever)\b',
         "class": "strand",
         "description": "Strand subclass keywords"
     },
@@ -138,10 +132,9 @@ STYLE_PATTERNS = {
 
 # Order of pattern application (important for overlapping matches)
 STYLES_ORDER = [
+    "pvp_value",
     "enhanced_arrow_text",
     "enhanced_arrow_value",
-    "pve_value",
-    "pvp_value",
     "solar_keywords",
     "arc_keywords",
     "void_keywords",
