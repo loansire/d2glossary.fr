@@ -169,7 +169,7 @@
   },
   {
     "Name": "Aggressive Frame\n(Shotguns)",
-    "Description": "Upon scoring a Kill:\nGrants 0.75x Fire Recovery Delay for 4 seconds.",
+    "Description": "Upon scoring a Kill:\n0.75x Fire Recovery Delay for 4 seconds.",
     "descriptions": {
       "en": [
         {
@@ -182,7 +182,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 0.75x Fire Recovery Delay for 4 seconds."
+              "text": "0.75x Fire Recovery Delay for 4 seconds."
             }
           ]
         }
@@ -245,6 +245,84 @@
     }
   },
   {
+    "Name": "Balanced Heat Weapon",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Firing generates Heat equal to the Heat Generated stat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Passively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon beginning a Manual Vent while Heat is ≥875:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2x Vent Rate Multiplier."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Ammo",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional information regarding Heat Weapons."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Double Fire",
     "Description": "Fires 2 rounds at a slight offset from the reticle at the cost of 1 Ammo. ",
     "descriptions": {
@@ -253,6 +331,84 @@
           "linesContent": [
             {
               "text": "Fires 2 rounds at a slight offset from the reticle at the cost of 1 Ammo."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dynamic Heat Weapon",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Firing generates Heat equal to the Heat Generated stat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Passively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon cancelling a Manual Vent while Heat is ≤125:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "-50% Heat Generation for 5 seconds after shooting or until stowing the weapon."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Ammo",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional information regarding Heat Weapons."
             }
           ]
         }

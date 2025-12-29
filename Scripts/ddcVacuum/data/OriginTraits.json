@@ -5,7 +5,7 @@
   },
   {
     "Name": "Accelerated Assault\n\nShiny Renegade Drops\nVanguard Alerts",
-    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\nGrants 5% ↑6% [?%] increased damage for 4 seconds.\nSingle-Shot Weapons instead receive +? Reload Speed and ?% increased damage for 8 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n"
   },
   {
     "Name": "Advanced Reflexes\n\nDreaming City Reprises\nDestination",
@@ -73,7 +73,7 @@
   },
   {
     "Name": "Dragon's Vengeance\n\nSeason of the Wish",
-    "Description": "Upon reaching Critical Health, or on Ally Death:\nRefills magazine. Grants +5 Range, +10? Handling, and 0.975x Charge/Draw Time Multiplier for 11 seconds."
+    "Description": "Upon reaching Critical Health, or on Ally Death:\nRefills magazine. \nGrants +5 Range, +10? Handling, and 0.975x Charge/Draw Time Multiplier for 11 seconds."
   },
   {
     "Name": "Dream Work\n\nSolstice\nEvent",
@@ -133,7 +133,7 @@
   },
   {
     "Name": "Imperial Allegiance\n\nEquilibrium \nDungeon",
-    "Description": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks.\n\nImperial Allegiance grants +? Cooling Efficiency stat, and +? Charge Rate per stack.\nAdditonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy.\n\nImperial Allegiance x1 | +? Cooling Efficiency, +? Charge Rate, and 3.5% [?%] increased damage.\nImperial Allegiance x2 | +? Cooling Efficiency, +? Charge Rate, and 7% [?%] increased damage.\nImperial Allegiance x3 | +? Cooling Efficiency, +? Charge Rate, and 10.5% [?%] increased damage."
+    "Description": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks.\n\nImperial Allegiance grants 1.035x Cooling Multiplier, and +? Charge Rate per stack.\nAdditonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy.\n\nImperial Allegiance x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% [?%] increased damage.\nImperial Allegiance x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% [?%] increased damage.\nImperial Allegiance x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% [?%] increased damage."
   },
   {
     "Name": "Land Tank\n\nSeason of the Risen",

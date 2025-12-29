@@ -1,5 +1,38 @@
 [
   {
+    "Name": "Accelerated Heatsink",
+    "Description": "Passively grants +25 Cooling Efficiency stat ↑and +2 Reload Speed at the downside of 2% decreased damage.\n\nHow do Heat Weapons work?",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants +25 Cooling Efficiency stat "
+            },
+            {
+              "text": "↑and +2 Reload Speed at the downside of 2% decreased damage.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "How do Heat Weapons work?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Adagio",
     "Description": "On Weapon Kill:\n30% increased damage, +10 Range, and 1.2x Fire Recovery Delay/Charge Time Multiplier/Draw Time Multiplier for 7 ↑8 seconds.\nBows and Shotguns are instead granted 20% increased damage.\nBuff is removed on stow.\n\n↑Buff duration is increased to 8 seconds.",
     "descriptions": {
@@ -219,13 +252,20 @@
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nThe next shot fired adheres a Sticky Bomb on impact.\n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑410 [?] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.",
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑410 [?] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
               "text": "Upon picking up an Ammo Brick:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Generates +1 Ammo."
             }
           ]
         },
@@ -338,7 +378,7 @@
   },
   {
     "Name": "Aggregate Charge",
-    "Description": "Against Elementally-Debuffed Enemies:\n10% ↑11% [?%] | 20% ↑22% [?%] | 30% ↑33% [?%] increased damage. \nEffect scales with the amount of unique debuffs on the enemy, maxing out at 3 unique debuffs.\n\nDebuff List:\nBlind - Jolt | Scorch - Ignition | Suppression - Volatile - Weaken\nSlow - Freeze - Shatter | Sever - Suspend - Unravel\n\n↑Damage buff is increased.",
+    "Description": "Against Elementally-Debuffed Enemies:\n10% ↑11% | 20% ↑22% | 30% ↑33% increased damage. \nEffect scales with the amount of unique debuffs on the enemy, maxing out at 3 unique debuffs.\n\nDebuff List:\nBlind - Jolt | Scorch - Ignition | Suppression - Volatile - Weaken\nSlow - Freeze - Shatter | Sever - Suspend - Unravel\n\n↑Damage buff is increased.",
     "descriptions": {
       "en": [
         {
@@ -360,16 +400,7 @@
               ]
             },
             {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] | 20% "
+              "text": " | 20% "
             },
             {
               "text": "↑22%",
@@ -378,16 +409,7 @@
               ]
             },
             {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] | 30% "
+              "text": " | 30% "
             },
             {
               "text": "↑33%",
@@ -396,16 +418,7 @@
               ]
             },
             {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage."
+              "text": " increased damage."
             }
           ]
         },
@@ -739,7 +752,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.",
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds.",
     "descriptions": {
       "en": [
         {
@@ -782,6 +795,13 @@
           ]
         },
         {
+          "linesContent": [
+            {
+              "text": "Timer only begins after readying the weapon with All-Star."
+            }
+          ]
+        },
+        {
           "classNames": [
             "spacer"
           ]
@@ -790,6 +810,22 @@
           "linesContent": [
             {
               "text": "Picking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to "
+            },
+            {
+              "text": "↑10",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
             }
           ]
         }
@@ -1054,7 +1090,7 @@
   },
   {
     "Name": "Archer's Gambit",
-    "Description": "On Hipfired Precision Hit:\n+? Reload Speed, 0.x? Reload Duration Multiplier, and 0.4x Draw Time Multiplier for 4 seconds.\nScoring additional Hipfired Precision Hits extends the buff duration by +4 seconds, up to 8 ↑? seconds.\nBuff persists through stow.\n\n↑Buff duration is increased to 5? seconds?",
+    "Description": "On Hipfired Precision Hit:\n+100? Reload Speed, 0.x? Reload Duration Multiplier, and 0.4x Draw Time Multiplier for 4 seconds.\nScoring additional Hipfired Precision Hits extends the buff duration by +4 seconds, up to 8 ↑? seconds.\nBuff persists through stow.\n\n↑Buff duration is increased to 5? seconds?",
     "descriptions": {
       "en": [
         {
@@ -1067,7 +1103,7 @@
         {
           "linesContent": [
             {
-              "text": "+? Reload Speed, 0.x? Reload Duration Multiplier, and 0.4x Draw Time Multiplier for 4 seconds."
+              "text": "+100? Reload Speed, 0.x? Reload Duration Multiplier, and 0.4x Draw Time Multiplier for 4 seconds."
             }
           ]
         },
@@ -1276,7 +1312,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nCreates an Orb of Power that grants 0.8% ↑1.1% Super Energy.\n\nHits required to activate:\n55% of Magazine + 2, rounded down.\nBows: 5 | Swords: 6 | Area-Denial Grenade Launchers: ~48?\nSupport Auto Rifles: 33.5% of Magazine + 2, rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.\nCounter persists through stow.\n\n↑Orb of Power grants 1.1% Super Energy.",
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nCreates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\n\nHits required to activate:\n55% of Magazine + 2, rounded down.\nBows: 5 | Swords: 6 | Grenade Launchers: 10 | Area-Denial Grenade Launchers: 27\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 2), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.\nCounter persists through stow.\n\n↑Orb of Power grants 1.1% Super Energy.",
     "descriptions": {
       "en": [
         {
@@ -1289,7 +1325,7 @@
         {
           "linesContent": [
             {
-              "text": "Creates an Orb of Power that grants 0.8% "
+              "text": "Creates an Orb of Power that grants 0.87% "
             },
             {
               "text": "↑1.1%",
@@ -1324,14 +1360,14 @@
         {
           "linesContent": [
             {
-              "text": "Bows: 5 | Swords: 6 | Area-Denial Grenade Launchers: ~48?"
+              "text": "Bows: 5 | Swords: 6 | Grenade Launchers: 10 | Area-Denial Grenade Launchers: 27"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Support Auto Rifles: 33.5% of Magazine + 2, rounded down on healing hits on damaged allies."
+              "text": "Support Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 2), rounded down on healing hits on damaged allies."
             }
           ]
         },
@@ -1578,7 +1614,7 @@
   },
   {
     "Name": "Beacon Rounds",
-    "Description": "On Weapon Kill:\nGrants a stack of Beacon Rounds for 6 ↑7? seconds, up to a maximum of 4 stacks.\nDealing additional damage extends the buff duration to 4 seconds if the duration is <4 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nGrants +15 Reload Speed, 0.9x Reload Duration Multiplier, and 45% Increased Projectile Tracking Cone Size.\nAdditional stacks only increase the strength of the projectile tracking. Projectile Tracking is only in effect when the Targeted Reticle is active.\n\n↑Initial buff duration is increased to 7? seconds.",
+    "Description": "On Weapon Kill:\nGrants a stack of Beacon Rounds for 6 ↑7 seconds, up to a maximum of 4 stacks.\nDealing additional damage extends the buff duration to 4 seconds if the duration is <4 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nBeacon Rounds:\n+15 Reload Speed, 0.9x Reload Duration Multiplier, and 45% Increased Projectile Tracking Cone Size.\nAdditional stacks only increase the strength of the projectile tracking. Projectile Tracking is only in effect when the Targeted Reticle is active.\n\n↑Initial buff duration is increased to 7 seconds.",
     "descriptions": {
       "en": [
         {
@@ -1594,7 +1630,7 @@
               "text": "Grants a stack of Beacon Rounds for 6 "
             },
             {
-              "text": "↑7?",
+              "text": "↑7",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1626,7 +1662,14 @@
         {
           "linesContent": [
             {
-              "text": "Grants +15 Reload Speed, 0.9x Reload Duration Multiplier, and 45% Increased Projectile Tracking Cone Size."
+              "text": "Beacon Rounds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+15 Reload Speed, 0.9x Reload Duration Multiplier, and 45% Increased Projectile Tracking Cone Size."
             }
           ]
         },
@@ -1645,7 +1688,7 @@
         {
           "linesContent": [
             {
-              "text": "↑Initial buff duration is increased to 7? seconds.",
+              "text": "↑Initial buff duration is increased to 7 seconds.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1657,7 +1700,7 @@
   },
   {
     "Name": "Bewildering Burst",
-    "Description": "Upon finishing a reload within ? seconds of a Kill:\nGrants Bewildering Burst for 6 ↑7 seconds.\n\nThe next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after 0.85 seconds.\nFlashbang deals 10 [~2.5] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 seconds.\nBuff persists through stow.\n\n↑Buff Duration is increased to 7 seconds.",
+    "Description": "Upon finishing a reload within ? seconds of a Kill:\nGrants Bewildering Burst for 6 ↑7 seconds.\n\nThe next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after 0.85 seconds.\nFlashbang deals 10 [~2.5] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 ↑? [1 ↑1.25] seconds.\nBuff persists through stow.\n\n↑Buff Duration is increased to 7 seconds.",
     "descriptions": {
       "en": [
         {
@@ -1707,7 +1750,25 @@
               ]
             },
             {
-              "text": "] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 seconds."
+              "text": "] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 "
+            },
+            {
+              "text": "↑?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "1 ↑1.25",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
             }
           ]
         },
@@ -2203,7 +2264,7 @@
   },
   {
     "Name": "Box Breathing",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing:\n10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS. \nScout Rifles receive 5% Decreased Precision Damage while Box Breathing is active. Heavy Sniper Rifles only receive 30% increased Precision Damage.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS. \nScout Rifles receive 5% Decreased Precision Damage while Box Breathing is active. Heavy Sniper Rifles only receive 30% increased Precision Damage.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\n↑Activation timer is decreased to 1.4 seconds.",
     "descriptions": {
       "en": [
         {
@@ -2218,7 +2279,7 @@
               ]
             },
             {
-              "text": " seconds of ADS without firing:"
+              "text": " seconds of ADS without firing while Magazine is >0:"
             }
           ]
         },
@@ -2875,22 +2936,22 @@
   },
   {
     "Name": "Butterfly",
-    "Description": "After ? ↑? seconds of ADS without firing:\nAiming this weapon for a short period without firing causes your target to explode the next time you deal final blows.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\nBasically No Distractions + Dragonfly, it seems?",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nAiming this weapon for a short period without firing causes your target to explode the next time you deal final blows.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\nBasically No Distractions + Dragonfly, it seems?",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "After ? "
+              "text": "After 1.5 "
             },
             {
-              "text": "↑?",
+              "text": "↑1.4",
               "classNames": [
                 "enhancedArrow"
               ]
             },
             {
-              "text": " seconds of ADS without firing:"
+              "text": " seconds of ADS without firing while Magazine is >0:"
             }
           ]
         },
@@ -3030,7 +3091,7 @@
   },
   {
     "Name": "Celerity",
-    "Description": "Passively grants +20 Handling and +20 Reload Speed.\n\nWhile Last Guardian Standing:\n+100 Handling, +100 Reload Speed, +? Aim Assist, ?% Flinch Resist, increased accuracy, stronger scope highlight, and enables radar while ADS.",
+    "Description": "Passively grants +20 Handling and +20 Reload Speed.\n\nWhile Last Guardian Standing:\n+100 Handling, +100 Reload Speed, +? Aim Assist, 50% Flinch Resist, increased accuracy, stronger scope highlight, and enables radar while ADS.",
     "descriptions": {
       "en": [
         {
@@ -3055,7 +3116,7 @@
         {
           "linesContent": [
             {
-              "text": "+100 Handling, +100 Reload Speed, +? Aim Assist, ?% Flinch Resist, increased accuracy, stronger scope highlight, and enables radar while ADS."
+              "text": "+100 Handling, +100 Reload Speed, +? Aim Assist, 50% Flinch Resist, increased accuracy, stronger scope highlight, and enables radar while ADS."
             }
           ]
         }
@@ -3064,7 +3125,7 @@
   },
   {
     "Name": "Chain Reaction",
-    "Description": "On Weapon Kill:\nPrimary Weapons: Target explodes, dealing up to 84 ↑92.4 [56 ↑62] Weapon-Element Matching Damage in a 3 meter radius.\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Chain Reaction Damage is increased by 10%.",
+    "Description": "On Weapon Kill:\nPrimary Weapons: Target explodes, dealing up to 84 ↑92.4 [56 ↑62] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Chain Reaction Damage is increased by 10%.",
     "descriptions": {
       "en": [
         {
@@ -3101,7 +3162,7 @@
               ]
             },
             {
-              "text": "] Weapon-Element Matching Damage in a 3 meter radius."
+              "text": "] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)"
             }
           ]
         },
@@ -4676,7 +4737,7 @@
   },
   {
     "Name": "Delicate Tuning",
-    "Description": "As Heat increases from 0%, up to 50%:\nGrants up to +? ↑22? Range, +? ↑+? Handling, and -?% ↑-?% Accuracy Cone Size at 0% Heat.\nBuff dynamically scales from 100% effect at 0% Heat, down to 50% effect at 50% Heat.",
+    "Description": "As Heat increases from 0%, up to 50%:\nGrants up to +? ↑22? Range, +? ↑+? Handling, and -?% ↑-?% Accuracy Cone Growth at 0% Heat.\nBuff dynamically scales from 100% effect at 0% Heat, down to 50% effect at 50% Heat.",
     "descriptions": {
       "en": [
         {
@@ -4716,7 +4777,7 @@
               ]
             },
             {
-              "text": " Accuracy Cone Size at 0% Heat."
+              "text": " Accuracy Cone Growth at 0% Heat."
             }
           ]
         },
@@ -5283,13 +5344,13 @@
   },
   {
     "Name": "Disorienting Grenades",
-    "Description": "Passively grants -200 Blast Radius and 25% decreased damage.\n\nRank-and-File, Elite, and Miniboss Combatants within ? metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses are unaffected by disorient. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
+    "Description": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius.\n\nRank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses are unaffected by disorient. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "Passively grants -200 Blast Radius and 25% decreased damage."
+              "text": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius."
             }
           ]
         },
@@ -5301,7 +5362,7 @@
         {
           "linesContent": [
             {
-              "text": "Rank-and-File, Elite, and Miniboss Combatants within ? metres of the explosion are disoriented for 4.5 seconds."
+              "text": "Rank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds."
             }
           ]
         },
@@ -5981,13 +6042,22 @@
   },
   {
     "Name": "Elemental Honing",
-    "Description": "Dealing Elemental Damage grants a stack of Elemental Honing for 20 seconds for each unique Element used, up to a maximum of 5 stacks by using 5 unique elements.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once 5 stacks have been reached.\nBuff can be activated and persists through stow. Kinetic Damage does not trigger the buff.\n\nElemental Honing x1 | 2.5% Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage.\nElemental Honing x2 | 10% Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage.\nElemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased Kinetic Weapon Damage.\nElemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased Kinetic Weapon Damage.\nElemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased Kinetic Weapon Damage.\n\n↑Buff duration is increased to 23 seconds.",
+    "Description": "Dealing Elemental Damage grants a stack of Elemental Honing for 20 ↑23 seconds for each unique Element used, up to a maximum of 5 stacks by using 5 unique elements.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once 5 stacks have been reached.\nBuff can be activated and persists through stow. Kinetic Damage does not trigger the buff.\n\nElemental Honing x1 | 2.5% [1.25%] Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage.\nElemental Honing x2 | 10% [5%] Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage.\nElemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased Kinetic Weapon Damage.\nElemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased Kinetic Weapon Damage.\nElemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased Kinetic Weapon Damage.\n\n↑Buff duration is increased to 23 seconds.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "Dealing Elemental Damage grants a stack of Elemental Honing for 20 seconds for each unique Element used, up to a maximum of 5 stacks by using 5 unique elements."
+              "text": "Dealing Elemental Damage grants a stack of Elemental Honing for 20 "
+            },
+            {
+              "text": "↑23",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds for each unique Element used, up to a maximum of 5 stacks by using 5 unique elements."
             }
           ]
         },
@@ -6013,14 +6083,32 @@
         {
           "linesContent": [
             {
-              "text": "Elemental Honing x1 | 2.5% Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage."
+              "text": "Elemental Honing x1 | 2.5% ["
+            },
+            {
+              "text": "1.25%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Elemental Honing x2 | 10% Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage."
+              "text": "Elemental Honing x2 | 10% ["
+            },
+            {
+              "text": "5%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage."
             }
           ]
         },
@@ -7901,7 +7989,7 @@
   },
   {
     "Name": "Gutshot Straight",
-    "Description": "While ADS:\n -20% ↑-15%? Auto Aim Cone Size and increased non-Precision Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns\n\n↑Reduces Aim Assistance Cone Size penalty to -15?%.",
+    "Description": "While ADS:\n -20% ↑-15%? Auto Aim Cone Size and increased non-Precision Damage,\nStill increases damage to Weakspots!\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns\n\n↑Reduces Aim Assistance Cone Size penalty to -15?%.",
     "descriptions": {
       "en": [
         {
@@ -7924,6 +8012,13 @@
             },
             {
               "text": " Auto Aim Cone Size and increased non-Precision Damage,"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Still increases damage to Weakspots!"
             }
           ]
         },
@@ -8843,7 +8938,7 @@
   },
   {
     "Name": "Impromptu Ammunition",
-    "Description": "On Weapon Kill:\nGrants 1.15x Ammo Generation Multiplier for ? ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "On Weapon Kill:\nGrants 1.15x Ammo Generation Multiplier for ? ↑? seconds.\nAmmo Generation Multiplier is additive to Ammo Finder Multipliers.\n\n↑Buff duration is increased to ? seconds.",
     "descriptions": {
       "en": [
         {
@@ -8866,6 +8961,13 @@
             },
             {
               "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ammo Generation Multiplier is additive to Ammo Finder Multipliers."
             }
           ]
         },
@@ -9278,7 +9380,7 @@
   },
   {
     "Name": "Jolting Feedback",
-    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑15? | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
+    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
     "descriptions": {
       "en": [
         {
@@ -9388,7 +9490,7 @@
               "text": "Machine Gun: 16 "
             },
             {
-              "text": "↑15?",
+              "text": "↑14",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -11580,6 +11682,39 @@
     }
   },
   {
+    "Name": "Overclocked Heatsink",
+    "Description": "Passively grants 2% increased damage ↑and +2 Handling at the downside of -10 Cooling Efficiency Stat.\n\nHow do Heat Weapons work?",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants 2% increased damage "
+            },
+            {
+              "text": "↑and +2 Handling at the downside of -10 Cooling Efficiency Stat.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "How do Heat Weapons work?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Overflow",
     "Description": "On Special or Heavy Ammo Brick Pickup:\nRefills Magazine and grants 100 ↑120% Increased Magazine Capacity. \nBuff can be activated while stowed.\n\n↑Ammo Brick Pickup grants 120% Increased Magazine Capacity.",
     "descriptions": {
@@ -13543,7 +13678,7 @@
   },
   {
     "Name": "Sharp Harvest",
-    "Description": "Upon scoring 3 Powered Sword Hits within 1.5? ↑2 seconds of each:\n Grants 5% of Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.\n\n↑Timer between Hits is increased to 2 seconds.",
+    "Description": "Upon scoring 3 Powered Sword Hits within 1.5? ↑2 seconds of each:\n Grants 5% Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.\n\n↑Timer between Hits is increased to 2 seconds.",
     "descriptions": {
       "en": [
         {
@@ -13565,7 +13700,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 5% of "
+              "text": "Grants 5% "
             },
             {
               "text": "Special Ammo",
@@ -14718,7 +14853,7 @@
   },
   {
     "Name": "Supercharged Magazine\nCentrifuse pls",
-    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. Can grant up to 100% Increased Magazine Capacity through refilling.",
+    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.",
     "descriptions": {
       "en": [
         {
@@ -14768,7 +14903,14 @@
         {
           "linesContent": [
             {
-              "text": "Refills 5% of Magazine every 0.25 seconds. Can grant up to 100% Increased Magazine Capacity through refilling."
+              "text": "Refills 5% of Magazine every 0.25 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can grant up to 100% Increased Magazine Capacity through refilling."
             }
           ]
         }
@@ -15504,7 +15646,7 @@
   },
   {
     "Name": "Thermal Atomization",
-    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nTargets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nTargets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
     "descriptions": {
       "en": [
         {
@@ -15535,7 +15677,7 @@
               ]
             },
             {
-              "text": "] Increased Damage."
+              "text": "] Increased Impact Damage."
             }
           ]
         },
@@ -15564,7 +15706,7 @@
               "text": "HC: 74 lmao ["
             },
             {
-              "text": "?",
+              "text": "77?",
               "classNames": [
                 "pvp"
               ]
@@ -17284,7 +17426,7 @@
   },
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
     "descriptions": {
       "en": [
         {
@@ -17299,7 +17441,7 @@
               ]
             },
             {
-              "text": " seconds of ADS without firing:"
+              "text": " seconds of ADS without firing while Magazine is >0:"
             }
           ]
         },

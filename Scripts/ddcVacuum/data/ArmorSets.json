@@ -49,7 +49,7 @@
   },
   {
     "Name": NaN,
-    "Description": "4 Piece | Hot Shot\n\nWhile Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type.\nPrimary Ammo Weapons receive 1.?x Special Ammo Progress Multiplier.\nSpecial Ammo Weapons receive 1.?x Heavy Ammo Progress Multiplier."
+    "Description": "4 Piece | Hot Shot\n\nWhile Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress."
   },
   {
     "Name": "Iron Panoply\n\nIron Banner",
