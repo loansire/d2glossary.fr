@@ -27,82 +27,123 @@
 /* === AMMO TYPES === */
 .primary::before {
   content: '\0044';
-  color: var(--color-ammo-primary);
+  margin-right: 2px;
   vertical-align: -3px;
+}
+.primary {
+  color: var(--color-ammo-primary);
 }
 
 .special::before {
   content: '\0045';
-  color: var(--color-ammo-special);
+  margin-right: 2px;
   vertical-align: -3px;
+}
+.special {
+  color: var(--color-ammo-special);
 }
 
 .heavy::before {
   content: '\0046';
-  color: var(--color-ammo-heavy);
+  margin-right: 2px;
   vertical-align: -3px;
+}
+.heavy {
+  color: var(--color-ammo-heavy);
 }
 
 /* === DAMAGE TYPES === */
 .void::before {
   content: '\E144';
+  margin-right: 2px;
+}
+.void {
   color: var(--color-void);
 }
 
 .solar::before {
   content: '\E140';
+  margin-right: 2px;
+}
+.solar {
   color: var(--color-solar);
 }
 
 .arc::before {
   content: '\E143';
+  margin-right: 2px;
+}
+.arc {
   color: var(--color-arc);
 }
 
 .stasis::before {
   content: '\E139';
+  margin-right: 2px;
+}
+.stasis {
   color: var(--color-stasis);
 }
 
 .strand::before {
   content: '\EF0E';
+  margin-right: 2px;
+}
+.strand {
   color: var(--color-strand);
 }
 
 /* === ACTIVITY TYPES === */
 .pve::before {
   content: '\0048';
-  color: var(--color-pve);
   text-shadow: 0 0 2px var(--color-pve);
+  margin-right: 2px;
+  margin-left: 2px;
   vertical-align: -5px;
   font-size: 20px;
+}
+.pve {
+  color: var(--color-pve);
 }
 
 .pvp::before {
   content: '\004a';
-  color: var(--color-pvp);
   text-shadow: 0 0 2px var(--color-pvp);
+  margin-right: 2px;
+  margin-left: 2px;
   vertical-align: -5px;
   font-size: 20px;
+}
+.pvp {
+  color: var(--color-pvp);
 }
 
 /* === CHAMPION TYPES === */
 .barrier::before {
   content: '\E070';
-  color: var(--color-champion);
+  margin-right: 2px;
   font-size: 20px;
+}
+.barrier {
+  color: var(--color-champion);
 }
 
 .unstoppable::before {
   content: '\E072';
-  color: var(--color-champion);
+  margin-right: 2px;
   font-size: 20px;
+}
+.unstoppable {
+  color: var(--color-champion);
 }
 
 .overload::before {
   content: '\E071';
-  color: var(--color-champion);
   font-size: 20px;
+  margin-right: 2px;
+}
+.overload {
+  color: var(--color-champion);
 }
 
 /* === CLASS TYPES === */
@@ -132,7 +173,6 @@
 
 .enhancedArrow {
   color: var(--color-primary);
-  font-size: 20px;
 }
 
 .green {

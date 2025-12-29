@@ -4227,7 +4227,7 @@
     },
     {
       "Name": "Controlled Burst",
-      "Description": "Upon scoring a hit with every bolt in the burst, or upon scoring a Weapon Kill:\n20% increased damage and 0.9x Charge Time Multiplier for 2 ↑? seconds.\nBuff persists through stow.\n\n↑Currently bugged and does not increase buff duration.",
+      "Description": "Upon scoring a hit with every bolt in the burst, or upon scoring a Weapon Kill:\n20% increased damage and 0.9x Charge Time Multiplier for 2 ↑2.5 seconds.\nBuff persists through stow.\n\n↑Buff duration is increased to 2.5 seconds.",
       "descriptions": {
         "en": [
           {
@@ -4243,7 +4243,7 @@
                 "text": "20% increased damage and 0.9x Charge Time Multiplier for 2 "
               },
               {
-                "text": "↑?",
+                "text": "↑2.5",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -4268,7 +4268,7 @@
           {
             "linesContent": [
               {
-                "text": "↑Currently bugged and does not increase buff duration.",
+                "text": "↑Buff duration is increased to 2.5 seconds.",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -4433,26 +4433,26 @@
                 "text": "Scoring additional Weapon Kills while Crystalline Corpsebloom is active causes the enemy to release a "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Seeker",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Seeker."
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Stasis",
+                "text": "Stasis Seeker",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Seeker travels 3? meters in a random direction (and doesn't seek enemies), spawning a Medium? "
+                "text": " travels 3? meters in a random direction (and doesn't seek enemies), spawning a Medium? "
               },
               {
                 "text": "↑Large Stasis Crystal upon expiring.",
@@ -9279,7 +9279,7 @@
     },
     {
       "Name": "Jolting Feedback",
-      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑15? | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
+      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑15? | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
       "descriptions": {
         "en": [
           {
@@ -9428,6 +9428,22 @@
               },
               {
                 "text": " | 9"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Sidearm: ? "
+              },
+              {
+                "text": "↑9",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " | 7"
               }
             ]
           },
@@ -20545,7 +20561,7 @@
     },
     {
       "Name": "Bray Legacy\n\nVesper's Host Weapons\nDungeon\n\nReclamation Weapons",
-      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nReclamation Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nHigh-Impact Rocket Launcher (Haliaetus) = 17% ↑?%\n\n↑Increased amount of Energy gained.",
+      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% ↑?%\n\n↑25% Increased Ability Energy.",
       "descriptions": {
         "en": [
           {
@@ -20622,7 +20638,7 @@
           {
             "linesContent": [
               {
-                "text": "Reclamation Weapons"
+                "text": "Seasonal Weapons"
               }
             ]
           },
@@ -20681,7 +20697,7 @@
           {
             "linesContent": [
               {
-                "text": "High-Impact Rocket Launcher (Haliaetus) = 17% "
+                "text": "Rocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% "
               },
               {
                 "text": "↑?%",
@@ -20699,10 +20715,13 @@
           {
             "linesContent": [
               {
-                "text": "↑Increased amount of Energy gained.",
+                "text": "↑25%",
                 "classNames": [
                   "enhancedArrow"
                 ]
+              },
+              {
+                "text": " Increased Ability Energy."
               }
             ]
           }
@@ -24588,13 +24607,13 @@
                 "text": ", or being affected by a "
               },
               {
-                "text": "Stasis",
+                "text": "Stasis Debuff",
                 "classNames": [
                   "stasis"
                 ]
               },
               {
-                "text": " Debuff will grant "
+                "text": " will grant "
               },
               {
                 "text": "Speed Booster",

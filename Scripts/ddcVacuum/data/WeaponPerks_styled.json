@@ -4226,7 +4226,7 @@
   },
   {
     "Name": "Controlled Burst",
-    "Description": "Upon scoring a hit with every bolt in the burst, or upon scoring a Weapon Kill:\n20% increased damage and 0.9x Charge Time Multiplier for 2 ↑? seconds.\nBuff persists through stow.\n\n↑Currently bugged and does not increase buff duration.",
+    "Description": "Upon scoring a hit with every bolt in the burst, or upon scoring a Weapon Kill:\n20% increased damage and 0.9x Charge Time Multiplier for 2 ↑2.5 seconds.\nBuff persists through stow.\n\n↑Buff duration is increased to 2.5 seconds.",
     "descriptions": {
       "en": [
         {
@@ -4242,7 +4242,7 @@
               "text": "20% increased damage and 0.9x Charge Time Multiplier for 2 "
             },
             {
-              "text": "↑?",
+              "text": "↑2.5",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -4267,7 +4267,7 @@
         {
           "linesContent": [
             {
-              "text": "↑Currently bugged and does not increase buff duration.",
+              "text": "↑Buff duration is increased to 2.5 seconds.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -4432,26 +4432,26 @@
               "text": "Scoring additional Weapon Kills while Crystalline Corpsebloom is active causes the enemy to release a "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Seeker",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Seeker."
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Stasis",
+              "text": "Stasis Seeker",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Seeker travels 3? meters in a random direction (and doesn't seek enemies), spawning a Medium? "
+              "text": " travels 3? meters in a random direction (and doesn't seek enemies), spawning a Medium? "
             },
             {
               "text": "↑Large Stasis Crystal upon expiring.",
@@ -9278,7 +9278,7 @@
   },
   {
     "Name": "Jolting Feedback",
-    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑15? | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
+    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑15? | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
     "descriptions": {
       "en": [
         {
@@ -9427,6 +9427,22 @@
             },
             {
               "text": " | 9"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sidearm: ? "
+            },
+            {
+              "text": "↑9",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | 7"
             }
           ]
         },

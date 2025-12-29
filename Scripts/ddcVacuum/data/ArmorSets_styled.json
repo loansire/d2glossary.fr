@@ -105,13 +105,13 @@
               "text": ", or being affected by a "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Debuff",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Debuff will grant "
+              "text": " will grant "
             },
             {
               "text": "Speed Booster",
