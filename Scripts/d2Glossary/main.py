@@ -1,17 +1,109 @@
-import runpy
+"""
+main.py - Script principal pour la mise à jour du D2Glossary
+Orchestre l'exécution de tous les processus de mise à jour des données
+"""
+import sys
+from pathlib import Path
 
-scripts = [
-    "Process\\updateManifests",
-    "Process\\enrichArmorSet",
-    "Process\\updateVersion"
-]
+# Ajouter le dossier courant au path pour les imports
+sys.path.insert(0, str(Path(__file__).parent))
 
-for script in scripts:
-    print(f"\n{'=' * 50}")
-    print(f"Exécution de {script}.py...")
-    print('=' * 50)
+from Process.updateManifests import update_manifests
+from Process.enrichArmorSet import enrich_armor_sets
+from Process.updateVersion import update_version
+
+
+def print_header(title):
+    """Affiche un en-tête formaté"""
+    print("\n")
+    print("=" * 80)
+    print(f"  {title}")
+    print("=" * 80)
+
+
+def print_step(step_num, total_steps, description):
+    """Affiche l'étape en cours"""
+    print(f"\n[ÉTAPE {step_num}/{total_steps}] {description}")
+
+
+def main():
+    """Point d'entrée principal du script"""
+    print_header("🎮 D2GLOSSARY - MISE À JOUR DES DONNÉES")
+
+    total_steps = 3
+    current_step = 0
+    success = True
+
+    # === ÉTAPE 1 : Téléchargement des manifests ===
+    current_step += 1
+    print_step(current_step, total_steps, "Téléchargement des manifests Bungie")
 
     try:
-        runpy.run_path(f"{script}.py")
+        if not update_manifests():
+            print("\n❌ Échec du téléchargement des manifests")
+            success = False
     except Exception as e:
-        print(f"Erreur lors de l'exécution de {script}.py: {e}")
+        print(f"\n❌ Erreur lors du téléchargement des manifests: {e}")
+        success = False
+
+    if not success:
+        print_header("❌ ÉCHEC DE LA MISE À JOUR")
+        return False
+
+    # === ÉTAPE 2 : Enrichissement des données ===
+    current_step += 1
+    print_step(current_step, total_steps, "Enrichissement des données")
+
+    try:
+        if not enrich_armor_sets():
+            print("\n❌ Échec de l'enrichissement des données")
+            success = False
+    except Exception as e:
+        print(f"\n❌ Erreur lors de l'enrichissement: {e}")
+        success = False
+
+    if not success:
+        print_header("❌ ÉCHEC DE LA MISE À JOUR")
+        return False
+
+    # === ÉTAPE 3 : Mise à jour de la version ===
+    current_step += 1
+    print_step(current_step, total_steps, "Mise à jour de la version")
+
+    try:
+        if not update_version():
+            print("\n❌ Échec de la mise à jour de la version")
+            success = False
+    except Exception as e:
+        print(f"\n❌ Erreur lors de la mise à jour de la version: {e}")
+        success = False
+
+    # === RÉSULTAT FINAL ===
+    if success:
+        print_header("✅ MISE À JOUR TERMINÉE AVEC SUCCÈS")
+        print("\n📊 Résumé:")
+        print("   ✅ Manifests téléchargés et nettoyés")
+        print("   ✅ Données enrichies (sets d'armure et artefacts)")
+        print("   ✅ Version mise à jour")
+        print("\n💡 Les données sont maintenant disponibles dans le dossier 'data/'")
+    else:
+        print_header("❌ ÉCHEC DE LA MISE À JOUR")
+        print("\n⚠️  Certaines étapes ont échoué. Consultez les messages d'erreur ci-dessus.")
+
+    print("\n")
+    return success
+
+
+if __name__ == "__main__":
+    try:
+        success = main()
+        sys.exit(0 if success else 1)
+    except KeyboardInterrupt:
+        print("\n\n⚠️  Interruption par l'utilisateur")
+        sys.exit(130)
+    except Exception as e:
+        print(f"\n\n❌ Erreur fatale: {e}")
+        import traceback
+
+        traceback.print_exc()
+        sys.exit(1)

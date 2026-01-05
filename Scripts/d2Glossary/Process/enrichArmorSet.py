@@ -1,37 +1,50 @@
+"""
+enrichArmorSet.py - Enrichissement des données d'armures et artefacts
+"""
 import json
-import os
+from pathlib import Path
+import sys
 
-# Répertoires
-data_dir = "../../../data"
+# Ajouter le dossier parent au path pour les imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
-# Fichiers source
-setarmor_file = os.path.join(data_dir, "setarmor_definitions.json")
-sandboxperk_file = os.path.join(data_dir, "sandboxperk_definitions.json")
-item_file = os.path.join(data_dir, "item_definitions.json")
-artefact_file = os.path.join(data_dir, "artefact_definitions.json")
-
-# Fichiers de sortie
-enriched_setarmor_file = os.path.join(data_dir, "setarmor_definitions_enriched.json")
-enriched_artefact_file = os.path.join(data_dir, "artefact_definitions_enriched.json")
-
-# Charger les JSON
-with open(setarmor_file, "r", encoding="utf-8") as f:
-    setarmor_data = json.load(f)
-
-with open(sandboxperk_file, "r", encoding="utf-8") as f:
-    sandboxperk_data = json.load(f)
-
-with open(item_file, "r", encoding="utf-8") as f:
-    item_data = json.load(f)
-
-with open(artefact_file, "r", encoding="utf-8") as f:
-    artefact_data = json.load(f)
+from Utils.paths import (
+    SETARMOR_DEFINITIONS, SANDBOXPERK_DEFINITIONS,
+    ITEM_DEFINITIONS, ARTEFACT_DEFINITIONS,
+    SETARMOR_ENRICHED, ARTEFACT_ENRICHED,
+    get_relative_path
+)
 
 
-def enrich_setarmor(data):
-    for set_id, set_info in data.items():
+def load_json(file_path):
+    """Charge un fichier JSON"""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"❌ Fichier non trouvé: {get_relative_path(file_path)}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"❌ Erreur de parsing JSON: {get_relative_path(file_path)}: {e}")
+        return None
 
-        # 🔹 Enrichir les setPerks avec sandboxperk_definitions
+
+def save_json(data, file_path):
+    """Sauvegarde des données en JSON"""
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+        return True
+    except Exception as e:
+        print(f"❌ Erreur d'écriture: {get_relative_path(file_path)}: {e}")
+        return False
+
+
+def enrich_setarmor(setarmor_data, sandboxperk_data, item_data):
+    """Enrichit les données des sets d'armure"""
+    for set_id, set_info in setarmor_data.items():
+
+        # Enrichir les setPerks avec sandboxperk_definitions
         if "setPerks" in set_info:
             for perk in set_info["setPerks"]:
                 perk_hash = str(perk["sandboxPerkHash"])
@@ -43,7 +56,7 @@ def enrich_setarmor(data):
                         "icon": perk_def.get("icon", None),
                     }
 
-        # 🔹 Enrichir les setItems directement
+        # Enrichir les setItems directement
         if "setItems" in set_info:
             enriched_items = []
             for item_hash in set_info["setItems"]:
@@ -55,92 +68,112 @@ def enrich_setarmor(data):
                         "name": item_def.get("name", ""),
                         "icon": item_def.get("icon", None),
                     })
-            # ⚡ Remplace directement setItems par la version enrichie
             set_info["setItems"] = enriched_items
 
-    return data
+    return setarmor_data
 
 
-def enrich_artefact(data):
-    for artefact_id, artefact_info in data.items():
+def enrich_artefact(artefact_data, sandboxperk_data, item_data):
+    """Enrichit les données des artefacts"""
+    for artefact_id, artefact_info in artefact_data.items():
 
-        # 🔹 Enrichir les items de chaque tier
-        if "tiers" in artefact_info:
-            for tier in artefact_info["tiers"]:
-                if "items" in tier:
-                    enriched_items = []
-                    for item in tier["items"]:
-                        item_hash = item["itemHash"]
-                        item_hash_str = str(item_hash)
+        if "tiers" not in artefact_info:
+            continue
 
-                        # 🔍 Étape 1 : Chercher l'item dans DestinyInventoryItemDefinition
-                        if item_hash_str in item_data:
-                            item_def = item_data[item_hash_str]
+        for tier in artefact_info["tiers"]:
+            if "items" not in tier:
+                continue
 
-                            # 🔍 Étape 2 : Chercher les perks dans l'item
-                            if "perks" in item_def:
-                                for perk in item_def["perks"]:
-                                    perk_hash = str(perk.get("perkHash", ""))
+            enriched_items = []
+            for item in tier["items"]:
+                item_hash = item["itemHash"]
+                item_hash_str = str(item_hash)
 
-                                    # 🔍 Étape 3 : Chercher le perk dans DestinySandboxPerkDefinition
-                                    if perk_hash in sandboxperk_data:
-                                        perk_def = sandboxperk_data[perk_hash].get("displayProperties", {})
+                enriched_item = {
+                    "itemHash": item_hash,
+                    "perkHash": None,
+                    "name": "",
+                    "description": "",
+                    "icon": None,
+                }
 
-                                        # ✅ On a trouvé une correspondance, on enrichit
-                                        enriched_items.append({
-                                            "itemHash": item_hash,
-                                            "perkHash": perk_hash,
-                                            "name": perk_def.get("name", ""),
-                                            "description": perk_def.get("description", ""),
-                                            "icon": perk_def.get("icon", None),
-                                        })
-                                        # On ne prend que le premier perk trouvé
-                                        break
-                                else:
-                                    # Aucun perk trouvé dans sandboxperk_data
-                                    enriched_items.append({
-                                        "itemHash": item_hash,
-                                        "perkHash": None,
-                                        "name": "",
-                                        "description": "",
-                                        "icon": None,
-                                    })
-                            else:
-                                # Pas de perks dans l'item
-                                enriched_items.append({
-                                    "itemHash": item_hash,
-                                    "perkHash": None,
-                                    "name": "",
-                                    "description": "",
-                                    "icon": None,
+                # Chercher l'item dans DestinyInventoryItemDefinition
+                if item_hash_str in item_data:
+                    item_def = item_data[item_hash_str]
+
+                    # Chercher les perks dans l'item
+                    if "perks" in item_def:
+                        for perk in item_def["perks"]:
+                            perk_hash = str(perk.get("perkHash", ""))
+
+                            # Chercher le perk dans DestinySandboxPerkDefinition
+                            if perk_hash in sandboxperk_data:
+                                perk_def = sandboxperk_data[perk_hash].get("displayProperties", {})
+                                enriched_item.update({
+                                    "perkHash": perk_hash,
+                                    "name": perk_def.get("name", ""),
+                                    "description": perk_def.get("description", ""),
+                                    "icon": perk_def.get("icon", None),
                                 })
-                        else:
-                            # Item non trouvé dans item_data
-                            enriched_items.append({
-                                "itemHash": item_hash,
-                                "perkHash": None,
-                                "name": "",
-                                "description": "",
-                                "icon": None,
-                            })
+                                break  # Ne prendre que le premier perk
 
-                    # ⚡ Remplace directement items par la version enrichie
-                    tier["items"] = enriched_items
+                enriched_items.append(enriched_item)
 
-    return data
+            tier["items"] = enriched_items
+
+    return artefact_data
 
 
-# Enrichir les données
-enriched_setarmor = enrich_setarmor(setarmor_data)
-enriched_artefact = enrich_artefact(artefact_data)
+def enrich_armor_sets():
+    """Point d'entrée principal pour l'enrichissement"""
+    print("=" * 60)
+    print("🔧 ENRICHISSEMENT DES DONNÉES")
+    print("=" * 60)
 
-# Sauvegarder
-with open(enriched_setarmor_file, "w", encoding="utf-8") as f:
-    json.dump(enriched_setarmor, f, ensure_ascii=False)
+    # Charger les données sources
+    print("📥 Chargement des données sources...")
+    setarmor_data = load_json(SETARMOR_DEFINITIONS)
+    sandboxperk_data = load_json(SANDBOXPERK_DEFINITIONS)
+    item_data = load_json(ITEM_DEFINITIONS)
+    artefact_data = load_json(ARTEFACT_DEFINITIONS)
 
-with open(enriched_artefact_file, "w", encoding="utf-8") as f:
-    json.dump(enriched_artefact, f, ensure_ascii=False)
+    if not all([setarmor_data, sandboxperk_data, item_data, artefact_data]):
+        print("❌ Impossible de charger toutes les données sources")
+        return False
 
-print(f"✅ Enrichissement terminé.")
-print(f"   - SetArmor: {enriched_setarmor_file}")
-print(f"   - Artefact: {enriched_artefact_file}")
+    print("✅ Données sources chargées")
+    print()
+
+    # Enrichir les sets d'armure
+    print("⚙️  Enrichissement des sets d'armure...")
+    enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data)
+
+    if save_json(enriched_setarmor, SETARMOR_ENRICHED):
+        print(f"✅ Sets enrichis: {get_relative_path(SETARMOR_ENRICHED)}")
+    else:
+        print("❌ Échec de l'enrichissement des sets")
+        return False
+
+    print()
+
+    # Enrichir les artefacts
+    print("⚙️  Enrichissement des artefacts...")
+    enriched_artefact = enrich_artefact(artefact_data, sandboxperk_data, item_data)
+
+    if save_json(enriched_artefact, ARTEFACT_ENRICHED):
+        print(f"✅ Artefacts enrichis: {get_relative_path(ARTEFACT_ENRICHED)}")
+    else:
+        print("❌ Échec de l'enrichissement des artefacts")
+        return False
+
+    print()
+    print("=" * 60)
+    print("✅ ENRICHISSEMENT TERMINÉ")
+    print("=" * 60)
+
+    return True
+
+
+if __name__ == "__main__":
+    success = enrich_armor_sets()
+    sys.exit(0 if success else 1)
