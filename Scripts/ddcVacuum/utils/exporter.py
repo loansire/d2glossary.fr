@@ -55,6 +55,9 @@ def generate_html(data: dict[str, list[dict]], filepath: str) -> None:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D2 Glossary</title>
+    <link rel="stylesheet" href="../../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../../assets/css/components.css">
+    <link rel="stylesheet" href="../../../assets/css/d2elementstyles.css">
     <style>
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -107,7 +110,6 @@ def generate_html(data: dict[str, list[dict]], filepath: str) -> None:
             font-size: 0.9em;
             margin-left: 10px;
         }}
-        {CSS_STYLES}
     </style>
 </head>
 <body>
