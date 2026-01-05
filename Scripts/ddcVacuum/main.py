@@ -3,7 +3,7 @@ import sys
 from utils.config import SHEETS, OUTPUT_DIR
 from utils.fetcher import fetch_sheet
 from utils.stylizer import stylize_records
-from utils.exporter import save_json, save_css, generate_html
+from utils.exporter import save_json, generate_html
 
 
 def confirm_configuration():
@@ -61,13 +61,11 @@ def main():
 
     save_json(all_raw, f"{OUTPUT_DIR}/all_data.json")
     save_json(all_styled, f"{OUTPUT_DIR}/all_data_styled.json")
-    save_css(f"{OUTPUT_DIR}/styles.css")
     generate_html(all_styled, f"{OUTPUT_DIR}/preview.html")
 
     print(f"\n✅ Export terminé!")
     print(f"   📁 {OUTPUT_DIR}/all_data.json")
     print(f"   📁 {OUTPUT_DIR}/all_data_styled.json")
-    print(f"   📁 {OUTPUT_DIR}/styles.css")
     print(f"   📁 {OUTPUT_DIR}/preview.html")
 
 

@@ -5,43 +5,6 @@ Produces JSON output matching D2Clarity's linesContent structure
 import re
 from typing import Any
 
-# =============================================================================
-# CLARITY CLASS NAMES - Match exactly what Clarity uses
-# =============================================================================
-
-CLARITY_CLASSES = {
-    # Elements / Subclasses
-    "solar": "solar",
-    "arc": "arc",
-    "void": "void",
-    "stasis": "stasis",
-    "strand": "strand",
-
-    # Game modes
-    "pve": "pve",
-    "pvp": "pvp",
-
-    # Special formatting
-    "spacer": "spacer",
-    "link": "link",
-    "title": "title",
-
-    # Ammo types
-    "primary": "primary",
-    "special": "special",
-    "heavy": "heavy",
-
-    # Champions
-    "barrier": "barrier",
-    "overload": "overload",
-    "unstoppable": "unstoppable",
-
-    # Enhanced perks
-    "enhancedArrow": "enhancedArrow",
-
-    # Custom additions (not in original Clarity but useful)
-    "yellow": "yellow",  # For exotic names
-}
 
 # =============================================================================
 # PATTERN DEFINITIONS - Order matters for application priority
@@ -147,6 +110,7 @@ STYLES_ORDER = [
     "special_ammo",
     "heavy_ammo",
 ]
+
 
 # =============================================================================
 # CLARITY JSON CONVERTER
@@ -341,50 +305,6 @@ def records_to_clarity_json(records: list[dict], hash_key: str = "Hash") -> dict
         result.update(clarity_record)
 
     return result
-
-
-# =============================================================================
-# CSS STYLES (for HTML preview)
-# =============================================================================
-
-CSS_STYLES = """
-:root {
-    --color-solar: #ff6b35;
-    --color-arc: #7ec8e3;
-    --color-void: #b388ff;
-    --color-stasis: #4fc3f7;
-    --color-strand: #66bb6a;
-    --color-pve: #74c0fc;
-    --color-pvp: #ff6b6b;
-    --color-primary: #c8c8c8;
-    --color-special: #7cfc00;
-    --color-heavy: #9370db;
-    --color-barrier: #ff4081;
-    --color-overload: #00bcd4;
-    --color-unstoppable: #ff9800;
-    --color-enhanced: #ffd700;
-    --color-yellow: #ffd43b;
-}
-
-.solar { color: var(--color-solar); font-weight: 500; }
-.arc { color: var(--color-arc); font-weight: 500; }
-.void { color: var(--color-void); font-weight: 500; }
-.stasis { color: var(--color-stasis); font-weight: 500; }
-.strand { color: var(--color-strand); font-weight: 500; }
-.pve { color: var(--color-pve); }
-.pvp { color: var(--color-pvp); }
-.primary { color: var(--color-primary); }
-.special { color: var(--color-special); }
-.heavy { color: var(--color-heavy); }
-.barrier { color: var(--color-barrier); font-weight: bold; }
-.overload { color: var(--color-overload); font-weight: bold; }
-.unstoppable { color: var(--color-unstoppable); font-weight: bold; }
-.enhancedArrow { color: var(--color-enhanced); font-weight: bold; }
-.yellow { color: var(--color-yellow); }
-.spacer { display: block; height: 0.5em; }
-.link { color: #74c0fc; text-decoration: underline; cursor: pointer; }
-.title { border-bottom: 1px dotted currentColor; cursor: help; }
-"""
 
 
 # =============================================================================

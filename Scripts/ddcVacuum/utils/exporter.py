@@ -1,17 +1,10 @@
 import json
-from utils.styles import CSS_STYLES
 
 
 def save_json(data: any, filepath: str) -> None:
     """Sauvegarde des données en JSON"""
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
-
-def save_css(filepath: str) -> None:
-    """Sauvegarde le CSS"""
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(CSS_STYLES)
 
 
 def clarity_to_html(clarity_content: list[dict]) -> str:
