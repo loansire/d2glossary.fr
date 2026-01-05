@@ -76,7 +76,7 @@
     "Description": "4 Piece | Cauterize\n\nUpon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP."
   },
   {
-    "Name": "New Demonic\n\nTrials",
+    "Name": "New Demotic\n\nTrials",
     "Description": "2 Piece | Paroli\n\nUpon sliding:\n?% Flinch Resist for ? seconds."
   },
   {
@@ -85,7 +85,7 @@
   },
   {
     "Name": "Sage Protector\n\nEquilibrium \nDungeon",
-    "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 5?% Grenade and 5?% Class Energy. \nDoubled to 10?% Grenade and 10?% Class Energy while Blade Focus is active."
+    "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active."
   },
   {
     "Name": NaN,

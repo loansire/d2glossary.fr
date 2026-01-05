@@ -13,7 +13,7 @@
   },
   {
     "Name": "Alacrity\n\nTrials of Osiris\nRitual",
-    "Description": "While 1 ally is dead:\n+? Range, +? Stability, +? Reload Speed, and +? Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist."
+    "Description": "While 1 ally is dead:\n+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist."
   },
   {
     "Name": "Ambush\n\nSeason of the Seraph",
@@ -44,8 +44,8 @@
     "Description": "Grants a stack of Collective Purpose per ally within 15 meters.\n\nCollective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack.\n+? | +? | +? | +? | +? Range\n+5? | +15 | +20? | +? | +? Handling\n0.97x | 0.95x | 0.925x | +? | +? Draw Time Multiplier\n+5 | +10 | +15 | +? | +? Charge Rate"
   },
   {
-    "Name": "Contending Cascade\n\nReclamation Crossbow",
-    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of ? ↑? stacks.\nRenames to Crowning Cascade upon reaching 15 ↑? stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to ? rapid kills."
+    "Name": "Contending Cascade\n\nCall To Arms\nEvent",
+    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills."
   },
   {
     "Name": "Crossing Over\n\nProphecy Reprises\r\nDungeon",
@@ -81,7 +81,7 @@
   },
   {
     "Name": "Exhaustive Research\n\nKepler\nDestination\n",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 1 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5? second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?"
+    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?"
   },
   {
     "Name": "Explosive Pact\n\nLast Wish Reprises\nRaid",
@@ -144,6 +144,10 @@
     "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds.\nNadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nSidearms = Reach maximum stacks after 5 shots.\n+? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n+? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% Accuracy Cone Size\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity"
   },
   {
+    "Name": "Nail, Meet Hammer\n\nSeason of Renegades\nEvents",
+    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons."
+  },
+  {
     "Name": "Nano-Munitions\n\nSeason of the Wish\r\nUndying Reprises",
     "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% per stack consumed."
   },
@@ -173,7 +177,7 @@
   },
   {
     "Name": "Problem Solver\n\nPinnacle Ops\nPortal Playlist",
-    "Description": "Upon scoring multiple direct hits within ? seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds."
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds."
   },
   {
     "Name": "Psychohack\n\nThrone World\nDestination",

@@ -42,7 +42,7 @@
     },
     {
       "Name": "Ancillary Ordinance",
-      "Description": "Upon scoring 3 Elemental Kills within ? seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of ? ↑5 stacks.\nKills can be scored through any means. \nScoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with Unravel or Scorching Rounds!\n\nUpon scoring a Weapon Kill while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing 330 (At least the Auto Rifle) [100] Kinetic Damage over a tiny radius.\n\n↑Increases the maximum amount of stored micro-missiles to 5."
+      "Description": "Upon scoring 3 Elemental Kills within 4 seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of ? ↑5 stacks.\nKills can be scored through any means. \nScoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with Unravel or Scorching Rounds!\n\nUpon scoring a Weapon Kill while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing 330 (At least the Auto Rifle) [100] Kinetic Damage over a tiny radius.\n\n↑Increases the maximum amount of stored micro-missiles to 5."
     },
     {
       "Name": "Ambitious Assassin",
@@ -90,7 +90,7 @@
     },
     {
       "Name": "Bewildering Burst",
-      "Description": "Upon finishing a reload within ? seconds of a Kill:\nGrants Bewildering Burst for 6 ↑7 seconds.\n\nThe next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after 0.85 seconds.\nFlashbang deals 10 [~2.5] Kinetic Damage and inflicts disorient to enemies within 9 meters for 3.5 ↑? [1 ↑1.25] seconds.\nBuff persists through stow.\n\n↑Buff Duration is increased to 7 seconds."
+      "Description": "Upon finishing a reload within ? seconds of a Kill:\nGrants Bewildering Burst for 6 ↑7 seconds.\n\nThe next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after 0.85 seconds.\nFlashbang deals 10 [4] Kinetic Damage and inflicts disorient to enemies within 10 meters for 3.5 ↑? [1 ↑1.25] seconds.\nBuff persists through stow.\n\n↑Buff Duration is increased to 7 seconds."
     },
     {
       "Name": "Binary Orbit",
@@ -182,11 +182,11 @@
     },
     {
       "Name": "Collective Action",
-      "Description": "On Subclass-Pickup Interaction:\n20% [10%] increased damage for 7 ↑8 seconds.\nAdditional pickups increase the duration by 7 seconds, up to 12 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nSubclass Pickups: Firesprites, Void Breaches, Stasis Shards, Ionic Traces, and Tangles. Elemental Orbs from Artifact Perks.\n\n↑Initial buff duration is increased to 8 seconds."
+      "Description": "On Subclass-Pickup Interaction:\n20% [10%] increased damage for 7 ↑8 seconds.\nAdditional pickups increase the duration by 7 seconds, up to 12 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n\n↑Initial buff duration is increased to 8 seconds."
     },
     {
       "Name": "Collective Pugilism",
-      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy for 8 seconds.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\n\nMelee Ability Gains:\nSMG: 2%?\nBow: ?%\nSidearm: ?%\nShotgun: ?%\nRocket Launcher: ?%\n\nSubclass Pickups: Firesprites, Void Breaches, Stasis Shards, Ionic Traces, and Tangles. Elemental Orbs from Artifact Perks.\n\n↑Grants increased Melee Ability Energy."
+      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.45% ↑0.5%\nBurst Sidearm: 0.7% ↑0.77%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.1% ↑2.3%\nScout: 3% ↑3.3%\nRocket Launcher: 11.55% ↑12.7%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Melee Ability Energy."
     },
     {
       "Name": "Compulsive Reloader",
@@ -242,7 +242,7 @@
     },
     {
       "Name": "Destabilizing Rounds",
-      "Description": "On Weapon Kill:\nTarget triggers a Void Burst, inflicting Volatile to enemies within 7 metres.\nGrants Volatile Rounds for 4.5 ↑5.25 seconds.\nIncurs a 1.5 second cooldown upon activating.\n\n↑Volatile Rounds duration is increased to 5.25 seconds."
+      "Description": "On Weapon Kill:\nTarget triggers a Void Burst, inflicting Volatile to enemies within 7 metres.\nGrants Volatile Rounds for 3 ↑4.5 seconds.\nIncurs a 1.5 second cooldown upon activating.\n\n↑Volatile Rounds duration is increased to 4.5 seconds."
     },
     {
       "Name": "Detonator Beam",
@@ -314,7 +314,7 @@
     },
     {
       "Name": "Ensemble",
-      "Description": "While an ally is within 15 metres:\n+30 ↑+35? Handling and +40 ↑+45? Reload Speed.\nBuff lingers for 1.5 seconds once criteria isn't met.\n\n↑Stronger Effect. 35? Handling and 45? Reload Speed."
+      "Description": "While an ally is within 15 metres:\n+30 ↑+35 Handling and +40 ↑+45 Reload Speed.\nBuff lingers for 1.5 seconds once criteria isn't met.\n\n↑Stronger Effect. +35 Handling and +45 Reload Speed."
     },
     {
       "Name": "Envious Assassin",
@@ -350,7 +350,7 @@
     },
     {
       "Name": "Firefly",
-      "Description": "On Precision Kill:\nTarget explodes, dealing up to 104 [80] Solar Damage in a 7.5 metre radius, and grants +50 +55? Reload Speed for 6 seconds. \nReload Buff persists through stow. Damage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\n↑Reload Buff is increased to +55? Reload Speed."
+      "Description": "On Precision Kill:\nTarget explodes, dealing up to 104 [80] Solar Damage in a 7.5 metre radius, and grants +50 +55 Reload Speed for 6 seconds. \nReload Buff persists through stow. Damage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\n↑Reload Buff is increased to +55 Reload Speed."
     },
     {
       "Name": "Firing Line",
@@ -362,7 +362,7 @@
     },
     {
       "Name": "Flash Counter",
-      "Description": "Upon receiving damage while guarding:\nTriggers a Frontal Blast, dealing up to 110 [?] Weapon-Matching Damage and disorienting Combatants in a large cone up to ~8? meters away for 5 ↑6 seconds.\nDamage scales from 75 [14] at point-blank, up to 110 [45] at ? meters. Concussion strength against Guardians scale similarly with distance.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\nIncurs a 2.25 second cooldown between activations.\n\n↑Disorient duration is increased to 6 seconds."
+      "Description": "Upon receiving damage while guarding:\nTriggers a Frontal Blast, dealing up to 110 [?] Weapon-Matching Damage and disorienting Combatants in a large cone up to ~8? meters away for 5 ↑6 seconds.\nDamage scales from 75 [14] at point-blank, up to 110 [45] at ? meters. Concussion strength against Guardians scale similarly with distance.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\nIncurs a 2.5 second cooldown between activations.\n\n↑Disorient duration is increased to 6 seconds."
     },
     {
       "Name": "Focused Fury",
@@ -426,7 +426,7 @@
     },
     {
       "Name": "Heal Clip",
-      "Description": "Upon finishing a reload within 5.3? ↑? seconds of a Kill:\nGrants x2 Cure.\nAllies within 15? metres receive x1 Cure.\n\n↑Reload Window is increased to ? seconds."
+      "Description": "Upon finishing a reload within 5.3? ↑? seconds of a Kill:\nGrants x2 Cure.\nAllies within 15 metres receive x1 Cure.\n\n↑Reload Window is increased to ? seconds."
     },
     {
       "Name": "Heating Up",
@@ -458,7 +458,7 @@
     },
     {
       "Name": "Impromptu Ammunition",
-      "Description": "On Weapon Kill:\nGrants 1.15x Ammo Generation Multiplier for ? ↑? seconds.\nAmmo Generation Multiplier is additive to Ammo Finder Multipliers.\n\n↑Buff duration is increased to ? seconds."
+      "Description": "On Weapon Kill:\nGrants 1.15x Special Ammo Progress and 1.1x Power Ammo Progress for 5 ↑5.5 seconds.\nScoring additional Weapon Kills extend the buff duration to 7 ↑7.5 seconds.\nAmmo Generation Multiplier is additive to Ammo Finder Multipliers.\n\n↑Buff duration is increased."
     },
     {
       "Name": "Impulse Amplifier",
@@ -914,7 +914,7 @@
     },
     {
       "Name": "Under-Over",
-      "Description": "Passively increases damage against shielded enemies.\nDoes not increase the damage of Explosive Damage Perks.\n\n50% ↑55% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n125% ↑140% Increased Damage against Combatant Overshields.\n\n20% ↑?% Increased Damage against Guardian Overshields.\n20% ↑?% Increased Bodyshot Damage against Guardians with Woven Mail.\n\n↑Further increased damage to Shields and Overshields."
+      "Description": "Passively increases damage against shielded enemies.\nDoes not increase the damage of Explosive Damage Perks.\n\n50% ↑55% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n125% ↑140% Increased Damage against Combatant Overshields.\n\n20% ↑22% Increased Damage against Guardian Overshields.\n20% ↑22% Increased Bodyshot Damage against Guardians with Woven Mail.\n\n↑Further increased damage to Shields and Overshields."
     },
     {
       "Name": "Unrelenting",
@@ -926,7 +926,7 @@
     },
     {
       "Name": "Valiant Charge",
-      "Description": "Upon guarding against a hit...or receiving healing from an ally while guarding?:\n80% Increased Lunge Distance for the next swing within 1 second.\nGuarding against additional hits refreshes the buff duration.\n\n↑Buff Duration is increased to ? seconds."
+      "Description": "Upon guarding against a hit...or receiving healing from an ally while guarding?:\n80% Increased Lunge Distance for the next swing within 1 ↑1.5 second.\nGuarding against additional hits refreshes the buff duration.\n\n↑Buff Duration is increased to 1.5 seconds."
     },
     {
       "Name": "Voltshot",
@@ -1390,7 +1390,7 @@
     },
     {
       "Name": "Alacrity\n\nTrials of Osiris\nRitual",
-      "Description": "While 1 ally is dead:\n+? Range, +? Stability, +? Reload Speed, and +? Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist."
+      "Description": "While 1 ally is dead:\n+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist."
     },
     {
       "Name": "Ambush\n\nSeason of the Seraph",
@@ -1421,8 +1421,8 @@
       "Description": "Grants a stack of Collective Purpose per ally within 15 meters.\n\nCollective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack.\n+? | +? | +? | +? | +? Range\n+5? | +15 | +20? | +? | +? Handling\n0.97x | 0.95x | 0.925x | +? | +? Draw Time Multiplier\n+5 | +10 | +15 | +? | +? Charge Rate"
     },
     {
-      "Name": "Contending Cascade\n\nReclamation Crossbow",
-      "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of ? ↑? stacks.\nRenames to Crowning Cascade upon reaching 15 ↑? stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to ? rapid kills."
+      "Name": "Contending Cascade\n\nCall To Arms\nEvent",
+      "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills."
     },
     {
       "Name": "Crossing Over\n\nProphecy Reprises\r\nDungeon",
@@ -1458,7 +1458,7 @@
     },
     {
       "Name": "Exhaustive Research\n\nKepler\nDestination\n",
-      "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 1 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5? second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?"
+      "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?"
     },
     {
       "Name": "Explosive Pact\n\nLast Wish Reprises\nRaid",
@@ -1521,6 +1521,10 @@
       "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds.\nNadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nSidearms = Reach maximum stacks after 5 shots.\n+? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n+? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% Accuracy Cone Size\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity"
     },
     {
+      "Name": "Nail, Meet Hammer\n\nSeason of Renegades\nEvents",
+      "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons."
+    },
+    {
       "Name": "Nano-Munitions\n\nSeason of the Wish\r\nUndying Reprises",
       "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% per stack consumed."
     },
@@ -1550,7 +1554,7 @@
     },
     {
       "Name": "Problem Solver\n\nPinnacle Ops\nPortal Playlist",
-      "Description": "Upon scoring multiple direct hits within ? seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds."
+      "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds."
     },
     {
       "Name": "Psychohack\n\nThrone World\nDestination",
@@ -1731,7 +1735,7 @@
       "Description": "4 Piece | Cauterize\n\nUpon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP."
     },
     {
-      "Name": "New Demonic\n\nTrials",
+      "Name": "New Demotic\n\nTrials",
       "Description": "2 Piece | Paroli\n\nUpon sliding:\n?% Flinch Resist for ? seconds."
     },
     {
@@ -1740,7 +1744,7 @@
     },
     {
       "Name": "Sage Protector\n\nEquilibrium \nDungeon",
-      "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 5?% Grenade and 5?% Class Energy. \nDoubled to 10?% Grenade and 10?% Class Energy while Blade Focus is active."
+      "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active."
     },
     {
       "Name": NaN,

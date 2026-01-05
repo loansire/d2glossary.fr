@@ -194,7 +194,7 @@
   },
   {
     "Name": "Alacrity\n\nTrials of Osiris\nRitual",
-    "Description": "While 1 ally is dead:\n+? Range, +? Stability, +? Reload Speed, and +? Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist.",
+    "Description": "While 1 ally is dead:\n+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist.",
     "descriptions": {
       "en": [
         {
@@ -207,7 +207,7 @@
         {
           "linesContent": [
             {
-              "text": "+? Range, +? Stability, +? Reload Speed, and +? Aim Assist."
+              "text": "+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist."
             }
           ]
         },
@@ -684,17 +684,17 @@
     }
   },
   {
-    "Name": "Contending Cascade\n\nReclamation Crossbow",
-    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of ? ↑? stacks.\nRenames to Crowning Cascade upon reaching 15 ↑? stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to ? rapid kills.",
+    "Name": "Contending Cascade\n\nCall To Arms\nEvent",
+    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of ? "
+              "text": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
             },
             {
-              "text": "↑?",
+              "text": "↑12",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -710,7 +710,7 @@
               "text": "Renames to Crowning Cascade upon reaching 15 "
             },
             {
-              "text": "↑?",
+              "text": "↑12",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -763,7 +763,7 @@
         {
           "linesContent": [
             {
-              "text": "↑The requirement to be impressed is lowered to ? rapid kills.",
+              "text": "↑The requirement to be impressed is lowered to 12 rapid kills.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1185,7 +1185,7 @@
   },
   {
     "Name": "Exhaustive Research\n\nKepler\nDestination\n",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 1 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5? second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
     "descriptions": {
       "en": [
         {
@@ -1198,7 +1198,7 @@
         {
           "linesContent": [
             {
-              "text": "Loads up a Micro-Rocket over 1 seconds."
+              "text": "Loads up a Micro-Rocket over 0.6 seconds."
             }
           ]
         },
@@ -1226,7 +1226,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 5? second cooldown after firing a missile before it is able to load another rocket."
+              "text": "Incurs a 5.5 second cooldown after firing a missile before it is able to load another rocket."
             }
           ]
         },
@@ -2320,6 +2320,76 @@
     }
   },
   {
+    "Name": "Nail, Meet Hammer\n\nSeason of Renegades\nEvents",
+    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants ?% increased damage towards Combatant Shields."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.?x "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress Multiplier for "
+            },
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Power Weapons",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.?x Power Ammo Progress Multiplier for "
+            },
+            {
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Nano-Munitions\n\nSeason of the Wish\r\nUndying Reprises",
     "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% per stack consumed.",
     "descriptions": {
@@ -2807,13 +2877,13 @@
   },
   {
     "Name": "Problem Solver\n\nPinnacle Ops\nPortal Playlist",
-    "Description": "Upon scoring multiple direct hits within ? seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "Upon scoring multiple direct hits within ? seconds of each against a Champion, Miniboss, or Boss Combatant:"
+              "text": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:"
             }
           ]
         },
