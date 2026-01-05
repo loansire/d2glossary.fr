@@ -100,7 +100,12 @@ export function openPopupItem(id, item) {
   iconEl.alt = `d2glossary - ${props.name}`;
   nameEl.textContent = props.name;
 
-  const finalDescription = parseKeywords(processDescription(props.description));
+  // Détecter la langue et traiter la description
+  const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+  const finalDescription = parseKeywords(
+    processDescription(props.description),
+    currentLang
+  );
   descEl.innerHTML = finalDescription;
 
   // Charger les données Clarity depuis le cache mémoire (déjà préchargé)

@@ -250,8 +250,13 @@ export async function loadArtefactPage({
   // Tooltip functions
   function showTooltip(e) {
     const el = e.currentTarget;
+    const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+
     tooltipName.textContent = el.dataset.name;
-    tooltipDescription.innerHTML = parseKeywords(processDescription(el.dataset.description));
+    tooltipDescription.innerHTML = parseKeywords(
+      processDescription(el.dataset.description),
+      currentLang
+    );
     tooltipIcon.src = el.dataset.icon;
     tooltip.classList.add('visible');
     moveTooltip(e);

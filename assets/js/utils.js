@@ -1,5 +1,8 @@
 /* utils.js - Fonctions utilitaires partagées */
 
+// Importer les définitions de mots-clés
+import { getReplacements } from './keywordReplacements.js';
+
 // === CONSTANTS ===
 export const BUNGIE_BASE_URL = 'https://www.bungie.net';
 
@@ -108,31 +111,22 @@ export function boldPatterns(text) {
 
 /**
  * Parse les mots-clés Destiny 2 et les remplace par des icônes
+ * @param {string} text - Texte à traiter
+ * @param {string} lang - Langue ('fr' ou 'en')
+ * @returns {string} Texte avec icônes
  */
-export function parseKeywords(text) {
+export function parseKeywords(text, lang = null) {
   if (!text) return '';
 
-  const replacements = {
-    'Solaire': 'solar',
-    'Filobscur': 'strand',
-    'Chancellement': 'unstoppable',
-    'Perforation de bouclier': 'barrier',
-    'Perturbation': 'overload',
-    'Stase': 'stasis',
-    'Abyssal': 'void',
-    'Cryo-électrique': 'arc',
-    'Primaire': 'primary',
-    'Spéciale': 'special',
-    'Lourde': 'heavy',
-    'PVE': 'pve',
-    'PVP': 'pvp',
-    'Chasseur': 'hunter',
-    'Arcaniste': 'warlock',
-    'Titan': 'titan'
-  };
+  // Détecter la langue si non fournie
+  if (!lang) {
+    lang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+  }
+
+  const replacements = getReplacements(lang);
 
   for (const [key, className] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'g');
+    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'gi'); // Ajout du flag 'i' pour insensible à la casse
     text = text.replace(
       regex,
       `<span class="icon-word"><span class="${className}"></span>&nbsp;$2</span>`
