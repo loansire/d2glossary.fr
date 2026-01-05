@@ -25129,7 +25129,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
       "descriptions": {
         "en": [
@@ -25243,7 +25242,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Reactive Shock\n\nWhile Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within ? meters for ? seconds.\nCan only trigger once per Reactive Shock activation.",
       "descriptions": {
         "en": [
@@ -25318,7 +25316,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Unfaltering Focus\n\nOn Bow, Shotgun, or Sword Kill:\nGrants Resist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
       "descriptions": {
         "en": [
@@ -25434,7 +25431,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Doppler Efect\n\nSolar Buffs applied to the user and Strand Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer.",
       "descriptions": {
         "en": [
@@ -25569,7 +25565,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Magnificent Duty\n\nUpon reaching Critical Health or healing an ally at Critical Health:\n\nFor Auto Rifles, Scout Rifles, and Sidearms:\n+20 Range, +20 Stability, +30 Reload Speed, and 0.9x Reload Duration Multiplier for 11 seconds.\n\nUsing a Support Frame Auto to heal a Critical Health Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie?",
       "descriptions": {
         "en": [
@@ -25670,7 +25665,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Hot Shot\n\nWhile Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
       "descriptions": {
         "en": [
@@ -25813,7 +25807,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Iron Conviction\n\nUpon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching Critical Health for ? seconds upon triggering.",
       "descriptions": {
         "en": [
@@ -25930,7 +25923,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Power Loader\n\nUpon picking up an Orb of Power:\nGrants 6% Special Ammo Progress.",
       "descriptions": {
         "en": [
@@ -26032,7 +26024,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Cauterize\n\nUpon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.",
       "descriptions": {
         "en": [
@@ -26109,7 +26100,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Martingale\n\nOn Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for ? seconds.\n",
       "descriptions": {
         "en": [
@@ -26184,7 +26174,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Blade Focus\n\nUpon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds.\nBlade Focus is removed upon guarding or stowing the sword.",
       "descriptions": {
         "en": [
@@ -26297,7 +26286,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Hot Shot\n\nWhile Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
       "descriptions": {
         "en": [
@@ -26391,7 +26379,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Too Old for This\n\nUpon finishing an Elite+ Combatant:\nGrants 16% Special Ammo Progress and restores 35 HP.",
       "descriptions": {
         "en": [
@@ -26468,7 +26455,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Stesso Tempo\n\nUpon blocking damage with a Glaive or a Sword:\n50% [10%] Damage Resist (Resist x4) for 3 seconds upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires.",
       "descriptions": {
         "en": [
@@ -26566,7 +26552,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Concussive Rounds\n\nUpon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
       "descriptions": {
         "en": [
@@ -26655,7 +26640,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Room Clearing\n\nUpon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +? Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
       "descriptions": {
         "en": [
@@ -26753,7 +26737,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Gift of Sight\n\nUpon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
       "descriptions": {
         "en": [
@@ -26846,7 +26829,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Superluminal Motion\n\nUpon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 17.5HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
       "descriptions": {
         "en": [
@@ -26928,7 +26910,6 @@
       }
     },
     {
-      "Name": NaN,
       "Description": "4 Piece | Suros Harmony\n\nUpon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
       "descriptions": {
         "en": [

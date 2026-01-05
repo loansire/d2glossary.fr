@@ -3,7 +3,7 @@ import sys
 from utils.config import SHEETS, OUTPUT_DIR
 from utils.fetcher import fetch_sheet
 from utils.stylizer import stylize_records
-from utils.exporter import save_json, generate_html
+from utils.exporter import save_json
 
 
 def confirm_configuration():
@@ -59,14 +59,13 @@ def main():
         except Exception as e:
             print(f"   ✗ Erreur: {e}")
 
+    # Sauvegarde des fichiers combinés
     save_json(all_raw, f"{OUTPUT_DIR}/all_data.json")
     save_json(all_styled, f"{OUTPUT_DIR}/all_data_styled.json")
-    generate_html(all_styled, f"{OUTPUT_DIR}/preview.html")
 
     print(f"\n✅ Export terminé!")
-    print(f"   📁 {OUTPUT_DIR}/all_data.json")
-    print(f"   📁 {OUTPUT_DIR}/all_data_styled.json")
-    print(f"   📁 {OUTPUT_DIR}/preview.html")
+    print(f"   📄 {OUTPUT_DIR}/all_data.json")
+    print(f"   📄 {OUTPUT_DIR}/all_data_styled.json")
 
 
 if __name__ == "__main__":
