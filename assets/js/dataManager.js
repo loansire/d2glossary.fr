@@ -260,15 +260,22 @@ async function fetchWithProgress(url, onProgress) {
 
 /**
  * Précharge les fichiers légers en arrière-plan
+ * @param {string} lang - Langue à précharger (par défaut: 'fr')
  */
-export async function preloadLightFiles() {
+export async function preloadLightFiles(lang = 'fr') {
   await checkVersion();
 
-  if (!currentVersion?.files?.light) return;
+  if (!currentVersion?.files?.languages?.[lang]) {
+    console.warn(`[DataManager] Langue ${lang} non trouvée dans version.json`);
+    return;
+  }
 
-  console.log('[DataManager] Préchargement des fichiers légers...');
+  const lightFiles = currentVersion.files.languages[lang].light;
+  if (!lightFiles?.length) return;
 
-  const promises = currentVersion.files.light.map(async (url) => {
+  console.log(`[DataManager] Préchargement des fichiers légers [${lang.toUpperCase()}]...`);
+
+  const promises = lightFiles.map(async (url) => {
     const isCached = await isInCache(url);
     if (!isCached) {
       console.log('[DataManager] Préchargement:', url);
@@ -281,7 +288,7 @@ export async function preloadLightFiles() {
   });
 
   await Promise.all(promises);
-  console.log('[DataManager] Préchargement terminé');
+  console.log(`[DataManager] Préchargement terminé [${lang.toUpperCase()}]`);
 }
 
 /**
@@ -303,5 +310,10 @@ window.D2DataManager = {
   getFromMemoryCache,
   preloadLightFiles,
   forceRefresh,
-  showLoader
+  showLoader,
+  getSupportedLanguages: () => {
+    return currentVersion?.files?.languages
+      ? Object.keys(currentVersion.files.languages)
+      : ['fr'];
+  }
 };

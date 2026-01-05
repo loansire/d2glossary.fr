@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/css/d2elementstyles.css">
   <link rel="stylesheet" href="assets/css/pagination.css">
   <link rel="stylesheet" href="assets/css/loader.css">
+  <link rel="stylesheet" href="assets/css/language-selector.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/css/popupitem.css">
   <link rel="stylesheet" href="assets/css/clarity-popup.css">
@@ -30,6 +31,9 @@
   <title>D2Glossary - Perks</title>
 </head>
 <body>
+  <!-- Sélecteur de langue -->
+  <div id="language-selector-container"></div>
+
   <div id="banniere-container"></div>
 
   <div class="search-box">
@@ -46,16 +50,20 @@
 
   <!-- JS - Charger dataManager avant tout -->
   <script type="module">
-    // Import dataManager en premier pour initialiser le cache
+    // Import dataManager et language
     import { checkVersion } from './assets/js/dataManager.js';
     import { loadItemListPage } from './assets/js/itemListPage.js';
+    import { initLanguageSystem } from './assets/js/languageSelector.js';
+
+    // Initialiser le système de langue
+    const lang = initLanguageSystem();
 
     // Vérifier la version avant de charger les données
     await checkVersion();
 
-    // Charger la page
+    // Charger la page avec les données de la langue active
     loadItemListPage({
-      dataFile: 'data/fr/item_definitions.json',
+      dataFile: `data/${lang}/item_definitions.json`,
       excludedIds: ["2962854089", "2823622571", "3196242660"],
       containerId: 'card-list',
       inputId: 'search',

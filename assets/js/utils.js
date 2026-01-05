@@ -6,6 +6,7 @@ export const BUNGIE_BASE_URL = 'https://www.bungie.net';
 // Fichiers lourds nécessitant un loader
 const HEAVY_FILES = [
   'data/fr/item_definitions.json',
+  'data/en/item_definitions.json',
   'data/clarity.json'
 ];
 
@@ -216,6 +217,25 @@ export function getBungieIconUrl(iconPath) {
   if (!iconPath) return '';
   if (iconPath.startsWith('http')) return iconPath;
   return BUNGIE_BASE_URL + iconPath;
+}
+
+// === LANGUAGE DETECTION ===
+
+/**
+ * Détecte la langue du navigateur
+ * @param {string[]} supportedLangs - Langues supportées
+ * @param {string} defaultLang - Langue par défaut
+ * @returns {string} Code de langue détecté
+ */
+export function detectLanguage(supportedLangs = ['fr', 'en'], defaultLang = 'fr') {
+  // Si le module languageSelector est chargé, l'utiliser
+  if (window.D2Language?.getCurrentLanguage) {
+    return window.D2Language.getCurrentLanguage();
+  }
+
+  // Sinon, détection classique
+  const browserLang = navigator.language.split('-')[0];
+  return supportedLangs.includes(browserLang) ? browserLang : defaultLang;
 }
 
 // === EVENT HELPERS ===

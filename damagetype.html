@@ -12,31 +12,27 @@
   <meta name="apple-mobile-web-app-title" content="D2Glossary" />
   <link rel="manifest" href="assets/src/ico/site.webmanifest" />
 
+  <!-- Preload ressources critiques -->
+  <link rel="preload" href="assets/fonts/NeueHaasDisplayRoman.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/src/ico/logo-d2glossaire.png" as="image">
+
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/d2elementstyles.css">
   <link rel="stylesheet" href="assets/css/pagination.css">
+  <link rel="stylesheet" href="assets/css/loader.css">
+  <link rel="stylesheet" href="assets/css/language-selector.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/css/popupitem.css">
   <link rel="stylesheet" href="assets/css/clarity-popup.css">
 
-  <!-- JS -->
-  <script type="module">
-    import { loadItemListPage } from './assets/js/itemListPage.js';
-
-    loadItemListPage({
-      dataFile: 'data/fr/damagetype_definitions.json',
-      excludedIds: [],
-      containerId: 'card-list',
-      inputId: 'search',
-      itemsPerPage: 50
-    });
-  </script>
-
   <title>D2Glossary - Dégâts</title>
 </head>
 <body>
+  <!-- Sélecteur de langue -->
+  <div id="language-selector-container"></div>
+
   <div id="banniere-container"></div>
 
   <div class="search-box">
@@ -50,5 +46,27 @@
   <div class="grid" id="card-list"></div>
 
   <div id="popupitem-container"></div>
+
+  <!-- JS -->
+  <script type="module">
+    import { checkVersion } from './assets/js/dataManager.js';
+    import { loadItemListPage } from './assets/js/itemListPage.js';
+    import { initLanguageSystem } from './assets/js/languageSelector.js';
+
+    // Initialiser le système de langue
+    const lang = initLanguageSystem();
+
+    // Vérifier la version avant de charger les données
+    await checkVersion();
+
+    // Charger la page avec les données de la langue active
+    loadItemListPage({
+      dataFile: `data/${lang}/damagetype_definitions.json`,
+      excludedIds: [],
+      containerId: 'card-list',
+      inputId: 'search',
+      itemsPerPage: 50
+    });
+  </script>
 </body>
 </html>
