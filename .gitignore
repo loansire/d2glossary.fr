@@ -1,5 +1,5 @@
 /.idea
 Scripts/__pycache__
-Scripts/ApiKey.py
-Scripts/ApiKey.py
+Scripts/d2Glossary/Utils/ApiKey.py
+Scripts/d2Glossary/Utils/ApiKey.py
 *.pyc

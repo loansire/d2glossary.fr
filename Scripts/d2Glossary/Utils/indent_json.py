@@ -10,4 +10,4 @@ def indent_json(input_file_path, output_file_path):
         json.dump(data, output_file, ensure_ascii=False)
 
 # Exemple d'utilisation
-indent_json(r'..\data\clarity.json', r'ddcVacuum\data\clarity.json')
+indent_json(r'../../../data/clarity.json', r'ddcVacuum\data\clarity.json')

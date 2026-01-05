@@ -2,7 +2,7 @@ import json
 import os
 
 # Répertoires
-data_dir = "../data"
+data_dir = "../../../data"
 
 # Fichiers source
 setarmor_file = os.path.join(data_dir, "setarmor_definitions.json")

@@ -2,7 +2,7 @@ import json
 import requests
 import os
 
-from Scripts.ApiKey import bungie_api
+from Scripts.d2Glossary.Utils.ApiKey import bungie_api
 
 HEADERS = {
     'X-API-Key': bungie_api
@@ -22,7 +22,7 @@ manifestlist = {
 }
 
 # Dossier de destination
-data_dir = '../data'
+data_dir = '../../../data'
 os.makedirs(data_dir, exist_ok=True)
 
 # Liste des clés à exclure

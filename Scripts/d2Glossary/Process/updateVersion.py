@@ -1,6 +1,6 @@
 """
 updateVersion.py - Met à jour la version dans version.json
-Exécute ce script après avoir mis à jour les fichiers JSON du manifest Bungie
+Exécuter ce script après avoir mis à jour les fichiers JSON du manifest Bungie
 """
 
 import json
@@ -8,7 +8,7 @@ from datetime import datetime
 import os
 
 # Chemin vers version.json (dans le dossier data)
-VERSION_FILE = '../data/version.json'
+VERSION_FILE = '../../../data/version.json'
 
 def update_version():
     # Lire le fichier actuel
@@ -47,5 +47,4 @@ def update_version():
     print(f"✅ Version mise à jour: {data['version']}")
     print(f"   Dernière MAJ: {data['lastUpdate']}")
 
-if __name__ == '__main__':
-    update_version()
+update_version()
