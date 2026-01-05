@@ -5,7 +5,7 @@ export const BUNGIE_BASE_URL = 'https://www.bungie.net';
 
 // Fichiers lourds nécessitant un loader
 const HEAVY_FILES = [
-  'data/item_definitions.json',
+  'data/fr/item_definitions.json',
   'data/clarity.json'
 ];
 

@@ -1,5 +1,5 @@
 """
-updateVersion.py - Mise à jour du fichier version.json
+updateVersion.py - Mise à jour du fichier version.json (multilingue)
 """
 import json
 from datetime import datetime
@@ -9,11 +9,11 @@ import sys
 # Ajouter le dossier parent au path pour les imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from Utils.paths import VERSION_FILE, VERSION_CONFIG, get_relative_path
+from Utils.paths import VERSION_FILE, get_version_config, get_relative_path
 
 
 def update_version():
-    """Met à jour le fichier version.json avec la date actuelle"""
+    """Met à jour le fichier version.json avec la date actuelle et la structure multilingue"""
     print("=" * 60)
     print("📝 MISE À JOUR DE LA VERSION")
     print("=" * 60)
@@ -35,7 +35,7 @@ def update_version():
     data.update({
         "version": now.strftime('%Y-%m-%d'),
         "lastUpdate": now.strftime('%Y-%m-%dT%H:%M:%SZ'),
-        "files": VERSION_CONFIG
+        "files": get_version_config()  # Configuration multilingue
     })
 
     # Sauvegarder
@@ -46,6 +46,13 @@ def update_version():
         print(f"✅ Version mise à jour: {data['version']}")
         print(f"   Dernière MAJ: {data['lastUpdate']}")
         print(f"   Fichier: {get_relative_path(VERSION_FILE)}")
+
+        # Afficher le nombre de langues configurées
+        num_langs = len(data['files']['languages'])
+        print(f"   Langues configurées: {num_langs}")
+        for lang in data['files']['languages'].keys():
+            print(f"      - {lang.upper()}")
+
         print("=" * 60)
         return True
 

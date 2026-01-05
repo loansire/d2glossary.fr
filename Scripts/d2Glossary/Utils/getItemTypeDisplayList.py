@@ -19,4 +19,4 @@ def afficher_item_type_display_name_avec_ids(fichier_json):
         print(f"{item_type}: {', '.join(ids)}")
 
 # Remplacez 'votre_fichier.json' par le chemin vers votre fichier JSON
-afficher_item_type_display_name_avec_ids('../../../data/item_definitions.json')
+afficher_item_type_display_name_avec_ids('../../../data/fr/item_definitions.json')

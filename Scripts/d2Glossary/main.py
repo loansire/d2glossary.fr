@@ -1,5 +1,5 @@
 """
-main.py - Script principal pour la mise à jour du D2Glossary
+main.py - Script principal pour la mise à jour du D2Glossary (multilingue)
 Orchestre l'exécution de tous les processus de mise à jour des données
 """
 import sys
@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from Process.updateManifests import update_manifests
 from Process.enrichArmorSet import enrich_armor_sets
 from Process.updateVersion import update_version
+from Utils.paths import SUPPORTED_LANGUAGES
 
 
 def print_header(title):
@@ -28,7 +29,30 @@ def print_step(step_num, total_steps, description):
 
 def main():
     """Point d'entrée principal du script"""
-    print_header("🎮 D2GLOSSARY - MISE À JOUR DES DONNÉES")
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Mise à jour des données D2Glossary',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Exemples d'utilisation:
+  python main.py                    # Toutes les langues
+  python main.py --lang fr          # Français seulement
+  python main.py --lang fr en       # Français et anglais
+        """
+    )
+    parser.add_argument(
+        '--lang',
+        nargs='+',
+        choices=SUPPORTED_LANGUAGES,
+        help='Langues à traiter (par défaut: toutes)'
+    )
+
+    args = parser.parse_args()
+    languages = args.lang if args.lang else SUPPORTED_LANGUAGES
+
+    print_header(f"🎮 D2GLOSSARY - MISE À JOUR DES DONNÉES")
+    print(f"\n🌐 Langues sélectionnées: {', '.join(lang.upper() for lang in languages)}")
 
     total_steps = 3
     current_step = 0
@@ -39,7 +63,7 @@ def main():
     print_step(current_step, total_steps, "Téléchargement des manifests Bungie")
 
     try:
-        if not update_manifests():
+        if not update_manifests(languages):
             print("\n❌ Échec du téléchargement des manifests")
             success = False
     except Exception as e:
@@ -55,7 +79,7 @@ def main():
     print_step(current_step, total_steps, "Enrichissement des données")
 
     try:
-        if not enrich_armor_sets():
+        if not enrich_armor_sets(languages):
             print("\n❌ Échec de l'enrichissement des données")
             success = False
     except Exception as e:
@@ -85,7 +109,10 @@ def main():
         print("   ✅ Manifests téléchargés et nettoyés")
         print("   ✅ Données enrichies (sets d'armure et artefacts)")
         print("   ✅ Version mise à jour")
-        print("\n💡 Les données sont maintenant disponibles dans le dossier 'data/'")
+        print(f"\n🌐 Langues traitées: {', '.join(lang.upper() for lang in languages)}")
+        print(f"\n💡 Les données sont maintenant disponibles dans:")
+        for lang in languages:
+            print(f"   - data/{lang}/")
     else:
         print_header("❌ ÉCHEC DE LA MISE À JOUR")
         print("\n⚠️  Certaines étapes ont échoué. Consultez les messages d'erreur ci-dessus.")
@@ -104,6 +131,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n\n❌ Erreur fatale: {e}")
         import traceback
-
         traceback.print_exc()
         sys.exit(1)

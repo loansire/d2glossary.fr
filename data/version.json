@@ -1,18 +1,36 @@
 {
-  "version": "2025-12-16",
-  "lastUpdate": "2025-12-16T20:05:51Z",
+  "version": "2026-01-05",
+  "lastUpdate": "2026-01-05T14:58:11Z",
   "files": {
-    "light": [
-      "data/trait_definitions.json",
-      "data/breaker_definitions.json",
-      "data/modifier_definitions.json",
-      "data/damagetype_definitions.json",
-      "data/setarmor_definitions_enriched.json",
-      "data/artefact_definitions_enriched.json",
-      "data/clarity.json"
-    ],
-    "heavy": [
-      "data/item_definitions.json"
-    ]
+    "languages": {
+      "fr": {
+        "light": [
+          "data/fr/trait_definitions.json",
+          "data/fr/breaker_definitions.json",
+          "data/fr/modifier_definitions.json",
+          "data/fr/damagetype_definitions.json",
+          "data/fr/setarmor_definitions_enriched.json",
+          "data/fr/artefact_definitions_enriched.json"
+        ],
+        "heavy": [
+          "data/fr/item_definitions.json",
+          "data/clarity.json"
+        ]
+      },
+      "en": {
+        "light": [
+          "data/en/trait_definitions.json",
+          "data/en/breaker_definitions.json",
+          "data/en/modifier_definitions.json",
+          "data/en/damagetype_definitions.json",
+          "data/en/setarmor_definitions_enriched.json",
+          "data/en/artefact_definitions_enriched.json"
+        ],
+        "heavy": [
+          "data/en/item_definitions.json",
+          "data/clarity.json"
+        ]
+      }
+    }
   }
 }

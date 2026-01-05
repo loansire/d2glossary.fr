@@ -1,10 +1,10 @@
 """
-paths.py - Configuration centralisée des chemins du projet
+paths.py - Configuration centralisée des chemins du projet (version multilingue)
 """
 import os
 from pathlib import Path
 
-# Racine du projet (3 niveaux au-dessus de ce fichier)
+# Racine du projet
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.resolve()
 
 # Dossiers principaux
@@ -13,35 +13,63 @@ SCRIPTS_DIR = PROJECT_ROOT / "Scripts" / "d2Glossary"
 PROCESS_DIR = SCRIPTS_DIR / "Process"
 UTILS_DIR = SCRIPTS_DIR / "Utils"
 
-# Fichiers de données en entrée (manifest Bungie)
-ITEM_DEFINITIONS = DATA_DIR / "item_definitions.json"
-TRAIT_DEFINITIONS = DATA_DIR / "trait_definitions.json"
-BREAKER_DEFINITIONS = DATA_DIR / "breaker_definitions.json"
-DAMAGETYPE_DEFINITIONS = DATA_DIR / "damagetype_definitions.json"
-MODIFIER_DEFINITIONS = DATA_DIR / "modifier_definitions.json"
-SETARMOR_DEFINITIONS = DATA_DIR / "setarmor_definitions.json"
-SANDBOXPERK_DEFINITIONS = DATA_DIR / "sandboxperk_definitions.json"
-ARTEFACT_DEFINITIONS = DATA_DIR / "artefact_definitions.json"
-ICON_DEFINITIONS = DATA_DIR / "icon_definition.json"
+# Langues supportées
+SUPPORTED_LANGUAGES = ["fr", "en"]
+DEFAULT_LANGUAGE = "fr"
 
-# Fichiers de données en sortie (enrichis)
-SETARMOR_ENRICHED = DATA_DIR / "setarmor_definitions_enriched.json"
-ARTEFACT_ENRICHED = DATA_DIR / "artefact_definitions_enriched.json"
+# Fonction pour obtenir les chemins localisés
+def get_localized_path(filename: str, lang: str = DEFAULT_LANGUAGE) -> Path:
+    """Retourne le chemin d'un fichier pour une langue donnée"""
+    if lang not in SUPPORTED_LANGUAGES:
+        raise ValueError(f"Langue non supportée: {lang}. Langues disponibles: {SUPPORTED_LANGUAGES}")
+    return DATA_DIR / lang / filename
 
-# Fichier de version
+# Fonction pour obtenir tous les chemins localisés
+def get_all_localized_paths(filename: str) -> dict[str, Path]:
+    """Retourne un dict {lang: path} pour toutes les langues"""
+    return {lang: get_localized_path(filename, lang) for lang in SUPPORTED_LANGUAGES}
+
+# Noms de fichiers (sans langue)
+ITEM_DEFINITIONS_FILE = "item_definitions.json"
+TRAIT_DEFINITIONS_FILE = "trait_definitions.json"
+BREAKER_DEFINITIONS_FILE = "breaker_definitions.json"
+DAMAGETYPE_DEFINITIONS_FILE = "damagetype_definitions.json"
+MODIFIER_DEFINITIONS_FILE = "modifier_definitions.json"
+SETARMOR_DEFINITIONS_FILE = "setarmor_definitions.json"
+SANDBOXPERK_DEFINITIONS_FILE = "sandboxperk_definitions.json"
+ARTEFACT_DEFINITIONS_FILE = "artefact_definitions.json"
+ICON_DEFINITIONS_FILE = "icon_definition.json"
+SETARMOR_ENRICHED_FILE = "setarmor_definitions_enriched.json"
+ARTEFACT_ENRICHED_FILE = "artefact_definitions_enriched.json"
+CLARITY_FILE = "clarity.json"
+
+# Chemins par défaut (français) pour compatibilité
+ITEM_DEFINITIONS = get_localized_path(ITEM_DEFINITIONS_FILE)
+TRAIT_DEFINITIONS = get_localized_path(TRAIT_DEFINITIONS_FILE)
+BREAKER_DEFINITIONS = get_localized_path(BREAKER_DEFINITIONS_FILE)
+DAMAGETYPE_DEFINITIONS = get_localized_path(DAMAGETYPE_DEFINITIONS_FILE)
+MODIFIER_DEFINITIONS = get_localized_path(MODIFIER_DEFINITIONS_FILE)
+SETARMOR_DEFINITIONS = get_localized_path(SETARMOR_DEFINITIONS_FILE)
+SANDBOXPERK_DEFINITIONS = get_localized_path(SANDBOXPERK_DEFINITIONS_FILE)
+ARTEFACT_DEFINITIONS = get_localized_path(ARTEFACT_DEFINITIONS_FILE)
+ICON_DEFINITIONS = get_localized_path(ICON_DEFINITIONS_FILE)
+SETARMOR_ENRICHED = get_localized_path(SETARMOR_ENRICHED_FILE)
+ARTEFACT_ENRICHED = get_localized_path(ARTEFACT_ENRICHED_FILE)
+
+# Fichier de version (commun à toutes les langues)
 VERSION_FILE = DATA_DIR / "version.json"
 
 # Dictionnaire des manifests à télécharger
 MANIFEST_LIST = {
-    "DestinyInventoryItemDefinition": "item_definitions",
-    "DestinyTraitDefinition": "trait_definitions",
-    "DestinyBreakerTypeDefinition": "breaker_definitions",
-    "DestinyDamageTypeDefinition": "damagetype_definitions",
-    "DestinyActivityModifierDefinition": "modifier_definitions",
-    "DestinyEquipableItemSetDefinition": "setarmor_definitions",
-    "DestinySandboxPerkDefinition": "sandboxperk_definitions",
-    "DestinyArtifactDefinition": "artefact_definitions",
-    "DestinyIconDefinition": "icon_definition"
+    "DestinyInventoryItemDefinition": ITEM_DEFINITIONS_FILE,
+    "DestinyTraitDefinition": TRAIT_DEFINITIONS_FILE,
+    "DestinyBreakerTypeDefinition": BREAKER_DEFINITIONS_FILE,
+    "DestinyDamageTypeDefinition": DAMAGETYPE_DEFINITIONS_FILE,
+    "DestinyActivityModifierDefinition": MODIFIER_DEFINITIONS_FILE,
+    "DestinyEquipableItemSetDefinition": SETARMOR_DEFINITIONS_FILE,
+    "DestinySandboxPerkDefinition": SANDBOXPERK_DEFINITIONS_FILE,
+    "DestinyArtifactDefinition": ARTEFACT_DEFINITIONS_FILE,
+    "DestinyIconDefinition": ICON_DEFINITIONS_FILE
 }
 
 # Clés à exclure lors du nettoyage des données
@@ -59,24 +87,52 @@ KEYS_TO_EXCLUDE = [
 ]
 
 # Configuration de version.json
-VERSION_CONFIG = {
-    "light": [
-        "data/trait_definitions.json",
-        "data/breaker_definitions.json",
-        "data/modifier_definitions.json",
-        "data/damagetype_definitions.json",
-        "data/setarmor_definitions_enriched.json",
-        "data/artefact_definitions_enriched.json"
-    ],
-    "heavy": [
-        "data/item_definitions.json",
-        "data/clarity.json"
-    ]
-}
+def get_version_config(lang: str = None) -> dict:
+    """
+    Retourne la configuration des fichiers pour version.json
+    Si lang=None, retourne la config pour toutes les langues
+    """
+    if lang is None:
+        # Configuration multi-langue
+        config = {"languages": {}}
+        for language in SUPPORTED_LANGUAGES:
+            config["languages"][language] = {
+                "light": [
+                    f"data/{language}/{TRAIT_DEFINITIONS_FILE}",
+                    f"data/{language}/{BREAKER_DEFINITIONS_FILE}",
+                    f"data/{language}/{MODIFIER_DEFINITIONS_FILE}",
+                    f"data/{language}/{DAMAGETYPE_DEFINITIONS_FILE}",
+                    f"data/{language}/{SETARMOR_ENRICHED_FILE}",
+                    f"data/{language}/{ARTEFACT_ENRICHED_FILE}"
+                ],
+                "heavy": [
+                    f"data/{language}/{ITEM_DEFINITIONS_FILE}",
+                    f"data/{CLARITY_FILE}"
+                ]
+            }
+        return config
+    else:
+        # Configuration pour une langue spécifique
+        return {
+            "light": [
+                f"data/{lang}/{TRAIT_DEFINITIONS_FILE}",
+                f"data/{lang}/{BREAKER_DEFINITIONS_FILE}",
+                f"data/{lang}/{MODIFIER_DEFINITIONS_FILE}",
+                f"data/{lang}/{DAMAGETYPE_DEFINITIONS_FILE}",
+                f"data/{lang}/{SETARMOR_ENRICHED_FILE}",
+                f"data/{lang}/{ARTEFACT_ENRICHED_FILE}"
+            ],
+            "heavy": [
+                f"data/{lang}/{ITEM_DEFINITIONS_FILE}",
+                f"data/{CLARITY_FILE}"
+            ]
+        }
 
-def ensure_data_dir():
-    """Crée le dossier data s'il n'existe pas"""
+def ensure_data_dirs():
+    """Crée les dossiers data pour toutes les langues"""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    for lang in SUPPORTED_LANGUAGES:
+        (DATA_DIR / lang).mkdir(parents=True, exist_ok=True)
 
 def get_relative_path(file_path: Path) -> str:
     """Retourne le chemin relatif par rapport à PROJECT_ROOT"""

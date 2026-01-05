@@ -1,5 +1,5 @@
 """
-updateManifests.py - Téléchargement et nettoyage des manifests Bungie
+updateManifests.py - Téléchargement et nettoyage des manifests Bungie (multilingue)
 """
 import json
 import requests
@@ -10,13 +10,19 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from Utils.paths import (
-    DATA_DIR, MANIFEST_LIST, KEYS_TO_EXCLUDE,
-    ensure_data_dir, get_relative_path
+    DATA_DIR, MANIFEST_LIST, KEYS_TO_EXCLUDE, SUPPORTED_LANGUAGES,
+    ensure_data_dirs, get_relative_path, get_localized_path
 )
 from Utils.ApiKey import bungie_api
 
 HEADERS = {'X-API-Key': bungie_api}
 MANIFEST_URL = 'https://www.bungie.net/platform/Destiny2/Manifest'
+
+# Mapping des codes de langue Bungie
+BUNGIE_LANG_CODES = {
+    "fr": "fr",
+    "en": "en"
+}
 
 
 def has_any_icon_field(data):
@@ -77,72 +83,118 @@ def clean_data(data, definition_type=None):
     return data
 
 
-def download_manifest(definition_key, file_name):
-    """Télécharge un fichier du manifest et le nettoie"""
+def download_manifest(definition_key, file_name, lang="fr"):
+    """Télécharge un fichier du manifest pour une langue donnée"""
     try:
         # Requête pour obtenir le manifeste
         response = requests.get(MANIFEST_URL, headers=HEADERS)
         manifest_data = response.json()
 
-        # Extraire les chemins en français
-        fr_manifest_paths = manifest_data['Response']['jsonWorldComponentContentPaths']['fr']
+        # Extraire les chemins dans la langue demandée
+        bungie_lang = BUNGIE_LANG_CODES.get(lang, "fr")
+        lang_manifest_paths = manifest_data['Response']['jsonWorldComponentContentPaths'][bungie_lang]
 
-        if definition_key not in fr_manifest_paths:
-            print(f"⚠️  {definition_key} non trouvé dans le manifest")
+        if definition_key not in lang_manifest_paths:
+            print(f"⚠️  {definition_key} non trouvé dans le manifest [{lang.upper()}]")
             return False
 
         # Télécharger le fichier
-        full_url = "https://www.bungie.net" + fr_manifest_paths[definition_key]
-        file_path = DATA_DIR / f"{file_name}.json"
+        full_url = "https://www.bungie.net" + lang_manifest_paths[definition_key]
+        file_path = get_localized_path(file_name, lang)
 
-        print(f"📥 Téléchargement de {definition_key}...")
+        print(f"📥 [{lang.upper()}] Téléchargement de {definition_key}...")
         r = requests.get(full_url, headers=HEADERS)
         r.raise_for_status()
 
         # Nettoyer et sauvegarder
         data = r.json()
-        cleaned_data = clean_data(data, file_name)
+        cleaned_data = clean_data(data, file_name.replace(".json", ""))
 
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(cleaned_data, f, ensure_ascii=False)
 
-        print(f"✅ {definition_key} enregistré: {get_relative_path(file_path)}")
+        print(f"✅ [{lang.upper()}] {definition_key} enregistré: {get_relative_path(file_path)}")
         return True
 
     except requests.RequestException as e:
-        print(f"❌ Erreur réseau pour {definition_key}: {e}")
+        print(f"❌ [{lang.upper()}] Erreur réseau pour {definition_key}: {e}")
         return False
     except (ValueError, KeyError) as e:
-        print(f"❌ Erreur de parsing pour {definition_key}: {e}")
+        print(f"❌ [{lang.upper()}] Erreur de parsing pour {definition_key}: {e}")
         return False
     except Exception as e:
-        print(f"❌ Erreur inattendue pour {definition_key}: {e}")
+        print(f"❌ [{lang.upper()}] Erreur inattendue pour {definition_key}: {e}")
         return False
 
 
-def update_manifests():
-    """Point d'entrée principal pour la mise à jour des manifests"""
-    print("=" * 60)
-    print("📦 MISE À JOUR DES MANIFESTS BUNGIE")
-    print("=" * 60)
+def update_manifests(languages=None):
+    """
+    Point d'entrée principal pour la mise à jour des manifests
 
-    ensure_data_dir()
-
-    success_count = 0
-    total_count = len(MANIFEST_LIST)
-
-    for definition_key, file_name in MANIFEST_LIST.items():
-        if download_manifest(definition_key, file_name):
-            success_count += 1
-        print()
+    Args:
+        languages: Liste des langues à télécharger. Si None, télécharge toutes les langues supportées.
+    """
+    if languages is None:
+        languages = SUPPORTED_LANGUAGES
 
     print("=" * 60)
-    print(f"✅ Téléchargement terminé: {success_count}/{total_count} fichiers")
+    print("📦 MISE À JOUR DES MANIFESTS BUNGIE (MULTILINGUE)")
+    print("=" * 60)
+    print(f"Langues à télécharger: {', '.join(lang.upper() for lang in languages)}")
+    print()
+
+    ensure_data_dirs()
+
+    total_success = 0
+    total_count = len(MANIFEST_LIST) * len(languages)
+
+    results_by_lang = {}
+
+    for lang in languages:
+        print(f"\n{'='*60}")
+        print(f"🌐 LANGUE: {lang.upper()}")
+        print(f"{'='*60}")
+
+        lang_success = 0
+
+        for definition_key, file_name in MANIFEST_LIST.items():
+            if download_manifest(definition_key, file_name, lang):
+                lang_success += 1
+                total_success += 1
+
+        results_by_lang[lang] = {
+            "success": lang_success,
+            "total": len(MANIFEST_LIST)
+        }
+
+        print(f"\n✅ [{lang.upper()}] Téléchargement terminé: {lang_success}/{len(MANIFEST_LIST)} fichiers")
+
+    print("\n" + "=" * 60)
+    print("📊 RÉSUMÉ GLOBAL")
     print("=" * 60)
 
-    return success_count == total_count
+    for lang, results in results_by_lang.items():
+        status = "✅" if results["success"] == results["total"] else "⚠️"
+        print(f"{status} {lang.upper()}: {results['success']}/{results['total']} fichiers")
+
+    print(f"\n✅ Total: {total_success}/{total_count} fichiers téléchargés")
+    print("=" * 60)
+
+    return total_success == total_count
 
 
 if __name__ == "__main__":
-    success = update_manifests()
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Télécharge les manifests Bungie')
+    parser.add_argument(
+        '--lang',
+        nargs='+',
+        choices=SUPPORTED_LANGUAGES,
+        help='Langues à télécharger (par défaut: toutes)'
+    )
+
+    args = parser.parse_args()
+
+    success = update_manifests(args.lang)
     sys.exit(0 if success else 1)

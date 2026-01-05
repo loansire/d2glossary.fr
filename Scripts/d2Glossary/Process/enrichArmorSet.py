@@ -1,5 +1,5 @@
 """
-enrichArmorSet.py - Enrichissement des données d'armures et artefacts
+enrichArmorSet.py - Enrichissement des données d'armures et artefacts (multilingue)
 """
 import json
 from pathlib import Path
@@ -9,10 +9,10 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from Utils.paths import (
-    SETARMOR_DEFINITIONS, SANDBOXPERK_DEFINITIONS,
-    ITEM_DEFINITIONS, ARTEFACT_DEFINITIONS,
-    SETARMOR_ENRICHED, ARTEFACT_ENRICHED,
-    get_relative_path
+    SUPPORTED_LANGUAGES, get_localized_path, get_relative_path,
+    SETARMOR_DEFINITIONS_FILE, SANDBOXPERK_DEFINITIONS_FILE,
+    ITEM_DEFINITIONS_FILE, ARTEFACT_DEFINITIONS_FILE,
+    SETARMOR_ENRICHED_FILE, ARTEFACT_ENRICHED_FILE
 )
 
 
@@ -124,56 +124,101 @@ def enrich_artefact(artefact_data, sandboxperk_data, item_data):
     return artefact_data
 
 
-def enrich_armor_sets():
-    """Point d'entrée principal pour l'enrichissement"""
-    print("=" * 60)
-    print("🔧 ENRICHISSEMENT DES DONNÉES")
-    print("=" * 60)
+def enrich_for_language(lang):
+    """Enrichit les données pour une langue donnée"""
+    print(f"\n{'='*60}")
+    print(f"🌐 ENRICHISSEMENT POUR: {lang.upper()}")
+    print(f"{'='*60}")
 
     # Charger les données sources
     print("📥 Chargement des données sources...")
-    setarmor_data = load_json(SETARMOR_DEFINITIONS)
-    sandboxperk_data = load_json(SANDBOXPERK_DEFINITIONS)
-    item_data = load_json(ITEM_DEFINITIONS)
-    artefact_data = load_json(ARTEFACT_DEFINITIONS)
+    setarmor_data = load_json(get_localized_path(SETARMOR_DEFINITIONS_FILE, lang))
+    sandboxperk_data = load_json(get_localized_path(SANDBOXPERK_DEFINITIONS_FILE, lang))
+    item_data = load_json(get_localized_path(ITEM_DEFINITIONS_FILE, lang))
+    artefact_data = load_json(get_localized_path(ARTEFACT_DEFINITIONS_FILE, lang))
 
     if not all([setarmor_data, sandboxperk_data, item_data, artefact_data]):
-        print("❌ Impossible de charger toutes les données sources")
+        print(f"❌ [{lang.upper()}] Impossible de charger toutes les données sources")
         return False
 
-    print("✅ Données sources chargées")
-    print()
+    print(f"✅ [{lang.upper()}] Données sources chargées")
 
     # Enrichir les sets d'armure
-    print("⚙️  Enrichissement des sets d'armure...")
+    print(f"⚙️  [{lang.upper()}] Enrichissement des sets d'armure...")
     enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data)
 
-    if save_json(enriched_setarmor, SETARMOR_ENRICHED):
-        print(f"✅ Sets enrichis: {get_relative_path(SETARMOR_ENRICHED)}")
+    output_path = get_localized_path(SETARMOR_ENRICHED_FILE, lang)
+    if save_json(enriched_setarmor, output_path):
+        print(f"✅ [{lang.upper()}] Sets enrichis: {get_relative_path(output_path)}")
     else:
-        print("❌ Échec de l'enrichissement des sets")
+        print(f"❌ [{lang.upper()}] Échec de l'enrichissement des sets")
         return False
-
-    print()
 
     # Enrichir les artefacts
-    print("⚙️  Enrichissement des artefacts...")
+    print(f"⚙️  [{lang.upper()}] Enrichissement des artefacts...")
     enriched_artefact = enrich_artefact(artefact_data, sandboxperk_data, item_data)
 
-    if save_json(enriched_artefact, ARTEFACT_ENRICHED):
-        print(f"✅ Artefacts enrichis: {get_relative_path(ARTEFACT_ENRICHED)}")
+    output_path = get_localized_path(ARTEFACT_ENRICHED_FILE, lang)
+    if save_json(enriched_artefact, output_path):
+        print(f"✅ [{lang.upper()}] Artefacts enrichis: {get_relative_path(output_path)}")
     else:
-        print("❌ Échec de l'enrichissement des artefacts")
+        print(f"❌ [{lang.upper()}] Échec de l'enrichissement des artefacts")
         return False
-
-    print()
-    print("=" * 60)
-    print("✅ ENRICHISSEMENT TERMINÉ")
-    print("=" * 60)
 
     return True
 
 
+def enrich_armor_sets(languages=None):
+    """
+    Point d'entrée principal pour l'enrichissement
+
+    Args:
+        languages: Liste des langues à enrichir. Si None, enrichit toutes les langues supportées.
+    """
+    if languages is None:
+        languages = SUPPORTED_LANGUAGES
+
+    print("=" * 60)
+    print("🔧 ENRICHISSEMENT DES DONNÉES (MULTILINGUE)")
+    print("=" * 60)
+    print(f"Langues à enrichir: {', '.join(lang.upper() for lang in languages)}")
+
+    results = {}
+    for lang in languages:
+        results[lang] = enrich_for_language(lang)
+
+    print("\n" + "=" * 60)
+    print("📊 RÉSUMÉ GLOBAL")
+    print("=" * 60)
+
+    for lang, success in results.items():
+        status = "✅" if success else "❌"
+        print(f"{status} {lang.upper()}: {'Succès' if success else 'Échec'}")
+
+    all_success = all(results.values())
+
+    if all_success:
+        print("\n✅ ENRICHISSEMENT TERMINÉ AVEC SUCCÈS")
+    else:
+        print("\n⚠️  CERTAINS ENRICHISSEMENTS ONT ÉCHOUÉ")
+
+    print("=" * 60)
+
+    return all_success
+
+
 if __name__ == "__main__":
-    success = enrich_armor_sets()
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Enrichit les données d\'armures et artefacts')
+    parser.add_argument(
+        '--lang',
+        nargs='+',
+        choices=SUPPORTED_LANGUAGES,
+        help='Langues à enrichir (par défaut: toutes)'
+    )
+
+    args = parser.parse_args()
+
+    success = enrich_armor_sets(args.lang)
     sys.exit(0 if success else 1)
