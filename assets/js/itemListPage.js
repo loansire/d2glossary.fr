@@ -1,13 +1,14 @@
-/* itemListPage.js - Gestion des pages de liste d'items */
-import { 
-  loadHTML, 
-  loadJSON, 
-  getUrlParam, 
+/* itemListPage.js - Gestion des pages de liste d'items avec recherche multilingue */
+import {
+  loadHTML,
+  loadJSON,
+  getUrlParam,
   getBungieIconUrl,
   debounce
 } from './utils.js';
 import { openPopupItem } from './popupitem.js';
 import { Pagination } from './pagination.js';
+import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
 export async function loadItemListPage({
   dataFile,
@@ -26,6 +27,8 @@ export async function loadItemListPage({
 
   let pagination = null;
   let allFilteredItems = [];
+  let searchIndex = null;
+  let currentData = null;
 
   // Charger les composants HTML en parallèle
   await Promise.all([
@@ -34,13 +37,25 @@ export async function loadItemListPage({
   ]);
 
   try {
-    // Charger les données principales ET clarity.json en parallèle
-    const [data] = await Promise.all([
+    // Extraire le nom du fichier pour charger l'autre langue
+    const filename = dataFile.split('/').pop();
+    const currentLang = dataFile.includes('/fr/') ? 'fr' : 'en';
+
+    // Charger les données principales ET l'autre langue + clarity en parallèle
+    const [data, otherLangData] = await Promise.all([
       loadJSON(dataFile),
+      loadOtherLanguageData(currentLang, filename),
       loadJSON('data/clarity.json') // Précharge clarity pour les popups
     ]);
 
     if (!data) throw new Error('Données non chargées');
+
+    currentData = data;
+
+    // Créer l'index de recherche multilingue
+    console.log('[MultilingualSearch] Création de l\'index de recherche...');
+    searchIndex = createSearchIndex(data, otherLangData);
+    console.log(`[MultilingualSearch] Index créé avec ${searchIndex.size} entrées`);
 
     // Filtrer les items une seule fois
     allFilteredItems = Object.entries(data).filter(([id, item]) => {
@@ -107,13 +122,22 @@ export async function loadItemListPage({
       openPopupItem(itemId, data[itemId]);
     }
 
-    // Gestion de la recherche avec debounce
+    // Gestion de la recherche MULTILINGUE avec debounce
     const handleSearch = debounce((query) => {
-      const filteredResults = query
-        ? allFilteredItems.filter(([_, item]) =>
-            item.displayProperties.name.toLowerCase().includes(query)
-          )
-        : allFilteredItems;
+      if (!query) {
+        // Pas de recherche : afficher tous les items filtrés
+        updateResultCount(allFilteredItems);
+        pagination.setItems(allFilteredItems);
+        return;
+      }
+
+      // Recherche multilingue
+      const allMatches = searchWithIndex(query, searchIndex, currentData);
+
+      // Filtrer les résultats selon les mêmes critères que allFilteredItems
+      const filteredResults = allMatches.filter(([id]) =>
+        allFilteredItems.some(([filteredId]) => filteredId === id)
+      );
 
       updateResultCount(filteredResults);
       pagination.setItems(filteredResults);

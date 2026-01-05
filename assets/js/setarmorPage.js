@@ -1,4 +1,4 @@
-/* setarmorPage.js - Gestion de la page des sets d'armure */
+/* setarmorPage.js - Gestion de la page des sets d'armure avec recherche multilingue */
 import {
   loadHTML,
   loadJSON,
@@ -14,6 +14,7 @@ import {
   debounce
 } from './utils.js';
 import { Pagination } from './pagination.js';
+import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
 export async function loadSetArmorPage({
   dataFile,
@@ -30,6 +31,8 @@ export async function loadSetArmorPage({
 
   let pagination = null;
   let allSets = [];
+  let searchIndex = null;
+  let currentData = null;
 
   // Fonctions de popup
   function closePopupItem() {
@@ -83,8 +86,19 @@ export async function loadSetArmorPage({
   }
 
   try {
-    const data = await loadJSON(dataFile);
+    // Extraire le nom du fichier pour charger l'autre langue
+    const filename = dataFile.split('/').pop();
+    const currentLang = dataFile.includes('/fr/') ? 'fr' : 'en';
+
+    // Charger les données principales ET l'autre langue en parallèle
+    const [data, otherLangData] = await Promise.all([
+      loadJSON(dataFile),
+      loadOtherLanguageData(currentLang, filename)
+    ]);
+
     if (!data) throw new Error('Données non chargées');
+
+    currentData = data;
 
     allSets = Object.entries(data)
       .map(([id, setData]) => ({
@@ -97,6 +111,22 @@ export async function loadSetArmorPage({
         setData.setPerks?.length > 0 &&
         setData.setPerks.some(p => p.displayProperties?.name)
       );
+
+    // Créer l'index de recherche multilingue
+    console.log('[MultilingualSearch] Création de l\'index de recherche pour les sets...');
+
+    // Convertir allSets en format compatible avec createSearchIndex
+    const setsAsObject = {};
+    allSets.forEach(set => {
+      setsAsObject[set.id] = set;
+    });
+
+    const otherLangSetsObject = otherLangData ? Object.fromEntries(
+      Object.entries(otherLangData).map(([id, setData]) => [id, setData])
+    ) : null;
+
+    searchIndex = createSearchIndex(setsAsObject, otherLangSetsObject);
+    console.log(`[MultilingualSearch] Index créé avec ${searchIndex.size} entrées`);
 
     // Renderer de carte
     const renderSetCard = (setData) => {
@@ -164,13 +194,21 @@ export async function loadSetArmorPage({
       }
     }
 
-    // Recherche avec debounce
+    // Recherche MULTILINGUE avec debounce
     const handleSearch = debounce((query) => {
-      const filteredResults = query
-        ? allSets.filter(set =>
-            set.displayProperties.name.toLowerCase().includes(query)
-          )
-        : allSets;
+      if (!query) {
+        updateResultCount(allSets);
+        pagination.setItems(allSets);
+        return;
+      }
+
+      // Recherche multilingue
+      const allMatches = searchWithIndex(query, searchIndex, setsAsObject);
+
+      // Convertir les résultats en format allSets
+      const filteredResults = allMatches
+        .map(([id]) => allSets.find(set => set.id === id))
+        .filter(Boolean);
 
       updateResultCount(filteredResults);
       pagination.setItems(filteredResults);
