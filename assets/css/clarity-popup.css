@@ -22,6 +22,8 @@
   );
   pointer-events: none;
   z-index: 2;
+  opacity: 0;
+  transition: opacity var(--transition-base);
 }
 
 .clarity-fade-wrapper::after {
@@ -38,6 +40,25 @@
   );
   pointer-events: none;
   z-index: 2;
+  opacity: 1;
+  transition: opacity var(--transition-base);
+}
+
+/* États du fade selon le scroll */
+.clarity-fade-wrapper.can-scroll-up::before {
+  opacity: 1;
+}
+
+.clarity-fade-wrapper.can-scroll-down::after {
+  opacity: 1;
+}
+
+.clarity-fade-wrapper:not(.can-scroll-down)::after {
+  opacity: 0;
+}
+#clarity-wrapper {
+  margin-top: var(--spacing-base);
+  margin-bottom: var(--spacing-base);
 }
 
 #popupitem-clarity {
@@ -77,6 +98,11 @@
 
 #popupitem-clarity::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary-light);
+}
+
+#popupitem-clarity p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #clarity-separator {

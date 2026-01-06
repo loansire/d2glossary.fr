@@ -27,6 +27,54 @@ function getClarityData() {
   return null;
 }
 
+/**
+ * Gère l'affichage des fades selon la position du scroll
+ */
+function updateClarityFades() {
+  const clarityEl = document.getElementById('popupitem-clarity');
+  const wrapper = document.getElementById('clarity-wrapper');
+
+  if (!clarityEl || !wrapper) return;
+
+  const scrollTop = clarityEl.scrollTop;
+  const scrollHeight = clarityEl.scrollHeight;
+  const clientHeight = clarityEl.clientHeight;
+
+  const scrollBottom = scrollHeight - scrollTop - clientHeight;
+
+  // Seuil de 5px pour éviter les micro-variations
+  const threshold = 5;
+
+  // Peut scroller vers le haut ?
+  if (scrollTop > threshold) {
+    wrapper.classList.add('can-scroll-up');
+  } else {
+    wrapper.classList.remove('can-scroll-up');
+  }
+
+  // Peut scroller vers le bas ?
+  if (scrollBottom > threshold) {
+    wrapper.classList.add('can-scroll-down');
+  } else {
+    wrapper.classList.remove('can-scroll-down');
+  }
+}
+
+/**
+ * Initialise les listeners pour le scroll de Clarity
+ */
+function initClarityScrollListeners() {
+  const clarityEl = document.getElementById('popupitem-clarity');
+
+  if (!clarityEl) return;
+
+  // Écouter le scroll
+  clarityEl.addEventListener('scroll', updateClarityFades);
+
+  // Vérifier initial après un court délai (pour laisser le DOM se stabiliser)
+  setTimeout(updateClarityFades, 100);
+}
+
 // === CLARITY RENDERING ===
 function renderClarityInPopup(item) {
   const clarityEl = document.getElementById('popupitem-clarity');
@@ -85,6 +133,9 @@ function renderClarityInPopup(item) {
 
   clarityWrapper.classList.remove('hidden');
   claritySeparator.classList.remove('hidden');
+
+  // Initialiser les listeners de scroll après le rendu
+  setTimeout(initClarityScrollListeners, 50);
 }
 
 /**
@@ -172,6 +223,12 @@ export function closePopupItem() {
   document.body.classList.remove('popupitem-open');
   removeUrlParam('id');
   currentItemFrName = null;
+
+  // Nettoyer les listeners
+  const clarityEl = document.getElementById('popupitem-clarity');
+  if (clarityEl) {
+    clarityEl.removeEventListener('scroll', updateClarityFades);
+  }
 }
 
 // === SHARE FUNCTIONS ===
