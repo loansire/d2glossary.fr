@@ -30,12 +30,13 @@ function getClarityData() {
 // === CLARITY RENDERING ===
 function renderClarityInPopup(item) {
   const clarityEl = document.getElementById('popupitem-clarity');
+  const clarityWrapper = document.getElementById('clarity-wrapper');
   const claritySeparator = document.getElementById('clarity-separator');
 
   clarityEl.innerHTML = '';
 
   if (!item?.descriptions?.en?.length) {
-    clarityEl.classList.add('hidden');
+    clarityWrapper.classList.add('hidden');
     claritySeparator.classList.add('hidden');
     return;
   }
@@ -82,7 +83,7 @@ function renderClarityInPopup(item) {
     }
   });
 
-  clarityEl.classList.remove('hidden');
+  clarityWrapper.classList.remove('hidden');
   claritySeparator.classList.remove('hidden');
 }
 
@@ -91,11 +92,9 @@ function renderClarityInPopup(item) {
  */
 async function fetchFrenchName(id) {
   try {
-    // Vérifier d'abord le cache mémoire
     const frDataUrl = `data/fr/item_definitions.json`;
     let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
 
-    // Si pas en cache mémoire, tenter de charger
     if (!frData) {
       const response = await fetch(frDataUrl);
       if (response.ok) {
@@ -103,7 +102,6 @@ async function fetchFrenchName(id) {
       }
     }
 
-    // Retourner le nom français si trouvé
     if (frData?.[id]?.displayProperties?.name) {
       return frData[id].displayProperties.name;
     }
@@ -140,23 +138,21 @@ export async function openPopupItem(id, item) {
   );
   descEl.innerHTML = finalDescription;
 
-  // Charger les données Clarity depuis le cache mémoire (déjà préchargé)
+  // Charger les données Clarity depuis le cache mémoire
   const clarityData = getClarityData();
   if (clarityData) {
     renderClarityInPopup(clarityData[id]);
   } else {
-    document.getElementById('popupitem-clarity')?.classList.add('hidden');
+    document.getElementById('clarity-wrapper')?.classList.add('hidden');
     document.getElementById('clarity-separator')?.classList.add('hidden');
   }
 
   idEl.textContent = `ID: ${id}`;
 
-  // NOUVEAU : Récupérer le nom français pour l'emoji Discord
+  // Récupérer le nom français pour l'emoji Discord
   if (currentLang === 'en') {
-    // Si on est en anglais, charger le nom français en arrière-plan
     currentItemFrName = await fetchFrenchName(id);
   } else {
-    // Si on est en français, utiliser directement le nom actuel
     currentItemFrName = props.name;
   }
 
@@ -175,7 +171,7 @@ export function closePopupItem() {
   popup?.classList.remove('show');
   document.body.classList.remove('popupitem-open');
   removeUrlParam('id');
-  currentItemFrName = null; // Reset
+  currentItemFrName = null;
 }
 
 // === SHARE FUNCTIONS ===
@@ -185,17 +181,14 @@ export function sharePopupItem() {
 }
 
 export function copyDiscordMarkdown() {
-  // Nom affiché (dans la langue courante)
   const displayName = document.getElementById('popupitem-name')?.textContent.trim();
   const url = getCurrentUrl();
   const iconSwitch = document.getElementById('iconSwitch');
   const iconEnabled = iconSwitch?.checked;
 
-  // Utiliser le nom affiché pour l'hyperlien
   let markdown = `[${displayName}](<${url}>)`;
 
   if (iconEnabled && currentItemFrName) {
-    // TOUJOURS utiliser le nom français pour l'emoji Discord
     const cleanFrName = normalizeName(currentItemFrName);
     markdown = `:${cleanFrName}: ${markdown}`;
   }
@@ -209,10 +202,8 @@ window.closePopupItem = closePopupItem;
 window.sharePopupItem = sharePopupItem;
 window.copyDiscordMarkdown = copyDiscordMarkdown;
 
-// Escape key handler
 onEscapeKey(closePopupItem);
 
-// Discord button handler
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('discord-btn')?.addEventListener('click', copyDiscordMarkdown);
 });
