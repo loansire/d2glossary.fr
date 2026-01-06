@@ -6,6 +6,7 @@
 const SITE_URL = 'https://d2glossary.fr';
 const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const DATA_BASE_URL = 'https://d2glossary.fr/data';
+const CLARITY_URL = 'https://d2glossary.fr/data/clarity.json';
 
 // User agent Discord
 const DISCORD_BOT = 'discordbot';
@@ -20,6 +21,9 @@ const PAGE_CONFIG = {
   'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', type: 'setarmor' },
   'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact' }
 };
+
+// Cache pour Clarity
+let clarityCache = null;
 
 /**
  * Vérifie si c'est le bot Discord
@@ -42,6 +46,32 @@ async function loadData(lang, filename) {
     console.error(`Erreur chargement:`, e);
     return null;
   }
+}
+
+/**
+ * Charge les données Clarity
+ */
+async function loadClarity() {
+  if (clarityCache) return clarityCache;
+
+  try {
+    const response = await fetch(CLARITY_URL, { cf: { cacheTtl: 3600 } });
+    if (!response.ok) return null;
+    clarityCache = await response.json();
+    return clarityCache;
+  } catch (e) {
+    console.error(`Erreur chargement Clarity:`, e);
+    return null;
+  }
+}
+
+/**
+ * Vérifie si un item a des données Clarity
+ */
+async function hasClarity(id) {
+  const clarity = await loadClarity();
+  if (!clarity) return false;
+  return clarity[id] !== undefined;
 }
 
 /**
@@ -125,11 +155,15 @@ function generateTitle(info, pageLabel, pageType) {
 /**
  * Génère le HTML avec métadonnées pour Discord
  */
-function generateDiscordEmbed(info, pageLabel, pageUrl, pageType) {
+function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showClarityFooter) {
   const title = generateTitle(info, pageLabel, pageType);
   const description = cleanDescription(info.description);
-  const footer = 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
-  const fullDescription = description ? `${description}\n\n${footer}` : footer;
+
+  let fullDescription = description;
+  if (showClarityFooter) {
+    const footer = 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
+    fullDescription = description ? `${description}\n\n${footer}` : footer;
+  }
 
   return `<!DOCTYPE html>
 <html>
@@ -193,8 +227,11 @@ export default {
 
     if (!itemInfo) return fetch(request);
 
+    // Vérifier si l'item a des données Clarity
+    const showClarityFooter = await hasClarity(id);
+
     // Générer l'embed Discord
-    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type);
+    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type, showClarityFooter);
 
     return new Response(html, {
       headers: {
