@@ -19,6 +19,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/banniere.css">
   <link rel="stylesheet" href="assets/css/loader.css">
   <link rel="stylesheet" href="assets/css/language-selector.css">
   <link rel="stylesheet" href="styles.css">
@@ -47,15 +48,15 @@
     import { checkVersion, preloadLightFiles } from './assets/js/dataManager.js';
     import { initLanguageSystem } from './assets/js/languageSelector.js';
 
+    // Charger la bannière SIMPLE (sans navigation, car index.html est déjà un menu)
+    await loadHTML('assets/html/banniere-simple.html', 'banniere-container');
+
     // Initialiser le système de langue (détection + sélecteur)
     const lang = initLanguageSystem();
 
     // Vérifier la version et précharger les fichiers
     await checkVersion();
     preloadLightFiles(lang);
-
-    // Charger la bannière
-    await loadHTML('assets/html/banniere.html', 'banniere-container');
 
     // Configuration des sous-pages
     const subfolders = [

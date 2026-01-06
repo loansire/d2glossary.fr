@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="assets/css/loader.css">
   <link rel="stylesheet" href="assets/css/language-selector.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/banniere.css">
   <link rel="stylesheet" href="assets/css/popupitem.css">
   <link rel="stylesheet" href="assets/css/clarity-popup.css">
 
@@ -49,9 +50,17 @@
 
   <!-- JS -->
   <script type="module">
+    import { loadHTML } from './assets/js/utils.js';
     import { checkVersion } from './assets/js/dataManager.js';
     import { loadItemListPage } from './assets/js/itemListPage.js';
     import { initLanguageSystem } from './assets/js/languageSelector.js';
+
+    // Charger la bannière avec navigation
+    await loadHTML('assets/html/banniere.html', 'banniere-container');
+
+    // Importer et initialiser la navigation
+    const { initBanniereNavigation } = await import('./assets/js/banniere.js');
+    initBanniereNavigation();
 
     // Initialiser le système de langue
     const lang = initLanguageSystem();
