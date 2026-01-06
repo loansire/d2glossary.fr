@@ -15786,7 +15786,7 @@
   },
   {
     "Name": "Thermal Atomization",
-    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nTargets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
     "descriptions": {
       "en": [
         {
@@ -15836,7 +15836,7 @@
         {
           "linesContent": [
             {
-              "text": "Targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage."
+              "text": "Direct Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage."
             }
           ]
         },
