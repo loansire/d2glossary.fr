@@ -68,11 +68,6 @@
   font-weight: bold;
 }
 
-.nav-icon {
-  font-size: var(--font-size-xl);
-  line-height: 1;
-}
-
 .nav-text {
   font-size: var(--font-size-sm);
   font-family: var(--font-primary);
@@ -90,10 +85,6 @@
   .nav-link {
     min-width: 60px;
     padding: var(--spacing-xs) var(--spacing-sm);
-  }
-
-  .nav-icon {
-    font-size: var(--font-size-lg);
   }
 
   .nav-text {
@@ -122,10 +113,6 @@
     padding: var(--spacing-xs);
   }
 
-  .nav-icon {
-    font-size: var(--font-size-base);
-  }
-
   .nav-text {
     font-size: 0.65rem;
   }
@@ -144,10 +131,6 @@
   .nav-link {
     gap: 2px;
     padding: 4px;
-  }
-
-  .nav-icon {
-    font-size: var(--font-size-sm);
   }
 
   .nav-text {
