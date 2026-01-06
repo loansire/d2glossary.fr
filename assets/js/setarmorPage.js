@@ -33,6 +33,53 @@ export async function loadSetArmorPage({
   let allSets = [];
   let searchIndex = null;
   let currentData = null;
+  let currentPerkFrName = null; // Stockage du nom français pour l'emoji Discord
+
+  /**
+   * Récupère le nom français d'un perk de set d'armure
+   */
+  async function fetchFrenchPerkName(sandboxPerkHash, setData) {
+    try {
+      const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+
+      // Si déjà en français, retourner le nom actuel
+      if (currentLang === 'fr') {
+        const perk = setData.setPerks.find(p => String(p.sandboxPerkHash) === String(sandboxPerkHash));
+        return perk?.displayProperties?.name || null;
+      }
+
+      // Sinon, charger les données françaises
+      const frDataUrl = `data/fr/setarmor_definitions_enriched.json`;
+      let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
+
+      if (!frData) {
+        const response = await fetch(frDataUrl);
+        if (response.ok) {
+          frData = await response.json();
+        }
+      }
+
+      // Chercher le perk dans les données françaises
+      if (frData) {
+        for (const [setId, frSetData] of Object.entries(frData)) {
+          if (!frSetData.setPerks) continue;
+
+          const frPerk = frSetData.setPerks.find(
+            p => String(p.sandboxPerkHash) === String(sandboxPerkHash)
+          );
+
+          if (frPerk?.displayProperties?.name) {
+            return frPerk.displayProperties.name;
+          }
+        }
+      }
+
+      return null;
+    } catch (err) {
+      console.warn('[SetArmorPage] Impossible de charger le nom français:', err);
+      return null;
+    }
+  }
 
   // Fonctions de popup
   function closePopupItem() {
@@ -41,6 +88,7 @@ export async function loadSetArmorPage({
       popup.classList.remove('show');
       document.body.classList.remove('popupitem-open');
       removeUrlParam('id');
+      currentPerkFrName = null; // Reset
     }
   }
 
@@ -50,16 +98,19 @@ export async function loadSetArmorPage({
   }
 
   function copyDiscordMarkdown() {
-    const name = document.getElementById('popupitem-name')?.textContent.trim();
+    // Nom affiché (dans la langue courante)
+    const displayName = document.getElementById('popupitem-name')?.textContent.trim();
     const url = getCurrentUrl();
     const iconSwitch = document.getElementById('iconSwitch');
     const iconEnabled = iconSwitch?.checked;
 
-    let markdown = `[${name}](<${url}>)`;
+    // Utiliser le nom affiché pour l'hyperlien
+    let markdown = `[${displayName}](<${url}>)`;
 
-    if (iconEnabled && name) {
-      const cleanName = normalizeName(name);
-      markdown = `:${cleanName}: ${markdown}`;
+    if (iconEnabled && currentPerkFrName) {
+      // TOUJOURS utiliser le nom français pour l'emoji Discord
+      const cleanFrName = normalizeName(currentPerkFrName);
+      markdown = `:${cleanFrName}: ${markdown}`;
     }
 
     copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
@@ -188,7 +239,7 @@ export async function loadSetArmorPage({
       for (const setData of allSets) {
         const perk = setData.setPerks.find(p => String(p.sandboxPerkHash) === String(perkHash));
         if (perk) {
-          openPerkPopup(perk.sandboxPerkHash, perk, setData);
+          await openPerkPopup(perk.sandboxPerkHash, perk, setData);
           break;
         }
       }
@@ -243,7 +294,7 @@ export async function loadSetArmorPage({
       return div;
     }
 
-    function openPerkPopup(sandboxPerkHash, perk, setData) {
+    async function openPerkPopup(sandboxPerkHash, perk, setData) {
       const iconEl = document.getElementById('popupitem-icon');
       const nameEl = document.getElementById('popupitem-name');
       const descEl = document.getElementById('popupitem-description');
@@ -267,6 +318,9 @@ export async function loadSetArmorPage({
       idEl.textContent = `ID: ${sandboxPerkHash}`;
 
       renderPerkContent(perk, setData, setarmorContent);
+
+      // NOUVEAU : Récupérer le nom français pour l'emoji Discord
+      currentPerkFrName = await fetchFrenchPerkName(sandboxPerkHash, setData);
 
       popup.classList.add('show');
       document.body.classList.add('popupitem-open');

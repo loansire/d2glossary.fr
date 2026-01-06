@@ -14,6 +14,9 @@ import {
 
 const CLARITY_URL = 'data/clarity.json';
 
+// Stockage du nom FR pour l'emoji Discord
+let currentItemFrName = null;
+
 /**
  * Récupère les données Clarity depuis le cache mémoire
  */
@@ -83,8 +86,37 @@ function renderClarityInPopup(item) {
   claritySeparator.classList.remove('hidden');
 }
 
+/**
+ * Récupère le nom français d'un item pour l'emoji Discord
+ */
+async function fetchFrenchName(id) {
+  try {
+    // Vérifier d'abord le cache mémoire
+    const frDataUrl = `data/fr/item_definitions.json`;
+    let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
+
+    // Si pas en cache mémoire, tenter de charger
+    if (!frData) {
+      const response = await fetch(frDataUrl);
+      if (response.ok) {
+        frData = await response.json();
+      }
+    }
+
+    // Retourner le nom français si trouvé
+    if (frData?.[id]?.displayProperties?.name) {
+      return frData[id].displayProperties.name;
+    }
+
+    return null;
+  } catch (err) {
+    console.warn('[PopupItem] Impossible de charger le nom français:', err);
+    return null;
+  }
+}
+
 // === POPUP FUNCTIONS ===
-export function openPopupItem(id, item) {
+export async function openPopupItem(id, item) {
   const iconEl = document.getElementById('popupitem-icon');
   const nameEl = document.getElementById('popupitem-name');
   const descEl = document.getElementById('popupitem-description');
@@ -119,6 +151,15 @@ export function openPopupItem(id, item) {
 
   idEl.textContent = `ID: ${id}`;
 
+  // NOUVEAU : Récupérer le nom français pour l'emoji Discord
+  if (currentLang === 'en') {
+    // Si on est en anglais, charger le nom français en arrière-plan
+    currentItemFrName = await fetchFrenchName(id);
+  } else {
+    // Si on est en français, utiliser directement le nom actuel
+    currentItemFrName = props.name;
+  }
+
   popup.classList.add('show');
   document.body.classList.add('popupitem-open');
 
@@ -134,6 +175,7 @@ export function closePopupItem() {
   popup?.classList.remove('show');
   document.body.classList.remove('popupitem-open');
   removeUrlParam('id');
+  currentItemFrName = null; // Reset
 }
 
 // === SHARE FUNCTIONS ===
@@ -143,16 +185,19 @@ export function sharePopupItem() {
 }
 
 export function copyDiscordMarkdown() {
-  const name = document.getElementById('popupitem-name')?.textContent.trim();
+  // Nom affiché (dans la langue courante)
+  const displayName = document.getElementById('popupitem-name')?.textContent.trim();
   const url = getCurrentUrl();
   const iconSwitch = document.getElementById('iconSwitch');
   const iconEnabled = iconSwitch?.checked;
 
-  let markdown = `[${name}](<${url}>)`;
+  // Utiliser le nom affiché pour l'hyperlien
+  let markdown = `[${displayName}](<${url}>)`;
 
-  if (iconEnabled) {
-    const cleanName = normalizeName(name);
-    markdown = `:${cleanName}: ${markdown}`;
+  if (iconEnabled && currentItemFrName) {
+    // TOUJOURS utiliser le nom français pour l'emoji Discord
+    const cleanFrName = normalizeName(currentItemFrName);
+    markdown = `:${cleanFrName}: ${markdown}`;
   }
 
   copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
