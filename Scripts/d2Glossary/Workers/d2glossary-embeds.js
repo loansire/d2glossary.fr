@@ -6,7 +6,6 @@
 const SITE_URL = 'https://d2glossary.fr';
 const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const DATA_BASE_URL = 'https://d2glossary.fr/data';
-const FAVICON_URL = 'https://d2glossary.fr/assets/src/ico/favicon-96x96.png';
 
 // User agent Discord
 const DISCORD_BOT = 'discordbot';
@@ -81,7 +80,8 @@ async function getSetArmorPerkInfo(id, lang) {
         description: perk.displayProperties.description || '',
         icon: perk.displayProperties.icon
           ? `${BUNGIE_BASE_URL}${perk.displayProperties.icon}`
-          : null
+          : null,
+        requiredCount: perk.requiredSetCount || null
       };
     }
   }
@@ -113,12 +113,22 @@ function escapeHtml(text) {
 }
 
 /**
+ * Génère le titre selon le type de page
+ */
+function generateTitle(info, pageLabel, pageType) {
+  if (pageType === 'setarmor' && info.requiredCount) {
+    return `Set d'armure ${info.requiredCount}x: ${info.name}`;
+  }
+  return `${pageLabel}: ${info.name}`;
+}
+
+/**
  * Génère le HTML avec métadonnées pour Discord
  */
-function generateDiscordEmbed(info, pageLabel, pageUrl) {
-  const title = `${pageLabel}: ${info.name}`;
+function generateDiscordEmbed(info, pageLabel, pageUrl, pageType) {
+  const title = generateTitle(info, pageLabel, pageType);
   const description = cleanDescription(info.description);
-  const footer = '-# Cliquez pour obtenir les détails de Destiny Data Compendium.';
+  const footer = 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
   const fullDescription = description ? `${description}\n\n${footer}` : footer;
 
   return `<!DOCTYPE html>
@@ -130,15 +140,12 @@ function generateDiscordEmbed(info, pageLabel, pageUrl) {
   <meta property="og:site_name" content="D2Glossary">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(fullDescription)}">
-  <meta property="og:image" content="${info.icon || FAVICON_URL}">
+  <meta property="og:image" content="${info.icon}">
   <meta property="og:url" content="${pageUrl}">
   <meta property="og:type" content="website">
 
   <!-- Couleur Discord (jaune D2Glossary) -->
   <meta name="theme-color" content="#F3CF55">
-
-  <!-- Favicon pour le header -->
-  <link rel="icon" href="${FAVICON_URL}">
 
   <!-- Redirection immédiate pour les vrais utilisateurs -->
   <meta http-equiv="refresh" content="0;url=${pageUrl}">
@@ -187,7 +194,7 @@ export default {
     if (!itemInfo) return fetch(request);
 
     // Générer l'embed Discord
-    const html = generateDiscordEmbed(itemInfo, config.label, url.toString());
+    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type);
 
     return new Response(html, {
       headers: {
