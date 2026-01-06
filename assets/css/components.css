@@ -382,3 +382,24 @@ body.popup-open {
     font-size: 1.2rem;
   }
 }
+
+/* ============================================
+   SCROLLABLE SECTION (sans scrollbar personnalisée)
+   ============================================ */
+.scrollable-section {
+  max-height: 400px;
+  overflow-y: auto;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .scrollable-section {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scrollable-section {
+    max-height: 250px;
+  }
+}
