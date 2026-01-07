@@ -26,6 +26,25 @@
   font-family: var(--font-destiny-symbols);
 }
 
+.weapon-auto-rifle,
+.weapon-pulse-rifle,
+.weapon-scout-rifle,
+.weapon-hand-cannon,
+.weapon-sidearm,
+.weapon-smg,
+.weapon-bow,
+.weapon-fusion-rifle,
+.weapon-sniper-rifle,
+.weapon-shotgun,
+.weapon-trace-rifle,
+.weapon-glaive,
+.weapon-grenade-launcher,
+.weapon-rocket-launcher,
+.weapon-machine-gun,
+.weapon-sword {
+  color: var(--color-weapon);
+}
+
 /* === AMMO TYPES === */
 .primary::before {
   content: '\0044';
@@ -53,6 +72,8 @@
 .heavy {
   color: var(--color-ammo-heavy);
 }
+
+
 
 /* === DAMAGE TYPES === */
 .void::before {
