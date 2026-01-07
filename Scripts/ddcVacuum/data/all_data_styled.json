@@ -27812,7 +27812,7 @@
     },
     {
       "Name": "Disaster Corps\n\nCrucible",
-      "Description": "2 Piece | Pleas Heard\n\nUpon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 12.5HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen. ",
+      "Description": "2 Piece | Pleas Heard\n\nUpon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen. ",
       "descriptions": {
         "en": [
           {
@@ -27864,7 +27864,7 @@
           {
             "linesContent": [
               {
-                "text": "Restores 12.5HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy."
+                "text": "Restores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy."
               }
             ]
           },
@@ -28444,7 +28444,7 @@
       }
     },
     {
-      "Description": "4 Piece | Martingale\n\nOn Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for ? seconds.\n",
+      "Description": "4 Piece | Martingale\n\nOn Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for 10 seconds.",
       "descriptions": {
         "en": [
           {
@@ -28469,7 +28469,7 @@
           {
             "linesContent": [
               {
-                "text": "+? Handling and 0.?x ADS Duration Multiplier for ? seconds."
+                "text": "+? Handling and 0.?x ADS Duration Multiplier for 10 seconds."
               }
             ]
           }
@@ -28746,7 +28746,7 @@
     },
     {
       "Name": "Smoke Jumper\n\nSolo/Fireteam Ops",
-      "Description": "2 Piece | Ride Together, Die Together\n\nOn Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 45% Damage Resist, scaling down to 15%? over the 3 second duration.",
+      "Description": "2 Piece | Ride Together, Die Together\n\nOn Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
       "descriptions": {
         "en": [
           {
@@ -28778,7 +28778,23 @@
           {
             "linesContent": [
               {
-                "text": "Ride Together, Die Together initially grants 45% Damage Resist, scaling down to 15%? over the 3 second duration."
+                "text": "Ride Together, Die Together initially grants 50% ["
+              },
+              {
+                "text": "5%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage Resist."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Damage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second."
               }
             ]
           }
@@ -28948,7 +28964,7 @@
     },
     {
       "Name": "Techsec\n\nSolo/Fireteam Ops",
-      "Description": "2 Piece | Wrecker\n\nPassively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison and Unpowered/Glaive Melee!",
+      "Description": "2 Piece | Wrecker\n\nPassively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
       "descriptions": {
         "en": [
           {
@@ -29023,7 +29039,7 @@
                 ]
               },
               {
-                "text": ", including Poison and Unpowered/"
+                "text": ", including Poison, Praxic Blade, and Unpowered/"
               },
               {
                 "text": "Glaive",
@@ -29155,7 +29171,7 @@
       }
     },
     {
-      "Description": "4 Piece | Room Clearing\n\nUpon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +? Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
+      "Description": "4 Piece | Room Clearing\n\nUpon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
       "descriptions": {
         "en": [
           {
@@ -29192,7 +29208,7 @@
           {
             "linesContent": [
               {
-                "text": "Room Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +? Ammo Generation for Heat Weapons and "
+                "text": "Room Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and "
               },
               {
                 "text": "Primary Ammo Weapons",
@@ -29326,7 +29342,7 @@
       }
     },
     {
-      "Description": "4 Piece | Superluminal Motion\n\nUpon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 17.5HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+      "Description": "4 Piece | Superluminal Motion\n\nUpon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 15HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
       "descriptions": {
         "en": [
           {
@@ -29351,7 +29367,7 @@
           {
             "linesContent": [
               {
-                "text": "Restores 17.5HP/s for 11 seconds."
+                "text": "Restores 15HP/s for 11 seconds."
               }
             ]
           },
