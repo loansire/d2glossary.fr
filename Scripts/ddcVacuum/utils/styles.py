@@ -104,12 +104,12 @@ STYLE_PATTERNS = {
 
     # === WEAPON TYPES ===
     "auto_rifle": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Auto Rifles?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Auto(?:\s+Rifles?|(?=:))',
         "class": "weapon-auto-rifle",
         "description": "Auto Rifle weapon type"
     },
     "pulse_rifle": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Pulse(?: Rifles?)?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Special|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Pulse(?: Rifles?)?\b',
         "class": "weapon-pulse-rifle",
         "description": "Pulse Rifle weapon type"
     },
@@ -119,12 +119,12 @@ STYLE_PATTERNS = {
         "description": "Scout Rifle weapon type"
     },
     "hand_cannon": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Hand Cannons?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Special|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Hand Cannons?\b',
         "class": "weapon-hand-cannon",
         "description": "Hand Cannon weapon type"
     },
     "sidearm": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Sidearms?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Special|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Sidearms?\b',
         "class": "weapon-sidearm",
         "description": "Sidearm weapon type"
     },
@@ -138,10 +138,15 @@ STYLE_PATTERNS = {
         "class": "weapon-bow",
         "description": "Bow weapon type"
     },
+    "linear_fusion_rifle": {
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?(?:Linear|LFRs?)(?: Fusion)?(?: Rifles?)?\b',
+        "class": "weapon-linear-fusion-rifle",
+        "description": "Linear Fusion Rifle weapon type"
+    },
     "fusion_rifle": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Linear|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Fusion Rifles?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Fusion Rifles?\b',
         "class": "weapon-fusion-rifle",
-        "description": "Fusion Rifle weapon type"
+        "description": "Fusion Rifle weapon type (excludes Linear)"
     },
     "sniper_rifle": {
         "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Sniper Rifles?\b',
@@ -163,18 +168,23 @@ STYLE_PATTERNS = {
         "class": "weapon-glaive",
         "description": "Glaive weapon type"
     },
+    "heavy_grenade_launcher": {
+        "pattern": r'\b(?:(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Grenade Launchers?|GLs?|both GLs)\b',
+        "class": "weapon-heavy-grenade-launcher",
+        "description": "Heavy Grenade Launcher weapon type"
+    },
     "grenade_launcher": {
         "pattern": r'\b(?:(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Grenade Launchers?|GLs?|both GLs)\b',
         "class": "weapon-grenade-launcher",
         "description": "Grenade Launcher weapon type"
     },
     "rocket_launcher": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Rocket Launchers?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Rocket Launchers?|RLs?\b',
         "class": "weapon-rocket-launcher",
         "description": "Rocket Launcher weapon type"
     },
     "machine_gun": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Machine Guns?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Rapid-Fire|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Machine Guns?|MGs?\b',
         "class": "weapon-machine-gun",
         "description": "Machine Gun weapon type"
     },
@@ -210,9 +220,11 @@ STYLES_ORDER = [
     "submachine_gun",
     "sidearm",
     "bow",
+    "linear_fusion_rifle",
     "fusion_rifle",
     "sniper_rifle",
     "shotgun",
+    "heavy_grenade_launcher",
     "grenade_launcher",
     "rocket_launcher",
     "machine_gun",
