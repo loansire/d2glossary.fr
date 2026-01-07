@@ -28,158 +28,158 @@ STYLE_PATTERNS = {
         "pattern": r'\[([^\]]+)\]',
         "class": "pvp",
         "capture_group": 1,
-        "description": "PVP-specific values in brackets - captures everything between []"
+        "description": "PVP-specific values in brackets"
     },
 
     # === ELEMENTS / SUBCLASSES ===
     "solar_keywords": {
-        "pattern": r'\b(Well of Radiance|Blade Barrage|Song of Flame|Ember of \w+|Firesprites|Firesprite|Restoration|Scorching|Ignition|Scorched|Daybreak|Golden Gun|Ignited|Ignites|Radiant|Ignite|Scorch|Solar|Cure)\b',
+        "pattern": r'\b(Well of Radiance|Blade Barrage|Song of Flame|Ember of \w+|Firesprites?|Restoration|Scorching|Ignitions?|Scorched|Daybreak|Golden Gun|Ignited|Ignites|Radiant|Scorch|Solar|Cure)\b',
         "class": "solar",
         "description": "Solar subclass keywords"
     },
     "arc_keywords": {
-        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces|Stormtrance|Bolt Charge|Ionic Trace|Arc Staff|Jolt Shot|Amplified|Blinded|Jolting|Jolted|Blind|Jolt|Arc)\b',
+        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces?|Stormtrance|Bolt Charge|Arc Staff|Jolt Shot|Amplified|Blinded|Jolting|Jolted|Blind|Jolt|Arc)\b',
         "class": "arc",
         "description": "Arc subclass keywords"
     },
     "void_keywords": {
-        "pattern": r'\b(Chaos Accelerant|Void Overshield|Void Breaches|Invisibility|Suppression|Suppressed|Void Breach|Echo of \w+|Smoke Bomb|Weakening|Invisible|Weakened|Volatile|Overshield|Suppress|Devour|Weaken|Void)\b',
+        "pattern": r'\b(Chaos Accelerant|Void (?:Overshield|Breaches?)|Invisibility|Suppressions?|Suppressed|Echo of \w+|Smoke Bomb|Weakening|Invisible|Weakened|Volatile|Overshield|Devour|Weaken|Void)\b',
         "class": "void",
         "description": "Void subclass keywords"
     },
     "stasis_keywords": {
-        "pattern": r'\b(Stasis Crystals|Stasis Crystal|Stasis Seeker|Stasis Debuff|Whisper of \w+|Stasis Shards|Glacial Guard|Frost Armor|Stasis Shard|Shattering|Shattered|Shatter|Slowed|Frozen|Freeze|Stasis|Slow)\b',
+        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|Shattering|Shattered|Shatter|Slowed|Frozens?|Freeze|Stasis|Slow)\b',
         "class": "stasis",
         "description": "Stasis subclass keywords"
     },
     "strand_keywords": {
-        "pattern": r'\b(Unraveling Rounds|Thread of \w+|Threadlings|Woven Mail|Threadling|Unraveling|Suspended|Unravel|Tangles|Severed|Suspend|Tangle|Strand|Sever)\b',
+        "pattern": r'\b(Unraveling(?: Rounds)?|Thread of \w+|Threadlings?|Woven Mail|Unravel|Tangles?|Severed|Suspends?(?:ed)?|Strand|Sever)\b',
         "class": "strand",
         "description": "Strand subclass keywords"
     },
     "kinetic_keywords": {
-        "pattern": r'\b(Kinetic Bonus Damage|Kinetic Weapon Damage|Kinetic Weapons|Kinetic Weapon|Kinetic Damage|Kinetic Damages|Kinetic Blast|Kinetic Blasts|Kinetic Micro-Missile|Kinetic Ammo|Kinetic Synthesis Ammo|Kinetic)\b',
+        "pattern": r'\b(Kinetic(?: (?:Bonus |Weapon |Synthesis )?(?:Damage|Weapons?|Blasts?|Micro-Missile|Ammo))?)\b',
         "class": "kinetic",
         "description": "Kinetic subclass keywords"
     },
     "prismatic_keywords": {
-        "pattern": r'\b(Transcendence|Transcending)\b',
+        "pattern": r'\b(Transcend(?:ence|ing))\b',
         "class": "prismatic",
         "description": "Prismatic subclass keywords"
     },
 
     # === CHAMPIONS ===
     "barrier_champion": {
-        "pattern": r'\b(Barrier Champions?|Barrier Champion\'?s?)\b',
+        "pattern": r'\bBarrier Champions?(?:\'s)?\b',
         "class": "barrier",
         "description": "Barrier champion references"
     },
     "overload_champion": {
-        "pattern": r'\b(Overload Champions?|Overload Champion\'?s?|Disruption)\b',
+        "pattern": r'\b(?:Overload Champions?(?:\'s)?|Disruption)\b',
         "class": "overload",
         "description": "Overload champion references"
     },
     "unstoppable_champion": {
-        "pattern": r'\b(Unstoppable Champions?|Unstoppable Champion\'?s?)\b',
+        "pattern": r'\bUnstoppable Champions?(?:\'s)?\b',
         "class": "unstoppable",
         "description": "Unstoppable champion references"
     },
 
     # === AMMO TYPES ===
     "primary_ammo": {
-        "pattern": r'\b(Primary Ammo Reserves|Primary Ammo Reserve|Primary Ammo Weapons|Primary Ammo Bricks|Primary Ammo Brick|Primary Weapons|Primary Ammo)\b',
+        "pattern": r'\bPrimary (?:Ammo(?: (?:Reserves?|Weapons?|Bricks?))?|Weapons?)\b',
         "class": "primary",
         "description": "Primary ammo type"
     },
     "special_ammo": {
-        "pattern": r'\b(Special Ammo Reserves|Special Ammo Reserve|Special Ammo Weapons|Special Ammo Bricks|Special Ammo Brick|Special Weapons|Special Ammo)\b',
+        "pattern": r'\bSpecial (?:Ammo(?: (?:Reserves?|Weapons?|Bricks?))?|Weapons?)\b',
         "class": "special",
         "description": "Special ammo type"
     },
     "heavy_ammo": {
-        "pattern": r'\b(Heavy Ammo Reserves|Heavy Ammo Reserve|Heavy Ammo Weapons|Heavy Ammo Bricks|Heavy Ammo Brick|Heavy Weapons|Heavy Weapon|Heavy Bricks|Heavy Brick|Heavy Ammo|Power Ammo reserves|Power Ammo reserve|Power Ammo Weapons|Power Ammo Bricks|Power Ammo Brick|Power Weapons|Power Weapon|Power Bricks|Power Brick|Power Ammo)\b',
+        "pattern": r'\b(?:Heavy|Power) (?:(?:Ammo|Weapon)s?(?: (?:Reserves?|Bricks?))?|Bricks?)\b',
         "class": "heavy",
         "description": "Heavy/Power ammo type"
     },
 
     # === WEAPON TYPES ===
     "auto_rifle": {
-        "pattern": r'\b(Auto Rifles?|High-Impact Auto Rifles?)\b',
+        "pattern": r'\b(?:High-Impact )?Auto Rifles?\b',
         "class": "weapon-auto-rifle",
         "description": "Auto Rifle weapon type"
     },
     "pulse_rifle": {
-        "pattern": r'\b(Pulse Rifles?|Rocket Pulse)\b',
+        "pattern": r'\b(?:Rocket )?Pulse(?: Rifles?)?\b',
         "class": "weapon-pulse-rifle",
         "description": "Pulse Rifle weapon type"
     },
     "scout_rifle": {
-        "pattern": r'\b(Scout Rifles?|120RPM Scout Rifles?|150RPM Scout Rifles?|180RPM Scout Rifles?)\b',
+        "pattern": r'\b(?:\d{3}RPM )?Scout Rifles?\b',
         "class": "weapon-scout-rifle",
         "description": "Scout Rifle weapon type"
     },
     "hand_cannon": {
-        "pattern": r'\b(Hand Cannons?|120RPM Hand Cannons?|140RPM Hand Cannons?|180RPM Hand Cannons?)\b',
+        "pattern": r'\b(?:\d{3}RPM )?Hand Cannons?\b',
         "class": "weapon-hand-cannon",
         "description": "Hand Cannon weapon type"
     },
     "sidearm": {
-        "pattern": r'\b(Sidearms?|Non-Burst Sidearms?)\b',
+        "pattern": r'\b(?:Non-Burst )?Sidearms?\b',
         "class": "weapon-sidearm",
         "description": "Sidearm weapon type"
     },
     "submachine_gun": {
-        "pattern": r'\b(Submachine Guns?|SMGs?)\b',
+        "pattern": r'\b(?:Submachine Guns?|SMGs?)\b',
         "class": "weapon-smg",
         "description": "Submachine Gun weapon type"
     },
     "bow": {
-        "pattern": r'\b(Bows?)\b',
+        "pattern": r'\bBows?\b',
         "class": "weapon-bow",
         "description": "Bow weapon type"
     },
     "fusion_rifle": {
-        "pattern": r'\b(Fusion Rifles?|Linear Fusion Rifles?)\b',
+        "pattern": r'\b(?:Linear )?Fusion Rifles?\b',
         "class": "weapon-fusion-rifle",
         "description": "Fusion Rifle weapon type"
     },
     "sniper_rifle": {
-        "pattern": r'\b(Sniper Rifles?)\b',
+        "pattern": r'\bSniper Rifles?\b',
         "class": "weapon-sniper-rifle",
         "description": "Sniper Rifle weapon type"
     },
     "shotgun": {
-        "pattern": r'\b(Shotguns?)\b',
+        "pattern": r'\bShotguns?\b',
         "class": "weapon-shotgun",
         "description": "Shotgun weapon type"
     },
     "trace_rifle": {
-        "pattern": r'\b(Trace Rifles?)\b',
+        "pattern": r'\bTrace Rifles?\b',
         "class": "weapon-trace-rifle",
         "description": "Trace Rifle weapon type"
     },
     "glaive": {
-        "pattern": r'\b(Glaives?)\b',
+        "pattern": r'\bGlaives?\b',
         "class": "weapon-glaive",
         "description": "Glaive weapon type"
     },
     "grenade_launcher": {
-        "pattern": r'\b(Grenade Launchers?|GLs?|both GLs)\b',
+        "pattern": r'\b(?:Grenade Launchers?|GLs?|both GLs)\b',
         "class": "weapon-grenade-launcher",
         "description": "Grenade Launcher weapon type"
     },
     "rocket_launcher": {
-        "pattern": r'\b(Rocket Launchers?|High-Impact Rocket Launchers?)\b',
+        "pattern": r'\b(?:High-Impact )?Rocket Launchers?\b',
         "class": "weapon-rocket-launcher",
         "description": "Rocket Launcher weapon type"
     },
     "machine_gun": {
-        "pattern": r'\b(Machine Guns?)\b',
+        "pattern": r'\bMachine Guns?\b',
         "class": "weapon-machine-gun",
         "description": "Machine Gun weapon type"
     },
     "sword": {
-        "pattern": r'\b(Swords?)\b',
+        "pattern": r'\bSwords?\b',
         "class": "weapon-sword",
         "description": "Sword weapon type"
     },
