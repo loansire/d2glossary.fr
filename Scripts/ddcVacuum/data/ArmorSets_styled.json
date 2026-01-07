@@ -79,7 +79,25 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:"
+              "text": "Upon scoring a Missile, "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " Kill:"
             }
           ]
         },
@@ -205,7 +223,34 @@
         {
           "linesContent": [
             {
-              "text": "On Bow, Shotgun, or Sword Kill:"
+              "text": "On "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Kill:"
             }
           ]
         },
@@ -402,7 +447,34 @@
         {
           "linesContent": [
             {
-              "text": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:"
+              "text": "Upon finishing an "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": " reload within 3 seconds of a kill:"
             }
           ]
         },
@@ -466,7 +538,34 @@
         {
           "linesContent": [
             {
-              "text": "For Auto Rifles, Scout Rifles, and Sidearms:"
+              "text": "For "
+            },
+            {
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Scout Rifles",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -1014,7 +1113,16 @@
         {
           "linesContent": [
             {
-              "text": "On Sword Hit:"
+              "text": "On "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Hit:"
             }
           ]
         },
@@ -1080,7 +1188,25 @@
         {
           "linesContent": [
             {
-              "text": "Blade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds."
+              "text": "Blade Focus grants 10% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Damage, 100% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds."
             }
           ]
         },
@@ -1114,7 +1240,25 @@
         {
           "linesContent": [
             {
-              "text": "Upon readying a Heat Weapon, Submachine Gun, or Hand Cannon:"
+              "text": "Upon readying a Heat Weapon, "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "text": "Hand Cannon",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -1192,7 +1336,25 @@
         {
           "linesContent": [
             {
-              "text": "Hotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat."
+              "text": "Hotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Hand Cannons",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ". Additionally, it grants +30 Weapons stat."
             }
           ]
         }
@@ -1302,7 +1464,25 @@
         {
           "linesContent": [
             {
-              "text": "Upon damaging an enemy with a Sword, Glaive, or Melee Attack:"
+              "text": "Upon damaging an enemy with a "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": ", or Melee Attack:"
             }
           ]
         },
@@ -1335,7 +1515,25 @@
         {
           "linesContent": [
             {
-              "text": "Upon blocking damage with a Glaive or a Sword:"
+              "text": "Upon blocking damage with a "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " or a "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -1442,7 +1640,16 @@
               ]
             },
             {
-              "text": ", including Poison and Unpowered/Glaive Melee!"
+              "text": ", including Poison and Unpowered/"
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee!"
             }
           ]
         }
@@ -1814,7 +2021,13 @@
         {
           "linesContent": [
             {
-              "text": "Does not trigger at 0 Ammo. rip bows and GLs"
+              "text": "Does not trigger at 0 Ammo. rip bows and "
+            },
+            {
+              "text": "GLs",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
             }
           ]
         }

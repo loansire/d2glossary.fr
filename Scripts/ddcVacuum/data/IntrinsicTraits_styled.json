@@ -37,7 +37,16 @@
         {
           "linesContent": [
             {
-              "text": "Deals 10% increased damage over High-Impact Rocket Launchers."
+              "text": "Deals 10% increased damage over "
+            },
+            {
+              "text": "High-Impact Rocket Launchers",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -138,7 +147,16 @@
         {
           "linesContent": [
             {
-              "text": "Deals 10% increased damage over High-Impact Rocket Launchers."
+              "text": "Deals 10% increased damage over "
+            },
+            {
+              "text": "High-Impact Rocket Launchers",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -503,7 +521,16 @@
         {
           "linesContent": [
             {
-              "text": "Baseline damage for Rocket Launchers."
+              "text": "Baseline damage for "
+            },
+            {
+              "text": "Rocket Launchers",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -615,7 +642,37 @@
         {
           "linesContent": [
             {
-              "text": "SMG: Behaves like a Lightweight SMG | Shotgun: Behaves like a Precision Shotgun"
+              "text": "SMG",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": ": Behaves like a Lightweight "
+            },
+            {
+              "text": "SMG",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ": Behaves like a Precision "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
             }
           ]
         },
@@ -644,7 +701,13 @@
         {
           "linesContent": [
             {
-              "text": "Fusion Rifles only receive -10% Recoil Yaw."
+              "text": "Fusion Rifles",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": " only receive -10% Recoil Yaw."
             }
           ]
         }
@@ -666,7 +729,16 @@
         {
           "linesContent": [
             {
-              "text": "Deals 5% decreased damage over High-Impact Rocket Launchers."
+              "text": "Deals 5% decreased damage over "
+            },
+            {
+              "text": "High-Impact Rocket Launchers",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -778,7 +850,16 @@
         {
           "linesContent": [
             {
-              "text": "Has 50% Increased Aim Assist Falloff Distance at 0 Range, down to 25% at 100 Range, compared to a regular Auto Rifle."
+              "text": "Has 50% Increased Aim Assist Falloff Distance at 0 Range, down to 25% at 100 Range, compared to a regular "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -815,7 +896,16 @@
         {
           "linesContent": [
             {
-              "text": "Dealing damage with the Support Auto Rifle doubles the Weapon Energy gains, generating 1% Energy for every 2 ["
+              "text": "Dealing damage with the Support "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " doubles the Weapon Energy gains, generating 1% Energy for every 2 ["
             },
             {
               "text": "1.8",

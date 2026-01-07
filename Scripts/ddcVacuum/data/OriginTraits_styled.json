@@ -203,7 +203,13 @@
         {
           "linesContent": [
             {
-              "text": "Bows additionally receive a 0.85x "
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " additionally receive a 0.85x "
             },
             {
               "text": "↑0.7x",
@@ -238,7 +244,49 @@
         {
           "linesContent": [
             {
-              "text": "Bow, Glaive, Machine Gun, Pulse Rifle, and Trace Rifle: 10.78%"
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Machine Gun",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Pulse Rifle",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Trace Rifle",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": ": 10.78%"
             }
           ]
         }
@@ -402,28 +450,64 @@
         {
           "linesContent": [
             {
-              "text": "Adaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%"
+              "text": "Adaptive "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " (VS Pyroelectric Propellant) = 0.2%"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Area-Denial Grenade Launcher (VS Velocity Baton) = 0.365%"
+              "text": "Area-Denial "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " (VS Velocity Baton) = 0.365%"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Adaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%"
+              "text": "Adaptive "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": " (VS Gravitic Arrest) = 0.425%"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Rapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%"
+              "text": "Rapid-Fire "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " (VS Chill Inhibitor) = 3.5%"
             }
           ]
         },
@@ -442,7 +526,16 @@
         {
           "linesContent": [
             {
-              "text": "Rapid-Fire Auto Rifle (Ahab Char) = ?% "
+              "text": "Rapid-Fire "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " (Ahab Char) = ?% "
             },
             {
               "text": "↑?%",
@@ -455,7 +548,16 @@
         {
           "linesContent": [
             {
-              "text": "High-Impact Scout Rifle (Jurisprudent) = ?% "
+              "text": "High-Impact "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": " (Jurisprudent) = ?% "
             },
             {
               "text": "↑?%",
@@ -468,7 +570,16 @@
         {
           "linesContent": [
             {
-              "text": "Lightweight Sidearm (Faustus Decline) = ?% "
+              "text": "Lightweight "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": " (Faustus Decline) = ?% "
             },
             {
               "text": "↑?%",
@@ -481,7 +592,16 @@
         {
           "linesContent": [
             {
-              "text": "Rapid-Fire Sniper Rifle (Shortline Dissident) = ?% "
+              "text": "Rapid-Fire "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": " (Shortline Dissident) = ?% "
             },
             {
               "text": "↑?%",
@@ -494,7 +614,22 @@
         {
           "linesContent": [
             {
-              "text": "Rocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% "
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " (Haliaetus) + "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " (Eighty-Six)= 17% "
             },
             {
               "text": "↑?%",
@@ -1045,7 +1180,13 @@
         {
           "linesContent": [
             {
-              "text": "Swords receive +100 Charge Rate for 1.5 seconds."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " receive +100 Charge Rate for 1.5 seconds."
             }
           ]
         }
@@ -1103,7 +1244,13 @@
         {
           "linesContent": [
             {
-              "text": "Bows are additionally granted 0.?x Draw Time Multiplier."
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " are additionally granted 0.?x Draw Time Multiplier."
             }
           ]
         },
@@ -1288,7 +1435,13 @@
         {
           "linesContent": [
             {
-              "text": "Glaive Melee Kills can also trigger the effect."
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee Kills can also trigger the effect."
             }
           ]
         },
@@ -1327,7 +1480,16 @@
         {
           "linesContent": [
             {
-              "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords."
+              "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -1477,7 +1639,16 @@
               ]
             },
             {
-              "text": " and Shotguns receive x5 Points from kills."
+              "text": " and "
+            },
+            {
+              "text": "Shotguns",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": " receive x5 Points from kills."
             }
           ]
         },
@@ -1491,7 +1662,16 @@
         {
           "linesContent": [
             {
-              "text": "Breech-Loaded Grenade Launchers receive x2 Points from kills."
+              "text": "Breech-Loaded "
+            },
+            {
+              "text": "Grenade Launchers",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " receive x2 Points from kills."
             }
           ]
         }
@@ -1930,7 +2110,13 @@
         {
           "linesContent": [
             {
-              "text": "Swords are granted +100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " are granted +100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds."
             }
           ]
         },
@@ -2021,7 +2207,16 @@
               ]
             },
             {
-              "text": "] increased damage while above 50% Heat/below ?% Sword Energy."
+              "text": "] increased damage while above 50% Heat/below ?% "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Energy."
             }
           ]
         },
@@ -2132,7 +2327,16 @@
         {
           "linesContent": [
             {
-              "text": "Nadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks."
+              "text": "Nadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Lunge Distance at max stacks."
             }
           ]
         },
@@ -2165,7 +2369,22 @@
         {
           "linesContent": [
             {
-              "text": "Auto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots."
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": "? =  Reach maximum stacks after 11 shots."
             }
           ]
         },
@@ -2191,7 +2410,13 @@
         {
           "linesContent": [
             {
-              "text": "Sidearms = Reach maximum stacks after 5 shots."
+              "text": "Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 5 shots."
             }
           ]
         },
@@ -2217,7 +2442,22 @@
         {
           "linesContent": [
             {
-              "text": "Hand Cannons | Scout Rifles = Reach maximum stacks after 4 shots."
+              "text": "Hand Cannons",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Scout Rifles",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 4 shots."
             }
           ]
         },
@@ -2243,14 +2483,29 @@
         {
           "linesContent": [
             {
-              "text": "Swords = Reach maximum stacks after 5 swings."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 5 swings."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance"
+              "text": "20% | 40% | 60% | 80% | 100% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Lunge Distance"
             }
           ]
         },
@@ -2262,7 +2517,13 @@
         {
           "linesContent": [
             {
-              "text": "Grenade Launchers = Reach maximum stacks after ? shots."
+              "text": "Grenade Launchers",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after ? shots."
             }
           ]
         },
@@ -2463,28 +2724,61 @@
         {
           "linesContent": [
             {
-              "text": "Grenade Launcher: 25% Increased Damage"
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 25% Increased Damage"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Machine Gun: 50% Increased Damage"
+              "text": "Machine Gun",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": ": 50% Increased Damage"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Sniper Rifle: 100% Increased Damage"
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 100% Increased Damage"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Fusion Rifle and Shotgun: 150% Increased Damage"
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ": 150% Increased Damage"
             }
           ]
         },
@@ -2503,35 +2797,83 @@
         {
           "linesContent": [
             {
-              "text": "Hand Cannon, Pulse Rifle, and Submachine Gun: 45% of Magazine."
+              "text": "Hand Cannon",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Pulse Rifle",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": ": 45% of Magazine."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Fusion Rifle: ?% of Magazine."
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": ?% of Magazine."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Sniper Rifle: 50?% of Magazine."
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 50?% of Magazine."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grenade Launcher: 30% of Magazine."
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 30% of Magazine."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Machine Gun: 25% of Magazine."
+              "text": "Machine Gun",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": ": 25% of Magazine."
             }
           ]
         },
@@ -2595,7 +2937,16 @@
         {
           "linesContent": [
             {
-              "text": "Noble Deeds grants +30 Handling and +30 Reload Speed. Swords receive +20 Charge Rate."
+              "text": "Noble Deeds grants +30 Handling and +30 Reload Speed. "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " receive +20 Charge Rate."
             }
           ]
         }
@@ -2653,7 +3004,13 @@
         {
           "linesContent": [
             {
-              "text": "Swords grant up to 12.5% Increased Movement Speed."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " grant up to 12.5% Increased Movement Speed."
             }
           ]
         },
@@ -2679,7 +3036,13 @@
         {
           "linesContent": [
             {
-              "text": "Swords grant up to 25% Increased Movement Speed."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " grant up to 25% Increased Movement Speed."
             }
           ]
         },
@@ -2898,21 +3261,48 @@
         {
           "linesContent": [
             {
-              "text": "Fusion Rifle: 12"
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": 12"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Rocket Pulse: 11"
+              "text": "Rocket Pulse",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": ": 11"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Bow & both GLs: 3"
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " & "
+            },
+            {
+              "text": "both GLs",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 3"
             }
           ]
         },
@@ -2975,42 +3365,114 @@
         {
           "linesContent": [
             {
-              "text": "3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle"
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "7 Hits: Scout Rifle"
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "12 Hits: Sidearm"
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "13 Hits: Submachine Gun"
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "14 Hits: Fusion Rifle"
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "16 Hits: Auto Rifle"
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
             }
           ]
         }
@@ -3295,14 +3757,26 @@
         {
           "linesContent": [
             {
-              "text": "Bows receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies."
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Swords receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies."
             }
           ]
         }
@@ -3518,7 +3992,25 @@
         {
           "linesContent": [
             {
-              "text": "Each Grenade Launcher hit counts as 50% of Magazine. Glaive Melee Attacks do not count."
+              "text": "Each "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": " hit counts as 50% of Magazine. "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee Attacks do not count."
             }
           ]
         },
@@ -3581,14 +4073,29 @@
         {
           "linesContent": [
             {
-              "text": "Shots explode on hit, dealing 6.5 (32.5 on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters."
+              "text": "Shots explode on hit, dealing 6.5 (32.5 on "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ") additional damage as an Explosive Payload, damaging enemies within 3? meters."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Trace Rifle: Once every 4 hits, after 4 hits."
+              "text": "Trace Rifle",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": ": Once every 4 hits, after 4 hits."
             }
           ]
         },
@@ -3957,7 +4464,13 @@
         {
           "linesContent": [
             {
-              "text": "Swords: +50 Charge Rate and +40 Guard Endurance"
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ": +50 Charge Rate and +40 Guard Endurance"
             }
           ]
         }
@@ -4099,14 +4612,26 @@
         {
           "linesContent": [
             {
-              "text": "Bows are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill."
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Swords are granted +? Charge Rate."
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " are granted +? Charge Rate."
             }
           ]
         },
@@ -4125,21 +4650,69 @@
         {
           "linesContent": [
             {
-              "text": "2%: Auto Rifles and Submachine Guns."
+              "text": "2%: "
+            },
+            {
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "4%: Sidearms"
+              "text": "4%: "
+            },
+            {
+              "text": "Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "10%: Bows, Linear Fusion Rifles, and Sniper Rifles"
+              "text": "10%: "
+            },
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Linear Fusion Rifles",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Sniper Rifles",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
             }
           ]
         },
@@ -4269,42 +4842,78 @@
         {
           "linesContent": [
             {
-              "text": "Bow: ~180 | ~750 | ? | ? | ?"
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ": ~180 | ~750 | ? | ? | ?"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Sidearm: ? | ? | ? | ? | ?"
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": ": ? | ? | ? | ? | ?"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "SMG : ? | ? | ? | ? | ?"
+              "text": "SMG",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": " : ? | ? | ? | ? | ?"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Fusion Rifle: ? | ? | ? | ? | ?"
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": ? | ? | ? | ? | ?"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Glaive: ? | ? | ? | ? | ?"
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": ": ? | ? | ? | ? | ?"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "GL: I | don't | think | so | lmao"
+              "text": "GL",
+              "classNames": [
+                "weapon-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": I | don't | think | so | lmao"
             }
           ]
         },
@@ -4325,7 +4934,13 @@
         {
           "linesContent": [
             {
-              "text": "Sword: ? | ? | ? | ? | ?"
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ": ? | ? | ? | ? | ?"
             }
           ]
         },

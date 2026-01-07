@@ -103,7 +103,86 @@ STYLE_PATTERNS = {
     },
 
     # === WEAPON TYPES ===
-
+    "auto_rifle": {
+        "pattern": r'\b(Auto Rifles?|High-Impact Auto Rifles?)\b',
+        "class": "weapon-auto-rifle",
+        "description": "Auto Rifle weapon type"
+    },
+    "pulse_rifle": {
+        "pattern": r'\b(Pulse Rifles?|Rocket Pulse)\b',
+        "class": "weapon-pulse-rifle",
+        "description": "Pulse Rifle weapon type"
+    },
+    "scout_rifle": {
+        "pattern": r'\b(Scout Rifles?|120RPM Scout Rifles?|150RPM Scout Rifles?|180RPM Scout Rifles?)\b',
+        "class": "weapon-scout-rifle",
+        "description": "Scout Rifle weapon type"
+    },
+    "hand_cannon": {
+        "pattern": r'\b(Hand Cannons?|120RPM Hand Cannons?|140RPM Hand Cannons?|180RPM Hand Cannons?)\b',
+        "class": "weapon-hand-cannon",
+        "description": "Hand Cannon weapon type"
+    },
+    "sidearm": {
+        "pattern": r'\b(Sidearms?|Non-Burst Sidearms?)\b',
+        "class": "weapon-sidearm",
+        "description": "Sidearm weapon type"
+    },
+    "submachine_gun": {
+        "pattern": r'\b(Submachine Guns?|SMGs?)\b',
+        "class": "weapon-smg",
+        "description": "Submachine Gun weapon type"
+    },
+    "bow": {
+        "pattern": r'\b(Bows?)\b',
+        "class": "weapon-bow",
+        "description": "Bow weapon type"
+    },
+    "fusion_rifle": {
+        "pattern": r'\b(Fusion Rifles?|Linear Fusion Rifles?)\b',
+        "class": "weapon-fusion-rifle",
+        "description": "Fusion Rifle weapon type"
+    },
+    "sniper_rifle": {
+        "pattern": r'\b(Sniper Rifles?)\b',
+        "class": "weapon-sniper-rifle",
+        "description": "Sniper Rifle weapon type"
+    },
+    "shotgun": {
+        "pattern": r'\b(Shotguns?)\b',
+        "class": "weapon-shotgun",
+        "description": "Shotgun weapon type"
+    },
+    "trace_rifle": {
+        "pattern": r'\b(Trace Rifles?)\b',
+        "class": "weapon-trace-rifle",
+        "description": "Trace Rifle weapon type"
+    },
+    "glaive": {
+        "pattern": r'\b(Glaives?)\b',
+        "class": "weapon-glaive",
+        "description": "Glaive weapon type"
+    },
+    "grenade_launcher": {
+        "pattern": r'\b(Grenade Launchers?|GLs?|both GLs)\b',
+        "class": "weapon-grenade-launcher",
+        "description": "Grenade Launcher weapon type"
+    },
+    "rocket_launcher": {
+        "pattern": r'\b(Rocket Launchers?|High-Impact Rocket Launchers?)\b',
+        "class": "weapon-rocket-launcher",
+        "description": "Rocket Launcher weapon type"
+    },
+    "machine_gun": {
+        "pattern": r'\b(Machine Guns?)\b',
+        "class": "weapon-machine-gun",
+        "description": "Machine Gun weapon type"
+    },
+    "sword": {
+        "pattern": r'\b(Swords?)\b',
+        "class": "weapon-sword",
+        "description": "Sword weapon type"
+    },
 }
 
 # Order of pattern application (important for overlapping matches)
@@ -124,6 +203,22 @@ STYLES_ORDER = [
     "primary_ammo",
     "special_ammo",
     "heavy_ammo",
+    "auto_rifle",
+    "pulse_rifle",
+    "scout_rifle",
+    "hand_cannon",
+    "submachine_gun",
+    "sidearm",
+    "bow",
+    "fusion_rifle",
+    "sniper_rifle",
+    "shotgun",
+    "grenade_launcher",
+    "rocket_launcher",
+    "machine_gun",
+    "trace_rifle",
+    "glaive",
+    "sword",
 ]
 
 
