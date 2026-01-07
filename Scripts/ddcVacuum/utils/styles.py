@@ -38,7 +38,7 @@ STYLE_PATTERNS = {
         "description": "Solar subclass keywords"
     },
     "arc_keywords": {
-        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces?|Stormtrance|Bolt Charge|Arc Staff|Jolt Shot|Amplified|Blinded|Jolting|Jolted|Blind|Jolt|Arc)\b',
+        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces?|Stormtrance|Bolt Charge|Arc Staff|Jolting Shot|Jolt Shot|Amplified|Blinded|Jolted|Blind|Jolt|Arc)\b',
         "class": "arc",
         "description": "Arc subclass keywords"
     },
