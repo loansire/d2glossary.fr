@@ -48,7 +48,7 @@ STYLE_PATTERNS = {
         "description": "Void subclass keywords"
     },
     "stasis_keywords": {
-        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|Shattering|Shattered|Shatter|Slowed|Frozens?|Stasis|Slow)\b',
+        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|Shattering|Shattered|Shatter|Slowed|Frozens?|Freeze|Stasis|Slow)\b',
         "class": "stasis",
         "description": "Stasis subclass keywords"
     },
