@@ -269,7 +269,7 @@
               {
                 "text": "Linear Fusion Rifles",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -1396,13 +1396,13 @@
                 "text": "Grants 5% increased damage against Combatant Elemental Shields and "
               },
               {
-                "text": "Barrier Champion",
+                "text": "Barrier Champion's",
                 "classNames": [
                   "barrier"
                 ]
               },
               {
-                "text": "'s Shield."
+                "text": " Shield."
               }
             ]
           },
@@ -1567,14 +1567,14 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
-                "text": ": 10 | Area-Denial "
+                "text": ": 10 | "
               },
               {
-                "text": "Grenade Launchers",
+                "text": "Area-Denial Grenade Launchers",
                 "classNames": [
                   "weapon-grenade-launcher"
                 ]
@@ -1587,10 +1587,7 @@
           {
             "linesContent": [
               {
-                "text": "Support "
-              },
-              {
-                "text": "Auto Rifles",
+                "text": "Support Auto Rifles",
                 "classNames": [
                   "weapon-auto-rifle"
                 ]
@@ -1717,7 +1714,7 @@
               {
                 "text": "Linear Fusion Rifle",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -2954,10 +2951,7 @@
           {
             "linesContent": [
               {
-                "text": "Rocket "
-              },
-              {
-                "text": "Sidearm",
+                "text": "Rocket Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -2968,7 +2962,7 @@
               {
                 "text": "GLs",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -3446,7 +3440,7 @@
               {
                 "text": "Linear Fusion Rifles",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -3907,19 +3901,16 @@
           {
             "linesContent": [
               {
-                "text": "Rapid-Fire "
-              },
-              {
-                "text": "Fusion Rifles",
+                "text": "Rapid-Fire Fusion Rifles",
                 "classNames": [
                   "weapon-fusion-rifle"
                 ]
               },
               {
-                "text": " and Rocket "
+                "text": " and "
               },
               {
-                "text": "Sidearms",
+                "text": "Rocket Sidearms",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -5244,7 +5235,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -5400,7 +5391,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -7685,7 +7676,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -9171,14 +9162,65 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%"
+                "text": "Adaptive"
+              },
+              {
+                "text": " Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 7.1% | Aggressive"
+              },
+              {
+                "text": " Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 10% | Heavy Burst"
+              },
+              {
+                "text": " Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 9.5%"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "High-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%"
+                "text": "High-Impact Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 8.74% | "
+              },
+              {
+                "text": "Lightweight Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 6.3% | Rapid-Fire"
+              },
+              {
+                "text": " Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " = 10.3%"
               }
             ]
           },
@@ -10125,10 +10167,7 @@
           {
             "linesContent": [
               {
-                "text": "Support "
-              },
-              {
-                "text": "Auto Rifles",
+                "text": "Support Auto Rifles",
                 "classNames": [
                   "weapon-auto-rifle"
                 ]
@@ -10141,10 +10180,7 @@
           {
             "linesContent": [
               {
-                "text": "Rocket "
-              },
-              {
-                "text": "Sidearm",
+                "text": "Rocket Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -10377,7 +10413,7 @@
               {
                 "text": "Linear Fusion Rifle",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -10771,10 +10807,7 @@
           {
             "linesContent": [
               {
-                "text": "Special "
-              },
-              {
-                "text": "Hand Cannon",
+                "text": "Special Hand Cannon",
                 "classNames": [
                   "weapon-hand-cannon"
                 ]
@@ -10796,10 +10829,7 @@
           {
             "linesContent": [
               {
-                "text": "Rocket "
-              },
-              {
-                "text": "Sidearm",
+                "text": "Rocket Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -10845,7 +10875,7 @@
               {
                 "text": "Linear Fusion Rifle",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -10865,12 +10895,9 @@
           {
             "linesContent": [
               {
-                "text": "Heavy "
-              },
-              {
-                "text": "Grenade Launcher",
+                "text": "Heavy Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -11443,10 +11470,7 @@
           {
             "linesContent": [
               {
-                "text": "120RPM and "
-              },
-              {
-                "text": "150RPM Scout Rifles",
+                "text": "120RPM and 150RPM Scout Rifles",
                 "classNames": [
                   "weapon-scout-rifle"
                 ]
@@ -13583,7 +13607,7 @@
               {
                 "text": "Linear Fusion Rifle",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -14736,7 +14760,7 @@
               {
                 "text": "Linear Fusion Rifles",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -14899,7 +14923,7 @@
               {
                 "text": "Linear Fusion Rifle",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -15844,7 +15868,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -15872,7 +15896,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               }
             ]
@@ -15904,7 +15928,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               }
             ]
@@ -16590,7 +16614,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -22145,10 +22169,10 @@
           {
             "linesContent": [
               {
-                "text": "Dealing damage with the Support "
+                "text": "Dealing damage with the "
               },
               {
-                "text": "Auto Rifle",
+                "text": "Support Auto Rifle",
                 "classNames": [
                   "weapon-auto-rifle"
                 ]
@@ -22598,7 +22622,13 @@
           {
             "linesContent": [
               {
-                "text": "Linear Fusion: 8.88%"
+                "text": "Linear Fusion",
+                "classNames": [
+                  "weapon-linear-fusion-rifle"
+                ]
+              },
+              {
+                "text": ": 8.88%"
               }
             ]
           },
@@ -22827,10 +22857,7 @@
           {
             "linesContent": [
               {
-                "text": "Area-Denial "
-              },
-              {
-                "text": "Grenade Launcher",
+                "text": "Area-Denial Grenade Launcher",
                 "classNames": [
                   "weapon-grenade-launcher"
                 ]
@@ -22859,12 +22886,9 @@
           {
             "linesContent": [
               {
-                "text": "Rapid-Fire "
-              },
-              {
-                "text": "Grenade Launcher",
+                "text": "Rapid-Fire Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -22887,10 +22911,7 @@
           {
             "linesContent": [
               {
-                "text": "Rapid-Fire "
-              },
-              {
-                "text": "Auto Rifle",
+                "text": "Rapid-Fire Auto Rifle",
                 "classNames": [
                   "weapon-auto-rifle"
                 ]
@@ -22909,10 +22930,7 @@
           {
             "linesContent": [
               {
-                "text": "High-Impact "
-              },
-              {
-                "text": "Scout Rifle",
+                "text": "High-Impact Scout Rifle",
                 "classNames": [
                   "weapon-scout-rifle"
                 ]
@@ -22931,10 +22949,7 @@
           {
             "linesContent": [
               {
-                "text": "Lightweight "
-              },
-              {
-                "text": "Sidearm",
+                "text": "Lightweight Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -22953,10 +22968,7 @@
           {
             "linesContent": [
               {
-                "text": "Rapid-Fire "
-              },
-              {
-                "text": "Sniper Rifle",
+                "text": "Rapid-Fire Sniper Rifle",
                 "classNames": [
                   "weapon-sniper-rifle"
                 ]
@@ -24028,7 +24040,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -24880,7 +24892,7 @@
               {
                 "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -25087,7 +25099,7 @@
               {
                 "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -25217,7 +25229,7 @@
               {
                 "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -25659,7 +25671,7 @@
               {
                 "text": "both GLs",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -25749,7 +25761,7 @@
               {
                 "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -26358,7 +26370,7 @@
               {
                 "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -27063,7 +27075,7 @@
               {
                 "text": "Linear Fusion Rifles",
                 "classNames": [
-                  "weapon-fusion-rifle"
+                  "weapon-linear-fusion-rifle"
                 ]
               },
               {
@@ -27196,7 +27208,13 @@
           {
             "linesContent": [
               {
-                "text": "Auto: ? | ? | ? | ? | ?"
+                "text": "Auto",
+                "classNames": [
+                  "weapon-auto-rifle"
+                ]
+              },
+              {
+                "text": ": ? | ? | ? | ? | ?"
               }
             ]
           },
@@ -27270,7 +27288,7 @@
               {
                 "text": "GL",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -27281,14 +27299,26 @@
           {
             "linesContent": [
               {
-                "text": "LFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200"
+                "text": "LFR",
+                "classNames": [
+                  "weapon-linear-fusion-rifle"
+                ]
+              },
+              {
+                "text": ": ~380 | ~1750 | ~3450 | ~4150 | ~6200"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "MG: ~385 | ? | ? | ? | ?"
+                "text": "MG",
+                "classNames": [
+                  "weapon-machine-gun"
+                ]
+              },
+              {
+                "text": ": ~385 | ? | ? | ? | ?"
               }
             ]
           },
@@ -27476,7 +27506,7 @@
               {
                 "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -28236,7 +28266,16 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a Primary Weapon Kill:"
+                "text": "Upon scoring a "
+              },
+              {
+                "text": "Primary Weapon",
+                "classNames": [
+                  "primary"
+                ]
+              },
+              {
+                "text": " Kill:"
               }
             ]
           },
@@ -29189,7 +29228,16 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:"
+                "text": "Upon scoring 3 Heat Weapons or "
+              },
+              {
+                "text": "Primary Weapon",
+                "classNames": [
+                  "primary"
+                ]
+              },
+              {
+                "text": " Kills within 4 seconds of each:"
               }
             ]
           },
@@ -29277,7 +29325,16 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a Primary Weapon Kill:"
+                "text": "Upon scoring a "
+              },
+              {
+                "text": "Primary Weapon",
+                "classNames": [
+                  "primary"
+                ]
+              },
+              {
+                "text": " Kill:"
               }
             ]
           },
@@ -29425,7 +29482,7 @@
               {
                 "text": "GLs",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               }
             ]

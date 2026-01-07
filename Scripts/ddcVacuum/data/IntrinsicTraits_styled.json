@@ -896,10 +896,10 @@
         {
           "linesContent": [
             {
-              "text": "Dealing damage with the Support "
+              "text": "Dealing damage with the "
             },
             {
-              "text": "Auto Rifle",
+              "text": "Support Auto Rifle",
               "classNames": [
                 "weapon-auto-rifle"
               ]

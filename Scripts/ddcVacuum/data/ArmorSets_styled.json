@@ -93,7 +93,7 @@
             {
               "text": "Grenade Launcher",
               "classNames": [
-                "weapon-grenade-launcher"
+                "weapon-heavy-grenade-launcher"
               ]
             },
             {
@@ -853,7 +853,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Primary Weapon Kill:"
+              "text": "Upon scoring a "
+            },
+            {
+              "text": "Primary Weapon",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " Kill:"
             }
           ]
         },
@@ -1806,7 +1815,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:"
+              "text": "Upon scoring 3 Heat Weapons or "
+            },
+            {
+              "text": "Primary Weapon",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " Kills within 4 seconds of each:"
             }
           ]
         },
@@ -1894,7 +1912,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Primary Weapon Kill:"
+              "text": "Upon scoring a "
+            },
+            {
+              "text": "Primary Weapon",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " Kill:"
             }
           ]
         },
@@ -2042,7 +2069,7 @@
             {
               "text": "GLs",
               "classNames": [
-                "weapon-grenade-launcher"
+                "weapon-heavy-grenade-launcher"
               ]
             }
           ]
