@@ -26,6 +26,7 @@
   font-family: var(--font-destiny-symbols);
 }
 
+/* === WEAPON SYMBOLS === */
 .weapon-auto-rifle,
 .weapon-pulse-rifle,
 .weapon-scout-rifle,
@@ -34,197 +35,176 @@
 .weapon-smg,
 .weapon-bow,
 .weapon-fusion-rifle,
+.weapon-linear-fusion-rifle,
 .weapon-sniper-rifle,
 .weapon-shotgun,
 .weapon-trace-rifle,
 .weapon-glaive,
+.weapon-heavy-grenade-launcher,
 .weapon-grenade-launcher,
 .weapon-rocket-launcher,
 .weapon-machine-gun,
 .weapon-sword {
   color: var(--color-weapon);
+  font-family: var(--font-destiny-symbols);
 }
+
+.weapon-auto-rifle::before,
+.weapon-pulse-rifle::before,
+.weapon-scout-rifle::before,
+.weapon-hand-cannon::before,
+.weapon-sidearm::before,
+.weapon-smg::before,
+.weapon-bow::before,
+.weapon-fusion-rifle::before,
+.weapon-linear-fusion-rifle::before,
+.weapon-sniper-rifle::before,
+.weapon-shotgun::before,
+.weapon-trace-rifle::before,
+.weapon-glaive::before,
+.weapon-heavy-grenade-launcher::before,
+.weapon-light-grenade-launcher::before,
+.weapon-rocket-launcher::before,
+.weapon-machine-gun::before,
+.weapon-sword::before {
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: 2px;
+  transform: rotate(-45deg);
+  font-size: 70%;
+}
+
+.weapon-auto-rifle::before      { content: '\E100'; }
+.weapon-pulse-rifle::before     { content: '\E101'; }
+.weapon-scout-rifle::before     { content: '\E102'; }
+.weapon-hand-cannon::before     { content: '\E103'; }
+.weapon-shotgun::before         { content: '\E104'; }
+.weapon-sniper-rifle::before    { content: '\E105'; }
+.weapon-fusion-rifle::before    { content: '\E106'; }
+.weapon-linear-fusion-rifle::before { content: '\E152'; }
+.weapon-smg::before             { content: '\E107'; }
+.weapon-rocket-launcher::before { content: '\E108'; }
+.weapon-sidearm::before         { content: '\E109'; }
+.weapon-machine-gun::before     { content: '\E154'; }
+.weapon-glaive::before          { content: '\E156'; }
+.weapon-bow::before             { content: '\E099'; }
+.weapon-trace-rifle::before     { content: '\E138'; }
+.weapon-sword::before           { content: '\E153'; }
+.weapon-heavy-grenade-launcher::before { content: '\E113'; }
+.weapon-grenade-launcher::before { content: '\E155'; }
 
 /* === AMMO TYPES === */
-.primary::before {
-  content: '\0044';
-  margin-right: 3px;
-  vertical-align: -3px;
-}
-.primary {
-  color: var(--color-ammo-primary);
-}
-
-.special::before {
-  content: '\0045';
-  margin-right: 3px;
-  vertical-align: -3px;
-}
-.special {
-  color: var(--color-ammo-special);
-}
-
+.primary::before,
+.special::before,
 .heavy::before {
-  content: '\0046';
   margin-right: 3px;
   vertical-align: -3px;
 }
-.heavy {
-  color: var(--color-ammo-heavy);
-}
 
+.primary::before { content: '\0044'; }
+.primary { color: var(--color-ammo-primary); }
 
+.special::before { content: '\0045'; }
+.special { color: var(--color-ammo-special); }
+
+.heavy::before { content: '\0046'; }
+.heavy { color: var(--color-ammo-heavy); }
 
 /* === DAMAGE TYPES === */
-.void::before {
-  content: '\E144';
-  margin-right: 2px;
-}
-.void {
-  color: var(--color-void);
-}
-
-.solar::before {
-  content: '\E140';
-  margin-right: 2px;
-}
-.solar {
-  color: var(--color-solar);
-}
-
-.arc::before {
-  content: '\E143';
-  margin-right: 2px;
-}
-.arc {
-  color: var(--color-arc);
-}
-
-.stasis::before {
-  content: '\E139';
-  margin-right: 2px;
-}
-.stasis {
-  color: var(--color-stasis);
-}
-
+.void::before,
+.solar::before,
+.arc::before,
+.stasis::before,
 .strand::before {
-  content: '\EF0E';
   margin-right: 2px;
 }
-.strand {
-  color: var(--color-strand);
-}
 
-.kinetic::before {
-  content: '\0055';
-  margin-right: 2px;
-  vertical-align: -3px;
-}
-.kinetic {
-  color: var(--color-kinetic);
-}
+.void::before { content: '\E144'; }
+.void { color: var(--color-void); }
 
+.solar::before { content: '\E140'; }
+.solar { color: var(--color-solar); }
+
+.arc::before { content: '\E143'; }
+.arc { color: var(--color-arc); }
+
+.stasis::before { content: '\E139'; }
+.stasis { color: var(--color-stasis); }
+
+.strand::before { content: '\EF0E'; }
+.strand { color: var(--color-strand); }
+
+.kinetic::before,
 .prismatic::before {
-  content: '\0056';
   margin-right: 2px;
   vertical-align: -3px;
 }
-.prismatic {
-  color: var(--color-prismatic);
-}
+
+.kinetic::before { content: '\0055'; }
+.kinetic { color: var(--color-kinetic); }
+
+.prismatic::before { content: '\0056'; }
+.prismatic { color: var(--color-prismatic); }
 
 /* === ACTIVITY TYPES === */
-.pve::before {
-  content: '\0048';
-  text-shadow: 0 0 2px var(--color-pve);
+.pve::before,
+.pvp::before {
   margin-right: 2px;
   margin-left: 2px;
   vertical-align: -5px;
   font-size: 20px;
 }
-.pve {
-  color: var(--color-pve);
+
+.pve::before {
+  content: '\0048';
+  text-shadow: 0 0 2px var(--color-pve);
 }
+.pve { color: var(--color-pve); }
 
 .pvp::before {
   content: '\004a';
   text-shadow: 0 0 2px var(--color-pvp);
-  margin-right: 2px;
-  margin-left: 2px;
-  vertical-align: -5px;
-  font-size: 20px;
 }
-.pvp {
-  color: var(--color-pvp);
-}
+.pvp { color: var(--color-pvp); }
 
 /* === CHAMPION TYPES === */
-.barrier::before {
-  content: '\E070';
-  margin-right: 2px;
-  font-size: 20px;
-}
-.barrier {
-  color: var(--color-champion);
-}
-
-.unstoppable::before {
-  content: '\E072';
-  margin-right: 2px;
-  font-size: 20px;
-}
-.unstoppable {
-  color: var(--color-champion);
-}
-
+.barrier::before,
+.unstoppable::before,
 .overload::before {
-  content: '\E071';
-  font-size: 20px;
   margin-right: 2px;
-}
-.overload {
+  font-size: 20px;
   color: var(--color-champion);
 }
+
+.barrier::before { content: '\E070'; }
+.barrier { color: var(--color-champion); }
+
+.unstoppable::before { content: '\E072'; }
+.unstoppable { color: var(--color-champion); }
+
+.overload::before { content: '\E071'; }
+.overload { color: var(--color-champion); }
 
 /* === CLASS TYPES === */
-.hunter::before {
-  content: '\0041';
-  color: white;
-}
-
-.titan::before {
-  content: '\0042';
-  color: white;
-}
-
+.hunter::before,
+.titan::before,
 .warlock::before {
-  content: '\0043';
   color: white;
 }
+
+.hunter::before { content: '\0041'; }
+.titan::before { content: '\0042'; }
+.warlock::before { content: '\0043'; }
 
 /* === TEXT STYLES === */
-.bold {
-  font-weight: bold;
-}
-
+.bold,
 .title {
   font-weight: bold;
 }
 
-.enhancedArrow {
-  color: var(--color-primary);
-}
-
-.green {
-  color: var(--color-ammo-special);
-}
-
-.yellow {
-  color: var(--color-exotic);
-}
+.enhancedArrow { color: var(--color-primary); }
+.green { color: var(--color-ammo-special); }
+.yellow { color: var(--color-exotic); }
 
 /* === LINKS === */
-a {
-  color: var(--color-primary);
-}
+a { color: var(--color-primary); }
