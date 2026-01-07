@@ -10590,16 +10590,7 @@
               ]
             },
             {
-              "text": " reduces the amount of hits needed to trigger "
-            },
-            {
-              "text": "Jolting",
-              "classNames": [
-                "arc"
-              ]
-            },
-            {
-              "text": " Feedback."
+              "text": " reduces the amount of hits needed to trigger Jolting Feedback."
             }
           ]
         },
@@ -10621,13 +10612,13 @@
               "text": "Hits needed to grant "
             },
             {
-              "text": "Jolting",
+              "text": "Jolting Shot",
               "classNames": [
                 "arc"
               ]
             },
             {
-              "text": " Shot | "
+              "text": " | "
             },
             {
               "text": "Amplified",
