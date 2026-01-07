@@ -126,7 +126,7 @@ function renderClarityInPopup(item) {
       clarityEl.appendChild(p);
     } else if (section.classNames?.includes('spacer')) {
       const spacer = document.createElement('div');
-      spacer.style.margin = '1rem 0';
+      spacer.style.margin = '0.8rem 0';
       clarityEl.appendChild(spacer);
     }
   });
