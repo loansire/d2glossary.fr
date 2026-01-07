@@ -89,15 +89,11 @@
   },
   {
     "Name": "Precision Frame",
-    "Description": "-20% Recoil Yaw (Horizontal Recoil)."
+    "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw."
   },
   {
     "Name": "Precision Frame\n(Rocket Launchers)",
     "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM"
-  },
-  {
-    "Name": "Precision Frame \n(Fusion Rifle)",
-    "Description": "-10% Recoil Yaw (Horizontal Recoil)."
   },
   {
     "Name": "Precision Frame \n(Hand Cannon)",
@@ -122,5 +118,8 @@
   {
     "Name": "Together Forever",
     "Description": "Weapon Kills refill Sturm and grant it an Overcharged Bullet with increased damage, up to 25 Sturm Overcharge stacks.\nScoring an additional Weapon Kill within 3 seconds of the first grants 3 Sturm Overcharge stacks.\nFurther Weapon Kills within ? seconds of the last grant 5 Sturm Overcharge stacks."
+  },
+  {
+    "Name": "Heavy Crossbow Information"
   }
 ]

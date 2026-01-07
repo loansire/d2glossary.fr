@@ -303,14 +303,32 @@
                 ]
               },
               {
-                "text": "] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
+                "text": "] "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Damage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage."
+                "text": "Damage against Combatants scales with Combatant Rank Modifiers and counts as "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           }
@@ -810,14 +828,41 @@
           {
             "linesContent": [
               {
-                "text": "Picking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds."
+                "text": "Picking up a "
+              },
+              {
+                "text": "Kinetic Ammo",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Brick (from the "
+              },
+              {
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Synthesis Artifact Perk) only grants All-Star for 7 seconds."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Additional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to "
+                "text": "Additional "
+              },
+              {
+                "text": "Kinetic Synthesis Ammo",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Bricks extend the buff duration by +7 seconds, up to "
               },
               {
                 "text": "↑10",
@@ -927,7 +972,16 @@
           {
             "linesContent": [
               {
-                "text": "Scoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with "
+                "text": "Scoring a "
+              },
+              {
+                "text": "Kinetic Weapon",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with "
               },
               {
                 "text": "Unravel",
@@ -964,7 +1018,16 @@
           {
             "linesContent": [
               {
-                "text": "Consumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location."
+                "text": "Consumes a stack of Ancillary Ordinance to spawn a homing "
+              },
+              {
+                "text": "Kinetic Micro-Missile",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " over the Enemy Death Location."
               }
             ]
           },
@@ -980,7 +1043,16 @@
                 ]
               },
               {
-                "text": "] Kinetic Damage over a tiny radius."
+                "text": "] "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " over a tiny radius."
               }
             ]
           },
@@ -1751,7 +1823,16 @@
                 ]
               },
               {
-                "text": "] Kinetic Damage and inflicts disorient to enemies within 10 meters for 3.5 "
+                "text": "] "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " and inflicts disorient to enemies within 10 meters for 3.5 "
               },
               {
                 "text": "↑?",
@@ -1872,7 +1953,16 @@
                 ]
               },
               {
-                "text": " Kill => Kinetic, "
+                "text": " Kill => "
+              },
+              {
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ", "
               },
               {
                 "text": "Stasis",
@@ -1897,7 +1987,13 @@
           {
             "linesContent": [
               {
-                "text": "Kinetic, "
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ", "
               },
               {
                 "text": "Stasis",
@@ -5504,7 +5600,25 @@
           {
             "linesContent": [
               {
-                "text": "Inflicts Kinetic Damage Vulnerability on the enemy, increasing Kinetic Damage Taken by 50% for 5.5 "
+                "text": "Inflicts "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Vulnerability on the enemy, increasing "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Taken by 50% for 5.5 "
               },
               {
                 "text": "↑?",
@@ -6172,7 +6286,16 @@
           {
             "linesContent": [
               {
-                "text": "Buff can be activated and persists through stow. Kinetic Damage does not trigger the buff."
+                "text": "Buff can be activated and persists through stow. "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " does not trigger the buff."
               }
             ]
           },
@@ -6193,7 +6316,16 @@
                 ]
               },
               {
-                "text": "] Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage."
+                "text": "] Increased Elemental Weapon Damage and 10% Increased "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -6209,28 +6341,64 @@
                 ]
               },
               {
-                "text": "] Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage."
+                "text": "] Increased Elemental Weapon Damage and 20% Increased "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased Kinetic Weapon Damage."
+                "text": "Elemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased Kinetic Weapon Damage."
+                "text": "Elemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased Kinetic Weapon Damage."
+                "text": "Elemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased "
+              },
+              {
+                "text": "Kinetic Weapon Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -9061,7 +9229,16 @@
                 ]
               },
               {
-                "text": " Progress and 1.1x Power Ammo Progress for 5 "
+                "text": " Progress and 1.1x "
+              },
+              {
+                "text": "Power Ammo",
+                "classNames": [
+                  "heavy"
+                ]
+              },
+              {
+                "text": " Progress for 5 "
               },
               {
                 "text": "↑5.5",
@@ -10129,14 +10306,29 @@
                 ]
               },
               {
-                "text": "] Kinetic Damage over a 6 metre radius. Shockwave hits count as weapon damage."
+                "text": "] "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " over a 6 metre radius. Shockwave hits count as weapon damage."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Kinetic Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave."
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave."
               }
             ]
           },
@@ -10176,7 +10368,16 @@
           {
             "linesContent": [
               {
-                "text": "Damage is affected by Kinetic Bonus Damage and scales with Combatant Rank Modifiers."
+                "text": "Damage is affected by "
+              },
+              {
+                "text": "Kinetic Bonus Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " and scales with Combatant Rank Modifiers."
               }
             ]
           },
@@ -10380,13 +10581,13 @@
                 "text": "On "
               },
               {
-                "text": "Heavy Ammo",
+                "text": "Heavy Ammo Brick",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Brick Pickup:"
+                "text": " Pickup:"
               }
             ]
           },
@@ -10405,13 +10606,13 @@
                 "text": " of "
               },
               {
-                "text": "Special Ammo",
+                "text": "Special Ammo Reserves",
                 "classNames": [
                   "special"
                 ]
               },
               {
-                "text": " Reserves."
+                "text": "."
               }
             ]
           },
@@ -11730,7 +11931,13 @@
           {
             "linesContent": [
               {
-                "text": "Kinetic Damage Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed."
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed."
               }
             ]
           },
@@ -11851,13 +12058,13 @@
                 "text": "On Special or "
               },
               {
-                "text": "Heavy Ammo",
+                "text": "Heavy Ammo Brick",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Brick Pickup:"
+                "text": " Pickup:"
               }
             ]
           },
@@ -13829,13 +14036,13 @@
                 "text": "Grants 5% "
               },
               {
-                "text": "Special Ammo",
+                "text": "Special Ammo Reserves",
                 "classNames": [
                   "special"
                 ]
               },
               {
-                "text": " Reserves."
+                "text": "."
               }
             ]
           },
@@ -13937,13 +14144,13 @@
                 "text": "Upon scoring a hit on a Special or "
               },
               {
-                "text": "Heavy Ammo",
+                "text": "Heavy Ammo Brick",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Brick:"
+                "text": ":"
               }
             ]
           },
@@ -16473,7 +16680,16 @@
           {
             "linesContent": [
               {
-                "text": "Both bonuses are active while Transcendence is active."
+                "text": "Both bonuses are active while "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " is active."
               }
             ]
           },
@@ -16519,7 +16735,16 @@
           {
             "linesContent": [
               {
-                "text": "Darkness Alignment = Kinetic, "
+                "text": "Darkness Alignment = "
+              },
+              {
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ", "
               },
               {
                 "text": "Stasis",
@@ -18450,7 +18675,13 @@
           {
             "linesContent": [
               {
-                "text": "Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy."
+                "text": "Kinetic Weapons",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " instead spawn an Orb of Power that grants 7.15% Super Energy."
               }
             ]
           },
@@ -19409,7 +19640,13 @@
           {
             "linesContent": [
               {
-                "text": "Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy."
+                "text": "Kinetic Weapons",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " instead spawn an Orb of Power that grants 7.15% Super Energy."
               }
             ]
           },
@@ -20242,13 +20479,20 @@
     },
     {
       "Name": "Precision Frame",
-      "Description": "-20% Recoil Yaw (Horizontal Recoil).",
+      "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw.",
       "descriptions": {
         "en": [
           {
             "linesContent": [
               {
                 "text": "-20% Recoil Yaw (Horizontal Recoil)."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Fusion Rifles only receive -10% Recoil Yaw."
               }
             ]
           }
@@ -20278,21 +20522,6 @@
             "linesContent": [
               {
                 "text": "1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Name": "Precision Frame \n(Fusion Rifle)",
-      "Description": "-10% Recoil Yaw (Horizontal Recoil).",
-      "descriptions": {
-        "en": [
-          {
-            "linesContent": [
-              {
-                "text": "-10% Recoil Yaw (Horizontal Recoil)."
               }
             ]
           }
@@ -20631,68 +20860,15 @@
           }
         ]
       }
+    },
+    {
+      "Name": "Heavy Crossbow Information",
+      "descriptions": {
+        "en": []
+      }
     }
   ],
   "OriginTraits": [
-    {
-      "Name": "Air-Cooled Core\n\nRenegade Weapons\nDestination",
-      "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-      "descriptions": {
-        "en": [
-          {
-            "linesContent": [
-              {
-                "text": "While at Full Magazine or Heat <=10%?:"
-              }
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "+? "
-              },
-              {
-                "text": "↑+?",
-                "classNames": [
-                  "enhancedArrow"
-                ]
-              },
-              {
-                "text": " Handling and ?% "
-              },
-              {
-                "text": "↑?%",
-                "classNames": [
-                  "enhancedArrow"
-                ]
-              },
-              {
-                "text": " Decreased ADS Movement Speed Penalty."
-              }
-            ]
-          },
-          {
-            "classNames": [
-              "spacer"
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Upon sprinting for 0.5 seconds:"
-              }
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Grants +? Reload/Vent Speed for 6? seconds"
-              }
-            ]
-          }
-        ]
-      }
-    },
     {
       "Name": "Accelerated Assault\n\nShiny Renegade Drops\nVanguard Alerts",
       "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n",
@@ -22545,7 +22721,16 @@
           {
             "linesContent": [
               {
-                "text": "Dread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS."
+                "text": "Dread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or "
+              },
+              {
+                "text": "Transcending",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": "?. DOES NOT DO ANYTHING TO GUARDIANS."
               }
             ]
           },
@@ -23015,7 +23200,16 @@
           {
             "linesContent": [
               {
-                "text": "1.?x Power Ammo Progress Multiplier for "
+                "text": "1.?x "
+              },
+              {
+                "text": "Power Ammo",
+                "classNames": [
+                  "heavy"
+                ]
+              },
+              {
+                "text": " Progress Multiplier for "
               },
               {
                 "text": "Special Weapons",
@@ -25073,83 +25267,15 @@
           }
         ]
       }
+    },
+    {
+      "Name": "Armor Set Bonuses",
+      "descriptions": {
+        "en": []
+      }
     }
   ],
   "ArmorSets": [
-    {
-      "Name": "AION Renewal\n\nKepler ",
-      "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-      "descriptions": {
-        "en": [
-          {
-            "linesContent": [
-              {
-                "text": "2 Piece | Force Converter"
-              }
-            ]
-          },
-          {
-            "classNames": [
-              "spacer"
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:"
-              }
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Grants Force Converter."
-              }
-            ]
-          },
-          {
-            "classNames": [
-              "spacer"
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Sprinting while Force Converter is active grants "
-              },
-              {
-                "text": "Speed Booster",
-                "classNames": [
-                  "arc"
-                ]
-              },
-              {
-                "text": "."
-              }
-            ]
-          },
-          {
-            "classNames": [
-              "spacer"
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Missiles:"
-              }
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "Quicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
-              }
-            ]
-          }
-        ]
-      }
-    },
     {
       "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
       "descriptions": {
@@ -25411,22 +25537,22 @@
           {
             "linesContent": [
               {
-                "text": "Special Ammo",
+                "text": "Special Ammo Bricks",
                 "classNames": [
                   "special"
                 ]
               },
               {
-                "text": " Bricks grant 1 stack of Accretion. "
+                "text": " grant 1 stack of Accretion. "
               },
               {
-                "text": "Heavy Ammo",
+                "text": "Heavy Ammo Bricks",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Bricks grant 3 stacks of Accretion."
+                "text": " grant 3 stacks of Accretion."
               }
             ]
           },
@@ -25724,13 +25850,13 @@
           {
             "linesContent": [
               {
-                "text": "Primary Ammo",
+                "text": "Primary Ammo Weapons",
                 "classNames": [
                   "primary"
                 ]
               },
               {
-                "text": " Weapons grant +3% Bonus "
+                "text": " grant +3% Bonus "
               },
               {
                 "text": "Special Ammo",
@@ -25746,13 +25872,13 @@
           {
             "linesContent": [
               {
-                "text": "Special Ammo",
+                "text": "Special Ammo Weapons",
                 "classNames": [
                   "special"
                 ]
               },
               {
-                "text": " Weapons receive +2% Bonus "
+                "text": " receive +2% Bonus "
               },
               {
                 "text": "Heavy Ammo",
@@ -25905,16 +26031,7 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a "
-              },
-              {
-                "text": "Primary Weapon",
-                "classNames": [
-                  "primary"
-                ]
-              },
-              {
-                "text": " Kill:"
+                "text": "Upon scoring a Primary Weapon Kill:"
               }
             ]
           },
@@ -26545,28 +26662,64 @@
           {
             "linesContent": [
               {
-                "text": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs."
+                "text": "Passively grants increased "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " towards Combatant Shields, Overshields, Vehicles, and Constructs."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
+                "text": "200% increased "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol"
+                "text": "15% increased "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " towards Constructs. Koregos is not a Construct lol"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "It's ALL Kinetic Damage, including Poison and Unpowered/Glaive Melee!"
+                "text": "It's ALL "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ", including Poison and Unpowered/Glaive Melee!"
               }
             ]
           }
@@ -26592,14 +26745,41 @@
           {
             "linesContent": [
               {
-                "text": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:"
+                "text": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Triggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds."
+                "text": "Triggers a disorienting "
+              },
+              {
+                "text": "Kinetic",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " blast, dealing up to 162 "
+              },
+              {
+                "text": "Kinetic Damage",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": ", heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds."
               }
             ]
           }
@@ -26680,16 +26860,7 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring 3 Heat Weapons or "
-              },
-              {
-                "text": "Primary Weapon",
-                "classNames": [
-                  "primary"
-                ]
-              },
-              {
-                "text": " Kills within 4 seconds of each:"
+                "text": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:"
               }
             ]
           },
@@ -26711,13 +26882,13 @@
                 "text": "Room Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +? Ammo Generation for Heat Weapons and "
               },
               {
-                "text": "Primary Ammo",
+                "text": "Primary Ammo Weapons",
                 "classNames": [
                   "primary"
                 ]
               },
               {
-                "text": " Weapons."
+                "text": "."
               }
             ]
           }
@@ -26777,16 +26948,7 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a "
-              },
-              {
-                "text": "Primary Weapon",
-                "classNames": [
-                  "primary"
-                ]
-              },
-              {
-                "text": " Kill:"
+                "text": "Upon scoring a Primary Weapon Kill:"
               }
             ]
           },
@@ -26892,7 +27054,7 @@
     },
     {
       "Name": "Wild Anthem\n\nCrucible",
-      "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\nDoes not trigger at 0 Ammo.",
+      "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
       "descriptions": {
         "en": [
           {
@@ -26922,9 +27084,14 @@
             ]
           },
           {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
             "linesContent": [
               {
-                "text": "Does not trigger at 0 Ammo."
+                "text": "Does not trigger at 0 Ammo. rip bows and GLs"
               }
             ]
           }

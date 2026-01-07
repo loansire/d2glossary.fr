@@ -5,6 +5,8 @@
 .primary::before,
 .special::before,
 .heavy::before,
+.kinetic::before,
+.prismatic::before,
 .hunter::before,
 .titan::before,
 .warlock::before,
@@ -27,7 +29,7 @@
 /* === AMMO TYPES === */
 .primary::before {
   content: '\0044';
-  margin-right: 2px;
+  margin-right: 3px;
   vertical-align: -3px;
 }
 .primary {
@@ -36,7 +38,7 @@
 
 .special::before {
   content: '\0045';
-  margin-right: 2px;
+  margin-right: 3px;
   vertical-align: -3px;
 }
 .special {
@@ -45,7 +47,7 @@
 
 .heavy::before {
   content: '\0046';
-  margin-right: 2px;
+  margin-right: 3px;
   vertical-align: -3px;
 }
 .heavy {
@@ -91,6 +93,24 @@
 }
 .strand {
   color: var(--color-strand);
+}
+
+.kinetic::before {
+  content: '\0055';
+  margin-right: 2px;
+  vertical-align: -3px;
+}
+.kinetic {
+  color: var(--color-kinetic);
+}
+
+.prismatic::before {
+  content: '\0056';
+  margin-right: 2px;
+  vertical-align: -3px;
+}
+.prismatic {
+  color: var(--color-prismatic);
 }
 
 /* === ACTIVITY TYPES === */

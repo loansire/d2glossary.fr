@@ -1,64 +1,5 @@
 [
   {
-    "Name": "Air-Cooled Core\n\nRenegade Weapons\nDestination",
-    "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "While at Full Magazine or Heat <=10%?:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+? "
-            },
-            {
-              "text": "↑+?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Handling and ?% "
-            },
-            {
-              "text": "↑?%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Decreased ADS Movement Speed Penalty."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Upon sprinting for 0.5 seconds:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Grants +? Reload/Vent Speed for 6? seconds"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Name": "Accelerated Assault\n\nShiny Renegade Drops\nVanguard Alerts",
     "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n",
     "descriptions": {
@@ -1910,7 +1851,16 @@
         {
           "linesContent": [
             {
-              "text": "Dread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS."
+              "text": "Dread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or "
+            },
+            {
+              "text": "Transcending",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": "?. DOES NOT DO ANYTHING TO GUARDIANS."
             }
           ]
         },
@@ -2380,7 +2330,16 @@
         {
           "linesContent": [
             {
-              "text": "1.?x Power Ammo Progress Multiplier for "
+              "text": "1.?x "
+            },
+            {
+              "text": "Power Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " Progress Multiplier for "
             },
             {
               "text": "Special Weapons",
@@ -4437,6 +4396,12 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "Name": "Armor Set Bonuses",
+    "descriptions": {
+      "en": []
     }
   }
 ]

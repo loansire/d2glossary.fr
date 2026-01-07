@@ -1,9 +1,5 @@
 [
   {
-    "Name": "AION Renewal\n\nKepler ",
-    "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
-  },
-  {
     "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation."
   },
   {
@@ -131,7 +127,7 @@
   },
   {
     "Name": "Wild Anthem\n\nCrucible",
-    "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\nDoes not trigger at 0 Ammo."
+    "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs"
   },
   {
     "Description": "4 Piece | Suros Harmony\n\nUpon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao."

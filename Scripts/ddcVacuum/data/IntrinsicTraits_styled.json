@@ -631,13 +631,20 @@
   },
   {
     "Name": "Precision Frame",
-    "Description": "-20% Recoil Yaw (Horizontal Recoil).",
+    "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw.",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
               "text": "-20% Recoil Yaw (Horizontal Recoil)."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifles only receive -10% Recoil Yaw."
             }
           ]
         }
@@ -667,21 +674,6 @@
           "linesContent": [
             {
               "text": "1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Precision Frame \n(Fusion Rifle)",
-    "Description": "-10% Recoil Yaw (Horizontal Recoil).",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "-10% Recoil Yaw (Horizontal Recoil)."
             }
           ]
         }
@@ -1019,6 +1011,12 @@
           ]
         }
       ]
+    }
+  },
+  {
+    "Name": "Heavy Crossbow Information",
+    "descriptions": {
+      "en": []
     }
   }
 ]

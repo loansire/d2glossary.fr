@@ -302,14 +302,32 @@
               ]
             },
             {
-              "text": "] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
+              "text": "] "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Damage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage."
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers and counts as "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -809,14 +827,41 @@
         {
           "linesContent": [
             {
-              "text": "Picking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds."
+              "text": "Picking up a "
+            },
+            {
+              "text": "Kinetic Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Brick (from the "
+            },
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Synthesis Artifact Perk) only grants All-Star for 7 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Additional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to "
+              "text": "Additional "
+            },
+            {
+              "text": "Kinetic Synthesis Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Bricks extend the buff duration by +7 seconds, up to "
             },
             {
               "text": "↑10",
@@ -926,7 +971,16 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with "
+              "text": "Scoring a "
+            },
+            {
+              "text": "Kinetic Weapon",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with "
             },
             {
               "text": "Unravel",
@@ -963,7 +1017,16 @@
         {
           "linesContent": [
             {
-              "text": "Consumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location."
+              "text": "Consumes a stack of Ancillary Ordinance to spawn a homing "
+            },
+            {
+              "text": "Kinetic Micro-Missile",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " over the Enemy Death Location."
             }
           ]
         },
@@ -979,7 +1042,16 @@
               ]
             },
             {
-              "text": "] Kinetic Damage over a tiny radius."
+              "text": "] "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " over a tiny radius."
             }
           ]
         },
@@ -1750,7 +1822,16 @@
               ]
             },
             {
-              "text": "] Kinetic Damage and inflicts disorient to enemies within 10 meters for 3.5 "
+              "text": "] "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " and inflicts disorient to enemies within 10 meters for 3.5 "
             },
             {
               "text": "↑?",
@@ -1871,7 +1952,16 @@
               ]
             },
             {
-              "text": " Kill => Kinetic, "
+              "text": " Kill => "
+            },
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ", "
             },
             {
               "text": "Stasis",
@@ -1896,7 +1986,13 @@
         {
           "linesContent": [
             {
-              "text": "Kinetic, "
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ", "
             },
             {
               "text": "Stasis",
@@ -5503,7 +5599,25 @@
         {
           "linesContent": [
             {
-              "text": "Inflicts Kinetic Damage Vulnerability on the enemy, increasing Kinetic Damage Taken by 50% for 5.5 "
+              "text": "Inflicts "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Vulnerability on the enemy, increasing "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Taken by 50% for 5.5 "
             },
             {
               "text": "↑?",
@@ -6171,7 +6285,16 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be activated and persists through stow. Kinetic Damage does not trigger the buff."
+              "text": "Buff can be activated and persists through stow. "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " does not trigger the buff."
             }
           ]
         },
@@ -6192,7 +6315,16 @@
               ]
             },
             {
-              "text": "] Increased Elemental Weapon Damage and 10% Increased Kinetic Weapon Damage."
+              "text": "] Increased Elemental Weapon Damage and 10% Increased "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -6208,28 +6340,64 @@
               ]
             },
             {
-              "text": "] Increased Elemental Weapon Damage and 20% Increased Kinetic Weapon Damage."
+              "text": "] Increased Elemental Weapon Damage and 20% Increased "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Elemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased Kinetic Weapon Damage."
+              "text": "Elemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Elemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased Kinetic Weapon Damage."
+              "text": "Elemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Elemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased Kinetic Weapon Damage."
+              "text": "Elemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -9060,7 +9228,16 @@
               ]
             },
             {
-              "text": " Progress and 1.1x Power Ammo Progress for 5 "
+              "text": " Progress and 1.1x "
+            },
+            {
+              "text": "Power Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " Progress for 5 "
             },
             {
               "text": "↑5.5",
@@ -10128,14 +10305,29 @@
               ]
             },
             {
-              "text": "] Kinetic Damage over a 6 metre radius. Shockwave hits count as weapon damage."
+              "text": "] "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " over a 6 metre radius. Shockwave hits count as weapon damage."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Kinetic Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave."
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave."
             }
           ]
         },
@@ -10175,7 +10367,16 @@
         {
           "linesContent": [
             {
-              "text": "Damage is affected by Kinetic Bonus Damage and scales with Combatant Rank Modifiers."
+              "text": "Damage is affected by "
+            },
+            {
+              "text": "Kinetic Bonus Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " and scales with Combatant Rank Modifiers."
             }
           ]
         },
@@ -10379,13 +10580,13 @@
               "text": "On "
             },
             {
-              "text": "Heavy Ammo",
+              "text": "Heavy Ammo Brick",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " Brick Pickup:"
+              "text": " Pickup:"
             }
           ]
         },
@@ -10404,13 +10605,13 @@
               "text": " of "
             },
             {
-              "text": "Special Ammo",
+              "text": "Special Ammo Reserves",
               "classNames": [
                 "special"
               ]
             },
             {
-              "text": " Reserves."
+              "text": "."
             }
           ]
         },
@@ -11729,7 +11930,13 @@
         {
           "linesContent": [
             {
-              "text": "Kinetic Damage Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed."
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed."
             }
           ]
         },
@@ -11850,13 +12057,13 @@
               "text": "On Special or "
             },
             {
-              "text": "Heavy Ammo",
+              "text": "Heavy Ammo Brick",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " Brick Pickup:"
+              "text": " Pickup:"
             }
           ]
         },
@@ -13828,13 +14035,13 @@
               "text": "Grants 5% "
             },
             {
-              "text": "Special Ammo",
+              "text": "Special Ammo Reserves",
               "classNames": [
                 "special"
               ]
             },
             {
-              "text": " Reserves."
+              "text": "."
             }
           ]
         },
@@ -13936,13 +14143,13 @@
               "text": "Upon scoring a hit on a Special or "
             },
             {
-              "text": "Heavy Ammo",
+              "text": "Heavy Ammo Brick",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " Brick:"
+              "text": ":"
             }
           ]
         },
@@ -16472,7 +16679,16 @@
         {
           "linesContent": [
             {
-              "text": "Both bonuses are active while Transcendence is active."
+              "text": "Both bonuses are active while "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " is active."
             }
           ]
         },
@@ -16518,7 +16734,16 @@
         {
           "linesContent": [
             {
-              "text": "Darkness Alignment = Kinetic, "
+              "text": "Darkness Alignment = "
+            },
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ", "
             },
             {
               "text": "Stasis",

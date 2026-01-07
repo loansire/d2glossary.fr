@@ -757,7 +757,13 @@
         {
           "linesContent": [
             {
-              "text": "Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy."
+              "text": "Kinetic Weapons",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " instead spawn an Orb of Power that grants 7.15% Super Energy."
             }
           ]
         },

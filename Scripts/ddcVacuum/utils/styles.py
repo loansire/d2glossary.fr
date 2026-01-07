@@ -57,6 +57,16 @@ STYLE_PATTERNS = {
         "class": "strand",
         "description": "Strand subclass keywords"
     },
+    "kinetic_keywords": {
+        "pattern": r'\b(Kinetic Bonus Damage|Kinetic Weapon Damage|Kinetic Weapons|Kinetic Weapon|Kinetic Damage|Kinetic Damages|Kinetic Blast|Kinetic Blasts|Kinetic Micro-Missile|Kinetic Ammo|Kinetic Synthesis Ammo|Kinetic)\b',
+        "class": "kinetic",
+        "description": "Kinetic subclass keywords"
+    },
+    "prismatic_keywords": {
+        "pattern": r'\b(Transcendence|Transcending)\b',
+        "class": "prismatic",
+        "description": "Prismatic subclass keywords"
+    },
 
     # === CHAMPIONS ===
     "barrier_champion": {
@@ -77,20 +87,23 @@ STYLE_PATTERNS = {
 
     # === AMMO TYPES ===
     "primary_ammo": {
-        "pattern": r'\b(Primary Weapons?|Primary Ammo)\b',
+        "pattern": r'\b(Primary Ammo Reserves|Primary Ammo Reserve|Primary Ammo Weapons|Primary Ammo Bricks|Primary Ammo Brick|Primary Weapons|Primary Ammo)\b',
         "class": "primary",
         "description": "Primary ammo type"
     },
     "special_ammo": {
-        "pattern": r'\b(Special Weapons?|Special Ammo)\b',
+        "pattern": r'\b(Special Ammo Reserves|Special Ammo Reserve|Special Ammo Weapons|Special Ammo Bricks|Special Ammo Brick|Special Weapons|Special Ammo)\b',
         "class": "special",
         "description": "Special ammo type"
     },
     "heavy_ammo": {
-        "pattern": r'\b(Power Weapons?|Heavy Weapons?|Heavy Ammo)\b',
+        "pattern": r'\b(Heavy Ammo Reserves|Heavy Ammo Reserve|Heavy Ammo Weapons|Heavy Ammo Bricks|Heavy Ammo Brick|Heavy Weapons|Heavy Weapon|Heavy Bricks|Heavy Brick|Heavy Ammo|Power Ammo reserves|Power Ammo reserve|Power Ammo Weapons|Power Ammo Bricks|Power Ammo Brick|Power Weapons|Power Weapon|Power Bricks|Power Brick|Power Ammo)\b',
         "class": "heavy",
         "description": "Heavy/Power ammo type"
     },
+
+    # === WEAPON TYPES ===
+
 }
 
 # Order of pattern application (important for overlapping matches)
@@ -103,6 +116,8 @@ STYLES_ORDER = [
     "void_keywords",
     "stasis_keywords",
     "strand_keywords",
+    "kinetic_keywords",
+    "prismatic_keywords",
     "barrier_champion",
     "overload_champion",
     "unstoppable_champion",

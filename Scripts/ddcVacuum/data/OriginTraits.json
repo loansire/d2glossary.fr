@@ -1,9 +1,5 @@
 [
   {
-    "Name": "Air-Cooled Core\n\nRenegade Weapons\nDestination",
-    "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds"
-  },
-  {
     "Name": "Accelerated Assault\n\nShiny Renegade Drops\nVanguard Alerts",
     "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n"
   },
@@ -278,5 +274,8 @@
   {
     "Name": "Willing Vessel \n\nEpisode: Heresy",
     "Description": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses.\n100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds.\n\nVisual Buff Stacks to Damage Thresholds:\nAuto: ? | ? | ? | ? | ?\nBow: ~180 | ~750 | ? | ? | ?\nSidearm: ? | ? | ? | ? | ?\nSMG : ? | ? | ? | ? | ?\nFusion Rifle: ? | ? | ? | ? | ?\nGlaive: ? | ? | ? | ? | ?\nGL: I | don't | think | so | lmao\nLFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200\nMG: ~385 | ? | ? | ? | ?\nSword: ? | ? | ? | ? | ?\n\nGrants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored.\nStat Bonuses (at the start of the stack):\nx1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate\nx2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate\nx3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate\nx4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate\nx5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate\n\nThis is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!"
+  },
+  {
+    "Name": "Armor Set Bonuses"
   }
 ]

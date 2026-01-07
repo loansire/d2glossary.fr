@@ -1,79 +1,5 @@
 [
   {
-    "Name": "AION Renewal\n\nKepler ",
-    "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "2 Piece | Force Converter"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Grants Force Converter."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Sprinting while Force Converter is active grants "
-            },
-            {
-              "text": "Speed Booster",
-              "classNames": [
-                "arc"
-              ]
-            },
-            {
-              "text": "."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Missiles:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Quicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
     "descriptions": {
       "en": [
@@ -334,22 +260,22 @@
         {
           "linesContent": [
             {
-              "text": "Special Ammo",
+              "text": "Special Ammo Bricks",
               "classNames": [
                 "special"
               ]
             },
             {
-              "text": " Bricks grant 1 stack of Accretion. "
+              "text": " grant 1 stack of Accretion. "
             },
             {
-              "text": "Heavy Ammo",
+              "text": "Heavy Ammo Bricks",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " Bricks grant 3 stacks of Accretion."
+              "text": " grant 3 stacks of Accretion."
             }
           ]
         },
@@ -647,13 +573,13 @@
         {
           "linesContent": [
             {
-              "text": "Primary Ammo",
+              "text": "Primary Ammo Weapons",
               "classNames": [
                 "primary"
               ]
             },
             {
-              "text": " Weapons grant +3% Bonus "
+              "text": " grant +3% Bonus "
             },
             {
               "text": "Special Ammo",
@@ -669,13 +595,13 @@
         {
           "linesContent": [
             {
-              "text": "Special Ammo",
+              "text": "Special Ammo Weapons",
               "classNames": [
                 "special"
               ]
             },
             {
-              "text": " Weapons receive +2% Bonus "
+              "text": " receive +2% Bonus "
             },
             {
               "text": "Heavy Ammo",
@@ -828,16 +754,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a "
-            },
-            {
-              "text": "Primary Weapon",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": " Kill:"
+              "text": "Upon scoring a Primary Weapon Kill:"
             }
           ]
         },
@@ -1468,28 +1385,64 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs."
+              "text": "Passively grants increased "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " towards Combatant Shields, Overshields, Vehicles, and Constructs."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
+              "text": "200% increased "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol"
+              "text": "15% increased "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " towards Constructs. Koregos is not a Construct lol"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "It's ALL Kinetic Damage, including Poison and Unpowered/Glaive Melee!"
+              "text": "It's ALL "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ", including Poison and Unpowered/Glaive Melee!"
             }
           ]
         }
@@ -1515,14 +1468,41 @@
         {
           "linesContent": [
             {
-              "text": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:"
+              "text": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Triggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds."
+              "text": "Triggers a disorienting "
+            },
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " blast, dealing up to 162 "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": ", heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds."
             }
           ]
         }
@@ -1603,16 +1583,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 3 Heat Weapons or "
-            },
-            {
-              "text": "Primary Weapon",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": " Kills within 4 seconds of each:"
+              "text": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:"
             }
           ]
         },
@@ -1634,13 +1605,13 @@
               "text": "Room Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +? Ammo Generation for Heat Weapons and "
             },
             {
-              "text": "Primary Ammo",
+              "text": "Primary Ammo Weapons",
               "classNames": [
                 "primary"
               ]
             },
             {
-              "text": " Weapons."
+              "text": "."
             }
           ]
         }
@@ -1700,16 +1671,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a "
-            },
-            {
-              "text": "Primary Weapon",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": " Kill:"
+              "text": "Upon scoring a Primary Weapon Kill:"
             }
           ]
         },
@@ -1815,7 +1777,7 @@
   },
   {
     "Name": "Wild Anthem\n\nCrucible",
-    "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\nDoes not trigger at 0 Ammo.",
+    "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
     "descriptions": {
       "en": [
         {
@@ -1845,9 +1807,14 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
-              "text": "Does not trigger at 0 Ammo."
+              "text": "Does not trigger at 0 Ammo. rip bows and GLs"
             }
           ]
         }
