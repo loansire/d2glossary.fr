@@ -1,10 +1,14 @@
 """
-Styles configuration for DDCVacuum - Clarity Format Compatible
-Produces JSON output matching D2Clarity's linesContent structure
-"""
-import re
-from typing import Any
+Style pattern definitions for DDCVacuum
 
+Defines regex patterns and CSS classes for:
+- Enhanced perks (arrows)
+- PvE/PvP values
+- Elements (Solar, Arc, Void, Stasis, Strand, Prismatic, Kinetic)
+- Champions (Barrier, Overload, Unstoppable)
+- Ammo types (Primary, Special, Heavy)
+- Weapon types (Auto Rifle, Scout Rifle, etc.)
+"""
 
 # =============================================================================
 # PATTERN DEFINITIONS - Order matters for application priority
@@ -109,7 +113,7 @@ STYLE_PATTERNS = {
         "description": "Auto Rifle weapon type"
     },
     "pulse_rifle": {
-        "pattern": r'\b(?:(?:High-Impact|Lightweight||AdaptativeRapid-Fire|Special|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Pulse(?: Rifles?)?\b',
+        "pattern": r'\b(?:(?:High-Impact|Lightweight|Adaptative|Rapid-Fire|Special|Rocket|Non-Burst|\d{3}RPM(?: and \d{3}RPM)*) )?Pulse(?: Rifles?)?\b',
         "class": "weapon-pulse-rifle",
         "description": "Pulse Rifle weapon type"
     },
@@ -195,11 +199,18 @@ STYLE_PATTERNS = {
     },
 }
 
+# =============================================================================
+# PATTERN APPLICATION ORDER
+# =============================================================================
+
 # Order of pattern application (important for overlapping matches)
 STYLES_ORDER = [
+    # Values first (most specific)
     "pvp_value",
     "enhanced_arrow_text",
     "enhanced_arrow_value",
+
+    # Elements
     "solar_keywords",
     "arc_keywords",
     "void_keywords",
@@ -207,9 +218,13 @@ STYLES_ORDER = [
     "strand_keywords",
     "kinetic_keywords",
     "prismatic_keywords",
+
+    # Champions
     "barrier_champion",
     "overload_champion",
     "unstoppable_champion",
+
+    # Weapon types (specific to general)
     "auto_rifle",
     "pulse_rifle",
     "scout_rifle",
@@ -228,229 +243,9 @@ STYLES_ORDER = [
     "trace_rifle",
     "glaive",
     "sword",
+
+    # Ammo types (last, most general)
     "primary_ammo",
     "special_ammo",
     "heavy_ammo",
 ]
-
-
-# =============================================================================
-# CLARITY JSON CONVERTER
-# =============================================================================
-
-def text_to_clarity_line(text: str) -> list[dict[str, Any]]:
-    """
-    Convert a text string to Clarity's linesContent format.
-    Returns a list of segments with text and optional classNames.
-
-    Example output:
-    [
-        {"text": "Grants "},
-        {"text": "20%", "classNames": ["pve"]},
-        {"text": " "},
-        {"text": "[15%]", "classNames": ["pvp"]},
-        {"text": " increased damage"}
-    ]
-    """
-    if not text or not isinstance(text, str):
-        return [{"text": str(text) if text else ""}]
-
-    segments = []
-    current_pos = 0
-    matches = []
-
-    # Collect all matches with their positions
-    for style_name in STYLES_ORDER:
-        config = STYLE_PATTERNS.get(style_name)
-        if not config:
-            continue
-
-        pattern = config["pattern"]
-        css_class = config["class"]
-        flags = config.get("flags", 0)
-
-        for match in re.finditer(pattern, text, flags):
-            capture_group = config.get("capture_group", 0)
-            start, end = match.span(capture_group) if capture_group else match.span()
-            matched_text = match.group(capture_group) if capture_group else match.group()
-
-            matches.append({
-                "start": start,
-                "end": end,
-                "text": matched_text,
-                "class": css_class,
-                "full_match": match.group(0),
-                "full_start": match.start(),
-                "full_end": match.end()
-            })
-
-    # Sort by position and remove overlaps (keep first match)
-    matches.sort(key=lambda x: (x["start"], -x["end"]))
-    filtered_matches = []
-    last_end = 0
-
-    for m in matches:
-        if m["start"] >= last_end:
-            filtered_matches.append(m)
-            last_end = m["end"]
-
-    # Build segments
-    for m in filtered_matches:
-        # Add plain text before this match
-        if m["start"] > current_pos:
-            plain_text = text[current_pos:m["start"]]
-            if plain_text:
-                segments.append({"text": plain_text})
-
-        # Add styled segment
-        segment = {"text": m["text"]}
-        if m["class"]:
-            segment["classNames"] = [m["class"]]
-        segments.append(segment)
-
-        current_pos = m["end"]
-
-    # Add remaining text
-    if current_pos < len(text):
-        remaining = text[current_pos:]
-        if remaining:
-            segments.append({"text": remaining})
-
-    # If no segments created, return the original text
-    if not segments:
-        return [{"text": text}]
-
-    return segments
-
-
-def description_to_clarity_format(description: str) -> list[dict[str, Any]]:
-    """
-    Convert a full description to Clarity's descriptions.en format.
-    Splits by newlines and creates linesContent arrays with spacers.
-
-    Example output:
-    [
-        {"linesContent": [{"text": "First line"}, {"text": " with ", "classNames": ["solar"]}, {"text": "style"}]},
-        {"classNames": ["spacer"]},
-        {"linesContent": [{"text": "Second paragraph"}]}
-    ]
-    """
-    if not description or not isinstance(description, str):
-        return []
-
-    result = []
-
-    # Split by double newlines (paragraphs) or single newlines
-    # Clarity uses spacer objects between paragraphs
-    paragraphs = re.split(r'\n\s*\n|\r\n\s*\r\n', description)
-
-    for i, para in enumerate(paragraphs):
-        if not para.strip():
-            continue
-
-        # Split paragraph into lines
-        lines = para.strip().split('\n')
-
-        for j, line in enumerate(lines):
-            line = line.strip()
-            if not line:
-                continue
-
-            # Convert line to Clarity format
-            line_content = text_to_clarity_line(line)
-            result.append({"linesContent": line_content})
-
-        # Add spacer between paragraphs (not after the last one)
-        if i < len(paragraphs) - 1:
-            result.append({"classNames": ["spacer"]})
-
-    return result
-
-
-def record_to_clarity_format(record: dict, hash_key: str = "Hash") -> dict[str, Any]:
-    """
-    Convert a DDCVacuum record to Clarity JSON format.
-
-    Input record example:
-    {
-        "Hash": 12345,
-        "Name": "Rampage",
-        "Description": "Kills grant damage...",
-        "Type": "Weapon Trait"
-    }
-
-    Output Clarity format:
-    {
-        "12345": {
-            "hash": 12345,
-            "name": "Rampage",
-            "type": "Weapon Trait",
-            "descriptions": {
-                "en": [
-                    {"linesContent": [{"text": "Kills grant damage..."}]}
-                ]
-            }
-        }
-    }
-    """
-    hash_value = record.get(hash_key, record.get("hash", 0))
-    name = record.get("Name", record.get("name", ""))
-    description = record.get("Description", record.get("description", ""))
-    perk_type = record.get("Type", record.get("type", ""))
-
-    clarity_record = {
-        "hash": hash_value,
-        "name": name,
-        "type": perk_type,
-        "descriptions": {
-            "en": description_to_clarity_format(description)
-        }
-    }
-
-    # Add optional fields if present
-    if "itemHash" in record:
-        clarity_record["itemHash"] = record["itemHash"]
-    if "itemName" in record:
-        clarity_record["itemName"] = record["itemName"]
-
-    return {str(hash_value): clarity_record}
-
-
-def records_to_clarity_json(records: list[dict], hash_key: str = "Hash") -> dict[str, Any]:
-    """
-    Convert a list of records to a full Clarity-compatible JSON structure.
-    """
-    result = {}
-
-    for record in records:
-        clarity_record = record_to_clarity_format(record, hash_key)
-        result.update(clarity_record)
-
-    return result
-
-
-# =============================================================================
-# UTILITY FUNCTIONS
-# =============================================================================
-
-def add_link(text: str, url: str) -> dict[str, Any]:
-    """Create a link segment in Clarity format"""
-    return {
-        "text": text,
-        "link": url,
-        "classNames": ["link"]
-    }
-
-
-def add_tooltip(text: str, tooltip_content: list[dict]) -> dict[str, Any]:
-    """Create a tooltip segment in Clarity format"""
-    return {
-        "text": text,
-        "title": tooltip_content,
-        "classNames": ["title"]
-    }
-
-
-def create_spacer() -> dict[str, Any]:
-    """Create a spacer element"""
-    return {"classNames": ["spacer"]}

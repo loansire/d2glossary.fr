@@ -1,10 +1,28 @@
+"""
+DDCVacuum - Destiny 2 Data Compendium Vacuum
+Main entry point for exporting Google Sheets data to JSON
+
+Pipeline:
+    Fetch → Filter → Transform → Export
+"""
+
 import os
 import sys
-from utils.config import SHEETS, OUTPUT_DIR
-from utils.fetcher import fetch_sheet
-from utils.stylizer import stylize_records
-from utils.exporter import save_json
-from filters.pipeline import apply_filters_if_configured, FilterPipeline
+
+# Utils imports - New modular structure
+from utils import (
+    # Configuration
+    SHEETS, OUTPUT_DIR,
+    # Fetch
+    fetch_sheet,
+    # Transform
+    stylize_records,
+    # Export
+    save_json
+)
+
+# Filters imports - Existing structure
+from filters.pipeline import apply_filters_if_configured
 from filters.config import has_filters
 
 
@@ -32,6 +50,17 @@ def confirm_configuration():
 
 
 def main():
+    """
+    Main execution pipeline:
+    1. Confirm configuration
+    2. Create output directories
+    3. For each sheet:
+        - Fetch data from Google Sheets
+        - Apply filters if configured
+        - Stylize records (add Clarity format)
+        - Export to JSON (simple and styled)
+    4. Export combined files
+    """
     # Vérification de la configuration
     if not confirm_configuration():
         sys.exit(0)

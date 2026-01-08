@@ -1,5 +1,13 @@
+"""
+Configuration for Google Sheets data fetching
+
+Defines sheet IDs and output directories
+"""
+
+# Google Sheets document ID
 SHEET_ID = "1tfa3mEwTWLrPUEw2p9aRKWUH37quVgpkyVisB6E1DZU"
 
+# Sheet names mapped to their GID (tab identifier)
 SHEETS = {
     "WeaponPerks": "1703329297",
     "SeasonWeaponPerks": "1175376862",
@@ -16,4 +24,5 @@ SHEETS = {
     "PrismaticVerbs": "1280102267",
 }
 
+# Output directory for exported JSON files
 OUTPUT_DIR = "data"
