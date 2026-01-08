@@ -1,5 +1,97 @@
 [
   {
+    "Name": "AION Renewal\n\nKepler ",
+    "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "2 Piece | Force Converter"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Micro-Missile, "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Force Converter."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sprinting while Force Converter is active grants "
+            },
+            {
+              "text": "Speed Booster",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Missiles:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Quicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
     "descriptions": {
       "en": [

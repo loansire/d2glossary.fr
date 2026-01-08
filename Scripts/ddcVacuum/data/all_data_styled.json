@@ -21726,15 +21726,68 @@
           }
         ]
       }
-    },
-    {
-      "Name": "Heavy Crossbow Information",
-      "descriptions": {
-        "en": []
-      }
     }
   ],
   "OriginTraits": [
+    {
+      "Name": "Air-Cooled Core\n\nRenegade Weapons\nDestination",
+      "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While at Full Magazine or Heat <=10%?:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "+? "
+              },
+              {
+                "text": "↑+?",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " Handling and ?% "
+              },
+              {
+                "text": "↑?%",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " Decreased ADS Movement Speed Penalty."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Upon sprinting for 0.5 seconds:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants +? Reload/Vent Speed for 6? seconds"
+              }
+            ]
+          }
+        ]
+      }
+    },
     {
       "Name": "Accelerated Assault\n\nShiny Renegade Drops\nVanguard Alerts",
       "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n",
@@ -26754,15 +26807,101 @@
           }
         ]
       }
-    },
-    {
-      "Name": "Armor Set Bonuses",
-      "descriptions": {
-        "en": []
-      }
     }
   ],
   "ArmorSets": [
+    {
+      "Name": "AION Renewal\n\nKepler ",
+      "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "2 Piece | Force Converter"
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Upon scoring a Micro-Missile, "
+              },
+              {
+                "text": "Rocket Launcher",
+                "classNames": [
+                  "weapon-rocket-launcher"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Grenade Launcher",
+                "classNames": [
+                  "weapon-heavy-grenade-launcher"
+                ]
+              },
+              {
+                "text": " Kill:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants Force Converter."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Sprinting while Force Converter is active grants "
+              },
+              {
+                "text": "Speed Booster",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Missiles:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Quicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets."
+              }
+            ]
+          }
+        ]
+      }
+    },
     {
       "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
       "descriptions": {
