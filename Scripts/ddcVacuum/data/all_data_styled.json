@@ -2555,10 +2555,10 @@
                 ]
               },
               {
-                "text": " receive 5% Decreased Precision Damage while Box Breathing is active. Heavy "
+                "text": " receive 5% Decreased Precision Damage while Box Breathing is active. "
               },
               {
-                "text": "Sniper Rifles",
+                "text": "Heavy Sniper Rifles",
                 "classNames": [
                   "weapon-sniper-rifle"
                 ]
@@ -4395,10 +4395,7 @@
           {
             "linesContent": [
               {
-                "text": "Powered "
-              },
-              {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -14550,10 +14547,10 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring 3 Powered "
+                "text": "Upon scoring 3 "
               },
               {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -15006,7 +15003,16 @@
           {
             "linesContent": [
               {
-                "text": "Upon shattering a crystal or killing a "
+                "text": "Upon "
+              },
+              {
+                "text": "shattering",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " a crystal or killing a "
               },
               {
                 "text": "Frozen",
@@ -15187,10 +15193,10 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring 3 Powered "
+                "text": "Upon scoring 3 "
               },
               {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -15535,7 +15541,16 @@
                 ]
               },
               {
-                "text": " seconds of each inflict sever."
+                "text": " seconds of each inflict "
+              },
+              {
+                "text": "sever",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -17287,7 +17302,16 @@
           {
             "linesContent": [
               {
-                "text": "Inflicts sever to enemies within ? meters for ? seconds."
+                "text": "Inflicts "
+              },
+              {
+                "text": "sever",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " to enemies within ? meters for ? seconds."
               }
             ]
           },
@@ -17824,10 +17848,10 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring 2 Powered "
+                "text": "Upon scoring 2 "
               },
               {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -18845,7 +18869,16 @@
           {
             "linesContent": [
               {
-                "text": "The next Weapon Hit within 7 seconds inflicts jolt."
+                "text": "The next Weapon Hit within 7 seconds inflicts "
+              },
+              {
+                "text": "jolt",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -19149,10 +19182,10 @@
           {
             "linesContent": [
               {
-                "text": "On Powered "
+                "text": "On "
               },
               {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -19181,10 +19214,10 @@
           {
             "linesContent": [
               {
-                "text": "Additional Powered "
+                "text": "Additional "
               },
               {
-                "text": "Sword",
+                "text": "Powered Sword",
                 "classNames": [
                   "weapon-sword"
                 ]
@@ -19243,7 +19276,16 @@
           {
             "linesContent": [
               {
-                "text": "The next direct damage shot fired while ADS inflicts weaken."
+                "text": "The next direct damage shot fired while ADS inflicts "
+              },
+              {
+                "text": "weaken",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -21463,7 +21505,16 @@
           {
             "linesContent": [
               {
-                "text": "Shoots slow, tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers."
+                "text": "Shoots "
+              },
+              {
+                "text": "slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ", tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers."
               }
             ]
           },
@@ -24116,7 +24167,16 @@
           {
             "linesContent": [
               {
-                "text": "Upon firing a weapon or swinging a sword:"
+                "text": "Upon firing a weapon or swinging a "
+              },
+              {
+                "text": "sword",
+                "classNames": [
+                  "weapon-sword"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -27999,7 +28059,16 @@
           {
             "linesContent": [
               {
-                "text": "Blade Focus is removed upon guarding or stowing the sword."
+                "text": "Blade Focus is removed upon guarding or stowing the "
+              },
+              {
+                "text": "sword",
+                "classNames": [
+                  "weapon-sword"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           }
@@ -28428,13 +28497,13 @@
                 "text": "Triggers a disorienting "
               },
               {
-                "text": "Kinetic",
+                "text": "Kinetic blast",
                 "classNames": [
                   "kinetic"
                 ]
               },
               {
-                "text": " blast, dealing up to 162 "
+                "text": ", dealing up to 162 "
               },
               {
                 "text": "Kinetic Damage",
@@ -28713,7 +28782,16 @@
           {
             "linesContent": [
               {
-                "text": "Does not trigger at 0 Ammo. rip bows and "
+                "text": "Does not trigger at 0 Ammo. rip "
+              },
+              {
+                "text": "bows",
+                "classNames": [
+                  "weapon-bow"
+                ]
+              },
+              {
+                "text": " and "
               },
               {
                 "text": "GLs",
@@ -29189,7 +29267,16 @@
                 ]
               },
               {
-                "text": " (Not auto-shatter on Bosses) | "
+                "text": " (Not auto-"
+              },
+              {
+                "text": "shatter",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " on Bosses) | "
               },
               {
                 "text": "Tangle",
@@ -30054,7 +30141,16 @@
                 ]
               },
               {
-                "text": " Enemies take a varying amount of damage every 0.56 seconds after being scorched for 1.4 seconds."
+                "text": " Enemies take a varying amount of damage every 0.56 seconds after being "
+              },
+              {
+                "text": "scorched",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " for 1.4 seconds."
               }
             ]
           },
@@ -30232,7 +30328,16 @@
                 ]
               },
               {
-                "text": ") damage can be increased through Perks and Exotics, but the source used for initially scorching will determine what it will be counted as."
+                "text": ") damage can be increased through Perks and Exotics, but the source used for initially "
+              },
+              {
+                "text": "scorching",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " will determine what it will be counted as."
               }
             ]
           },
@@ -30502,7 +30607,16 @@
                 ]
               },
               {
-                "text": " without it breaking refreshes the duration of the longest lasting invisibility."
+                "text": " without it breaking refreshes the duration of the longest lasting "
+              },
+              {
+                "text": "invisibility",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -31138,7 +31252,16 @@
                 ]
               },
               {
-                "text": "] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other "
+                "text": "] increased damage against enemies affected by its "
+              },
+              {
+                "text": "weakening",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " burst. Its duration can be extended by any other "
               },
               {
                 "text": "Weaken",
@@ -31334,7 +31457,16 @@
           {
             "linesContent": [
               {
-                "text": "Crystals, upon being created, apply freeze ["
+                "text": "Crystals, upon being created, apply "
+              },
+              {
+                "text": "freeze",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " ["
               },
               {
                 "text": "x15 Slow Stacks for 1.5+0.5 seconds",
@@ -31590,7 +31722,16 @@
           {
             "linesContent": [
               {
-                "text": "Stat Reduction takes place after Weapon Perks. Weapon Stats are considered uncapped before slow's reduction is applied."
+                "text": "Stat Reduction takes place after Weapon Perks. Weapon Stats are considered uncapped before "
+              },
+              {
+                "text": "slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": "'s reduction is applied."
               }
             ]
           },
@@ -31761,7 +31902,16 @@
                 ]
               },
               {
-                "text": " Enemies shatter after receiving varying ["
+                "text": " Enemies "
+              },
+              {
+                "text": "shatter",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " after receiving varying ["
               },
               {
                 "text": "200",
@@ -31804,7 +31954,25 @@
           {
             "linesContent": [
               {
-                "text": "Boss Combatants are unhindered by freeze and automatically shatter after 3 seconds."
+                "text": "Boss Combatants are unhindered by "
+              },
+              {
+                "text": "freeze",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " and automatically "
+              },
+              {
+                "text": "shatter",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " after 3 seconds."
               }
             ]
           },
@@ -31839,7 +32007,25 @@
           {
             "linesContent": [
               {
-                "text": "Guardians frozen by other Guardians are frozen for 1.35 seconds"
+                "text": "Guardians "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " by other Guardians are "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " for 1.35 seconds"
               }
             ]
           },
@@ -31867,7 +32053,16 @@
           {
             "linesContent": [
               {
-                "text": "Guardians that become frozen by Combatants, or by "
+                "text": "Guardians that become "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " by Combatants, or by "
               },
               {
                 "text": "Stasis",
@@ -31876,7 +32071,16 @@
                 ]
               },
               {
-                "text": " Super Abilities, are frozen for 4.75 seconds."
+                "text": " Super Abilities, are "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " for 4.75 seconds."
               }
             ]
           },
@@ -31889,14 +32093,41 @@
                 ]
               },
               {
-                "text": " Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health."
+                "text": " Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting "
+              },
+              {
+                "text": "freeze",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ", in exchange for ? Health."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Guardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation."
+                "text": "Guardians that are "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if "
+              },
+              {
+                "text": "frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " during the cast animation."
               }
             ]
           }
@@ -31917,7 +32148,16 @@
                 ]
               },
               {
-                "text": " Enemies can be shattered through damage or directly through specific "
+                "text": " Enemies can be "
+              },
+              {
+                "text": "shattered",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " through damage or directly through specific "
               },
               {
                 "text": "Stasis",
@@ -31953,7 +32193,16 @@
                 ]
               },
               {
-                "text": " become Stunned upon receiving shatter damage."
+                "text": " become Stunned upon receiving "
+              },
+              {
+                "text": "shatter",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " damage."
               }
             ]
           }
@@ -32423,7 +32672,25 @@
           {
             "linesContent": [
               {
-                "text": "Rank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds."
+                "text": "Rank-and-File and Elite Combatants are "
+              },
+              {
+                "text": "suspended",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " for up to 6+2 seconds. Minibosses are only "
+              },
+              {
+                "text": "suspended",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " for up to 3+1 seconds."
               }
             ]
           },

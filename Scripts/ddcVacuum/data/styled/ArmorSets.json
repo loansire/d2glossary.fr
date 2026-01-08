@@ -1128,7 +1128,16 @@
         {
           "linesContent": [
             {
-              "text": "Blade Focus is removed upon guarding or stowing the sword."
+              "text": "Blade Focus is removed upon guarding or stowing the "
+            },
+            {
+              "text": "sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -1557,13 +1566,13 @@
               "text": "Triggers a disorienting "
             },
             {
-              "text": "Kinetic",
+              "text": "Kinetic blast",
               "classNames": [
                 "kinetic"
               ]
             },
             {
-              "text": " blast, dealing up to 162 "
+              "text": ", dealing up to 162 "
             },
             {
               "text": "Kinetic Damage",
@@ -1842,7 +1851,16 @@
         {
           "linesContent": [
             {
-              "text": "Does not trigger at 0 Ammo. rip bows and "
+              "text": "Does not trigger at 0 Ammo. rip "
+            },
+            {
+              "text": "bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "GLs",

@@ -460,7 +460,25 @@
         {
           "linesContent": [
             {
-              "text": "Rank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds."
+              "text": "Rank-and-File and Elite Combatants are "
+            },
+            {
+              "text": "suspended",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for up to 6+2 seconds. Minibosses are only "
+            },
+            {
+              "text": "suspended",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for up to 3+1 seconds."
             }
           ]
         },

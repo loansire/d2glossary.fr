@@ -513,7 +513,16 @@
               ]
             },
             {
-              "text": " Enemies take a varying amount of damage every 0.56 seconds after being scorched for 1.4 seconds."
+              "text": " Enemies take a varying amount of damage every 0.56 seconds after being "
+            },
+            {
+              "text": "scorched",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " for 1.4 seconds."
             }
           ]
         },
@@ -691,7 +700,16 @@
               ]
             },
             {
-              "text": ") damage can be increased through Perks and Exotics, but the source used for initially scorching will determine what it will be counted as."
+              "text": ") damage can be increased through Perks and Exotics, but the source used for initially "
+            },
+            {
+              "text": "scorching",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " will determine what it will be counted as."
             }
           ]
         },

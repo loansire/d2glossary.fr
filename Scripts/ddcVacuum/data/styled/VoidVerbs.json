@@ -91,7 +91,16 @@
               ]
             },
             {
-              "text": " without it breaking refreshes the duration of the longest lasting invisibility."
+              "text": " without it breaking refreshes the duration of the longest lasting "
+            },
+            {
+              "text": "invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -727,7 +736,16 @@
               ]
             },
             {
-              "text": "] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other "
+              "text": "] increased damage against enemies affected by its "
+            },
+            {
+              "text": "weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " burst. Its duration can be extended by any other "
             },
             {
               "text": "Weaken",

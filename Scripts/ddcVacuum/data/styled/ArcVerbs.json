@@ -402,7 +402,16 @@
               ]
             },
             {
-              "text": " (Not auto-shatter on Bosses) | "
+              "text": " (Not auto-"
+            },
+            {
+              "text": "shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " on Bosses) | "
             },
             {
               "text": "Tangle",

@@ -152,7 +152,16 @@
         {
           "linesContent": [
             {
-              "text": "Crystals, upon being created, apply freeze ["
+              "text": "Crystals, upon being created, apply "
+            },
+            {
+              "text": "freeze",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " ["
             },
             {
               "text": "x15 Slow Stacks for 1.5+0.5 seconds",
@@ -408,7 +417,16 @@
         {
           "linesContent": [
             {
-              "text": "Stat Reduction takes place after Weapon Perks. Weapon Stats are considered uncapped before slow's reduction is applied."
+              "text": "Stat Reduction takes place after Weapon Perks. Weapon Stats are considered uncapped before "
+            },
+            {
+              "text": "slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": "'s reduction is applied."
             }
           ]
         },
@@ -579,7 +597,16 @@
               ]
             },
             {
-              "text": " Enemies shatter after receiving varying ["
+              "text": " Enemies "
+            },
+            {
+              "text": "shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " after receiving varying ["
             },
             {
               "text": "200",
@@ -622,7 +649,25 @@
         {
           "linesContent": [
             {
-              "text": "Boss Combatants are unhindered by freeze and automatically shatter after 3 seconds."
+              "text": "Boss Combatants are unhindered by "
+            },
+            {
+              "text": "freeze",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " and automatically "
+            },
+            {
+              "text": "shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " after 3 seconds."
             }
           ]
         },
@@ -657,7 +702,25 @@
         {
           "linesContent": [
             {
-              "text": "Guardians frozen by other Guardians are frozen for 1.35 seconds"
+              "text": "Guardians "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " by other Guardians are "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " for 1.35 seconds"
             }
           ]
         },
@@ -685,7 +748,16 @@
         {
           "linesContent": [
             {
-              "text": "Guardians that become frozen by Combatants, or by "
+              "text": "Guardians that become "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " by Combatants, or by "
             },
             {
               "text": "Stasis",
@@ -694,7 +766,16 @@
               ]
             },
             {
-              "text": " Super Abilities, are frozen for 4.75 seconds."
+              "text": " Super Abilities, are "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " for 4.75 seconds."
             }
           ]
         },
@@ -707,14 +788,41 @@
               ]
             },
             {
-              "text": " Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health."
+              "text": " Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting "
+            },
+            {
+              "text": "freeze",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ", in exchange for ? Health."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Guardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation."
+              "text": "Guardians that are "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if "
+            },
+            {
+              "text": "frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " during the cast animation."
             }
           ]
         }
@@ -735,7 +843,16 @@
               ]
             },
             {
-              "text": " Enemies can be shattered through damage or directly through specific "
+              "text": " Enemies can be "
+            },
+            {
+              "text": "shattered",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " through damage or directly through specific "
             },
             {
               "text": "Stasis",
@@ -771,7 +888,16 @@
               ]
             },
             {
-              "text": " become Stunned upon receiving shatter damage."
+              "text": " become Stunned upon receiving "
+            },
+            {
+              "text": "shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " damage."
             }
           ]
         }

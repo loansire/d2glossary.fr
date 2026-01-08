@@ -853,7 +853,16 @@
         {
           "linesContent": [
             {
-              "text": "Shoots slow, tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers."
+              "text": "Shoots "
+            },
+            {
+              "text": "slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ", tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers."
             }
           ]
         },

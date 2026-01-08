@@ -2390,7 +2390,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon firing a weapon or swinging a sword:"
+              "text": "Upon firing a weapon or swinging a "
+            },
+            {
+              "text": "sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },

@@ -2554,10 +2554,10 @@
               ]
             },
             {
-              "text": " receive 5% Decreased Precision Damage while Box Breathing is active. Heavy "
+              "text": " receive 5% Decreased Precision Damage while Box Breathing is active. "
             },
             {
-              "text": "Sniper Rifles",
+              "text": "Heavy Sniper Rifles",
               "classNames": [
                 "weapon-sniper-rifle"
               ]
@@ -4394,10 +4394,7 @@
         {
           "linesContent": [
             {
-              "text": "Powered "
-            },
-            {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -14549,10 +14546,10 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 3 Powered "
+              "text": "Upon scoring 3 "
             },
             {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -15005,7 +15002,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon shattering a crystal or killing a "
+              "text": "Upon "
+            },
+            {
+              "text": "shattering",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " a crystal or killing a "
             },
             {
               "text": "Frozen",
@@ -15186,10 +15192,10 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 3 Powered "
+              "text": "Upon scoring 3 "
             },
             {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -15534,7 +15540,16 @@
               ]
             },
             {
-              "text": " seconds of each inflict sever."
+              "text": " seconds of each inflict "
+            },
+            {
+              "text": "sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -17286,7 +17301,16 @@
         {
           "linesContent": [
             {
-              "text": "Inflicts sever to enemies within ? meters for ? seconds."
+              "text": "Inflicts "
+            },
+            {
+              "text": "sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " to enemies within ? meters for ? seconds."
             }
           ]
         },
@@ -17823,10 +17847,10 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 2 Powered "
+              "text": "Upon scoring 2 "
             },
             {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -18844,7 +18868,16 @@
         {
           "linesContent": [
             {
-              "text": "The next Weapon Hit within 7 seconds inflicts jolt."
+              "text": "The next Weapon Hit within 7 seconds inflicts "
+            },
+            {
+              "text": "jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -19148,10 +19181,10 @@
         {
           "linesContent": [
             {
-              "text": "On Powered "
+              "text": "On "
             },
             {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -19180,10 +19213,10 @@
         {
           "linesContent": [
             {
-              "text": "Additional Powered "
+              "text": "Additional "
             },
             {
-              "text": "Sword",
+              "text": "Powered Sword",
               "classNames": [
                 "weapon-sword"
               ]
@@ -19242,7 +19275,16 @@
         {
           "linesContent": [
             {
-              "text": "The next direct damage shot fired while ADS inflicts weaken."
+              "text": "The next direct damage shot fired while ADS inflicts "
+            },
+            {
+              "text": "weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
