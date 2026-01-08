@@ -808,8 +808,9 @@
     "Description": "On Weapon Kill:\n0.625x Charge/Draw Time Multiplier for 6 seconds. \nAdditional Weapon Kills extends the buff duration by +4 ↑+5 seconds, up to 20 seconds.\nBuff is removed on stow.\n\n↑Additional Weapon Kills extend the duration by 5 seconds."
   },
   {
-    "Name": "Supercharged Magazine\nCentrifuse pls",
-    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.\n\n↑Passively grants +15 Magazine Stat."
+    "Name": "Supercharged Magazine",
+    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.\n\n↑Passively grants +15 Magazine Stat.",
+    "Comment": "Centrifuse pls"
   },
   {
     "Name": "Surplus",

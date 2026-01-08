@@ -16457,8 +16457,9 @@
       }
     },
     {
-      "Name": "Supercharged Magazine\nCentrifuse pls",
+      "Name": "Supercharged Magazine",
       "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.\n\n↑Passively grants +15 Magazine Stat.",
+      "Comment": "Centrifuse pls",
       "descriptions": {
         "en": [
           {
@@ -26811,8 +26812,9 @@
   ],
   "ArmorSets": [
     {
-      "Name": "AION Renewal\n\nKepler ",
+      "Name": "AION Renewal",
       "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
       "descriptions": {
         "en": [
           {
@@ -26963,8 +26965,9 @@
       }
     },
     {
-      "Name": "AION Adapter\n\nKepler",
+      "Name": "AION Adapter",
       "Description": "2 Piece | Force Absorption\n\nUpon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
       "descriptions": {
         "en": [
           {
@@ -27074,8 +27077,9 @@
       }
     },
     {
-      "Name": "Bushido\n\nPinnacle Ops ",
+      "Name": "Bushido",
       "Description": "2 Piece | Iaido\n\nScoring a Weapon Kill within ? seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
+      "Comment": "Pinnacle Ops",
       "descriptions": {
         "en": [
           {
@@ -27175,8 +27179,9 @@
       }
     },
     {
-      "Name": "Collective Psyche\n\nDesert Perpetual\nRaid",
+      "Name": "Collective Psyche",
       "Description": "2 Piece | Accretion\n\nOn Ammo Brick Pickup:\nGrants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death.\nSpecial Ammo Bricks grant 1 stack of Accretion. Heavy Ammo Bricks grant 3 stacks of Accretion.\n\nAccretion:\nGrants a Ready/Stow Animation Duration Multiplier per stack, up to a maximum of 0.8x Ready/Stow Animation Duration at 20 stacks.",
+      "Comment": "Desert Perpetual\nRaid",
       "descriptions": {
         "en": [
           {
@@ -27316,8 +27321,9 @@
       }
     },
     {
-      "Name": "Costumes\n\nFestival of the Lost ",
+      "Name": "Costumes",
       "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus.",
+      "Comment": "Festival of the Lost",
       "descriptions": {
         "en": [
           {
@@ -27331,8 +27337,9 @@
       }
     },
     {
-      "Name": "Disaster Corps\n\nCrucible",
+      "Name": "Disaster Corps",
       "Description": "2 Piece | Pleas Heard\n\nUpon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen. ",
+      "Comment": "Crucible",
       "descriptions": {
         "en": [
           {
@@ -27495,8 +27502,9 @@
       }
     },
     {
-      "Name": "Ferropotent \n\nSolo/Fireteam Ops",
+      "Name": "Ferropotent",
       "Description": "2 Piece | Rapid Repair\n\n Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
+      "Comment": "Solo/Fireteam Ops",
       "descriptions": {
         "en": [
           {
@@ -27620,8 +27628,9 @@
       }
     },
     {
-      "Name": "Iron Panoply\n\nIron Banner",
+      "Name": "Iron Panoply",
       "Description": "2 Piece | Vigilant Watch\n\nAs Shield HP drops, initially triggering at ? Shield HP, maxing out in effect at ? Shield HP:\nLinearly? grants up to +? Stability and +? Handling\n\nWhile at Critical Health:\nWeapon Kills restore 30HP.\nIncurs a 5 second cooldown between triggers.",
+      "Comment": "Iron Banner",
       "descriptions": {
         "en": [
           {
@@ -27737,8 +27746,9 @@
       }
     },
     {
-      "Name": "Last Discipline\n\nCrucible",
+      "Name": "Last Discipline",
       "Description": "2 Piece | Terminal Velocity\n\nUpon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
+      "Comment": "Crucible",
       "descriptions": {
         "en": [
           {
@@ -27838,8 +27848,9 @@
       }
     },
     {
-      "Name": "Lustrous\n\nSolstice",
+      "Name": "Lustrous",
       "Description": "2 Piece | Photogalvanic\n\nUpon receiving ANY healing while not at Full HP:\n+20? Handling, +10 Reload Speed, 0.85x Reload Duration Multiplier, and ?% Flinch Resist for Solar Weapons for 4 seconds.\nWorks with ANY source of healing, such as Orb Pickups. Restoration constantly refreshes it",
+      "Comment": "Solstice",
       "descriptions": {
         "en": [
           {
@@ -27939,8 +27950,9 @@
       }
     },
     {
-      "Name": "New Demotic\n\nTrials",
+      "Name": "New Demotic",
       "Description": "2 Piece | Paroli\n\nUpon sliding:\n?% Flinch Resist for ? seconds.",
+      "Comment": "Trials",
       "descriptions": {
         "en": [
           {
@@ -28006,8 +28018,9 @@
       }
     },
     {
-      "Name": "Sage Protector\n\nEquilibrium \nDungeon",
+      "Name": "Sage Protector",
       "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
+      "Comment": "Equilibrium \nDungeon",
       "descriptions": {
         "en": [
           {
@@ -28133,8 +28146,9 @@
       }
     },
     {
-      "Name": "Shrewd Survivor\n\nLawless Frontier",
+      "Name": "Shrewd Survivor",
       "Description": "2 Piece | Reflex Action\n\nUpon readying a Heat Weapon, Submachine Gun, or Hand Cannon:\nGrants Reflex Action for 1.5 seconds.\n Dealing Additional Weapon Damage refreshes the buff duration.\n\nReflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds.",
+      "Comment": "Lawless Frontier",
       "descriptions": {
         "en": [
           {
@@ -28274,8 +28288,9 @@
       }
     },
     {
-      "Name": "Smoke Jumper\n\nSolo/Fireteam Ops",
+      "Name": "Smoke Jumper",
       "Description": "2 Piece | Ride Together, Die Together\n\nOn Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
+      "Comment": "Solo/Fireteam Ops",
       "descriptions": {
         "en": [
           {
@@ -28373,8 +28388,9 @@
       }
     },
     {
-      "Name": "Swordmaster\n\nPinnacle Ops",
+      "Name": "Swordmaster",
       "Description": "2 Piece | Balestra\n\n Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for ? seconds.",
+      "Comment": "Pinnacle Ops",
       "descriptions": {
         "en": [
           {
@@ -28492,8 +28508,9 @@
       }
     },
     {
-      "Name": "Techsec\n\nSolo/Fireteam Ops",
+      "Name": "Techsec",
       "Description": "2 Piece | Wrecker\n\nPassively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
+      "Comment": "Solo/Fireteam Ops",
       "descriptions": {
         "en": [
           {
@@ -28645,8 +28662,9 @@
       }
     },
     {
-      "Name": "Thriving Survivor\n\nLawless Frontier",
+      "Name": "Thriving Survivor",
       "Description": "2 Piece | Opening Act\n\nUpon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
+      "Comment": "Lawless Frontier",
       "descriptions": {
         "en": [
           {
@@ -28763,8 +28781,9 @@
       }
     },
     {
-      "Name": "Twofold Crown\n\nTrials",
+      "Name": "Twofold Crown",
       "Description": "2 Piece | Crook and Flail\n\nOn Ammo Brick Pickup:\nRestores 70 HP.",
+      "Comment": "Trials",
       "descriptions": {
         "en": [
           {
@@ -28846,8 +28865,9 @@
       }
     },
     {
-      "Name": "Uncaged Deviants\n\nDesert Perpetual\nEpic Raid",
+      "Name": "Uncaged Deviants",
       "Description": "2 Piece | Special Relativity\n\nOn Ammo Brick Pickup:\nRefills stowed Special Weapons.",
+      "Comment": "Desert Perpetual\nEpic Raid",
       "descriptions": {
         "en": [
           {
@@ -28938,8 +28958,9 @@
       }
     },
     {
-      "Name": "Wild Anthem\n\nCrucible",
+      "Name": "Wild Anthem",
       "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
+      "Comment": "Crucible",
       "descriptions": {
         "en": [
           {
