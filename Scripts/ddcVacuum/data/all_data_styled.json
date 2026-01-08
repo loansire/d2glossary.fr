@@ -9192,28 +9192,25 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive"
-              },
-              {
-                "text": " Pulse",
+                "text": "Adaptive Pulse",
                 "classNames": [
                   "weapon-pulse-rifle"
                 ]
               },
               {
-                "text": " = 7.1% | Aggressive"
+                "text": " = 7.1% | "
               },
               {
-                "text": " Pulse",
+                "text": "Aggressive Pulse",
                 "classNames": [
                   "weapon-pulse-rifle"
                 ]
               },
               {
-                "text": " = 10% | Heavy Burst"
+                "text": " = 10% | "
               },
               {
-                "text": " Pulse",
+                "text": "Heavy Burst Pulse",
                 "classNames": [
                   "weapon-pulse-rifle"
                 ]
@@ -9241,10 +9238,10 @@
                 ]
               },
               {
-                "text": " = 6.3% | Rapid-Fire"
+                "text": " = 6.3% | "
               },
               {
-                "text": " Pulse",
+                "text": "Rapid-Fire Pulse",
                 "classNames": [
                   "weapon-pulse-rifle"
                 ]
@@ -9257,19 +9254,16 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive Burst "
-              },
-              {
-                "text": "Sidearm",
+                "text": "Adaptive Burst Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
               },
               {
-                "text": " = 8.46% | Heavy Burst "
+                "text": " = 8.46% | "
               },
               {
-                "text": "Sidearm",
+                "text": "Heavy Burst Sidearm",
                 "classNames": [
                   "weapon-sidearm"
                 ]
@@ -9282,10 +9276,7 @@
           {
             "linesContent": [
               {
-                "text": "Heavy Burst "
-              },
-              {
-                "text": "Hand Cannon",
+                "text": "Heavy Burst Hand Cannon",
                 "classNames": [
                   "weapon-hand-cannon"
                 ]
@@ -9325,10 +9316,10 @@
           {
             "linesContent": [
               {
-                "text": "Weakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst "
+                "text": "Weakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or "
               },
               {
-                "text": "Hand Cannon",
+                "text": "Heavy Burst Hand Cannon",
                 "classNames": [
                   "weapon-hand-cannon"
                 ]
@@ -13632,10 +13623,7 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive Burst "
-              },
-              {
-                "text": "Linear Fusion Rifle",
+                "text": "Adaptive Burst Linear Fusion Rifle",
                 "classNames": [
                   "weapon-linear-fusion-rifle"
                 ]
@@ -14948,10 +14936,7 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive Burst "
-              },
-              {
-                "text": "Linear Fusion Rifle",
+                "text": "Adaptive Burst Linear Fusion Rifle",
                 "classNames": [
                   "weapon-linear-fusion-rifle"
                 ]
@@ -22264,10 +22249,7 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive "
-              },
-              {
-                "text": "Auto Rifle",
+                "text": "Adaptive Auto Rifle",
                 "classNames": [
                   "weapon-auto-rifle"
                 ]
@@ -22293,10 +22275,7 @@
           {
             "linesContent": [
               {
-                "text": "Adaptive "
-              },
-              {
-                "text": "Fusion Rifle",
+                "text": "Adaptive Fusion Rifle",
                 "classNames": [
                   "weapon-fusion-rifle"
                 ]
@@ -27271,7 +27250,7 @@
       }
     },
     {
-      "Name": "Doppler Efect",
+      "Name": "Doppler Effect",
       "Description": "Solar Buffs applied to the user and Strand Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer.",
       "Comment": "Desert Perpetual\nRaid",
       "SetName": "Collective Psyche",

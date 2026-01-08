@@ -523,10 +523,7 @@
         {
           "linesContent": [
             {
-              "text": "Adaptive "
-            },
-            {
-              "text": "Auto Rifle",
+              "text": "Adaptive Auto Rifle",
               "classNames": [
                 "weapon-auto-rifle"
               ]
@@ -552,10 +549,7 @@
         {
           "linesContent": [
             {
-              "text": "Adaptive "
-            },
-            {
-              "text": "Fusion Rifle",
+              "text": "Adaptive Fusion Rifle",
               "classNames": [
                 "weapon-fusion-rifle"
               ]
