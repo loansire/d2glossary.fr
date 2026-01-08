@@ -17,33 +17,41 @@ filters/
 
 ## Filtres disponibles
 
-### 1. NameSourceSplitFilter
+### 1. NameCommentSplitFilter
 
-**Objectif**: Sépare le champ `Name` qui contient des retours à la ligne en deux champs distincts.
+**Objectif**: Sépare le champ `Name` qui contient des retours à la ligne en deux champs distincts : `Name` et `Comment`.
 
 **Pattern détecté**:
-- `name\nsource`
-- `name\n\nsource`
-- `name\n\n\nsource`
+- Première ligne = `Name`
+- Tout le reste = `Comment` (qui peut contenir des `\n`)
 
 **Configuration**:
 ```python
 {
-    "filter": NameSourceSplitFilter,
+    "filter": NameCommentSplitFilter,
     "config": {
-        "name_field": "Name",      # Champ à analyser
-        "source_field": "source"   # Nouveau champ créé
+        "name_field": "Name",        # Champ à analyser
+        "comment_field": "Comment"   # Nouveau champ créé
     }
 }
 ```
 
-**Exemple**:
+**Exemples**:
 ```python
-# Avant
+# Exemple 1 : Comment simple
 {"Name": "Bushido\n\nPinnacle Ops"}
+# Résultat:
+{"Name": "Bushido", "Comment": "Pinnacle Ops"}
 
-# Après
-{"Name": "Bushido", "source": "Pinnacle Ops"}
+# Exemple 2 : Comment avec \n multiples
+{"Name": "Collective Psyche\n\nRaid\nPerpetual Desert"}
+# Résultat:
+{"Name": "Collective Psyche", "Comment": "Raid\nPerpetual Desert"}
+
+# Exemple 3 : Sans \n
+{"Name": "Simple Name"}
+# Résultat:
+{"Name": "Simple Name"}  # Pas de Comment ajouté
 ```
 
 ### 2. NamePropagationFilter
@@ -85,9 +93,12 @@ Les filtres sont configurés dans `filters/config.py` via le dictionnaire `SHEET
 SHEET_FILTERS = {
     "ArmorSets": [
         {
-            "filter": NameSourceSplitFilter,
-            "config": {...},
-            "description": "Sépare le Name et le source"
+            "filter": NameCommentSplitFilter,
+            "config": {
+                "name_field": "Name",
+                "comment_field": "Comment"
+            },
+            "description": "Sépare le Name et le Comment"
         },
         {
             "filter": NamePropagationFilter,
@@ -98,8 +109,11 @@ SHEET_FILTERS = {
     
     "WeaponPerks": [
         {
-            "filter": NameSourceSplitFilter,
-            "config": {...}
+            "filter": NameCommentSplitFilter,
+            "config": {
+                "name_field": "Name",
+                "comment_field": "Comment"
+            }
         }
     ]
 }
@@ -175,10 +189,10 @@ Le pipeline détecte et applique les filtres configurés automatiquement lors de
 ### Appliquer manuellement un filtre
 
 ```python
-from filters.name_source_split import NameSourceSplitFilter
+from filters.name_source_split import NameCommentSplitFilter
 
 # Créer une instance
-filter_instance = NameSourceSplitFilter({
+filter_instance = NameCommentSplitFilter({
     "name_field": "Name",
     "source_field": "source"
 })
@@ -241,7 +255,7 @@ filtered = apply_filters_if_configured("ArmorSets", records)
 
 Pour une sheet donnée, appliquer les filtres dans cet ordre logique:
 
-1. **Nettoyage/Parse** (ex: NameSourceSplitFilter)
+1. **Nettoyage/Parse** (ex: NameCommentSplitFilter)
 2. **Propagation/Enrichissement** (ex: NamePropagationFilter)
 3. **Validation/Vérification**
 4. **Transformation finale**

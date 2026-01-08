@@ -34,16 +34,23 @@ class NamePropagationFilter(BaseFilter):
         last_valid_name = None
 
         for record in records:
-            current_name = record.get(self.name_field, "").strip()
+            current_name = record.get(self.name_field)
+
+            # Gérer les cas None, NaN (float), et chaînes vides
+            is_empty = (
+                current_name is None or
+                (isinstance(current_name, float) and str(current_name).lower() == "nan") or
+                (isinstance(current_name, str) and not current_name.strip())
+            )
 
             # Si le Name est vide ou NaN, utiliser le dernier Name valide
-            if not current_name or str(current_name).lower() == "nan":
+            if is_empty:
                 if last_valid_name:
                     record = record.copy()
                     record[self.name_field] = last_valid_name
             else:
-                # Mettre à jour le dernier Name valide
-                last_valid_name = current_name
+                # Mettre à jour le dernier Name valide (convertir en string si nécessaire)
+                last_valid_name = str(current_name).strip() if not isinstance(current_name, str) else current_name.strip()
 
             processed.append(record)
 

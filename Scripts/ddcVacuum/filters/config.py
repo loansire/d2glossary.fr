@@ -4,18 +4,19 @@ Table de correspondance sheet -> filtres
 """
 
 from filters.name_propagation import NamePropagationFilter
-from filters.name_source_split import NameSourceSplitFilter
+from filters.name_comment_split import NameCommentSplitFilter
+
 
 # Configuration globale : quels filtres appliquer à quelles sheets
 SHEET_FILTERS = {
     "ArmorSets": [
         {
-            "filter": NameSourceSplitFilter,
+            "filter": NameCommentSplitFilter,
             "config": {
                 "name_field": "Name",
-                "source_field": "source"
+                "comment_field": "Comment"
             },
-            "description": "Sépare le Name et le source quand il y a des \\n"
+            "description": "Sépare le Name et le Comment (qui peut contenir des \\n)"
         },
         {
             "filter": NamePropagationFilter,
@@ -28,19 +29,19 @@ SHEET_FILTERS = {
 
     "WeaponPerks": [
         {
-            "filter": NameSourceSplitFilter,
+            "filter": NameCommentSplitFilter,
             "config": {
                 "name_field": "Name",
-                "source_field": "source"
+                "comment_field": "Comment"
             },
-            "description": "Sépare le Name et le source"
+            "description": "Sépare le Name et le Comment"
         }
     ],
 
     # Ajouter d'autres sheets ici au besoin
     # "IntrinsicTraits": [
     #     {
-    #         "filter": NameSourceSplitFilter,
+    #         "filter": NameCommentSplitFilter,
     #         "config": {...}
     #     }
     # ],
