@@ -34,7 +34,12 @@ def main():
     if not confirm_configuration():
         sys.exit(0)
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    # Créer la structure de dossiers
+    simple_dir = f"{OUTPUT_DIR}/simple"
+    styled_dir = f"{OUTPUT_DIR}/styled"
+
+    os.makedirs(simple_dir, exist_ok=True)
+    os.makedirs(styled_dir, exist_ok=True)
 
     print("🚀 Démarrage de l'export D2 Glossary\n")
 
@@ -51,19 +56,22 @@ def main():
             styled_records = stylize_records(records)
             all_styled[name] = styled_records
 
-            save_json(records, f"{OUTPUT_DIR}/{name}.json")
-            save_json(styled_records, f"{OUTPUT_DIR}/{name}_styled.json")
+            # Sauvegarde dans les sous-dossiers
+            save_json(records, f"{simple_dir}/{name}.json")
+            save_json(styled_records, f"{styled_dir}/{name}.json")
 
             print(f"   ✓ {name} ({len(records)} items)")
 
         except Exception as e:
             print(f"   ✗ Erreur: {e}")
 
-    # Sauvegarde des fichiers combinés
+    # Sauvegarde des fichiers combinés à la racine du dossier data
     save_json(all_raw, f"{OUTPUT_DIR}/all_data.json")
     save_json(all_styled, f"{OUTPUT_DIR}/all_data_styled.json")
 
     print(f"\n✅ Export terminé!")
+    print(f"   📁 {simple_dir}/ ({len(SHEETS)} fichiers)")
+    print(f"   📁 {styled_dir}/ ({len(SHEETS)} fichiers)")
     print(f"   📄 {OUTPUT_DIR}/all_data.json")
     print(f"   📄 {OUTPUT_DIR}/all_data_styled.json")
 
