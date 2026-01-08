@@ -1,0 +1,754 @@
+[
+  {
+    "Name": "Amplified",
+    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while Amplified.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\n\nBeing Amplified enhances certain Abilities.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Intrinsic "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Subclass Buff"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Obtained by reaching 100% Counter Progress through "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Kills within 6 seconds of each, or through Aspects."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Combatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ", sprinting for 2.5 seconds grants "
+            },
+            {
+              "text": "Speed Booster",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Speed Booster",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Maximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Speed Booster",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " lingers for 2 seconds until no longer sprinting, even after "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " runs out."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Being "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " enhances certain Abilities."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bolt Charge",
+    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Glaive Melee | Gifted Conviction's Explosives",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Damage instances scored within 3 seconds of each while "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " is active increments a Magazine-capacity based counter towards gaining a stack of "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 2.5% Melee Ability Energy per "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Acquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage instances needed to gain a stack:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "(15% of Magazine, rounded down) + 2"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Area-Denial "
+            },
+            {
+              "text": "GLs",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 3 or 4?"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ": 2"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3-Ammo Snipers: 1"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee, as well as Damage-over-Time sources all count."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "After 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " stacks:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Discharges an "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total ["
+            },
+            {
+              "text": "36 Bolt Splash + 30 Floor Splash",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Damage over ? meters."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Triggers Discharge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Explosions | "
+            },
+            {
+              "text": "Freeze",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " (Not auto-shatter on Bosses) | "
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Explosions | "
+            },
+            {
+              "text": "Threadlings",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Unraveling",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Threads | "
+            },
+            {
+              "text": "Suspend",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Snap on Bosses | Forerunner's The Rock"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Do NOT trigger Discharge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "'s Chain Lightning | "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Ignitions",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " (from Non-Abilities) | Crystal "
+            },
+            {
+              "text": "Shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " (from Non-Abilities) | "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee | Gifted Conviction's Explosives"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ionic Traces",
+    "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Elemental Pickup."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Energizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive "
+            },
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " created by the user."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Blind",
+    "Description": "Blinded Combatants are disoriented, rendering them unable to attack or use abilities for 10 seconds.\n\nBlinded Guardians have their HUD removed, screen whitened, and audio distorted for 3 seconds.\n\nUnstoppable Champions become Stunned upon being Blinded. ",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Blinded",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Combatants are disoriented, rendering them unable to attack or use abilities for 10 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Blinded",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Guardians have their HUD removed, screen whitened, and audio distorted for 3 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Unstoppable Champions",
+              "classNames": [
+                "unstoppable"
+              ]
+            },
+            {
+              "text": " become Stunned upon being "
+            },
+            {
+              "text": "Blinded",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Jolt",
+    "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Jolted",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Enemies will release chain lightning for 10 ["
+            },
+            {
+              "text": "5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds, dealing 119 ["
+            },
+            {
+              "text": "51",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Damage to all enemies within 12 meters upon taking 115 ["
+            },
+            {
+              "text": "45",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Duration can be refreshed by reinflicting "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The damage from the hit that applies "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " counts towards the damage threshold. "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " has a 0.8 second cooldown between chain lightning activations."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Overload Champions",
+              "classNames": [
+                "overload"
+              ]
+            },
+            {
+              "text": " become Stunned upon receiving "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " damage."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
