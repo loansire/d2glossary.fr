@@ -1950,7 +1950,16 @@
         {
           "linesContent": [
             {
-              "text": "2 Piece | Special Relativity"
+              "text": "2 Piece | "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Relativity"
             }
           ]
         },

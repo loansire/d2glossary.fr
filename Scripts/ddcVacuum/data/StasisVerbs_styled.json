@@ -476,7 +476,16 @@
               ]
             },
             {
-              "text": " Enemies receive 10% increased damage from Special and "
+              "text": " Enemies receive 10% increased damage from "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "Power Weapons",

@@ -105,7 +105,16 @@
         {
           "linesContent": [
             {
-              "text": "Picking up a Special/"
+              "text": "Picking up a "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": "/"
             },
             {
               "text": "Power Ammo Bricks",

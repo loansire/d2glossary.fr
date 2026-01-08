@@ -92,7 +92,7 @@ STYLE_PATTERNS = {
         "description": "Primary ammo type"
     },
     "special_ammo": {
-        "pattern": r'\bSpecial (?:Ammo(?: (?:Reserves?|Weapons?|Bricks?))?|Weapons?)\b',
+        "pattern": r'\bSpecial(?: (?:Ammo(?: (?:Reserves?|Weapons?|Bricks?))?|Weapons?))?\b',
         "class": "special",
         "description": "Special ammo type"
     },
@@ -210,9 +210,6 @@ STYLES_ORDER = [
     "barrier_champion",
     "overload_champion",
     "unstoppable_champion",
-    "primary_ammo",
-    "special_ammo",
-    "heavy_ammo",
     "auto_rifle",
     "pulse_rifle",
     "scout_rifle",
@@ -231,6 +228,9 @@ STYLES_ORDER = [
     "trace_rifle",
     "glaive",
     "sword",
+    "primary_ammo",
+    "special_ammo",
+    "heavy_ammo",
 ]
 
 

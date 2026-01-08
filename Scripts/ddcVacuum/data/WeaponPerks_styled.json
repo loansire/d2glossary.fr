@@ -2773,7 +2773,13 @@
         {
           "linesContent": [
             {
-              "text": "Special and "
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "Power Weapons",
@@ -3223,7 +3229,13 @@
         {
           "linesContent": [
             {
-              "text": "Special and "
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "Power Weapons",
@@ -6032,7 +6044,16 @@
               ]
             },
             {
-              "text": " | Refunds 1 Ammo per shot on Special and "
+              "text": " | Refunds 1 Ammo per shot on "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "Heavy Weapons",
@@ -7468,7 +7489,16 @@
               ]
             },
             {
-              "text": " Special and "
+              "text": " "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
             },
             {
               "text": "Power Weapons",
@@ -13104,7 +13134,16 @@
         {
           "linesContent": [
             {
-              "text": "On Special or "
+              "text": "On "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " or "
             },
             {
               "text": "Heavy Ammo Brick",
@@ -15295,7 +15334,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a hit on a Special or "
+              "text": "Upon scoring a hit on a "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " or "
             },
             {
               "text": "Heavy Ammo Brick",
