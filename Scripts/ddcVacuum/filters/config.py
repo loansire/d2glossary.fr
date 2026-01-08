@@ -5,11 +5,19 @@ Table de correspondance sheet -> filtres
 
 from filters.name_propagation import NamePropagationFilter
 from filters.name_comment_split import NameCommentSplitFilter
+from filters.armor_set_description_split import ArmorSetDescriptionSplitFilter
 
 
 # Configuration globale : quels filtres appliquer à quelles sheets
 SHEET_FILTERS = {
     "ArmorSets": [
+        {
+            "filter": NamePropagationFilter,
+            "config": {
+                "name_field": "Name"
+            },
+            "description": "Propage le Name de l'item précédent si vide"
+        },
         {
             "filter": NameCommentSplitFilter,
             "config": {
@@ -19,11 +27,14 @@ SHEET_FILTERS = {
             "description": "Sépare le Name et le Comment (qui peut contenir des \\n)"
         },
         {
-            "filter": NamePropagationFilter,
+            "filter": ArmorSetDescriptionSplitFilter,
             "config": {
-                "name_field": "Name"
+                "name_field": "Name",
+                "description_field": "Description",
+                "set_name_field": "SetName",
+                "piece_requirement_field": "PieceRequirement"
             },
-            "description": "Propage le Name de l'item précédent si vide"
+            "description": "Extrait 'X Piece | Effect' de Description et réorganise les champs"
         }
     ],
 
@@ -39,6 +50,17 @@ SHEET_FILTERS = {
     ],
 
     "OriginTraits": [
+        {
+            "filter": NameCommentSplitFilter,
+            "config": {
+                "name_field": "Name",
+                "comment_field": "Comment"
+            },
+            "description": "Sépare le Name et le Comment"
+        }
+    ],
+
+    "IntrinsicTraits": [
         {
             "filter": NameCommentSplitFilter,
             "config": {

@@ -46,6 +46,9 @@ function clarityToHTML(clarityContent) {
 // Génère le HTML pour un record
 function renderRecord(record) {
     const name = record.Name || '';
+    const setName = record.SetName || '';
+    const pieceRequirement = record.PieceRequirement || '';
+    const comment = record.Comment || '';
 
     // Utilise le format Clarity si disponible
     let descriptionHTML;
@@ -53,6 +56,26 @@ function renderRecord(record) {
         descriptionHTML = clarityToHTML(record.descriptions.en);
     } else {
         descriptionHTML = record.Description || '';
+    }
+
+    // Construction de la métadonnée (SetName + PieceRequirement + Comment)
+    let metadataHTML = '';
+    const metadataParts = [];
+
+    if (setName && setName !== 'NaN' && setName !== 'null') {
+        metadataParts.push(`<span class="metadata-set-name">${setName}</span>`);
+    }
+
+    if (pieceRequirement && pieceRequirement !== 'NaN' && pieceRequirement !== 'null') {
+        metadataParts.push(`<span class="metadata-piece">${pieceRequirement}</span>`);
+    }
+
+    if (comment && comment !== 'NaN' && comment !== 'null') {
+        metadataParts.push(`<span class="metadata-comment">${comment}</span>`);
+    }
+
+    if (metadataParts.length > 0) {
+        metadataHTML = `<div class="perk-metadata">${metadataParts.join(' • ')}</div>`;
     }
 
     // Si pas de nom valide, affiche quand même la div mais sans le titre
@@ -63,6 +86,7 @@ function renderRecord(record) {
     return `
         <div class="perk">
             ${nameHTML}
+            ${metadataHTML}
             <div class="perk-description">${descriptionHTML || '—'}</div>
         </div>
     `;

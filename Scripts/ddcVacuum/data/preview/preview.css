@@ -54,6 +54,38 @@ h2 {
     margin-bottom: 8px;
 }
 
+/* === MÉTADONNÉES (SetName, PieceRequirement, Comment) === */
+.perk-metadata {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    color: #adb5bd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.metadata-set-name {
+    color: #74c0fc;
+    font-weight: 600;
+}
+
+.metadata-piece {
+    color: var(--color-primary);
+    font-weight: 500;
+    padding: 2px 8px;
+    background: rgba(243, 207, 85, 0.15);
+    border-radius: 3px;
+}
+
+.metadata-comment {
+    color: #868e96;
+    font-style: italic;
+}
+
 .perk-description .line {
     margin: 2px 0;
 }

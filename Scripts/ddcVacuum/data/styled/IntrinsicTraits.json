@@ -30,8 +30,9 @@
     }
   },
   {
-    "Name": "Adaptive Frame\n(Rocket Launchers)",
+    "Name": "Adaptive Frame",
     "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 50.5 RPM",
+    "Comment": "(Rocket Launchers)",
     "descriptions": {
       "en": [
         {
@@ -91,8 +92,9 @@
     }
   },
   {
-    "Name": "Aggressive Frame\n(Fusion Rifles)",
+    "Name": "Aggressive Frame",
     "Description": "Fires a 3-round burst of 4 pellets each in an increasingly wider spread.\nDeals 113 [28.8] damage per pellet x 4 = 452 [115.2] per burst x 3 = 1356 [345.6] damage per ammo spent.",
+    "Comment": "(Fusion Rifles)",
     "descriptions": {
       "en": [
         {
@@ -140,8 +142,9 @@
     }
   },
   {
-    "Name": "Aggressive Frame\n(Rocket Launchers)",
+    "Name": "Aggressive Frame",
     "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 54.5 RPM",
+    "Comment": "(Rocket Launchers)",
     "descriptions": {
       "en": [
         {
@@ -171,8 +174,9 @@
     }
   },
   {
-    "Name": "Aggressive Frame\n(Scout Rifles)",
+    "Name": "Aggressive Frame",
     "Description": "Reloads two ammo at a time.",
+    "Comment": "(Scout Rifles)",
     "descriptions": {
       "en": [
         {
@@ -186,8 +190,9 @@
     }
   },
   {
-    "Name": "Aggressive Frame\n(Shotguns)",
+    "Name": "Aggressive Frame",
     "Description": "Upon scoring a Kill:\n0.75x Fire Recovery Delay for 4 seconds.",
+    "Comment": "(Shotguns)",
     "descriptions": {
       "en": [
         {
@@ -456,8 +461,9 @@
     }
   },
   {
-    "Name": "Heavy Burst\n(Hand Cannon)",
+    "Name": "Heavy Burst",
     "Description": "Fires a 2-round burst that deals 9.5% Increased Weakspot Damage. \nNot to be confused with Precision Damage, as they are independent of each other, such as shooting a Divinity Cage, or scoring a hit on a weakspot while not being within the Precision Angle Cone.\nGrants 10% Flinch Resist when ADS.",
+    "Comment": "(Hand Cannon)",
     "descriptions": {
       "en": [
         {
@@ -514,8 +520,9 @@
     }
   },
   {
-    "Name": "High-Impact Frame\n(Rocket Launchers)",
+    "Name": "High-Impact Frame",
     "Description": "Baseline damage for Rocket Launchers.\n1 Impact : 8.7 Explosive Damage Ratio. 46.5 RPM",
+    "Comment": "(Rocket Launchers)",
     "descriptions": {
       "en": [
         {
@@ -715,8 +722,9 @@
     }
   },
   {
-    "Name": "Precision Frame\n(Rocket Launchers)",
+    "Name": "Precision Frame",
     "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
     "descriptions": {
       "en": [
         {
@@ -753,8 +761,9 @@
     }
   },
   {
-    "Name": "Precision Frame \n(Hand Cannon)",
+    "Name": "Precision Frame",
     "Description": "+25 Airborne Effectiveness, 10% Decreased ADS Movement Speed Penalty, and -20% Recoil Yaw (Horizontal Recoil).",
+    "Comment": "(Hand Cannon)",
     "descriptions": {
       "en": [
         {
@@ -790,8 +799,9 @@
     }
   },
   {
-    "Name": "Rapid-Fire Frame\n(Shotguns)",
+    "Name": "Rapid-Fire Frame",
     "Description": "Passively grants 0.8x Reload Duration Multiplier.",
+    "Comment": "(Shotguns)",
     "descriptions": {
       "en": [
         {

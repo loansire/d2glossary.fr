@@ -1136,8 +1136,9 @@
       "Description": "No intrinsic bonuses whatsoever."
     },
     {
-      "Name": "Adaptive Frame\n(Rocket Launchers)",
-      "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 50.5 RPM"
+      "Name": "Adaptive Frame",
+      "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 50.5 RPM",
+      "Comment": "(Rocket Launchers)"
     },
     {
       "Name": "Aggressive Burst",
@@ -1148,20 +1149,24 @@
       "Description": "No intrinsic bonuses whatsoever."
     },
     {
-      "Name": "Aggressive Frame\n(Fusion Rifles)",
-      "Description": "Fires a 3-round burst of 4 pellets each in an increasingly wider spread.\nDeals 113 [28.8] damage per pellet x 4 = 452 [115.2] per burst x 3 = 1356 [345.6] damage per ammo spent."
+      "Name": "Aggressive Frame",
+      "Description": "Fires a 3-round burst of 4 pellets each in an increasingly wider spread.\nDeals 113 [28.8] damage per pellet x 4 = 452 [115.2] per burst x 3 = 1356 [345.6] damage per ammo spent.",
+      "Comment": "(Fusion Rifles)"
     },
     {
-      "Name": "Aggressive Frame\n(Rocket Launchers)",
-      "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 54.5 RPM"
+      "Name": "Aggressive Frame",
+      "Description": "Deals 10% increased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 54.5 RPM",
+      "Comment": "(Rocket Launchers)"
     },
     {
-      "Name": "Aggressive Frame\n(Scout Rifles)",
-      "Description": "Reloads two ammo at a time."
+      "Name": "Aggressive Frame",
+      "Description": "Reloads two ammo at a time.",
+      "Comment": "(Scout Rifles)"
     },
     {
-      "Name": "Aggressive Frame\n(Shotguns)",
-      "Description": "Upon scoring a Kill:\n0.75x Fire Recovery Delay for 4 seconds."
+      "Name": "Aggressive Frame",
+      "Description": "Upon scoring a Kill:\n0.75x Fire Recovery Delay for 4 seconds.",
+      "Comment": "(Shotguns)"
     },
     {
       "Name": "Area Denial Frame",
@@ -1184,16 +1189,18 @@
       "Description": "Fires 2-round burst.\nGrants 10?% Flinch Resist when ADS."
     },
     {
-      "Name": "Heavy Burst\n(Hand Cannon)",
-      "Description": "Fires a 2-round burst that deals 9.5% Increased Weakspot Damage. \nNot to be confused with Precision Damage, as they are independent of each other, such as shooting a Divinity Cage, or scoring a hit on a weakspot while not being within the Precision Angle Cone.\nGrants 10% Flinch Resist when ADS."
+      "Name": "Heavy Burst",
+      "Description": "Fires a 2-round burst that deals 9.5% Increased Weakspot Damage. \nNot to be confused with Precision Damage, as they are independent of each other, such as shooting a Divinity Cage, or scoring a hit on a weakspot while not being within the Precision Angle Cone.\nGrants 10% Flinch Resist when ADS.",
+      "Comment": "(Hand Cannon)"
     },
     {
       "Name": "High-Impact Frame",
       "Description": "While moving at or below 2.8 metres per second and ADS:\n-20% Accuracy Cone Size and -17% Accuracy Cone Growth.\nCan also work while airborne if the movement speed criteria is met."
     },
     {
-      "Name": "High-Impact Frame\n(Rocket Launchers)",
-      "Description": "Baseline damage for Rocket Launchers.\n1 Impact : 8.7 Explosive Damage Ratio. 46.5 RPM"
+      "Name": "High-Impact Frame",
+      "Description": "Baseline damage for Rocket Launchers.\n1 Impact : 8.7 Explosive Damage Ratio. 46.5 RPM",
+      "Comment": "(Rocket Launchers)"
     },
     {
       "Name": "Legacy PR-55 Frame",
@@ -1220,20 +1227,23 @@
       "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw."
     },
     {
-      "Name": "Precision Frame\n(Rocket Launchers)",
-      "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM"
+      "Name": "Precision Frame",
+      "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+      "Comment": "(Rocket Launchers)"
     },
     {
-      "Name": "Precision Frame \n(Hand Cannon)",
-      "Description": "+25 Airborne Effectiveness, 10% Decreased ADS Movement Speed Penalty, and -20% Recoil Yaw (Horizontal Recoil)."
+      "Name": "Precision Frame",
+      "Description": "+25 Airborne Effectiveness, 10% Decreased ADS Movement Speed Penalty, and -20% Recoil Yaw (Horizontal Recoil).",
+      "Comment": "(Hand Cannon)"
     },
     {
       "Name": "Rapid-Fire Frame",
       "Description": "Upon starting a reload while magazine is empty:\n0.8x Reload Duration Multiplier."
     },
     {
-      "Name": "Rapid-Fire Frame\n(Shotguns)",
-      "Description": "Passively grants 0.8x Reload Duration Multiplier."
+      "Name": "Rapid-Fire Frame",
+      "Description": "Passively grants 0.8x Reload Duration Multiplier.",
+      "Comment": "(Shotguns)"
     },
     {
       "Name": "Spread Shot",
@@ -1602,40 +1612,60 @@
   ],
   "ArmorSets": [
     {
-      "Name": "AION Renewal",
-      "Description": "2 Piece | Force Converter\n\nUpon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-      "Comment": "Kepler"
+      "Name": "Force Converter",
+      "Description": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
+      "SetName": "AION Renewal",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "AION Renewal",
-      "Description": "4 Piece | Reactive Booster\n\nSprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation."
+      "Name": "Reactive Booster",
+      "Description": "Sprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
+      "Comment": "Kepler",
+      "SetName": "AION Renewal",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "AION Adapter",
-      "Description": "2 Piece | Force Absorption\n\nUpon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-      "Comment": "Kepler"
+      "Name": "Force Absorption",
+      "Description": "Upon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
+      "SetName": "AION Adapter",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "AION Adapter",
-      "Description": "4 Piece | Reactive Shock\n\nWhile Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within ? meters for ? seconds.\nCan only trigger once per Reactive Shock activation."
+      "Name": "Reactive Shock",
+      "Description": "While Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within ? meters for ? seconds.\nCan only trigger once per Reactive Shock activation.",
+      "Comment": "Kepler",
+      "SetName": "AION Adapter",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Bushido",
-      "Description": "2 Piece | Iaido\n\nScoring a Weapon Kill within ? seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
-      "Comment": "Pinnacle Ops"
+      "Name": "Iaido",
+      "Description": "Scoring a Weapon Kill within ? seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Bushido",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Bushido",
-      "Description": "4 Piece | Unfaltering Focus\n\nOn Bow, Shotgun, or Sword Kill:\nGrants Resist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds."
+      "Name": "Unfaltering Focus",
+      "Description": "On Bow, Shotgun, or Sword Kill:\nGrants Resist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Bushido",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Collective Psyche",
-      "Description": "2 Piece | Accretion\n\nOn Ammo Brick Pickup:\nGrants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death.\nSpecial Ammo Bricks grant 1 stack of Accretion. Heavy Ammo Bricks grant 3 stacks of Accretion.\n\nAccretion:\nGrants a Ready/Stow Animation Duration Multiplier per stack, up to a maximum of 0.8x Ready/Stow Animation Duration at 20 stacks.",
-      "Comment": "Desert Perpetual\nRaid"
+      "Name": "Accretion",
+      "Description": "On Ammo Brick Pickup:\nGrants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death.\nSpecial Ammo Bricks grant 1 stack of Accretion. Heavy Ammo Bricks grant 3 stacks of Accretion.\n\nAccretion:\nGrants a Ready/Stow Animation Duration Multiplier per stack, up to a maximum of 0.8x Ready/Stow Animation Duration at 20 stacks.",
+      "Comment": "Desert Perpetual\nRaid",
+      "SetName": "Collective Psyche",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Collective Psyche",
-      "Description": "4 Piece | Doppler Efect\n\nSolar Buffs applied to the user and Strand Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer."
+      "Name": "Doppler Efect",
+      "Description": "Solar Buffs applied to the user and Strand Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer.",
+      "Comment": "Desert Perpetual\nRaid",
+      "SetName": "Collective Psyche",
+      "PieceRequirement": "4 Piece"
     },
     {
       "Name": "Costumes",
@@ -1643,139 +1673,214 @@
       "Comment": "Festival of the Lost"
     },
     {
-      "Name": "Disaster Corps",
-      "Description": "2 Piece | Pleas Heard\n\nUpon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen. ",
-      "Comment": "Crucible"
+      "Name": "Pleas Heard",
+      "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
+      "Comment": "Crucible",
+      "SetName": "Disaster Corps",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Disaster Corps",
-      "Description": "4 Piece | Magnificent Duty\n\nUpon reaching Critical Health or healing an ally at Critical Health:\n\nFor Auto Rifles, Scout Rifles, and Sidearms:\n+20 Range, +20 Stability, +30 Reload Speed, and 0.9x Reload Duration Multiplier for 11 seconds.\n\nUsing a Support Frame Auto to heal a Critical Health Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie?"
+      "Name": "Magnificent Duty",
+      "Description": "Upon reaching Critical Health or healing an ally at Critical Health:\n\nFor Auto Rifles, Scout Rifles, and Sidearms:\n+20 Range, +20 Stability, +30 Reload Speed, and 0.9x Reload Duration Multiplier for 11 seconds.\n\nUsing a Support Frame Auto to heal a Critical Health Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie?",
+      "Comment": "Crucible",
+      "SetName": "Disaster Corps",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Ferropotent",
-      "Description": "2 Piece | Rapid Repair\n\n Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
-      "Comment": "Solo/Fireteam Ops"
+      "Name": "Rapid Repair",
+      "Description": "Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Ferropotent",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Ferropotent",
-      "Description": "4 Piece | Hot Shot\n\nWhile Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress."
+      "Name": "Hot Shot",
+      "Description": "While Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Ferropotent",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Iron Panoply",
-      "Description": "2 Piece | Vigilant Watch\n\nAs Shield HP drops, initially triggering at ? Shield HP, maxing out in effect at ? Shield HP:\nLinearly? grants up to +? Stability and +? Handling\n\nWhile at Critical Health:\nWeapon Kills restore 30HP.\nIncurs a 5 second cooldown between triggers.",
-      "Comment": "Iron Banner"
+      "Name": "Vigilant Watch",
+      "Description": "As Shield HP drops, initially triggering at ? Shield HP, maxing out in effect at ? Shield HP:\nLinearly? grants up to +? Stability and +? Handling\n\nWhile at Critical Health:\nWeapon Kills restore 30HP.\nIncurs a 5 second cooldown between triggers.",
+      "Comment": "Iron Banner",
+      "SetName": "Iron Panoply",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Iron Panoply",
-      "Description": "4 Piece | Iron Conviction\n\nUpon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching Critical Health for ? seconds upon triggering."
+      "Name": "Iron Conviction",
+      "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching Critical Health for ? seconds upon triggering.",
+      "Comment": "Iron Banner",
+      "SetName": "Iron Panoply",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Last Discipline",
-      "Description": "2 Piece | Terminal Velocity\n\nUpon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
-      "Comment": "Crucible"
+      "Name": "Terminal Velocity",
+      "Description": "Upon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
+      "Comment": "Crucible",
+      "SetName": "Last Discipline",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Last Discipline",
-      "Description": "4 Piece | Power Loader\n\nUpon picking up an Orb of Power:\nGrants 6% Special Ammo Progress."
+      "Name": "Power Loader",
+      "Description": "Upon picking up an Orb of Power:\nGrants 6% Special Ammo Progress.",
+      "Comment": "Crucible",
+      "SetName": "Last Discipline",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Lustrous",
-      "Description": "2 Piece | Photogalvanic\n\nUpon receiving ANY healing while not at Full HP:\n+20? Handling, +10 Reload Speed, 0.85x Reload Duration Multiplier, and ?% Flinch Resist for Solar Weapons for 4 seconds.\nWorks with ANY source of healing, such as Orb Pickups. Restoration constantly refreshes it",
-      "Comment": "Solstice"
+      "Name": "Photogalvanic",
+      "Description": "Upon receiving ANY healing while not at Full HP:\n+20? Handling, +10 Reload Speed, 0.85x Reload Duration Multiplier, and ?% Flinch Resist for Solar Weapons for 4 seconds.\nWorks with ANY source of healing, such as Orb Pickups. Restoration constantly refreshes it",
+      "Comment": "Solstice",
+      "SetName": "Lustrous",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Lustrous",
-      "Description": "4 Piece | Cauterize\n\nUpon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP."
+      "Name": "Cauterize",
+      "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.",
+      "Comment": "Solstice",
+      "SetName": "Lustrous",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "New Demotic",
-      "Description": "2 Piece | Paroli\n\nUpon sliding:\n?% Flinch Resist for ? seconds.",
-      "Comment": "Trials"
+      "Name": "Paroli",
+      "Description": "Upon sliding:\n?% Flinch Resist for ? seconds.",
+      "Comment": "Trials",
+      "SetName": "New Demotic",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "New Demotic",
-      "Description": "4 Piece | Martingale\n\nOn Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for 10 seconds."
+      "Name": "Martingale",
+      "Description": "On Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for 10 seconds.",
+      "Comment": "Trials",
+      "SetName": "New Demotic",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Sage Protector",
-      "Description": "2 Piece | Combat Meditation\n\nOn Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
-      "Comment": "Equilibrium \nDungeon"
+      "Name": "Combat Meditation",
+      "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
+      "Comment": "Equilibrium \nDungeon",
+      "SetName": "Sage Protector",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Sage Protector",
-      "Description": "4 Piece | Blade Focus\n\nUpon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds.\nBlade Focus is removed upon guarding or stowing the sword."
+      "Name": "Blade Focus",
+      "Description": "Upon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds.\nBlade Focus is removed upon guarding or stowing the sword.",
+      "Comment": "Equilibrium \nDungeon",
+      "SetName": "Sage Protector",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Shrewd Survivor",
-      "Description": "2 Piece | Reflex Action\n\nUpon readying a Heat Weapon, Submachine Gun, or Hand Cannon:\nGrants Reflex Action for 1.5 seconds.\n Dealing Additional Weapon Damage refreshes the buff duration.\n\nReflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds.",
-      "Comment": "Lawless Frontier"
+      "Name": "Reflex Action",
+      "Description": "Upon readying a Heat Weapon, Submachine Gun, or Hand Cannon:\nGrants Reflex Action for 1.5 seconds.\n Dealing Additional Weapon Damage refreshes the buff duration.\n\nReflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Shrewd Survivor",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Shrewd Survivor",
-      "Description": "4 Piece | Hot Shot\n\nWhile Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat."
+      "Name": "Hot Shot",
+      "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Shrewd Survivor",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Smoke Jumper",
-      "Description": "2 Piece | Ride Together, Die Together\n\nOn Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
-      "Comment": "Solo/Fireteam Ops"
+      "Name": "Ride Together, Die Together",
+      "Description": "On Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Smoke Jumper",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Smoke Jumper",
-      "Description": "4 Piece | Too Old for This\n\nUpon finishing an Elite+ Combatant:\nGrants 16% Special Ammo Progress and restores 35 HP."
+      "Name": "Too Old for This",
+      "Description": "Upon finishing an Elite+ Combatant:\nGrants 16% Special Ammo Progress and restores 35 HP.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Smoke Jumper",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Swordmaster",
-      "Description": "2 Piece | Balestra\n\n Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for ? seconds.",
-      "Comment": "Pinnacle Ops"
+      "Name": "Balestra",
+      "Description": "Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for ? seconds.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Swordmaster",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Swordmaster",
-      "Description": "4 Piece | Stesso Tempo\n\nUpon blocking damage with a Glaive or a Sword:\n50% [10%] Damage Resist (Resist x4) for 3 seconds upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires."
+      "Name": "Stesso Tempo",
+      "Description": "Upon blocking damage with a Glaive or a Sword:\n50% [10%] Damage Resist (Resist x4) for 3 seconds upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Swordmaster",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Techsec",
-      "Description": "2 Piece | Wrecker\n\nPassively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
-      "Comment": "Solo/Fireteam Ops"
+      "Name": "Wrecker",
+      "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Techsec",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Techsec",
-      "Description": "4 Piece | Concussive Rounds\n\nUpon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds."
+      "Name": "Concussive Rounds",
+      "Description": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Techsec",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Thriving Survivor",
-      "Description": "2 Piece | Opening Act\n\nUpon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
-      "Comment": "Lawless Frontier"
+      "Name": "Opening Act",
+      "Description": "Upon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Thriving Survivor",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Thriving Survivor",
-      "Description": "4 Piece | Room Clearing\n\nUpon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons."
+      "Name": "Room Clearing",
+      "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Thriving Survivor",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Twofold Crown",
-      "Description": "2 Piece | Crook and Flail\n\nOn Ammo Brick Pickup:\nRestores 70 HP.",
-      "Comment": "Trials"
+      "Name": "Crook and Flail",
+      "Description": "On Ammo Brick Pickup:\nRestores 70 HP.",
+      "Comment": "Trials",
+      "SetName": "Twofold Crown",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Twofold Crown",
-      "Description": "4 Piece | Gift of Sight\n\nUpon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs."
+      "Name": "Gift of Sight",
+      "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
+      "Comment": "Trials",
+      "SetName": "Twofold Crown",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Uncaged Deviants",
-      "Description": "2 Piece | Special Relativity\n\nOn Ammo Brick Pickup:\nRefills stowed Special Weapons.",
-      "Comment": "Desert Perpetual\nEpic Raid"
+      "Name": "Special Relativity",
+      "Description": "On Ammo Brick Pickup:\nRefills stowed Special Weapons.",
+      "Comment": "Desert Perpetual\nEpic Raid",
+      "SetName": "Uncaged Deviants",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Uncaged Deviants",
-      "Description": "4 Piece | Superluminal Motion\n\nUpon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 15HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration."
+      "Name": "Superluminal Motion",
+      "Description": "Upon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 15HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+      "Comment": "Desert Perpetual\nEpic Raid",
+      "SetName": "Uncaged Deviants",
+      "PieceRequirement": "4 Piece"
     },
     {
-      "Name": "Wild Anthem",
-      "Description": "2 Piece | Fanfare\n\nWhile Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
-      "Comment": "Crucible"
+      "Name": "Fanfare",
+      "Description": "While Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
+      "Comment": "Crucible",
+      "SetName": "Wild Anthem",
+      "PieceRequirement": "2 Piece"
     },
     {
-      "Name": "Wild Anthem",
-      "Description": "4 Piece | Suros Harmony\n\nUpon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao."
+      "Name": "Suros Harmony",
+      "Description": "Upon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
+      "Comment": "Crucible",
+      "SetName": "Wild Anthem",
+      "PieceRequirement": "4 Piece"
     }
   ],
   "ArcVerbs": [
