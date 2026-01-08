@@ -4,6 +4,8 @@ from utils.config import SHEETS, OUTPUT_DIR
 from utils.fetcher import fetch_sheet
 from utils.stylizer import stylize_records
 from utils.exporter import save_json
+from filters.pipeline import apply_filters_if_configured, FilterPipeline
+from filters.config import has_filters
 
 
 def confirm_configuration():
@@ -50,9 +52,17 @@ def main():
         print(f"📥 Récupération de {name}...")
 
         try:
+            # Récupération des données
             records = fetch_sheet(name, gid)
+
+            # Application des filtres si configurés
+            if has_filters(name):
+                print(f"   🔧 Application des filtres...")
+                records = apply_filters_if_configured(name, records)
+
             all_raw[name] = records
 
+            # Stylisation
             styled_records = stylize_records(records)
             all_styled[name] = styled_records
 
@@ -64,6 +74,8 @@ def main():
 
         except Exception as e:
             print(f"   ✗ Erreur: {e}")
+            import traceback
+            traceback.print_exc()
 
     # Sauvegarde des fichiers combinés à la racine du dossier data
     save_json(all_raw, f"{OUTPUT_DIR}/all_data.json")
