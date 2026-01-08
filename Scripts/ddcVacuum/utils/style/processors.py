@@ -9,34 +9,17 @@ from typing import Any
 from utils.style.patterns import STYLE_PATTERNS, STYLES_ORDER
 
 
-def text_to_clarity_line(text: str) -> list[dict[str, Any]]:
+def text_to_clarity_line(text: str, item_name: str = None) -> list[dict[str, Any]]:
     """
     Convert a text string to Clarity's linesContent format.
     Returns a list of segments with text and optional classNames.
 
-    Example output:
-    [
-        {"text": "Grants "},
-        {"text": "20%", "classNames": ["pve"]},
-        {"text": " "},
-        {"text": "[15%]", "classNames": ["pvp"]},
-        {"text": " increased damage"}
-    ]
-
     Args:
         text: Text string to process
+        item_name: Optional item name for dynamic pattern matching
 
     Returns:
         List of text segments with optional CSS classes
-
-    Example:
-        >>> segments = text_to_clarity_line("Grants Solar damage")
-        >>> print(segments)
-        [
-            {"text": "Grants "},
-            {"text": "Solar", "classNames": ["solar"]},
-            {"text": " damage"}
-        ]
     """
     if not text or not isinstance(text, str):
         return [{"text": str(text) if text else ""}]
@@ -51,7 +34,17 @@ def text_to_clarity_line(text: str) -> list[dict[str, Any]]:
         if not config:
             continue
 
-        pattern = config["pattern"]
+        # Gérer les patterns dynamiques
+        if config.get("dynamic") and style_name == "perk_name_reference":
+            if not item_name:
+                continue  # Skip si pas de nom d'item fourni
+
+            # Créer le pattern dynamiquement en échappant les caractères spéciaux
+            escaped_name = re.escape(item_name)
+            pattern = rf'\b{escaped_name}\b'
+        else:
+            pattern = config["pattern"]
+
         css_class = config["class"]
         flags = config.get("flags", 0)
 

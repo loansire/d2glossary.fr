@@ -9,47 +9,27 @@ from typing import Any
 from utils.style.processors import text_to_clarity_line
 
 
-def description_to_clarity_format(description: str) -> list[dict[str, Any]]:
+def description_to_clarity_format(description: str, item_name: str = None) -> list[dict[str, Any]]:
     """
     Convert a full description to Clarity's descriptions.en format.
-    Splits by newlines and creates linesContent arrays with spacers.
-
-    Example output:
-    [
-        {"linesContent": [{"text": "First line"}, {"text": " with ", "classNames": ["solar"]}, {"text": "style"}]},
-        {"classNames": ["spacer"]},
-        {"linesContent": [{"text": "Second paragraph"}]}
-    ]
 
     Args:
         description: Full description text with potential newlines
+        item_name: Optional item name for dynamic pattern matching
 
     Returns:
         Clarity-formatted description structure
-
-    Example:
-        >>> clarity = description_to_clarity_format("Para 1\\n\\nPara 2")
-        >>> print(clarity)
-        [
-            {"linesContent": [{"text": "Para 1"}]},
-            {"classNames": ["spacer"]},
-            {"linesContent": [{"text": "Para 2"}]}
-        ]
     """
     if not description or not isinstance(description, str):
         return []
 
     result = []
-
-    # Split by double newlines (paragraphs) or single newlines
-    # Clarity uses spacer objects between paragraphs
     paragraphs = re.split(r'\n\s*\n|\r\n\s*\r\n', description)
 
     for i, para in enumerate(paragraphs):
         if not para.strip():
             continue
 
-        # Split paragraph into lines
         lines = para.strip().split('\n')
 
         for j, line in enumerate(lines):
@@ -57,11 +37,10 @@ def description_to_clarity_format(description: str) -> list[dict[str, Any]]:
             if not line:
                 continue
 
-            # Convert line to Clarity format
-            line_content = text_to_clarity_line(line)
+            # Passer le nom de l'item pour le pattern dynamique
+            line_content = text_to_clarity_line(line, item_name=item_name)
             result.append({"linesContent": line_content})
 
-        # Add spacer between paragraphs (not after the last one)
         if i < len(paragraphs) - 1:
             result.append({"classNames": ["spacer"]})
 

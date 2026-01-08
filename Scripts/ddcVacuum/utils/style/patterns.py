@@ -17,6 +17,16 @@ import re
 # =============================================================================
 
 STYLE_PATTERNS = {
+
+    # === PERK NAME SELF-REFERENCE (HIGHEST PRIORITY) ===
+    "perk_name_reference": {
+        "pattern": None,  # Sera défini dynamiquement
+        "class": "perkname",
+        "flags": re.IGNORECASE,
+        "description": "Item name appearing in its own description",
+        "dynamic": True  # Marqueur pour pattern dynamique
+    },
+
     # === ENHANCED PERK INDICATORS ===
     "enhanced_arrow_text": {
         "pattern": r'(↑[a-zA-Z\s](?:(?!\.\s|\.$).)*\.)',
@@ -240,6 +250,9 @@ STYLE_PATTERNS = {
 
 # Order of pattern application (important for overlapping matches)
 STYLES_ORDER = [
+    # PRIORITÉ MAXIMALE : Pattern dynamique du nom de l'item
+    "perk_name_reference",
+
     # Values first (most specific)
     "pvp_value",
     "enhanced_arrow_text",
