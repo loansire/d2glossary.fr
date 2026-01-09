@@ -16,6 +16,8 @@ SHEETS = {
     "OriginTraits": "1050893845",
     "ArmorSets": "1916736284",
 
+    "ArtifactPerks": "828585521",
+
     "ArcVerbs": "41303738",
     "SolarVerbs": "993506142",
     "VoidVerbs": "1094405333",

@@ -1,0 +1,1784 @@
+[
+  {
+    "Name": "Anti-Barrier Hand Cannon",
+    "Description": "For Hand Cannons without an intrinsic Breaker Type:\n\nPassively grants Shield-Piercing Rounds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For "
+            },
+            {
+              "text": "Hand Cannons",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": " without an intrinsic Breaker Type:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants Shield-Piercing Rounds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Impact, Shock, Gravity",
+    "Description": "Grants the ability to equip the following mods:\n\nKinetic + Arc Siphon [3 Energy]\n\nKinetic + Void Siphon [3 Energy]",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants the ability to equip the following mods:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " + "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Siphon ["
+            },
+            {
+              "text": "3 Energy",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "]"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " + "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Siphon ["
+            },
+            {
+              "text": "3 Energy",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "]"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Press The Advantage",
+    "Description": "Upon breaking a Combatant's Shield:\n\n+20? Stability, +20? Handling, and +20 Reload Speed for 10 seconds.\nSwords receive +? Guard Resistance.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon breaking a Combatant's Shield:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20? Stability, +20? Handling, and +20 Reload Speed for 10 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " receive +? Guard Resistance."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dielectric",
+    "Description": "On Arc-Debuffed Enemy Kill:\n\nGrants x1 Bolt Charge.\n\nUpon scoring 3 Arc-Debuffed Enemy Kills within 6 seconds of each:\nSpawns an Orb of Power that grants 7.15% Super Energy.\nRestores 40 HP.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "-Debuffed Enemy Kill:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring 3 "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "-Debuffed Enemy Kills within 6 seconds of each:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns an Orb of Power that grants 7.15% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores 40 HP."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Elemental Orbs: Arc",
+    "Description": "Arc Weapon Kills progress a counter, spawning an Arc Elemental Orb upon reaching 100%.\n\nArc Elemental Orb:\nCan be picked up and thrown.\nDeal 450 [101] damage and apply Jolt.\n\nFor more information, head to Game Mechanics.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Weapon Kills progress a counter, spawning an "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Elemental Orb upon reaching 100%."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Elemental Orb:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can be picked up and thrown."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Deal 450 ["
+            },
+            {
+              "text": "101",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage and apply "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For more information, head to Game Mechanics."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Anti-Barrier Sniper Rifle",
+    "Description": "For Sniper Rifles without an intrinsic Breaker Type:\n\nPassively grants Shield-Piercing Rounds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For "
+            },
+            {
+              "text": "Sniper Rifles",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": " without an intrinsic Breaker Type:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants Shield-Piercing Rounds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Gravitic-Voltaic Charge",
+    "Description": "While an Arc or Void Super Ability is equipped:\n\nGrants +1 Maximum Armor Charge Stacks.\nStacks alongside Charged Up.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While an "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Super Ability is equipped:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants +1 Maximum Armor Charge Stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks alongside Charged Up."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Kinetic Synthesis",
+    "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo.\nNo Land Beyond can spawn an Ammo Brick but does not receive ammo.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Dealing "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " and scoring "
+            },
+            {
+              "text": "Kinetic Weapon",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Kills progress a counter, spawning an unique "
+            },
+            {
+              "text": "Kinetic Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Brick upon reaching 100%."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counter lasts 15s and is refreshed upon dealing "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "RnF Kill = 8% | Elite = 15% | Miniboss = 25%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "This means it requires the same \"hits\" regardless of delta."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon collecting a "
+            },
+            {
+              "text": "Kinetic Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Brick:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills equipped "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Weapons and generates "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": "/"
+            },
+            {
+              "text": "Power Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and 5% "
+            },
+            {
+              "text": "Heavy Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " Progress."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Generation is unaffected by Scavenger Bricks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Generates 33% of Magazine, rounded up, with certain exceptions."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counts for Ammo Pickup effects."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bastion = +1 Ammo | Microcosm = +24 Ammo."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "No Land Beyond can spawn an Ammo Brick but does not receive ammo."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Armorsmith",
+    "Description": "Upon breaking a Combatant's Shield:\n\n10% [2.5%] Damage Resist (Resist x1) for 6 seconds.\n100% Increased Melee Damage for 6 seconds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon breaking a Combatant's Shield:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% ["
+            },
+            {
+              "text": "2.5%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage Resist (Resist x1) for 6 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "100% Increased Melee Damage for 6 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Kinetic Rupture",
+    "Description": "Upon scoring enough Kinetic Weapon Damage Instances against Elite+? Combatants:\nSpawns a Kinetic Rupture for ? seconds.\n\nKinetic Ruptures can be damaged, activating after ? seconds of being dealt damage.\n\nKinetic Rupture explosion damage is equal to %%% of the damage it received and staggers combatants.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring enough "
+            },
+            {
+              "text": "Kinetic Weapon Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Instances against Elite+? Combatants:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a "
+            },
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Rupture for ? seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Ruptures can be damaged, activating after ? seconds of being dealt damage."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Rupture explosion damage is equal to %%% of the damage it received and staggers combatants."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Overload Pulse Rifle",
+    "Description": "For Pulse Rifles without an intrinsic Breaker Type:\n\nScoring 2 hits grants Overloading Rounds for 6 seconds.\nBuff cannot be retriggered until after 2 seconds of expiring. \nBuff is removed on stow.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For "
+            },
+            {
+              "text": "Pulse Rifles",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": " without an intrinsic Breaker Type:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 2 hits grants Overloading Rounds for 6 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be retriggered until after 2 seconds of expiring."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is removed on stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Expert Handling",
+    "Description": "On Weapon Kill:\n\nGrants a stack of Expert Handling, up to ? stacks.\nReload or stow removes all stacks.\n\nExpert Handling:\nx1 | +5? Stability | +5 Guard Endurance\nx2 | +15? Stability | +15 Guard Endurance\nx3 | +20? Stability | +20 Guard Endurance",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Expert Handling",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to ? stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reload or stow removes all stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Expert Handling",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x1 | +5? Stability | +5 Guard Endurance"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x2 | +15? Stability | +15 Guard Endurance"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x3 | +20? Stability | +20 Guard Endurance"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Reload at Range",
+    "Description": "Upon scoring a Precision Hit with a Bow or Sniper Rifle:\n\nGrants a stack of Reload at Range for ? seconds, up to ? stacks.\n\nReload at Range:\nx1 | +? Reload Speed\nx2 | +? Reload Speed\nx3 | +? Reload Speed",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Precision Hit with a "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Reload at Range",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for ? seconds, up to ? stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reload at Range",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x1 | +? Reload Speed"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x2 | +? Reload Speed"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x3 | +? Reload Speed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Counter Energy",
+    "Description": "Whenever a Champion gets stunned:\n\nGrants 25% Ability Energy to the least-charged Ability.\nExcludes Super Abilities, obviously.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Whenever a Champion gets stunned:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 25% Ability Energy to the least-charged Ability."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Excludes Super Abilities, obviously."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Sniper's Meditation",
+    "Description": "On Sniper Rifle Direct Hit:\nGrant a stack of Sniper's Meditation for 7 seconds.\nHeavy Sniper Rifle hits grant 2 stacks.\nSniper's Meditation Buff persists through stow.\n\nSniper's Meditation \nIncreased Damage, Stability, and Reload Speed.\n3% | 6% | 9% | 12 | 15% Increased Damage\n+? | +? | +? | +? | +? Stability\n+15 | +30 | +35 | +40 | +45 Reload Speed",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": " Direct Hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grant a stack of "
+            },
+            {
+              "text": "Sniper's Meditation",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 7 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Heavy Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": " hits grant 2 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper's Meditation",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Buff persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper's Meditation",
+              "classNames": [
+                "perkname"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Increased Damage, Stability, and Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3% | 6% | 9% | 12 | 15% Increased Damage"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +? Stability"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+15 | +30 | +35 | +40 | +45 Reload Speed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Overload Submachine Guns",
+    "Description": "For Submachine Guns without an intrinsic Breaker Type:\n\nSustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": " without an intrinsic Breaker Type:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Fastest Draw",
+    "Description": "Upon scoring a Precision Hit within ? seconds of reloading or readying the weapon:\n\n?% Flinch Resist for ? seconds.\nBuff cannot be refreshed.\nIn-Game Description is wrong, it isn't exclusive to the first shot.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Precision Hit within ? seconds of reloading or readying the weapon:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "?% Flinch Resist for ? seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "In-Game Description is wrong, it isn't exclusive to the first shot."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Riposte",
+    "Description": "After guarding with a Sword:\n\nGrants Unstoppable Shots for 3 seconds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After guarding with a "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Unstoppable Shots for 3 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Combination Argent Blade",
+    "Description": "Upon attacking, then waiting for 0.5 seconds before attacking once again:\nGrants Argent Blade for 5 seconds.\nBuff cannot be refreshed.\n\nArgent Blade:\n15% Increased Sword Damage\n+100 Charge Rate",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon attacking, then waiting for 0.5 seconds before attacking once again:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Argent Blade for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Argent Blade:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "15% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Damage"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+100 Charge Rate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Sword Storm Combo",
+    "Description": "Upon doing 3 Light Attacks followed by a Heavy Attack:\nGrants Sword Storm Combo for 5 seconds.\nScoring additional Sword Kills refresh the buff.\n\nSword Storm Combo:\nAutomatically deals 103 [?] Sword Kinetic Damage and disorients on hit for 3 seconds every 0.53 seconds over 6 meters around the user.\nDeals up to 15% more damage at <4 meters.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon doing 3 Light Attacks followed by a Heavy Attack:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Sword Storm Combo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring additional "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Kills refresh the buff."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sword Storm Combo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Automatically deals 103 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Kinetic Damage",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " and disorients on hit for 3 seconds every 0.53 seconds over 6 meters around the user."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Deals up to 15% more damage at <4 meters."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Unstoppable Bow",
+    "Description": "For Bows without an intrinsic Breaker Type:\n\nHolding Full-Draw for 1 second grants Unstoppable Shot.\n\nCrossbows are passively granted Unstoppable Shots after being readied and loaded for 1 second.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For "
+            },
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " without an intrinsic Breaker Type:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Holding Full-Draw for 1 second grants Unstoppable Shot."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Crossbows are passively granted Unstoppable Shots after being readied and loaded for 1 second."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Elemental Siphon",
+    "Description": "Upon scoring 3 kills within 3? seconds of each using a Kinetic Weapon or a Super-Element Matching Weapon:\n\nCreates an Elemental Pickup that matches the equipped Super Ability's element.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring 3 kills within 3? seconds of each using a "
+            },
+            {
+              "text": "Kinetic Weapon",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " or a Super-Element Matching Weapon:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Creates an Elemental Pickup that matches the equipped Super Ability's element."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Power from Pain",
+    "Description": "Upon scoring 3 Consecutive Weakened Enemy Kills within 4 seconds of each:\n\nGrants Devour for 5+2.5 seconds.\n\nHits that would've inflicted Weaken will also count even if they instantly kill an enemy.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring 3 Consecutive "
+            },
+            {
+              "text": "Weakened",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemy Kills within 4 seconds of each:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 5+2.5 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hits that would've inflicted "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " will also count even if they instantly kill an enemy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Singularity Blade",
+    "Description": "While a Void Buff is active:\nDevour, Invisibility, or Overshield.\nMelee and Sword Hits inflict Weaken for 6 seconds.\nChecks on-hit, instead of snapshotting on-usage.\n\nOn Melee or Sword Kill while a Void Buff is active:\nTriggers a Weakening Burst, inflicting Weaken to enemies within 4 meters for 6 seconds.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While a "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Buff is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Melee and "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Hits inflict "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 6 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Checks on-hit, instead of snapshotting on-usage."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "On Melee or "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Kill while a "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Buff is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Triggers a "
+            },
+            {
+              "text": "Weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Burst, inflicting "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to enemies within 4 meters for 6 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Void Infestation",
+    "Description": "Upon killing a Weakened Enemy:\n\nSpawns a tracking projectile that seeks enemies within 15 meters.\n\nProjectile deals 87 [?] Void Damage and inflicts Weaken over ? meters.",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon killing a "
+            },
+            {
+              "text": "Weakened",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemy:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a tracking projectile that seeks enemies within 15 meters."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Projectile deals 87 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Damage and inflicts "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " over ? meters."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

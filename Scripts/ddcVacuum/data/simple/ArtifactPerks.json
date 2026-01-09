@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "Anti-Barrier Hand Cannon",
+    "Description": "For Hand Cannons without an intrinsic Breaker Type:\n\nPassively grants Shield-Piercing Rounds."
+  },
+  {
+    "Name": "Impact, Shock, Gravity",
+    "Description": "Grants the ability to equip the following mods:\n\nKinetic + Arc Siphon [3 Energy]\n\nKinetic + Void Siphon [3 Energy]"
+  },
+  {
+    "Name": "Press The Advantage",
+    "Description": "Upon breaking a Combatant's Shield:\n\n+20? Stability, +20? Handling, and +20 Reload Speed for 10 seconds.\nSwords receive +? Guard Resistance."
+  },
+  {
+    "Name": "Dielectric",
+    "Description": "On Arc-Debuffed Enemy Kill:\n\nGrants x1 Bolt Charge.\n\nUpon scoring 3 Arc-Debuffed Enemy Kills within 6 seconds of each:\nSpawns an Orb of Power that grants 7.15% Super Energy.\nRestores 40 HP."
+  },
+  {
+    "Name": "Elemental Orbs: Arc",
+    "Description": "Arc Weapon Kills progress a counter, spawning an Arc Elemental Orb upon reaching 100%.\n\nArc Elemental Orb:\nCan be picked up and thrown.\nDeal 450 [101] damage and apply Jolt.\n\nFor more information, head to Game Mechanics."
+  },
+  {
+    "Name": "Anti-Barrier Sniper Rifle",
+    "Description": "For Sniper Rifles without an intrinsic Breaker Type:\n\nPassively grants Shield-Piercing Rounds."
+  },
+  {
+    "Name": "Gravitic-Voltaic Charge",
+    "Description": "While an Arc or Void Super Ability is equipped:\n\nGrants +1 Maximum Armor Charge Stacks.\nStacks alongside Charged Up."
+  },
+  {
+    "Name": "Kinetic Synthesis",
+    "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo.\nNo Land Beyond can spawn an Ammo Brick but does not receive ammo."
+  },
+  {
+    "Name": "Armorsmith",
+    "Description": "Upon breaking a Combatant's Shield:\n\n10% [2.5%] Damage Resist (Resist x1) for 6 seconds.\n100% Increased Melee Damage for 6 seconds."
+  },
+  {
+    "Name": "Kinetic Rupture",
+    "Description": "Upon scoring enough Kinetic Weapon Damage Instances against Elite+? Combatants:\nSpawns a Kinetic Rupture for ? seconds.\n\nKinetic Ruptures can be damaged, activating after ? seconds of being dealt damage.\n\nKinetic Rupture explosion damage is equal to %%% of the damage it received and staggers combatants."
+  },
+  {
+    "Name": "Overload Pulse Rifle",
+    "Description": "For Pulse Rifles without an intrinsic Breaker Type:\n\nScoring 2 hits grants Overloading Rounds for 6 seconds.\nBuff cannot be retriggered until after 2 seconds of expiring. \nBuff is removed on stow."
+  },
+  {
+    "Name": "Expert Handling",
+    "Description": "On Weapon Kill:\n\nGrants a stack of Expert Handling, up to ? stacks.\nReload or stow removes all stacks.\n\nExpert Handling:\nx1 | +5? Stability | +5 Guard Endurance\nx2 | +15? Stability | +15 Guard Endurance\nx3 | +20? Stability | +20 Guard Endurance"
+  },
+  {
+    "Name": "Reload at Range",
+    "Description": "Upon scoring a Precision Hit with a Bow or Sniper Rifle:\n\nGrants a stack of Reload at Range for ? seconds, up to ? stacks.\n\nReload at Range:\nx1 | +? Reload Speed\nx2 | +? Reload Speed\nx3 | +? Reload Speed"
+  },
+  {
+    "Name": "Counter Energy",
+    "Description": "Whenever a Champion gets stunned:\n\nGrants 25% Ability Energy to the least-charged Ability.\nExcludes Super Abilities, obviously."
+  },
+  {
+    "Name": "Sniper's Meditation",
+    "Description": "On Sniper Rifle Direct Hit:\nGrant a stack of Sniper's Meditation for 7 seconds.\nHeavy Sniper Rifle hits grant 2 stacks.\nSniper's Meditation Buff persists through stow.\n\nSniper's Meditation \nIncreased Damage, Stability, and Reload Speed.\n3% | 6% | 9% | 12 | 15% Increased Damage\n+? | +? | +? | +? | +? Stability\n+15 | +30 | +35 | +40 | +45 Reload Speed"
+  },
+  {
+    "Name": "Overload Submachine Guns",
+    "Description": "For Submachine Guns without an intrinsic Breaker Type:\n\nSustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds."
+  },
+  {
+    "Name": "Fastest Draw",
+    "Description": "Upon scoring a Precision Hit within ? seconds of reloading or readying the weapon:\n\n?% Flinch Resist for ? seconds.\nBuff cannot be refreshed.\nIn-Game Description is wrong, it isn't exclusive to the first shot."
+  },
+  {
+    "Name": "Riposte",
+    "Description": "After guarding with a Sword:\n\nGrants Unstoppable Shots for 3 seconds."
+  },
+  {
+    "Name": "Combination Argent Blade",
+    "Description": "Upon attacking, then waiting for 0.5 seconds before attacking once again:\nGrants Argent Blade for 5 seconds.\nBuff cannot be refreshed.\n\nArgent Blade:\n15% Increased Sword Damage\n+100 Charge Rate"
+  },
+  {
+    "Name": "Sword Storm Combo",
+    "Description": "Upon doing 3 Light Attacks followed by a Heavy Attack:\nGrants Sword Storm Combo for 5 seconds.\nScoring additional Sword Kills refresh the buff.\n\nSword Storm Combo:\nAutomatically deals 103 [?] Sword Kinetic Damage and disorients on hit for 3 seconds every 0.53 seconds over 6 meters around the user.\nDeals up to 15% more damage at <4 meters."
+  },
+  {
+    "Name": "Unstoppable Bow",
+    "Description": "For Bows without an intrinsic Breaker Type:\n\nHolding Full-Draw for 1 second grants Unstoppable Shot.\n\nCrossbows are passively granted Unstoppable Shots after being readied and loaded for 1 second."
+  },
+  {
+    "Name": "Elemental Siphon",
+    "Description": "Upon scoring 3 kills within 3? seconds of each using a Kinetic Weapon or a Super-Element Matching Weapon:\n\nCreates an Elemental Pickup that matches the equipped Super Ability's element."
+  },
+  {
+    "Name": "Power from Pain",
+    "Description": "Upon scoring 3 Consecutive Weakened Enemy Kills within 4 seconds of each:\n\nGrants Devour for 5+2.5 seconds.\n\nHits that would've inflicted Weaken will also count even if they instantly kill an enemy."
+  },
+  {
+    "Name": "Singularity Blade",
+    "Description": "While a Void Buff is active:\nDevour, Invisibility, or Overshield.\nMelee and Sword Hits inflict Weaken for 6 seconds.\nChecks on-hit, instead of snapshotting on-usage.\n\nOn Melee or Sword Kill while a Void Buff is active:\nTriggers a Weakening Burst, inflicting Weaken to enemies within 4 meters for 6 seconds."
+  },
+  {
+    "Name": "Void Infestation",
+    "Description": "Upon killing a Weakened Enemy:\n\nSpawns a tracking projectile that seeks enemies within 15 meters.\n\nProjectile deals 87 [?] Void Damage and inflicts Weaken over ? meters."
+  }
+]
