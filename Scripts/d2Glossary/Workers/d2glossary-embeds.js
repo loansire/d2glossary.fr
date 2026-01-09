@@ -19,7 +19,7 @@ const PAGE_CONFIG = {
   'damagetype': { file: 'damagetype_definitions.json', label: 'Dégât' },
   'modifier': { file: 'modifier_definitions.json', label: 'Modificateur' },
   'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', type: 'setarmor' },
-  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact' }
+  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', type: 'artefact' }
 };
 
 // Cache pour Clarity
@@ -119,6 +119,38 @@ async function getSetArmorPerkInfo(id, lang) {
 }
 
 /**
+ * Récupère les infos d'un perk d'artefact
+ */
+async function getArtefactPerkInfo(id, lang) {
+  const data = await loadData(lang, 'artefact_definitions_enriched.json');
+  if (!data) return null;
+
+  // Parcourir l'artefact et ses tiers
+  for (const [artifactId, artifact] of Object.entries(data)) {
+    if (!artifact.tiers) continue;
+
+    for (const tier of artifact.tiers) {
+      if (!tier.items) continue;
+
+      const item = tier.items.find(i =>
+        String(i.perkHash) === String(id) ||
+        String(i.itemHash) === String(id)
+      );
+
+      if (item && item.name) {
+        return {
+          name: item.name,
+          description: item.description || '',
+          icon: item.icon ? `${BUNGIE_BASE_URL}${item.icon}` : null,
+          tierName: tier.displayTitle || null
+        };
+      }
+    }
+  }
+  return null;
+}
+
+/**
  * Nettoie la description
  */
 function cleanDescription(text) {
@@ -148,6 +180,9 @@ function escapeHtml(text) {
 function generateTitle(info, pageLabel, pageType) {
   if (pageType === 'setarmor' && info.requiredCount) {
     return `Set d'armure ${info.requiredCount}x: ${info.name}`;
+  }
+  if (pageType === 'artefact' && info.tierName) {
+    return `${info.tierName}: ${info.name}`;
   }
   return `${pageLabel}: ${info.name}`;
 }
@@ -217,10 +252,12 @@ export default {
     // Langue (défaut: fr)
     const lang = url.searchParams.get('lang') || 'fr';
 
-    // Récupérer les infos
+    // Récupérer les infos selon le type de page
     let itemInfo = null;
     if (config.type === 'setarmor') {
       itemInfo = await getSetArmorPerkInfo(id, lang);
+    } else if (config.type === 'artefact') {
+      itemInfo = await getArtefactPerkInfo(id, lang);
     } else {
       itemInfo = await getItemInfo(id, lang, config.file);
     }
