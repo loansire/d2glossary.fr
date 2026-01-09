@@ -1,0 +1,49 @@
+[
+  {
+    "Name": "Devour",
+    "Description": "Restores 70 HP on activation and grants Devour for 10+5 seconds. Reactivating Devour restores 70 HP and refreshes 5+3 seconds.\nScoring a kill while Devour is active restores 70 HP, grants Grenade Ability Energy, and refreshes 5+3 seconds of its duration.\n\nGrenade Ability Energy on Kill:\nTier 1 Combatant = 7.5% | T2 = 11.6% | T3 = 13.75% | T4 = 20% | Guardians = 20% ",
+    "hash": 3078132110,
+    "parentHash": "3078132110"
+  },
+  {
+    "Name": "Invisibility",
+    "Description": "Cloaks the user, granting various benefits, while lowering Maximum Radar Range to 24 meters for 5+2 seconds. Immediately ends upon performing an Offensive Action.\n Radar Booster Weapon Mod removes the Radar Reduction. Reapplying Invisibility without it breaking refreshes the duration of the longest lasting invisibility.\n\nCombatants are unable to directly target the user, preferring to either shoot at the user's last visible location, or not firing. Combatants will track through Loud Actions, but not fire.\n\nGuardians are unable to see the user's health bar, and the user's radar will only ping every 5 seconds for 0.6 seconds, or upon performing Loud Actions.\n\nWeapons and Abilities that are able to home in (Tracking Projectiles) or scan (Firebolt Grenades) for enemies will not target the user, and will stop tracking if they already were. \n\nOffensive Actions: Instantly ends Invisibility\nShooting | Grenade, Melee, Super, or Blink Ability Usage | Barricade or Rift Placement | Vehicle Summon\n\nLoud Actions: Pings Radar | Combatants Track\nBeginning Sprint | Non-Blink Movement Ability Usage | Hunter Class Ability Usage",
+    "hash": 655301426,
+    "parentHash": "655301426"
+  },
+  {
+    "Name": "Overshield",
+    "Description": "Void Overshield with up to 45 HP for 10+5 seconds. Overshield has 70% Damage Resist against Combatants.\n\nDamage dealt to Void Overshields does not stop Health Regeneration.\nThis applies to any Overshield.\n\nCannot gain Overshield while in a Healing Rift.",
+    "hash": 2485406866,
+    "parentHash": "2485406866"
+  },
+  {
+    "Name": "Void Breach",
+    "Description": "Void Elemental Pickup.\n\nGrants 12.5% Class Ability Energy on Pickup. Allies do not receive Void Breaches created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Void Breach spawns.",
+    "hash": 3328352616,
+    "parentHash": "3328352616"
+  },
+  {
+    "Name": "Suppression",
+    "Description": "Suppressed Enemies are removed from active abilities and are unable to use abilities for 10 [5] seconds.\n\nSuppressed Rank-and-File and Elite Combatants also become disoriented and will be unable to shoot.\n\nSuppressed Guardians are removed from their active Super Ability and Transcendence, and cannot use Grenade, Melee, Class, Super, Movement Abilities, and Transcendence.\n\nOverload Champions become Stunned upon being Suppressed.",
+    "hash": 2578642829,
+    "parentHash": "2578642829"
+  },
+  {
+    "Name": "Volatile",
+    "Description": "Volatile Enemies trigger an explosion after receiving 190 [200] damage, or upon dying, dealing up to 145 [80] Void Damage in a 5 meter radius.\nVolatile lasts for 10 [6] seconds, harmlessly expiring afterwards. Debuff is removed after triggering the explosion.\nThe damage from the hit that applies Volatile doesn't count towards the detonation threshold. \nIncurs a 1 second cooldown before Volatile can be reapplied to an enemy after the explosion is triggered.",
+    "hash": 4105407564,
+    "parentHash": "4105407564"
+  },
+  {
+    "Name": "Volatile Rounds",
+    "Description": "Void Weapons inflict Volatile upon dealing damage, and Barrier Champion Shields are able to be damaged, stunning the Champion when destroyed while Volatile Rounds are active.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Weaken",
+    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot grants 30% [50%] increased damage against tethered enemies with both Deadfall and Moebius variations.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
+    "hash": 3336638905,
+    "parentHash": "3336638905"
+  }
+]

@@ -25,12 +25,72 @@ HASH_MAPPINGS = {
         "array_path": "setPerks"  # Les données sont dans un array setPerks
     },
 
-    "ArmorSets": {
-        "source": "setarmor_definitions_enriched.json",
-        "name_path": "setPerks.displayProperties.name",
-        "hash_path": "setPerks.sandboxPerkHash",
-        "array_path": "setPerks"  # Les données sont dans un array setPerks
-    }
+    # Verbs - Tous utilisent trait_definitions.json
+    "ArcVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "SolarVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "StasisVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "StrandVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "VoidVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "PrismaticVerbs": {
+        "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "WeaponPerk": {
+        "source": ".json",
+        "name_path": "",
+        "hash_path": ""
+    },
+
+    "SeasonWeaponPerks": {
+        "source": ".json",
+        "name_path": "",
+        "hash_path": ""
+    },
+
+    "WeaponMods": {
+        "source": ".json",
+        "name_path": "",
+        "hash_path": ""
+    },
+
+    "IntrinsicTraits": {
+        "source": ".json",
+        "name_path": "",
+        "hash_path": ""
+    },
+
+    "OriginTraits": {
+        "source": ".json",
+        "name_path": "",
+        "hash_path": ""
+    },
     # Ajouter d'autres mappings ici au fur et à mesure
 }
 

@@ -2,6 +2,8 @@
   {
     "Name": "Cure",
     "Description": "Restores 60 [30] HP per stack of Cure over 0.1 seconds.\n\nIncurs a 1 second cooldown between Cure activations. Additional activations will not recover health.",
+    "hash": 3263723277,
+    "parentHash": "3263723277",
     "descriptions": {
       "en": [
         {
@@ -56,6 +58,8 @@
   {
     "Name": "Firesprite",
     "Description": "Solar Elemental Pickup.\n\nGrants 12.5% Grenade Ability Energy on Pickup. Allies do not receive Firesprites created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Firesprite spawns.",
+    "hash": 37177486,
+    "parentHash": "37177486",
     "descriptions": {
       "en": [
         {
@@ -114,6 +118,8 @@
   {
     "Name": "Radiant",
     "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nBarrier Champion Shields are damageable while Radiant, stunning the Champion once destroyed.",
+    "hash": 157469667,
+    "parentHash": "157469667",
     "descriptions": {
       "en": [
         {
@@ -202,6 +208,8 @@
   {
     "Name": "Restoration",
     "Description": "Continuously restores health. Effect is uninterruptible and can be extended up to 15 seconds by default. \nx1 = 35 [17.5] HP/s | x2 = 50 [25] HP/s\nHealing Effect does not stack with Healing Rift.\n\nReapplying Restoration will refresh its duration to its longest achieved duration, keeping the highest Restoration stack.\nIf the new duration is longer than the previous longest, the new duration is used instead.\nEg: If the maximum Restoration duration achieved was 15 seconds, a Phoenix Dive or Healing Grenade will refresh it to 15 seconds.\nUsing a Phoenix Dive after using a Healing Grenade will refresh its duration to 4+2 seconds.\nEmpyrean and Mercy are both duration extenders, and do not count as reapplying Restoration. Extending a Solar Effect that is at >15 seconds will set it to 15 seconds.",
+    "hash": 3488482714,
+    "parentHash": "3488482714",
     "descriptions": {
       "en": [
         {
@@ -334,6 +342,8 @@
   {
     "Name": "Ignition",
     "Description": "Explosion that deals 676 [120 Guardians | 250 Construct] Solar Damage in a 8 meter radius without [with] damage falloff. \nIgnitions remove all Scorch, and incur a 1.6 second cooldown before Scorch can be reapplied. \n\nIgnition damage can be increased through certain damage increases if the initial Scorch source had a damage increase.\nEg: Verity's Brow x5 + Fusion Grenade = 100% Increased Ignition Damage.\nMelee Damage Buffs do not scale Ignition nor Scorch damage.\n\nUnstoppable Champions become Stunned upon receiving Ignition damage.",
+    "hash": 3268862716,
+    "parentHash": "3268862716",
     "descriptions": {
       "en": [
         {
@@ -502,6 +512,8 @@
   {
     "Name": "Scorch",
     "Description": "Scorched Enemies take a varying amount of damage every 0.56 seconds after being scorched for 1.4 seconds.\nIgnition occurs upon reaching x100 Scorch stacks.\n\nScorch Damage per Tick:\n2.7 + (0.175 * Scorch Stacks) | Non-Boss Combatants receive 20% increased damage.\n x1 = 3 | x30 = 5 | x50 = 6.5 | x60 = 7.21 | x80 = 8.64 | Scorch cannot kill.\nDeals 2.5% increased damage after x60 Scorch, indicated by Yellow Damage Numbers.\n\nScorch Decay:\nScorch lasts for 4.5 seconds, then decreases by x5.67 stacks every 0.56 seconds. (~-10/s)\n Scorch lasts for 2.3 seconds, then decreases by x1 stacks every 0.04 seconds (-25/s)\nThe 1.4 second delay before damage occurs also counts towards the duration.",
+    "hash": 1096356879,
+    "parentHash": "1096356879",
     "descriptions": {
       "en": [
         {
@@ -671,6 +683,7 @@
   {
     "Name": "Solar Effect\nDamage Scaling",
     "Description": "Solar Effect (Scorch | Ignition) damage can be increased through Perks and Exotics, but the source used for initially scorching will determine what it will be counted as.\n \nApplying a Solar Effect with a Weapon, such as with Incandescent or through Exotic Weapons such as Tommy's Matchbook or Conditional Finality, will result in Solar Effects counting as Weapon Damage, benefitting from Weapon Buffs and Activity Modifiers that exclusively benefit Weapons, such as Radiant, Solar Weapon Surges, and Overcharge.\n\nApplying Solar Effects through abilities such as Fusion Grenades and Well of Radiance will result in the Solar Effects counting as Solar Ability Damage, with their damage only being increased by Grenade (Verity's Brow), and Super (Heart of the Flame) Damage Increases respectively. Melee Damage Buffs do not increase Solar Effect Damage.\nEffects that increase all Ability Damage will benefit all Solar Effects that are initially applied through Solar Abilities.\n\nActivity Modifiers that increase all Solar Damage, such as Solar Surge, will also apply to Solar Effects, regardless of source.",
+    "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
         {
