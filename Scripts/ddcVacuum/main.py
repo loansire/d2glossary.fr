@@ -128,8 +128,13 @@ def main():
                     # Afficher les stats
                     stats = result["stats"]
                     print(f"      ✓ {stats['enriched_records']}/{stats['total_records']} enrichis")
+
                     if stats['no_match'] > 0:
-                        print(f"      ⚠️  {stats['no_match']} sans match")
+                        print(f"      ⚠️  {stats['no_match']} sans match:")
+                        for detail in stats['details']:
+                            if detail['type'] == 'no_match':
+                                print(f"         - {detail['name']}")
+
                     if stats['multiple_matches'] > 0:
                         print(f"      🔁 {stats['multiple_matches']} matches multiples")
 
