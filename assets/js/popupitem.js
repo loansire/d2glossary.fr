@@ -1,4 +1,4 @@
-/* popupitem.js - Gestion des popups d'items */
+/* popupitem.js - Gestion des popups d'items avec Clarity */
 import {
   processDescription,
   parseKeywords,
@@ -9,7 +9,8 @@ import {
   getCurrentUrl,
   copyToClipboard,
   getBungieIconUrl,
-  onEscapeKey
+  onEscapeKey,
+  loadJSON
 } from './utils.js';
 
 const CLARITY_URL = 'data/clarity.json';
@@ -17,10 +18,37 @@ const CLARITY_URL = 'data/clarity.json';
 // Stockage du nom FR pour l'emoji Discord
 let currentItemFrName = null;
 
+// Cache Clarity
+let clarityCache = null;
+
+// === CLARITY FUNCTIONS (exportées pour réutilisation) ===
+
 /**
- * Récupère les données Clarity depuis le cache mémoire
+ * Charge les données Clarity (avec cache)
  */
-function getClarityData() {
+export async function loadClarityData() {
+  if (clarityCache) return clarityCache;
+
+  // Essayer le cache mémoire du dataManager d'abord
+  if (window.D2DataManager?.getFromMemoryCache) {
+    const cached = window.D2DataManager.getFromMemoryCache(CLARITY_URL);
+    if (cached) {
+      clarityCache = cached;
+      return clarityCache;
+    }
+  }
+
+  // Sinon charger
+  clarityCache = await loadJSON(CLARITY_URL);
+  return clarityCache;
+}
+
+/**
+ * Récupère les données Clarity depuis le cache
+ */
+export function getClarityData() {
+  if (clarityCache) return clarityCache;
+
   if (window.D2DataManager?.getFromMemoryCache) {
     return window.D2DataManager.getFromMemoryCache(CLARITY_URL);
   }
@@ -30,7 +58,7 @@ function getClarityData() {
 /**
  * Gère l'affichage des fades selon la position du scroll
  */
-function updateClarityFades() {
+export function updateClarityFades() {
   const clarityEl = document.getElementById('popupitem-clarity');
   const wrapper = document.getElementById('clarity-wrapper');
 
@@ -39,47 +67,44 @@ function updateClarityFades() {
   const scrollTop = clarityEl.scrollTop;
   const scrollHeight = clarityEl.scrollHeight;
   const clientHeight = clarityEl.clientHeight;
-
   const scrollBottom = scrollHeight - scrollTop - clientHeight;
-
-  // Seuil de 5px pour éviter les micro-variations
   const threshold = 5;
 
-  // Peut scroller vers le haut ?
-  if (scrollTop > threshold) {
-    wrapper.classList.add('can-scroll-up');
-  } else {
-    wrapper.classList.remove('can-scroll-up');
-  }
-
-  // Peut scroller vers le bas ?
-  if (scrollBottom > threshold) {
-    wrapper.classList.add('can-scroll-down');
-  } else {
-    wrapper.classList.remove('can-scroll-down');
-  }
+  wrapper.classList.toggle('can-scroll-up', scrollTop > threshold);
+  wrapper.classList.toggle('can-scroll-down', scrollBottom > threshold);
 }
 
 /**
  * Initialise les listeners pour le scroll de Clarity
  */
-function initClarityScrollListeners() {
+export function initClarityScrollListeners() {
   const clarityEl = document.getElementById('popupitem-clarity');
-
   if (!clarityEl) return;
 
-  // Écouter le scroll
   clarityEl.addEventListener('scroll', updateClarityFades);
-
-  // Vérifier initial après un court délai (pour laisser le DOM se stabiliser)
   setTimeout(updateClarityFades, 100);
 }
 
-// === CLARITY RENDERING ===
-function renderClarityInPopup(item) {
+/**
+ * Nettoie les listeners Clarity
+ */
+export function cleanupClarityListeners() {
+  const clarityEl = document.getElementById('popupitem-clarity');
+  if (clarityEl) {
+    clarityEl.removeEventListener('scroll', updateClarityFades);
+  }
+}
+
+/**
+ * Rendu de la section Clarity dans le popup
+ * @param {Object} item - Données Clarity de l'item (clarity[id])
+ */
+export function renderClarityInPopup(item) {
   const clarityEl = document.getElementById('popupitem-clarity');
   const clarityWrapper = document.getElementById('clarity-wrapper');
   const claritySeparator = document.getElementById('clarity-separator');
+
+  if (!clarityEl || !clarityWrapper || !claritySeparator) return;
 
   clarityEl.innerHTML = '';
 
@@ -139,6 +164,33 @@ function renderClarityInPopup(item) {
 }
 
 /**
+ * Masque la section Clarity
+ */
+export function hideClaritySection() {
+  document.getElementById('clarity-wrapper')?.classList.add('hidden');
+  document.getElementById('clarity-separator')?.classList.add('hidden');
+}
+
+/**
+ * Affiche Clarity pour un ID donné (charge les données si nécessaire)
+ * @param {string} id - ID de l'item
+ */
+export async function showClarityForItem(id) {
+  let clarityData = getClarityData();
+
+  // Si pas en cache, essayer de charger
+  if (!clarityData) {
+    clarityData = await loadClarityData();
+  }
+
+  if (clarityData && clarityData[id]) {
+    renderClarityInPopup(clarityData[id]);
+  } else {
+    hideClaritySection();
+  }
+}
+
+/**
  * Récupère le nom français d'un item pour l'emoji Discord
  */
 async function fetchFrenchName(id) {
@@ -189,14 +241,8 @@ export async function openPopupItem(id, item) {
   );
   descEl.innerHTML = finalDescription;
 
-  // Charger les données Clarity depuis le cache mémoire
-  const clarityData = getClarityData();
-  if (clarityData) {
-    renderClarityInPopup(clarityData[id]);
-  } else {
-    document.getElementById('clarity-wrapper')?.classList.add('hidden');
-    document.getElementById('clarity-separator')?.classList.add('hidden');
-  }
+  // Afficher Clarity si disponible
+  await showClarityForItem(id);
 
   idEl.textContent = `ID: ${id}`;
 
@@ -225,10 +271,7 @@ export function closePopupItem() {
   currentItemFrName = null;
 
   // Nettoyer les listeners
-  const clarityEl = document.getElementById('popupitem-clarity');
-  if (clarityEl) {
-    clarityEl.removeEventListener('scroll', updateClarityFades);
-  }
+  cleanupClarityListeners();
 }
 
 // === SHARE FUNCTIONS ===
@@ -251,6 +294,20 @@ export function copyDiscordMarkdown() {
   }
 
   copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
+}
+
+/**
+ * Met à jour le nom FR stocké (pour les pages qui gèrent leur propre popup)
+ */
+export function setCurrentItemFrName(name) {
+  currentItemFrName = name;
+}
+
+/**
+ * Récupère le nom FR stocké
+ */
+export function getCurrentItemFrName() {
+  return currentItemFrName;
 }
 
 // === GLOBAL BINDINGS ===

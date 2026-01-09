@@ -13,11 +13,14 @@ import {
   normalizeName,
   onEscapeKey
 } from './utils.js';
-
-const CLARITY_URL = 'data/clarity.json';
-
-// Stockage du nom FR pour l'emoji Discord
-let currentItemFrName = null;
+import {
+  loadClarityData,
+  getClarityData,
+  renderClarityInPopup,
+  hideClaritySection,
+  cleanupClarityListeners,
+  setCurrentItemFrName
+} from './popupitem.js';
 
 export async function loadArtefactPage({
   dataFile,
@@ -42,13 +45,13 @@ export async function loadArtefactPage({
   let selectedItems = new Set();
   let tierRequirements = [];
   let currentMode = 'consultation';
-  let clarityData = null;
+  let currentItemFrName = null;
 
-  // Charger le popup HTML
-  await loadHTML('assets/html/popupitem.html', popupContainer);
-
-  // Précharger clarity.json
-  clarityData = await loadJSON(CLARITY_URL);
+  // Charger le popup HTML et Clarity en parallèle
+  await Promise.all([
+    loadHTML('assets/html/popupitem.html', popupContainer),
+    loadClarityData()
+  ]);
 
   initModeSwitch();
   await loadData();
@@ -88,7 +91,6 @@ export async function loadArtefactPage({
       loadSelectionFromURL();
       if (currentMode === 'configuration') updateProgress();
 
-      // Vérifier si un perk est dans l'URL
       const perkHash = new URLSearchParams(window.location.search).get('id');
       if (perkHash) {
         openPerkFromHash(perkHash);
@@ -125,7 +127,6 @@ export async function loadArtefactPage({
     const artifactId = Object.keys(data)[0];
     const artifact = data[artifactId];
 
-    // Créer les marqueurs de tiers
     let markersHtml = '';
     artifact.tiers.forEach((tier, index) => {
       const requirement = tier.minimumUnlockPointsUsedRequirement || 0;
@@ -148,7 +149,6 @@ export async function loadArtefactPage({
     });
     tierMarkers.innerHTML = markersHtml;
 
-    // Créer les colonnes
     let html = '<div class="grid">';
 
     artifact.tiers.forEach((tier, tierIndex) => {
@@ -187,7 +187,6 @@ export async function loadArtefactPage({
     html += '</div>';
     content.innerHTML = html;
 
-    // Event listeners
     document.querySelectorAll('.item-icon').forEach(icon => {
       icon.addEventListener('click', handleItemClick);
       icon.addEventListener('mouseenter', showTooltip);
@@ -200,7 +199,6 @@ export async function loadArtefactPage({
     const el = event.currentTarget;
 
     if (currentMode === 'consultation') {
-      // Ouvrir le popup
       const perkHash = el.dataset.perkHash;
       const item = {
         name: el.dataset.name,
@@ -209,7 +207,6 @@ export async function loadArtefactPage({
       };
       openPopupItem(perkHash, item);
     } else {
-      // Mode configuration : toggle selection
       toggleSelection(event);
     }
   }
@@ -233,7 +230,6 @@ export async function loadArtefactPage({
   }
 
   function updateProgress() {
-    // Nettoyer les sélections invalides
     const itemsToRemove = [];
     selectedItems.forEach(itemId => {
       const tierIndex = parseInt(itemId.split('-')[0]);
@@ -249,7 +245,6 @@ export async function loadArtefactPage({
     progressCounter.textContent = `${total}/${MAX_SELECTIONS}`;
     progressBar.style.width = `${(total / MAX_SELECTIONS) * 100}%`;
 
-    // Mise à jour des marqueurs
     document.querySelectorAll('.tier-marker').forEach((marker, index) => {
       const requirement = parseInt(marker.dataset.requirement);
       marker.classList.remove('unlocked', 'next');
@@ -261,7 +256,6 @@ export async function loadArtefactPage({
       }
     });
 
-    // Mise à jour des colonnes
     document.querySelectorAll('.tier-column').forEach(col => {
       const tier = parseInt(col.dataset.tier);
       const requirement = tierRequirements[tier] || 0;
@@ -286,104 +280,26 @@ export async function loadArtefactPage({
   }
 
   // === POPUP FUNCTIONS ===
-  function getClarityData() {
-    return clarityData;
-  }
-
-  function updateClarityFades() {
-    const clarityEl = document.getElementById('popupitem-clarity');
-    const wrapper = document.getElementById('clarity-wrapper');
-
-    if (!clarityEl || !wrapper) return;
-
-    const scrollTop = clarityEl.scrollTop;
-    const scrollHeight = clarityEl.scrollHeight;
-    const clientHeight = clarityEl.clientHeight;
-    const scrollBottom = scrollHeight - scrollTop - clientHeight;
-    const threshold = 5;
-
-    wrapper.classList.toggle('can-scroll-up', scrollTop > threshold);
-    wrapper.classList.toggle('can-scroll-down', scrollBottom > threshold);
-  }
-
-  function initClarityScrollListeners() {
-    const clarityEl = document.getElementById('popupitem-clarity');
-    if (!clarityEl) return;
-    clarityEl.addEventListener('scroll', updateClarityFades);
-    setTimeout(updateClarityFades, 100);
-  }
-
-  function renderClarityInPopup(item) {
-    const clarityEl = document.getElementById('popupitem-clarity');
-    const clarityWrapper = document.getElementById('clarity-wrapper');
-    const claritySeparator = document.getElementById('clarity-separator');
-
-    clarityEl.innerHTML = '';
-
-    if (!item?.descriptions?.en?.length) {
-      clarityWrapper.classList.add('hidden');
-      claritySeparator.classList.add('hidden');
-      return;
-    }
-
-    const header = document.createElement('div');
-    header.style.cssText = 'display:flex;align-items:center;margin-bottom:1rem;color:#aaa';
-    header.innerHTML = `
-      <p style="margin:0">
-        Informations délivrées par
-        <a href="https://www.d2clarity.com" target="_blank" style="display:inline-flex;align-items:center;vertical-align:middle">
-          <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity" style="height:25px;width:25px;margin:0 0.1rem">
-          D2Clarity
-        </a>
-        (Anglais uniquement)
-      </p>
-    `;
-    clarityEl.appendChild(header);
-
-    item.descriptions.en.forEach(section => {
-      if (section.linesContent) {
-        const p = document.createElement('p');
-        section.linesContent.forEach(line => {
-          let el;
-          if (line.link) {
-            el = document.createElement('a');
-            el.href = line.link;
-            el.target = '_blank';
-            el.innerHTML = boldPatterns(line.text || '');
-          } else {
-            el = document.createElement('span');
-            el.innerHTML = boldPatterns(line.text || '');
-          }
-          line.classNames?.forEach(cls => el.classList.add(cls));
-          p.appendChild(el);
-          p.append(' ');
-        });
-        clarityEl.appendChild(p);
-      } else if (section.classNames?.includes('spacer')) {
-        const spacer = document.createElement('div');
-        spacer.style.margin = '0.8rem 0';
-        clarityEl.appendChild(spacer);
-      }
-    });
-
-    clarityWrapper.classList.remove('hidden');
-    claritySeparator.classList.remove('hidden');
-    setTimeout(initClarityScrollListeners, 50);
-  }
-
-  function boldPatterns(text) {
-    if (!text) return '';
-    text = text.replace(/[\u200B-\u200D\u2060\uFEFF]/g, '');
-    const pattern = /(\d+(\.\d+)?)([x%])?/g;
-    return text.replace(pattern, '<strong>$&</strong>');
-  }
-
   async function fetchFrenchName(perkHash) {
     try {
       const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
-      const frDataUrl = `data/fr/artefact_definitions_enriched.json`;
 
+      // Si déjà en français, chercher dans les données actuelles
+      if (currentLang === 'fr' && artifactData) {
+        const artifactId = Object.keys(artifactData)[0];
+        const artifact = artifactData[artifactId];
+        for (const tier of artifact.tiers) {
+          const item = tier.items.find(i =>
+            String(i.perkHash) === String(perkHash) ||
+            String(i.itemHash) === String(perkHash)
+          );
+          if (item?.name) return item.name;
+        }
+      }
+
+      const frDataUrl = `data/fr/artefact_definitions_enriched.json`;
       let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
+
       if (!frData) {
         const response = await fetch(frDataUrl);
         if (response.ok) frData = await response.json();
@@ -430,23 +346,22 @@ export async function loadArtefactPage({
     );
     descEl.innerHTML = finalDescription;
 
-    // Charger Clarity si disponible
-    const clarity = getClarityData();
-    if (clarity && clarity[perkHash]) {
-      renderClarityInPopup(clarity[perkHash]);
+    // Utiliser les fonctions Clarity centralisées
+    const clarityData = getClarityData();
+    if (clarityData && clarityData[perkHash]) {
+      renderClarityInPopup(clarityData[perkHash]);
     } else {
-      document.getElementById('clarity-wrapper')?.classList.add('hidden');
-      document.getElementById('clarity-separator')?.classList.add('hidden');
+      hideClaritySection();
     }
 
     idEl.textContent = `ID: ${perkHash}`;
 
     // Récupérer le nom français pour l'emoji Discord
-    if (currentLang === 'en') {
-      currentItemFrName = await fetchFrenchName(perkHash);
-    } else {
+    currentItemFrName = await fetchFrenchName(perkHash);
+    if (currentLang === 'fr' && !currentItemFrName) {
       currentItemFrName = item.name;
     }
+    setCurrentItemFrName(currentItemFrName);
 
     popup.classList.add('show');
     document.body.classList.add('popupitem-open');
@@ -463,11 +378,8 @@ export async function loadArtefactPage({
     document.body.classList.remove('popupitem-open');
     removeUrlParam('id');
     currentItemFrName = null;
-
-    const clarityEl = document.getElementById('popupitem-clarity');
-    if (clarityEl) {
-      clarityEl.removeEventListener('scroll', updateClarityFades);
-    }
+    setCurrentItemFrName(null);
+    cleanupClarityListeners();
   }
 
   function sharePopupItem() {
@@ -528,7 +440,6 @@ export async function loadArtefactPage({
 
   // Tooltip functions
   function showTooltip(e) {
-    // Ne pas afficher le tooltip si le popup est ouvert
     if (document.body.classList.contains('popupitem-open')) return;
 
     const el = e.currentTarget;

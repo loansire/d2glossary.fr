@@ -1,4 +1,4 @@
-/* setarmorPage.js - Gestion de la page des sets d'armure avec recherche multilingue */
+/* setarmorPage.js - Gestion de la page des sets d'armure avec recherche multilingue et Clarity */
 import {
   loadHTML,
   loadJSON,
@@ -15,6 +15,14 @@ import {
 } from './utils.js';
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
+import {
+  loadClarityData,
+  getClarityData,
+  showClarityForItem,
+  hideClaritySection,
+  cleanupClarityListeners,
+  setCurrentItemFrName
+} from './popupitem.js';
 
 export async function loadSetArmorPage({
   dataFile,
@@ -33,7 +41,7 @@ export async function loadSetArmorPage({
   let allSets = [];
   let searchIndex = null;
   let currentData = null;
-  let currentPerkFrName = null; // Stockage du nom français pour l'emoji Discord
+  let currentPerkFrName = null;
 
   /**
    * Récupère le nom français d'un perk de set d'armure
@@ -42,13 +50,11 @@ export async function loadSetArmorPage({
     try {
       const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
 
-      // Si déjà en français, retourner le nom actuel
       if (currentLang === 'fr') {
         const perk = setData.setPerks.find(p => String(p.sandboxPerkHash) === String(sandboxPerkHash));
         return perk?.displayProperties?.name || null;
       }
 
-      // Sinon, charger les données françaises
       const frDataUrl = `data/fr/setarmor_definitions_enriched.json`;
       let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
 
@@ -59,7 +65,6 @@ export async function loadSetArmorPage({
         }
       }
 
-      // Chercher le perk dans les données françaises
       if (frData) {
         for (const [setId, frSetData] of Object.entries(frData)) {
           if (!frSetData.setPerks) continue;
@@ -88,7 +93,9 @@ export async function loadSetArmorPage({
       popup.classList.remove('show');
       document.body.classList.remove('popupitem-open');
       removeUrlParam('id');
-      currentPerkFrName = null; // Reset
+      currentPerkFrName = null;
+      setCurrentItemFrName(null);
+      cleanupClarityListeners();
     }
   }
 
@@ -98,17 +105,14 @@ export async function loadSetArmorPage({
   }
 
   function copyDiscordMarkdown() {
-    // Nom affiché (dans la langue courante)
     const displayName = document.getElementById('popupitem-name')?.textContent.trim();
     const url = getCurrentUrl();
     const iconSwitch = document.getElementById('iconSwitch');
     const iconEnabled = iconSwitch?.checked;
 
-    // Utiliser le nom affiché pour l'hyperlien
     let markdown = `[${displayName}](<${url}>)`;
 
     if (iconEnabled && currentPerkFrName) {
-      // TOUJOURS utiliser le nom français pour l'emoji Discord
       const cleanFrName = normalizeName(currentPerkFrName);
       markdown = `:${cleanFrName}: ${markdown}`;
     }
@@ -123,10 +127,11 @@ export async function loadSetArmorPage({
 
   onEscapeKey(closePopupItem);
 
-  // Charger les composants HTML en parallèle
+  // Charger les composants HTML et Clarity en parallèle
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
-    loadHTML('assets/html/banniere.html', banniereContainer)
+    loadHTML('assets/html/banniere.html', banniereContainer),
+    loadClarityData() // Précharger Clarity
   ]);
 
   // Attacher les event listeners
@@ -137,11 +142,9 @@ export async function loadSetArmorPage({
   }
 
   try {
-    // Extraire le nom du fichier pour charger l'autre langue
     const filename = dataFile.split('/').pop();
     const currentLang = dataFile.includes('/fr/') ? 'fr' : 'en';
 
-    // Charger les données principales ET l'autre langue en parallèle
     const [data, otherLangData] = await Promise.all([
       loadJSON(dataFile),
       loadOtherLanguageData(currentLang, filename)
@@ -163,10 +166,8 @@ export async function loadSetArmorPage({
         setData.setPerks.some(p => p.displayProperties?.name)
       );
 
-    // Créer l'index de recherche multilingue
     console.log('[MultilingualSearch] Création de l\'index de recherche pour les sets...');
 
-    // Convertir allSets en format compatible avec createSearchIndex
     const setsAsObject = {};
     allSets.forEach(set => {
       setsAsObject[set.id] = set;
@@ -179,7 +180,6 @@ export async function loadSetArmorPage({
     searchIndex = createSearchIndex(setsAsObject, otherLangSetsObject);
     console.log(`[MultilingualSearch] Index créé avec ${searchIndex.size} entrées`);
 
-    // Renderer de carte
     const renderSetCard = (setData) => {
       const card = document.createElement('div');
       card.className = 'card';
@@ -222,7 +222,6 @@ export async function loadSetArmorPage({
       return card;
     };
 
-    // Initialiser la pagination
     pagination = new Pagination({
       container,
       items: allSets,
@@ -233,7 +232,6 @@ export async function loadSetArmorPage({
     updateResultCount(allSets);
     pagination.render();
 
-    // Gestion de l'URL avec ID
     const perkHash = getUrlParam('id');
     if (perkHash) {
       for (const setData of allSets) {
@@ -245,7 +243,6 @@ export async function loadSetArmorPage({
       }
     }
 
-    // Recherche MULTILINGUE avec debounce
     const handleSearch = debounce((query) => {
       if (!query) {
         updateResultCount(allSets);
@@ -253,10 +250,8 @@ export async function loadSetArmorPage({
         return;
       }
 
-      // Recherche multilingue
       const allMatches = searchWithIndex(query, searchIndex, setsAsObject);
 
-      // Convertir les résultats en format allSets
       const filteredResults = allMatches
         .map(([id]) => allSets.find(set => set.id === id))
         .filter(Boolean);
@@ -301,9 +296,7 @@ export async function loadSetArmorPage({
       const idEl = document.getElementById('popupitem-id');
       const popup = document.getElementById('popupitem');
 
-      document.getElementById('clarity-separator')?.classList.add('hidden');
-      document.getElementById('popupitem-clarity')?.classList.add('hidden');
-
+      // Sections Set Armor
       const setarmorSeparator = document.getElementById('setarmor-separator');
       const setarmorContent = document.getElementById('popupitem-setarmor');
       setarmorSeparator?.classList.remove('hidden');
@@ -319,8 +312,12 @@ export async function loadSetArmorPage({
 
       renderPerkContent(perk, setData, setarmorContent);
 
-      // NOUVEAU : Récupérer le nom français pour l'emoji Discord
+      // Afficher Clarity si disponible pour ce perk
+      await showClarityForItem(sandboxPerkHash);
+
+      // Récupérer le nom français pour l'emoji Discord
       currentPerkFrName = await fetchFrenchPerkName(sandboxPerkHash, setData);
+      setCurrentItemFrName(currentPerkFrName);
 
       popup.classList.add('show');
       document.body.classList.add('popupitem-open');

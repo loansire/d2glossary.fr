@@ -6,7 +6,7 @@ import {
   getBungieIconUrl,
   debounce
 } from './utils.js';
-import { openPopupItem } from './popupitem.js';
+import { openPopupItem, loadClarityData } from './popupitem.js';
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
@@ -30,22 +30,21 @@ export async function loadItemListPage({
   let searchIndex = null;
   let currentData = null;
 
-  // Charger les composants HTML en parallèle
+  // Charger les composants HTML et Clarity en parallèle
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
-    loadHTML('assets/html/banniere.html', banniereContainer)
+    loadHTML('assets/html/banniere.html', banniereContainer),
+    loadClarityData() // Précharger Clarity via la fonction centralisée
   ]);
 
   try {
-    // Extraire le nom du fichier pour charger l'autre langue
     const filename = dataFile.split('/').pop();
     const currentLang = dataFile.includes('/fr/') ? 'fr' : 'en';
 
-    // Charger les données principales ET l'autre langue + clarity en parallèle
+    // Charger les données principales ET l'autre langue en parallèle
     const [data, otherLangData] = await Promise.all([
       loadJSON(dataFile),
-      loadOtherLanguageData(currentLang, filename),
-      loadJSON('data/clarity.json') // Précharge clarity pour les popups
+      loadOtherLanguageData(currentLang, filename)
     ]);
 
     if (!data) throw new Error('Données non chargées');
@@ -125,16 +124,13 @@ export async function loadItemListPage({
     // Gestion de la recherche MULTILINGUE avec debounce
     const handleSearch = debounce((query) => {
       if (!query) {
-        // Pas de recherche : afficher tous les items filtrés
         updateResultCount(allFilteredItems);
         pagination.setItems(allFilteredItems);
         return;
       }
 
-      // Recherche multilingue
       const allMatches = searchWithIndex(query, searchIndex, currentData);
 
-      // Filtrer les résultats selon les mêmes critères que allFilteredItems
       const filteredResults = allMatches.filter(([id]) =>
         allFilteredItems.some(([filteredId]) => filteredId === id)
       );
@@ -149,7 +145,6 @@ export async function loadItemListPage({
       clearButton.style.display = e.target.value ? 'block' : 'none';
     });
 
-    // Bouton clear
     clearButton?.addEventListener('click', () => {
       input.value = '';
       clearButton.style.display = 'none';
