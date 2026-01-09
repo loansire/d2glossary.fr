@@ -2,15 +2,15 @@
  * DDCVacuum Preview - Lecture de all_data_styled.json
  */
 
-// Convertit le format Clarity linesContent en HTML
-function clarityToHTML(clarityContent) {
-    if (!clarityContent || !Array.isArray(clarityContent)) {
+// Convertit le format DDCVacuum linesContent en HTML
+function ddcvacuumToHTML(ddcvacuumContent) {
+    if (!ddcvacuumContent || !Array.isArray(ddcvacuumContent)) {
         return '';
     }
 
     const htmlParts = [];
 
-    for (const item of clarityContent) {
+    for (const item of ddcvacuumContent) {
         // Spacer
         if (item.classNames && item.classNames.includes('spacer')) {
             htmlParts.push('<div class="spacer"></div>');
@@ -50,10 +50,10 @@ function renderRecord(record) {
     const pieceRequirement = record.PieceRequirement || '';
     const comment = record.Comment || '';
 
-    // Utilise le format Clarity si disponible
+    // Utilise le format DDCVacuum si disponible
     let descriptionHTML;
     if (record.descriptions && record.descriptions.en) {
-        descriptionHTML = clarityToHTML(record.descriptions.en);
+        descriptionHTML = ddcvacuumToHTML(record.descriptions.en);
     } else {
         descriptionHTML = record.Description || '';
     }

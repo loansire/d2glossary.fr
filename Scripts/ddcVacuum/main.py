@@ -60,7 +60,7 @@ def main():
     3. For each sheet:
         - Fetch data from Google Sheets
         - Apply filters if configured
-        - Stylize records (add Clarity format)
+        - Stylize records (add DDCVacuum format)
         - Export to JSON (simple and styled)
     4. Hash Recovery (après filtres, avant stylisation finale):
         - Enrichir les données avec les hash depuis d2glossary

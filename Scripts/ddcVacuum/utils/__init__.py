@@ -5,7 +5,7 @@ Provides modular data processing pipeline: Fetch → Filter → Transform → Ex
 Modules:
     fetch: Data retrieval from Google Sheets
     transform: Data transformation and stylization
-    style: Style patterns and Clarity format processing
+    style: Style patterns and DDCVacuum format processing
     export: JSON export and preview server
 
 Usage:

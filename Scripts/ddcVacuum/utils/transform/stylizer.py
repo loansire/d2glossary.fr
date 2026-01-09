@@ -1,14 +1,14 @@
 """
-Stylizer module for DDCVacuum - Clarity Format
-Converts raw records to Clarity's linesContent JSON structure
+Stylizer module for DDCVacuum - DDCVacuum Format
+Converts raw records to DDCVacuum's linesContent JSON structure
 """
 
-from utils.style.clarity import description_to_clarity_format
+from utils.style.ddcvacuum import description_to_ddcvacuum_format
 
 
 def stylize_records(records: list[dict]) -> list[dict]:
     """
-    Convertit une liste de records en ajoutant les descriptions au format Clarity.
+    Convertit une liste de records en ajoutant les descriptions au format DDCVacuum.
     """
     styled = []
 
@@ -20,7 +20,7 @@ def stylize_records(records: list[dict]) -> list[dict]:
         if description:
             # Passer le nom de l'item pour le pattern dynamique
             styled_record["descriptions"] = {
-                "en": description_to_clarity_format(description, item_name=item_name)
+                "en": description_to_ddcvacuum_format(description, item_name=item_name)
             }
 
         styled.append(styled_record)

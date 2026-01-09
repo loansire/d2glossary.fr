@@ -3,7 +3,7 @@ Transform module - Data transformation and stylization
 
 This module handles:
 - Converting raw records to styled format
-- Adding Clarity-formatted descriptions
+- Adding DDCVacuum-formatted descriptions
 - Maintaining record structure while enriching with style data
 
 Usage:

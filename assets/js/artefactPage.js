@@ -14,11 +14,11 @@ import {
   onEscapeKey
 } from './utils.js';
 import {
-  loadClarityData,
-  getClarityData,
-  renderClarityInPopup,
-  hideClaritySection,
-  cleanupClarityListeners,
+  loadDDCVacuumData,
+  getDDCVacuumData,
+  renderDDCVacuumInPopup,
+  hideDDCVacuumSection,
+  cleanupDDCVacuumListeners,
   setCurrentItemFrName
 } from './popupitem.js';
 
@@ -47,10 +47,10 @@ export async function loadArtefactPage({
   let currentMode = 'consultation';
   let currentItemFrName = null;
 
-  // Charger le popup HTML et Clarity en parallèle
+  // Charger le popup HTML et DDCVacuum en parallèle
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
-    loadClarityData()
+    loadDDCVacuumData()
   ]);
 
   initModeSwitch();
@@ -346,12 +346,12 @@ export async function loadArtefactPage({
     );
     descEl.innerHTML = finalDescription;
 
-    // Utiliser les fonctions Clarity centralisées
-    const clarityData = getClarityData();
-    if (clarityData && clarityData[perkHash]) {
-      renderClarityInPopup(clarityData[perkHash]);
+    // Utiliser les fonctions DDCVacuum centralisées
+    const ddcvacuumData = getDDCVacuumData();
+    if (ddcvacuumData && ddcvacuumData[perkHash]) {
+      renderDDCVacuumInPopup(ddcvacuumData[perkHash]);
     } else {
-      hideClaritySection();
+      hideDDCVacuumSection();
     }
 
     idEl.textContent = `ID: ${perkHash}`;
@@ -379,7 +379,7 @@ export async function loadArtefactPage({
     removeUrlParam('id');
     currentItemFrName = null;
     setCurrentItemFrName(null);
-    cleanupClarityListeners();
+    cleanupDDCVacuumListeners();
   }
 
   function sharePopupItem() {

@@ -41,7 +41,7 @@ ARTEFACT_DEFINITIONS_FILE = "artefact_definitions.json"
 ICON_DEFINITIONS_FILE = "icon_definition.json"
 SETARMOR_ENRICHED_FILE = "setarmor_definitions_enriched.json"
 ARTEFACT_ENRICHED_FILE = "artefact_definitions_enriched.json"
-CLARITY_FILE = "clarity.json"
+CLARITY_FILE = "ddcvacuum.json"
 
 # Chemins par défaut (français) pour compatibilité
 ITEM_DEFINITIONS = get_localized_path(ITEM_DEFINITIONS_FILE)

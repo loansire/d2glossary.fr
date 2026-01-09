@@ -10,7 +10,7 @@ export const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const HEAVY_FILES = [
   'data/fr/item_definitions.json',
   'data/en/item_definitions.json',
-  'data/clarity.json'
+  'data/ddcvacuum.json'
 ];
 
 // === DOM HELPERS ===
@@ -66,7 +66,7 @@ export async function loadJSON(url) {
  */
 function getLoadingMessage(url) {
   if (url.includes('item_definitions')) return 'Chargement des définitions...';
-  if (url.includes('clarity')) return 'Chargement des données Clarity...';
+  if (url.includes('ddcvacuum')) return 'Chargement des données DDCVacuum...';
   if (url.includes('trait')) return 'Chargement des traits...';
   if (url.includes('modifier')) return 'Chargement des modificateurs...';
   if (url.includes('setarmor')) return 'Chargement des sets d\'armure...';

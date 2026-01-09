@@ -6,7 +6,7 @@ import {
   getBungieIconUrl,
   debounce
 } from './utils.js';
-import { openPopupItem, loadClarityData } from './popupitem.js';
+import { openPopupItem, loadDDCVacuumData } from './popupitem.js';
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
@@ -30,11 +30,11 @@ export async function loadItemListPage({
   let searchIndex = null;
   let currentData = null;
 
-  // Charger les composants HTML et Clarity en parallèle
+  // Charger les composants HTML et DDCVacuum en parallèle
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
     loadHTML('assets/html/banniere.html', banniereContainer),
-    loadClarityData() // Précharger Clarity via la fonction centralisée
+    loadDDCVacuumData() // Précharger DDCVacuum via la fonction centralisée
   ]);
 
   try {

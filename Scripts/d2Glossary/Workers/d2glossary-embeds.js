@@ -6,7 +6,7 @@
 const SITE_URL = 'https://d2glossary.fr';
 const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const DATA_BASE_URL = 'https://d2glossary.fr/data';
-const CLARITY_URL = 'https://d2glossary.fr/data/clarity.json';
+const CLARITY_URL = 'https://d2glossary.fr/data/ddcvacuum.json';
 
 // User agent Discord
 const DISCORD_BOT = 'discordbot';
@@ -22,8 +22,8 @@ const PAGE_CONFIG = {
   'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', type: 'artefact' }
 };
 
-// Cache pour Clarity
-let clarityCache = null;
+// Cache pour DDCVacuum
+let ddcvacuumCache = null;
 
 /**
  * Vérifie si c'est le bot Discord
@@ -49,29 +49,29 @@ async function loadData(lang, filename) {
 }
 
 /**
- * Charge les données Clarity
+ * Charge les données DDCVacuum
  */
-async function loadClarity() {
-  if (clarityCache) return clarityCache;
+async function loadDDCVacuum() {
+  if (ddcvacuumCache) return ddcvacuumCache;
 
   try {
     const response = await fetch(CLARITY_URL, { cf: { cacheTtl: 3600 } });
     if (!response.ok) return null;
-    clarityCache = await response.json();
-    return clarityCache;
+    ddcvacuumCache = await response.json();
+    return ddcvacuumCache;
   } catch (e) {
-    console.error(`Erreur chargement Clarity:`, e);
+    console.error(`Erreur chargement DDCVacuum:`, e);
     return null;
   }
 }
 
 /**
- * Vérifie si un item a des données Clarity
+ * Vérifie si un item a des données DDCVacuum
  */
-async function hasClarity(id) {
-  const clarity = await loadClarity();
-  if (!clarity) return false;
-  return clarity[id] !== undefined;
+async function hasDDCVacuum(id) {
+  const ddcvacuum = await loadDDCVacuum();
+  if (!ddcvacuum) return false;
+  return ddcvacuum[id] !== undefined;
 }
 
 /**
@@ -190,12 +190,12 @@ function generateTitle(info, pageLabel, pageType) {
 /**
  * Génère le HTML avec métadonnées pour Discord
  */
-function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showClarityFooter) {
+function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumFooter) {
   const title = generateTitle(info, pageLabel, pageType);
   const description = cleanDescription(info.description);
 
   let fullDescription = description;
-  if (showClarityFooter) {
+  if (showDDCVacuumFooter) {
     const footer = 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
     fullDescription = description ? `${description}\n\n${footer}` : footer;
   }
@@ -264,11 +264,11 @@ export default {
 
     if (!itemInfo) return fetch(request);
 
-    // Vérifier si l'item a des données Clarity
-    const showClarityFooter = await hasClarity(id);
+    // Vérifier si l'item a des données DDCVacuum
+    const showDDCVacuumFooter = await hasDDCVacuum(id);
 
     // Générer l'embed Discord
-    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type, showClarityFooter);
+    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type, showDDCVacuumFooter);
 
     return new Response(html, {
       headers: {

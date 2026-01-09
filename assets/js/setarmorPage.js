@@ -1,4 +1,4 @@
-/* setarmorPage.js - Gestion de la page des sets d'armure avec recherche multilingue et Clarity */
+/* setarmorPage.js - Gestion de la page des sets d'armure avec recherche multilingue et DDCVacuum */
 import {
   loadHTML,
   loadJSON,
@@ -16,11 +16,11 @@ import {
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 import {
-  loadClarityData,
-  getClarityData,
-  showClarityForItem,
-  hideClaritySection,
-  cleanupClarityListeners,
+  loadDDCVacuumData,
+  getDDCVacuumData,
+  showDDCVacuumForItem,
+  hideDDCVacuumSection,
+  cleanupDDCVacuumListeners,
   setCurrentItemFrName
 } from './popupitem.js';
 
@@ -95,7 +95,7 @@ export async function loadSetArmorPage({
       removeUrlParam('id');
       currentPerkFrName = null;
       setCurrentItemFrName(null);
-      cleanupClarityListeners();
+      cleanupDDCVacuumListeners();
     }
   }
 
@@ -127,11 +127,11 @@ export async function loadSetArmorPage({
 
   onEscapeKey(closePopupItem);
 
-  // Charger les composants HTML et Clarity en parallèle
+  // Charger les composants HTML et DDCVacuum en parallèle
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
     loadHTML('assets/html/banniere.html', banniereContainer),
-    loadClarityData() // Précharger Clarity
+    loadDDCVacuumData() // Précharger DDCVacuum
   ]);
 
   // Attacher les event listeners
@@ -312,8 +312,8 @@ export async function loadSetArmorPage({
 
       renderPerkContent(perk, setData, setarmorContent);
 
-      // Afficher Clarity si disponible pour ce perk
-      await showClarityForItem(sandboxPerkHash);
+      // Afficher DDCVacuum si disponible pour ce perk
+      await showDDCVacuumForItem(sandboxPerkHash);
 
       // Récupérer le nom français pour l'emoji Discord
       currentPerkFrName = await fetchFrenchPerkName(sandboxPerkHash, setData);

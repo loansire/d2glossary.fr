@@ -14,7 +14,7 @@
         ],
         "heavy": [
           "data/fr/item_definitions.json",
-          "data/clarity.json"
+          "data/ddcvacuum.json"
         ]
       },
       "en": {
@@ -28,7 +28,7 @@
         ],
         "heavy": [
           "data/en/item_definitions.json",
-          "data/clarity.json"
+          "data/ddcvacuum.json"
         ]
       }
     }

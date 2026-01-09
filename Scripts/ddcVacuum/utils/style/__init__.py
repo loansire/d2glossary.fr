@@ -1,32 +1,32 @@
 """
-Style module - Pattern matching and Clarity format processing
+Style module - Pattern matching and DDCVacuum format processing
 
 This module handles:
 - Style pattern definitions (damage types, elements, keywords)
 - Text processing with CSS class application
-- Clarity format conversion (linesContent structure)
+- DDCVacuum format conversion (linesContent structure)
 - Description formatting with paragraph/line separation
 
 Submodules:
     patterns: Style pattern definitions and application order
     processors: Text processing and segment creation
-    clarity: Clarity-specific format converters
+    ddcvacuum: DDCVacuum-specific format converters
 
 Usage:
     from utils.style import (
         STYLE_PATTERNS,
         STYLES_ORDER,
-        text_to_clarity_line,
-        description_to_clarity_format
+        text_to_ddcvacuum_line,
+        description_to_ddcvacuum_format
     )
 """
 
 from utils.style.patterns import STYLE_PATTERNS, STYLES_ORDER
-from utils.style.processors import text_to_clarity_line
-from utils.style.clarity import (
-    description_to_clarity_format,
-    record_to_clarity_format,
-    records_to_clarity_json
+from utils.style.processors import text_to_ddcvacuum_line
+from utils.style.ddcvacuum import (
+    description_to_ddcvacuum_format,
+    record_to_ddcvacuum_format,
+    records_to_ddcvacuum_json
 )
 
 __all__ = [
@@ -35,10 +35,10 @@ __all__ = [
     "STYLES_ORDER",
 
     # Processors
-    "text_to_clarity_line",
+    "text_to_ddcvacuum_line",
 
-    # Clarity format
-    "description_to_clarity_format",
-    "record_to_clarity_format",
-    "records_to_clarity_json",
+    # DDCVacuum format
+    "description_to_ddcvacuum_format",
+    "record_to_ddcvacuum_format",
+    "records_to_ddcvacuum_json",
 ]

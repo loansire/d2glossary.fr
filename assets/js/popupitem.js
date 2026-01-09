@@ -1,4 +1,4 @@
-/* popupitem.js - Gestion des popups d'items avec Clarity */
+/* popupitem.js - Gestion des popups d'items avec DDCVacuum */
 import {
   processDescription,
   parseKeywords,
@@ -13,41 +13,41 @@ import {
   loadJSON
 } from './utils.js';
 
-const CLARITY_URL = 'data/clarity.json';
+const CLARITY_URL = 'data/ddcvacuum.json';
 
 // Stockage du nom FR pour l'emoji Discord
 let currentItemFrName = null;
 
-// Cache Clarity
-let clarityCache = null;
+// Cache DDCVacuum
+let ddcvacuumCache = null;
 
 // === CLARITY FUNCTIONS (exportées pour réutilisation) ===
 
 /**
- * Charge les données Clarity (avec cache)
+ * Charge les données DDCVacuum (avec cache)
  */
-export async function loadClarityData() {
-  if (clarityCache) return clarityCache;
+export async function loadDDCVacuumData() {
+  if (ddcvacuumCache) return ddcvacuumCache;
 
   // Essayer le cache mémoire du dataManager d'abord
   if (window.D2DataManager?.getFromMemoryCache) {
     const cached = window.D2DataManager.getFromMemoryCache(CLARITY_URL);
     if (cached) {
-      clarityCache = cached;
-      return clarityCache;
+      ddcvacuumCache = cached;
+      return ddcvacuumCache;
     }
   }
 
   // Sinon charger
-  clarityCache = await loadJSON(CLARITY_URL);
-  return clarityCache;
+  ddcvacuumCache = await loadJSON(CLARITY_URL);
+  return ddcvacuumCache;
 }
 
 /**
- * Récupère les données Clarity depuis le cache
+ * Récupère les données DDCVacuum depuis le cache
  */
-export function getClarityData() {
-  if (clarityCache) return clarityCache;
+export function getDDCVacuumData() {
+  if (ddcvacuumCache) return ddcvacuumCache;
 
   if (window.D2DataManager?.getFromMemoryCache) {
     return window.D2DataManager.getFromMemoryCache(CLARITY_URL);
@@ -58,15 +58,15 @@ export function getClarityData() {
 /**
  * Gère l'affichage des fades selon la position du scroll
  */
-export function updateClarityFades() {
-  const clarityEl = document.getElementById('popupitem-clarity');
-  const wrapper = document.getElementById('clarity-wrapper');
+export function updateDDCVacuumFades() {
+  const ddcvacuumEl = document.getElementById('popupitem-ddcvacuum');
+  const wrapper = document.getElementById('ddcvacuum-wrapper');
 
-  if (!clarityEl || !wrapper) return;
+  if (!ddcvacuumEl || !wrapper) return;
 
-  const scrollTop = clarityEl.scrollTop;
-  const scrollHeight = clarityEl.scrollHeight;
-  const clientHeight = clarityEl.clientHeight;
+  const scrollTop = ddcvacuumEl.scrollTop;
+  const scrollHeight = ddcvacuumEl.scrollHeight;
+  const clientHeight = ddcvacuumEl.clientHeight;
   const scrollBottom = scrollHeight - scrollTop - clientHeight;
   const threshold = 5;
 
@@ -75,59 +75,59 @@ export function updateClarityFades() {
 }
 
 /**
- * Initialise les listeners pour le scroll de Clarity
+ * Initialise les listeners pour le scroll de DDCVacuum
  */
-export function initClarityScrollListeners() {
-  const clarityEl = document.getElementById('popupitem-clarity');
-  if (!clarityEl) return;
+export function initDDCVacuumScrollListeners() {
+  const ddcvacuumEl = document.getElementById('popupitem-ddcvacuum');
+  if (!ddcvacuumEl) return;
 
-  clarityEl.addEventListener('scroll', updateClarityFades);
-  setTimeout(updateClarityFades, 100);
+  ddcvacuumEl.addEventListener('scroll', updateDDCVacuumFades);
+  setTimeout(updateDDCVacuumFades, 100);
 }
 
 /**
- * Nettoie les listeners Clarity
+ * Nettoie les listeners DDCVacuum
  */
-export function cleanupClarityListeners() {
-  const clarityEl = document.getElementById('popupitem-clarity');
-  if (clarityEl) {
-    clarityEl.removeEventListener('scroll', updateClarityFades);
+export function cleanupDDCVacuumListeners() {
+  const ddcvacuumEl = document.getElementById('popupitem-ddcvacuum');
+  if (ddcvacuumEl) {
+    ddcvacuumEl.removeEventListener('scroll', updateDDCVacuumFades);
   }
 }
 
 /**
- * Rendu de la section Clarity dans le popup
- * @param {Object} item - Données Clarity de l'item (clarity[id])
+ * Rendu de la section DDCVacuum dans le popup
+ * @param {Object} item - Données DDCVacuum de l'item (ddcvacuum[id])
  */
-export function renderClarityInPopup(item) {
-  const clarityEl = document.getElementById('popupitem-clarity');
-  const clarityWrapper = document.getElementById('clarity-wrapper');
-  const claritySeparator = document.getElementById('clarity-separator');
+export function renderDDCVacuumInPopup(item) {
+  const ddcvacuumEl = document.getElementById('popupitem-ddcvacuum');
+  const ddcvacuumWrapper = document.getElementById('ddcvacuum-wrapper');
+  const ddcvacuumSeparator = document.getElementById('ddcvacuum-separator');
 
-  if (!clarityEl || !clarityWrapper || !claritySeparator) return;
+  if (!ddcvacuumEl || !ddcvacuumWrapper || !ddcvacuumSeparator) return;
 
-  clarityEl.innerHTML = '';
+  ddcvacuumEl.innerHTML = '';
 
   if (!item?.descriptions?.en?.length) {
-    clarityWrapper.classList.add('hidden');
-    claritySeparator.classList.add('hidden');
+    ddcvacuumWrapper.classList.add('hidden');
+    ddcvacuumSeparator.classList.add('hidden');
     return;
   }
 
-  // Header avec lien D2Clarity
+  // Header avec lien D2DDCVacuum
   const header = document.createElement('div');
   header.style.cssText = 'display:flex;align-items:center;margin-bottom:1rem;color:#aaa';
   header.innerHTML = `
     <p style="margin:0">
-      Informations délivrées par
-      <a href="https://www.d2clarity.com" target="_blank" style="display:inline-flex;align-items:center;vertical-align:middle">
-        <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity" style="height:25px;width:25px;margin:0 0.1rem">
-        D2Clarity
+      Informations exportées depuis
+      <a href="https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4" target="_blank" style="display:inline-flex;align-items:center;vertical-align:middle">
+        <img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_spreadsheet_x16.png" alt="Google Sheets" style="height:16px;width:16px;margin:0 0.25rem">
+        Destiny Data Compendium
       </a>
       (Anglais uniquement)
     </p>
   `;
-  clarityEl.appendChild(header);
+  ddcvacuumEl.appendChild(header);
 
   // Contenu
   item.descriptions.en.forEach(section => {
@@ -148,45 +148,45 @@ export function renderClarityInPopup(item) {
         p.appendChild(el);
         p.append(' ');
       });
-      clarityEl.appendChild(p);
+      ddcvacuumEl.appendChild(p);
     } else if (section.classNames?.includes('spacer')) {
       const spacer = document.createElement('div');
       spacer.style.margin = '0.8rem 0';
-      clarityEl.appendChild(spacer);
+      ddcvacuumEl.appendChild(spacer);
     }
   });
 
-  clarityWrapper.classList.remove('hidden');
-  claritySeparator.classList.remove('hidden');
+  ddcvacuumWrapper.classList.remove('hidden');
+  ddcvacuumSeparator.classList.remove('hidden');
 
   // Initialiser les listeners de scroll après le rendu
-  setTimeout(initClarityScrollListeners, 50);
+  setTimeout(initDDCVacuumScrollListeners, 50);
 }
 
 /**
- * Masque la section Clarity
+ * Masque la section DDCVacuum
  */
-export function hideClaritySection() {
-  document.getElementById('clarity-wrapper')?.classList.add('hidden');
-  document.getElementById('clarity-separator')?.classList.add('hidden');
+export function hideDDCVacuumSection() {
+  document.getElementById('ddcvacuum-wrapper')?.classList.add('hidden');
+  document.getElementById('ddcvacuum-separator')?.classList.add('hidden');
 }
 
 /**
- * Affiche Clarity pour un ID donné (charge les données si nécessaire)
+ * Affiche DDCVacuum pour un ID donné (charge les données si nécessaire)
  * @param {string} id - ID de l'item
  */
-export async function showClarityForItem(id) {
-  let clarityData = getClarityData();
+export async function showDDCVacuumForItem(id) {
+  let ddcvacuumData = getDDCVacuumData();
 
   // Si pas en cache, essayer de charger
-  if (!clarityData) {
-    clarityData = await loadClarityData();
+  if (!ddcvacuumData) {
+    ddcvacuumData = await loadDDCVacuumData();
   }
 
-  if (clarityData && clarityData[id]) {
-    renderClarityInPopup(clarityData[id]);
+  if (ddcvacuumData && ddcvacuumData[id]) {
+    renderDDCVacuumInPopup(ddcvacuumData[id]);
   } else {
-    hideClaritySection();
+    hideDDCVacuumSection();
   }
 }
 
@@ -241,8 +241,8 @@ export async function openPopupItem(id, item) {
   );
   descEl.innerHTML = finalDescription;
 
-  // Afficher Clarity si disponible
-  await showClarityForItem(id);
+  // Afficher DDCVacuum si disponible
+  await showDDCVacuumForItem(id);
 
   idEl.textContent = `ID: ${id}`;
 
@@ -271,7 +271,7 @@ export function closePopupItem() {
   currentItemFrName = null;
 
   // Nettoyer les listeners
-  cleanupClarityListeners();
+  cleanupDDCVacuumListeners();
 }
 
 // === SHARE FUNCTIONS ===

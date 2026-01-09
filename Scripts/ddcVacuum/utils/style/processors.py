@@ -9,9 +9,9 @@ from typing import Any
 from utils.style.patterns import STYLE_PATTERNS, STYLES_ORDER
 
 
-def text_to_clarity_line(text: str, item_name: str = None) -> list[dict[str, Any]]:
+def text_to_ddcvacuum_line(text: str, item_name: str = None) -> list[dict[str, Any]]:
     """
-    Convert a text string to Clarity's linesContent format.
+    Convert a text string to DDCVacuum's linesContent format.
     Returns a list of segments with text and optional classNames.
 
     Args:
