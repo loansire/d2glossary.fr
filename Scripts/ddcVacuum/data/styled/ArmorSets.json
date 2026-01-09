@@ -728,12 +728,14 @@
     }
   },
   {
-    "Name": "Hot Shot",
+    "Name": "Built from Scratch",
     "Description": "While Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Ferropotent",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 3458982983,
+    "parentHash": "3734029045",
+    "parentName": "Ferropotent",
     "descriptions": {
       "en": [
         {
@@ -1389,12 +1391,14 @@
     }
   },
   {
-    "Name": "Hot Shot",
-    "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
+    "Name": "Hotshot",
+    "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
     "Comment": "Lawless Frontier",
     "SetName": "Shrewd Survivor",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 219133237,
+    "parentHash": "2839368623",
+    "parentName": "Shrewd Survivor",
     "descriptions": {
       "en": [
         {
@@ -1407,14 +1411,32 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a kill grants Hotshot for 10 seconds."
+              "text": "Scoring a kill grants "
+            },
+            {
+              "text": "Hotshot",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 10 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Buff can be refreshed by retriggering Hotshot."
+              "text": "Buff can be refreshed by retriggering "
+            },
+            {
+              "text": "Hotshot",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -1426,7 +1448,13 @@
         {
           "linesContent": [
             {
-              "text": "Hotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, "
+              "text": "Hotshot",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, "
             },
             {
               "text": "Submachine Guns",

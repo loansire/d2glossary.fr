@@ -1,13 +1,23 @@
 /* artefactPage.js - Gestion de la page artefact */
 import {
+  loadHTML,
   loadJSON,
   processDescription,
   parseKeywords,
   escapeHtml,
   getBungieIconUrl,
   copyToClipboard,
-  getCurrentUrl
+  getCurrentUrl,
+  setUrlParam,
+  removeUrlParam,
+  normalizeName,
+  onEscapeKey
 } from './utils.js';
+
+const CLARITY_URL = 'data/clarity.json';
+
+// Stockage du nom FR pour l'emoji Discord
+let currentItemFrName = null;
 
 export async function loadArtefactPage({
   dataFile,
@@ -26,14 +36,23 @@ export async function loadArtefactPage({
   const progressBar = document.getElementById('progressBar');
   const progressCounter = document.getElementById('progressCounter');
   const tierMarkers = document.getElementById('tierMarkers');
+  const popupContainer = document.getElementById('popupitem-container');
 
   let artifactData = null;
   let selectedItems = new Set();
   let tierRequirements = [];
   let currentMode = 'consultation';
+  let clarityData = null;
+
+  // Charger le popup HTML
+  await loadHTML('assets/html/popupitem.html', popupContainer);
+
+  // Précharger clarity.json
+  clarityData = await loadJSON(CLARITY_URL);
 
   initModeSwitch();
   await loadData();
+  initPopupListeners();
 
   function initModeSwitch() {
     document.querySelectorAll('.mode-btn').forEach(btn => {
@@ -68,6 +87,12 @@ export async function loadArtefactPage({
       displayArtifact(data);
       loadSelectionFromURL();
       if (currentMode === 'configuration') updateProgress();
+
+      // Vérifier si un perk est dans l'URL
+      const perkHash = new URLSearchParams(window.location.search).get('id');
+      if (perkHash) {
+        openPerkFromHash(perkHash);
+      }
     } catch (error) {
       console.error('Erreur:', error);
       content.innerHTML = `
@@ -77,6 +102,22 @@ export async function loadArtefactPage({
           <p style="font-size:0.85em;margin-top:10px;opacity:0.7">${error.message}</p>
         </div>
       `;
+    }
+  }
+
+  function openPerkFromHash(perkHash) {
+    const artifactId = Object.keys(artifactData)[0];
+    const artifact = artifactData[artifactId];
+
+    for (const tier of artifact.tiers) {
+      const item = tier.items.find(i =>
+        String(i.perkHash) === String(perkHash) ||
+        String(i.itemHash) === String(perkHash)
+      );
+      if (item) {
+        openPopupItem(perkHash, item);
+        break;
+      }
     }
   }
 
@@ -126,9 +167,11 @@ export async function loadArtefactPage({
       validItems.forEach(item => {
         const iconUrl = getBungieIconUrl(item.icon);
         const itemId = `${tierIndex}-${item.perkHash || item.itemHash}`;
+        const perkHash = item.perkHash || item.itemHash;
         html += `
           <div class="item-icon"
                data-item-id="${itemId}"
+               data-perk-hash="${perkHash}"
                data-tier="${tierIndex}"
                data-name="${escapeHtml(item.name)}"
                data-description="${escapeHtml(item.description)}"
@@ -146,16 +189,32 @@ export async function loadArtefactPage({
 
     // Event listeners
     document.querySelectorAll('.item-icon').forEach(icon => {
-      icon.addEventListener('click', toggleSelection);
+      icon.addEventListener('click', handleItemClick);
       icon.addEventListener('mouseenter', showTooltip);
       icon.addEventListener('mousemove', moveTooltip);
       icon.addEventListener('mouseleave', hideTooltip);
     });
   }
 
-  function toggleSelection(event) {
-    if (currentMode === 'consultation') return;
+  function handleItemClick(event) {
+    const el = event.currentTarget;
 
+    if (currentMode === 'consultation') {
+      // Ouvrir le popup
+      const perkHash = el.dataset.perkHash;
+      const item = {
+        name: el.dataset.name,
+        description: el.dataset.description,
+        icon: el.dataset.icon.replace(getBungieIconUrl(''), '')
+      };
+      openPopupItem(perkHash, item);
+    } else {
+      // Mode configuration : toggle selection
+      toggleSelection(event);
+    }
+  }
+
+  function toggleSelection(event) {
     const el = event.currentTarget;
     const itemId = el.dataset.itemId;
 
@@ -226,6 +285,226 @@ export async function loadArtefactPage({
     }
   }
 
+  // === POPUP FUNCTIONS ===
+  function getClarityData() {
+    return clarityData;
+  }
+
+  function updateClarityFades() {
+    const clarityEl = document.getElementById('popupitem-clarity');
+    const wrapper = document.getElementById('clarity-wrapper');
+
+    if (!clarityEl || !wrapper) return;
+
+    const scrollTop = clarityEl.scrollTop;
+    const scrollHeight = clarityEl.scrollHeight;
+    const clientHeight = clarityEl.clientHeight;
+    const scrollBottom = scrollHeight - scrollTop - clientHeight;
+    const threshold = 5;
+
+    wrapper.classList.toggle('can-scroll-up', scrollTop > threshold);
+    wrapper.classList.toggle('can-scroll-down', scrollBottom > threshold);
+  }
+
+  function initClarityScrollListeners() {
+    const clarityEl = document.getElementById('popupitem-clarity');
+    if (!clarityEl) return;
+    clarityEl.addEventListener('scroll', updateClarityFades);
+    setTimeout(updateClarityFades, 100);
+  }
+
+  function renderClarityInPopup(item) {
+    const clarityEl = document.getElementById('popupitem-clarity');
+    const clarityWrapper = document.getElementById('clarity-wrapper');
+    const claritySeparator = document.getElementById('clarity-separator');
+
+    clarityEl.innerHTML = '';
+
+    if (!item?.descriptions?.en?.length) {
+      clarityWrapper.classList.add('hidden');
+      claritySeparator.classList.add('hidden');
+      return;
+    }
+
+    const header = document.createElement('div');
+    header.style.cssText = 'display:flex;align-items:center;margin-bottom:1rem;color:#aaa';
+    header.innerHTML = `
+      <p style="margin:0">
+        Informations délivrées par
+        <a href="https://www.d2clarity.com" target="_blank" style="display:inline-flex;align-items:center;vertical-align:middle">
+          <img src="https://www.d2clarity.com/web/image/website/1/favicon?unique=0d61ed2" alt="D2Clarity" style="height:25px;width:25px;margin:0 0.1rem">
+          D2Clarity
+        </a>
+        (Anglais uniquement)
+      </p>
+    `;
+    clarityEl.appendChild(header);
+
+    item.descriptions.en.forEach(section => {
+      if (section.linesContent) {
+        const p = document.createElement('p');
+        section.linesContent.forEach(line => {
+          let el;
+          if (line.link) {
+            el = document.createElement('a');
+            el.href = line.link;
+            el.target = '_blank';
+            el.innerHTML = boldPatterns(line.text || '');
+          } else {
+            el = document.createElement('span');
+            el.innerHTML = boldPatterns(line.text || '');
+          }
+          line.classNames?.forEach(cls => el.classList.add(cls));
+          p.appendChild(el);
+          p.append(' ');
+        });
+        clarityEl.appendChild(p);
+      } else if (section.classNames?.includes('spacer')) {
+        const spacer = document.createElement('div');
+        spacer.style.margin = '0.8rem 0';
+        clarityEl.appendChild(spacer);
+      }
+    });
+
+    clarityWrapper.classList.remove('hidden');
+    claritySeparator.classList.remove('hidden');
+    setTimeout(initClarityScrollListeners, 50);
+  }
+
+  function boldPatterns(text) {
+    if (!text) return '';
+    text = text.replace(/[\u200B-\u200D\u2060\uFEFF]/g, '');
+    const pattern = /(\d+(\.\d+)?)([x%])?/g;
+    return text.replace(pattern, '<strong>$&</strong>');
+  }
+
+  async function fetchFrenchName(perkHash) {
+    try {
+      const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+      const frDataUrl = `data/fr/artefact_definitions_enriched.json`;
+
+      let frData = window.D2DataManager?.getFromMemoryCache?.(frDataUrl);
+      if (!frData) {
+        const response = await fetch(frDataUrl);
+        if (response.ok) frData = await response.json();
+      }
+
+      if (frData) {
+        const artifactId = Object.keys(frData)[0];
+        const artifact = frData[artifactId];
+        for (const tier of artifact.tiers) {
+          const item = tier.items.find(i =>
+            String(i.perkHash) === String(perkHash) ||
+            String(i.itemHash) === String(perkHash)
+          );
+          if (item?.name) return item.name;
+        }
+      }
+      return null;
+    } catch (err) {
+      console.warn('[ArtefactPage] Impossible de charger le nom français:', err);
+      return null;
+    }
+  }
+
+  async function openPopupItem(perkHash, item) {
+    const iconEl = document.getElementById('popupitem-icon');
+    const nameEl = document.getElementById('popupitem-name');
+    const descEl = document.getElementById('popupitem-description');
+    const idEl = document.getElementById('popupitem-id');
+    const popup = document.getElementById('popupitem');
+
+    // Masquer les sections non utilisées
+    document.getElementById('setarmor-separator')?.classList.add('hidden');
+    document.getElementById('popupitem-setarmor')?.classList.add('hidden');
+
+    const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+
+    iconEl.src = getBungieIconUrl(item.icon);
+    iconEl.alt = `d2glossary - ${item.name}`;
+    nameEl.textContent = item.name;
+
+    const finalDescription = parseKeywords(
+      processDescription(item.description),
+      currentLang
+    );
+    descEl.innerHTML = finalDescription;
+
+    // Charger Clarity si disponible
+    const clarity = getClarityData();
+    if (clarity && clarity[perkHash]) {
+      renderClarityInPopup(clarity[perkHash]);
+    } else {
+      document.getElementById('clarity-wrapper')?.classList.add('hidden');
+      document.getElementById('clarity-separator')?.classList.add('hidden');
+    }
+
+    idEl.textContent = `ID: ${perkHash}`;
+
+    // Récupérer le nom français pour l'emoji Discord
+    if (currentLang === 'en') {
+      currentItemFrName = await fetchFrenchName(perkHash);
+    } else {
+      currentItemFrName = item.name;
+    }
+
+    popup.classList.add('show');
+    document.body.classList.add('popupitem-open');
+    setUrlParam('id', perkHash);
+
+    popup.onclick = (e) => {
+      if (e.target.id === 'popupitem') closePopupItem();
+    };
+  }
+
+  function closePopupItem() {
+    const popup = document.getElementById('popupitem');
+    popup?.classList.remove('show');
+    document.body.classList.remove('popupitem-open');
+    removeUrlParam('id');
+    currentItemFrName = null;
+
+    const clarityEl = document.getElementById('popupitem-clarity');
+    if (clarityEl) {
+      clarityEl.removeEventListener('scroll', updateClarityFades);
+    }
+  }
+
+  function sharePopupItem() {
+    const url = getCurrentUrl();
+    copyToClipboard(url, 'Lien copié dans le presse-papier :\n' + url);
+  }
+
+  function copyDiscordMarkdown() {
+    const displayName = document.getElementById('popupitem-name')?.textContent.trim();
+    const url = getCurrentUrl();
+    const iconSwitch = document.getElementById('iconSwitch');
+    const iconEnabled = iconSwitch?.checked;
+
+    let markdown = `[${displayName}](<${url}>)`;
+
+    if (iconEnabled && currentItemFrName) {
+      const cleanFrName = normalizeName(currentItemFrName);
+      markdown = `:${cleanFrName}: ${markdown}`;
+    }
+
+    copyToClipboard(markdown, 'Lien Discord copié dans le presse-papier:\n' + markdown);
+  }
+
+  function initPopupListeners() {
+    window.closePopupItem = closePopupItem;
+    window.sharePopupItem = sharePopupItem;
+    window.copyDiscordMarkdown = copyDiscordMarkdown;
+
+    onEscapeKey(closePopupItem);
+
+    const discordBtn = document.getElementById('discord-btn');
+    if (discordBtn) {
+      discordBtn.onclick = null;
+      discordBtn.addEventListener('click', copyDiscordMarkdown);
+    }
+  }
+
   // Share & Reset buttons
   shareBtn.addEventListener('click', () => {
     if (!selectedItems.size) {
@@ -249,6 +528,9 @@ export async function loadArtefactPage({
 
   // Tooltip functions
   function showTooltip(e) {
+    // Ne pas afficher le tooltip si le popup est ouvert
+    if (document.body.classList.contains('popupitem-open')) return;
+
     const el = e.currentTarget;
     const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
 

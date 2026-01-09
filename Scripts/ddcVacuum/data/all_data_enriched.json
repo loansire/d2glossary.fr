@@ -9886,12 +9886,14 @@
       "parentName": "Ferropotent"
     },
     {
-      "Name": "Hot Shot",
+      "Name": "Built from Scratch",
       "Description": "While Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Ferropotent",
       "PieceRequirement": "4 Piece",
-      "hash_warning": "No matching hash found in d2glossary"
+      "hash": 3458982983,
+      "parentHash": "3734029045",
+      "parentName": "Ferropotent"
     },
     {
       "Name": "Vigilant Watch",
@@ -10004,12 +10006,14 @@
       "parentName": "Shrewd Survivor"
     },
     {
-      "Name": "Hot Shot",
-      "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
+      "Name": "Hotshot",
+      "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
       "Comment": "Lawless Frontier",
       "SetName": "Shrewd Survivor",
       "PieceRequirement": "4 Piece",
-      "hash_warning": "No matching hash found in d2glossary"
+      "hash": 219133237,
+      "parentHash": "2839368623",
+      "parentName": "Shrewd Survivor"
     },
     {
       "Name": "Ride Together, Die Together",

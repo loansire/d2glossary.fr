@@ -82,7 +82,7 @@ body.consultation-mode .control-buttons {
 }
 
 body.consultation-mode .item-icon {
-    cursor: default;
+    cursor: pointer;
 }
 
 body.consultation-mode .tier-column {
