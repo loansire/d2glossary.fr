@@ -373,13 +373,13 @@
         {
           "linesContent": [
             {
-              "text": "Special Ammo Bricks",
+              "text": "Special Ammo",
               "classNames": [
                 "special"
               ]
             },
             {
-              "text": " grant 1 stack of "
+              "text": " Bricks grant 1 stack of "
             },
             {
               "text": "Accretion",
@@ -391,13 +391,13 @@
               "text": ". "
             },
             {
-              "text": "Heavy Ammo Bricks",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " grant 3 stacks of "
+              "text": " Bricks grant 3 stacks of "
             },
             {
               "text": "Accretion",

@@ -12057,13 +12057,13 @@
                 "text": "On "
               },
               {
-                "text": "Heavy Ammo Brick",
+                "text": "Heavy Ammo",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Pickup:"
+                "text": " Brick Pickup:"
               }
             ]
           },
@@ -13726,13 +13726,13 @@
                 "text": " or "
               },
               {
-                "text": "Heavy Ammo Brick",
+                "text": "Heavy Ammo",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " Pickup:"
+                "text": " Brick Pickup:"
               }
             ]
           },
@@ -16031,13 +16031,13 @@
                 "text": " or "
               },
               {
-                "text": "Heavy Ammo Brick",
+                "text": "Heavy Ammo",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": ":"
+                "text": " Brick:"
               }
             ]
           },
@@ -20430,13 +20430,13 @@
                 "text": "/"
               },
               {
-                "text": "Power Ammo Bricks",
+                "text": "Power Ammo",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " grants "
+                "text": " Bricks grants "
               },
               {
                 "text": "Kill Shot",
@@ -28720,13 +28720,13 @@
           {
             "linesContent": [
               {
-                "text": "Special Ammo Bricks",
+                "text": "Special Ammo",
                 "classNames": [
                   "special"
                 ]
               },
               {
-                "text": " grant 1 stack of "
+                "text": " Bricks grant 1 stack of "
               },
               {
                 "text": "Accretion",
@@ -28738,13 +28738,13 @@
                 "text": ". "
               },
               {
-                "text": "Heavy Ammo Bricks",
+                "text": "Heavy Ammo",
                 "classNames": [
                   "heavy"
                 ]
               },
               {
-                "text": " grant 3 stacks of "
+                "text": " Bricks grant 3 stacks of "
               },
               {
                 "text": "Accretion",

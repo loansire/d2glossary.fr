@@ -28,7 +28,24 @@ def text_to_clarity_line(text: str, item_name: str = None) -> list[dict[str, Any
     current_pos = 0
     matches = []
 
-    # Collect all matches with their positions
+    # Track already matched regions to prevent overlaps
+    matched_regions = []  # List of (start, end) tuples
+
+    def is_overlapping(start, end):
+        """Check if a region overlaps with any already matched region"""
+        for region_start, region_end in matched_regions:
+            # Check for any overlap
+            if not (end <= region_start or start >= region_end):
+                return True
+        return False
+
+    def add_matched_region(start, end):
+        """Add a new matched region and merge overlapping ones"""
+        matched_regions.append((start, end))
+        # Keep regions sorted for efficient checking
+        matched_regions.sort()
+
+    # Collect all matches with their positions, respecting priority order
     for style_name in STYLES_ORDER:
         config = STYLE_PATTERNS.get(style_name)
         if not config:
@@ -53,6 +70,11 @@ def text_to_clarity_line(text: str, item_name: str = None) -> list[dict[str, Any
             start, end = match.span(capture_group) if capture_group else match.span()
             matched_text = match.group(capture_group) if capture_group else match.group()
 
+            # Skip this match if it overlaps with already matched regions
+            if is_overlapping(start, end):
+                continue
+
+            # Add this match and mark the region as matched
             matches.append({
                 "start": start,
                 "end": end,
@@ -62,16 +84,11 @@ def text_to_clarity_line(text: str, item_name: str = None) -> list[dict[str, Any
                 "full_start": match.start(),
                 "full_end": match.end()
             })
+            add_matched_region(start, end)
 
-    # Sort by position and remove overlaps (keep first match)
-    matches.sort(key=lambda x: (x["start"], -x["end"]))
-    filtered_matches = []
-    last_end = 0
-
-    for m in matches:
-        if m["start"] >= last_end:
-            filtered_matches.append(m)
-            last_end = m["end"]
+    # Sort matches by position for segment building
+    matches.sort(key=lambda x: x["start"])
+    filtered_matches = matches  # No need for additional filtering now
 
     # Build segments
     for m in filtered_matches:
