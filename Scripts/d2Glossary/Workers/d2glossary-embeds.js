@@ -142,7 +142,7 @@ async function getArtefactPerkInfo(id, lang) {
           name: item.name,
           description: item.description || '',
           icon: item.icon ? `${BUNGIE_BASE_URL}${item.icon}` : null,
-          tierName: tier.displayTitle || null
+          tierIndex: artifact.tiers.indexOf(tier)
         };
       }
     }
@@ -179,12 +179,12 @@ function escapeHtml(text) {
  */
 function generateTitle(info, pageLabel, pageType) {
   if (pageType === 'setarmor' && info.requiredCount) {
-    return `Set d'armure ${info.requiredCount}x: ${info.name}`;
+    return `Set d'armure ${info.requiredCount}x - ${info.name}`;
   }
-  if (pageType === 'artefact' && info.tierName) {
-    return `${info.tierName}: ${info.name}`;
+  if (pageType === 'artefact' && info.tierIndex !== undefined) {
+    return `Artefact saisonnier - colonne ${info.tierIndex + 1} - ${info.name}`;
   }
-  return `${pageLabel}: ${info.name}`;
+  return `${pageLabel} - ${info.name}`;
 }
 
 /**
@@ -206,7 +206,7 @@ function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showClarityFoo
   <meta charset="UTF-8">
 
   <!-- Discord Embed -->
-  <meta property="og:site_name" content="D2Glossary">
+  <meta property="og:site_name" content="D2Glossary.fr - Glossaire des termes de Destiny 2">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(fullDescription)}">
   <meta property="og:image" content="${info.icon}">
