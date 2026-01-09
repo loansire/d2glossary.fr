@@ -23,6 +23,13 @@ HASH_MAPPINGS = {
         "name_path": "setPerks.displayProperties.name",
         "hash_path": "setPerks.sandboxPerkHash",
         "array_path": "setPerks"  # Les données sont dans un array setPerks
+    },
+
+    "ArmorSets": {
+        "source": "setarmor_definitions_enriched.json",
+        "name_path": "setPerks.displayProperties.name",
+        "hash_path": "setPerks.sandboxPerkHash",
+        "array_path": "setPerks"  # Les données sont dans un array setPerks
     }
     # Ajouter d'autres mappings ici au fur et à mesure
 }

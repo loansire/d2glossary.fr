@@ -78,6 +78,34 @@ function renderRecord(record) {
         metadataHTML = `<div class="perk-metadata">${metadataParts.join(' • ')}</div>`;
     }
 
+    // Construction des informations de hash
+    let hashHTML = '';
+    const hashParts = [];
+
+    // Hash principal
+    if (record.hash !== undefined && record.hash !== null) {
+        hashParts.push(`<span class="hash-main">Hash: <code>${record.hash}</code></span>`);
+    }
+
+    // Parent Hash
+    if (record.parentHash !== undefined && record.parentHash !== null) {
+        hashParts.push(`<span class="hash-parent">Parent Hash: <code>${record.parentHash}</code></span>`);
+    }
+
+    // Parent Name
+    if (record.parentName && record.parentName !== 'NaN' && record.parentName !== 'null') {
+        hashParts.push(`<span class="hash-parent-name">Parent: ${record.parentName}</span>`);
+    }
+
+    // Warnings (multiple matches ou no match)
+    if (record.hash_warning) {
+        hashParts.push(`<span class="hash-warning">⚠️ ${record.hash_warning}</span>`);
+    }
+
+    if (hashParts.length > 0) {
+        hashHTML = `<div class="perk-hash-info">${hashParts.join(' • ')}</div>`;
+    }
+
     // Si pas de nom valide, affiche quand même la div mais sans le titre
     const nameHTML = (name && name !== 'NaN' && name !== 'null')
         ? `<div class="perk-name">${name}</div>`
@@ -87,6 +115,7 @@ function renderRecord(record) {
         <div class="perk">
             ${nameHTML}
             ${metadataHTML}
+            ${hashHTML}
             <div class="perk-description">${descriptionHTML || '—'}</div>
         </div>
     `;
