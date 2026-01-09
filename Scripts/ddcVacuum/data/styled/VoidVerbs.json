@@ -225,13 +225,13 @@
               "text": "Damage dealt to "
             },
             {
-              "text": "Void",
+              "text": "Void Overshields",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Overshields does not stop Health Regeneration."
+              "text": " does not stop Health Regeneration."
             }
           ]
         },
@@ -320,13 +320,13 @@
               "text": "Lasts 25 seconds before disappearing. Incurs a 5 second cooldown between "
             },
             {
-              "text": "Void",
+              "text": "Void Breach",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Breach spawns."
+              "text": " spawns."
             }
           ]
         }

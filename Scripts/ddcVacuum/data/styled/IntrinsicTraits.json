@@ -994,14 +994,29 @@
         {
           "linesContent": [
             {
-              "text": "The next healing hits within 1 seconds of each on allies bestows them with an Element-Matching Effect, and applies Support Frame Boost to the user and the targeted ally."
+              "text": "The next healing hits within 1 seconds of each on allies bestows them with an Element-Matching Effect, and applies "
+            },
+            {
+              "text": "Support Frame",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Boost to the user and the targeted ally."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Support Frame Boost grants 10% increased weapon damage for 6 seconds. Stacks with everything."
+              "text": "Support Frame",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Boost grants 10% increased weapon damage for 6 seconds. Stacks with everything."
             }
           ]
         },
@@ -1086,7 +1101,16 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 1.5 second cooldown upon applying Support Frame Boost before additional healing hits are counted on the same ally."
+              "text": "Incurs a 1.5 second cooldown upon applying "
+            },
+            {
+              "text": "Support Frame",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Boost before additional healing hits are counted on the same ally."
             }
           ]
         }

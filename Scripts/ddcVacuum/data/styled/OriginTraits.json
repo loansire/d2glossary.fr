@@ -379,7 +379,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Bitterspite for every 20 damage taken, up to 5 stacks after receiving 100 damage."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Bitterspite",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for every 20 damage taken, up to 5 stacks after receiving 100 damage."
             }
           ]
         },
@@ -391,7 +400,13 @@
         {
           "linesContent": [
             {
-              "text": "Bitterspite:"
+              "text": "Bitterspite",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -536,9 +551,12 @@
         {
           "linesContent": [
             {
-              "text": "Area-Denial Grenade Launcher",
+              "text": "Area-Denial "
+            },
+            {
+              "text": "Grenade Launcher",
               "classNames": [
-                "weapon-grenade-launcher"
+                "weapon-heavy-grenade-launcher"
               ]
             },
             {
@@ -764,7 +782,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Collective Purpose per ally within 15 meters."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Collective Purpose",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " per ally within 15 meters."
             }
           ]
         },
@@ -776,7 +803,13 @@
         {
           "linesContent": [
             {
-              "text": "Collective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack."
+              "text": "Collective Purpose",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack."
             }
           ]
         },
@@ -820,7 +853,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Contending Cascade",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
             },
             {
               "text": "↑12",
@@ -864,7 +906,13 @@
         {
           "linesContent": [
             {
-              "text": "Contending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
+              "text": "Contending Cascade",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
             }
           ]
         },
@@ -1067,7 +1115,16 @@
         {
           "linesContent": [
             {
-              "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons."
+              "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped "
+            },
+            {
+              "text": "Dark Ether Reaper",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Weapons."
             }
           ]
         },
@@ -1178,7 +1235,16 @@
         {
           "linesContent": [
             {
-              "text": "Equipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained."
+              "text": "Equipping additional "
+            },
+            {
+              "text": "Dealer's Choice",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Weapons increases the amount of Super Ability Energy gained."
             }
           ]
         },
@@ -1202,7 +1268,16 @@
         {
           "linesContent": [
             {
-              "text": "The following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains."
+              "text": "The following Exotic Weapons count as additional "
+            },
+            {
+              "text": "Dealer's Choice",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Weapons, but do not benefit from the Super Ability Energy gains."
             }
           ]
         },
@@ -1410,7 +1485,16 @@
         {
           "linesContent": [
             {
-              "text": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of Explosive Pact, up to 5 stacks for 7.5 seconds"
+              "text": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of "
+            },
+            {
+              "text": "Explosive Pact",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to 5 stacks for 7.5 seconds"
             }
           ]
         },
@@ -1429,7 +1513,16 @@
         {
           "linesContent": [
             {
-              "text": "Each stack of Explosive Pact grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds."
+              "text": "Each stack of "
+            },
+            {
+              "text": "Explosive Pact",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds."
             }
           ]
         },
@@ -1448,7 +1541,13 @@
         {
           "linesContent": [
             {
-              "text": "Explosive Pact:"
+              "text": "Explosive Pact",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -1759,7 +1858,13 @@
         {
           "linesContent": [
             {
-              "text": "Fleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+              "text": "Fleet Footed",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? "
             },
             {
               "text": "↑6",
@@ -1794,7 +1899,13 @@
         {
           "linesContent": [
             {
-              "text": "Fleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+              "text": "Fleet Footed",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? "
             },
             {
               "text": "↑6",
@@ -1855,7 +1966,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 8 seconds, up to a maximum of 5 stacks."
             }
           ]
         },
@@ -1869,7 +1989,13 @@
         {
           "linesContent": [
             {
-              "text": "Frame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " timer is paused while stowed. Remaining duration is rounded up to the nearest second."
             }
           ]
         },
@@ -1881,35 +2007,65 @@
         {
           "linesContent": [
             {
-              "text": "Frame of Reference x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Frame of Reference x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Frame of Reference x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Frame of Reference x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Frame of Reference x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed."
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed."
             }
           ]
         }
@@ -2254,7 +2410,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " per ally within 15 meters, up to a maximum of 3 stacks."
             }
           ]
         },
@@ -2266,7 +2431,13 @@
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance grants 1.035x Cooling Multiplier, and +? Charge Rate per stack."
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants 1.035x Cooling Multiplier, and +? Charge Rate per stack."
             }
           ]
         },
@@ -2303,7 +2474,13 @@
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% ["
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% ["
             },
             {
               "text": "?%",
@@ -2319,7 +2496,13 @@
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% ["
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% ["
             },
             {
               "text": "?%",
@@ -2335,7 +2518,13 @@
         {
           "linesContent": [
             {
-              "text": "Imperial Allegiance x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% ["
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% ["
             },
             {
               "text": "?%",
@@ -2406,14 +2595,29 @@
         {
           "linesContent": [
             {
-              "text": "Grants stacks of Nadir Focus for 2 seconds."
+              "text": "Grants stacks of "
+            },
+            {
+              "text": "Nadir Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 2 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Nadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
+              "text": "Nadir Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
             },
             {
               "text": "Sword",
@@ -2448,7 +2652,10 @@
         {
           "linesContent": [
             {
-              "text": "NADIR Focus"
+              "text": "NADIR Focus",
+              "classNames": [
+                "perkname"
+              ]
             }
           ]
         },
@@ -2719,7 +2926,25 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 "
+              "text": "Grants a stack of 1 "
+            },
+            {
+              "text": "Nano-Munitions",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " every 3 seconds, up to x7 "
+            },
+            {
+              "text": "Nano-Munitions",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " after 21 "
             },
             {
               "text": "↑10.5",
@@ -2735,7 +2960,16 @@
         {
           "linesContent": [
             {
-              "text": "Consumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up."
+              "text": "Consumes a stack of 1 "
+            },
+            {
+              "text": "Nano-Munitions",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up."
             }
           ]
         },
@@ -2992,7 +3226,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants x10 Noble Deeds, up to a maximum of 10 stacks."
+              "text": "Grants x10 "
+            },
+            {
+              "text": "Noble Deeds",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to a maximum of 10 stacks."
             }
           ]
         },
@@ -3008,7 +3251,16 @@
               ]
             },
             {
-              "text": "] stacks of Noble Deeds."
+              "text": "] stacks of "
+            },
+            {
+              "text": "Noble Deeds",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -3027,7 +3279,13 @@
         {
           "linesContent": [
             {
-              "text": "Noble Deeds grants +30 Handling and +30 Reload Speed. "
+              "text": "Noble Deeds",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants +30 Handling and +30 Reload Speed. "
             },
             {
               "text": "Swords",
@@ -3089,7 +3347,13 @@
         {
           "linesContent": [
             {
-              "text": "One Quiet Moment x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier."
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier."
             }
           ]
         },
@@ -3121,7 +3385,13 @@
         {
           "linesContent": [
             {
-              "text": "One Quiet Moment x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier."
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier."
             }
           ]
         },
@@ -3146,7 +3416,13 @@
         {
           "linesContent": [
             {
-              "text": "One Quiet Moment stacks disappear upon stowing."
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " stacks disappear upon stowing."
             }
           ]
         }
@@ -3169,7 +3445,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants 2 stacks of Paracausal Fluid for 3 seconds."
+              "text": "Grants 2 stacks of "
+            },
+            {
+              "text": "Paracausal Fluid",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 3 seconds."
             }
           ]
         },
@@ -3183,7 +3468,16 @@
         {
           "linesContent": [
             {
-              "text": "Swapping back to the Paracausal Fluid weapon will return to 2 stacks."
+              "text": "Swapping back to the "
+            },
+            {
+              "text": "Paracausal Fluid",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " weapon will return to 2 stacks."
             }
           ]
         },
@@ -3195,14 +3489,26 @@
         {
           "linesContent": [
             {
-              "text": "Paracausal Fluid x1 | +? Mobility"
+              "text": "Paracausal Fluid",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | +? Mobility"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Paracausal Fluid x2 | +? Handling, +50 Mobility, and +90 Charge Rate."
+              "text": "Paracausal Fluid",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | +? Handling, +50 Mobility, and +90 Charge Rate."
             }
           ]
         }
@@ -4021,7 +4327,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Splicer Surge, up to 3 stacks."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Splicer Surge",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to 3 stacks."
             }
           ]
         },
@@ -4040,7 +4355,13 @@
         {
           "linesContent": [
             {
-              "text": "Splicer Surge:"
+              "text": "Splicer Surge",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -4331,7 +4652,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Tenacity, up to a maximum of 20 stacks."
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Tenacity",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to a maximum of 20 stacks."
             }
           ]
         },
@@ -4350,7 +4680,16 @@
         {
           "linesContent": [
             {
-              "text": "Each Tenacity stack grants 0.5% increased damage, Handling and Reload Speed."
+              "text": "Each "
+            },
+            {
+              "text": "Tenacity",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " stack grants 0.5% increased damage, Handling and Reload Speed."
             }
           ]
         },
@@ -4416,7 +4755,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration."
+              "text": "Grants "
+            },
+            {
+              "text": "Tex Balanced Stock",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 4 seconds. Scoring additional hipfired hits refresh the buff duration."
             }
           ]
         },
@@ -4428,7 +4776,13 @@
         {
           "linesContent": [
             {
-              "text": "Tex Balanced Stock:"
+              "text": "Tex Balanced Stock",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -4608,7 +4962,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of Vanguard's Determination for 10 "
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Vanguard's Determination",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 10 "
             },
             {
               "text": "↑12.5",
@@ -4631,7 +4994,16 @@
         {
           "linesContent": [
             {
-              "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
+              "text": "Buff remains active through stow, and stacks are shared across different weapons with the "
+            },
+            {
+              "text": "Vanguard's Determination",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " trait."
             }
           ]
         },
@@ -4643,7 +5015,13 @@
         {
           "linesContent": [
             {
-              "text": "Vanguard's Determination:"
+              "text": "Vanguard's Determination",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -4704,7 +5082,16 @@
         {
           "linesContent": [
             {
-              "text": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype."
+              "text": "Hits have a chance to activate "
+            },
+            {
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 7 seconds, granting different bonuses based on the Weapon Archetype."
             }
           ]
         },
@@ -4716,7 +5103,13 @@
         {
           "linesContent": [
             {
-              "text": "Veist Stinger:"
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -4761,7 +5154,13 @@
         {
           "linesContent": [
             {
-              "text": "Veist Stinger Activation Chances:"
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Activation Chances:"
             }
           ]
         },
@@ -4936,7 +5335,16 @@
         {
           "linesContent": [
             {
-              "text": "100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds."
+              "text": "100% Counter is displayed as x5 "
+            },
+            {
+              "text": "Willing Vessel",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ". Counter constantly decreases by 2.2?% every 1? seconds."
             }
           ]
         },

@@ -921,7 +921,16 @@
           {
             "linesContent": [
               {
-                "text": "Timer only begins after readying the weapon with All-Star."
+                "text": "Timer only begins after readying the weapon with "
+              },
+              {
+                "text": "All-Star",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -951,7 +960,16 @@
                 ]
               },
               {
-                "text": " Synthesis Artifact Perk) only grants All-Star for 7 seconds."
+                "text": " Synthesis Artifact Perk) only grants "
+              },
+              {
+                "text": "All-Star",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 7 seconds."
               }
             ]
           },
@@ -1054,7 +1072,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Ancillary Ordinance, up to a maximum of ? "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Ancillary Ordinance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of ? "
               },
               {
                 "text": "↑5",
@@ -1116,14 +1143,32 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a Weapon Kill while having stacks of Ancillary Ordinance:"
+                "text": "Upon scoring a Weapon Kill while having stacks of "
+              },
+              {
+                "text": "Ancillary Ordinance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Consumes a stack of Ancillary Ordinance to spawn a homing "
+                "text": "Consumes a stack of "
+              },
+              {
+                "text": "Ancillary Ordinance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " to spawn a homing "
               },
               {
                 "text": "Kinetic Micro-Missile",
@@ -1571,12 +1616,12 @@
                 ]
               },
               {
-                "text": ": 10 | "
+                "text": ": 10 | Area-Denial "
               },
               {
-                "text": "Area-Denial Grenade Launchers",
+                "text": "Grenade Launchers",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -1859,7 +1904,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Beacon Rounds for 6 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Beacon Rounds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 6 "
               },
               {
                 "text": "↑7",
@@ -1894,7 +1948,13 @@
           {
             "linesContent": [
               {
-                "text": "Beacon Rounds:"
+                "text": "Beacon Rounds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -1945,7 +2005,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Bewildering Burst for 6 "
+                "text": "Grants "
+              },
+              {
+                "text": "Bewildering Burst",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 6 "
               },
               {
                 "text": "↑7",
@@ -1966,7 +2035,16 @@
           {
             "linesContent": [
               {
-                "text": "The next direct hit while Bewildering Burst is active launches a Flashbang above the enemy that explodes after 0.85 seconds."
+                "text": "The next direct hit while "
+              },
+              {
+                "text": "Bewildering Burst",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active launches a Flashbang above the enemy that explodes after 0.85 seconds."
               }
             ]
           },
@@ -2409,7 +2487,16 @@
           {
             "linesContent": [
               {
-                "text": "Any Powered Melee which requires sprinting, sliding, or performs a slam will not activate Blunt Execution Rounds."
+                "text": "Any Powered Melee which requires sprinting, sliding, or performs a slam will not activate "
+              },
+              {
+                "text": "Blunt Execution Rounds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -2555,7 +2642,16 @@
                 ]
               },
               {
-                "text": " receive 5% Decreased Precision Damage while Box Breathing is active. "
+                "text": " receive 5% Decreased Precision Damage while "
+              },
+              {
+                "text": "Box Breathing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active. "
               },
               {
                 "text": "Heavy Sniper Rifles",
@@ -3091,7 +3187,16 @@
                 ]
               },
               {
-                "text": " inflicted by Burning Ambition counts as Weapon Damage."
+                "text": " inflicted by "
+              },
+              {
+                "text": "Burning Ambition",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " counts as Weapon Damage."
               }
             ]
           },
@@ -3366,7 +3471,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Cascade Point Ready for 5 seconds."
+                "text": "Grants "
+              },
+              {
+                "text": "Cascade Point",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready for 5 seconds."
               }
             ]
           },
@@ -3378,14 +3492,32 @@
           {
             "linesContent": [
               {
-                "text": "Upon readying the weapon while Cascade Point Ready is active:"
+                "text": "Upon readying the weapon while "
+              },
+              {
+                "text": "Cascade Point",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready is active:"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Grants Cascade Point for 2.5 "
+                "text": "Grants "
+              },
+              {
+                "text": "Cascade Point",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 2.5 "
               },
               {
                 "text": "↑2.75",
@@ -3401,7 +3533,13 @@
           {
             "linesContent": [
               {
-                "text": "Cascade Point grants 0.7x Fire Recovery Delay for "
+                "text": "Cascade Point",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants 0.7x Fire Recovery Delay for "
               },
               {
                 "text": "Machine Guns",
@@ -3431,7 +3569,16 @@
           {
             "linesContent": [
               {
-                "text": "Precision Hits work on a Counter System, granting Cascade Point Ready upon reaching 100%."
+                "text": "Precision Hits work on a Counter System, granting "
+              },
+              {
+                "text": "Cascade Point",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready upon reaching 100%."
               }
             ]
           },
@@ -3763,7 +3910,13 @@
           {
             "linesContent": [
               {
-                "text": "Chaos Reshaped x1 | 20% Increased damage for 7 seconds."
+                "text": "Chaos Reshaped",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 20% Increased damage for 7 seconds."
               }
             ]
           },
@@ -3789,7 +3942,16 @@
           {
             "linesContent": [
               {
-                "text": "After maintaining Chaos Reshaped x1 for an additional 12 "
+                "text": "After maintaining "
+              },
+              {
+                "text": "Chaos Reshaped",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 for an additional 12 "
               },
               {
                 "text": "↑11.5",
@@ -3805,7 +3967,13 @@
           {
             "linesContent": [
               {
-                "text": "Chaos Reshaped x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active."
+                "text": "Chaos Reshaped",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active."
               }
             ]
           },
@@ -5151,14 +5319,32 @@
           {
             "linesContent": [
               {
-                "text": "Grants Crystalline Corpsebloom for 4 seconds."
+                "text": "Grants "
+              },
+              {
+                "text": "Crystalline Corpsebloom",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 4 seconds."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Scoring additional Weapon Kills while Crystalline Corpsebloom is active causes the enemy to release a "
+                "text": "Scoring additional Weapon Kills while "
+              },
+              {
+                "text": "Crystalline Corpsebloom",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active causes the enemy to release a "
               },
               {
                 "text": "Stasis Seeker",
@@ -5742,7 +5928,13 @@
           {
             "linesContent": [
               {
-                "text": "Desperate Measures x1 | 10% increased damage for 7 "
+                "text": "Desperate Measures",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 10% increased damage for 7 "
               },
               {
                 "text": "↑7.5",
@@ -5770,7 +5962,13 @@
           {
             "linesContent": [
               {
-                "text": "Desperate Measures x2 | 20% increased damage for 7 "
+                "text": "Desperate Measures",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 20% increased damage for 7 "
               },
               {
                 "text": "↑7.5",
@@ -5791,14 +5989,29 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring an additional Grenade or Melee Kill while Desperate Measures x2 is active:"
+                "text": "Upon scoring an additional Grenade or Melee Kill while "
+              },
+              {
+                "text": "Desperate Measures",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 is active:"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Desperate Measures x3 | 30% increased damage for 7 "
+                "text": "Desperate Measures",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x3 | 30% increased damage for 7 "
               },
               {
                 "text": "↑7.5",
@@ -6026,7 +6239,16 @@
           {
             "linesContent": [
               {
-                "text": "On Weapon Kill, while Discord is active:"
+                "text": "On Weapon Kill, while "
+              },
+              {
+                "text": "Discord",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active:"
               }
             ]
           },
@@ -6276,10 +6498,16 @@
           {
             "linesContent": [
               {
-                "text": "↑Increases Explosion Damage by 10% to ? [?].",
+                "text": "↑Increases Explosion Damage by 10% to ? ["
+              },
+              {
+                "text": "?",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
+              },
+              {
+                "text": "]."
               }
             ]
           }
@@ -6824,7 +7052,16 @@
           {
             "linesContent": [
               {
-                "text": "Dealing Elemental Damage grants a stack of Elemental Honing for 20 "
+                "text": "Dealing Elemental Damage grants a stack of "
+              },
+              {
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 20 "
               },
               {
                 "text": "↑23",
@@ -6868,7 +7105,13 @@
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x1 | 2.5% ["
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 2.5% ["
               },
               {
                 "text": "1.25%",
@@ -6893,7 +7136,13 @@
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x2 | 10% ["
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 10% ["
               },
               {
                 "text": "5%",
@@ -6918,7 +7167,13 @@
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x3 | 20% Increased Elemental Weapon Damage and 30% Increased "
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x3 | 20% Increased Elemental Weapon Damage and 30% Increased "
               },
               {
                 "text": "Kinetic Weapon Damage",
@@ -6934,7 +7189,13 @@
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x4 | 30% Increased Elemental Weapon Damage and 35% Increased "
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x4 | 30% Increased Elemental Weapon Damage and 35% Increased "
               },
               {
                 "text": "Kinetic Weapon Damage",
@@ -6950,7 +7211,13 @@
           {
             "linesContent": [
               {
-                "text": "Elemental Honing x5 | 35% Increased Elemental Weapon Damage and 40% Increased "
+                "text": "Elemental Honing",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x5 | 35% Increased Elemental Weapon Damage and 40% Increased "
               },
               {
                 "text": "Kinetic Weapon Damage",
@@ -7212,14 +7479,29 @@
           {
             "linesContent": [
               {
-                "text": "Grants stacks of Enlightened Action for 2 seconds, up to a maximum of 12."
+                "text": "Grants stacks of "
+              },
+              {
+                "text": "Enlightened Action",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 2 seconds, up to a maximum of 12."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Enlightened Action grants an average of +4 Handling and Reload Speed per stack, up to +50 "
+                "text": "Enlightened Action",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants an average of +4 Handling and Reload Speed per stack, up to +50 "
               },
               {
                 "text": "↑+55?",
@@ -7249,7 +7531,13 @@
           {
             "linesContent": [
               {
-                "text": "Enlightened Action:"
+                "text": "Enlightened Action",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -7666,7 +7954,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Explosive Light, up to a maximum of 6 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Explosive Light",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 6 "
               },
               {
                 "text": "↑7",
@@ -7694,7 +7991,16 @@
           {
             "linesContent": [
               {
-                "text": "Firing consumes a stack of Explosive Light, granting increased damage, and setting the Blast Radius stat to 100."
+                "text": "Firing consumes a stack of "
+              },
+              {
+                "text": "Explosive Light",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", granting increased damage, and setting the Blast Radius stat to 100."
               }
             ]
           },
@@ -7750,21 +8056,42 @@
           {
             "linesContent": [
               {
-                "text": "Weapons deal 50% of their Non-Precision Direct Impact Damage as an Explosive Payload."
+                "text": "Weapons deal 50% of their Non-Precision Direct Impact Damage as an "
+              },
+              {
+                "text": "Explosive Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Explosive Payload detonates on impact, damaging enemies within 3 meters."
+                "text": "Explosive Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " detonates on impact, damaging enemies within 3 meters."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Explosive Payload portion deals 30% increased ["
+                "text": "Explosive Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " portion deals 30% increased ["
               },
               {
                 "text": "7% decreased on Hand Cannons, ",
@@ -7785,7 +8112,16 @@
           {
             "linesContent": [
               {
-                "text": "Impact Damage's Precision Multiplier is increased to offset the Explosive Payload portion lacking the ability to score Precision Hits."
+                "text": "Impact Damage's Precision Multiplier is increased to offset the "
+              },
+              {
+                "text": "Explosive Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " portion lacking the ability to score Precision Hits."
               }
             ]
           },
@@ -8773,7 +9109,13 @@
           {
             "linesContent": [
               {
-                "text": "Golden Tricorn x1 | 15% Increased damage for 7 seconds."
+                "text": "Golden Tricorn",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 15% Increased damage for 7 seconds."
               }
             ]
           },
@@ -8815,7 +9157,13 @@
           {
             "linesContent": [
               {
-                "text": "Golden Tricorn x2 | 50% increased damage for 10 seconds."
+                "text": "Golden Tricorn",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 50% increased damage for 10 seconds."
               }
             ]
           },
@@ -9313,7 +9661,16 @@
           {
             "linesContent": [
               {
-                "text": "Weakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or "
+                "text": "Weakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as "
+              },
+              {
+                "text": "Headseeker",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", or "
               },
               {
                 "text": "Heavy Burst Hand Cannon",
@@ -9522,7 +9879,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Heating Up for 5.5 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Heating Up",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 5.5 "
               },
               {
                 "text": "↑6.5",
@@ -9550,14 +9916,26 @@
           {
             "linesContent": [
               {
-                "text": "Heating Up x1 | +15 Stability, +20 Recoil Direction, -15% Accuracy Cone Size, and -15% Accuracy Cone Growth."
+                "text": "Heating Up",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +15 Stability, +20 Recoil Direction, -15% Accuracy Cone Size, and -15% Accuracy Cone Growth."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Heating Up x2 | +30 Stability, +40 Recoil Direction, -25% Accuracy Cone Size, and -25% Accuracy Cone Growth."
+                "text": "Heating Up",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +30 Stability, +40 Recoil Direction, -25% Accuracy Cone Size, and -25% Accuracy Cone Growth."
               }
             ]
           },
@@ -9603,7 +9981,16 @@
                 ]
               },
               {
-                "text": "] stacks of High Ground."
+                "text": "] stacks of "
+              },
+              {
+                "text": "High Ground",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -9640,14 +10027,32 @@
                 ]
               },
               {
-                "text": "] stacks of High Ground."
+                "text": "] stacks of "
+              },
+              {
+                "text": "High Ground",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "The shot that triggers High Ground does receive the damage increase."
+                "text": "The shot that triggers "
+              },
+              {
+                "text": "High Ground",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " does receive the damage increase."
               }
             ]
           },
@@ -9659,7 +10064,13 @@
           {
             "linesContent": [
               {
-                "text": "High Ground:"
+                "text": "High Ground",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -10609,7 +11020,16 @@
                 ]
               },
               {
-                "text": " reduces the amount of hits needed to trigger Jolting Feedback."
+                "text": " reduces the amount of hits needed to trigger "
+              },
+              {
+                "text": "Jolting Feedback",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -11120,7 +11540,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Killing Tally, up to 3 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Killing Tally",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to 3 stacks."
               }
             ]
           },
@@ -11139,7 +11568,13 @@
           {
             "linesContent": [
               {
-                "text": "Killing Tally:"
+                "text": "Killing Tally",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -11719,7 +12154,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Lead from Light, up to ? stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Lead from Light",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to ? stacks."
               }
             ]
           },
@@ -11731,7 +12175,16 @@
           {
             "linesContent": [
               {
-                "text": "Weapon Kills consume a stack of Lead From Light to grant 1.25x "
+                "text": "Weapon Kills consume a stack of "
+              },
+              {
+                "text": "Lead From Light",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " to grant 1.25x "
               },
               {
                 "text": "Special Ammo",
@@ -11957,7 +12410,16 @@
           {
             "linesContent": [
               {
-                "text": "Stacks are consumed on reload, and persist through stow. Cannot gain stacks while Magnificent Howl is active."
+                "text": "Stacks are consumed on reload, and persist through stow. Cannot gain stacks while "
+              },
+              {
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active."
               }
             ]
           },
@@ -11976,14 +12438,32 @@
           {
             "linesContent": [
               {
-                "text": "Converts all Precision Final Blow stacks into Magnificent Howl stacks."
+                "text": "Converts all Precision Final Blow stacks into "
+              },
+              {
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stacks."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Firing consumes a stack of Magnificent Howl per shot, granting 50% "
+                "text": "Firing consumes a stack of "
+              },
+              {
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " per shot, granting 50% "
               },
               {
                 "text": "↑55%",
@@ -11999,14 +12479,38 @@
           {
             "linesContent": [
               {
-                "text": "Scoring a Precision Kill while Magnificent Howl is active grants x1 Magnificent Howl stacks."
+                "text": "Scoring a Precision Kill while "
+              },
+              {
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active grants x1 "
+              },
+              {
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stacks."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Magnificent Howl stacks persist through stow."
+                "text": "Magnificent Howl",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stacks persist through stow."
               }
             ]
           },
@@ -12043,7 +12547,13 @@
           {
             "linesContent": [
               {
-                "text": "Master of Arms x1 | 15% Increased Damage for 7 "
+                "text": "Master of Arms",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 15% Increased Damage for 7 "
               },
               {
                 "text": "↑8?",
@@ -12071,14 +12581,29 @@
           {
             "linesContent": [
               {
-                "text": "Upon scoring a Weapon Kill with any weapon, while Master of Arms x1 is active:"
+                "text": "Upon scoring a Weapon Kill with any weapon, while "
+              },
+              {
+                "text": "Master of Arms",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 is active:"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Master of Arms x2 | 25% Increased Damage for 4 "
+                "text": "Master of Arms",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 25% Increased Damage for 4 "
               },
               {
                 "text": "↑5?",
@@ -12094,7 +12619,25 @@
           {
             "linesContent": [
               {
-                "text": "Additional Kills with any weapon refresh the Master of Arms duration. Buff drops down to x1 Master of Arms upon expiring."
+                "text": "Additional Kills with any weapon refresh the "
+              },
+              {
+                "text": "Master of Arms",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " duration. Buff drops down to x1 "
+              },
+              {
+                "text": "Master of Arms",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " upon expiring."
               }
             ]
           },
@@ -12141,7 +12684,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Meganeura for 3.5 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Meganeura",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 3.5 "
               },
               {
                 "text": "↑4",
@@ -12192,7 +12744,16 @@
           {
             "linesContent": [
               {
-                "text": "Explosion Damage is increased by the amount of Meganeura stacks."
+                "text": "Explosion Damage is increased by the amount of "
+              },
+              {
+                "text": "Meganeura",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stacks."
               }
             ]
           },
@@ -12778,7 +13339,13 @@
           {
             "linesContent": [
               {
-                "text": "One-Two Punch does not stack with the passive Melee Damage Increase against "
+                "text": "One-Two Punch",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " does not stack with the passive Melee Damage Increase against "
               },
               {
                 "text": "Frozen",
@@ -12824,7 +13391,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Onslaught, increasing Fire Rate and Reload Speed per stack for 4.5 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Onslaught",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", increasing Fire Rate and Reload Speed per stack for 4.5 "
               },
               {
                 "text": "↑5?",
@@ -12859,7 +13435,13 @@
           {
             "linesContent": [
               {
-                "text": "Onslaught:"
+                "text": "Onslaught",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -13012,7 +13594,16 @@
           {
             "linesContent": [
               {
-                "text": "Effects that replace Grenade Abilities will trigger Osmosis, replacing the weapon's element with the currently equipped grenade."
+                "text": "Effects that replace Grenade Abilities will trigger "
+              },
+              {
+                "text": "Osmosis",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", replacing the weapon's element with the currently equipped grenade."
               }
             ]
           },
@@ -13441,7 +14032,25 @@
           {
             "linesContent": [
               {
-                "text": "Grants x1 Perpetual Motion after 2 seconds, and x2 Perpetual Motion after 10 "
+                "text": "Grants x1 "
+              },
+              {
+                "text": "Perpetual Motion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " after 2 seconds, and x2 "
+              },
+              {
+                "text": "Perpetual Motion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " after 10 "
               },
               {
                 "text": "↑9",
@@ -13469,14 +14078,26 @@
           {
             "linesContent": [
               {
-                "text": "Perpetual Motion x1 | +10 Stability, +10 Handling, and +10 Reload Speed."
+                "text": "Perpetual Motion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +10 Stability, +10 Handling, and +10 Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Perpetual Motion x2 | +20 Stability, +20 Handling and +20 Reload Speed."
+                "text": "Perpetual Motion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +20 Stability, +20 Handling and +20 Reload Speed."
               }
             ]
           },
@@ -13590,7 +14211,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Precision Instrument, up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Precision Instrument",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time."
               }
             ]
           },
@@ -14056,14 +14686,29 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Rapid Hit for 2 seconds, up to a maximum of 5 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Rapid Hit",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 2 seconds, up to a maximum of 5 stacks."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Rapid Hit grants Stability, Reload Speed, and Reload Duration Multiplier."
+                "text": "Rapid Hit",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants Stability, Reload Speed, and Reload Duration Multiplier."
               }
             ]
           },
@@ -14142,7 +14787,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks."
+                "text": "Grants stacks of "
+              },
+              {
+                "text": "Reaper's Tithe",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks."
               }
             ]
           },
@@ -14161,7 +14815,13 @@
           {
             "linesContent": [
               {
-                "text": "Reaper's Tithe:"
+                "text": "Reaper's Tithe",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -14276,7 +14936,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Recombination, increasing the damage of the next shot of the weapon, up to a maximum of 10 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Recombination",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", increasing the damage of the next shot of the weapon, up to a maximum of 10 stacks."
               }
             ]
           },
@@ -14321,10 +14990,25 @@
           {
             "linesContent": [
               {
-                "text": "↑Damage ramps up 25% faster, increasing by 12.5% [6.25%] per kill, up to their maximum of 100% [50%] after 8 kills instead of 10.",
+                "text": "↑Damage ramps up 25% faster, increasing by 12.5% ["
+              },
+              {
+                "text": "6.25%",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
+              },
+              {
+                "text": "] per kill, up to their maximum of 100% ["
+              },
+              {
+                "text": "50%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] after 8 kills instead of 10."
               }
             ]
           }
@@ -14461,7 +15145,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants 2 stacks of Redirection, up to a maximum of 30 stacks."
+                "text": "Grants 2 stacks of "
+              },
+              {
+                "text": "Redirection",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 30 stacks."
               }
             ]
           },
@@ -15365,7 +16058,16 @@
           {
             "linesContent": [
               {
-                "text": "Can also pick up Orbs of Power without any additional effect. Splash Damage can also trigger Shoot To Loot."
+                "text": "Can also pick up Orbs of Power without any additional effect. Splash Damage can also trigger "
+              },
+              {
+                "text": "Shoot To Loot",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -15402,7 +16104,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants 2 stacks of Shot Swap, up to a maximum of 6 stacks."
+                "text": "Grants 2 stacks of "
+              },
+              {
+                "text": "Shot Swap",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 6 stacks."
               }
             ]
           },
@@ -15459,7 +16170,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Sleight of Hand for 8.5 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Sleight of Hand",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 8.5 "
               },
               {
                 "text": "↑9",
@@ -15487,21 +16207,39 @@
           {
             "linesContent": [
               {
-                "text": "Sleight of Hand x1 = +10 Stability, +10 Handling, and +10 Reload Speed."
+                "text": "Sleight of Hand",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 = +10 Stability, +10 Handling, and +10 Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Sleight of Hand x2 = +20 Stability, +20 Handling, and +20 Reload Speed."
+                "text": "Sleight of Hand",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 = +20 Stability, +20 Handling, and +20 Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Sleight of Hand x3 = +30 Stability, +30 Handling, and +30 Reload Speed."
+                "text": "Sleight of Hand",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x3 = +30 Stability, +30 Handling, and +30 Reload Speed."
               }
             ]
           }
@@ -15918,7 +16656,16 @@
           {
             "linesContent": [
               {
-                "text": "Explosive Light increases Blast Radius to 100, decreasing the effect of Spike Grenades."
+                "text": "Explosive Light increases Blast Radius to 100, decreasing the effect of "
+              },
+              {
+                "text": "Spike Grenades",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -16057,7 +16804,16 @@
           {
             "linesContent": [
               {
-                "text": "Explosive Light increases Blast Radius to 100, increasing the effect of Sticky Grenades."
+                "text": "Explosive Light increases Blast Radius to 100, increasing the effect of "
+              },
+              {
+                "text": "Sticky Grenades",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -16817,22 +17573,22 @@
                 "text": "Grants stacks of "
               },
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic. The number of stacks gained is tied to the highest Enemy Rank killed in the current activation of "
+                "text": ". The number of stacks gained is tied to the highest Enemy Rank killed in the current activation of "
               },
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic."
+                "text": "."
               }
             ]
           },
@@ -16851,13 +17607,13 @@
           {
             "linesContent": [
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic x1 | 15% Increased Damage for 5.5 "
+                "text": " x1 | 15% Increased Damage for 5.5 "
               },
               {
                 "text": "↑6.5",
@@ -16873,13 +17629,13 @@
           {
             "linesContent": [
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic x2 | 25% ["
+                "text": " x2 | 25% ["
               },
               {
                 "text": "15%",
@@ -16904,13 +17660,13 @@
           {
             "linesContent": [
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic x3 | 35% Increased Damage for 10.5 "
+                "text": " x3 | 35% Increased Damage for 10.5 "
               },
               {
                 "text": "↑11.5",
@@ -16926,13 +17682,13 @@
           {
             "linesContent": [
               {
-                "text": "Sword",
+                "text": "Sword Logic",
                 "classNames": [
-                  "weapon-sword"
+                  "perkname"
                 ]
               },
               {
-                "text": " Logic x4 | 50% Increased Damage for 15.5 "
+                "text": " x4 | 50% Increased Damage for 15.5 "
               },
               {
                 "text": "↑16.5",
@@ -17253,13 +18009,25 @@
           {
             "linesContent": [
               {
-                "text": "↑Damage Increase begins at 18.8% [12.54%] and ends at 45% [30%].",
+                "text": "↑Damage Increase begins at 18.8% ["
+              },
+              {
+                "text": "12.54%",
                 "classNames": [
-                  "enhancedArrow"
+                  "pvp"
                 ]
               },
               {
-                "text": " Results in a 28.3% ["
+                "text": "] and ends at 45% ["
+              },
+              {
+                "text": "30%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "]. Results in a 28.3% ["
               },
               {
                 "text": "19.02%",
@@ -17280,7 +18048,13 @@
           {
             "linesContent": [
               {
-                "text": "Target Lock Calculator, courtesy of Clarity."
+                "text": "Target Lock",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Calculator, courtesy of Clarity."
               }
             ]
           }
@@ -17459,7 +18233,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Threat Detector for each enemy within 15 meters, up to a maximum of 2 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Threat Detector",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for each enemy within 15 meters, up to a maximum of 2 stacks."
               }
             ]
           },
@@ -17471,7 +18254,13 @@
           {
             "linesContent": [
               {
-                "text": "Threat Detector x1 | +15? "
+                "text": "Threat Detector",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +15? "
               },
               {
                 "text": "↑19?",
@@ -17505,7 +18294,13 @@
           {
             "linesContent": [
               {
-                "text": "Threat Detector x2 | +40? "
+                "text": "Threat Detector",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +40? "
               },
               {
                 "text": "↑+44?",
@@ -17759,21 +18554,42 @@
           {
             "linesContent": [
               {
-                "text": "Weapons deal 55% of their Non-Precision Direct Impact Damage as a Timed Payload."
+                "text": "Weapons deal 55% of their Non-Precision Direct Impact Damage as a "
+              },
+              {
+                "text": "Timed Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Timed Payload detonates after 0.6 seconds of impact, damaging enemies within ? meters."
+                "text": "Timed Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " detonates after 0.6 seconds of impact, damaging enemies within ? meters."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Timed Payload portion deals 30% increased damage and inflicts increased stagger against Combatants."
+                "text": "Timed Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " portion deals 30% increased damage and inflicts increased stagger against Combatants."
               }
             ]
           },
@@ -17785,7 +18601,16 @@
           {
             "linesContent": [
               {
-                "text": "Impact Damage's Precision Multiplier is increased to offset the Timed Payload portion lacking the ability to score Precision Hits."
+                "text": "Impact Damage's Precision Multiplier is increased to offset the "
+              },
+              {
+                "text": "Timed Payload",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " portion lacking the ability to score Precision Hits."
               }
             ]
           },
@@ -17917,7 +18742,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of To The Pain for every 30 damage taken, up to 10 stacks after receiving 300 damage."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "To The Pain",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for every 30 damage taken, up to 10 stacks after receiving 300 damage."
               }
             ]
           },
@@ -17936,7 +18770,13 @@
           {
             "linesContent": [
               {
-                "text": "To The Pain grants +? Handling and +2 Aim Assist per stack, up to +? Handling and +20 Aim Assist at 10 stacks."
+                "text": "To The Pain",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants +? Handling and +2 Aim Assist per stack, up to +? Handling and +20 Aim Assist at 10 stacks."
               }
             ]
           },
@@ -18048,7 +18888,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Transcendent Moment for ? "
+                "text": "Grants "
+              },
+              {
+                "text": "Transcendent Moment",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for ? "
               },
               {
                 "text": "↑?",
@@ -18083,7 +18932,13 @@
           {
             "linesContent": [
               {
-                "text": "Transcendent Moment | Grants Weapon Stats based on the weapon's alignment."
+                "text": "Transcendent Moment",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " | Grants Weapon Stats based on the weapon's alignment."
               }
             ]
           },
@@ -18356,7 +19211,13 @@
           {
             "linesContent": [
               {
-                "text": "Trickle Charge will refill/dissipate stowed weapons."
+                "text": "Trickle Charge",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " will refill/dissipate stowed weapons."
               }
             ]
           }
@@ -19005,7 +19866,16 @@
           {
             "linesContent": [
               {
-                "text": "Grenade Ability Usage and Powered Melee Hits grants a stack of Well-Rounded for 15 seconds, up to a maximum of 2 stacks. Super Ability Cast grants two stacks."
+                "text": "Grenade Ability Usage and Powered Melee Hits grants a stack of "
+              },
+              {
+                "text": "Well-Rounded",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 15 seconds, up to a maximum of 2 stacks. Super Ability Cast grants two stacks."
               }
             ]
           },
@@ -19031,7 +19901,13 @@
           {
             "linesContent": [
               {
-                "text": "Well-Rounded:"
+                "text": "Well-Rounded",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -19533,7 +20409,16 @@
                 ]
               },
               {
-                "text": " grants Kill Shot to all weapons with the mod equipped."
+                "text": " grants "
+              },
+              {
+                "text": "Kill Shot",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " to all weapons with the mod equipped."
               }
             ]
           }
@@ -19555,14 +20440,41 @@
           {
             "linesContent": [
               {
-                "text": "Grants Opening Salvo Ready until firing."
+                "text": "Grants "
+              },
+              {
+                "text": "Opening Salvo",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready until firing."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Once Opening Salvo expires, Opening Salvo Ready can be reobtained after 5 seconds of not receiving damage."
+                "text": "Once "
+              },
+              {
+                "text": "Opening Salvo",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " expires, "
+              },
+              {
+                "text": "Opening Salvo",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready can be reobtained after 5 seconds of not receiving damage."
               }
             ]
           },
@@ -19574,7 +20486,13 @@
           {
             "linesContent": [
               {
-                "text": "Opening Salvo | +20 Range, ?% Increased Flinch, and damage staggers "
+                "text": "Opening Salvo",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " | +20 Range, ?% Increased Flinch, and damage staggers "
               },
               {
                 "text": "Unstoppable Champions",
@@ -20469,14 +21387,26 @@
           {
             "linesContent": [
               {
-                "text": "Synergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
+                "text": "Synergy",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Synergy has its own cooldown depending on the spawned Pickup:"
+                "text": "Synergy",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " has its own cooldown depending on the spawned Pickup:"
               }
             ]
           },
@@ -20552,7 +21482,16 @@
           {
             "linesContent": [
               {
-                "text": "Kills during Synergy's cooldown do not contribute to the activation."
+                "text": "Kills during "
+              },
+              {
+                "text": "Synergy",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "'s cooldown do not contribute to the activation."
               }
             ]
           }
@@ -21646,14 +22585,29 @@
           {
             "linesContent": [
               {
-                "text": "The next healing hits within 1 seconds of each on allies bestows them with an Element-Matching Effect, and applies Support Frame Boost to the user and the targeted ally."
+                "text": "The next healing hits within 1 seconds of each on allies bestows them with an Element-Matching Effect, and applies "
+              },
+              {
+                "text": "Support Frame",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Boost to the user and the targeted ally."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Support Frame Boost grants 10% increased weapon damage for 6 seconds. Stacks with everything."
+                "text": "Support Frame",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Boost grants 10% increased weapon damage for 6 seconds. Stacks with everything."
               }
             ]
           },
@@ -21738,7 +22692,16 @@
           {
             "linesContent": [
               {
-                "text": "Incurs a 1.5 second cooldown upon applying Support Frame Boost before additional healing hits are counted on the same ally."
+                "text": "Incurs a 1.5 second cooldown upon applying "
+              },
+              {
+                "text": "Support Frame",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Boost before additional healing hits are counted on the same ally."
               }
             ]
           }
@@ -22156,7 +23119,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Bitterspite for every 20 damage taken, up to 5 stacks after receiving 100 damage."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Bitterspite",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for every 20 damage taken, up to 5 stacks after receiving 100 damage."
               }
             ]
           },
@@ -22168,7 +23140,13 @@
           {
             "linesContent": [
               {
-                "text": "Bitterspite:"
+                "text": "Bitterspite",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -22313,9 +23291,12 @@
           {
             "linesContent": [
               {
-                "text": "Area-Denial Grenade Launcher",
+                "text": "Area-Denial "
+              },
+              {
+                "text": "Grenade Launcher",
                 "classNames": [
-                  "weapon-grenade-launcher"
+                  "weapon-heavy-grenade-launcher"
                 ]
               },
               {
@@ -22541,7 +23522,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Collective Purpose per ally within 15 meters."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Collective Purpose",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " per ally within 15 meters."
               }
             ]
           },
@@ -22553,7 +23543,13 @@
           {
             "linesContent": [
               {
-                "text": "Collective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack."
+                "text": "Collective Purpose",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack."
               }
             ]
           },
@@ -22597,7 +23593,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Contending Cascade",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
               },
               {
                 "text": "↑12",
@@ -22641,7 +23646,13 @@
           {
             "linesContent": [
               {
-                "text": "Contending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
+                "text": "Contending Cascade",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
               }
             ]
           },
@@ -22844,7 +23855,16 @@
           {
             "linesContent": [
               {
-                "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons."
+                "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped "
+              },
+              {
+                "text": "Dark Ether Reaper",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Weapons."
               }
             ]
           },
@@ -22955,7 +23975,16 @@
           {
             "linesContent": [
               {
-                "text": "Equipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained."
+                "text": "Equipping additional "
+              },
+              {
+                "text": "Dealer's Choice",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Weapons increases the amount of Super Ability Energy gained."
               }
             ]
           },
@@ -22979,7 +24008,16 @@
           {
             "linesContent": [
               {
-                "text": "The following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains."
+                "text": "The following Exotic Weapons count as additional "
+              },
+              {
+                "text": "Dealer's Choice",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Weapons, but do not benefit from the Super Ability Energy gains."
               }
             ]
           },
@@ -23187,7 +24225,16 @@
           {
             "linesContent": [
               {
-                "text": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of Explosive Pact, up to 5 stacks for 7.5 seconds"
+                "text": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of "
+              },
+              {
+                "text": "Explosive Pact",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to 5 stacks for 7.5 seconds"
               }
             ]
           },
@@ -23206,7 +24253,16 @@
           {
             "linesContent": [
               {
-                "text": "Each stack of Explosive Pact grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds."
+                "text": "Each stack of "
+              },
+              {
+                "text": "Explosive Pact",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds."
               }
             ]
           },
@@ -23225,7 +24281,13 @@
           {
             "linesContent": [
               {
-                "text": "Explosive Pact:"
+                "text": "Explosive Pact",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -23536,7 +24598,13 @@
           {
             "linesContent": [
               {
-                "text": "Fleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+                "text": "Fleet Footed",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? "
               },
               {
                 "text": "↑6",
@@ -23571,7 +24639,13 @@
           {
             "linesContent": [
               {
-                "text": "Fleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+                "text": "Fleet Footed",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? "
               },
               {
                 "text": "↑6",
@@ -23632,7 +24706,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 8 seconds, up to a maximum of 5 stacks."
               }
             ]
           },
@@ -23646,7 +24729,13 @@
           {
             "linesContent": [
               {
-                "text": "Frame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " timer is paused while stowed. Remaining duration is rounded up to the nearest second."
               }
             ]
           },
@@ -23658,35 +24747,65 @@
           {
             "linesContent": [
               {
-                "text": "Frame of Reference x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Frame of Reference x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Frame of Reference x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Frame of Reference x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Frame of Reference x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed."
+                "text": "Frame of Reference",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed."
               }
             ]
           }
@@ -24031,7 +25150,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Imperial Allegiance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " per ally within 15 meters, up to a maximum of 3 stacks."
               }
             ]
           },
@@ -24043,7 +25171,13 @@
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance grants 1.035x Cooling Multiplier, and +? Charge Rate per stack."
+                "text": "Imperial Allegiance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants 1.035x Cooling Multiplier, and +? Charge Rate per stack."
               }
             ]
           },
@@ -24080,7 +25214,13 @@
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% ["
+                "text": "Imperial Allegiance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% ["
               },
               {
                 "text": "?%",
@@ -24096,7 +25236,13 @@
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% ["
+                "text": "Imperial Allegiance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% ["
               },
               {
                 "text": "?%",
@@ -24112,7 +25258,13 @@
           {
             "linesContent": [
               {
-                "text": "Imperial Allegiance x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% ["
+                "text": "Imperial Allegiance",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% ["
               },
               {
                 "text": "?%",
@@ -24183,14 +25335,29 @@
           {
             "linesContent": [
               {
-                "text": "Grants stacks of Nadir Focus for 2 seconds."
+                "text": "Grants stacks of "
+              },
+              {
+                "text": "Nadir Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 2 seconds."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Nadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
+                "text": "Nadir Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
               },
               {
                 "text": "Sword",
@@ -24225,7 +25392,10 @@
           {
             "linesContent": [
               {
-                "text": "NADIR Focus"
+                "text": "NADIR Focus",
+                "classNames": [
+                  "perkname"
+                ]
               }
             ]
           },
@@ -24496,7 +25666,25 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 "
+                "text": "Grants a stack of 1 "
+              },
+              {
+                "text": "Nano-Munitions",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " every 3 seconds, up to x7 "
+              },
+              {
+                "text": "Nano-Munitions",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " after 21 "
               },
               {
                 "text": "↑10.5",
@@ -24512,7 +25700,16 @@
           {
             "linesContent": [
               {
-                "text": "Consumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up."
+                "text": "Consumes a stack of 1 "
+              },
+              {
+                "text": "Nano-Munitions",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up."
               }
             ]
           },
@@ -24769,7 +25966,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants x10 Noble Deeds, up to a maximum of 10 stacks."
+                "text": "Grants x10 "
+              },
+              {
+                "text": "Noble Deeds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 10 stacks."
               }
             ]
           },
@@ -24785,7 +25991,16 @@
                 ]
               },
               {
-                "text": "] stacks of Noble Deeds."
+                "text": "] stacks of "
+              },
+              {
+                "text": "Noble Deeds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -24804,7 +26019,13 @@
           {
             "linesContent": [
               {
-                "text": "Noble Deeds grants +30 Handling and +30 Reload Speed. "
+                "text": "Noble Deeds",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants +30 Handling and +30 Reload Speed. "
               },
               {
                 "text": "Swords",
@@ -24866,7 +26087,13 @@
           {
             "linesContent": [
               {
-                "text": "One Quiet Moment x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier."
+                "text": "One Quiet Moment",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier."
               }
             ]
           },
@@ -24898,7 +26125,13 @@
           {
             "linesContent": [
               {
-                "text": "One Quiet Moment x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier."
+                "text": "One Quiet Moment",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier."
               }
             ]
           },
@@ -24923,7 +26156,13 @@
           {
             "linesContent": [
               {
-                "text": "One Quiet Moment stacks disappear upon stowing."
+                "text": "One Quiet Moment",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stacks disappear upon stowing."
               }
             ]
           }
@@ -24946,7 +26185,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants 2 stacks of Paracausal Fluid for 3 seconds."
+                "text": "Grants 2 stacks of "
+              },
+              {
+                "text": "Paracausal Fluid",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 3 seconds."
               }
             ]
           },
@@ -24960,7 +26208,16 @@
           {
             "linesContent": [
               {
-                "text": "Swapping back to the Paracausal Fluid weapon will return to 2 stacks."
+                "text": "Swapping back to the "
+              },
+              {
+                "text": "Paracausal Fluid",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " weapon will return to 2 stacks."
               }
             ]
           },
@@ -24972,14 +26229,26 @@
           {
             "linesContent": [
               {
-                "text": "Paracausal Fluid x1 | +? Mobility"
+                "text": "Paracausal Fluid",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x1 | +? Mobility"
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Paracausal Fluid x2 | +? Handling, +50 Mobility, and +90 Charge Rate."
+                "text": "Paracausal Fluid",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " x2 | +? Handling, +50 Mobility, and +90 Charge Rate."
               }
             ]
           }
@@ -25798,7 +27067,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Splicer Surge, up to 3 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Splicer Surge",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to 3 stacks."
               }
             ]
           },
@@ -25817,7 +27095,13 @@
           {
             "linesContent": [
               {
-                "text": "Splicer Surge:"
+                "text": "Splicer Surge",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -26108,7 +27392,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Tenacity, up to a maximum of 20 stacks."
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Tenacity",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 20 stacks."
               }
             ]
           },
@@ -26127,7 +27420,16 @@
           {
             "linesContent": [
               {
-                "text": "Each Tenacity stack grants 0.5% increased damage, Handling and Reload Speed."
+                "text": "Each "
+              },
+              {
+                "text": "Tenacity",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " stack grants 0.5% increased damage, Handling and Reload Speed."
               }
             ]
           },
@@ -26193,7 +27495,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration."
+                "text": "Grants "
+              },
+              {
+                "text": "Tex Balanced Stock",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 4 seconds. Scoring additional hipfired hits refresh the buff duration."
               }
             ]
           },
@@ -26205,7 +27516,13 @@
           {
             "linesContent": [
               {
-                "text": "Tex Balanced Stock:"
+                "text": "Tex Balanced Stock",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -26385,7 +27702,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of Vanguard's Determination for 10 "
+                "text": "Grants a stack of "
+              },
+              {
+                "text": "Vanguard's Determination",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 10 "
               },
               {
                 "text": "↑12.5",
@@ -26408,7 +27734,16 @@
           {
             "linesContent": [
               {
-                "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
+                "text": "Buff remains active through stow, and stacks are shared across different weapons with the "
+              },
+              {
+                "text": "Vanguard's Determination",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " trait."
               }
             ]
           },
@@ -26420,7 +27755,13 @@
           {
             "linesContent": [
               {
-                "text": "Vanguard's Determination:"
+                "text": "Vanguard's Determination",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -26481,7 +27822,16 @@
           {
             "linesContent": [
               {
-                "text": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype."
+                "text": "Hits have a chance to activate "
+              },
+              {
+                "text": "Veist Stinger",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 7 seconds, granting different bonuses based on the Weapon Archetype."
               }
             ]
           },
@@ -26493,7 +27843,13 @@
           {
             "linesContent": [
               {
-                "text": "Veist Stinger:"
+                "text": "Veist Stinger",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -26538,7 +27894,13 @@
           {
             "linesContent": [
               {
-                "text": "Veist Stinger Activation Chances:"
+                "text": "Veist Stinger",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Activation Chances:"
               }
             ]
           },
@@ -26713,7 +28075,16 @@
           {
             "linesContent": [
               {
-                "text": "100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds."
+                "text": "100% Counter is displayed as x5 "
+              },
+              {
+                "text": "Willing Vessel",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ". Counter constantly decreases by 2.2?% every 1? seconds."
               }
             ]
           },
@@ -26966,7 +28337,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Force Converter."
+                "text": "Grants "
+              },
+              {
+                "text": "Force Converter",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -26978,7 +28358,16 @@
           {
             "linesContent": [
               {
-                "text": "Sprinting while Force Converter is active grants "
+                "text": "Sprinting while "
+              },
+              {
+                "text": "Force Converter",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is active grants "
               },
               {
                 "text": "Speed Booster",
@@ -27152,7 +28541,16 @@
           {
             "linesContent": [
               {
-                "text": "Can only trigger once per Reactive Shock activation."
+                "text": "Can only trigger once per "
+              },
+              {
+                "text": "Reactive Shock",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " activation."
               }
             ]
           }
@@ -27261,7 +28659,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death."
+                "text": "Grants stacks of "
+              },
+              {
+                "text": "Accretion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ", up to a maximum of 20 stacks. Stacks persist until death."
               }
             ]
           },
@@ -27274,7 +28681,16 @@
                 ]
               },
               {
-                "text": " grant 1 stack of Accretion. "
+                "text": " grant 1 stack of "
+              },
+              {
+                "text": "Accretion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ". "
               },
               {
                 "text": "Heavy Ammo Bricks",
@@ -27283,7 +28699,16 @@
                 ]
               },
               {
-                "text": " grant 3 stacks of Accretion."
+                "text": " grant 3 stacks of "
+              },
+              {
+                "text": "Accretion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -27295,7 +28720,13 @@
           {
             "linesContent": [
               {
-                "text": "Accretion:"
+                "text": "Accretion",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": ":"
               }
             ]
           },
@@ -28015,14 +29446,41 @@
           {
             "linesContent": [
               {
-                "text": "Grants Blade Focus Ready for 1 second."
+                "text": "Grants "
+              },
+              {
+                "text": "Blade Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready for 1 second."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus."
+                "text": "Swinging while it is active AND scoring a hit consumes "
+              },
+              {
+                "text": "Blade Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " Ready to grant "
+              },
+              {
+                "text": "Blade Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -28034,7 +29492,13 @@
           {
             "linesContent": [
               {
-                "text": "Blade Focus grants 10% Increased "
+                "text": "Blade Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " grants 10% Increased "
               },
               {
                 "text": "Sword",
@@ -28059,7 +29523,13 @@
           {
             "linesContent": [
               {
-                "text": "Blade Focus is removed upon guarding or stowing the "
+                "text": "Blade Focus",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " is removed upon guarding or stowing the "
               },
               {
                 "text": "sword",
@@ -28111,7 +29581,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Reflex Action for 1.5 seconds."
+                "text": "Grants "
+              },
+              {
+                "text": "Reflex Action",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 1.5 seconds."
               }
             ]
           },
@@ -28130,7 +29609,13 @@
           {
             "linesContent": [
               {
-                "text": "Reflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds."
+                "text": "Reflex Action",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds."
               }
             ]
           }
@@ -28217,14 +29702,29 @@
           {
             "linesContent": [
               {
-                "text": "Grants Ride Together, Die Together for 3 seconds."
+                "text": "Grants "
+              },
+              {
+                "text": "Ride Together, Die Together",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 3 seconds."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Ride Together, Die Together initially grants 50% ["
+                "text": "Ride Together, Die Together",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " initially grants 50% ["
               },
               {
                 "text": "5%",
@@ -28537,7 +30037,16 @@
           {
             "linesContent": [
               {
-                "text": "Grants Opening Act for 15 seconds."
+                "text": "Grants "
+              },
+              {
+                "text": "Opening Act",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " for 15 seconds."
               }
             ]
           },
@@ -28549,7 +30058,13 @@
           {
             "linesContent": [
               {
-                "text": "Opening Act | +? Stability and +? Vent Speed to Heat Weapons. "
+                "text": "Opening Act",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " | +? Stability and +? Vent Speed to Heat Weapons. "
               },
               {
                 "text": "Primary Weapons",
@@ -28822,7 +30337,13 @@
           {
             "linesContent": [
               {
-                "text": "SUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds."
+                "text": "SUROS Harmony",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " | +? Handling and ?% Flinch Resist for 6 seconds."
               }
             ]
           },
@@ -28848,7 +30369,13 @@
           {
             "linesContent": [
               {
-                "text": "SUROS Harmony persists through stow, but only on the weapon that it was triggered on."
+                "text": "SUROS Harmony",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " persists through stow, but only on the weapon that it was triggered on."
               }
             ]
           },
@@ -30741,13 +32268,13 @@
                 "text": "Damage dealt to "
               },
               {
-                "text": "Void",
+                "text": "Void Overshields",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Overshields does not stop Health Regeneration."
+                "text": " does not stop Health Regeneration."
               }
             ]
           },
@@ -30836,13 +32363,13 @@
                 "text": "Lasts 25 seconds before disappearing. Incurs a 5 second cooldown between "
               },
               {
-                "text": "Void",
+                "text": "Void Breach",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Breach spawns."
+                "text": " spawns."
               }
             ]
           }

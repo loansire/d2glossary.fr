@@ -26,6 +26,13 @@
   font-family: var(--font-destiny-symbols);
 }
 
+/* === SELF-NAME === */
+.perkname {
+  text-decoration: underline;
+  color: var(--color-weapon);
+  font-style: italic;
+}
+
 /* === WEAPON SYMBOLS === */
 .weapon-auto-rifle,
 .weapon-pulse-rifle,

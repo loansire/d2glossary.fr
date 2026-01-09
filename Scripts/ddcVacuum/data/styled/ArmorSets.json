@@ -35,7 +35,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants Force Converter."
+              "text": "Grants "
+            },
+            {
+              "text": "Force Converter",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -47,7 +56,16 @@
         {
           "linesContent": [
             {
-              "text": "Sprinting while Force Converter is active grants "
+              "text": "Sprinting while "
+            },
+            {
+              "text": "Force Converter",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " is active grants "
             },
             {
               "text": "Speed Booster",
@@ -221,7 +239,16 @@
         {
           "linesContent": [
             {
-              "text": "Can only trigger once per Reactive Shock activation."
+              "text": "Can only trigger once per "
+            },
+            {
+              "text": "Reactive Shock",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " activation."
             }
           ]
         }
@@ -330,7 +357,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death."
+              "text": "Grants stacks of "
+            },
+            {
+              "text": "Accretion",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to a maximum of 20 stacks. Stacks persist until death."
             }
           ]
         },
@@ -343,7 +379,16 @@
               ]
             },
             {
-              "text": " grant 1 stack of Accretion. "
+              "text": " grant 1 stack of "
+            },
+            {
+              "text": "Accretion",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ". "
             },
             {
               "text": "Heavy Ammo Bricks",
@@ -352,7 +397,16 @@
               ]
             },
             {
-              "text": " grant 3 stacks of Accretion."
+              "text": " grant 3 stacks of "
+            },
+            {
+              "text": "Accretion",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -364,7 +418,13 @@
         {
           "linesContent": [
             {
-              "text": "Accretion:"
+              "text": "Accretion",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
             }
           ]
         },
@@ -1084,14 +1144,41 @@
         {
           "linesContent": [
             {
-              "text": "Grants Blade Focus Ready for 1 second."
+              "text": "Grants "
+            },
+            {
+              "text": "Blade Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ready for 1 second."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus."
+              "text": "Swinging while it is active AND scoring a hit consumes "
+            },
+            {
+              "text": "Blade Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ready to grant "
+            },
+            {
+              "text": "Blade Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -1103,7 +1190,13 @@
         {
           "linesContent": [
             {
-              "text": "Blade Focus grants 10% Increased "
+              "text": "Blade Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants 10% Increased "
             },
             {
               "text": "Sword",
@@ -1128,7 +1221,13 @@
         {
           "linesContent": [
             {
-              "text": "Blade Focus is removed upon guarding or stowing the "
+              "text": "Blade Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " is removed upon guarding or stowing the "
             },
             {
               "text": "sword",
@@ -1180,7 +1279,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants Reflex Action for 1.5 seconds."
+              "text": "Grants "
+            },
+            {
+              "text": "Reflex Action",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 1.5 seconds."
             }
           ]
         },
@@ -1199,7 +1307,13 @@
         {
           "linesContent": [
             {
-              "text": "Reflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds."
+              "text": "Reflex Action",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds."
             }
           ]
         }
@@ -1286,14 +1400,29 @@
         {
           "linesContent": [
             {
-              "text": "Grants Ride Together, Die Together for 3 seconds."
+              "text": "Grants "
+            },
+            {
+              "text": "Ride Together, Die Together",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 3 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Ride Together, Die Together initially grants 50% ["
+              "text": "Ride Together, Die Together",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " initially grants 50% ["
             },
             {
               "text": "5%",
@@ -1606,7 +1735,16 @@
         {
           "linesContent": [
             {
-              "text": "Grants Opening Act for 15 seconds."
+              "text": "Grants "
+            },
+            {
+              "text": "Opening Act",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 15 seconds."
             }
           ]
         },
@@ -1618,7 +1756,13 @@
         {
           "linesContent": [
             {
-              "text": "Opening Act | +? Stability and +? Vent Speed to Heat Weapons. "
+              "text": "Opening Act",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | +? Stability and +? Vent Speed to Heat Weapons. "
             },
             {
               "text": "Primary Weapons",
@@ -1891,7 +2035,13 @@
         {
           "linesContent": [
             {
-              "text": "SUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds."
+              "text": "SUROS Harmony",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | +? Handling and ?% Flinch Resist for 6 seconds."
             }
           ]
         },
@@ -1917,7 +2067,13 @@
         {
           "linesContent": [
             {
-              "text": "SUROS Harmony persists through stow, but only on the weapon that it was triggered on."
+              "text": "SUROS Harmony",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " persists through stow, but only on the weapon that it was triggered on."
             }
           ]
         },

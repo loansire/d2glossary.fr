@@ -782,14 +782,26 @@
         {
           "linesContent": [
             {
-              "text": "Synergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
+              "text": "Synergy",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Synergy has its own cooldown depending on the spawned Pickup:"
+              "text": "Synergy",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " has its own cooldown depending on the spawned Pickup:"
             }
           ]
         },
@@ -865,7 +877,16 @@
         {
           "linesContent": [
             {
-              "text": "Kills during Synergy's cooldown do not contribute to the activation."
+              "text": "Kills during "
+            },
+            {
+              "text": "Synergy",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "'s cooldown do not contribute to the activation."
             }
           ]
         }

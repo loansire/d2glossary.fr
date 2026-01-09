@@ -123,7 +123,16 @@
               ]
             },
             {
-              "text": " grants Kill Shot to all weapons with the mod equipped."
+              "text": " grants "
+            },
+            {
+              "text": "Kill Shot",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " to all weapons with the mod equipped."
             }
           ]
         }
@@ -145,14 +154,41 @@
         {
           "linesContent": [
             {
-              "text": "Grants Opening Salvo Ready until firing."
+              "text": "Grants "
+            },
+            {
+              "text": "Opening Salvo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ready until firing."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Once Opening Salvo expires, Opening Salvo Ready can be reobtained after 5 seconds of not receiving damage."
+              "text": "Once "
+            },
+            {
+              "text": "Opening Salvo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " expires, "
+            },
+            {
+              "text": "Opening Salvo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ready can be reobtained after 5 seconds of not receiving damage."
             }
           ]
         },
@@ -164,7 +200,13 @@
         {
           "linesContent": [
             {
-              "text": "Opening Salvo | +20 Range, ?% Increased Flinch, and damage staggers "
+              "text": "Opening Salvo",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | +20 Range, ?% Increased Flinch, and damage staggers "
             },
             {
               "text": "Unstoppable Champions",
