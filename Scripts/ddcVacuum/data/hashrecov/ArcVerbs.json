@@ -12,9 +12,10 @@
     "parentHash": "2935077680"
   },
   {
-    "Name": "Ionic Traces",
+    "Name": "Ionic Trace",
     "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user.",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3824458961,
+    "parentHash": "3824458961"
   },
   {
     "Name": "Blind",
@@ -23,8 +24,9 @@
     "parentHash": "500183315"
   },
   {
-    "Name": "Jolt",
+    "Name": "Jolted",
     "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage.",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3221118171,
+    "parentHash": "3221118171"
   }
 ]

@@ -9953,10 +9953,12 @@
     }
   },
   {
-    "Name": "Vanguard's Determination",
+    "Name": "Vanguard Determination",
     "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
     "Comment": "Vanguard\nRitual",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 3846229553,
+    "parentHash": "3846229553",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -9969,16 +9971,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants a stack of "
-            },
-            {
-              "text": "Vanguard's Determination",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for 10 "
+              "text": "Grants a stack of Vanguard's Determination for 10 "
             },
             {
               "text": "↑12.5",
@@ -10001,16 +9994,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff remains active through stow, and stacks are shared across different weapons with the "
-            },
-            {
-              "text": "Vanguard's Determination",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " trait."
+              "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
             }
           ]
         },
@@ -10022,13 +10006,90 @@
         {
           "linesContent": [
             {
-              "text": "Vanguard's Determination",
+              "text": "Vanguard's Determination:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 4% | 6% Damage Resist."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to 12.5 seconds.",
               "classNames": [
-                "perkname"
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Vanguard Determination",
+    "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Comment": "Vanguard\nRitual",
+    "hash": 1621842933,
+    "parentHash": "1621842933",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of Vanguard's Determination for 10 "
+            },
+            {
+              "text": "↑12.5",
+              "classNames": [
+                "enhancedArrow"
               ]
             },
             {
-              "text": ":"
+              "text": " seconds, up to a maximum of 3 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Vanguard's Determination:"
             }
           ]
         },

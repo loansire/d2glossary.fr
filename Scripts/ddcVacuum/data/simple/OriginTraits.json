@@ -325,7 +325,7 @@
     "Comment": "Season of the Deep\nReckoning Reprises"
   },
   {
-    "Name": "Vanguard's Determination",
+    "Name": "Vanguard Determination",
     "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
     "Comment": "Vanguard\nRitual"
   },

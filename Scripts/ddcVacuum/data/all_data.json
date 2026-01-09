@@ -37,7 +37,7 @@
       "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds."
     },
     {
-      "Name": "Alloy Mag",
+      "Name": "Alloy Magazine",
       "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine."
     },
     {
@@ -617,7 +617,7 @@
       "Description": "While maintaining a movement speed of at least 2 meters per second:\nGrants x1 Perpetual Motion after 2 seconds, and x2 Perpetual Motion after 10 ↑9 seconds.\nBuff can be activated while stowed, and persists through stow, as long as criteria is met. Buff lingers for 0.5 seconds once criteria isn't met.\n\nPerpetual Motion x1 | +10 Stability, +10 Handling, and +10 Reload Speed.\nPerpetual Motion x2 | +20 Stability, +20 Handling and +20 Reload Speed.\n\n↑Perpetual Motion x2 is activated in 9 seconds."
     },
     {
-      "Name": "Phase Mag",
+      "Name": "Phase Magazine",
       "Description": "Sets the Submachine Gun's Damage and Magazine Profile into that of a Precision Frame's.\nDoes not change the intrinsic Frame bonus."
     },
     {
@@ -1585,7 +1585,7 @@
       "Comment": "Season of the Deep\nReckoning Reprises"
     },
     {
-      "Name": "Vanguard's Determination",
+      "Name": "Vanguard Determination",
       "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
       "Comment": "Vanguard\nRitual"
     },
@@ -1945,7 +1945,7 @@
       "Description": "On Sniper Rifle Direct Hit:\nGrant a stack of Sniper's Meditation for 7 seconds.\nHeavy Sniper Rifle hits grant 2 stacks.\nSniper's Meditation Buff persists through stow.\n\nSniper's Meditation \nIncreased Damage, Stability, and Reload Speed.\n3% | 6% | 9% | 12 | 15% Increased Damage\n+? | +? | +? | +? | +? Stability\n+15 | +30 | +35 | +40 | +45 Reload Speed"
     },
     {
-      "Name": "Overload Submachine Guns",
+      "Name": "Overload Submachine Gun",
       "Description": "For Submachine Guns without an intrinsic Breaker Type:\n\nSustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds."
     },
     {
@@ -1995,7 +1995,7 @@
       "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Glaive Melee | Gifted Conviction's Explosives"
     },
     {
-      "Name": "Ionic Traces",
+      "Name": "Ionic Trace",
       "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user."
     },
     {
@@ -2003,7 +2003,7 @@
       "Description": "Blinded Combatants are disoriented, rendering them unable to attack or use abilities for 10 seconds.\n\nBlinded Guardians have their HUD removed, screen whitened, and audio distorted for 3 seconds.\n\nUnstoppable Champions become Stunned upon being Blinded. "
     },
     {
-      "Name": "Jolt",
+      "Name": "Jolted",
       "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage."
     }
   ],

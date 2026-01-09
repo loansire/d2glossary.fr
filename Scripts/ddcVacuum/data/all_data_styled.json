@@ -2057,9 +2057,70 @@
       }
     },
     {
-      "Name": "Alloy Mag",
+      "Name": "Alloy Magazine",
       "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine.",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": 1431678320,
+      "parentHash": "1431678320",
+      "hash_warning": "Multiple matches found (2 total)",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon starting a reload, while at or below 50% Magazine Capacity:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Linearly grants up to 0.8x "
+              },
+              {
+                "text": "↑0.75x",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " Reload Duration Multiplier."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Perk dynamically scales from 0.9x "
+              },
+              {
+                "text": "↑0.85x",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " Reload Duration Multiplier at 50% Magazine, up to 0.8x "
+              },
+              {
+                "text": "↑0.75x",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " Reload Duration Multiplier at 0% Magazine."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Alloy Magazine",
+      "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine.",
+      "hash": 550838496,
+      "parentHash": "550838496",
+      "hash_warning": "Multiple matches found (2 total)",
       "descriptions": {
         "en": [
           {
@@ -30776,9 +30837,10 @@
       }
     },
     {
-      "Name": "Phase Mag",
+      "Name": "Phase Magazine",
       "Description": "Sets the Submachine Gun's Damage and Magazine Profile into that of a Precision Frame's.\nDoes not change the intrinsic Frame bonus.",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": 830282363,
+      "parentHash": "830282363",
       "descriptions": {
         "en": [
           {
@@ -79018,10 +79080,12 @@
       }
     },
     {
-      "Name": "Vanguard's Determination",
+      "Name": "Vanguard Determination",
       "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
       "Comment": "Vanguard\nRitual",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": 3846229553,
+      "parentHash": "3846229553",
+      "hash_warning": "Multiple matches found (2 total)",
       "descriptions": {
         "en": [
           {
@@ -79034,16 +79098,7 @@
           {
             "linesContent": [
               {
-                "text": "Grants a stack of "
-              },
-              {
-                "text": "Vanguard's Determination",
-                "classNames": [
-                  "perkname"
-                ]
-              },
-              {
-                "text": " for 10 "
+                "text": "Grants a stack of Vanguard's Determination for 10 "
               },
               {
                 "text": "↑12.5",
@@ -79066,16 +79121,7 @@
           {
             "linesContent": [
               {
-                "text": "Buff remains active through stow, and stacks are shared across different weapons with the "
-              },
-              {
-                "text": "Vanguard's Determination",
-                "classNames": [
-                  "perkname"
-                ]
-              },
-              {
-                "text": " trait."
+                "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
               }
             ]
           },
@@ -79087,13 +79133,90 @@
           {
             "linesContent": [
               {
-                "text": "Vanguard's Determination",
+                "text": "Vanguard's Determination:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "2% | 4% | 6% Damage Resist."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "↑Buff duration is increased to 12.5 seconds.",
                 "classNames": [
-                  "perkname"
+                  "enhancedArrow"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Vanguard Determination",
+      "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
+      "Comment": "Vanguard\nRitual",
+      "hash": 1621842933,
+      "parentHash": "1621842933",
+      "hash_warning": "Multiple matches found (2 total)",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants a stack of Vanguard's Determination for 10 "
+              },
+              {
+                "text": "↑12.5",
+                "classNames": [
+                  "enhancedArrow"
                 ]
               },
               {
-                "text": ":"
+                "text": " seconds, up to a maximum of 3 stacks."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Scoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Buff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Vanguard's Determination:"
               }
             ]
           },
@@ -83554,9 +83677,13 @@
       }
     },
     {
-      "Name": "Overload Submachine Guns",
+      "Name": "Overload Submachine Gun",
       "Description": "For Submachine Guns without an intrinsic Breaker Type:\n\nSustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds.",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": "805688323",
+      "parentHash": "2894222926",
+      "parentName": "Implement of Curiosity",
+      "tierIndex": 0,
+      "tierTitle": "Tier 1",
       "descriptions": {
         "en": [
           {
@@ -84772,9 +84899,10 @@
       }
     },
     {
-      "Name": "Ionic Traces",
+      "Name": "Ionic Trace",
       "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user.",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": 3824458961,
+      "parentHash": "3824458961",
       "descriptions": {
         "en": [
           {
@@ -84883,9 +85011,10 @@
       }
     },
     {
-      "Name": "Jolt",
+      "Name": "Jolted",
       "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage.",
-      "hash_warning": "No matching hash found in d2glossary",
+      "hash": 3221118171,
+      "parentHash": "3221118171",
       "descriptions": {
         "en": [
           {

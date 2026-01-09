@@ -2056,9 +2056,70 @@
     }
   },
   {
-    "Name": "Alloy Mag",
+    "Name": "Alloy Magazine",
     "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine.",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 1431678320,
+    "parentHash": "1431678320",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon starting a reload, while at or below 50% Magazine Capacity:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Linearly grants up to 0.8x "
+            },
+            {
+              "text": "↑0.75x",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Reload Duration Multiplier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Perk dynamically scales from 0.9x "
+            },
+            {
+              "text": "↑0.85x",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Reload Duration Multiplier at 50% Magazine, up to 0.8x "
+            },
+            {
+              "text": "↑0.75x",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Reload Duration Multiplier at 0% Magazine."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Alloy Magazine",
+    "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine.",
+    "hash": 550838496,
+    "parentHash": "550838496",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -30775,9 +30836,10 @@
     }
   },
   {
-    "Name": "Phase Mag",
+    "Name": "Phase Magazine",
     "Description": "Sets the Submachine Gun's Damage and Magazine Profile into that of a Precision Frame's.\nDoes not change the intrinsic Frame bonus.",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 830282363,
+    "parentHash": "830282363",
     "descriptions": {
       "en": [
         {

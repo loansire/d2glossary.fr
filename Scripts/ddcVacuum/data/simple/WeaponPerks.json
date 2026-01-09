@@ -36,7 +36,7 @@
     "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds."
   },
   {
-    "Name": "Alloy Mag",
+    "Name": "Alloy Magazine",
     "Description": "Upon starting a reload, while at or below 50% Magazine Capacity:\nLinearly grants up to 0.8x ↑0.75x Reload Duration Multiplier.\nPerk dynamically scales from 0.9x ↑0.85x Reload Duration Multiplier at 50% Magazine, up to 0.8x ↑0.75x Reload Duration Multiplier at 0% Magazine."
   },
   {
@@ -616,7 +616,7 @@
     "Description": "While maintaining a movement speed of at least 2 meters per second:\nGrants x1 Perpetual Motion after 2 seconds, and x2 Perpetual Motion after 10 ↑9 seconds.\nBuff can be activated while stowed, and persists through stow, as long as criteria is met. Buff lingers for 0.5 seconds once criteria isn't met.\n\nPerpetual Motion x1 | +10 Stability, +10 Handling, and +10 Reload Speed.\nPerpetual Motion x2 | +20 Stability, +20 Handling and +20 Reload Speed.\n\n↑Perpetual Motion x2 is activated in 9 seconds."
   },
   {
-    "Name": "Phase Mag",
+    "Name": "Phase Magazine",
     "Description": "Sets the Submachine Gun's Damage and Magazine Profile into that of a Precision Frame's.\nDoes not change the intrinsic Frame bonus."
   },
   {

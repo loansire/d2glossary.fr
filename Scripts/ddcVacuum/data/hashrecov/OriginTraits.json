@@ -813,10 +813,20 @@
     "parentHash": "2053642371"
   },
   {
-    "Name": "Vanguard's Determination",
+    "Name": "Vanguard Determination",
     "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
     "Comment": "Vanguard\nRitual",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3846229553,
+    "parentHash": "3846229553",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Vanguard Determination",
+    "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Comment": "Vanguard\nRitual",
+    "hash": 1621842933,
+    "parentHash": "1621842933",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Vanguard's Vindication",

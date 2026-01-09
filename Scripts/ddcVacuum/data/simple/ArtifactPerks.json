@@ -60,7 +60,7 @@
     "Description": "On Sniper Rifle Direct Hit:\nGrant a stack of Sniper's Meditation for 7 seconds.\nHeavy Sniper Rifle hits grant 2 stacks.\nSniper's Meditation Buff persists through stow.\n\nSniper's Meditation \nIncreased Damage, Stability, and Reload Speed.\n3% | 6% | 9% | 12 | 15% Increased Damage\n+? | +? | +? | +? | +? Stability\n+15 | +30 | +35 | +40 | +45 Reload Speed"
   },
   {
-    "Name": "Overload Submachine Guns",
+    "Name": "Overload Submachine Gun",
     "Description": "For Submachine Guns without an intrinsic Breaker Type:\n\nSustained Fire for 0.6 seconds grants Overloading Shots until no longer firing for 0.6 seconds."
   },
   {
