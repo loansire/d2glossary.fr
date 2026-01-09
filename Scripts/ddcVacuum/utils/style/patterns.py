@@ -250,9 +250,6 @@ STYLE_PATTERNS = {
 
 # Order of pattern application (important for overlapping matches)
 STYLES_ORDER = [
-    # PRIORITÉ MAXIMALE : Pattern dynamique du nom de l'item
-    "perk_name_reference",
-
     # Values first (most specific)
     "pvp_value",
     "enhanced_arrow_text",
@@ -266,6 +263,9 @@ STYLES_ORDER = [
     "strand_keywords",
     "kinetic_keywords",
     "prismatic_keywords",
+
+    # PRIORITÉ MAXIMALE : Pattern dynamique du nom de l'item
+    "perk_name_reference",
 
     # Champions
     "barrier_champion",
