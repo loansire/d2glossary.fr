@@ -18,73 +18,61 @@ def find_hash_matches(
     Recherche tous les hash correspondant à un nom dans les données d2glossary.
     La comparaison des noms est insensible à la casse.
 
+    Supporte les structures imbriquées avec array_path utilisant la notation:
+    - "setPerks" : array simple
+    - "tiers.items" : array imbriqué (parcourt tiers[], puis items[] dans chaque tier)
+
     Args:
         vacuum_name: Le nom à rechercher (ex: "Force Converter")
         glossary_data: Les données d2glossary complètes
-        name_path: Chemin vers le champ name (ex: "setPerks.displayProperties.name")
-        hash_path: Chemin vers le champ hash (ex: "setPerks.sandboxPerkHash")
-        array_path: Chemin optionnel vers un array (ex: "setPerks")
+        name_path: Chemin vers le champ name (ex: "tiers.items.name")
+        hash_path: Chemin vers le champ hash (ex: "tiers.items.perkHash")
+        array_path: Chemin optionnel vers un array (ex: "tiers.items")
 
     Returns:
-        Liste de dictionnaires contenant les matches trouvés:
-        [
-            {
-                "name": "Force Converter",
-                "hash": 2140508055,
-                "parent_hash": 1223381128,  # Hash du parent (ex: hash du set)
-                "parent_name": "AION Renewal"
-            }
-        ]
-
-    Example:
-        >>> matches = find_hash_matches(
-        ...     "Force Converter",
-        ...     glossary_data,
-        ...     "setPerks.displayProperties.name",
-        ...     "setPerks.sandboxPerkHash",
-        ...     "setPerks"
-        ... )
+        Liste de dictionnaires contenant les matches trouvés
     """
     matches = []
 
     # Parcourir tous les items du glossary
     for parent_hash, item in glossary_data.items():
-        # Si array_path est spécifié, on doit chercher dans un array
         if array_path:
-            array = get_nested_value(item, array_path)
+            # Collecter tous les éléments à vérifier (gère les arrays imbriqués)
+            elements = _collect_nested_elements(item, array_path)
 
-            if not array or not isinstance(array, list):
-                continue
+            for element, element_context in elements:
+                # Calculer le chemin relatif pour name et hash
+                element_name_path = _get_relative_path(name_path, array_path)
+                element_hash_path = _get_relative_path(hash_path, array_path)
 
-            # Parcourir chaque élément de l'array
-            for element in array:
-                # Extraire le nom depuis l'élément de l'array
-                # On retire le préfixe array_path du name_path
-                element_name_path = name_path.replace(f"{array_path}.", "")
                 element_name = get_nested_value(element, element_name_path)
 
                 # Vérifier si le nom correspond (insensible à la casse)
-                if element_name and element_name.strip().lower() == vacuum_name.strip().lower():
-                    # Extraire le hash depuis l'élément de l'array
-                    element_hash_path = hash_path.replace(f"{array_path}.", "")
+                # Ignorer les éléments sans nom ou avec nom vide
+                if element_name and element_name.strip() and element_name.strip().lower() == vacuum_name.strip().lower():
                     element_hash = get_nested_value(element, element_hash_path)
 
+                    # Ignorer si pas de hash ou hash null
                     if element_hash:
-                        # Récupérer le nom du parent
                         parent_name = get_nested_value(item, "displayProperties.name")
 
-                        matches.append({
+                        match_info = {
                             "name": element_name,
                             "hash": element_hash,
                             "parent_hash": parent_hash,
                             "parent_name": parent_name
-                        })
+                        }
+
+                        # Ajouter le contexte (ex: tier info pour artifacts)
+                        if element_context:
+                            match_info["context"] = element_context
+
+                        matches.append(match_info)
         else:
             # Cas simple : recherche directe dans l'item
             item_name = get_nested_value(item, name_path)
 
-            # Vérifier si le nom correspond (insensible à la casse)
-            if item_name and item_name.strip().lower() == vacuum_name.strip().lower():
+            if item_name and item_name.strip() and item_name.strip().lower() == vacuum_name.strip().lower():
                 item_hash = get_nested_value(item, hash_path)
 
                 if item_hash:
@@ -96,6 +84,82 @@ def find_hash_matches(
                     })
 
     return matches
+
+
+def _collect_nested_elements(data: Dict[str, Any], array_path: str) -> List[tuple]:
+    """
+    Collecte tous les éléments d'un chemin d'arrays imbriqués.
+
+    Args:
+        data: Dictionnaire source
+        array_path: Chemin avec notation pointée (ex: "tiers.items")
+
+    Returns:
+        Liste de tuples (element, context) où context contient des infos sur le parent
+
+    Example:
+        Pour array_path="tiers.items":
+        - Parcourt data["tiers"] (array)
+        - Pour chaque tier, parcourt tier["items"] (array)
+        - Retourne tous les items avec leur contexte (tier info)
+    """
+    path_parts = array_path.split('.')
+
+    def recurse(current_data, remaining_path, context=None):
+        """Récursivement collecter les éléments"""
+        if context is None:
+            context = {}
+
+        if not remaining_path:
+            # Fin du chemin, retourner l'élément actuel
+            return [(current_data, context)]
+
+        current_key = remaining_path[0]
+        rest_path = remaining_path[1:]
+
+        current_array = current_data.get(current_key) if isinstance(current_data, dict) else None
+
+        if not current_array or not isinstance(current_array, list):
+            return []
+
+        results = []
+        for i, element in enumerate(current_array):
+            # Créer un contexte enrichi pour cet élément
+            new_context = context.copy()
+
+            # Ajouter des infos de contexte utiles
+            if current_key == "tiers" and isinstance(element, dict):
+                new_context["tierIndex"] = i
+                new_context["tierTitle"] = element.get("displayTitle", f"Tier {i+1}")
+
+            # Continuer la récursion
+            results.extend(recurse(element, rest_path, new_context))
+
+        return results
+
+    return recurse(data, path_parts)
+
+
+def _get_relative_path(full_path: str, array_path: str) -> str:
+    """
+    Calcule le chemin relatif après le array_path.
+
+    Args:
+        full_path: Chemin complet (ex: "tiers.items.name")
+        array_path: Chemin de l'array (ex: "tiers.items")
+
+    Returns:
+        Chemin relatif (ex: "name")
+    """
+    if not array_path:
+        return full_path
+
+    # Retirer le préfixe array_path du full_path
+    if full_path.startswith(array_path + "."):
+        return full_path[len(array_path) + 1:]
+
+    # Si le chemin ne commence pas par array_path, retourner tel quel
+    return full_path
 
 
 def enrich_record_with_hashes(
@@ -112,13 +176,6 @@ def enrich_record_with_hashes(
 
     Returns:
         Liste de records enrichis (un par match)
-
-    Example:
-        >>> record = {"Name": "Force Converter", "Description": "..."}
-        >>> matches = [{"hash": 2140508055, "parent_hash": 1223381128, ...}]
-        >>> enriched = enrich_record_with_hashes(record, matches)
-        >>> enriched[0]["hash"]
-        2140508055
     """
     if not matches:
         # Aucun match trouvé : retourner le record original avec hash = None
@@ -134,8 +191,13 @@ def enrich_record_with_hashes(
         enriched_record["hash"] = match["hash"]
         enriched_record["parentHash"] = match["parent_hash"]
 
-        if match["parent_name"]:
+        if match.get("parent_name"):
             enriched_record["parentName"] = match["parent_name"]
+
+        # Ajouter le contexte si présent (ex: tier info)
+        if match.get("context"):
+            for key, value in match["context"].items():
+                enriched_record[key] = value
 
         # Ajouter un warning si plusieurs matches
         if len(matches) > 1:

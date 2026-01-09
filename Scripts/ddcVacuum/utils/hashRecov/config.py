@@ -16,6 +16,10 @@ DDCVACUUM_BASE = "data/simple"
 #         "array_path": "optional.path.to.array" (si le hash est dans un array)
 #     }
 # }
+#
+# Pour les arrays imbriqués, utiliser la notation pointée:
+#   - "setPerks" : array simple à la racine de l'item
+#   - "tiers.items" : parcourt tiers[], puis items[] dans chaque tier
 
 HASH_MAPPINGS = {
     "ArmorSets": {
@@ -23,6 +27,13 @@ HASH_MAPPINGS = {
         "name_path": "setPerks.displayProperties.name",
         "hash_path": "setPerks.sandboxPerkHash",
         "array_path": "setPerks"  # Les données sont dans un array setPerks
+    },
+
+    "ArtifactPerks": {
+        "source": "artefact_definitions_enriched.json",
+        "name_path": "tiers.items.name",
+        "hash_path": "tiers.items.perkHash",
+        "array_path": "tiers.items"  # Array imbriqué: tiers[] -> items[]
     },
 
     # Verbs - Tous utilisent trait_definitions.json
@@ -91,7 +102,6 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    # Ajouter d'autres mappings ici au fur et à mesure
 }
 
 
