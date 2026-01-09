@@ -575,7 +575,13 @@
         {
           "linesContent": [
             {
-              "text": "Unraveled Enemies release 3 seeking threads towards enemies within ? metres 0.25 seconds after receiving 40 damage."
+              "text": "Unraveled",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Enemies release 3 seeking threads towards enemies within ? metres 0.25 seconds after receiving 40 damage."
             }
           ]
         },

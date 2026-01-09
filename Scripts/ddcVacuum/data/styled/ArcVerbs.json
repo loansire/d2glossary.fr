@@ -378,13 +378,13 @@
         {
           "linesContent": [
             {
-              "text": "Volatile",
+              "text": "Volatile Explosions",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Explosions | "
+              "text": " | "
             },
             {
               "text": "Freeze",
@@ -414,13 +414,13 @@
               "text": " on Bosses) | "
             },
             {
-              "text": "Tangle",
+              "text": "Tangle Explosions",
               "classNames": [
                 "strand"
               ]
             },
             {
-              "text": " Explosions | "
+              "text": " | "
             },
             {
               "text": "Threadlings",
@@ -432,13 +432,13 @@
               "text": " | "
             },
             {
-              "text": "Unraveling",
+              "text": "Unraveling Threads",
               "classNames": [
                 "strand"
               ]
             },
             {
-              "text": " Threads | "
+              "text": " | "
             },
             {
               "text": "Suspend",
@@ -490,10 +490,10 @@
               ]
             },
             {
-              "text": " (from Non-Abilities) | Crystal "
+              "text": " (from Non-Abilities) | "
             },
             {
-              "text": "Shatter",
+              "text": "Crystal Shatter",
               "classNames": [
                 "stasis"
               ]

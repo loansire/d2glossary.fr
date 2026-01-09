@@ -581,13 +581,13 @@
               "text": " Shields are able to be damaged, stunning the Champion when destroyed while "
             },
             {
-              "text": "Volatile",
+              "text": "Volatile Rounds",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Rounds are active."
+              "text": " are active."
             }
           ]
         }

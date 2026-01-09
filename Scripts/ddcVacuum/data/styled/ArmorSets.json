@@ -1601,7 +1601,16 @@
               ]
             },
             {
-              "text": " towards Combatant Shields, Overshields, Vehicles, and Constructs."
+              "text": " towards Combatant Shields, "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", Vehicles, and Constructs."
             }
           ]
         },
@@ -1617,7 +1626,16 @@
               ]
             },
             {
-              "text": " towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
+              "text": " towards Combatant Shields and Combatant "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ". Damage shows up as Yellow Numbers."
             }
           ]
         },

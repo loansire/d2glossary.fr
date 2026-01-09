@@ -6097,13 +6097,13 @@
                 "text": "Grants "
               },
               {
-                "text": "Volatile",
+                "text": "Volatile Rounds",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Rounds for 3 "
+                "text": " for 3 "
               },
               {
                 "text": "↑4.5",
@@ -11023,13 +11023,13 @@
                 "text": " reduces the amount of hits needed to trigger "
               },
               {
-                "text": "Jolting Feedback",
+                "text": "Jolting",
                 "classNames": [
-                  "perkname"
+                  "arc"
                 ]
               },
               {
-                "text": "."
+                "text": " Feedback."
               }
             ]
           },
@@ -16311,7 +16311,16 @@
           {
             "linesContent": [
               {
-                "text": "Buff can be activated while stowed, and persists through stow. If the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
+                "text": "Buff can be activated while stowed, and persists through stow. If the "
+              },
+              {
+                "text": "severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
               }
             ]
           },
@@ -19483,7 +19492,16 @@
                 ]
               },
               {
-                "text": " Increased Damage against Combatant Overshields."
+                "text": " Increased Damage against Combatant "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -19504,7 +19522,16 @@
                 ]
               },
               {
-                "text": " Increased Damage against Guardian Overshields."
+                "text": " Increased Damage against Guardian "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -26292,14 +26319,32 @@
           {
             "linesContent": [
               {
-                "text": "21.6% Increased Damage against Combatant Overshields."
+                "text": "21.6% Increased Damage against Combatant "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "15.6% Increased Damage against Guardian Overshields."
+                "text": "15.6% Increased Damage against Guardian "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
               }
             ]
           },
@@ -29903,7 +29948,16 @@
                 ]
               },
               {
-                "text": " towards Combatant Shields, Overshields, Vehicles, and Constructs."
+                "text": " towards Combatant Shields, "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ", Vehicles, and Constructs."
               }
             ]
           },
@@ -29919,7 +29973,16 @@
                 ]
               },
               {
-                "text": " towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers."
+                "text": " towards Combatant Shields and Combatant "
+              },
+              {
+                "text": "Overshields",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ". Damage shows up as Yellow Numbers."
               }
             ]
           },
@@ -30770,13 +30833,13 @@
           {
             "linesContent": [
               {
-                "text": "Volatile",
+                "text": "Volatile Explosions",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Explosions | "
+                "text": " | "
               },
               {
                 "text": "Freeze",
@@ -30806,13 +30869,13 @@
                 "text": " on Bosses) | "
               },
               {
-                "text": "Tangle",
+                "text": "Tangle Explosions",
                 "classNames": [
                   "strand"
                 ]
               },
               {
-                "text": " Explosions | "
+                "text": " | "
               },
               {
                 "text": "Threadlings",
@@ -30824,13 +30887,13 @@
                 "text": " | "
               },
               {
-                "text": "Unraveling",
+                "text": "Unraveling Threads",
                 "classNames": [
                   "strand"
                 ]
               },
               {
-                "text": " Threads | "
+                "text": " | "
               },
               {
                 "text": "Suspend",
@@ -30882,10 +30945,10 @@
                 ]
               },
               {
-                "text": " (from Non-Abilities) | Crystal "
+                "text": " (from Non-Abilities) | "
               },
               {
-                "text": "Shatter",
+                "text": "Crystal Shatter",
                 "classNames": [
                   "stasis"
                 ]
@@ -32624,13 +32687,13 @@
                 "text": " Shields are able to be damaged, stunning the Champion when destroyed while "
               },
               {
-                "text": "Volatile",
+                "text": "Volatile Rounds",
                 "classNames": [
                   "void"
                 ]
               },
               {
-                "text": " Rounds are active."
+                "text": " are active."
               }
             ]
           }
@@ -34314,7 +34377,13 @@
           {
             "linesContent": [
               {
-                "text": "Unraveled Enemies release 3 seeking threads towards enemies within ? metres 0.25 seconds after receiving 40 damage."
+                "text": "Unraveled",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Enemies release 3 seeking threads towards enemies within ? metres 0.25 seconds after receiving 40 damage."
               }
             ]
           },

@@ -3552,14 +3552,32 @@
         {
           "linesContent": [
             {
-              "text": "21.6% Increased Damage against Combatant Overshields."
+              "text": "21.6% Increased Damage against Combatant "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "15.6% Increased Damage against Guardian Overshields."
+              "text": "15.6% Increased Damage against Guardian "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },

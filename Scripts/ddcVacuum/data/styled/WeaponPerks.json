@@ -6096,13 +6096,13 @@
               "text": "Grants "
             },
             {
-              "text": "Volatile",
+              "text": "Volatile Rounds",
               "classNames": [
                 "void"
               ]
             },
             {
-              "text": " Rounds for 3 "
+              "text": " for 3 "
             },
             {
               "text": "↑4.5",
@@ -11022,13 +11022,13 @@
               "text": " reduces the amount of hits needed to trigger "
             },
             {
-              "text": "Jolting Feedback",
+              "text": "Jolting",
               "classNames": [
-                "perkname"
+                "arc"
               ]
             },
             {
-              "text": "."
+              "text": " Feedback."
             }
           ]
         },
@@ -16310,7 +16310,16 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be activated while stowed, and persists through stow. If the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
+              "text": "Buff can be activated while stowed, and persists through stow. If the "
+            },
+            {
+              "text": "severing",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
             }
           ]
         },
@@ -19482,7 +19491,16 @@
               ]
             },
             {
-              "text": " Increased Damage against Combatant Overshields."
+              "text": " Increased Damage against Combatant "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
@@ -19503,7 +19521,16 @@
               ]
             },
             {
-              "text": " Increased Damage against Guardian Overshields."
+              "text": " Increased Damage against Guardian "
+            },
+            {
+              "text": "Overshields",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         },
