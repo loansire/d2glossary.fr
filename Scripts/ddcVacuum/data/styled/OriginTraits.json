@@ -3,6 +3,72 @@
     "Name": "Air-Cooled Core",
     "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
     "Comment": "Renegade Weapons\nDestination",
+    "hash": 1309453587,
+    "parentHash": "1309453587",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While at Full Magazine or Heat <=10%?:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Handling and ?% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Decreased ADS Movement Speed Penalty."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon sprinting for 0.5 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants +? Reload/Vent Speed for 6? seconds"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Air-Cooled Core",
+    "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
+    "Comment": "Renegade Weapons\nDestination",
+    "hash": 4280607931,
+    "parentHash": "4280607931",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -63,6 +129,399 @@
     "Name": "Accelerated Assault",
     "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
     "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 3713579091,
+    "parentHash": "3713579091",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 2671305723,
+    "parentHash": "2671305723",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 2697390518,
+    "parentHash": "2697390518",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 1847323754,
+    "parentHash": "1847323754",
+    "hash_warning": "Multiple matches found (4 total)",
     "descriptions": {
       "en": [
         {
@@ -190,6 +649,8 @@
     "Name": "Advanced Reflexes",
     "Description": "Upon ADS or Guarding within 1 second of receiving damage:\nGrants +30 Mobility, +30 Handling, and +20 Charge Rate for 7.5 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
     "Comment": "Dreaming City Reprises\nDestination",
+    "hash": 930692523,
+    "parentHash": "930692523",
     "descriptions": {
       "en": [
         {
@@ -220,6 +681,61 @@
     "Name": "Alacrity",
     "Description": "While 1 ally is dead:\n+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist.",
     "Comment": "Trials of Osiris\nRitual",
+    "hash": 2988596335,
+    "parentHash": "2988596335",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While 1 ally is dead:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While 2 allies are dead or while Solo:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work in the Rumble Crucible Playlist."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Alacrity",
+    "Description": "While 1 ally is dead:\n+10 Range, +10 Stability, +25 Reload Speed, and +5 Aim Assist.\n\nWhile 2 allies are dead or while Solo:\n+20 Range, +20 Stability, +50 Reload Speed, and +10 Aim Assist.\nDoes not work in the Rumble Crucible Playlist.",
+    "Comment": "Trials of Osiris\nRitual",
+    "hash": 532888623,
+    "parentHash": "532888623",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -269,6 +785,8 @@
     "Name": "Ambush",
     "Description": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:\n+20 Range, +20 Handling, and Increased Damage against Combatants for 2 seconds after dealing or receiving any damage.\nBows additionally receive a 0.85x ↑0.7x Draw Time Multiplier while active.\n\nDamage Increase:\nLinear Fusion: 8.88%\nBow, Glaive, Machine Gun, Pulse Rifle, and Trace Rifle: 10.78%",
     "Comment": "Season of the Seraph",
+    "hash": 192157151,
+    "parentHash": "192157151",
     "descriptions": {
       "en": [
         {
@@ -388,6 +906,8 @@
     "Name": "Bitterspite",
     "Description": "While this weapon is readied:\nGrants a stack of Bitterspite for every 20 damage taken, up to 5 stacks after receiving 100 damage.\n\nBitterspite:\n+10 | +20 | +30 | +40 | +50 Reload Speed.\n0.97x | 0.96x | 0.95x | 0.92x | 0.9x Reload Duration Multiplier.\nStacks are consumed upon reloading.",
     "Comment": "Duality Dungeon",
+    "hash": 4154828211,
+    "parentHash": "4154828211",
     "descriptions": {
       "en": [
         {
@@ -459,6 +979,69 @@
     "Name": "Bray Inheritance",
     "Description": "Grants Grenade, Melee, and Class Ability Energy per damage instance.\n\nPosterity: 0.45% | Trustee: 0.35%\nHeritage: 0.85% | Succession: 1.5%\nBequest: 2% | Commemoration: 0.4%\n\n↑Increased amount of Energy gained.",
     "Comment": "Deep Stone Crypt\nRaid",
+    "hash": 766321425,
+    "parentHash": "766321425",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade, Melee, and Class Ability Energy per damage instance."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Posterity: 0.45% | Trustee: 0.35%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Heritage: 0.85% | Succession: 1.5%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bequest: 2% | Commemoration: 0.4%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Increased amount of Energy gained.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bray Inheritance",
+    "Description": "Grants Grenade, Melee, and Class Ability Energy per damage instance.\n\nPosterity: 0.45% | Trustee: 0.35%\nHeritage: 0.85% | Succession: 1.5%\nBequest: 2% | Commemoration: 0.4%\n\n↑Increased amount of Energy gained.",
+    "Comment": "Deep Stone Crypt\nRaid",
+    "hash": 1501421141,
+    "parentHash": "1501421141",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -516,6 +1099,248 @@
     "Name": "Bray Legacy",
     "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% ↑?%\n\n↑25% Increased Ability Energy.",
     "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons",
+    "hash": 4139916815,
+    "parentHash": "4139916815",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains per damage instance:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Vesper's Host Weapons"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Adaptive Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " (VS Pyroelectric Propellant) = 0.2%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Area-Denial "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " (VS Velocity Baton) = 0.365%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Adaptive Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": " (VS Gravitic Arrest) = 0.425%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rapid-Fire Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " (VS Chill Inhibitor) = 3.5%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Seasonal Weapons"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rapid-Fire Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " (Ahab Char) = ?% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "High-Impact Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": " (Jurisprudent) = ?% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Lightweight Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": " (Faustus Decline) = ?% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rapid-Fire Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": " (Shortline Dissident) = ?% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " (Haliaetus) + "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " (Eighty-Six)= 17% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑25%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Increased Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bray Legacy",
+    "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% ↑?%\n\n↑25% Increased Ability Energy.",
+    "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons",
+    "hash": 4232410959,
+    "parentHash": "4232410959",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -752,6 +1577,8 @@
     "Name": "Cast No Shadows",
     "Description": "Upon dealing Melee Damage:\nGrants +? Handling for ? seconds and refills 20% of Magazine.",
     "Comment": "Season of Dawn Reprises",
+    "hash": 2838996248,
+    "parentHash": "2838996248",
     "descriptions": {
       "en": [
         {
@@ -775,6 +1602,8 @@
     "Name": "Classy Contender",
     "Description": "On Weapon Kill:\nGrants 5% Class Ability Energy.",
     "Comment": "Guardian Games\nEvent",
+    "hash": 1702976605,
+    "parentHash": "1702976605",
     "descriptions": {
       "en": [
         {
@@ -798,6 +1627,8 @@
     "Name": "Collective Purpose",
     "Description": "Grants a stack of Collective Purpose per ally within 15 meters.\n\nCollective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack.\n+? | +? | +? | +? | +? Range\n+5? | +15 | +20? | +? | +? Handling\n0.97x | 0.95x | 0.925x | +? | +? Draw Time Multiplier\n+5 | +10 | +15 | +? | +? Charge Rate",
     "Comment": "Salvation's Edge\nRaid",
+    "hash": 1878756191,
+    "parentHash": "1878756191",
     "descriptions": {
       "en": [
         {
@@ -869,6 +1700,118 @@
     "Name": "Contending Cascade",
     "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills.",
     "Comment": "Call To Arms\nEvent",
+    "hash": 934928524,
+    "parentHash": "934928524",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Contending Cascade",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
+            },
+            {
+              "text": "↑12",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Renames to Crowning Cascade upon reaching 15 "
+            },
+            {
+              "text": "↑12",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks are lost on death."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Contending Cascade",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage over ? meters."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑The requirement to be impressed is lowered to 12 rapid kills.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Contending Cascade",
+    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills.",
+    "Comment": "Call To Arms\nEvent",
+    "hash": 2691822036,
+    "parentHash": "2691822036",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -975,6 +1918,8 @@
     "Name": "Crossing Over",
     "Description": "For the top 50% of the Magazine:\nLinearly grants +10 Range and +? Handling, down to +5 Range and +? Handling.\n\nFor the bottom 50% of the Magazine:\nLinearly grants 1.5% increased damage, up to +3% increased damage.",
     "Comment": "Prophecy Reprises\r\nDungeon",
+    "hash": 4129855581,
+    "parentHash": "4129855581",
     "descriptions": {
       "en": [
         {
@@ -1017,6 +1962,8 @@
     "Name": "Cursed Thrall",
     "Description": "On Melee Kill:\nWeapon Kills cause the enemy to explode, dealing up to 123.5 [?] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds.\nDamage against Combatants scales with Combatant Rank Modifiers.",
     "Comment": "Crota's End\nRaid",
+    "hash": 1156201379,
+    "parentHash": "1156201379",
     "descriptions": {
       "en": [
         {
@@ -1056,6 +2003,8 @@
     "Name": "Dark Ether Reaper",
     "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% | Elites = ?% | Minibosses+ = 100% | Guardians = 25%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nIncurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count.",
     "Comment": "Episode: Revenant",
+    "hash": 2041432007,
+    "parentHash": "2041432007",
     "descriptions": {
       "en": [
         {
@@ -1175,6 +2124,81 @@
     "Name": "Dawning Surprise",
     "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 16.7% ↑20% | Elites, Minibosses, and Bosses = 50% | Guardians = 16.7% ↑20%\n\nSpawns a 📦Box-Shaped Dawning Gift for the user and their allies, which remains on the ground for up to 10 seconds.\n\nDawning Gift:\nGrants 10% Grenade, Melee, and Class Ability Energy, restores 22 HP and begins Health Regeneration on pickup.",
     "Comment": "Dawning\nEvent",
+    "hash": 4264904777,
+    "parentHash": "4264904777",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon reaching 100% Counter Progress by scoring Weapon Kills:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-And-File = 16.7% "
+            },
+            {
+              "text": "↑20%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Elites, Minibosses, and Bosses = 50% | Guardians = 16.7% "
+            },
+            {
+              "text": "↑20%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a 📦Box-Shaped Dawning Gift for the user and their allies, which remains on the ground for up to 10 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dawning Gift:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 10% Grenade, Melee, and Class Ability Energy, restores 22 HP and begins Health Regeneration on pickup."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dawning Surprise",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 16.7% ↑20% | Elites, Minibosses, and Bosses = 50% | Guardians = 16.7% ↑20%\n\nSpawns a 📦Box-Shaped Dawning Gift for the user and their allies, which remains on the ground for up to 10 seconds.\n\nDawning Gift:\nGrants 10% Grenade, Melee, and Class Ability Energy, restores 22 HP and begins Health Regeneration on pickup.",
+    "Comment": "Dawning\nEvent",
+    "hash": 3299164941,
+    "parentHash": "3299164941",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -1244,6 +2268,8 @@
     "Name": "Dealer's Choice",
     "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% | x2 = +1.6% | x3 = +3% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X | Still Hunt",
     "Comment": "The Pale Heart\nDestination",
+    "hash": 1988485648,
+    "parentHash": "1988485648",
     "descriptions": {
       "en": [
         {
@@ -1316,6 +2342,8 @@
     "Name": "Disaster Plan",
     "Description": "Upon firing/swinging, after picking up an Ammo Brick:\nGrants +15 Range and 15% Flinch Resist for 1.5 seconds. \nSwords receive +100 Charge Rate for 1.5 seconds.",
     "Comment": "Season of the Deep\nGambit Prime Reprises",
+    "hash": 1004814308,
+    "parentHash": "1004814308",
     "descriptions": {
       "en": [
         {
@@ -1352,6 +2380,8 @@
     "Name": "Dragon's Vengeance",
     "Description": "Upon reaching Critical Health, or on Ally Death:\nRefills magazine. \nGrants +5 Range, +10? Handling, and 0.975x Charge/Draw Time Multiplier for 11 seconds.",
     "Comment": "Season of the Wish",
+    "hash": 3978094547,
+    "parentHash": "3978094547",
     "descriptions": {
       "en": [
         {
@@ -1382,6 +2412,62 @@
     "Name": "Dream Work",
     "Description": "Upon scoring an assist, or scoring a kill on an enemy damaged by an ally, up to once per reload:\nRefills 66% of Magazine and grants +? Reload Speed for ? seconds. \nBows are additionally granted 0.?x Draw Time Multiplier.\nRefill can overflow, up to 66% Increased Magazine Capacity. \nBuff can be triggered while stowed if the weapon did damage. ",
     "Comment": "Solstice\nEvent",
+    "hash": 1380061575,
+    "parentHash": "1380061575",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring an assist, or scoring a kill on an enemy damaged by an ally, up to once per reload:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 66% of Magazine and grants +? Reload Speed for ? seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " are additionally granted 0.?x Draw Time Multiplier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refill can overflow, up to 66% Increased Magazine Capacity."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be triggered while stowed if the weapon did damage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dream Work",
+    "Description": "Upon scoring an assist, or scoring a kill on an enemy damaged by an ally, up to once per reload:\nRefills 66% of Magazine and grants +? Reload Speed for ? seconds. \nBows are additionally granted 0.?x Draw Time Multiplier.\nRefill can overflow, up to 66% Increased Magazine Capacity. \nBuff can be triggered while stowed if the weapon did damage. ",
+    "Comment": "Solstice\nEvent",
+    "hash": 1198287879,
+    "parentHash": "1198287879",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -1432,6 +2518,81 @@
     "Name": "Exhaustive Research",
     "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
     "Comment": "Kepler\nDestination",
+    "hash": 1906137414,
+    "parentHash": "1906137414",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While ADS near an enemy within 60 meters:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Loads up a Micro-Rocket over 0.6 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Explosive Damage over ? meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 5.5 second cooldown after firing a missile before it is able to load another rocket."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Rocket Damage is improved.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Damage seems to vary?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Exhaustive Research",
+    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Comment": "Kepler\nDestination",
+    "hash": 1278990682,
+    "parentHash": "1278990682",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -1501,6 +2662,8 @@
     "Name": "Explosive Pact",
     "Description": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of Explosive Pact, up to 5 stacks for 7.5 seconds\nHealing Grenades grant a stack each time the Healing Orb is picked up, either by allies or the caster.\n\n Each stack of Explosive Pact grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nExplosive Pact:\n+? | +? | +? | +? | +? Stability\n+8 | +16 | +20 | +24 | +44 Reload Speed\n0.98x | 0.98x | 0.975x | 0.96x | 0.945x Reload Duration Multiplier",
     "Comment": "Last Wish Reprises\nRaid",
+    "hash": 1489048135,
+    "parentHash": "1489048135",
     "descriptions": {
       "en": [
         {
@@ -1600,6 +2763,8 @@
     "Name": "Extrovert",
     "Description": "After 0.25 seconds of scoring a Weapon Kill while within 15 metres of 3 enemies or a Nightmare:\nRestores 60 HP.\nGlaive Melee Kills can also trigger the effect.\n\nIncurs a 3 second cooldown after activation.",
     "Comment": "Season of the Haunted",
+    "hash": 1250481499,
+    "parentHash": "1250481499",
     "descriptions": {
       "en": [
         {
@@ -1648,6 +2813,453 @@
     "Name": "Field-Tested",
     "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
     "Comment": "Field-Forged Foundry",
+    "hash": 2120661319,
+    "parentHash": "2120661319",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is only removed on death."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Field Test Stat Bonuses:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+3 | +6 | +9 | +12 | +20 Range"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +30? Stability"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +? Handling"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +35 | +50 Reload Speed"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +35 | +55 Charge Rate"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +30 | +40 Guard Resistance"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x51 | x151 | x351 | x651 | x1001"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x26 | x76 | x176 | x326 | x501"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x11 | x31 | x71 | x131 | x201"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counter Information:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills for Counter:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Shotguns",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": " receive x5 Points from kills."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Snipers receive x4 Points from hits, and 2.5x from kills."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Breech-Loaded "
+            },
+            {
+              "text": "Grenade Launchers",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " receive x2 Points from kills."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Field-Tested",
+    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
+    "Comment": "Field-Forged Foundry",
+    "hash": 1064478151,
+    "parentHash": "1064478151",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is only removed on death."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Field Test Stat Bonuses:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+3 | +6 | +9 | +12 | +20 Range"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +30? Stability"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +? Handling"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +35 | +50 Reload Speed"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +35 | +55 Charge Rate"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +10 | +20 | +30 | +40 Guard Resistance"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x51 | x151 | x351 | x651 | x1001"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x26 | x76 | x176 | x326 | x501"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x11 | x31 | x71 | x131 | x201"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Counter Information:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills for Counter:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Shotguns",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": " receive x5 Points from kills."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Snipers receive x4 Points from hits, and 2.5x from kills."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Breech-Loaded "
+            },
+            {
+              "text": "Grenade Launchers",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " receive x2 Points from kills."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Field-Tested",
+    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
+    "Comment": "Field-Forged Foundry",
+    "hash": 43555494,
+    "parentHash": "43555494",
+    "hash_warning": "Multiple matches found (3 total)",
     "descriptions": {
       "en": [
         {
@@ -1867,6 +3479,120 @@
     "Name": "Fleet Footed",
     "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
     "Comment": "Trials of Osiris\nRitual",
+    "hash": 65797256,
+    "parentHash": "65797256",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fleet Footed",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+            },
+            {
+              "text": "↑6",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing additional Weapon Damage refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fleet Footed",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? "
+            },
+            {
+              "text": "↑6",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing additional Weapon Damage refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is removed on stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to ? seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Fleet Footed",
+    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
+    "Comment": "Trials of Osiris\nRitual",
+    "hash": 1939575288,
+    "parentHash": "1939575288",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -1975,6 +3701,134 @@
     "Name": "Frame of Reference",
     "Description": "On Weapon Kill:\nGrants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks.\nAdditional Weapon Kills refresh the buff duration.\nFrame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second.\n\nFrame of Reference x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed.",
     "Comment": "Desert Perpetual\nRaid",
+    "hash": 2597494435,
+    "parentHash": "2597494435",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 8 seconds, up to a maximum of 5 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapon Kills refresh the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " timer is paused while stowed. Remaining duration is rounded up to the nearest second."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frame of Reference",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Frame of Reference",
+    "Description": "On Weapon Kill:\nGrants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks.\nAdditional Weapon Kills refresh the buff duration.\nFrame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second.\n\nFrame of Reference x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed.",
+    "Comment": "Desert Perpetual\nRaid",
+    "hash": 943022827,
+    "parentHash": "943022827",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -2097,6 +3951,8 @@
     "Name": "Gravity Well",
     "Description": "Upon finishing a reload:\nPick ups Ammo Bricks within 15 meters.\nTriggers On-Ammo Pickup Synergies. Also works on Motes and Crests.",
     "Comment": "Rites of the Nine",
+    "hash": 59871045,
+    "parentHash": "59871045",
     "descriptions": {
       "en": [
         {
@@ -2127,6 +3983,8 @@
     "Name": "Gun and Run",
     "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 10 seconds of each:\nRank-and-File = 34% | Elite = 100% | Guardians = 100%\n\n6.25% Increased Sprinting Speed for 10 seconds.\nBuff remains active while stowed.",
     "Comment": "Gambit\r\nRitual",
+    "hash": 515704826,
+    "parentHash": "515704826",
     "descriptions": {
       "en": [
         {
@@ -2169,6 +4027,103 @@
     "Name": "Hakke Breach Armaments",
     "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.\n\n↑Increased Damage Bonus.\n20% against Vehicles | 60% against Turrets and Constructs",
     "Comment": "Häkke\nFoundry",
+    "hash": 1607056502,
+    "parentHash": "1607056502",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants increased damage against Vehicles, Turrets, and Constructs."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "15% "
+            },
+            {
+              "text": "↑20%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks)."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "30% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Increased Damage against Turrets and Constructs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "45?% Increased Damage against "
+            },
+            {
+              "text": "Stasis Crystals",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Increased Damage Bonus.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "20% against Vehicles | 60% against Turrets and Constructs"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Hakke Breach Armaments",
+    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.\n\n↑Increased Damage Bonus.\n20% against Vehicles | 60% against Turrets and Constructs",
+    "Comment": "Häkke\nFoundry",
+    "hash": 250902314,
+    "parentHash": "250902314",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -2260,6 +4215,8 @@
     "Name": "Harmonic Resonance",
     "Description": "Equipping more than one Root of Nightmares Weapon grants increased Handling, Reload Speed, and damage towards enemies wielding Light and Darkness.\nList of enemies affected: \nDread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS.\n\nx1 = +10 Handling, 0.95x Reload Duration Multiplier, and 3.33% increased damage.\nx2 = +20 Handling, +20 Reload Speed, 0.95x Reload Duration Multiplier, and 10% increased damage.",
     "Comment": "Root of Nightmare\nRaid\n\nEpochal Integration HC",
+    "hash": 3186078099,
+    "parentHash": "3186078099",
     "descriptions": {
       "en": [
         {
@@ -2318,6 +4275,8 @@
     "Name": "Head Rush",
     "Description": "Upon standing up, after crouching for 2 seconds:\n+? Handling and +10 Reload Speed for 5 seconds.",
     "Comment": "Season of the Witch",
+    "hash": 2565067140,
+    "parentHash": "2565067140",
     "descriptions": {
       "en": [
         {
@@ -2341,6 +4300,8 @@
     "Name": "Hot Swap",
     "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 Handling for 4 seconds.\nSwords are granted +100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds.\nBuff persists through stow.",
     "Comment": "Dares of Eternity",
+    "hash": 1260401931,
+    "parentHash": "1260401931",
     "descriptions": {
       "en": [
         {
@@ -2384,6 +4345,8 @@
     "Name": "Indomitability",
     "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% Melee Ability Energy.",
     "Comment": "Brave Foundry",
+    "hash": 2489430594,
+    "parentHash": "2489430594",
     "descriptions": {
       "en": [
         {
@@ -2426,6 +4389,151 @@
     "Name": "Imperial Allegiance",
     "Description": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks.\n\nImperial Allegiance grants 1.035x Cooling Multiplier, and +? Charge Rate per stack.\nAdditonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy.\n\nImperial Allegiance x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% [?%] increased damage.\nImperial Allegiance x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% [?%] increased damage.\nImperial Allegiance x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% [?%] increased damage.",
     "Comment": "Equilibrium \nDungeon",
+    "hash": 1164078247,
+    "parentHash": "1164078247",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " per ally within 15 meters, up to a maximum of 3 stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants 1.035x Cooling Multiplier, and +? Charge Rate per stack."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additonally, each stack grants 3.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage while above 50% Heat/below ?% "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Imperial Allegiance",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Imperial Allegiance",
+    "Description": "Grants a stack of Imperial Allegiance per ally within 15 meters, up to a maximum of 3 stacks.\n\nImperial Allegiance grants 1.035x Cooling Multiplier, and +? Charge Rate per stack.\nAdditonally, each stack grants 3.5% [?%] increased damage while above 50% Heat/below ?% Sword Energy.\n\nImperial Allegiance x1 | 1.035x Cooling Multiplier, +? Charge Rate, and 3.5% [?%] increased damage.\nImperial Allegiance x2 | 1.07x Cooling Multiplier, +? Charge Rate, and 7% [?%] increased damage.\nImperial Allegiance x3 | 1.105x Cooling Multiplier, +? Charge Rate, and 10.5% [?%] increased damage.",
+    "Comment": "Equilibrium \nDungeon",
+    "hash": 2957461671,
+    "parentHash": "2957461671",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -2565,6 +4673,8 @@
     "Name": "Land Tank",
     "Description": "On Weapon Kill:\n+10 Health and 5% Damage Resist against Combatants per stack for 5 seconds, up to a maximum of 3 stacks.\nBuff remains active while stowed.",
     "Comment": "Season of the Risen",
+    "hash": 1536798515,
+    "parentHash": "1536798515",
     "descriptions": {
       "en": [
         {
@@ -2595,6 +4705,272 @@
     "Name": "Nadir Focus",
     "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds.\nNadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nSidearms = Reach maximum stacks after 5 shots.\n+? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n+? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% Accuracy Cone Size\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity",
     "Comment": "NADIR\nFoundry",
+    "hash": 2509860981,
+    "parentHash": "2509860981",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon firing a weapon or swinging a "
+            },
+            {
+              "text": "sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants stacks of "
+            },
+            {
+              "text": "Nadir Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 2 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Nadir Focus",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Lunge Distance at max stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Firing or swinging refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is removed on stow. Stack amount varies"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "NADIR Focus",
+              "classNames": [
+                "perkname"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": "? =  Reach maximum stacks after 11 shots."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 5 shots."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +? | +10 Range"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "-?% | -?% | -?% | -?% | -?% Accuracy Cone Size"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hand Cannons",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Scout Rifles",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 4 shots."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? | +? | +? | +10 Range"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "-?% | -?% | -?% | -?% Accuracy Cone Size"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after 5 swings."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "20% | 40% | 60% | 80% | 100% Increased "
+            },
+            {
+              "text": "Sword",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " Lunge Distance"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Launchers",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " = Reach maximum stacks after ? shots."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "?% | ?% | ?% | ?% Increased Projectile Velocity"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Nadir Focus",
+    "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds.\nNadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nSidearms = Reach maximum stacks after 5 shots.\n+? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n+? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% Accuracy Cone Size\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity",
+    "Comment": "NADIR\nFoundry",
+    "hash": 1585115329,
+    "parentHash": "1585115329",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -2855,6 +5231,92 @@
     "Name": "Nail, Meet Hammer",
     "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
     "Comment": "Season of Renegades\nEvents",
+    "hash": 2152442764,
+    "parentHash": "2152442764",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Passively grants ?% increased damage towards Combatant Shields."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.?x "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress Multiplier for "
+            },
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Power Weapons",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.?x "
+            },
+            {
+              "text": "Power Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " Progress Multiplier for "
+            },
+            {
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Nail, Meet Hammer",
+    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
+    "Comment": "Season of Renegades\nEvents",
+    "hash": 1209885908,
+    "parentHash": "1209885908",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -2935,6 +5397,8 @@
     "Name": "Nano-Munitions",
     "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% per stack consumed.",
     "Comment": "Season of the Wish\r\nUndying Reprises",
+    "hash": 19542588,
+    "parentHash": "19542588",
     "descriptions": {
       "en": [
         {
@@ -3017,6 +5481,230 @@
     "Name": "Nanotech Tracer Missiles",
     "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24  [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 45% of Magazine.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\nIncurs a 1 second cooldown between firing a missile and additional hits counting towards the next missile.",
     "Comment": "Neomuna\nDestination",
+    "hash": 164468655,
+    "parentHash": "164468655",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Automatically shoots a Tracking Missile that matches Weapon's Damage Type."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Missile deals 22.4 ["
+            },
+            {
+              "text": "14",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Impact Damage and 24  ["
+            },
+            {
+              "text": "15",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Explosive Damage on hit."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 25% Increased Damage"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Machine Gun",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": ": 50% Increased Damage"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 100% Increased Damage"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ": 150% Increased Damage"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hits required to trigger Tracking Missile:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hand Cannon",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Pulse Rifle",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": ": 45% of Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": ?% of Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 50?% of Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 30% of Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Machine Gun",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": ": 25% of Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1 second cooldown between firing a missile and additional hits counting towards the next missile."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Nanotech Tracer Missiles",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24  [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 45% of Magazine.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\nIncurs a 1 second cooldown between firing a missile and additional hits counting towards the next missile.",
+    "Comment": "Neomuna\nDestination",
+    "hash": 967107980,
+    "parentHash": "967107980",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -3235,6 +5923,8 @@
     "Name": "Noble Deeds",
     "Description": "Upon buffing an ally through Healing, Revives, Empowerment, or with a Subclass Verb:\nGrants x10 Noble Deeds, up to a maximum of 10 stacks. \nScoring a kill consumes 1 [2] stacks of Noble Deeds.\nBuff can be activated while stowed, and persists through stow.\n\nNoble Deeds grants +30 Handling and +30 Reload Speed. Swords receive +20 Charge Rate.",
     "Comment": "Season of Defiance",
+    "hash": 1823011807,
+    "parentHash": "1823011807",
     "descriptions": {
       "en": [
         {
@@ -3326,6 +6016,42 @@
     "Name": "Omolon Fluid Dynamics",
     "Description": "For the top 50% of the Magazine:\n Up to +20 Stability and +30 Reload Speed.\nBenefits are linearly decreased as Magazine reaches 50%.",
     "Comment": "Omolon\nFoundry",
+    "hash": 2839173408,
+    "parentHash": "2839173408",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "For the top 50% of the Magazine:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Up to +20 Stability and +30 Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Benefits are linearly decreased as Magazine reaches 50%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Omolon Fluid Dynamics",
+    "Description": "For the top 50% of the Magazine:\n Up to +20 Stability and +30 Reload Speed.\nBenefits are linearly decreased as Magazine reaches 50%.",
+    "Comment": "Omolon\nFoundry",
+    "hash": 1186131696,
+    "parentHash": "1186131696",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -3356,6 +6082,110 @@
     "Name": "One Quiet Moment",
     "Description": "After having maintained a state of not dealing or receiving damage for 1 seconds:\nOne Quiet Moment x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier. \nSwords grant up to 12.5% Increased Movement Speed.\n\nAfter having maintained a state of not dealing or receiving damage for 2 seconds:\nOne Quiet Moment x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier. \nSwords grant up to 25% Increased Movement Speed.\n\nOne Quiet Moment stacks disappear upon stowing.",
     "Comment": "Crucible\nRitual",
+    "hash": 4091460919,
+    "parentHash": "4091460919",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of not dealing or receiving damage for 1 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " grant up to 12.5% Increased Movement Speed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of not dealing or receiving damage for 2 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " grant up to 25% Increased Movement Speed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "One Quiet Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " stacks disappear upon stowing."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "One Quiet Moment",
+    "Description": "After having maintained a state of not dealing or receiving damage for 1 seconds:\nOne Quiet Moment x1 | +10 Handling, +20 Reload Speed, and 0.975x Reload Duration Multiplier. \nSwords grant up to 12.5% Increased Movement Speed.\n\nAfter having maintained a state of not dealing or receiving damage for 2 seconds:\nOne Quiet Moment x2 | +20 Handling, +40 Reload Speed, and 0.95x Reload Duration Multiplier. \nSwords grant up to 25% Increased Movement Speed.\n\nOne Quiet Moment stacks disappear upon stowing.",
+    "Comment": "Crucible\nRitual",
+    "hash": 4102814423,
+    "parentHash": "4102814423",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -3454,6 +6284,8 @@
     "Name": "Paracausal Fluid",
     "Description": "Upon dealing damage:\nGrants 2 stacks of Paracausal Fluid for 3 seconds.\nBuff remains active through stow, lingering at 1 stack. \nSwapping back to the Paracausal Fluid weapon will return to 2 stacks.\n\nParacausal Fluid x1 | +? Mobility\nParacausal Fluid x2 | +? Handling, +50 Mobility, and +90 Charge Rate.",
     "Comment": "Season of Arrivals Reprises",
+    "hash": 1600429811,
+    "parentHash": "1600429811",
     "descriptions": {
       "en": [
         {
@@ -3540,6 +6372,8 @@
     "Name": "Photoinhibition",
     "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% Increased Damage against Combatant Overshields.\n15.6% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for ? seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
     "Comment": "Garden of Salvation Reprises\nRaid",
+    "hash": 511914882,
+    "parentHash": "511914882",
     "descriptions": {
       "en": [
         {
@@ -3647,6 +6481,133 @@
     "Name": "Problem Solver",
     "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds.",
     "Comment": "Pinnacle Ops\nPortal Playlist",
+    "hash": 3454102905,
+    "parentHash": "3454102905",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+50? Reload Speed and +50? Handling for 10 "
+            },
+            {
+              "text": "↑12.5",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Exhaust and buff can be refreshed by retriggering the perk. Buff persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": 12"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Pulse",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": ": 11"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " & "
+            },
+            {
+              "text": "both GLs",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ": 3"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to 12.5 seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Problem Solver",
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Comment": "Pinnacle Ops\nPortal Playlist",
+    "hash": 2223800157,
+    "parentHash": "2223800157",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -3768,6 +6729,1440 @@
     "Name": "Psychohack",
     "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
+    "hash": 883366072,
+    "parentHash": "883366072",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 3754350707,
+    "parentHash": "3754350707",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 79448657,
+    "parentHash": "79448657",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 567997816,
+    "parentHash": "567997816",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 2171055345,
+    "parentHash": "2171055345",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 82180537,
+    "parentHash": "82180537",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 1471995745,
+    "parentHash": "1471995745",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 1598147670,
+    "parentHash": "1598147670",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 3717985200,
+    "parentHash": "3717985200",
+    "hash_warning": "Multiple matches found (10 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring multiple hits within 3 seconds of each against an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts Exhaust. Guardians additionally deal 10% decreased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect cannot be refreshed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit Requirement:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3 Hits: "
+            },
+            {
+              "text": "Bow",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " (Projectile/Melee), "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "7 Hits: "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12 Hits: "
+            },
+            {
+              "text": "Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13 Hits: "
+            },
+            {
+              "text": "Submachine Gun",
+              "classNames": [
+                "weapon-smg"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "14 Hits: "
+            },
+            {
+              "text": "Fusion Rifle",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16 Hits: "
+            },
+            {
+              "text": "Auto Rifle",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Psychohack",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Comment": "Throne World\nDestination",
+    "hash": 357495645,
+    "parentHash": "357495645",
+    "hash_warning": "Multiple matches found (10 total)",
     "descriptions": {
       "en": [
         {
@@ -3924,6 +8319,8 @@
     "Name": "Radiolaria Transposer",
     "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 8 seconds of each:\nRank-And-File = 34% | Elite+ = 100% | Guardians = ?%\nStowing the weapon resets the Counter.\n\nTarget explodes, dealing up to 67.5 [?] damage over 3? meters, and creating a Radiolaria Pool under them.\nRadiolaria Pools deal 15 [?] Arc Damage every 0.65 seconds over ? meters for ? seconds, up to 3? times.\nDamage against Combatants scales with Combatant Rank Modifiers. Counts as Weapon Damage, and is affected by Damage Buffs.",
     "Comment": "Episode: Echoes",
+    "hash": 253121539,
+    "parentHash": "253121539",
     "descriptions": {
       "en": [
         {
@@ -4007,6 +8404,8 @@
     "Name": "Rasputin's Arsenal",
     "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% of Magazine.",
     "Comment": "Season of the Seraph:\nIKELOS_v1.0.3\nSeraph",
+    "hash": 566815328,
+    "parentHash": "566815328",
     "descriptions": {
       "en": [
         {
@@ -4039,6 +8438,8 @@
     "Name": "Restoration Ritual",
     "Description": "On Ally Revival or Finisher:\nRefills Magazine.\nGrants Restoration Ritual.\nConsumes Restoration Ritual when Magazine reaches 0 Ammo, refilling the magazine.\nBuff persists through stow.",
     "Comment": "Ghosts of the Deep\nDungeon",
+    "hash": 398661035,
+    "parentHash": "398661035",
     "descriptions": {
       "en": [
         {
@@ -4101,6 +8502,8 @@
     "Name": "Right Hook",
     "Description": "Upon dealing Melee Damage:\n +10 Range and +10 Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
     "Comment": "Season of Plunder",
+    "hash": 3907865655,
+    "parentHash": "3907865655",
     "descriptions": {
       "en": [
         {
@@ -4138,6 +8541,59 @@
     "Name": "Roar of Battle",
     "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
     "Comment": "Crucible\nRitual",
+    "hash": 1673863459,
+    "parentHash": "1673863459",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+10? Stability and +10? Handling for 6 "
+            },
+            {
+              "text": "↑?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to ? seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Roar of Battle",
+    "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+    "Comment": "Crucible\nRitual",
+    "hash": 4236235115,
+    "parentHash": "4236235115",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4185,6 +8641,61 @@
     "Name": "Runneth Over",
     "Description": "Upon finishing a reload while within 15 metres of allies:\nIncreases Magazine Capacity by 10% for each ally nearby.\nBows receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies.\nSwords receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies.",
     "Comment": "King's Fall \nRaid\n\nShiny Heretical Weapons",
+    "hash": 120721526,
+    "parentHash": "120721526",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload while within 15 metres of allies:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Increases Magazine Capacity by 10% for each ally nearby."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Runneth Over",
+    "Description": "Upon finishing a reload while within 15 metres of allies:\nIncreases Magazine Capacity by 10% for each ally nearby.\nBows receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies.\nSwords receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies.",
+    "Comment": "King's Fall \nRaid\n\nShiny Heretical Weapons",
+    "hash": 1887054634,
+    "parentHash": "1887054634",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4234,6 +8745,71 @@
     "Name": "Search Party",
     "Description": "While no allies are within 15 metres: \n0.85x ↑? ADS Duration Multiplier and 10% ↑?% Decreased ADS Movement Penalty.\n\n↑? ADS Duration Multiplier and % Decreased ADS Movement Penalty.",
     "Comment": "Festival of the Lost \nEvent",
+    "hash": 2250679103,
+    "parentHash": "2250679103",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While no allies are within 15 metres:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.85x "
+            },
+            {
+              "text": "↑?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ADS Duration Multiplier and 10% "
+            },
+            {
+              "text": "↑?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Decreased ADS Movement Penalty."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ADS Duration Multiplier and % Decreased ADS Movement Penalty."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Search Party",
+    "Description": "While no allies are within 15 metres: \n0.85x ↑? ADS Duration Multiplier and 10% ↑?% Decreased ADS Movement Penalty.\n\n↑? ADS Duration Multiplier and % Decreased ADS Movement Penalty.",
+    "Comment": "Festival of the Lost \nEvent",
+    "hash": 2873651103,
+    "parentHash": "2873651103",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4293,6 +8869,73 @@
     "Name": "Skulking Wolf",
     "Description": "Upon scoring a Weapon Kill while HP ≤90: \nGrants Enhanced Radar, combatants become less accurate at targeting the user, and prevents passively pinging enemy radar for 10 ↑? seconds. \nShooting will ping enemy radar for 2 seconds. Blue Radar Blip inaccurately shows that it's only visible for 0.75 seconds.\nBuff remains active while stowed.\n\n↑Buff duration is increased to ? seconds.",
     "Comment": "Iron Banner\nRitual",
+    "hash": 3989629871,
+    "parentHash": "3989629871",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Weapon Kill while HP ≤90:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Enhanced Radar, combatants become less accurate at targeting the user, and prevents passively pinging enemy radar for 10 "
+            },
+            {
+              "text": "↑?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Shooting will ping enemy radar for 2 seconds. Blue Radar Blip inaccurately shows that it's only visible for 0.75 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff remains active while stowed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to ? seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Skulking Wolf",
+    "Description": "Upon scoring a Weapon Kill while HP ≤90: \nGrants Enhanced Radar, combatants become less accurate at targeting the user, and prevents passively pinging enemy radar for 10 ↑? seconds. \nShooting will ping enemy radar for 2 seconds. Blue Radar Blip inaccurately shows that it's only visible for 0.75 seconds.\nBuff remains active while stowed.\n\n↑Buff duration is increased to ? seconds.",
+    "Comment": "Iron Banner\nRitual",
+    "hash": 1831023215,
+    "parentHash": "1831023215",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4354,6 +8997,8 @@
     "Name": "Splicer Surge",
     "Description": "Upon finishing a reload after having dealt damage:\nGrants a stack of Splicer Surge, up to 3 stacks.\nBuff is removed on stow.\n\nSplicer Surge:\nx1 = +10? Handling, +10 Reload Speed, and 0.967x Reload Duration Multiplier.\nx2 = +20? Handling, +20 Reload Speed, and 0.934x Reload Duration Multiplier.\nx3 = +45? Handling, +45 Reload Speed, and 0.9x Reload Duration Multiplier.",
     "Comment": "Season of the Splicer\nReprises",
+    "hash": 3404929162,
+    "parentHash": "3404929162",
     "descriptions": {
       "en": [
         {
@@ -4432,6 +9077,74 @@
     "Name": "Souldrinker",
     "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 HP.\n Each Grenade Launcher hit counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
     "Comment": "Vow of the Disciple\nRaid",
+    "hash": 3363267119,
+    "parentHash": "3363267119",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores Health based on the amount of hits scored, relative to the Magazine Size."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 100% of Magazine as Hits restores 50 HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " hit counts as 50% of Magazine. "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee Attacks do not count."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit counter persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Souldrinker",
+    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 HP.\n Each Grenade Launcher hit counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
+    "Comment": "Vow of the Disciple\nRaid",
+    "hash": 3989173487,
+    "parentHash": "3989173487",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4494,6 +9207,35 @@
     "Name": "Stunning Recovery",
     "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP, begins Health Regeneration, and grants +40 Recovery for 3 seconds.",
     "Comment": "Nightfall\nRitual",
+    "hash": 1281216113,
+    "parentHash": "1281216113",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon Stunning a Champion:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills Magazine, restores 60 HP, begins Health Regeneration, and grants +40 Recovery for 3 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Stunning Recovery",
+    "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP, begins Health Regeneration, and grants +40 Recovery for 3 seconds.",
+    "Comment": "Nightfall\nRitual",
+    "hash": 3764430901,
+    "parentHash": "3764430901",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4517,6 +9259,8 @@
     "Name": "Subjugation",
     "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 (32.5 on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n\nAgainst Miniboss+:\nInflicts exhaustion for 5 seconds on hit.\n\nGuardians:\n?% Flinch Resist for ? seconds.",
     "Comment": "Sundered Doctrine\nDungeon",
+    "hash": 1298135794,
+    "parentHash": "1298135794",
     "descriptions": {
       "en": [
         {
@@ -4619,6 +9363,8 @@
     "Name": "Sundering",
     "Description": "Upon destroying a Vehicle Combatant, Construct, or breaking a Shield:\nGrants +40 Reload Speed, 0.95x Reload Duration Multiplier, and 0.9x Draw Time Multiplier for 7 seconds.\nBuff persists through stow.",
     "Comment": "Warlord's Ruin\nDungeon",
+    "hash": 220689851,
+    "parentHash": "220689851",
     "descriptions": {
       "en": [
         {
@@ -4649,6 +9395,42 @@
     "Name": "Suros Synergy",
     "Description": "Upon finishing a reload:\n+40 Handling and 20% Flinch Resist for 6 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
     "Comment": "SUROS\nFoundry",
+    "hash": 4008116374,
+    "parentHash": "4008116374",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+40 Handling and 20% Flinch Resist for 6 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be refreshed until its duration expires. Buff persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Suros Synergy",
+    "Description": "Upon finishing a reload:\n+40 Handling and 20% Flinch Resist for 6 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Comment": "SUROS\nFoundry",
+    "hash": 1292971594,
+    "parentHash": "1292971594",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4679,6 +9461,115 @@
     "Name": "Tenacity",
     "Description": "On Weapon Kill, while within 15 meters of an enemy:\nGrants a stack of Tenacity, up to a maximum of 20 stacks.\nStacks persist until death.\n\nEach Tenacity stack grants 0.5% increased damage, Handling and Reload Speed.\nGrants up to 10% increased damage, +50 ↑+? Handling, and +50 ↑+? Reload Speed at 20 stacks.\n\n↑Handling and Reload Speed is increased. Damage buff is unchanged.",
     "Comment": "Reclamation Weapons",
+    "hash": 3911709647,
+    "parentHash": "3911709647",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill, while within 15 meters of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a stack of "
+            },
+            {
+              "text": "Tenacity",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ", up to a maximum of 20 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks persist until death."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each "
+            },
+            {
+              "text": "Tenacity",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " stack grants 0.5% increased damage, Handling and Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants up to 10% increased damage, +50 "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Handling, and +50 "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Reload Speed at 20 stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Handling and Reload Speed is increased.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Damage buff is unchanged."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Tenacity",
+    "Description": "On Weapon Kill, while within 15 meters of an enemy:\nGrants a stack of Tenacity, up to a maximum of 20 stacks.\nStacks persist until death.\n\nEach Tenacity stack grants 0.5% increased damage, Handling and Reload Speed.\nGrants up to 10% increased damage, +50 ↑+? Handling, and +50 ↑+? Reload Speed at 20 stacks.\n\n↑Handling and Reload Speed is increased. Damage buff is unchanged.",
+    "Comment": "Reclamation Weapons",
+    "hash": 483923727,
+    "parentHash": "483923727",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4782,6 +9673,76 @@
     "Name": "Tex Balanced Stock",
     "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 Range, +20 Handling, +20 Reload Speed, 0.9x Reload Duration Multiplier, +1.5° Hip-Fire Precision Angle Threshold, and 10% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
     "Comment": "Tex Mechanica\nFoundry",
+    "hash": 2437618208,
+    "parentHash": "2437618208",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring 4 Hipfire Hits within 4? seconds of each:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Tex Balanced Stock",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 4 seconds. Scoring additional hipfired hits refresh the buff duration."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tex Balanced Stock",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 Range, +20 Handling, +20 Reload Speed, 0.9x Reload Duration Multiplier, +1.5° Hip-Fire Precision Angle Threshold, and 10% Decreased ADS Movement Speed Penalty."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Tex Balanced Stock",
+    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 Range, +20 Handling, +20 Reload Speed, 0.9x Reload Duration Multiplier, +1.5° Hip-Fire Precision Angle Threshold, and 10% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
+    "Comment": "Tex Mechanica\nFoundry",
+    "hash": 1043703792,
+    "parentHash": "1043703792",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -4846,6 +9807,8 @@
     "Name": "Timelost Magazine",
     "Description": "Weapon Kills grant additional +1?% Super Ability Energy.\n\nOn Super Ability End:\nRefills Magazine.\n100% Increased Base Magazine Capacity for 20 seconds. Found Verdict reloads 2 shells at a time.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.\nBuff can be activated while stowed, and persists through stow.",
     "Comment": "Vault of Glass Reprises\nRaid",
+    "hash": 2589407652,
+    "parentHash": "2589407652",
     "descriptions": {
       "en": [
         {
@@ -4918,6 +9881,8 @@
     "Name": "To Excess",
     "Description": "Upon scoring a Weapon Kill while Super Ability is charged:\n+20 Grenade and +20 Melee for 12 seconds.\nBuff persists through stow.",
     "Comment": "Season of the Haunted\nMenagerie Reprises",
+    "hash": 1905044254,
+    "parentHash": "1905044254",
     "descriptions": {
       "en": [
         {
@@ -4948,6 +9913,8 @@
     "Name": "Unsated Hunger",
     "Description": "While Grenade, Melee, and Class Abilities are all uncharged:\n+20 Stability, +60 Handling, +60 Reload Speed. \n\nSwords: +50 Charge Rate and +40 Guard Endurance",
     "Comment": "Season of the Deep\nReckoning Reprises",
+    "hash": 2053642371,
+    "parentHash": "2053642371",
     "descriptions": {
       "en": [
         {
@@ -4989,6 +9956,7 @@
     "Name": "Vanguard's Determination",
     "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
     "Comment": "Vanguard\nRitual",
+    "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
         {
@@ -5093,6 +10061,35 @@
     "Name": "Vanguard's Vindication",
     "Description": "On Weapon Kill:\nRestores 10 HP.",
     "Comment": "Vanguard\nRitual",
+    "hash": 744217850,
+    "parentHash": "744217850",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores 10 HP."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Vanguard's Vindication",
+    "Description": "On Weapon Kill:\nRestores 10 HP.",
+    "Comment": "Vanguard\nRitual",
+    "hash": 1799391606,
+    "parentHash": "1799391606",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -5116,6 +10113,202 @@
     "Name": "Veist Stinger",
     "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.\n\n↑???.",
     "Comment": "Veist\r\nFoundry",
+    "hash": 3988215619,
+    "parentHash": "3988215619",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Hits have a chance to activate "
+            },
+            {
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 7 seconds, granting different bonuses based on the Weapon Archetype."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 25% of Magazine and 10% Decreased ADS Movement Speed Penalty."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " are granted +? Charge Rate."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Veist Stinger",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Activation Chances:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2%: "
+            },
+            {
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Submachine Guns",
+              "classNames": [
+                "weapon-smg"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4%: "
+            },
+            {
+              "text": "Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10%: "
+            },
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Linear Fusion Rifles",
+              "classNames": [
+                "weapon-linear-fusion-rifle"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Sniper Rifles",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 4 second cooldown between reactivations."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑???.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Veist Stinger",
+    "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.\n\n↑???.",
+    "Comment": "Veist\r\nFoundry",
+    "hash": 54024075,
+    "parentHash": "54024075",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -5306,6 +10499,245 @@
     "Name": "Wild Card",
     "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
     "Comment": "Cassoid\nFoundry",
+    "hash": 1050127423,
+    "parentHash": "1050127423",
+    "hash_warning": "Multiple matches found (5 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 6? second cooldown between additional Bolt spawns."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bolts:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Identical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Wild Card",
+    "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
+    "Comment": "Cassoid\nFoundry",
+    "hash": 501821599,
+    "parentHash": "501821599",
+    "hash_warning": "Multiple matches found (5 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 6? second cooldown between additional Bolt spawns."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bolts:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Identical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Wild Card",
+    "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
+    "Comment": "Cassoid\nFoundry",
+    "hash": 1768751086,
+    "parentHash": "1768751086",
+    "hash_warning": "Multiple matches found (5 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 6? second cooldown between additional Bolt spawns."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bolts:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Identical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Wild Card",
+    "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
+    "Comment": "Cassoid\nFoundry",
+    "hash": 488004607,
+    "parentHash": "488004607",
+    "hash_warning": "Multiple matches found (5 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 6? second cooldown between additional Bolt spawns."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bolts:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Identical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Wild Card",
+    "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
+    "Comment": "Cassoid\nFoundry",
+    "hash": 1075457695,
+    "parentHash": "1075457695",
+    "hash_warning": "Multiple matches found (5 total)",
     "descriptions": {
       "en": [
         {
@@ -5362,6 +10794,8 @@
     "Name": "Willing Vessel",
     "Description": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses.\n100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds.\n\nVisual Buff Stacks to Damage Thresholds:\nAuto: ? | ? | ? | ? | ?\nBow: ~180 | ~750 | ? | ? | ?\nSidearm: ? | ? | ? | ? | ?\nSMG : ? | ? | ? | ? | ?\nFusion Rifle: ? | ? | ? | ? | ?\nGlaive: ? | ? | ? | ? | ?\nGL: I | don't | think | so | lmao\nLFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200\nMG: ~385 | ? | ? | ? | ?\nSword: ? | ? | ? | ? | ?\n\nGrants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored.\nStat Bonuses (at the start of the stack):\nx1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate\nx2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate\nx3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate\nx4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate\nx5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate\n\nThis is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!",
     "Comment": "Episode: Heresy",
+    "hash": 878237828,
+    "parentHash": "878237828",
     "descriptions": {
       "en": [
         {

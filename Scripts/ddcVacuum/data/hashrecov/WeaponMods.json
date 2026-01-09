@@ -1,0 +1,398 @@
+[
+  {
+    "Name": "Abundant Ammo",
+    "Description": "+10 ↑+12 Ammo Generation.",
+    "hash": 1197814525,
+    "parentHash": "1197814525",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Abundant Ammo",
+    "Description": "+10 ↑+12 Ammo Generation.",
+    "hash": 325500297,
+    "parentHash": "325500297",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Aerodynamics",
+    "Description": "+6 ↑+7 Blast Radius and +6 ↑+7 Velocity.",
+    "hash": 2254149382,
+    "parentHash": "2254149382",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Aerodynamics",
+    "Description": "+6 ↑+7 Blast Radius and +6 ↑+7 Velocity.",
+    "hash": 2136827418,
+    "parentHash": "2136827418",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Anti-Flinch",
+    "Description": "15% ↑20%? Flinch Resist.",
+    "hash": 3159358855,
+    "parentHash": "3159358855",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Anti-Flinch",
+    "Description": "15% ↑20%? Flinch Resist.",
+    "hash": 967505927,
+    "parentHash": "967505927",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Backup Mag",
+    "Description": "+30 ↑+40 Magazine Stat.\nComplicated, think of it as an equivalent to Extended Mag ↑+Tactical Mag.",
+    "hash": 3336648220,
+    "parentHash": "3336648220",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Backup Mag",
+    "Description": "+30 ↑+40 Magazine Stat.\nComplicated, think of it as an equivalent to Extended Mag ↑+Tactical Mag.",
+    "hash": 1523545668,
+    "parentHash": "1523545668",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Ballistics",
+    "Description": "+6 ↑+7 Range and +6 ↑+7 Stability.",
+    "hash": 3417406043,
+    "parentHash": "3417406043",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Ballistics",
+    "Description": "+6 ↑+7 Range and +6 ↑+7 Stability.",
+    "hash": 414077027,
+    "parentHash": "414077027",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Bandolier",
+    "Description": "+5 ↑+7 Ammo Generation and +15 ↑+17 Magazine Stat.",
+    "hash": 2420924065,
+    "parentHash": "2420924065",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Bandolier",
+    "Description": "+5 ↑+7 Ammo Generation and +15 ↑+17 Magazine Stat.",
+    "hash": 1350538053,
+    "parentHash": "1350538053",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Counterbalance Stock",
+    "Description": "+15 ↑+35 Recoil Direction.",
+    "hash": 1588595445,
+    "parentHash": "1588595445",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Counterbalance Stock",
+    "Description": "+15 ↑+35 Recoil Direction.",
+    "hash": 285783873,
+    "parentHash": "285783873",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "CQC Optics: High",
+    "Description": "+1 Zoom.",
+    "hash": 52638289,
+    "parentHash": "52638289"
+  },
+  {
+    "Name": "CQC Optics: Low",
+    "Description": "-1 Zoom.",
+    "hash": 3310993845,
+    "parentHash": "3310993845"
+  },
+  {
+    "Name": "Edge",
+    "Description": "+6 ↑+7 Charge Rate and +6 ↑+7 Guard Resistance.",
+    "hash": 574010092,
+    "parentHash": "574010092",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Edge",
+    "Description": "+6 ↑+7 Charge Rate and +6 ↑+7 Guard Resistance.",
+    "hash": 3487893044,
+    "parentHash": "3487893044",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Enhanced Accuracy",
+    "Description": "+10 Accuracy.",
+    "hash": 2243475693,
+    "parentHash": "2243475693"
+  },
+  {
+    "Name": "Enhanced Blast Radius",
+    "Description": "+10 Blast Radius.",
+    "hash": 1252257233,
+    "parentHash": "1252257233"
+  },
+  {
+    "Name": "Enhanced Charge Time",
+    "Description": "-40ms Charge Time.\nDoes not reduce damage. Does not display in the stats.",
+    "hash": 3779301690,
+    "parentHash": "3779301690"
+  },
+  {
+    "Name": "Enhanced Draw Time",
+    "Description": "-40ms Draw Time.",
+    "hash": 2274738792,
+    "parentHash": "2274738792"
+  },
+  {
+    "Name": "Enhanced Handling",
+    "Description": "+10 Handling.",
+    "hash": 2924082573,
+    "parentHash": "2924082573"
+  },
+  {
+    "Name": "Enhanced Impact",
+    "Description": "+5 Impact.",
+    "hash": 81592656,
+    "parentHash": "81592656"
+  },
+  {
+    "Name": "Enhanced Persistence",
+    "Description": "+10 Persistence.",
+    "hash": 4285947411,
+    "parentHash": "4285947411"
+  },
+  {
+    "Name": "Enhanced Projectile Speed",
+    "Description": "+10 Velocity.",
+    "hash": 1653281839,
+    "parentHash": "1653281839"
+  },
+  {
+    "Name": "Enhanced Range",
+    "Description": "+10 Range.",
+    "hash": 260490301,
+    "parentHash": "260490301"
+  },
+  {
+    "Name": "Enhanced Reload",
+    "Description": "+10 Reload.",
+    "hash": 711469637,
+    "parentHash": "711469637"
+  },
+  {
+    "Name": "Enhanced Shield Duration",
+    "Description": "+10 Shield Duration.",
+    "hash": 3392654408,
+    "parentHash": "3392654408"
+  },
+  {
+    "Name": "Enhanced Stability",
+    "Description": "+10 Stability.",
+    "hash": 2057879635,
+    "parentHash": "2057879635"
+  },
+  {
+    "Name": "Flight",
+    "Description": "+6 ↑+7 Persistence and +6 ↑+7 Velocity.",
+    "hash": 624097433,
+    "parentHash": "624097433",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Flight",
+    "Description": "+6 ↑+7 Persistence and +6 ↑+7 Velocity.",
+    "hash": 4268478333,
+    "parentHash": "4268478333",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Freehand Grip",
+    "Description": "-30% ↑-30% Hipfire Accuracy Cone Size.\n0.95x ↑0.?x Ready Animation Duration Multiplier.",
+    "hash": 736000386,
+    "parentHash": "736000386",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Freehand Grip",
+    "Description": "-30% ↑-30% Hipfire Accuracy Cone Size.\n0.95x ↑0.?x Ready Animation Duration Multiplier.",
+    "hash": 2268413950,
+    "parentHash": "2268413950",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Icarus Grip",
+    "Description": "+15 Airborne Effectiveness ↑and +5 Handling.",
+    "hash": 941997506,
+    "parentHash": "941997506",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Icarus Grip",
+    "Description": "+15 Airborne Effectiveness ↑and +5 Handling.",
+    "hash": 3656042814,
+    "parentHash": "3656042814",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Marksman Optics: High",
+    "Description": "+2 Zoom.",
+    "hash": 1847129788,
+    "parentHash": "1847129788"
+  },
+  {
+    "Name": "Marksman Optics: Low",
+    "Description": "-2 Zoom.",
+    "hash": 2649250174,
+    "parentHash": "2649250174"
+  },
+  {
+    "Name": "Quick Access Sling",
+    "Description": "0.9x ↑0.?x Ready/Stow Animation Duration Multiplier.",
+    "hash": 1334978104,
+    "parentHash": "1334978104",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Quick Access Sling",
+    "Description": "0.9x ↑0.?x Ready/Stow Animation Duration Multiplier.",
+    "hash": 139132552,
+    "parentHash": "139132552",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Radar Booster",
+    "Description": "Maximum Radar Distance increased by 8 metres.\nIncreases the radar range from 48 meters to 56 meters.",
+    "hash": 3785661089,
+    "parentHash": "3785661089"
+  },
+  {
+    "Name": "Radar Tuner",
+    "Description": "Radar returns instantly after no longer ADS.\nRadar normally returns after 1.5 seconds.\n↑Adds the benefits of Radar Booster.",
+    "hash": 371216963,
+    "parentHash": "371216963",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Radar Tuner",
+    "Description": "Radar returns instantly after no longer ADS.\nRadar normally returns after 1.5 seconds.\n↑Adds the benefits of Radar Booster.",
+    "hash": 4068571787,
+    "parentHash": "4068571787",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Sprint Grip",
+    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting.",
+    "hash": 518387148,
+    "parentHash": "518387148",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Sprint Grip",
+    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting.",
+    "hash": 890612500,
+    "parentHash": "890612500",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Stunloader",
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
+    "hash": 3024601835,
+    "parentHash": "3024601835",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Stunloader",
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
+    "hash": 1893041875,
+    "parentHash": "1893041875",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Stunloader",
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
+    "hash": 3550545621,
+    "parentHash": "3550545621",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Stunloader",
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
+    "hash": 2554933025,
+    "parentHash": "2554933025",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Synergy",
+    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation.",
+    "hash": 3820243349,
+    "parentHash": "3820243349",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Synergy",
+    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation.",
+    "hash": 3634656993,
+    "parentHash": "3634656993",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Tactical",
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed.",
+    "hash": 2400144052,
+    "parentHash": "2400144052",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Tactical",
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed.",
+    "hash": 1772241052,
+    "parentHash": "1772241052",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Tactical",
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed.",
+    "hash": 1596513538,
+    "parentHash": "1596513538",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Tactical",
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed.",
+    "hash": 974161790,
+    "parentHash": "974161790",
+    "hash_warning": "Multiple matches found (4 total)"
+  },
+  {
+    "Name": "Targeting Adjuster",
+    "Description": "+5 ↑+7 Aim Assist.",
+    "hash": 3228611386,
+    "parentHash": "3228611386",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Targeting Adjuster",
+    "Description": "+5 ↑+7 Aim Assist.",
+    "hash": 3115937974,
+    "parentHash": "3115937974",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Tension",
+    "Description": "+6 ↑+7 Draw Time and +6 ↑+7 Accuracy.",
+    "hash": 1882549863,
+    "parentHash": "1882549863",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Tension",
+    "Description": "+6 ↑+7 Draw Time and +6 ↑+7 Accuracy.",
+    "hash": 1592913511,
+    "parentHash": "1592913511",
+    "hash_warning": "Multiple matches found (2 total)"
+  }
+]

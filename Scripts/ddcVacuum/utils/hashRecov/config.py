@@ -62,34 +62,34 @@ HASH_MAPPINGS = {
         "hash_path": "hash"
     },
 
-    "WeaponPerk": {
-        "source": ".json",
-        "name_path": "",
-        "hash_path": ""
+    "WeaponPerks": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
 
     "SeasonWeaponPerks": {
-        "source": ".json",
-        "name_path": "",
-        "hash_path": ""
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
 
     "WeaponMods": {
-        "source": ".json",
-        "name_path": "",
-        "hash_path": ""
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
 
     "IntrinsicTraits": {
-        "source": ".json",
-        "name_path": "",
-        "hash_path": ""
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
 
     "OriginTraits": {
-        "source": ".json",
-        "name_path": "",
-        "hash_path": ""
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
     # Ajouter d'autres mappings ici au fur et à mesure
 }

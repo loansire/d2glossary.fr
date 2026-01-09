@@ -16,6 +16,7 @@ def find_hash_matches(
 ) -> List[Dict[str, Any]]:
     """
     Recherche tous les hash correspondant à un nom dans les données d2glossary.
+    La comparaison des noms est insensible à la casse.
 
     Args:
         vacuum_name: Le nom à rechercher (ex: "Force Converter")
@@ -62,8 +63,8 @@ def find_hash_matches(
                 element_name_path = name_path.replace(f"{array_path}.", "")
                 element_name = get_nested_value(element, element_name_path)
 
-                # Vérifier si le nom correspond
-                if element_name and element_name.strip() == vacuum_name.strip():
+                # Vérifier si le nom correspond (insensible à la casse)
+                if element_name and element_name.strip().lower() == vacuum_name.strip().lower():
                     # Extraire le hash depuis l'élément de l'array
                     element_hash_path = hash_path.replace(f"{array_path}.", "")
                     element_hash = get_nested_value(element, element_hash_path)
@@ -82,7 +83,8 @@ def find_hash_matches(
             # Cas simple : recherche directe dans l'item
             item_name = get_nested_value(item, name_path)
 
-            if item_name and item_name.strip() == vacuum_name.strip():
+            # Vérifier si le nom correspond (insensible à la casse)
+            if item_name and item_name.strip().lower() == vacuum_name.strip().lower():
                 item_hash = get_nested_value(item, hash_path)
 
                 if item_hash:
