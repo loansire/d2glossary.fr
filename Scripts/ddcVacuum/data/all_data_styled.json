@@ -22828,7 +22828,7 @@
     },
     {
       "Name": "Accelerated Assault",
-      "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n",
+      "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
       "Comment": "Shiny Renegade Drops\nVanguard Alerts",
       "descriptions": {
         "en": [
@@ -22926,6 +22926,27 @@
             "linesContent": [
               {
                 "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Dealing damage extends the duration to 2 seconds if the "
+              },
+              {
+                "text": "Accelerated Assault",
+                "classNames": [
+                  "perkname"
+                ]
+              },
+              {
+                "text": " buff timer is ≤2 seconds."
               }
             ]
           }
@@ -28352,6 +28373,9 @@
       "Comment": "Kepler",
       "SetName": "AION Renewal",
       "PieceRequirement": "2 Piece",
+      "hash": 2140508055,
+      "parentHash": "1223381128",
+      "parentName": "AION Renewal",
       "descriptions": {
         "en": [
           {
@@ -28453,6 +28477,9 @@
       "Comment": "Kepler",
       "SetName": "AION Renewal",
       "PieceRequirement": "4 Piece",
+      "hash": 2140508054,
+      "parentHash": "1223381128",
+      "parentName": "AION Renewal",
       "descriptions": {
         "en": [
           {
@@ -28505,6 +28532,9 @@
       "Comment": "Kepler",
       "SetName": "AION Adapter",
       "PieceRequirement": "2 Piece",
+      "hash": 2840280305,
+      "parentHash": "894715166",
+      "parentName": "AION Adapter",
       "descriptions": {
         "en": [
           {
@@ -28567,6 +28597,9 @@
       "Comment": "Kepler",
       "SetName": "AION Adapter",
       "PieceRequirement": "4 Piece",
+      "hash": 2840280304,
+      "parentHash": "894715166",
+      "parentName": "AION Adapter",
       "descriptions": {
         "en": [
           {
@@ -28608,6 +28641,9 @@
       "Comment": "Pinnacle Ops",
       "SetName": "Bushido",
       "PieceRequirement": "2 Piece",
+      "hash": 1964062929,
+      "parentHash": "1083114430",
+      "parentName": "Bushido",
       "descriptions": {
         "en": [
           {
@@ -28633,6 +28669,9 @@
       "Comment": "Pinnacle Ops",
       "SetName": "Bushido",
       "PieceRequirement": "4 Piece",
+      "hash": 1964062928,
+      "parentHash": "1083114430",
+      "parentName": "Bushido",
       "descriptions": {
         "en": [
           {
@@ -28692,6 +28731,9 @@
       "Comment": "Desert Perpetual\nRaid",
       "SetName": "Collective Psyche",
       "PieceRequirement": "2 Piece",
+      "hash": 1901305283,
+      "parentHash": "1007956300",
+      "parentName": "Collective Psyche",
       "descriptions": {
         "en": [
           {
@@ -28791,6 +28833,9 @@
       "Comment": "Desert Perpetual\nRaid",
       "SetName": "Collective Psyche",
       "PieceRequirement": "4 Piece",
+      "hash": 1901305282,
+      "parentHash": "1007956300",
+      "parentName": "Collective Psyche",
       "descriptions": {
         "en": [
           {
@@ -28847,6 +28892,7 @@
       "Name": "Costumes",
       "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus.",
       "Comment": "Festival of the Lost",
+      "hash_warning": "No matching hash found in d2glossary",
       "descriptions": {
         "en": [
           {
@@ -28865,6 +28911,9 @@
       "Comment": "Crucible",
       "SetName": "Disaster Corps",
       "PieceRequirement": "2 Piece",
+      "hash": 2513809221,
+      "parentHash": "2947197258",
+      "parentName": "Disaster Corps Set",
       "descriptions": {
         "en": [
           {
@@ -28936,6 +28985,9 @@
       "Comment": "Crucible",
       "SetName": "Disaster Corps",
       "PieceRequirement": "4 Piece",
+      "hash": 2513809220,
+      "parentHash": "2947197258",
+      "parentName": "Disaster Corps Set",
       "descriptions": {
         "en": [
           {
@@ -29012,6 +29064,9 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Ferropotent",
       "PieceRequirement": "2 Piece",
+      "hash": 3458982982,
+      "parentHash": "3734029045",
+      "parentName": "Ferropotent",
       "descriptions": {
         "en": [
           {
@@ -29046,6 +29101,7 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Ferropotent",
       "PieceRequirement": "4 Piece",
+      "hash_warning": "No matching hash found in d2glossary",
       "descriptions": {
         "en": [
           {
@@ -29120,6 +29176,9 @@
       "Comment": "Iron Banner",
       "SetName": "Iron Panoply",
       "PieceRequirement": "2 Piece",
+      "hash": 3157066724,
+      "parentHash": "305966751",
+      "parentName": "Iron Panoply Set",
       "descriptions": {
         "en": [
           {
@@ -29171,6 +29230,9 @@
       "Comment": "Iron Banner",
       "SetName": "Iron Panoply",
       "PieceRequirement": "4 Piece",
+      "hash": 3157066725,
+      "parentHash": "305966751",
+      "parentName": "Iron Panoply Set",
       "descriptions": {
         "en": [
           {
@@ -29220,6 +29282,9 @@
       "Comment": "Crucible",
       "SetName": "Last Discipline",
       "PieceRequirement": "2 Piece",
+      "hash": 2433863523,
+      "parentHash": "3252452908",
+      "parentName": "Last Discipline",
       "descriptions": {
         "en": [
           {
@@ -29270,6 +29335,9 @@
       "Comment": "Crucible",
       "SetName": "Last Discipline",
       "PieceRequirement": "4 Piece",
+      "hash": 2433863522,
+      "parentHash": "3252452908",
+      "parentName": "Last Discipline",
       "descriptions": {
         "en": [
           {
@@ -29304,6 +29372,9 @@
       "Comment": "Solstice",
       "SetName": "Lustrous",
       "PieceRequirement": "2 Piece",
+      "hash": 4048287940,
+      "parentHash": "3737690559",
+      "parentName": "Lustrous",
       "descriptions": {
         "en": [
           {
@@ -29354,6 +29425,9 @@
       "Comment": "Solstice",
       "SetName": "Lustrous",
       "PieceRequirement": "4 Piece",
+      "hash": 4048287941,
+      "parentHash": "3737690559",
+      "parentName": "Lustrous",
       "descriptions": {
         "en": [
           {
@@ -29388,6 +29462,9 @@
       "Comment": "Trials",
       "SetName": "New Demotic",
       "PieceRequirement": "2 Piece",
+      "hash": 3160370591,
+      "parentHash": "2132906400",
+      "parentName": "New Demotic",
       "descriptions": {
         "en": [
           {
@@ -29413,6 +29490,9 @@
       "Comment": "Trials",
       "SetName": "New Demotic",
       "PieceRequirement": "4 Piece",
+      "hash": 3160370590,
+      "parentHash": "2132906400",
+      "parentName": "New Demotic",
       "descriptions": {
         "en": [
           {
@@ -29438,6 +29518,9 @@
       "Comment": "Equilibrium \nDungeon",
       "SetName": "Sage Protector",
       "PieceRequirement": "2 Piece",
+      "hash": 109046537,
+      "parentHash": "4222859846",
+      "parentName": "Sage Protector",
       "descriptions": {
         "en": [
           {
@@ -29479,6 +29562,9 @@
       "Comment": "Equilibrium \nDungeon",
       "SetName": "Sage Protector",
       "PieceRequirement": "4 Piece",
+      "hash": 109046536,
+      "parentHash": "4222859846",
+      "parentName": "Sage Protector",
       "descriptions": {
         "en": [
           {
@@ -29596,6 +29682,9 @@
       "Comment": "Lawless Frontier",
       "SetName": "Shrewd Survivor",
       "PieceRequirement": "2 Piece",
+      "hash": 219133236,
+      "parentHash": "2839368623",
+      "parentName": "Shrewd Survivor",
       "descriptions": {
         "en": [
           {
@@ -29673,6 +29762,7 @@
       "Comment": "Lawless Frontier",
       "SetName": "Shrewd Survivor",
       "PieceRequirement": "4 Piece",
+      "hash_warning": "No matching hash found in d2glossary",
       "descriptions": {
         "en": [
           {
@@ -29735,6 +29825,9 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Smoke Jumper",
       "PieceRequirement": "2 Piece",
+      "hash": 3078673682,
+      "parentHash": "2751989785",
+      "parentName": "Smoke Jumper Set",
       "descriptions": {
         "en": [
           {
@@ -29798,6 +29891,9 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Smoke Jumper",
       "PieceRequirement": "4 Piece",
+      "hash": 3078673683,
+      "parentHash": "2751989785",
+      "parentName": "Smoke Jumper Set",
       "descriptions": {
         "en": [
           {
@@ -29832,6 +29928,9 @@
       "Comment": "Pinnacle Ops",
       "SetName": "Swordmaster",
       "PieceRequirement": "2 Piece",
+      "hash": 3916960436,
+      "parentHash": "2391762223",
+      "parentName": "Swordmaster",
       "descriptions": {
         "en": [
           {
@@ -29875,6 +29974,9 @@
       "Comment": "Pinnacle Ops",
       "SetName": "Swordmaster",
       "PieceRequirement": "4 Piece",
+      "hash": 3916960437,
+      "parentHash": "2391762223",
+      "parentName": "Swordmaster",
       "descriptions": {
         "en": [
           {
@@ -29934,6 +30036,9 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Techsec",
       "PieceRequirement": "2 Piece",
+      "hash": 1130213040,
+      "parentHash": "239346083",
+      "parentName": "Techsec",
       "descriptions": {
         "en": [
           {
@@ -30036,6 +30141,9 @@
       "Comment": "Solo/Fireteam Ops",
       "SetName": "Techsec",
       "PieceRequirement": "4 Piece",
+      "hash": 1130213041,
+      "parentHash": "239346083",
+      "parentName": "Techsec",
       "descriptions": {
         "en": [
           {
@@ -30088,6 +30196,9 @@
       "Comment": "Lawless Frontier",
       "SetName": "Thriving Survivor",
       "PieceRequirement": "2 Piece",
+      "hash": 681117218,
+      "parentHash": "2151917545",
+      "parentName": "Thriving Survivor",
       "descriptions": {
         "en": [
           {
@@ -30149,6 +30260,9 @@
       "Comment": "Lawless Frontier",
       "SetName": "Thriving Survivor",
       "PieceRequirement": "4 Piece",
+      "hash": 681117219,
+      "parentHash": "2151917545",
+      "parentName": "Thriving Survivor",
       "descriptions": {
         "en": [
           {
@@ -30204,6 +30318,9 @@
       "Comment": "Trials",
       "SetName": "Twofold Crown",
       "PieceRequirement": "2 Piece",
+      "hash": 1025384966,
+      "parentHash": "3259216565",
+      "parentName": "Twofold Crown",
       "descriptions": {
         "en": [
           {
@@ -30229,6 +30346,9 @@
       "Comment": "Trials",
       "SetName": "Twofold Crown",
       "PieceRequirement": "4 Piece",
+      "hash": 1025384967,
+      "parentHash": "3259216565",
+      "parentName": "Twofold Crown",
       "descriptions": {
         "en": [
           {
@@ -30270,6 +30390,9 @@
       "Comment": "Desert Perpetual\nEpic Raid",
       "SetName": "Uncaged Deviants",
       "PieceRequirement": "2 Piece",
+      "hash": 3376007203,
+      "parentHash": "2450108908",
+      "parentName": "Wayward Psyche Set",
       "descriptions": {
         "en": [
           {
@@ -30304,6 +30427,9 @@
       "Comment": "Desert Perpetual\nEpic Raid",
       "SetName": "Uncaged Deviants",
       "PieceRequirement": "4 Piece",
+      "hash": 3376007202,
+      "parentHash": "2450108908",
+      "parentName": "Wayward Psyche Set",
       "descriptions": {
         "en": [
           {
@@ -30336,6 +30462,9 @@
       "Comment": "Crucible",
       "SetName": "Wild Anthem",
       "PieceRequirement": "2 Piece",
+      "hash": 3390457361,
+      "parentHash": "2258577662",
+      "parentName": "Wild Anthem",
       "descriptions": {
         "en": [
           {
@@ -30388,6 +30517,9 @@
       "Comment": "Crucible",
       "SetName": "Wild Anthem",
       "PieceRequirement": "4 Piece",
+      "hash": 3390457360,
+      "parentHash": "2258577662",
+      "parentName": "Wild Anthem",
       "descriptions": {
         "en": [
           {

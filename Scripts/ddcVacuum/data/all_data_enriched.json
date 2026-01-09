@@ -1,0 +1,386 @@
+{
+  "ArmorSets": [
+    {
+      "Name": "Force Converter",
+      "Description": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
+      "SetName": "AION Renewal",
+      "PieceRequirement": "2 Piece",
+      "hash": 2140508055,
+      "parentHash": "1223381128",
+      "parentName": "AION Renewal"
+    },
+    {
+      "Name": "Reactive Booster",
+      "Description": "Sprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
+      "Comment": "Kepler",
+      "SetName": "AION Renewal",
+      "PieceRequirement": "4 Piece",
+      "hash": 2140508054,
+      "parentHash": "1223381128",
+      "parentName": "AION Renewal"
+    },
+    {
+      "Name": "Force Absorption",
+      "Description": "Upon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+      "Comment": "Kepler",
+      "SetName": "AION Adapter",
+      "PieceRequirement": "2 Piece",
+      "hash": 2840280305,
+      "parentHash": "894715166",
+      "parentName": "AION Adapter"
+    },
+    {
+      "Name": "Reactive Shock",
+      "Description": "While Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within ? meters for ? seconds.\nCan only trigger once per Reactive Shock activation.",
+      "Comment": "Kepler",
+      "SetName": "AION Adapter",
+      "PieceRequirement": "4 Piece",
+      "hash": 2840280304,
+      "parentHash": "894715166",
+      "parentName": "AION Adapter"
+    },
+    {
+      "Name": "Iaido",
+      "Description": "Scoring a Weapon Kill within ? seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Bushido",
+      "PieceRequirement": "2 Piece",
+      "hash": 1964062929,
+      "parentHash": "1083114430",
+      "parentName": "Bushido"
+    },
+    {
+      "Name": "Unfaltering Focus",
+      "Description": "On Bow, Shotgun, or Sword Kill:\nGrants Resist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Bushido",
+      "PieceRequirement": "4 Piece",
+      "hash": 1964062928,
+      "parentHash": "1083114430",
+      "parentName": "Bushido"
+    },
+    {
+      "Name": "Accretion",
+      "Description": "On Ammo Brick Pickup:\nGrants stacks of Accretion, up to a maximum of 20 stacks. Stacks persist until death.\nSpecial Ammo Bricks grant 1 stack of Accretion. Heavy Ammo Bricks grant 3 stacks of Accretion.\n\nAccretion:\nGrants a Ready/Stow Animation Duration Multiplier per stack, up to a maximum of 0.8x Ready/Stow Animation Duration at 20 stacks.",
+      "Comment": "Desert Perpetual\nRaid",
+      "SetName": "Collective Psyche",
+      "PieceRequirement": "2 Piece",
+      "hash": 1901305283,
+      "parentHash": "1007956300",
+      "parentName": "Collective Psyche"
+    },
+    {
+      "Name": "Doppler Effect",
+      "Description": "Solar Buffs applied to the user and Strand Debuffs inflicted to enemies last 50% longer.\nEquipping Ember of Solace or Thread of Continuity results in the effects lasting 70% longer.",
+      "Comment": "Desert Perpetual\nRaid",
+      "SetName": "Collective Psyche",
+      "PieceRequirement": "4 Piece",
+      "hash": 1901305282,
+      "parentHash": "1007956300",
+      "parentName": "Collective Psyche"
+    },
+    {
+      "Name": "Costumes",
+      "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus.",
+      "Comment": "Festival of the Lost",
+      "hash_warning": "No matching hash found in d2glossary"
+    },
+    {
+      "Name": "Pleas Heard",
+      "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
+      "Comment": "Crucible",
+      "SetName": "Disaster Corps",
+      "PieceRequirement": "2 Piece",
+      "hash": 2513809221,
+      "parentHash": "2947197258",
+      "parentName": "Disaster Corps Set"
+    },
+    {
+      "Name": "Magnificent Duty",
+      "Description": "Upon reaching Critical Health or healing an ally at Critical Health:\n\nFor Auto Rifles, Scout Rifles, and Sidearms:\n+20 Range, +20 Stability, +30 Reload Speed, and 0.9x Reload Duration Multiplier for 11 seconds.\n\nUsing a Support Frame Auto to heal a Critical Health Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie?",
+      "Comment": "Crucible",
+      "SetName": "Disaster Corps",
+      "PieceRequirement": "4 Piece",
+      "hash": 2513809220,
+      "parentHash": "2947197258",
+      "parentName": "Disaster Corps Set"
+    },
+    {
+      "Name": "Rapid Repair",
+      "Description": "Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Ferropotent",
+      "PieceRequirement": "2 Piece",
+      "hash": 3458982982,
+      "parentHash": "3734029045",
+      "parentName": "Ferropotent"
+    },
+    {
+      "Name": "Hot Shot",
+      "Description": "While Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Ferropotent",
+      "PieceRequirement": "4 Piece",
+      "hash_warning": "No matching hash found in d2glossary"
+    },
+    {
+      "Name": "Vigilant Watch",
+      "Description": "As Shield HP drops, initially triggering at ? Shield HP, maxing out in effect at ? Shield HP:\nLinearly? grants up to +? Stability and +? Handling\n\nWhile at Critical Health:\nWeapon Kills restore 30HP.\nIncurs a 5 second cooldown between triggers.",
+      "Comment": "Iron Banner",
+      "SetName": "Iron Panoply",
+      "PieceRequirement": "2 Piece",
+      "hash": 3157066724,
+      "parentHash": "305966751",
+      "parentName": "Iron Panoply Set"
+    },
+    {
+      "Name": "Iron Conviction",
+      "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching Critical Health for ? seconds upon triggering.",
+      "Comment": "Iron Banner",
+      "SetName": "Iron Panoply",
+      "PieceRequirement": "4 Piece",
+      "hash": 3157066725,
+      "parentHash": "305966751",
+      "parentName": "Iron Panoply Set"
+    },
+    {
+      "Name": "Terminal Velocity",
+      "Description": "Upon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
+      "Comment": "Crucible",
+      "SetName": "Last Discipline",
+      "PieceRequirement": "2 Piece",
+      "hash": 2433863523,
+      "parentHash": "3252452908",
+      "parentName": "Last Discipline"
+    },
+    {
+      "Name": "Power Loader",
+      "Description": "Upon picking up an Orb of Power:\nGrants 6% Special Ammo Progress.",
+      "Comment": "Crucible",
+      "SetName": "Last Discipline",
+      "PieceRequirement": "4 Piece",
+      "hash": 2433863522,
+      "parentHash": "3252452908",
+      "parentName": "Last Discipline"
+    },
+    {
+      "Name": "Photogalvanic",
+      "Description": "Upon receiving ANY healing while not at Full HP:\n+20? Handling, +10 Reload Speed, 0.85x Reload Duration Multiplier, and ?% Flinch Resist for Solar Weapons for 4 seconds.\nWorks with ANY source of healing, such as Orb Pickups. Restoration constantly refreshes it",
+      "Comment": "Solstice",
+      "SetName": "Lustrous",
+      "PieceRequirement": "2 Piece",
+      "hash": 4048287940,
+      "parentHash": "3737690559",
+      "parentName": "Lustrous"
+    },
+    {
+      "Name": "Cauterize",
+      "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.",
+      "Comment": "Solstice",
+      "SetName": "Lustrous",
+      "PieceRequirement": "4 Piece",
+      "hash": 4048287941,
+      "parentHash": "3737690559",
+      "parentName": "Lustrous"
+    },
+    {
+      "Name": "Paroli",
+      "Description": "Upon sliding:\n?% Flinch Resist for ? seconds.",
+      "Comment": "Trials",
+      "SetName": "New Demotic",
+      "PieceRequirement": "2 Piece",
+      "hash": 3160370591,
+      "parentHash": "2132906400",
+      "parentName": "New Demotic"
+    },
+    {
+      "Name": "Martingale",
+      "Description": "On Ally Death or Ally Revival:\n+? Handling and 0.?x ADS Duration Multiplier for 10 seconds.",
+      "Comment": "Trials",
+      "SetName": "New Demotic",
+      "PieceRequirement": "4 Piece",
+      "hash": 3160370590,
+      "parentHash": "2132906400",
+      "parentName": "New Demotic"
+    },
+    {
+      "Name": "Combat Meditation",
+      "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
+      "Comment": "Equilibrium \nDungeon",
+      "SetName": "Sage Protector",
+      "PieceRequirement": "2 Piece",
+      "hash": 109046537,
+      "parentHash": "4222859846",
+      "parentName": "Sage Protector"
+    },
+    {
+      "Name": "Blade Focus",
+      "Description": "Upon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds.\nBlade Focus is removed upon guarding or stowing the sword.",
+      "Comment": "Equilibrium \nDungeon",
+      "SetName": "Sage Protector",
+      "PieceRequirement": "4 Piece",
+      "hash": 109046536,
+      "parentHash": "4222859846",
+      "parentName": "Sage Protector"
+    },
+    {
+      "Name": "Reflex Action",
+      "Description": "Upon readying a Heat Weapon, Submachine Gun, or Hand Cannon:\nGrants Reflex Action for 1.5 seconds.\n Dealing Additional Weapon Damage refreshes the buff duration.\n\nReflex Action | +50? Handling, 0.6?x Ready Duration Multiplier, and -2.5% Accuracy Cone Size for 1.5 seconds.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Shrewd Survivor",
+      "PieceRequirement": "2 Piece",
+      "hash": 219133236,
+      "parentHash": "2839368623",
+      "parentName": "Shrewd Survivor"
+    },
+    {
+      "Name": "Hot Shot",
+      "Description": "While Reflex Action is active:\nScoring a kill grants Hotshot for 10 seconds.\nBuff can be refreshed by retriggering Hotshot.\n\nHotshot? | +15? Stability, +20 Reload Speed, and +? Aim Assist for Heat Weapons, Submachine Guns, and Hand Cannons. Additionally, it grants +30 Weapons stat.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Shrewd Survivor",
+      "PieceRequirement": "4 Piece",
+      "hash_warning": "No matching hash found in d2glossary"
+    },
+    {
+      "Name": "Ride Together, Die Together",
+      "Description": "On Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Smoke Jumper",
+      "PieceRequirement": "2 Piece",
+      "hash": 3078673682,
+      "parentHash": "2751989785",
+      "parentName": "Smoke Jumper Set"
+    },
+    {
+      "Name": "Too Old for This",
+      "Description": "Upon finishing an Elite+ Combatant:\nGrants 16% Special Ammo Progress and restores 35 HP.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Smoke Jumper",
+      "PieceRequirement": "4 Piece",
+      "hash": 3078673683,
+      "parentHash": "2751989785",
+      "parentName": "Smoke Jumper Set"
+    },
+    {
+      "Name": "Balestra",
+      "Description": "Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for ? seconds.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Swordmaster",
+      "PieceRequirement": "2 Piece",
+      "hash": 3916960436,
+      "parentHash": "2391762223",
+      "parentName": "Swordmaster"
+    },
+    {
+      "Name": "Stesso Tempo",
+      "Description": "Upon blocking damage with a Glaive or a Sword:\n50% [10%] Damage Resist (Resist x4) for 3 seconds upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires.",
+      "Comment": "Pinnacle Ops",
+      "SetName": "Swordmaster",
+      "PieceRequirement": "4 Piece",
+      "hash": 3916960437,
+      "parentHash": "2391762223",
+      "parentName": "Swordmaster"
+    },
+    {
+      "Name": "Wrecker",
+      "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Techsec",
+      "PieceRequirement": "2 Piece",
+      "hash": 1130213040,
+      "parentHash": "239346083",
+      "parentName": "Techsec"
+    },
+    {
+      "Name": "Concussive Rounds",
+      "Description": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
+      "Comment": "Solo/Fireteam Ops",
+      "SetName": "Techsec",
+      "PieceRequirement": "4 Piece",
+      "hash": 1130213041,
+      "parentHash": "239346083",
+      "parentName": "Techsec"
+    },
+    {
+      "Name": "Opening Act",
+      "Description": "Upon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Thriving Survivor",
+      "PieceRequirement": "2 Piece",
+      "hash": 681117218,
+      "parentHash": "2151917545",
+      "parentName": "Thriving Survivor"
+    },
+    {
+      "Name": "Room Clearing",
+      "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
+      "Comment": "Lawless Frontier",
+      "SetName": "Thriving Survivor",
+      "PieceRequirement": "4 Piece",
+      "hash": 681117219,
+      "parentHash": "2151917545",
+      "parentName": "Thriving Survivor"
+    },
+    {
+      "Name": "Crook and Flail",
+      "Description": "On Ammo Brick Pickup:\nRestores 70 HP.",
+      "Comment": "Trials",
+      "SetName": "Twofold Crown",
+      "PieceRequirement": "2 Piece",
+      "hash": 1025384966,
+      "parentHash": "3259216565",
+      "parentName": "Twofold Crown"
+    },
+    {
+      "Name": "Gift of Sight",
+      "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
+      "Comment": "Trials",
+      "SetName": "Twofold Crown",
+      "PieceRequirement": "4 Piece",
+      "hash": 1025384967,
+      "parentHash": "3259216565",
+      "parentName": "Twofold Crown"
+    },
+    {
+      "Name": "Special Relativity",
+      "Description": "On Ammo Brick Pickup:\nRefills stowed Special Weapons.",
+      "Comment": "Desert Perpetual\nEpic Raid",
+      "SetName": "Uncaged Deviants",
+      "PieceRequirement": "2 Piece",
+      "hash": 3376007203,
+      "parentHash": "2450108908",
+      "parentName": "Wayward Psyche Set"
+    },
+    {
+      "Name": "Superluminal Motion",
+      "Description": "Upon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 15HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+      "Comment": "Desert Perpetual\nEpic Raid",
+      "SetName": "Uncaged Deviants",
+      "PieceRequirement": "4 Piece",
+      "hash": 3376007202,
+      "parentHash": "2450108908",
+      "parentName": "Wayward Psyche Set"
+    },
+    {
+      "Name": "Fanfare",
+      "Description": "While Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
+      "Comment": "Crucible",
+      "SetName": "Wild Anthem",
+      "PieceRequirement": "2 Piece",
+      "hash": 3390457361,
+      "parentHash": "2258577662",
+      "parentName": "Wild Anthem"
+    },
+    {
+      "Name": "Suros Harmony",
+      "Description": "Upon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
+      "Comment": "Crucible",
+      "SetName": "Wild Anthem",
+      "PieceRequirement": "4 Piece",
+      "hash": 3390457360,
+      "parentHash": "2258577662",
+      "parentName": "Wild Anthem"
+    }
+  ]
+}
