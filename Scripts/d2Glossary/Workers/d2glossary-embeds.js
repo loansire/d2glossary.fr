@@ -6,7 +6,7 @@
 const SITE_URL = 'https://d2glossary.fr';
 const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const DATA_BASE_URL = 'https://d2glossary.fr/data';
-const CLARITY_URL = 'https://d2glossary.fr/data/ddcvacuum.json';
+const DDCVACUUM_URL = 'https://d2glossary.fr/data/ddcvacuum.json';
 
 // User agent Discord
 const DISCORD_BOT = 'discordbot';
@@ -55,7 +55,7 @@ async function loadDDCVacuum() {
   if (ddcvacuumCache) return ddcvacuumCache;
 
   try {
-    const response = await fetch(CLARITY_URL, { cf: { cacheTtl: 3600 } });
+    const response = await fetch(DDCVACUUM_URL, { cf: { cacheTtl: 3600 } });
     if (!response.ok) return null;
     ddcvacuumCache = await response.json();
     return ddcvacuumCache;

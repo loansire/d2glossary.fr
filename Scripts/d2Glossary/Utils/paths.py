@@ -41,7 +41,7 @@ ARTEFACT_DEFINITIONS_FILE = "artefact_definitions.json"
 ICON_DEFINITIONS_FILE = "icon_definition.json"
 SETARMOR_ENRICHED_FILE = "setarmor_definitions_enriched.json"
 ARTEFACT_ENRICHED_FILE = "artefact_definitions_enriched.json"
-CLARITY_FILE = "ddcvacuum.json"
+DDCVACUUM_FILE = "ddcvacuum.json"
 
 # Chemins par défaut (français) pour compatibilité
 ITEM_DEFINITIONS = get_localized_path(ITEM_DEFINITIONS_FILE)
@@ -107,7 +107,7 @@ def get_version_config(lang: str = None) -> dict:
                 ],
                 "heavy": [
                     f"data/{language}/{ITEM_DEFINITIONS_FILE}",
-                    f"data/{CLARITY_FILE}"
+                    f"data/{DDCVACUUM_FILE}"
                 ]
             }
         return config
@@ -124,7 +124,7 @@ def get_version_config(lang: str = None) -> dict:
             ],
             "heavy": [
                 f"data/{lang}/{ITEM_DEFINITIONS_FILE}",
-                f"data/{CLARITY_FILE}"
+                f"data/{DDCVACUUM_FILE}"
             ]
         }
 

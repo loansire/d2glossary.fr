@@ -13,7 +13,7 @@ import {
   loadJSON
 } from './utils.js';
 
-const CLARITY_URL = 'data/ddcvacuum.json';
+const DDCVACUUM_URL = 'data/ddcvacuum.json';
 
 // Stockage du nom FR pour l'emoji Discord
 let currentItemFrName = null;
@@ -21,7 +21,7 @@ let currentItemFrName = null;
 // Cache DDCVacuum
 let ddcvacuumCache = null;
 
-// === CLARITY FUNCTIONS (exportées pour réutilisation) ===
+// === DDCVACUUM FUNCTIONS (exportées pour réutilisation) ===
 
 /**
  * Charge les données DDCVacuum (avec cache)
@@ -31,7 +31,7 @@ export async function loadDDCVacuumData() {
 
   // Essayer le cache mémoire du dataManager d'abord
   if (window.D2DataManager?.getFromMemoryCache) {
-    const cached = window.D2DataManager.getFromMemoryCache(CLARITY_URL);
+    const cached = window.D2DataManager.getFromMemoryCache(DDCVACUUM_URL);
     if (cached) {
       ddcvacuumCache = cached;
       return ddcvacuumCache;
@@ -39,7 +39,7 @@ export async function loadDDCVacuumData() {
   }
 
   // Sinon charger
-  ddcvacuumCache = await loadJSON(CLARITY_URL);
+  ddcvacuumCache = await loadJSON(DDCVACUUM_URL);
   return ddcvacuumCache;
 }
 
@@ -50,7 +50,7 @@ export function getDDCVacuumData() {
   if (ddcvacuumCache) return ddcvacuumCache;
 
   if (window.D2DataManager?.getFromMemoryCache) {
-    return window.D2DataManager.getFromMemoryCache(CLARITY_URL);
+    return window.D2DataManager.getFromMemoryCache(DDCVACUUM_URL);
   }
   return null;
 }
