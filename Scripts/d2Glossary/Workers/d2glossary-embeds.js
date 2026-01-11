@@ -22,7 +22,7 @@ const PAGE_CONFIG = {
   'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', type: 'artefact' }
 };
 
-// Cache pour DDCVacuum
+// Cache pour DDCVacuum (indexé par hash)
 let ddcvacuumCache = null;
 
 /**
@@ -49,7 +49,37 @@ async function loadData(lang, filename) {
 }
 
 /**
- * Charge les données DDCVacuum
+ * Transforme la structure par catégories en index par hash
+ * @param {Object} rawData - Données brutes avec catégories (WeaponPerks, WeaponMods, etc.)
+ * @returns {Object} Index avec hash comme clé
+ */
+function indexByHash(rawData) {
+  const indexed = {};
+
+  for (const category of Object.values(rawData)) {
+    if (!Array.isArray(category)) continue;
+
+    for (const item of category) {
+      if (item.hash) {
+        indexed[String(item.hash)] = item;
+      }
+    }
+  }
+
+  return indexed;
+}
+
+/**
+ * Vérifie si les données utilisent la nouvelle structure (par catégories)
+ */
+function isNewStructure(data) {
+  if (!data) return false;
+  const firstKey = Object.keys(data)[0];
+  return Array.isArray(data[firstKey]);
+}
+
+/**
+ * Charge les données DDCVacuum et les indexe par hash
  */
 async function loadDDCVacuum() {
   if (ddcvacuumCache) return ddcvacuumCache;
@@ -57,7 +87,12 @@ async function loadDDCVacuum() {
   try {
     const response = await fetch(DDCVACUUM_URL, { cf: { cacheTtl: 3600 } });
     if (!response.ok) return null;
-    ddcvacuumCache = await response.json();
+
+    const rawData = await response.json();
+
+    // Transformer si c'est la nouvelle structure par catégories
+    ddcvacuumCache = isNewStructure(rawData) ? indexByHash(rawData) : rawData;
+
     return ddcvacuumCache;
   } catch (e) {
     console.error(`Erreur chargement DDCVacuum:`, e);
@@ -71,7 +106,7 @@ async function loadDDCVacuum() {
 async function hasDDCVacuum(id) {
   const ddcvacuum = await loadDDCVacuum();
   if (!ddcvacuum) return false;
-  return ddcvacuum[id] !== undefined;
+  return ddcvacuum[String(id)] !== undefined;
 }
 
 /**
@@ -125,7 +160,6 @@ async function getArtefactPerkInfo(id, lang) {
   const data = await loadData(lang, 'artefact_definitions_enriched.json');
   if (!data) return null;
 
-  // Parcourir l'artefact et ses tiers
   for (const [artifactId, artifact] of Object.entries(data)) {
     if (!artifact.tiers) continue;
 
