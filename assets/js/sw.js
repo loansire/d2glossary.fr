@@ -16,6 +16,7 @@ const CRITICAL_ASSETS = [
   '/assets/js/utils.js',
   '/assets/js/dataManager.js',
   '/assets/js/pagination.js',
+  '/assets/js/ddcvacuum.js',
   '/assets/js/popupitem.js',
   '/assets/js/itemListPage.js',
   '/assets/fonts/NeueHaasDisplayRoman.ttf',

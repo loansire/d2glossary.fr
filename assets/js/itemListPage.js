@@ -6,7 +6,8 @@ import {
   getBungieIconUrl,
   debounce
 } from './utils.js';
-import { openPopupItem, loadDDCVacuumData } from './popupitem.js';
+import { openPopupItem } from './popupitem.js';
+import { loadDDCVacuumData } from './ddcvacuum.js';
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
@@ -34,7 +35,7 @@ export async function loadItemListPage({
   await Promise.all([
     loadHTML('assets/html/popupitem.html', popupContainer),
     loadHTML('assets/html/banniere.html', banniereContainer),
-    loadDDCVacuumData() // Précharger DDCVacuum via la fonction centralisée
+    loadDDCVacuumData()
   ]);
 
   try {

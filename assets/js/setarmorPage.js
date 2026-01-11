@@ -17,12 +17,10 @@ import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 import {
   loadDDCVacuumData,
-  getDDCVacuumData,
   showDDCVacuumForItem,
-  hideDDCVacuumSection,
-  cleanupDDCVacuumListeners,
-  setCurrentItemFrName
-} from './popupitem.js';
+  cleanupDDCVacuumListeners
+} from './ddcvacuum.js';
+import { setCurrentItemFrName } from './popupitem.js';
 
 export async function loadSetArmorPage({
   dataFile,

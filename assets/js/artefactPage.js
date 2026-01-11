@@ -18,9 +18,9 @@ import {
   getDDCVacuumData,
   renderDDCVacuumInPopup,
   hideDDCVacuumSection,
-  cleanupDDCVacuumListeners,
-  setCurrentItemFrName
-} from './popupitem.js';
+  cleanupDDCVacuumListeners
+} from './ddcvacuum.js';
+import { setCurrentItemFrName } from './popupitem.js';
 
 export async function loadArtefactPage({
   dataFile,
@@ -284,7 +284,6 @@ export async function loadArtefactPage({
     try {
       const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
 
-      // Si déjà en français, chercher dans les données actuelles
       if (currentLang === 'fr' && artifactData) {
         const artifactId = Object.keys(artifactData)[0];
         const artifact = artifactData[artifactId];
