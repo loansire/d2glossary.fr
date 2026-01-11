@@ -9,6 +9,31 @@ let ddcvacuumCache = null;
 // === DATA FUNCTIONS ===
 
 /**
+ * Transforme la structure par catégories en index par hash
+ * @param {Object} rawData - Données brutes avec catégories (WeaponPerks, WeaponMods, etc.)
+ * @returns {Object} Index avec hash comme clé
+ */
+function indexByHash(rawData) {
+  const indexed = {};
+
+  // Parcourir toutes les catégories
+  for (const category of Object.values(rawData)) {
+    // Vérifier que c'est un tableau
+    if (!Array.isArray(category)) continue;
+
+    // Indexer chaque item par son hash
+    for (const item of category) {
+      if (item.hash) {
+        indexed[String(item.hash)] = item;
+      }
+    }
+  }
+
+  console.log(`[DDCVacuum] Index créé avec ${Object.keys(indexed).length} entrées`);
+  return indexed;
+}
+
+/**
  * Charge les données DDCVacuum (avec cache)
  */
 export async function loadDDCVacuumData() {
@@ -18,14 +43,29 @@ export async function loadDDCVacuumData() {
   if (window.D2DataManager?.getFromMemoryCache) {
     const cached = window.D2DataManager.getFromMemoryCache(DDCVACUUM_URL);
     if (cached) {
-      ddcvacuumCache = cached;
+      // Transformer si nécessaire (si c'est la nouvelle structure)
+      ddcvacuumCache = isNewStructure(cached) ? indexByHash(cached) : cached;
       return ddcvacuumCache;
     }
   }
 
   // Sinon charger
-  ddcvacuumCache = await loadJSON(DDCVACUUM_URL);
+  const rawData = await loadJSON(DDCVACUUM_URL);
+  if (rawData) {
+    // Transformer si c'est la nouvelle structure
+    ddcvacuumCache = isNewStructure(rawData) ? indexByHash(rawData) : rawData;
+  }
   return ddcvacuumCache;
+}
+
+/**
+ * Vérifie si les données utilisent la nouvelle structure (par catégories)
+ */
+function isNewStructure(data) {
+  if (!data) return false;
+  // Nouvelle structure : contient des clés comme "WeaponPerks", "WeaponMods" avec des tableaux
+  const firstKey = Object.keys(data)[0];
+  return Array.isArray(data[firstKey]);
 }
 
 /**
@@ -35,7 +75,12 @@ export function getDDCVacuumData() {
   if (ddcvacuumCache) return ddcvacuumCache;
 
   if (window.D2DataManager?.getFromMemoryCache) {
-    return window.D2DataManager.getFromMemoryCache(DDCVACUUM_URL);
+    const cached = window.D2DataManager.getFromMemoryCache(DDCVACUUM_URL);
+    if (cached) {
+      // Transformer si nécessaire
+      ddcvacuumCache = isNewStructure(cached) ? indexByHash(cached) : cached;
+      return ddcvacuumCache;
+    }
   }
   return null;
 }
@@ -86,7 +131,7 @@ export function cleanupDDCVacuumListeners() {
 
 /**
  * Rendu de la section DDCVacuum dans le popup
- * @param {Object} item - Données DDCVacuum de l'item (ddcvacuum[id])
+ * @param {Object} item - Données DDCVacuum de l'item
  */
 export function renderDDCVacuumInPopup(item) {
   const ddcvacuumEl = document.getElementById('popupitem-ddcvacuum');
@@ -105,7 +150,7 @@ export function renderDDCVacuumInPopup(item) {
 
   // Header avec lien D2DDCVacuum
   const header = document.createElement('div');
-  header.style.cssText = 'display:flex;align-items:center;margin-bottom:1rem;color:#aaa';
+  header.style.cssText = 'align-items:center;margin-bottom:1rem;color:#aaa';
   header.innerHTML = `
     <p style="margin:0">
       Informations exportées depuis

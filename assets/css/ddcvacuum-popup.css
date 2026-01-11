@@ -62,21 +62,19 @@
 }
 
 #popupitem-ddcvacuum {
+  font-size: small;
   font-family: var(--font-primary);
   color: var(--color-text-secondary);
   opacity: 0.7;
-  letter-spacing: 0.06rem;
-  text-align: left;
   font-style: italic;
   padding-left: var(--spacing-base);
   padding-right: var(--spacing-base);
 
   /* Limitation de hauteur avec scroll */
-  max-height: 400px;
+  max-height: 300px;
   overflow-y: auto;
 
   /* Scrollbar personnalisée */
-  scrollbar-width: thin;
   scrollbar-color: var(--color-primary) var(--color-bg-surface);
 }
 
@@ -116,7 +114,7 @@
 @media (max-width: 768px) {
   .ddcvacuum-fade-wrapper,
   #popupitem-ddcvacuum {
-    max-height: 300px;
+    max-height: 200px;
   }
 
   .ddcvacuum-fade-wrapper::before,
@@ -128,7 +126,7 @@
 @media (max-width: 480px) {
   .ddcvacuum-fade-wrapper,
   #popupitem-ddcvacuum {
-    max-height: 250px;
+    max-height: 150px;
   }
 
   .ddcvacuum-fade-wrapper::before,
