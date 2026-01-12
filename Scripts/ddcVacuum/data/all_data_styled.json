@@ -9471,7 +9471,7 @@
     },
     {
       "Name": "Collective Pugilism",
-      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.45% ↑0.5%\nBurst Sidearm: 0.7% ↑0.77%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.1% ↑2.3%\nScout: 3% ↑3.3%\nRocket Launcher: 11.55% ↑12.7%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Melee Ability Energy.",
+      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy.",
       "hash": 1888882410,
       "parentHash": "1888882410",
       "hash_warning": "Multiple matches found (2 total)",
@@ -9581,10 +9581,10 @@
           {
             "linesContent": [
               {
-                "text": "Spreadshot HC: 0.45% "
+                "text": "Spreadshot HC: 0.5% "
               },
               {
-                "text": "↑0.5%",
+                "text": "↑0.55%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9603,10 +9603,29 @@
                 ]
               },
               {
-                "text": ": 0.7% "
+                "text": ": 0.78% "
               },
               {
-                "text": "↑0.77%",
+                "text": "↑0.86%",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Fusion Rifle",
+                "classNames": [
+                  "weapon-fusion-rifle"
+                ]
+              },
+              {
+                "text": ": 1.15% "
+              },
+              {
+                "text": "↑1.27%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9641,10 +9660,10 @@
                 ]
               },
               {
-                "text": ": 2.1% "
+                "text": ": 2.34% "
               },
               {
-                "text": "↑2.3%",
+                "text": "↑2.57%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9654,10 +9673,10 @@
           {
             "linesContent": [
               {
-                "text": "Scout: 3% "
+                "text": "Scout: 3.34% "
               },
               {
-                "text": "↑3.3%",
+                "text": "↑3.67%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9673,10 +9692,10 @@
                 ]
               },
               {
-                "text": ": 11.55% "
+                "text": ": 12.9% "
               },
               {
-                "text": "↑12.7%",
+                "text": "↑14.2%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9743,7 +9762,7 @@
           {
             "linesContent": [
               {
-                "text": "↑Grants 10% Melee Ability Energy.",
+                "text": "↑Grants 10% Increased Melee Ability Energy.",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9755,7 +9774,7 @@
     },
     {
       "Name": "Collective Pugilism",
-      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.45% ↑0.5%\nBurst Sidearm: 0.7% ↑0.77%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.1% ↑2.3%\nScout: 3% ↑3.3%\nRocket Launcher: 11.55% ↑12.7%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Melee Ability Energy.",
+      "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy.",
       "hash": 3684445958,
       "parentHash": "3684445958",
       "hash_warning": "Multiple matches found (2 total)",
@@ -9865,10 +9884,10 @@
           {
             "linesContent": [
               {
-                "text": "Spreadshot HC: 0.45% "
+                "text": "Spreadshot HC: 0.5% "
               },
               {
-                "text": "↑0.5%",
+                "text": "↑0.55%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9887,10 +9906,29 @@
                 ]
               },
               {
-                "text": ": 0.7% "
+                "text": ": 0.78% "
               },
               {
-                "text": "↑0.77%",
+                "text": "↑0.86%",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Fusion Rifle",
+                "classNames": [
+                  "weapon-fusion-rifle"
+                ]
+              },
+              {
+                "text": ": 1.15% "
+              },
+              {
+                "text": "↑1.27%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9925,10 +9963,10 @@
                 ]
               },
               {
-                "text": ": 2.1% "
+                "text": ": 2.34% "
               },
               {
-                "text": "↑2.3%",
+                "text": "↑2.57%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9938,10 +9976,10 @@
           {
             "linesContent": [
               {
-                "text": "Scout: 3% "
+                "text": "Scout: 3.34% "
               },
               {
-                "text": "↑3.3%",
+                "text": "↑3.67%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -9957,10 +9995,10 @@
                 ]
               },
               {
-                "text": ": 11.55% "
+                "text": ": 12.9% "
               },
               {
-                "text": "↑12.7%",
+                "text": "↑14.2%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -10027,7 +10065,7 @@
           {
             "linesContent": [
               {
-                "text": "↑Grants 10% Melee Ability Energy.",
+                "text": "↑Grants 10% Increased Melee Ability Energy.",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -54927,7 +54965,7 @@
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 3771737927,
       "parentHash": "3771737927",
       "hash_warning": "Multiple matches found (4 total)",
@@ -54987,7 +55025,7 @@
                 ]
               },
               {
-                "text": " Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55008,7 +55046,7 @@
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2732952950,
       "parentHash": "2732952950",
       "hash_warning": "Multiple matches found (4 total)",
@@ -55068,7 +55106,7 @@
                 ]
               },
               {
-                "text": " Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55089,7 +55127,7 @@
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2167115920,
       "parentHash": "2167115920",
       "hash_warning": "Multiple matches found (4 total)",
@@ -55149,7 +55187,7 @@
                 ]
               },
               {
-                "text": " Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55170,7 +55208,7 @@
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1002219198,
       "parentHash": "1002219198",
       "hash_warning": "Multiple matches found (4 total)",
@@ -55230,7 +55268,7 @@
                 ]
               },
               {
-                "text": " Balanced Heat Weapons intrinsically deal 15% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55341,7 +55379,7 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2331097520,
       "parentHash": "2331097520",
       "hash_warning": "Multiple matches found (5 total)",
@@ -55401,7 +55439,7 @@
                 ]
               },
               {
-                "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55422,7 +55460,7 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1442784346,
       "parentHash": "1442784346",
       "hash_warning": "Multiple matches found (5 total)",
@@ -55482,7 +55520,7 @@
                 ]
               },
               {
-                "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55503,7 +55541,7 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1611330137,
       "parentHash": "1611330137",
       "hash_warning": "Multiple matches found (5 total)",
@@ -55563,7 +55601,7 @@
                 ]
               },
               {
-                "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55584,7 +55622,7 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 4108848057,
       "parentHash": "4108848057",
       "hash_warning": "Multiple matches found (5 total)",
@@ -55644,7 +55682,7 @@
                 ]
               },
               {
-                "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -55665,7 +55703,7 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1406835319,
       "parentHash": "1406835319",
       "hash_warning": "Multiple matches found (5 total)",
@@ -55725,7 +55763,7 @@
                 ]
               },
               {
-                "text": " Dynamic Heat Weapons intrinsically deal 15% increased damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
+                "text": " Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles."
               }
             ]
           },
@@ -70224,7 +70262,7 @@
     },
     {
       "Name": "Bray Legacy",
-      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% ↑?%\n\n↑25% Increased Ability Energy.",
+      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.25%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.36%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.429%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 5.8%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = 0.19% ↑0.24%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = 0.75% ↑0.94%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 11.6% ↑14.5%\n\n↑25% Increased Ability Energy.",
       "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons",
       "hash": 4139916815,
       "parentHash": "4139916815",
@@ -70278,7 +70316,7 @@
                 ]
               },
               {
-                "text": " (VS Pyroelectric Propellant) = 0.2%"
+                "text": " (VS Pyroelectric Propellant) = 0.25%"
               }
             ]
           },
@@ -70294,7 +70332,7 @@
                 ]
               },
               {
-                "text": " (VS Velocity Baton) = 0.365%"
+                "text": " (VS Velocity Baton) = 0.36%"
               }
             ]
           },
@@ -70307,7 +70345,7 @@
                 ]
               },
               {
-                "text": " (VS Gravitic Arrest) = 0.425%"
+                "text": " (VS Gravitic Arrest) = 0.429%"
               }
             ]
           },
@@ -70320,7 +70358,7 @@
                 ]
               },
               {
-                "text": " (VS Chill Inhibitor) = 3.5%"
+                "text": " (VS Chill Inhibitor) = 5.8%"
               }
             ]
           },
@@ -70345,10 +70383,10 @@
                 ]
               },
               {
-                "text": " (Ahab Char) = ?% "
+                "text": " (Ahab Char) = 0.19% "
               },
               {
-                "text": "↑?%",
+                "text": "↑0.24%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -70383,10 +70421,10 @@
                 ]
               },
               {
-                "text": " (Faustus Decline) = ?% "
+                "text": " (Faustus Decline) = 0.75% "
               },
               {
-                "text": "↑?%",
+                "text": "↑0.94%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -70430,10 +70468,10 @@
                 ]
               },
               {
-                "text": " (Eighty-Six)= 17% "
+                "text": " (Eighty-Six)= 11.6% "
               },
               {
-                "text": "↑?%",
+                "text": "↑14.5%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -70463,7 +70501,7 @@
     },
     {
       "Name": "Bray Legacy",
-      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.2%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.365%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.425%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 3.5%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = ?% ↑?%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = ?% ↑?%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 17% ↑?%\n\n↑25% Increased Ability Energy.",
+      "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.25%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.36%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.429%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 5.8%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = 0.19% ↑0.24%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = 0.75% ↑0.94%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 11.6% ↑14.5%\n\n↑25% Increased Ability Energy.",
       "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons",
       "hash": 4232410959,
       "parentHash": "4232410959",
@@ -70517,7 +70555,7 @@
                 ]
               },
               {
-                "text": " (VS Pyroelectric Propellant) = 0.2%"
+                "text": " (VS Pyroelectric Propellant) = 0.25%"
               }
             ]
           },
@@ -70533,7 +70571,7 @@
                 ]
               },
               {
-                "text": " (VS Velocity Baton) = 0.365%"
+                "text": " (VS Velocity Baton) = 0.36%"
               }
             ]
           },
@@ -70546,7 +70584,7 @@
                 ]
               },
               {
-                "text": " (VS Gravitic Arrest) = 0.425%"
+                "text": " (VS Gravitic Arrest) = 0.429%"
               }
             ]
           },
@@ -70559,7 +70597,7 @@
                 ]
               },
               {
-                "text": " (VS Chill Inhibitor) = 3.5%"
+                "text": " (VS Chill Inhibitor) = 5.8%"
               }
             ]
           },
@@ -70584,10 +70622,10 @@
                 ]
               },
               {
-                "text": " (Ahab Char) = ?% "
+                "text": " (Ahab Char) = 0.19% "
               },
               {
-                "text": "↑?%",
+                "text": "↑0.24%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -70622,10 +70660,10 @@
                 ]
               },
               {
-                "text": " (Faustus Decline) = ?% "
+                "text": " (Faustus Decline) = 0.75% "
               },
               {
-                "text": "↑?%",
+                "text": "↑0.94%",
                 "classNames": [
                   "enhancedArrow"
                 ]
@@ -70669,10 +70707,10 @@
                 ]
               },
               {
-                "text": " (Eighty-Six)= 17% "
+                "text": " (Eighty-Six)= 11.6% "
               },
               {
-                "text": "↑?%",
+                "text": "↑14.5%",
                 "classNames": [
                   "enhancedArrow"
                 ]

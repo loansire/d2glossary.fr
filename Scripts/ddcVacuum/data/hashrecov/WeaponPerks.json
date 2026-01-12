@@ -636,14 +636,14 @@
   },
   {
     "Name": "Collective Pugilism",
-    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.45% ↑0.5%\nBurst Sidearm: 0.7% ↑0.77%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.1% ↑2.3%\nScout: 3% ↑3.3%\nRocket Launcher: 11.55% ↑12.7%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Melee Ability Energy.",
+    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy.",
     "hash": 1888882410,
     "parentHash": "1888882410",
     "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Collective Pugilism",
-    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.45% ↑0.5%\nBurst Sidearm: 0.7% ↑0.77%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.1% ↑2.3%\nScout: 3% ↑3.3%\nRocket Launcher: 11.55% ↑12.7%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Melee Ability Energy.",
+    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy.",
     "hash": 3684445958,
     "parentHash": "3684445958",
     "hash_warning": "Multiple matches found (2 total)"
