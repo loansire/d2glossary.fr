@@ -60,7 +60,7 @@ STYLE_PATTERNS = {
         "description": "Void subclass keywords"
     },
     "stasis_keywords": {
-        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|(?:Crystals? )?Shatter(?:ed|ing)?|Slow(?:ed)?|Frozens?|Freez(?:e|ing)|Stasis)\b',
+        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|(?:Crystals? )?Shatter(?:ed|ing)?|Slow(?:ed)?|Frozens?|Freez(?:e|ing)|Shards?|Stasis)\b',
         "class": "stasis",
         "flags": re.IGNORECASE,
         "description": "Stasis subclass keywords"

@@ -40,7 +40,22 @@
         {
           "linesContent": [
             {
-              "text": "Shards last for 20 seconds. Allies receive a copy of all Shards created by the user."
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " last for 20 seconds. Allies receive a copy of all "
+            },
+            {
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " created by the user."
             }
           ]
         },

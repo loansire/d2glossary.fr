@@ -71,6 +71,28 @@ SHEET_FILTERS = {
         }
     ],
 
+    "ArmorMods": [
+        {
+            "filter": NameCommentSplitFilter,
+            "config": {
+                "name_field": "Name",
+                "comment_field": "Comment"
+            },
+            "description": "Sépare le Name et le Comment"
+        }
+    ],
+
+    "ExoticWeapons": [
+        {
+            "filter": NameCommentSplitFilter,
+            "config": {
+                "name_field": "Name",
+                "comment_field": "Comment"
+            },
+            "description": "Sépare le Name et le Comment"
+        }
+    ],
+
     # Ajouter d'autres sheets ici au besoin
     # "IntrinsicTraits": [
     #     {

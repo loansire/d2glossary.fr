@@ -1,0 +1,5337 @@
+[
+  {
+    "Name": "Ammo Scout",
+    "Description": "Upon spawning a Mod-Matching Ammo Brick:\nAllies receive a copy of the Ammo Brick.\n\nAmmo Scout Brick Pickup Amounts:\n37% | 67% | 100% of a regular Ammo Brick's.",
+    "Type": "HelmetMods",
+    "Comment": "[1 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon spawning a Mod-Matching Ammo Brick:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Allies receive a copy of the Ammo Brick."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ammo Scout",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Brick Pickup Amounts:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "37% | 67% | 100% of a regular Ammo Brick's."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ashes to Assets",
+    "Description": "On Grenade Kill:\nGrants additional Super Energy. \n\nTier 1: 1%? | ?% | ?%\nTier 2: ?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Hands-On.\nGrapple Melee Kills reduce the Super Energy by 50%.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 856936828,
+    "parentHash": "856936828",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: 1%? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Hands-On."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grapple Melee Kills reduce the Super Energy by 50%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ashes to Assets",
+    "Description": "On Grenade Kill:\nGrants additional Super Energy. \n\nTier 1: 1%? | ?% | ?%\nTier 2: ?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Hands-On.\nGrapple Melee Kills reduce the Super Energy by 50%.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 2136310244,
+    "parentHash": "2136310244",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: 1%? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Hands-On."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grapple Melee Kills reduce the Super Energy by 50%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ashes to Assets",
+    "Description": "On Grenade Kill:\nGrants additional Super Energy. \n\nTier 1: 1%? | ?% | ?%\nTier 2: ?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Hands-On.\nGrapple Melee Kills reduce the Super Energy by 50%.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 1107740237,
+    "parentHash": "1107740237",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: 1%? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Hands-On."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grapple Melee Kills reduce the Super Energy by 50%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dynamo",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Super Ability Energy.\n\nSuper Energy Gains:\n2.5% | 4%\n1.25% | 2.4%\n\nSuper Energy Multipliers based on Class:\nHunters: x1 | Titans: x1.2 | Warlocks: x2",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 2414626352,
+    "parentHash": "2414626352",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Super Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 4%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.25% | 2.4%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Multipliers based on Class:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hunters: x1 | Titans: x1.2 | Warlocks: x2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dynamo",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Super Ability Energy.\n\nSuper Energy Gains:\n2.5% | 4%\n1.25% | 2.4%\n\nSuper Energy Multipliers based on Class:\nHunters: x1 | Titans: x1.2 | Warlocks: x2",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 1604394872,
+    "parentHash": "1604394872",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Super Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 4%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.25% | 2.4%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Multipliers based on Class:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hunters: x1 | Titans: x1.2 | Warlocks: x2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dynamo",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Super Ability Energy.\n\nSuper Energy Gains:\n2.5% | 4%\n1.25% | 2.4%\n\nSuper Energy Multipliers based on Class:\nHunters: x1 | Titans: x1.2 | Warlocks: x2",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 4048902980,
+    "parentHash": "4048902980",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Super Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 4%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1.25% | 2.4%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Energy Multipliers based on Class:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hunters: x1 | Titans: x1.2 | Warlocks: x2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Hands-On",
+    "Description": "On Powered Melee Kill:\nGrants additional Super Energy. \n\nTier 1: %? | ?% | ?%\nTier 2: 1.33?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Ashes to Assets.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 3938489430,
+    "parentHash": "3938489430",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: %? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: 1.33?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Ashes to Assets."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Hands-On",
+    "Description": "On Powered Melee Kill:\nGrants additional Super Energy. \n\nTier 1: %? | ?% | ?%\nTier 2: 1.33?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Ashes to Assets.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 1036557198,
+    "parentHash": "1036557198",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: %? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: 1.33?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Ashes to Assets."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Hands-On",
+    "Description": "On Powered Melee Kill:\nGrants additional Super Energy. \n\nTier 1: %? | ?% | ?%\nTier 2: 1.33?% |  ?% | ?%\nTier 3: ?% |  ?% | ?%\nTier 4: 5?% |  ?% | ?%\nGuardians: ?% | ?% | ?%\n\nCannot simultaneously benefit with Ashes to Assets.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 1567314459,
+    "parentHash": "1567314459",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants additional Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1: %? | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2: 1.33?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3: ?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4: 5?% |  ?% | ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardians: ?% | ?% | ?%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Ashes to Assets."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "In-Flight Compensator",
+    "Description": "+15 | +25 | +30 Airborne Effectiveness.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 2899505723,
+    "parentHash": "2899505723",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+15 | +25 | +30 Airborne Effectiveness."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "In-Flight Compensator",
+    "Description": "+15 | +25 | +30 Airborne Effectiveness.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 3518670115,
+    "parentHash": "3518670115",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+15 | +25 | +30 Airborne Effectiveness."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Power Preservation",
+    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 1.5? seconds cooldown between Orbs.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 3149307605,
+    "parentHash": "3149307605",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Super Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Orb of Power for Allies."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 3.75% | 4.4% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1.5? seconds cooldown between Orbs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Power Preservation",
+    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 1.5? seconds cooldown between Orbs.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 2982306509,
+    "parentHash": "2982306509",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Super Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Orb of Power for Allies."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 3.75% | 4.4% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1.5? seconds cooldown between Orbs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Powerful Friends",
+    "Description": "On Orb of Power Pickup:\n\n Allies within 18 metres receive x1 Armor Charge.",
+    "Type": "HelmetMods",
+    "Comment": "[1 Energy]",
+    "hash": 2175577211,
+    "parentHash": "2175577211",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Allies within 18 metres receive x1 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Radiant Light",
+    "Description": "On Super Cast:\n\n Grants x1 Armor Charge to Allies within 21 metres.\nCaster receives x1 Armor Charge if already Charged.\n\nAllies on different Subclasses are granted x2 Armor Charge.",
+    "Type": "HelmetMods",
+    "Comment": "[1 Energy]",
+    "hash": 2199590568,
+    "parentHash": "2199590568",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Super Cast:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge to Allies within 21 metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Caster receives x1 Armor Charge if already Charged."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Allies on different Subclasses are granted x2 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Siphon",
+    "Description": "Upon scoring 2 Mod-Element Matching Weapon Kills within 3 seconds of each:\n\nSpawns an Orb of Power.\nIncurs a 1 second cooldown upon spawning an Orbs of Power before additional kills count.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.",
+    "Type": "HelmetMods",
+    "Comment": "[1–2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring 2 Mod-Element Matching Weapon Kills within 3 seconds of each:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns an Orb of Power."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1 second cooldown upon spawning an Orbs of Power before additional kills count."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5% | 3.75% | 4.4% Super Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Super Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Super.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 1130820873,
+    "parentHash": "1130820873",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Super."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Super Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Super.",
+    "Type": "HelmetMods",
+    "Comment": "[3 Energy]",
+    "hash": 3461249873,
+    "parentHash": "3461249873",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Super."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Targeting",
+    "Description": "To Mod-Element Matching Weapons, after 1 second of readying the weapon:\n\n+5 | +8 | +10 Aim Assist\n0.9x | 0.85x | 0.8x Accuracy Cone Size\n 0.85x | 0.75x | 0.7x ADS Duration Multiplier",
+    "Type": "HelmetMods",
+    "Comment": "[2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "To Mod-Element Matching Weapons, after 1 second of readying the weapon:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+5 | +8 | +10 Aim Assist"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.9x | 0.85x | 0.8x Accuracy Cone Size"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.85x | 0.75x | 0.7x ADS Duration Multiplier"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dexterity",
+    "Description": "To Mod-Element Matching Weapon:\n\n0.8x | 0.75x | 0.7x Ready/Stow Duration Multiplier.\n\nCannot exceed 100 Handling Stow Animation Duration.",
+    "Type": "ArmsMods",
+    "Comment": "[2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "To Mod-Element Matching Weapon:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8x | 0.75x | 0.7x Ready/Stow Duration Multiplier."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot exceed 100 Handling Stow Animation Duration."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Fastball",
+    "Description": "Grenades travel ~25% faster and farther.\nStrength of the effect varies between grenades.",
+    "Type": "ArmsMods",
+    "Comment": "[1 Energy]",
+    "hash": 2649291407,
+    "parentHash": "2649291407",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenades travel ~25% faster and farther."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Strength of the effect varies between grenades."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Fastball",
+    "Description": "Grenades travel ~25% faster and farther.\nStrength of the effect varies between grenades.",
+    "Type": "ArmsMods",
+    "Comment": "[1 Energy]",
+    "hash": 3030206832,
+    "parentHash": "3030206832",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenades travel ~25% faster and farther."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Strength of the effect varies between grenades."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Firepower",
+    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Heavy Handed.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 2485657760,
+    "parentHash": "2485657760",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Heavy Handed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Firepower",
+    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Heavy Handed.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 965934024,
+    "parentHash": "965934024",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Heavy Handed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Focusing Strike",
+    "Description": "Upon dealing Powered Melee Damage:\nGrants Class Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 3685945823,
+    "parentHash": "3685945823",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Focusing Strike",
+    "Description": "Upon dealing Powered Melee Damage:\nGrants Class Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 3657186535,
+    "parentHash": "3657186535",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Grenade Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Grenade.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 1781551382,
+    "parentHash": "1781551382",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Grenade."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Grenade Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Grenade.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 1255614814,
+    "parentHash": "1255614814",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Grenade."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Grenade Kickstart",
+    "Description": "On Grenade Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Grenade Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nGrenade Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 4182064480,
+    "parentHash": "4182064480",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Ability Usage while having Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes all Armor Charges to grant Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Ability Energy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Grenade Kickstart",
+    "Description": "On Grenade Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Grenade Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nGrenade Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 1924584408,
+    "parentHash": "1924584408",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Grenade Ability Usage while having Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes all Armor Charges to grant Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Ability Energy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Heavy Handed",
+    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Firepower.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 2447449706,
+    "parentHash": "2447449706",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns an Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Firepower."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Heavy Handed",
+    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Firepower.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 1709236482,
+    "parentHash": "1709236482",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns an Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Cannot simultaneously benefit with Firepower."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Impact Induction",
+    "Description": "Upon dealing Powered Melee Damage:\nGrants Grenade Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 377010989,
+    "parentHash": "377010989",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Impact Induction",
+    "Description": "Upon dealing Powered Melee Damage:\nGrants Grenade Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 1153260021,
+    "parentHash": "1153260021",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Impact Induction",
+    "Description": "Upon dealing Powered Melee Damage:\nGrants Grenade Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 3938115510,
+    "parentHash": "3938115510",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Loader",
+    "Description": "To Mod-Element Matching Weapon, after ~0.5 second of readying the weapon:\n\n+10 | +15 | +18 Reload Speed\n0.85x Reload Duration Multiplier ",
+    "Type": "ArmsMods",
+    "Comment": "[2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "To Mod-Element Matching Weapon, after ~0.5 second of readying the weapon:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+10 | +15 | +18 Reload Speed"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.85x Reload Duration Multiplier"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Melee Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Melee.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 633101315,
+    "parentHash": "633101315",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Melee."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Melee Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Melee.",
+    "Type": "ArmsMods",
+    "Comment": "[3 Energy]",
+    "hash": 2771425787,
+    "parentHash": "2771425787",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Melee."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Melee",
+    "Description": "On Melee Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Melee Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nMelee Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Type": "ArmsMods",
+    "Comment": " Kickstart\n[3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Melee",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ability Usage while having Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes all Armor Charges to grant "
+            },
+            {
+              "text": "Melee",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Melee",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Ability Energy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Momentum Transfer",
+    "Description": "Upon dealing Grenade Damage:\nGrants Melee Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.\nDoes not work with Grapple.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 3599522901,
+    "parentHash": "3599522901",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Grenade Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work with Grapple."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Momentum Transfer",
+    "Description": "Upon dealing Grenade Damage:\nGrants Melee Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.\nDoes not work with Grapple.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 2031584061,
+    "parentHash": "2031584061",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Grenade Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work with Grapple."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Momentum Transfer",
+    "Description": "Upon dealing Grenade Damage:\nGrants Melee Ability Energy.\n\nAbility Energy Gain:\n12% | 17% | 20%\n6% | 8.5% | 10%\n\nIncurs a 7 second cooldown after activation.\nDoes not work with Grapple.",
+    "Type": "ArmsMods",
+    "Comment": "[2 Energy]",
+    "hash": 320680844,
+    "parentHash": "320680844",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Grenade Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gain:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 7 second cooldown after activation."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work with Grapple."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Shield Break Charge",
+    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 Armor Charge.",
+    "Type": "ArmsMods",
+    "Comment": "[4 Energy]",
+    "hash": 48578555,
+    "parentHash": "48578555",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon breaking a Combatant Shield with Matching Damage:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Shield Break Charge",
+    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 Armor Charge.",
+    "Type": "ArmsMods",
+    "Comment": "[4 Energy]",
+    "hash": 3047946307,
+    "parentHash": "3047946307",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon breaking a Combatant Shield with Matching Damage:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Charged up",
+    "Description": "Increases the Maximum Armor Charge Stacks.\n\nMaximum Armor Charge Stacks:\n4 | 5 | 6",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 2577472338,
+    "parentHash": "2577472338",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Increases the Maximum Armor Charge Stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Maximum Armor Charge Stacks:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4 | 5 | 6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Charged up",
+    "Description": "Increases the Maximum Armor Charge Stacks.\n\nMaximum Armor Charge Stacks:\n4 | 5 | 6",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 3181984586,
+    "parentHash": "3181984586",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Increases the Maximum Armor Charge Stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Maximum Armor Charge Stacks:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4 | 5 | 6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Emergency Reinforcement",
+    "Description": "Upon reaching Critical Health while at x3 or more Armor Charges:\n\nGrants 10% Damage Resist. \nDuration is based on the amount of Armor Charges consumed.\n\nBuff Duration at x3, x4, and x5 Charges.\n6 | 9 | 12 | 15 seconds.",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 1024379611,
+    "parentHash": "1024379611",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon reaching Critical Health while at x3 or more Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 10% Damage Resist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Duration is based on the amount of Armor Charges consumed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff Duration at x3, x4, and x5 Charges."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6 | 9 | 12 | 15 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Emergency Reinforcement",
+    "Description": "Upon reaching Critical Health while at x3 or more Armor Charges:\n\nGrants 10% Damage Resist. \nDuration is based on the amount of Armor Charges consumed.\n\nBuff Duration at x3, x4, and x5 Charges.\n6 | 9 | 12 | 15 seconds.",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 422994787,
+    "parentHash": "422994787",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon reaching Critical Health while at x3 or more Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 10% Damage Resist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Duration is based on the amount of Armor Charges consumed."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff Duration at x3, x4, and x5 Charges."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6 | 9 | 12 | 15 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Health Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Health.",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 686455429,
+    "parentHash": "686455429",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Health."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Health Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Health.",
+    "Type": "ChestMods",
+    "Comment": "[3 Energy]",
+    "hash": 3075302157,
+    "parentHash": "3075302157",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Health."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Lucent Blades",
+    "Description": "Swords are granted +30 | +50 | +60 Charge Rate.\n\nGlaive Projectile Hits grant 20% | 30% | 35% Increased Weapon Energy. \nStacks additively with Immovable Object.",
+    "Type": "ChestMods",
+    "Comment": "[2 Energy]",
+    "hash": 531057500,
+    "parentHash": "531057500",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " are granted +30 | +50 | +60 Charge Rate."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Projectile Hits grant 20% | 30% | 35% Increased Weapon Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks additively with Immovable Object."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Lucent Blades",
+    "Description": "Swords are granted +30 | +50 | +60 Charge Rate.\n\nGlaive Projectile Hits grant 20% | 30% | 35% Increased Weapon Energy. \nStacks additively with Immovable Object.",
+    "Type": "ChestMods",
+    "Comment": "[2 Energy]",
+    "hash": 830369300,
+    "parentHash": "830369300",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": " are granted +30 | +50 | +60 Charge Rate."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Projectile Hits grant 20% | 30% | 35% Increased Weapon Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks additively with Immovable Object."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Resistance",
+    "Description": "Grants 15% | 25% | 30% Damage Resist against Combatants.\n\nElemental Mods reduce Mod-Matching Elemental damage.\nSniper reduces damage from >29 metres.\nMelee reduces damage from <4 metres.\nConcussive Dampener reduces AoE/Blast/Explosive Damage.\n\nDifferent Resist Mods, as well as other sources of Resist all stack multiplicatively with each other.",
+    "Type": "ChestMods",
+    "Comment": "[1–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants 15% | 25% | 30% Damage Resist against Combatants."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elemental Mods reduce Mod-Matching Elemental damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper reduces damage from >29 metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Melee reduces damage from <4 metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Concussive Dampener reduces AoE/Blast/Explosive Damage."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Different Resist Mods, as well as other sources of Resist all stack multiplicatively with each other."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Unflinching Aim",
+    "Description": "To Mod-Element Matching Weapons, while ADS:\n\n25% | 30% | 35% Flinch Resistance.\n\nFlinch Resistances are multiplicative with each other.",
+    "Type": "ChestMods",
+    "Comment": "[2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "To Mod-Element Matching Weapons, while ADS:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "25% | 30% | 35% Flinch Resistance."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Flinch Resistances are multiplicative with each other."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Better Already",
+    "Description": "On Orb of Power Pickup:\n\nBegins Health Regeneration.\n\nMod does not stack, despite the in-game tooltip.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 2194294579,
+    "parentHash": "2194294579",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Begins Health Regeneration."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Mod does not stack, despite the in-game tooltip."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Better Already",
+    "Description": "On Orb of Power Pickup:\n\nBegins Health Regeneration.\n\nMod does not stack, despite the in-game tooltip.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 310410239,
+    "parentHash": "310410239",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Begins Health Regeneration."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Mod does not stack, despite the in-game tooltip."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Elemental Charge",
+    "Description": "\nPicking up Elemental Pickups, or destroying Tangles progresses a counter.\n\nGrants x1 Armor Charge upon reaching 100% Counter Progress.\n\nElemental Pickup Counter Progress:\nVoid Breaches, Firesprites, and Tangles: 50% | 50% | 100%\nIonic Traces: 34% | 50% | 50% | Shards: 25% | 34% | 50%",
+    "Type": "LegsMods",
+    "Comment": "[3 Energy]",
+    "hash": 3712696020,
+    "parentHash": "3712696020",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Picking up Elemental Pickups, or destroying "
+            },
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " progresses a counter."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge upon reaching 100% Counter Progress."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elemental Pickup Counter Progress:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void Breaches",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Firesprites",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": ": 50% | 50% | 100%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ": 34% | 50% | 50% | "
+            },
+            {
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ": 25% | 34% | 50%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Elemental Charge",
+    "Description": "\nPicking up Elemental Pickups, or destroying Tangles progresses a counter.\n\nGrants x1 Armor Charge upon reaching 100% Counter Progress.\n\nElemental Pickup Counter Progress:\nVoid Breaches, Firesprites, and Tangles: 50% | 50% | 100%\nIonic Traces: 34% | 50% | 50% | Shards: 25% | 34% | 50%",
+    "Type": "LegsMods",
+    "Comment": "[3 Energy]",
+    "hash": 2996369932,
+    "parentHash": "2996369932",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Picking up Elemental Pickups, or destroying "
+            },
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " progresses a counter."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge upon reaching 100% Counter Progress."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elemental Pickup Counter Progress:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void Breaches",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Firesprites",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": ": 50% | 50% | 100%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ": 34% | 50% | 50% | "
+            },
+            {
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ": 25% | 34% | 50%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Enhanced Athletics",
+    "Description": "+30 | +50 | +60 Mobility.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 1133590731,
+    "parentHash": "1133590731",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "+30 | +50 | +60 Mobility."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Holster",
+    "Description": "Stowed Weapons begin refilling after a period of time.\n\n10% | 10% | 15% Magazine Refill per activation.\n2.5 | 2 | 2 seconds between activations.\n\nDoes not work with Breech-Loaded Grenades Launchers, Crossbows, and Rocket Launchers.",
+    "Type": "LegsMods",
+    "Comment": "[1-2 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Stowed Weapons begin refilling after a period of time."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 10% | 15% Magazine Refill per activation."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2.5 | 2 | 2 seconds between activations."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work with Breech-Loaded Grenades Launchers, Crossbows, and "
+            },
+            {
+              "text": "Rocket Launchers",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Innervation",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Grenade Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 1750845415,
+    "parentHash": "1750845415",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Grenade Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Innervation",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Grenade Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 2760701299,
+    "parentHash": "2760701299",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Grenade Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Insulation",
+    "Description": "On Orb of Power Pickup:\n\n4% | 5% | 6% Class Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 3325390304,
+    "parentHash": "3325390304",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4% | 5% | 6% Class Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Insulation",
+    "Description": "On Orb of Power Pickup:\n\n4% | 5% | 6% Class Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 1316177012,
+    "parentHash": "1316177012",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4% | 5% | 6% Class Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Invigoration",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Melee Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 1848187513,
+    "parentHash": "1848187513",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Melee Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Invigoration",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Melee Ability Energy.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 673846245,
+    "parentHash": "673846245",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Melee Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Orbs of Restoration",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Ability Energy to the least-charged Ability.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. ",
+    "Type": "LegsMods",
+    "Comment": "[2 Energy]",
+    "hash": 1039115606,
+    "parentHash": "1039115606",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Ability Energy to the least-charged Ability."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Orbs of Restoration",
+    "Description": "On Orb of Power Pickup:\n\n10% | 13% | 15% Ability Energy to the least-charged Ability.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. ",
+    "Type": "LegsMods",
+    "Comment": "[2 Energy]",
+    "hash": 3791691774,
+    "parentHash": "3791691774",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 13% | 15% Ability Energy to the least-charged Ability."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Recuperation",
+    "Description": "On Orb of Power Pickup:\n\nRestores 16 | 21 | 21 Health.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 4087056174,
+    "parentHash": "4087056174",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores 16 | 21 | 21 Health."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Recuperation",
+    "Description": "On Orb of Power Pickup:\n\nRestores 16 | 21 | 21 Health.",
+    "Type": "LegsMods",
+    "Comment": "[1 Energy]",
+    "hash": 3416944458,
+    "parentHash": "3416944458",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power Pickup:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores 16 | 21 | 21 Health."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Scavenger",
+    "Description": "On Ammo Brick Pickup to Mod-Element Matching Weapons:\nGenerally grants an additional +1 Ammo.\n\nMachine Guns receive +7 Ammo.\nTraces receive +10% Max Reserves.\n\nBy default, Ammo Bricks grant 25% to 33% of Reserves.\nWorks with Ammo Finder Bricks in full effect.\n\nDoes not function in PvP Game Modes.",
+    "Type": "LegsMods",
+    "Comment": "[2–3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Ammo Brick Pickup to Mod-Element Matching Weapons:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Generally grants an additional +1 Ammo."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Machine Guns",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": " receive +7 Ammo."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Traces receive +10% Max Reserves."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "By default, Ammo Bricks grant 25% to 33% of Reserves."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Works with Ammo Finder Bricks in full effect."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not function in PvP Game Modes."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Stacks on Stacks",
+    "Description": "All sources of Armor Charge now grant an additional stack.",
+    "Type": "LegsMods",
+    "Comment": "[4 Energy]",
+    "hash": 3994043492,
+    "parentHash": "3994043492",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "All sources of Armor Charge now grant an additional stack."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Stacks on Stacks",
+    "Description": "All sources of Armor Charge now grant an additional stack.",
+    "Type": "LegsMods",
+    "Comment": "[4 Energy]",
+    "hash": 1627901452,
+    "parentHash": "1627901452",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "All sources of Armor Charge now grant an additional stack."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Weapons Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Weapons.",
+    "Type": "LegsMods",
+    "Comment": "[3 Energy]",
+    "hash": 4046357305,
+    "parentHash": "4046357305",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Weapons."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Weapons Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Weapons.",
+    "Type": "LegsMods",
+    "Comment": "[3 Energy]",
+    "hash": 1901221009,
+    "parentHash": "1901221009",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Weapons."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Weapon Surge",
+    "Description": "While Armor Charge is active:\nIncreases Mod-Element Matching Weapon Damage.\n\nDamage Increase:\n10% | 17% | 22% | 25%\n3% | 4.5% | 5.5% | 6%\n\nx4 is only obtainable through Artifact or Exotic Armor.",
+    "Type": "LegsMods",
+    "Comment": "[3 Energy]",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Increases Mod-Element Matching Weapon Damage."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage Increase:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "10% | 17% | 22% | 25%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3% | 4.5% | 5.5% | 6%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x4 is only obtainable through Artifact or Exotic Armor."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bomber",
+    "Description": "On Class Ability Usage:\nGrants Grenade Ability Energy.\n\nGrenade Energy Gains:\n12% | 17% | 20%\n6% | 8.5% | 10%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4188291233,
+    "parentHash": "4188291233",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bomber",
+    "Description": "On Class Ability Usage:\nGrants Grenade Ability Energy.\n\nGrenade Energy Gains:\n12% | 17% | 20%\n6% | 8.5% | 10%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 1122363303,
+    "parentHash": "1122363303",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Bulwark Finisher",
+    "Description": "On Finisher:\nConsumes x3 or more Armor Charges\n\nGrants Void Overshield for a varying duration.\n\nOvershield Duration at x3, x4, x5, and x6 Charges:\n8 | 10 | 12 | 14 seconds.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4004774874,
+    "parentHash": "4004774874",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x3 or more Armor Charges"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for a varying duration."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Duration at x3, x4, x5, and x6 Charges:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "8 | 10 | 12 | 14 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Class Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Class.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 1193713026,
+    "parentHash": "1193713026",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Class."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Class Font",
+    "Description": "While Armor Charge is active:\n\n+20 | +40 | +50 Class.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 1672155562,
+    "parentHash": "1672155562",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While Armor Charge is active:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +50 Class."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Distribution",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Grenade, Melee, Class, and Super Energy.\n\n4% | 6% | 7% Grenade, Melee and Class Energy\n2% | 3% | 4% Super Energy\n\n2% | 3% | 3.5% Grenade, Melee and Class Energy\n1% | 1.5% | 2% Super Energy",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 4039026690,
+    "parentHash": "4039026690",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade, Melee, Class, and Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4% | 6% | 7% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 4% Super Energy"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 3.5% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1% | 1.5% | 2% Super Energy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Distribution",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Grenade, Melee, Class, and Super Energy.\n\n4% | 6% | 7% Grenade, Melee and Class Energy\n2% | 3% | 4% Super Energy\n\n2% | 3% | 3.5% Grenade, Melee and Class Energy\n1% | 1.5% | 2% Super Energy",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 4267244538,
+    "parentHash": "4267244538",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade, Melee, Class, and Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4% | 6% | 7% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 4% Super Energy"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 3.5% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1% | 1.5% | 2% Super Energy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Distribution",
+    "Description": "On Class Ability Usage while within 15 metres of an enemy:\nGrants Grenade, Melee, Class, and Super Energy.\n\n4% | 6% | 7% Grenade, Melee and Class Energy\n2% | 3% | 4% Super Energy\n\n2% | 3% | 3.5% Grenade, Melee and Class Energy\n1% | 1.5% | 2% Super Energy",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 2610215900,
+    "parentHash": "2610215900",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while within 15 metres of an enemy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade, Melee, Class, and Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4% | 6% | 7% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 4% Super Energy"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2% | 3% | 3.5% Grenade, Melee and Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "1% | 1.5% | 2% Super Energy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Empowered Finish",
+    "Description": "On Finisher, while at x0 Armor Charge:\nGrants x1 Armor Charge.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 84503918,
+    "parentHash": "84503918",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher, while at x0 Armor Charge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Empowered Finish",
+    "Description": "On Finisher, while at x0 Armor Charge:\nGrants x1 Armor Charge.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 1208761894,
+    "parentHash": "1208761894",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher, while at x0 Armor Charge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 Armor Charge."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Explosive Finisher",
+    "Description": "On Finisher:\nConsumes x3 or more Armor Charge.\n\nGrants Grenade Ability Energy.\nx3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4004774877,
+    "parentHash": "4004774877",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x3 or more Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Healthy Finisher",
+    "Description": "On Finisher:\nConsumes x1 Armor Charge.\n\nInstantly fully restores Health and Shields.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4004774875,
+    "parentHash": "4004774875",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x1 Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Instantly fully restores Health and Shields."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "One-Two Finisher",
+    "Description": "On Finisher:\nConsumes x3 or more Armor Charge.\n\nGrants Melee Ability Energy.\nx3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4004774873,
+    "parentHash": "4004774873",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x3 or more Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Outreach",
+    "Description": "On Class Ability Usage:\nGrants Melee Ability Energy.\n\nMelee Energy Gains:\n12% | 17% | 20%\n6% | 8.5% | 10%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4160037471,
+    "parentHash": "4160037471",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Melee Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Outreach",
+    "Description": "On Class Ability Usage:\nGrants Melee Ability Energy.\n\nMelee Energy Gains:\n12% | 17% | 20%\n6% | 8.5% | 10%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 737144025,
+    "parentHash": "737144025",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Melee Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Melee Energy Gains:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12% | 17% | 20%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "6% | 8.5% | 10%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Powerful Attraction",
+    "Description": "On Class Ability Usage:\nCollects Orbs of Power within 12.5 | 18.5 metres.\n\nAlso works on Motes and Crests.",
+    "Type": "ClassMods",
+    "Comment": "[2 Energy]",
+    "hash": 11126525,
+    "parentHash": "11126525",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Collects Orbs of Power within 12.5 | 18.5 metres."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Also works on Motes and Crests."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Proximity Ward",
+    "Description": "During a Finisher:\nGrants a 200 HP Overshield.",
+    "Type": "ClassMods",
+    "Comment": "[2 Energy]",
+    "hash": 4081595582,
+    "parentHash": "4081595582",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "During a Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a 200 HP "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Proximity Ward",
+    "Description": "During a Finisher:\nGrants a 200 HP Overshield.",
+    "Type": "ClassMods",
+    "Comment": "[2 Energy]",
+    "hash": 2245839670,
+    "parentHash": "2245839670",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "During a Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants a 200 HP "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Reaper",
+    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% [1.1%] {1.25%} <1.5> Super Energy.\n\nIncurs a 10 [5] {1} second cooldown between Orbs.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 40751621,
+    "parentHash": "40751621",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The next Weapon Kill within 10 seconds spawns an Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% ["
+            },
+            {
+              "text": "1.1%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] {1.25%} <1.5> Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 ["
+            },
+            {
+              "text": "5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] {1} second cooldown between Orbs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Reaper",
+    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% [1.1%] {1.25%} <1.5> Super Energy.\n\nIncurs a 10 [5] {1} second cooldown between Orbs.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 4149682173,
+    "parentHash": "4149682173",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The next Weapon Kill within 10 seconds spawns an Orb of Power."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orb of Power:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "0.8% ["
+            },
+            {
+              "text": "1.1%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] {1.25%} <1.5> Super Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 ["
+            },
+            {
+              "text": "5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] {1} second cooldown between Orbs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Restorative Finisher",
+    "Description": "On Finisher:\nConsumes x2 Armor Charge.\n\nGrants 50% Ability Energy to the least-charged Ability.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 1170405455,
+    "parentHash": "1170405455",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x2 Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 50% Ability Energy to the least-charged Ability."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Snapload Finisher",
+    "Description": "On Finisher:\nConsumes x1 Armor Charge.\n\nRefills all weapons.",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 4004774876,
+    "parentHash": "4004774876",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x1 Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills all weapons."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Special Finisher",
+    "Description": "On Finisher:\nConsumes x3 Armor Charge.\n\nGenerates a Special Ammo Brick for the user and allies.",
+    "Type": "ClassMods",
+    "Comment": "[2 Energy]",
+    "hash": 4004774872,
+    "parentHash": "4004774872",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x3 Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Generates a "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Brick for the user and allies."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Time Dilation",
+    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 3735294183,
+    "parentHash": "3735294183",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "By default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Time Dilation",
+    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 1755737153,
+    "parentHash": "1755737153",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "By default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Time Dilation",
+    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 1783952505,
+    "parentHash": "1783952505",
+    "hash_warning": "Multiple matches found (3 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "By default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Utility Finisher",
+    "Description": "On Finisher:\nConsumes x3 or more Armor Charge.\n\nGrants Class Ability Energy.\nx3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%",
+    "Type": "ClassMods",
+    "Comment": "[1 Energy]",
+    "hash": 1125986156,
+    "parentHash": "1125986156",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Finisher:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes x3 or more Armor Charge."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "x3 = 70% | x4 = 80% | x5 = 90% | x6 = 100%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Utility Kickstart",
+    "Description": "On Class Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Class Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nClass Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 3160387771,
+    "parentHash": "3160387771",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while having Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes all Armor Charges to grant Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Class Ability Energy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Utility Kickstart",
+    "Description": "On Class Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Class Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nClass Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Type": "ClassMods",
+    "Comment": "[3 Energy]",
+    "hash": 1044888195,
+    "parentHash": "1044888195",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Class Ability Usage while having Armor Charges:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consumes all Armor Charges to grant Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ability Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Class Ability Energy:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

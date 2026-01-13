@@ -15,15 +15,15 @@ SHEETS = {
     "IntrinsicTraits": "1368736324",
     "OriginTraits": "1050893845",
     "ArmorSets": "1916736284",
-
+    "ArmorMods": "923125516",
     "ArtifactPerks": "828585521",
-
     "ArcVerbs": "41303738",
     "SolarVerbs": "993506142",
     "VoidVerbs": "1094405333",
     "StasisVerbs": "258124247",
     "StrandVerbs": "976476629",
     "PrismaticVerbs": "1280102267",
+    "ExoticWeapons": "1301197513",
 }
 
 # Output directory for exported JSON files

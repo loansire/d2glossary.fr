@@ -26,17 +26,22 @@ HASH_MAPPINGS = {
         "source": "setarmor_definitions_enriched.json",
         "name_path": "setPerks.displayProperties.name",
         "hash_path": "setPerks.sandboxPerkHash",
-        "array_path": "setPerks"  # Les données sont dans un array setPerks
+        "array_path": "setPerks"
+    },
+
+    "ArmorMods": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
     },
 
     "ArtifactPerks": {
         "source": "artefact_definitions_enriched.json",
         "name_path": "tiers.items.name",
         "hash_path": "tiers.items.perkHash",
-        "array_path": "tiers.items"  # Array imbriqué: tiers[] -> items[]
+        "array_path": "tiers.items"
     },
 
-    # Verbs - Tous utilisent trait_definitions.json
     "ArcVerbs": {
         "source": "trait_definitions.json",
         "name_path": "displayProperties.name",
@@ -98,6 +103,12 @@ HASH_MAPPINGS = {
     },
 
     "OriginTraits": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+
+    "ExoticWeapons": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
