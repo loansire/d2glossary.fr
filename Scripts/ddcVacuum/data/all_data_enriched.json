@@ -1371,14 +1371,14 @@
     },
     {
       "Name": "Frenzy",
-      "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.0.0.3 (Edge of Fate) aaaaaand still broken LMAO",
+      "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work.",
       "hash": 4104185692,
       "parentHash": "4104185692",
       "hash_warning": "Multiple matches found (2 total)"
     },
     {
       "Name": "Frenzy",
-      "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.0.0.3 (Edge of Fate) aaaaaand still broken LMAO",
+      "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work.",
       "hash": 3007133316,
       "parentHash": "3007133316",
       "hash_warning": "Multiple matches found (2 total)"
@@ -2524,14 +2524,14 @@
     },
     {
       "Name": "Recycled Energy",
-      "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants ?% ↑?% Ability Energy to the least-charged Ability.\n\n↑Loading ammo reload grants ?% Ability Energy.",
+      "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants Ability Energy to the least-charged Ability based on the amount of kills.\n5.7% | 8% | 9.7% | 13.3% | 20%\n↑6% | 7.5% | 9.5% | 13.5% | 22%\n\n↑Loading ammo reload grants ?% Ability Energy.",
       "hash": 3713215006,
       "parentHash": "3713215006",
       "hash_warning": "Multiple matches found (2 total)"
     },
     {
       "Name": "Recycled Energy",
-      "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants ?% ↑?% Ability Energy to the least-charged Ability.\n\n↑Loading ammo reload grants ?% Ability Energy.",
+      "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants Ability Energy to the least-charged Ability based on the amount of kills.\n5.7% | 8% | 9.7% | 13.3% | 20%\n↑6% | 7.5% | 9.5% | 13.5% | 22%\n\n↑Loading ammo reload grants ?% Ability Energy.",
       "hash": 3555252274,
       "parentHash": "3555252274",
       "hash_warning": "Multiple matches found (2 total)"
@@ -9163,7 +9163,7 @@
     },
     {
       "Name": "Fleet Footed",
-      "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
+      "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
       "Comment": "Trials of Osiris\nRitual",
       "hash": 65797256,
       "parentHash": "65797256",
@@ -9171,7 +9171,7 @@
     },
     {
       "Name": "Fleet Footed",
-      "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
+      "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
       "Comment": "Trials of Osiris\nRitual",
       "hash": 1939575288,
       "parentHash": "1939575288",
@@ -9508,7 +9508,7 @@
     },
     {
       "Name": "Roar of Battle",
-      "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+      "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
       "Comment": "Crucible\nRitual",
       "hash": 1673863459,
       "parentHash": "1673863459",
@@ -9516,7 +9516,7 @@
     },
     {
       "Name": "Roar of Battle",
-      "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+      "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
       "Comment": "Crucible\nRitual",
       "hash": 4236235115,
       "parentHash": "4236235115",
@@ -11433,7 +11433,7 @@
     },
     {
       "Name": "Volatile",
-      "Description": "Volatile Enemies trigger an explosion after receiving 190 [200] damage, or upon dying, dealing up to 145 [80] Void Damage in a 5 meter radius.\nVolatile lasts for 10 [6] seconds, harmlessly expiring afterwards. Debuff is removed after triggering the explosion.\nThe damage from the hit that applies Volatile doesn't count towards the detonation threshold. \nIncurs a 1 second cooldown before Volatile can be reapplied to an enemy after the explosion is triggered.",
+      "Description": "Volatile Enemies trigger an explosion after being dealt 190 [200] damage or upon dying, dealing up to 145 [80] Void Ability Damage in a 5 meter radius.\nVolatile lasts for 10 [6] seconds, harmlessly expiring afterwards. Debuff is removed after triggering the explosion.\nThe damage from the hit that applies Volatile doesn't count towards the detonation threshold. \n\nIncurs a 1 second cooldown before Volatile can be reapplied to an enemy after the explosion is triggered.",
       "hash": 4105407564,
       "parentHash": "4105407564"
     },
@@ -11444,7 +11444,7 @@
     },
     {
       "Name": "Weaken",
-      "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot grants 30% [50%] increased damage against tethered enemies with both Deadfall and Moebius variations.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
+      "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot: Deadfall grants 35% [50%?] increased damage against tethered enemies.\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
       "hash": 3336638905,
       "parentHash": "3336638905"
     }
@@ -11588,7 +11588,7 @@
     },
     {
       "Name": "Bad Juju",
-      "Description": "Kinetic Lightweight Pulse Rifle\n\nKills refill Magazine and grant a stack of String of Curses for 5.5 seconds, up to a maximum of 5 stacks.\nString of Curses grants increased damage and additional Super Energy on kill.\nString of Curses persists through stow.\n\nString of Curses\n20% | 40% | 60% | 80% | 100% Increased Damage\n12% | 20% | 32% | 40% | 52% Increased Damage\n0.8% | 1.1% | 1.4% | 1.7% | 2% Additional Super Energy\n\nUpon scoring 3 kills within 7.5? seconds of each without reloading or stowing Bad Juju:\nTriggers a Cursed Explosion, dealing up to 305 [?] Kinetic Damage over ? meters.\nExplosion Kills count towards the kill counter. String of Curses damage buff applies to the Explosion Damage.\n\n↑Unending Curse:\nString of Curses duration is increased to 7.5 seconds.",
+      "Description": "Kinetic Lightweight Pulse Rifle\n\nKills refill Magazine and grant a stack of String of Curses for 5.5 seconds, up to a maximum of 5 stacks.\nString of Curses grants increased damage and additional Super Energy on kill.\nString of Curses persists through stow.\n\nString of Curses\n20% | 40% | 60% | 80% | 100% Increased Damage\n10% | 20% | 30% | 40% | 50% Increased Damage\n0.8% | 1.1% | 1.4% | 1.7% | 2% Additional Super Energy\n\nUpon scoring 3 kills within 7.5? seconds of each without reloading or stowing Bad Juju:\nTriggers a Cursed Explosion, dealing up to 305 [?] Kinetic Damage over ? meters.\nExplosion Kills count towards the kill counter. String of Curses damage buff applies to the Explosion Damage.\n\n↑Unending Curse:\nString of Curses duration is increased to 7.5 seconds.",
       "Type": "KineticExotics",
       "Comment": "String of Curses\nHip-Fire Grip\n↑Unending Curse",
       "hash": 2816212794,
@@ -11722,7 +11722,7 @@
     },
     {
       "Name": "Hawkmoon",
-      "Description": "Kinetic Adaptive Hand Cannon\n\nPrecision Hits or Kills grants a stack of Paracausal Shot.\nThe Final Round in the magazine consumes all Paracausal Shot stacks to deal increased damage based on the amount of stacks. \nParacausal Shot is removed on reload, upon fully refilling the magazine, on stow if Ammo = 1, or on stow if Paracausal Shot = x6 or x7.\n\nParacausal Shot's Final Round Damage Increase:\n292% | 300% | 340% | 425% | 667% | 1071% | 1736%\n30% | 33% | 45.7% | 80.5% | 154.3% | 288% | 508.6%\nWeapon can get different rolls from Xûr.\n\nHawkmoon additionally deals increased damage against Combatants based on the amount of Paracausal Shot stacks. \nThis damage buff does NOT apply to the Final Round damage.\nx1 = 21% | x2 = 36.5% | x3 = 47.6% | x4 = 55.3% | x5 = 59.8% | x6 = 63.2% | x7 = 66.3%\n\n↑Hunter's Trance:\nPassively grants +1 Magazine Size (8 -> 9).\nGrants increased Range, Handling, and Reload Speed as Paracausal Shot stacks increase.\n+8 | +14 | +22 | +26 | +28 | +29 | +30 Range\n+? | +? | +? | +? | +? | +? | +? Handling\n+15 | +25 | +35 | +40 | +50 | +50? | +50? Reload Speed",
+      "Description": "Kinetic Adaptive Hand Cannon\n\nPrecision Hits or Kills grants a stack of Paracausal Charge.\nParacausal Charge grants increased damage against Combatants. based on the amount of stacks.\nx1 = 21% | x2 = 36.5% | x3 = 47.6% | x4 = 55.3% | x5 = 59.8% | x6 = 63.2% | x7 = 66.3%\nParacausal Charge stacks are removed on reload, upon fully refilling the magazine, or upon stowing while at either 1 Ammo left, or while at Paracausal Charge ≥6 stacks.\n\nThe Final Round in the magazine consumes all Paracausal Charge stacks to deal increased damage based on the amount of stacks. \nThe damage buff from Paracausal Charge does NOT apply to the Final Round damage.\n\nParacausal Shot's Final Round Damage Increase:\n292% | 300% | 340% | 425% | 667% | 1071% | 1736%\n30% | 33% | 45.7% | 80.5% | 154.3% | 288% | 508.6%\nWeapon can get different rolls from Xûr.\n\n↑Hunter's Trance:\nPassively grants +1 Magazine Size (8 -> 9).\nGrants increased Range, Handling, and Reload Speed as Paracausal Shot stacks increase.\n+8 | +14 | +22 | +26 | +28 | +29 | +30 Range\n+? | +? | +? | +? | +? | +? | +? Handling\n+15 | +25 | +35 | +40 | +50 | +50? | +50? Reload Speed",
       "Type": "KineticExotics",
       "Comment": "Paracausal Shot\nRandomly Rolled Trait\n↑Hunter's Trance",
       "hash": 3856705927,
@@ -11869,7 +11869,7 @@
     },
     {
       "Name": "Lumina",
-      "Description": "Kinetic Adaptive Hand Cannon\n\nKills create a floating Remnant that homes in towards the user while within 10? metres. \nRemnants refill 4 Ammo and grant 1 Noble Round on pickup, up to a maximum of 6 Noble Rounds. Boots of the Assembler' Noble Seekers grant 1 Noble Rounds.\nNoble Round stacks persist through stow.\n\nHipfiring releases a Noble Round, which aggressively seeks the closest ally.\nNoble Rounds restore 90 HP to the ally, and grant Blessing of the Sky to both the wielder and the ally.\n\nBlessing of the Sky:\n35% [15%] increased damage and +100 Class Stat for 11 seconds.\n\n↑Resonant Virtue:\nKills now create 2 Remnants.",
+      "Description": "Kinetic Adaptive Hand Cannon\n\nKills create a floating Remnant that homes in towards the user while within 10 metres. \nRemnants refill 4 Ammo and grant 1 Noble Round on pickup, up to a maximum of 6 Noble Rounds. Boots of the Assembler' Noble Seekers grant 1 Noble Rounds.\nNoble Round stacks persist through stow.\n\nHipfiring releases a Noble Round, which aggressively seeks the closest ally.\nNoble Rounds restore 90 HP to the ally, and grant Blessing of the Sky to both the wielder and the ally.\n\nBlessing of the Sky:\n35% [15%] increased damage and +100 Class Stat for 11 seconds.\n\n↑Resonant Virtue:\nKills now create 2 Remnants.",
       "Type": "KineticExotics",
       "Comment": "Noble Rounds\nBlessing of the Sky\n↑Resonant Virtue",
       "hash": 3512014804,
@@ -11971,7 +11971,7 @@
     },
     {
       "Name": "Osteo Striga",
-      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ? [18.5] damage with a 1.6x Precision Multiplier.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
+      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ~10.8% increased damage over a Precision Submachine Gun's.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
       "Type": "KineticExotics",
       "Comment": "Screaming Swarm\nToxic Overload\n↑Osteo Striga Catalyst",
       "hash": 3024419320,
@@ -11980,7 +11980,7 @@
     },
     {
       "Name": "Osteo Striga",
-      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ? [18.5] damage with a 1.6x Precision Multiplier.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
+      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ~10.8% increased damage over a Precision Submachine Gun's.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
       "Type": "KineticExotics",
       "Comment": "Screaming Swarm\nToxic Overload\n↑Osteo Striga Catalyst",
       "hash": 46524085,
@@ -11989,7 +11989,7 @@
     },
     {
       "Name": "Osteo Striga",
-      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ? [18.5] damage with a 1.6x Precision Multiplier.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
+      "Description": "Craftable Kinetic Precision Submachine Gun\nCounts as a Weapon of Sorrow.\n\nFires slow, seeking projectiles that deal ~10.8% increased damage over a Precision Submachine Gun's.\n\nScoring 14 Hits or 7 Precision Hits within 3 seconds of each or scoring a kill triggers a Poisonous Burst centered on the enemy, poisoning enemies within 5 metres.\n\nPoison mechanics are identical to Necrotic Grips. Incurs a 2-second cooldown between poison bursts on death.\nOsteo Striga's Poison is affected by Buffs, Debuffs, Exotic Primary Rank-and-File Bonus, and the Kinetic Damage Bonus. \nReinflicting Poison resets the stacking poison damage.\n\n↑Osteo Striga Catalyst:\nPassively grants +20 Stability and +30 Reload Speed.\n Poison Kills refill 100% of Magazine, and can overflow up to 300% Increased Magazine Capacity.\nIncurs a 0.5 seconds cooldown between Ammo Overflows.",
       "Type": "KineticExotics",
       "Comment": "Screaming Swarm\nToxic Overload\n↑Osteo Striga Catalyst",
       "hash": 3364580479,
@@ -12025,7 +12025,7 @@
     },
     {
       "Name": "Praxic Blade",
-      "Description": "Special Ammo Shield-Piercing Lightsaber Sword\nModifiable Tangs, Grips, Traits, Mods, and Catalysts.\nIntrinsic Shield-Piercing Breaker.\nDefensive Form for base damage values against Elites, as it has no damage bonuses.\n\n[Light Attack] performs a Melee Combo, with each hit dealing 479 [256] Kinetic Damage. Melee Attacks can discharge Bolt Charge.\nUsing [Heavy Attack] after performing 3 [Light Attacks] executes a Cormorant Combo.\nCormorant Combo deals 689 [?] Kinetic Damage, followed by 3 damage instances of 417 [?] Kinetic Damage, totalling 1940 [lol] damage.\n\n[Heavy Attack Press] performs a Ranged Attack, throwing the blade forward up to 50 meters away, homing towards up to 3 enemies before returning.\nDeals 945 [174] Kinetic Damage per hit. Damage is reduced by 80% when returning. Attacking recalls the blade.\n\n[Heavy Attack Hold] throws the blade on a straight path forward, dealing 100% increased damage. [Heavy Attack Release] to recall the blade.\n\n[Blocking] grants 100% [?%] Damage Resist against all damage in a ?° cone.\nBlocking a hit retaliates by reflecting a Crystal-Color Matching Bolt that deals 255 [50] Kinetic Damage towards the reticle.\n\n-------------\n\nBalanced Form | Scoring 3 Melee Attack Kills within 5 seconds of each grants +2 Ammo, restores 65 HP, and begins Health Regeneration. \nDeals 10% increased damage against Rank-and-File and Elite Combatants. Technically 11.2% due to impact stat shift.\n\nDefensive Form | Blocking an attack within 1 seconds of beginning to block grants 20% increased damage for 2 seconds.\nBlocking an attack grants +1 Ammo, up to once per second.\n\nOffensive Form | Scoring 3 damage instances within ? seconds of each grants +1 Ammo.\nDeals 15% increased damage against Bosses and Vehicles.",
+      "Description": "Special Ammo Shield-Piercing Lightsaber Sword\nModifiable Tangs, Grips, Traits, Mods, and Catalysts.\nIntrinsic Shield-Piercing Breaker. \nDeals 50% increased damage towards Combatant Shields, and 200% increased damage towards Barrier Shields.\nDefensive Form for base damage values against Elites, as it has no damage bonuses.\n\n[Light Attack] performs a Melee Combo, with each hit dealing 479 [256] Kinetic Damage. Melee Attacks can discharge Bolt Charge.\nUsing [Heavy Attack] after performing 3 [Light Attacks] executes a Cormorant Combo.\nCormorant Combo deals 689 [?] Kinetic Damage, followed by 3 damage instances of 417 [?] Kinetic Damage, totalling 1940 [lol] damage.\n\n[Heavy Attack Press] performs a Ranged Attack, throwing the blade forward up to 50 meters away, homing towards up to 3 enemies before returning.\nDeals 945 [174] Kinetic Damage per hit. Damage is reduced by 80% when returning. Attacking recalls the blade.\n\n[Heavy Attack Hold] throws the blade on a straight path forward, dealing 100% increased damage. [Heavy Attack Release] to recall the blade.\n\n[Blocking] grants 100% [?%] Damage Resist against all damage in a ?° cone.\nBlocking a hit retaliates by reflecting a Crystal-Color Matching Bolt that deals 255 [50] Kinetic Damage towards the reticle.\n\n-------------\n\nBalanced Form | Scoring 3 Melee Attack Kills within 5 seconds of each grants +2 Ammo, restores 65 HP, and begins Health Regeneration. \nDeals 10% increased damage against Rank-and-File and Elite Combatants. Technically 11.2% due to impact stat shift.\n\nDefensive Form | Blocking an attack within 1 seconds of beginning to block grants 20% increased damage for 2 seconds.\nBlocking an attack grants +1 Ammo, up to once per second.\n\nOffensive Form | Scoring 3 damage instances within ? seconds of each grants +1 Ammo.\nDeals 15% increased damage against Bosses and Vehicles.",
       "Type": "KineticExotics",
       "Comment": "Technically-Not-A-Lightsaber\n\nRanged Weapon\nCormorant Reversal\nCormorant Combo",
       "hash": 3049715579,
@@ -12289,7 +12289,7 @@
     },
     {
       "Name": "Centrifuse",
-      "Description": "Arc Precision Auto Rifle\n\nRefills 2 Ammo every 0.34 seconds while sprinting.\n\nSprinting, sliding, and shooting builds up charge, granting up to +? Range and +? Reload Speed. \nShooting grants 20% Charge per second after holding down the trigger for 0.267 seconds.\nSprinting grants, after a 0.25 second delay, 20% Charge per second. Must be actively moving to build up charge.\nSliding grants 10% Charge per slide.\nCharge decays at a rate of -33% per second after not doing any of those actions for 1.1 seconds. Manual Reloads automatically empty the charge.\n\nKills while at ≥40% Charge cause the enemy to explode, dealing up to 174 [76] Arc Damage in a 12 meter radius.\nExplosions triggered while at 100% Charge blind enemies.\n\n↑Static Buildup:\nPassively generates 7% Charge per second and removes Passive Decay while Amplified. Passive Charge is additive to Active Charge. Manual Reloads still empty the charge.",
+      "Description": "Arc Precision Auto Rifle\n\nRefills 2 Ammo every 0.34 seconds while sprinting.\n\nSprinting, sliding, and shooting builds up charge, granting up to +? Range and +? Reload Speed. \nShooting grants 20% Charge per second after holding down the trigger for 0.267 seconds.\nSprinting grants, after a 0.25 second delay, 20% Charge per second. Must be actively moving to build up charge.\nSliding grants 10% Charge per slide.\nCharge decays at a rate of -33% per second after not doing any of those actions for 1.1 seconds. Manual Reloads automatically empty the charge.\n\nKills while at ≥40% Charge cause the enemy to explode, dealing up to 174 [76] Arc Damage in a 12 meter radius.\nExplosions triggered while at 100% Charge blind enemies for 10 seconds.\n\n↑Static Buildup:\nPassively generates 7% Charge per second and removes Passive Decay while Amplified. Passive Charge is additive to Active Charge. Manual Reloads still empty the charge.",
       "Type": "EnergyExotic",
       "Comment": "Overcharge Capacitor\nRegenerative Motion\n↑Static Buildup",
       "hash": 1912669214,
@@ -12349,7 +12349,7 @@
     },
     {
       "Name": "Dead Messenger",
-      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
+      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves can [can't] deal overlapping damage and are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
       "Type": "EnergyExotic",
       "Comment": "Trinary Vision\nThe Fundamentals\nCraftable Trait\n↑Turnabout",
       "hash": 2812324401,
@@ -12358,7 +12358,7 @@
     },
     {
       "Name": "Dead Messenger",
-      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
+      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves can [can't] deal overlapping damage and are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
       "Type": "EnergyExotic",
       "Comment": "Trinary Vision\nThe Fundamentals\nCraftable Trait\n↑Turnabout",
       "hash": 46125926,
@@ -12367,7 +12367,7 @@
     },
     {
       "Name": "Dead Messenger",
-      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
+      "Description": "Craftable Multi-Element Wave Frame Grenade Launcher\n[Reload] switches between between the Arc, Solar, and Void Elements Grants Stat Bonuses depending on the chosen Element.\nChosen element persists through stow and death. Defaults to Void Element.\n\nGrants 30% [10%] increased damage for 10 seconds upon inflicting or receiving an Elemental Effect that matches the currently selected Element.\n\nProjectiles create 3 elemental waves in an arc upon collision with the ground.\nElemental Waves can [can't] deal overlapping damage and are longer than regular Wave Frames, travelling 22 meters instead of 15 meters.\n\n↑Catalyst:\nGrants the Turnabout trait.",
       "Type": "EnergyExotic",
       "Comment": "Trinary Vision\nThe Fundamentals\nCraftable Trait\n↑Turnabout",
       "hash": 374313494,
@@ -12610,7 +12610,7 @@
     },
     {
       "Name": "Graviton Lance",
-      "Description": "Heavy Burst Void Pulse Rifle.\n\nThe 1st round of a burst deals 15% decreased damage but has no recoil.\nThe 2nd round of a burst deals 35.294118% increased damage, has no damage falloff, and has recoil.\nTotal damage per burst matches that of a Heavy Burst Pulse Rifle.\n\nKills fling enemies backwards and trigger a Void Explosion that deals up to 437 [100] damage over 5? meter radius and releases 2 seeking Void orbs.\nSeeking Void Orbs each deal up to 67 [20?] damage on explosion.\n\n↑Catalyst:\nPassively grants +20 Range, the Turnabout trait, and the Vorpal Weapon trait.",
+      "Description": "Heavy Burst Void Pulse Rifle.\nDecreased RPM of 300 instead of the usual Heavy Burst's 324RPM.\n\nThe 1st round of a burst deals 15% decreased damage but has no recoil.\nThe 2nd round of a burst deals 35.294118% increased damage, has no damage falloff, and has recoil.\nTotal damage per burst matches that of a Heavy Burst Pulse Rifle.\n\nKills fling enemies backwards and trigger a Void Explosion that deals up to 437 [100] damage over 5? meter radius and releases 2 seeking Void orbs.\nSeeking Void Orbs each deal up to 67 [20?] damage on explosion.\n\n↑Catalyst:\nPassively grants +20 Range, the Turnabout trait, and the Vorpal Weapon trait.",
       "Type": "EnergyExotic",
       "Comment": "Black Hole\nCosmology\n↑Turnabout\n↑Vorpal Weapon",
       "hash": 3628991658,
@@ -12670,7 +12670,7 @@
     },
     {
       "Name": "Hierarchy of Needs",
-      "Description": "Solar Lightweight Combat Bow\n\nHits grant a Guidance Ring charge, up to a maximum of 3 charges. \nGuidance Ring charges persist through stow.\n\nGuidance Ring:\nSpawned by firing a fully-drawn hipfired shot while at x3 Guidance Ring Charges.\n Guidance Ring lasts for 20 seconds and rotates to face its owner. Only one Guidance Ring may exist at once across all players.\nALL Arrows that pass through a Guidance Ring release 3? seeking explosive projectiles, which deal up to 192 [15] damage.\nSeeking Projectiles that travel over 40 meters deal 50% [~15-20% Guardians | 50% Constructs] increased damage. Seeking Projectiles dissipate after traveling 80 metres.\nShadowshot and Buried Bloodline will also shoot out seeking projectiles.\n\n↑Panoptic Tessellation:\n0.5x Draw Time Multiplier, 100? Reload Speed, and ? Reload Duration Multiplier for 5 seconds after deploying a Guidance Ring or scoring a hit with a seeking projectile.\nAdditional seeking projectile hits or redeploying a Guidance Ring refresh the buff duration.",
+      "Description": "Solar Lightweight Combat Bow\n\nDirect Hits grant a Guidance Ring charge, up to a maximum of 3 charges. \nGuidance Ring charges persist through stow.\n\nGuidance Ring:\nSpawned by firing a fully-drawn hipfired shot while at x3 Guidance Ring Charges.\n Guidance Ring lasts for 20 seconds and rotates to face its owner. Only one Guidance Ring may exist at once across all players.\nALL Arrows that pass through a Guidance Ring release 3 seeking explosive projectiles, which deal up to 192 [15] damage.\nSeeking Projectiles that travel over 40 meters deal 50% [~15-20% Guardians | 50% Constructs] increased damage. Seeking Projectiles dissipate after traveling 80 metres.\nShadowshot and Buried Bloodline will also shoot out seeking projectiles.\n\n↑Panoptic Tessellation:\n0.5x Draw Time Multiplier, 100? Reload Speed, and ? Reload Duration Multiplier for 5 seconds after deploying a Guidance Ring or scoring a hit with a seeking projectile.\nAdditional seeking projectile hits or redeploying a Guidance Ring refresh the buff duration.",
       "Type": "EnergyExotic",
       "Comment": "Guidance Ring\nApollonic Tangent\n↑Panoptic Tessellation",
       "hash": 4174431791,
@@ -12729,7 +12729,7 @@
     },
     {
       "Name": "Lord of Wolves",
-      "Description": "Solar Burst Shotgun\n\nFires in short-range 5-round bursts.\n\nWhile hipfiring (Release The Wolves):\nDeals 175 [39.9] Solar Damage per bullet with a 1.6x Precision Multiplier.\n-? Range, 0.4?x Fire Recovery Delay, and +200?% Accuracy Cone Size. Becomes automatic.\n\nWhile ADS:\nDeals 126 [21] Solar Damage per bullet with a 1.89x Precision Multiplier.\n\n↑Fang and Claw. Passively grants +20 Stability, +60 Reload Speed and .85x Reload Duration Multiplier:\nHipfired Shots inflict x10+5 Scorch upon dealing damage Incurs a 0.5? second cooldown between Scorch applications.\nAimed Shots trigger a Scorching Explosion on kill, inflicting x30+10 Scorch to enemies within 8? meters.\nSolar Effects that are initially applied by Lord of Wolves deal 110% increased damage and its damage can be increased by Weapon Buffs.",
+      "Description": "Solar Burst Shotgun\nReloads its entire magazine at once.\n\nFires in short-range 5-round bursts.\n\nWhile hipfiring (Release The Wolves):\nDeals 175 [39.9] Solar Damage per bullet with a 1.6x Precision Multiplier.\n-? Range, 0.4?x Fire Recovery Delay, and +200?% Accuracy Cone Size. Becomes automatic.\n\nWhile ADS:\nDeals 126 [21] Solar Damage per bullet with a 1.89x Precision Multiplier.\n\n↑Fang and Claw. Passively grants +20 Stability, +60 Reload Speed and .85x Reload Duration Multiplier:\nHipfired Shots inflict x10+5 Scorch upon dealing damage Incurs a 0.5? second cooldown between Scorch applications.\nAimed Shots trigger a Scorching Explosion on kill, inflicting x30+10 Scorch to enemies within 8? meters.\nSolar Effects that are initially applied by Lord of Wolves deal 110% increased damage and its damage can be increased by Weapon Buffs.",
       "Type": "EnergyExotic",
       "Comment": "Shrapnel Launcher\nRelease the Wolves\n↑Fang and Claw",
       "hash": 3413860063,
@@ -12737,7 +12737,7 @@
     },
     {
       "Name": "Lorentz Driver",
-      "Description": "Special Ammo Void Precision Linear Fusion Rifle\n\nFires a single Precision Bolt that deals 402 [132] Void Damage with a 3.44x [4.3x] Precision Multiplier.\n\nPrecision Kills trigger an implosion that pulls enemies within ? [?] metres in and then explodes, dealing up to 301 [?] damage.\n\nWhile the weapon is equipped:\nMarks [Highlights] the closest enemy within 30 metres every ? seconds.\nKilling Marked Enemies spawns a Telemetry Pattern. \nThe mark can be seen through walls.\n\n Telemetry Patterns:\nPickups that grant +1 Ammo and last up to 60 seconds on the ground.\nTelemetry Patterns stacks are removed on death.\n\nUpon picking up x3 Telemetry Patterns | Grants Lagrangian Sight for 30 seconds and +6 Ammo.\nPicking up additional Telemetry Patterns refresh the buff duration to 30 seconds. \n\nLagrangian Sight grants 50% [87.5%] increased damage, +30 Handling, and +35 Reload Speed. \nPrecision Multiplier against Guardians is decreased to 3.44x while Lagrangian Sight is active.\n\n↑Jump Driver:\nPassively grants an Enhanced Radar while Lorentz Driver is readied.\nWhile at x3 Telemetry Patterns, any kill triggers an implosion.",
+      "Description": "Special Ammo Void Precision Linear Fusion Rifle\n\nFires a single Precision Bolt that deals 402 [132] Void Damage with a 3.44x [4.3x] Precision Multiplier.\n\nPrecision Kills trigger an implosion that pulls enemies within 9 [?] metres in and then explodes, dealing up to 301 [?] damage.\n\nWhile at least 3 non-Miniboss+ enemies are within 50 meters: \nTargets the farthest enemy, marking them through walls [highlighting them] until either killed or over 80 meters away.\nMarked Enemies spawn a Telemetry Pattern on death.\nIncurs a 7 second cooldown between marking enemies. \n\n Telemetry Patterns:\nPickups that grant +1 Ammo and last up to 60 seconds on the ground.\nTelemetry Patterns stacks are removed on death.\n\nUpon picking up x3 Telemetry Patterns | Grants Lagrangian Sight for 30 seconds and +6 Ammo.\nPicking up additional Telemetry Patterns refresh the buff duration to 30 seconds. \n\nLagrangian Sight grants 50% [87.5%] increased damage, +30 Handling, and +35 Reload Speed. \nPrecision Multiplier against Guardians is decreased to 3.44x while Lagrangian Sight is active.\n\n↑Jump Driver:\nPassively grants an Enhanced Radar while Lorentz Driver is readied.\nWhile at x3 Telemetry Patterns, any kill triggers an implosion.",
       "Type": "EnergyExotic",
       "Comment": "Lagrangian Sight\nEM Anomaly\n↑Jump Driver",
       "hash": 550118262,
@@ -12746,7 +12746,7 @@
     },
     {
       "Name": "Lorentz Driver",
-      "Description": "Special Ammo Void Precision Linear Fusion Rifle\n\nFires a single Precision Bolt that deals 402 [132] Void Damage with a 3.44x [4.3x] Precision Multiplier.\n\nPrecision Kills trigger an implosion that pulls enemies within ? [?] metres in and then explodes, dealing up to 301 [?] damage.\n\nWhile the weapon is equipped:\nMarks [Highlights] the closest enemy within 30 metres every ? seconds.\nKilling Marked Enemies spawns a Telemetry Pattern. \nThe mark can be seen through walls.\n\n Telemetry Patterns:\nPickups that grant +1 Ammo and last up to 60 seconds on the ground.\nTelemetry Patterns stacks are removed on death.\n\nUpon picking up x3 Telemetry Patterns | Grants Lagrangian Sight for 30 seconds and +6 Ammo.\nPicking up additional Telemetry Patterns refresh the buff duration to 30 seconds. \n\nLagrangian Sight grants 50% [87.5%] increased damage, +30 Handling, and +35 Reload Speed. \nPrecision Multiplier against Guardians is decreased to 3.44x while Lagrangian Sight is active.\n\n↑Jump Driver:\nPassively grants an Enhanced Radar while Lorentz Driver is readied.\nWhile at x3 Telemetry Patterns, any kill triggers an implosion.",
+      "Description": "Special Ammo Void Precision Linear Fusion Rifle\n\nFires a single Precision Bolt that deals 402 [132] Void Damage with a 3.44x [4.3x] Precision Multiplier.\n\nPrecision Kills trigger an implosion that pulls enemies within 9 [?] metres in and then explodes, dealing up to 301 [?] damage.\n\nWhile at least 3 non-Miniboss+ enemies are within 50 meters: \nTargets the farthest enemy, marking them through walls [highlighting them] until either killed or over 80 meters away.\nMarked Enemies spawn a Telemetry Pattern on death.\nIncurs a 7 second cooldown between marking enemies. \n\n Telemetry Patterns:\nPickups that grant +1 Ammo and last up to 60 seconds on the ground.\nTelemetry Patterns stacks are removed on death.\n\nUpon picking up x3 Telemetry Patterns | Grants Lagrangian Sight for 30 seconds and +6 Ammo.\nPicking up additional Telemetry Patterns refresh the buff duration to 30 seconds. \n\nLagrangian Sight grants 50% [87.5%] increased damage, +30 Handling, and +35 Reload Speed. \nPrecision Multiplier against Guardians is decreased to 3.44x while Lagrangian Sight is active.\n\n↑Jump Driver:\nPassively grants an Enhanced Radar while Lorentz Driver is readied.\nWhile at x3 Telemetry Patterns, any kill triggers an implosion.",
       "Type": "EnergyExotic",
       "Comment": "Lagrangian Sight\nEM Anomaly\n↑Jump Driver",
       "hash": 3761898871,
@@ -12755,7 +12755,7 @@
     },
     {
       "Name": "Merciless",
-      "Description": "Solar High-Impact Fusion Rifle\n\nHits grant a stack of Conserve Momentum for 5 seconds, up to a maximum of 15 stacks.\n Additional hits refresh the Conserve Momentum duration. Buff persists through reloads.\n\nConserve Momentum:\nGrants decreased Charge Time and Damage.\nBegins at 0.93x Charge Time Multiplier and 0.84% decreased damage, scaling down to a 0.2x Charge Time Multiplier (216ms) and 11.93% decreased damage after 15 hits. \n\nKills grant .66x Reload Duration Multiplier for 6 seconds.\n\nUpon finishing a reload within 6 seconds of a kill:\nGrants 50% increased damage for 4.5 seconds.\nDamage buff persists through stow.\n\n↑Catalyst:\nPassively grants +40 Range and +40 Stability.",
+      "Description": "Solar High-Impact Fusion Rifle\n\nKills grant .66x Reload Duration Multiplier for 6 seconds.\n\nHits grant a stack of Conserve Momentum for 5 seconds, up to a maximum of 15 stacks.\n Additional hits refresh the Conserve Momentum duration. Buff persists through reloads.\n\nConserve Momentum:\nGrants decreased Charge Time and Damage.\nBegins at 0.93x Charge Time Multiplier and 0.84% decreased damage, scaling down to a 0.2x Charge Time Multiplier (216ms) and 11.93% decreased damage after 15 hits. \n\nUpon finishing a reload within 6 seconds of a kill:\nGrants 50% increased damage for 4.5 seconds.\nDamage buff persists through stow.\n\n↑Catalyst:\nPassively grants +40 Range and +40 Stability.",
       "Type": "EnergyExotic",
       "Comment": "Conserve Momentum\nImpetus",
       "hash": 4190156464,
@@ -12835,7 +12835,7 @@
     },
     {
       "Name": "Prometheus Lens",
-      "Description": "Solar Trace Rifle\n\nSolar Effects that are initially applied by Prometheus Lens deal 10% increased damage.\n\nAfter 0.45 seconds of holding down the trigger:\nCreates an expanding Scorching Field, that fully expands to a 1 metre radius over 4 seconds.\nScorching Field deals 13.47 [6] damage every 0.1 seconds, and applies Scorch at the same rate as the beam?). \n\nScoring 20 hits (including Scorching Field) within 1.5 seconds of each applies x10+10 Scorch.\n\nKills refill Magazine.\n\n↑Catalyst:\nPassively grants +20 Stability, +20 Handling, and the Incandescent trait.",
+      "Description": "Solar Trace Rifle\n\nSolar Effects that are initially applied by Prometheus Lens deal 10% increased damage.\n\nAfter 0.45 seconds of holding down the trigger:\nCreates an expanding Scorching Field, that fully expands to a 1 metre radius over 4 seconds.\nScorching Field deals 13.47 [6] damage every 0.1 seconds, and applies Scorch at the same rate as the beam?). \n\nScoring 20 hits (including Scorching Field) within 1.5 seconds of each applies x10+10 Scorch.\n\nKills refill 75 Ammo.\n\n↑Catalyst:\nPassively grants +20 Stability, +20 Handling, and the Incandescent trait.",
       "Type": "EnergyExotic",
       "Comment": "Prismatic Inferno\nFlame Refraction\n↑Incandescent",
       "hash": 2146650065,
@@ -12844,7 +12844,7 @@
     },
     {
       "Name": "Prometheus Lens",
-      "Description": "Solar Trace Rifle\n\nSolar Effects that are initially applied by Prometheus Lens deal 10% increased damage.\n\nAfter 0.45 seconds of holding down the trigger:\nCreates an expanding Scorching Field, that fully expands to a 1 metre radius over 4 seconds.\nScorching Field deals 13.47 [6] damage every 0.1 seconds, and applies Scorch at the same rate as the beam?). \n\nScoring 20 hits (including Scorching Field) within 1.5 seconds of each applies x10+10 Scorch.\n\nKills refill Magazine.\n\n↑Catalyst:\nPassively grants +20 Stability, +20 Handling, and the Incandescent trait.",
+      "Description": "Solar Trace Rifle\n\nSolar Effects that are initially applied by Prometheus Lens deal 10% increased damage.\n\nAfter 0.45 seconds of holding down the trigger:\nCreates an expanding Scorching Field, that fully expands to a 1 metre radius over 4 seconds.\nScorching Field deals 13.47 [6] damage every 0.1 seconds, and applies Scorch at the same rate as the beam?). \n\nScoring 20 hits (including Scorching Field) within 1.5 seconds of each applies x10+10 Scorch.\n\nKills refill 75 Ammo.\n\n↑Catalyst:\nPassively grants +20 Stability, +20 Handling, and the Incandescent trait.",
       "Type": "EnergyExotic",
       "Comment": "Prismatic Inferno\nFlame Refraction\n↑Incandescent",
       "hash": 19024058,
@@ -12985,7 +12985,7 @@
     },
     {
       "Name": "Ticuu's Divination",
-      "Description": "Solar Tracking Lightweight Bow\n\nHip-fired shots track up to 3 enemies, inflicting Sacred Flame on hit for 10 [5] seconds. Enemies affected by Sacred Flame explode on death.\nAimed shots detonate enemies primed with Sacred Flame, dealing up to 204 [137] damage.\n Perfectly Drawn Precision Hits that trigger Sacred Flame explosions deal 100% increased explosion damage.\n\n↑Causality Quiver:\nSacred Flame detonations grant a stack of Causality Quiver for 5.5 seconds, up to a maximum of 6 stacks.\nCausality Quiver grants increased impact damage. Does not increase Sacred Flame detonation damage.\nInflicting Sacred Flame, or detonating Sacred Flame refreshes the Causality Quiver duration.\n\nCausality Quiver Damage Increases:\n17% | 37% | 57% | 79% | 105% | 105% \n3.64% | 11% | 12% | 16% | 23% | 23%",
+      "Description": "Solar Tracking Lightweight Bow\n\nHip-fired shots track up to 3 enemies, inflicting Sacred Flame on hit for 10 [5] seconds. Enemies affected by Sacred Flame explode on death.\nAimed shots detonate enemies primed with Sacred Flame, dealing up to 204 [137] damage.\n Perfectly Drawn Precision Hits that trigger Sacred Flame explosions deal 100% increased explosion damage.\n\n↑Causality Quiver:\nSacred Flame detonations grant a stack of Causality Quiver for 5.5 seconds, up to a maximum of 6 stacks.\nCausality Quiver grants increased impact damage. Does not increase Sacred Flame detonation damage.\nInflicting Sacred Flame, or detonating Sacred Flame refreshes the Causality Quiver duration.\n\nCausality Quiver Damage Increases:\n16% | 31% | 49% | 67.5% | 87% | 87% \n3.6% | 11% | 12% | 16% | 23% | 23%",
       "Type": "EnergyExotic",
       "Comment": "Sacred Flame\nCausality Arrows\n↑Causality Quiver",
       "hash": 1538967359,
@@ -12994,7 +12994,7 @@
     },
     {
       "Name": "Ticuu's Divination",
-      "Description": "Solar Tracking Lightweight Bow\n\nHip-fired shots track up to 3 enemies, inflicting Sacred Flame on hit for 10 [5] seconds. Enemies affected by Sacred Flame explode on death.\nAimed shots detonate enemies primed with Sacred Flame, dealing up to 204 [137] damage.\n Perfectly Drawn Precision Hits that trigger Sacred Flame explosions deal 100% increased explosion damage.\n\n↑Causality Quiver:\nSacred Flame detonations grant a stack of Causality Quiver for 5.5 seconds, up to a maximum of 6 stacks.\nCausality Quiver grants increased impact damage. Does not increase Sacred Flame detonation damage.\nInflicting Sacred Flame, or detonating Sacred Flame refreshes the Causality Quiver duration.\n\nCausality Quiver Damage Increases:\n17% | 37% | 57% | 79% | 105% | 105% \n3.64% | 11% | 12% | 16% | 23% | 23%",
+      "Description": "Solar Tracking Lightweight Bow\n\nHip-fired shots track up to 3 enemies, inflicting Sacred Flame on hit for 10 [5] seconds. Enemies affected by Sacred Flame explode on death.\nAimed shots detonate enemies primed with Sacred Flame, dealing up to 204 [137] damage.\n Perfectly Drawn Precision Hits that trigger Sacred Flame explosions deal 100% increased explosion damage.\n\n↑Causality Quiver:\nSacred Flame detonations grant a stack of Causality Quiver for 5.5 seconds, up to a maximum of 6 stacks.\nCausality Quiver grants increased impact damage. Does not increase Sacred Flame detonation damage.\nInflicting Sacred Flame, or detonating Sacred Flame refreshes the Causality Quiver duration.\n\nCausality Quiver Damage Increases:\n16% | 31% | 49% | 67.5% | 87% | 87% \n3.6% | 11% | 12% | 16% | 23% | 23%",
       "Type": "EnergyExotic",
       "Comment": "Sacred Flame\nCausality Arrows\n↑Causality Quiver",
       "hash": 3260753130,
@@ -13029,7 +13029,7 @@
     },
     {
       "Name": "Trinity Ghoul",
-      "Description": "Arc Precision Split-Arrow Bow \nFires 3 arrows at a time. Spread can be decreased by ADS and fully drawing the bow.\n\nPrecision Kills grant Lightning Rod.\nLightning Rod arrows explode on impact, dealing up to 13 [10] damage in a tiny radius, and chain electricity, dealing 95 [50.3] damage to enemies within 8 metres.\nLightning Row persists through stow.\n\n↑Forked Lightning:\nDecreases Draw Time from 756 to 648\nLightning Rod now triggers by scoring any Arc Kill.",
+      "Description": "Arc Precision Split-Arrow Bow \nFires 3 arrows at a time. Spread can be decreased by ADS and fully drawing the bow.\n\nPrecision Kills grant Lightning Rod.\nLightning Rod arrows explode on impact, dealing up to 13 [10] damage in a tiny radius, and chain electricity, dealing 95 [50.3] damage to enemies within 8 metres.\nLightning Row persists through stow.\n\n↑Forked Lightning:\nGrants +30 Draw Time.\nDecreases Draw Time from 733ms to 633ms.\nLightning Rod now triggers by scoring any Arc Kill.",
       "Type": "EnergyExotic",
       "Comment": "Split Electron\nLightning Rod\n↑Forked Lightning",
       "hash": 814876685,
@@ -13087,7 +13087,7 @@
     },
     {
       "Name": "D.A.R.C.I.",
-      "Description": "Arc Rapid-Fire Sniper Rifle\nUtilizes Scout Rifle Animations, granting peripheral vision unlike other Sniper Rifles.\nIntrinsic Overload Breaker.\n\nUpon aiming at an enemy for 0.5 seconds while scoped-in:\nHighlights the enemy and displays Health and Shield Percentages, distance from target, and Power Level information.\nGrants Target Acquired for as long as an enemy is highlighted.\nHighlight persists for 1 second after being off-target. Only highlights enemies within 150 metres.\n\nTarget Acquired:\nGrants 18.35% increased damage, 31.34% increased Precision Damage, +? Aim Assist, -50% Recoil, -50% Accuracy Cone Size, and 50% Flinch Resistance.\nScoring a hit while Target Acquired is active inflicts Jolt.\n\n↑Networked Targeting and passively grants +20 Stability:\nHits while Target Acquired is active grant a stack of Networked Targeting for ? seconds, up to a maximum of 5 stacks to the wielder and allies with Non-Exotic Sniper Rifles within ? meters.\nBestowing x5 Networked Targeting stacks to an ally grants 15% increased DARCI damage.\n\nNetworked Targeting Bonuses:\n+? | +? | +? | +? | +? Stability\n+? | +? | +? | +? | +? Handling\n+? | +? | +? | +? | +? Aim Assist\n2.8% | 6.1% | 9.1% | 12.5% | 15.9% Increased Precision Damage\n?% | ?% | ?% | ?% | ?% Flinch Resist",
+      "Description": "Arc Rapid-Fire Sniper Rifle\nUtilizes Scout Rifle Animations, granting peripheral vision unlike other Sniper Rifles.\nIntrinsic Overload Breaker.\n\nUpon aiming at an enemy for 0.5 seconds while scoped-in:\nHighlights the enemy and displays Health and Shield Percentages, distance from target, and Power Level information.\nGrants Target Acquired for as long as an enemy is highlighted.\nHighlight persists for 1 second after being off-target. Only highlights enemies within 150 metres.\n\nTarget Acquired:\nGrants 18.35% increased damage, 31.34% increased Precision Damage, +? Aim Assist, -50% Recoil, -50% Accuracy Cone Size, and 50% Flinch Resistance.\nScoring a hit while Target Acquired is active inflicts Jolt.\n\n↑Networked Targeting and passively grants +20 Stability:\nHits while Target Acquired is active grant a stack of Networked Targeting for 10.5 seconds, up to a maximum of 5 stacks to the wielder and allies with Non-Exotic Sniper Rifles within 15 meters.\nBestowing x5 Networked Targeting stacks to an ally grants 15% increased DARCI damage.\n\nNetworked Targeting Bonuses:\n+? | +? | +? | +? | +? Stability\n+? | +? | +? | +? | +? Handling\n+? | +? | +? | +? | +? Aim Assist\n2.8% | 6.1% | 9.1% | 12.5% | 15.9% Increased Precision Damage\n?% | ?% | ?% | ?% | ?% Flinch Resist",
       "Type": "PowerExotics",
       "Comment": "DARCI\nPersonal Assistant \nTarget Acquired\n↑Networked Targeting",
       "hash": 3141979346,
@@ -13159,7 +13159,7 @@
     },
     {
       "Name": "Heir Apparent",
-      "Description": "Solar Rapid-Fire Machine Gun\n[Aim-Down-Sights] to Spin up. Can only be fired after being spun up for 1.5 seconds.\n\nWhile at Full Health and fully spun up:\nGrants an Arc Shield over 1 second. \n\nArc Shield:\nHas a durability of 80 HP. Shield's durability recharges over 1 second after 2 seconds of not receiving damage if Shield HP is at full.\nProvides immunity to Precision Damage, 50% Damage Resist against Kinetic Damage, and 15% Damage Resist against Non-Arc Elemental Damage.\nDetonates when destroyed with Arc Damage, dealing 130 damage to the wielder and their nearby allies.\n\n↑Legion's Bulwark:\nArc Shield is granted 75% [25%] Damage Resist.\nArc Shield refills 50% of Magazine upon being destroyed.",
+      "Description": "Solar Rapid-Fire Machine Gun\n[Aim-Down-Sights] to Spin up. Can only be fired after being spun up for 1.5 seconds.\n\nWhile at Full HP and fully spun up:\nGrants an Arc Shield over 1 second. \n\nArc Shield:\nHas a durability of 80 HP. Shield's durability recharges over 1 second after 2 seconds of not receiving damage if Shield HP is at full.\nProvides immunity to Precision Damage, 50% Damage Resist against Kinetic Damage, and 15% Damage Resist against Non-Arc Elemental Damage.\nDetonates when destroyed with Arc Damage, dealing 130 damage to the wielder and their nearby allies.\n\n↑Legion's Bulwark:\nArc Shield is granted 75% [25%] Damage Resist.\nArc Shield refills 50% of Magazine upon being destroyed.",
       "Type": "PowerExotics",
       "Comment": "Heavy Slug Thrower\nArmor of the Colossus\n↑Legion's Bulwark",
       "hash": 2084878005,
@@ -13281,7 +13281,7 @@
     },
     {
       "Name": "Thunderlord",
-      "Description": "Arc Adaptive Machine Gun\nIntrinsic Dynamic Sway Reduction, and reticle moves drastically less, akin to Zen Moment without needing hits.\nIntrinsic Overload Breaker\n\nWhile holding down the trigger:\n0.75x Fire Recovery Delay after initially firing 13 rounds.\n0.6x Fire Recovery Delay after firing a total of 26 shots.\nCreates a Lightning Strike every 10 hits or on kill, dealing up to 232 [65] damage in a 5 meter radius and grant x1 Bolt Charge.\n\n↑Return Stroke:\nLightning Strikes refill 13 Ammo.",
+      "Description": "Arc Adaptive Machine Gun\nIntrinsic Dynamic Sway Reduction, and reticle moves drastically less, akin to Zen Moment without needing hits.\nIntrinsic Overload Breaker\n\nWhile holding down the trigger:\n0.75x Fire Recovery Delay after initially firing 13 rounds.\n0.6x Fire Recovery Delay after firing a total of 26 shots.\nTriggers a Lightning Strike every 10 hits or on kill, dealing up to 232 [65] Damage in a 5 meter radius and grant x1 Bolt Charge.\n\n↑Return Stroke:\nLightning Strikes refill 13 Ammo.",
       "Type": "PowerExotics",
       "Comment": "Reign Havoc\nLightning Rounds\n↑Return Stroke",
       "hash": 3325463374,

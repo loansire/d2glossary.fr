@@ -283,7 +283,7 @@
   },
   {
     "Name": "Fleet Footed",
-    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
     "Comment": "Trials of Osiris\nRitual",
     "hash": 65797256,
     "parentHash": "65797256",
@@ -291,7 +291,7 @@
   },
   {
     "Name": "Fleet Footed",
-    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for ? ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
     "Comment": "Trials of Osiris\nRitual",
     "hash": 1939575288,
     "parentHash": "1939575288",
@@ -628,7 +628,7 @@
   },
   {
     "Name": "Roar of Battle",
-    "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
     "Comment": "Crucible\nRitual",
     "hash": 1673863459,
     "parentHash": "1673863459",
@@ -636,7 +636,7 @@
   },
   {
     "Name": "Roar of Battle",
-    "Description": "After having maintained a state of dealing or receiving damage every 0.5? seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑? seconds.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
     "Comment": "Crucible\nRitual",
     "hash": 4236235115,
     "parentHash": "4236235115",

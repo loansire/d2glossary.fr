@@ -456,7 +456,7 @@
   },
   {
     "Name": "Volatile",
-    "Description": "Volatile Enemies trigger an explosion after receiving 190 [200] damage, or upon dying, dealing up to 145 [80] Void Damage in a 5 meter radius.\nVolatile lasts for 10 [6] seconds, harmlessly expiring afterwards. Debuff is removed after triggering the explosion.\nThe damage from the hit that applies Volatile doesn't count towards the detonation threshold. \nIncurs a 1 second cooldown before Volatile can be reapplied to an enemy after the explosion is triggered.",
+    "Description": "Volatile Enemies trigger an explosion after being dealt 190 [200] damage or upon dying, dealing up to 145 [80] Void Ability Damage in a 5 meter radius.\nVolatile lasts for 10 [6] seconds, harmlessly expiring afterwards. Debuff is removed after triggering the explosion.\nThe damage from the hit that applies Volatile doesn't count towards the detonation threshold. \n\nIncurs a 1 second cooldown before Volatile can be reapplied to an enemy after the explosion is triggered.",
     "hash": 4105407564,
     "parentHash": "4105407564",
     "descriptions": {
@@ -470,7 +470,7 @@
               ]
             },
             {
-              "text": " Enemies trigger an explosion after receiving 190 ["
+              "text": " Enemies trigger an explosion after being dealt 190 ["
             },
             {
               "text": "200",
@@ -479,7 +479,7 @@
               ]
             },
             {
-              "text": "] damage, or upon dying, dealing up to 145 ["
+              "text": "] damage or upon dying, dealing up to 145 ["
             },
             {
               "text": "80",
@@ -497,7 +497,7 @@
               ]
             },
             {
-              "text": " Damage in a 5 meter radius."
+              "text": " Ability Damage in a 5 meter radius."
             }
           ]
         },
@@ -537,6 +537,11 @@
             {
               "text": " doesn't count towards the detonation threshold."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -609,7 +614,7 @@
   },
   {
     "Name": "Weaken",
-    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot grants 30% [50%] increased damage against tethered enemies with both Deadfall and Moebius variations.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
+    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot: Deadfall grants 35% [50%?] increased damage against tethered enemies.\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
     "hash": 3336638905,
     "parentHash": "3336638905",
     "descriptions": {
@@ -726,7 +731,23 @@
         {
           "linesContent": [
             {
-              "text": "Shadowshot grants 30% ["
+              "text": "Shadowshot: Deadfall grants 35% ["
+            },
+            {
+              "text": "50%?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage against tethered enemies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Shadowshot: Moebius grants 30% ["
             },
             {
               "text": "50%",
@@ -735,7 +756,7 @@
               ]
             },
             {
-              "text": "] increased damage against tethered enemies with both Deadfall and Moebius variations."
+              "text": "] increased damage against tethered enemies."
             }
           ]
         },

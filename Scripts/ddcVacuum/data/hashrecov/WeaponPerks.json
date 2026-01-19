@@ -1370,14 +1370,14 @@
   },
   {
     "Name": "Frenzy",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.0.0.3 (Edge of Fate) aaaaaand still broken LMAO",
+    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work.",
     "hash": 4104185692,
     "parentHash": "4104185692",
     "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Frenzy",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.0.0.3 (Edge of Fate) aaaaaand still broken LMAO",
+    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work.",
     "hash": 3007133316,
     "parentHash": "3007133316",
     "hash_warning": "Multiple matches found (2 total)"
@@ -2523,14 +2523,14 @@
   },
   {
     "Name": "Recycled Energy",
-    "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants ?% ↑?% Ability Energy to the least-charged Ability.\n\n↑Loading ammo reload grants ?% Ability Energy.",
+    "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants Ability Energy to the least-charged Ability based on the amount of kills.\n5.7% | 8% | 9.7% | 13.3% | 20%\n↑6% | 7.5% | 9.5% | 13.5% | 22%\n\n↑Loading ammo reload grants ?% Ability Energy.",
     "hash": 3713215006,
     "parentHash": "3713215006",
     "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Recycled Energy",
-    "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants ?% ↑?% Ability Energy to the least-charged Ability.\n\n↑Loading ammo reload grants ?% Ability Energy.",
+    "Description": "Upon manually loading Ammo within ? seconds of a Weapon Kill:\nGrants Ability Energy to the least-charged Ability based on the amount of kills.\n5.7% | 8% | 9.7% | 13.3% | 20%\n↑6% | 7.5% | 9.5% | 13.5% | 22%\n\n↑Loading ammo reload grants ?% Ability Energy.",
     "hash": 3555252274,
     "parentHash": "3555252274",
     "hash_warning": "Multiple matches found (2 total)"
