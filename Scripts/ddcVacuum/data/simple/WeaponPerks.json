@@ -33,7 +33,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds."
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star."
   },
   {
     "Name": "Alloy Magazine",
@@ -850,7 +850,7 @@
   },
   {
     "Name": "Thermal Atomization",
-    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage "
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [3.5?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage "
   },
   {
     "Name": "Threat Detector",

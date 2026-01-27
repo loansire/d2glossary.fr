@@ -1797,7 +1797,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds.",
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star.",
     "hash": 1226351311,
     "parentHash": "1226351311",
     "hash_warning": "Multiple matches found (2 total)",
@@ -1820,16 +1820,41 @@
         {
           "linesContent": [
             {
-              "text": "15% ["
+              "text": "35% ["
             },
             {
-              "text": "?%",
+              "text": "15%",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] Increased Damage and +100? Reload Speed for 9? "
+              "text": "] Increased Damage and +100? Reload Speed for 6 "
+            },
+            {
+              "text": "↑7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Picking up additional Ammo Bricks extend the buff duration by 6 "
+            },
+            {
+              "text": "↑7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds, up to ? "
             },
             {
               "text": "↑10",
@@ -1869,47 +1894,13 @@
               "text": "Picking up a "
             },
             {
-              "text": "Kinetic Ammo",
+              "text": "Power Ammo",
               "classNames": [
-                "kinetic"
+                "heavy"
               ]
             },
             {
-              "text": " Brick (from the "
-            },
-            {
-              "text": "Kinetic",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": " Synthesis Artifact Perk) only grants "
-            },
-            {
-              "text": "All-Star",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for 7 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional "
-            },
-            {
-              "text": "Kinetic Synthesis Ammo",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": " Bricks extend the buff duration by +7 seconds, up to "
+              "text": " Brick grants 9 "
             },
             {
               "text": "↑10",
@@ -1918,7 +1909,16 @@
               ]
             },
             {
-              "text": " seconds."
+              "text": " seconds of "
+            },
+            {
+              "text": "All-Star",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -1927,7 +1927,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds.",
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star.",
     "hash": 3251326479,
     "parentHash": "3251326479",
     "hash_warning": "Multiple matches found (2 total)",
@@ -1950,16 +1950,41 @@
         {
           "linesContent": [
             {
-              "text": "15% ["
+              "text": "35% ["
             },
             {
-              "text": "?%",
+              "text": "15%",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] Increased Damage and +100? Reload Speed for 9? "
+              "text": "] Increased Damage and +100? Reload Speed for 6 "
+            },
+            {
+              "text": "↑7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Picking up additional Ammo Bricks extend the buff duration by 6 "
+            },
+            {
+              "text": "↑7",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds, up to ? "
             },
             {
               "text": "↑10",
@@ -1999,47 +2024,13 @@
               "text": "Picking up a "
             },
             {
-              "text": "Kinetic Ammo",
+              "text": "Power Ammo",
               "classNames": [
-                "kinetic"
+                "heavy"
               ]
             },
             {
-              "text": " Brick (from the "
-            },
-            {
-              "text": "Kinetic",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": " Synthesis Artifact Perk) only grants "
-            },
-            {
-              "text": "All-Star",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for 7 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional "
-            },
-            {
-              "text": "Kinetic Synthesis Ammo",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": " Bricks extend the buff duration by +7 seconds, up to "
+              "text": " Brick grants 9 "
             },
             {
               "text": "↑10",
@@ -2048,7 +2039,16 @@
               ]
             },
             {
-              "text": " seconds."
+              "text": " seconds of "
+            },
+            {
+              "text": "All-Star",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -39783,7 +39783,7 @@
   },
   {
     "Name": "Thermal Atomization",
-    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [3.5?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
     "hash": 1909124648,
     "parentHash": "1909124648",
     "hash_warning": "Multiple matches found (2 total)",
@@ -39802,7 +39802,7 @@
               "text": "8.25% ["
             },
             {
-              "text": "?%",
+              "text": "3.5?%",
               "classNames": [
                 "pvp"
               ]
@@ -39888,7 +39888,7 @@
   },
   {
     "Name": "Thermal Atomization",
-    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+    "Description": "As Heat increases from 50%, up to 100%:\n8.25% [3.5?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
     "hash": 3590359704,
     "parentHash": "3590359704",
     "hash_warning": "Multiple matches found (2 total)",
@@ -39907,7 +39907,7 @@
               "text": "8.25% ["
             },
             {
-              "text": "?%",
+              "text": "3.5?%",
               "classNames": [
                 "pvp"
               ]

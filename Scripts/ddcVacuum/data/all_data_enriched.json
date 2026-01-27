@@ -114,14 +114,14 @@
     },
     {
       "Name": "All-Star",
-      "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds.",
+      "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star.",
       "hash": 1226351311,
       "parentHash": "1226351311",
       "hash_warning": "Multiple matches found (2 total)"
     },
     {
       "Name": "All-Star",
-      "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n15% [?%] Increased Damage and +100? Reload Speed for 9? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Kinetic Ammo Brick (from the Kinetic Synthesis Artifact Perk) only grants All-Star for 7 seconds.\nAdditional Kinetic Synthesis Ammo Bricks extend the buff duration by +7 seconds, up to ↑10 seconds.",
+      "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star.",
       "hash": 3251326479,
       "parentHash": "3251326479",
       "hash_warning": "Multiple matches found (2 total)"
@@ -3124,14 +3124,14 @@
     },
     {
       "Name": "Thermal Atomization",
-      "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+      "Description": "As Heat increases from 50%, up to 100%:\n8.25% [3.5?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
       "hash": 1909124648,
       "parentHash": "1909124648",
       "hash_warning": "Multiple matches found (2 total)"
     },
     {
       "Name": "Thermal Atomization",
-      "Description": "As Heat increases from 50%, up to 100%:\n8.25% [?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
+      "Description": "As Heat increases from 50%, up to 100%:\n8.25% [3.5?%] to ~14% [?%] Increased Impact Damage.\nDoes not increase the damage of Explosive Damage...High-Impact Reserves | Rev.1\n\nDirect Damage kills cause targets explode on death, dealing Weapon-Matching Damage up to 7.5 meters away, down to a minimum of 0% Damage.\nHC: 74 lmao [77?] Damage | SMG: 289 [?] Damage | Sniper: 552 [?] Damage ",
       "hash": 3590359704,
       "parentHash": "3590359704",
       "hash_warning": "Multiple matches found (2 total)"
@@ -5988,28 +5988,28 @@
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 3771737927,
       "parentHash": "3771737927",
       "hash_warning": "Multiple matches found (4 total)"
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2732952950,
       "parentHash": "2732952950",
       "hash_warning": "Multiple matches found (4 total)"
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2167115920,
       "parentHash": "2167115920",
       "hash_warning": "Multiple matches found (4 total)"
     },
     {
       "Name": "Balanced Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% increased direct damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1002219198,
       "parentHash": "1002219198",
       "hash_warning": "Multiple matches found (4 total)"
@@ -6051,35 +6051,35 @@
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
       "hash": 2331097520,
       "parentHash": "2331097520",
       "hash_warning": "Multiple matches found (5 total)"
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1442784346,
       "parentHash": "1442784346",
       "hash_warning": "Multiple matches found (5 total)"
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1611330137,
       "parentHash": "1611330137",
       "hash_warning": "Multiple matches found (5 total)"
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
       "hash": 4108848057,
       "parentHash": "4108848057",
       "hash_warning": "Multiple matches found (5 total)"
     },
     {
       "Name": "Dynamic Heat Weapon",
-      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\n-50% Heat Generation for 5 seconds after shooting or until stowing the weapon.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% increased direct damage to Rank-and-File, and 32.25% increased damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+      "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
       "hash": 1406835319,
       "parentHash": "1406835319",
       "hash_warning": "Multiple matches found (5 total)"
@@ -6749,6 +6749,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 2928496916,
       "parentHash": "2928496916",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6756,6 +6757,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 687584589,
       "parentHash": "687584589",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6763,6 +6765,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 368110299,
       "parentHash": "368110299",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6770,6 +6773,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 651554065,
       "parentHash": "651554065",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6777,6 +6781,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 2100231191,
       "parentHash": "2100231191",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6784,6 +6789,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 3178379945,
       "parentHash": "3178379945",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6791,6 +6797,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 1225770249,
       "parentHash": "1225770249",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6798,6 +6805,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 3758615625,
       "parentHash": "3758615625",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6805,6 +6813,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 540070330,
       "parentHash": "540070330",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6812,6 +6821,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 745725302,
       "parentHash": "745725302",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6819,6 +6829,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 1278053348,
       "parentHash": "1278053348",
       "hash_warning": "Multiple matches found (12 total)"
@@ -6826,6 +6837,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
+      "Comment": "(Non-GLs)",
       "hash": 4024789138,
       "parentHash": "4024789138",
       "hash_warning": "Multiple matches found (12 total)"
@@ -11706,7 +11718,7 @@
     },
     {
       "Name": "Final Warning",
-      "Description": "Strand Rapid-Fire Sidearm\nProjectiles despawn after 50 metres.\n\nWhile holding down the trigger:\nEnemies within 24 metres are marked over 0.5 seconds for 2 seconds, and gradually charges up a 10-round burst over 0.9 seconds. Burst-Fire has +30 Stability.\nFully-Charged Burst Hits inflict Unravel to marked enemies.\n\nProjectiles deal 116 [25] damage with a 1.4x Precision Multiplier, and have different behaviors depending on whether it is hipfired or aimed-down-sights.\n\nWhile Hipfiring:\nShoots slower-moving Tracking Rounds which aggressively seek marked enemies.\nMarked Enemies receive 20% Increased Bodyshot Damage.\n\nWhile ADS:\nShoots hitscan projectiles.\n Marked Enemies receive 100% Increased Precision Damage.\n\n↑String Theory:\n10% increased damage towards Marked Enemies. Marked Miniboss and Boss Combatants only receive 5% increased damage.\nHits against Marked Enemies have a 25?% chance to refill 1 Ammo.",
+      "Description": "Strand Rapid-Fire Sidearm\nProjectiles despawn after 50 metres.\n\nWhile holding down the trigger:\nEnemies within 24 metres are marked over 0.5 seconds for 2 seconds, and gradually charges up a 10-round burst over 0.9 seconds. Burst-Fire has +30 Stability.\nFully-Charged Burst Hits inflict Unravel to marked enemies.\n\nProjectiles deal 116 [25] damage with a 1.4x Precision Multiplier, and have different behaviors depending on whether it is hipfired or aimed-down-sights.\n\nWhile Hipfiring:\nShoots slower-moving Tracking Rounds which aggressively seek marked enemies.\nMarked Enemies receive 20% Increased Bodyshot Damage.\n\nWhile ADS:\nShoots hitscan projectiles.\n Marked Enemies receive 100% Increased Precision Damage.\n\n↑String Theory:\n10% increased damage towards Marked Enemies. Marked Miniboss and Boss Combatants only receive 5% increased damage.\nHits against Marked Enemies have a chance to refill 1 Ammo.\nRank-and-File and Elites = ~85% | Minibosses+ = 25%",
       "Type": "KineticExotics",
       "Comment": "All At Once\nPick Your Poison\n↑String Theory",
       "hash": 3121540812,
@@ -12428,7 +12440,7 @@
     },
     {
       "Name": "Duality",
-      "Description": "Solar Precision Pellet and Pinpoint Slug Revolver Shotgun\nHipfire shoots pellets, while ADS shoots slugs. Passively has 5% Increased Damage Falloff Distance.\nReloads its entire magazine at once.\n\nUpon scoring a Pellet Kill, or scoring a hit with 10? pellets:\nGrants a stack of On Black Wings for 7 seconds, up to a maximum of 5 stacks.\nOn Black Wings increases Precision Damage and grants +? Reload Speed. \nAdditional Pellet Kills or Slug Precision Hits refresh the On Black Wings duration to 8 seconds.\nOn Black Wings persists through stow.\n\nOn Black Wings:\n23% | 39% | 55%\n?% | | ?% | 47%\n+? | +? | +? Reload Speed\n\n↑Catalyst:\nPassively grants +20 Range and increases Magazine by 2 (6 -> 8).",
+      "Description": "Solar Precision Pellet and Pinpoint Slug Revolver Shotgun\nHipfire shoots pellets, while ADS shoots slugs. Passively has 5% Increased Damage Falloff Distance.\nReloads its entire magazine at once.\n\nUpon scoring a Pellet Kill, or scoring a hit with 10? pellets:\nGrants a stack of On Black Wings for 7 seconds, up to a maximum of 3 stacks.\nOn Black Wings increases Precision Damage and grants +? Reload Speed. \nAdditional Pellet Kills or Slug Precision Hits refresh the On Black Wings duration to 8 seconds.\nOn Black Wings persists through stow.\n\nOn Black Wings:\n23% | 39% | 55%\n?% | | ?% | 47%\n+? | +? | +? Reload Speed\n\n↑Catalyst:\nPassively grants +20 Range and increases Magazine by 2 (6 -> 8).",
       "Type": "EnergyExotic",
       "Comment": "Compression Chamber\nOn Black Wings",
       "hash": 2639743396,
@@ -12437,7 +12449,7 @@
     },
     {
       "Name": "Duality",
-      "Description": "Solar Precision Pellet and Pinpoint Slug Revolver Shotgun\nHipfire shoots pellets, while ADS shoots slugs. Passively has 5% Increased Damage Falloff Distance.\nReloads its entire magazine at once.\n\nUpon scoring a Pellet Kill, or scoring a hit with 10? pellets:\nGrants a stack of On Black Wings for 7 seconds, up to a maximum of 5 stacks.\nOn Black Wings increases Precision Damage and grants +? Reload Speed. \nAdditional Pellet Kills or Slug Precision Hits refresh the On Black Wings duration to 8 seconds.\nOn Black Wings persists through stow.\n\nOn Black Wings:\n23% | 39% | 55%\n?% | | ?% | 47%\n+? | +? | +? Reload Speed\n\n↑Catalyst:\nPassively grants +20 Range and increases Magazine by 2 (6 -> 8).",
+      "Description": "Solar Precision Pellet and Pinpoint Slug Revolver Shotgun\nHipfire shoots pellets, while ADS shoots slugs. Passively has 5% Increased Damage Falloff Distance.\nReloads its entire magazine at once.\n\nUpon scoring a Pellet Kill, or scoring a hit with 10? pellets:\nGrants a stack of On Black Wings for 7 seconds, up to a maximum of 3 stacks.\nOn Black Wings increases Precision Damage and grants +? Reload Speed. \nAdditional Pellet Kills or Slug Precision Hits refresh the On Black Wings duration to 8 seconds.\nOn Black Wings persists through stow.\n\nOn Black Wings:\n23% | 39% | 55%\n?% | | ?% | 47%\n+? | +? | +? Reload Speed\n\n↑Catalyst:\nPassively grants +20 Range and increases Magazine by 2 (6 -> 8).",
       "Type": "EnergyExotic",
       "Comment": "Compression Chamber\nOn Black Wings",
       "hash": 3460576091,
@@ -12953,7 +12965,7 @@
     },
     {
       "Name": "Tessellation",
-      "Description": " Grenade-Matching Adaptive [Weapon|Instrument|Topology] Fusion Rifle\n[Reload] transforms the next shot into a Grenade-Matching explosive [Projectile|Shape|Language] at the cost of a Grenade Ability Charge. \nTakes 2.3 seconds to transform and refills the magazine.\nCan utilize Transcendence Grenades at the cost of a Grenade Ability Charge. Can utilize Song of Flame Wisp Grenades at no cost.\nAlways uses the element of the current Grenade Ability, regardless of overrides.\n\nKills grant 20% Grenade Energy and an additional 2.5% Light Transcendent Energy and 2.5% Dark Transcendent Energy.\n\nExplosive [Projectile|Shape|Language]:\nBehaves like a rocket, detonating on impact. Deals 180 [57] impact damage and up to 3,131 [166] explosive damage in a 6? meter radius.\nKills detonate enemies, triggering a Grenade-Matching Chain Reaction explosion.\nDeals 25% increased damage while Transcendence is active.\nExplosive shot can be stowed.\n\n↑Property: Unavoidable:\nExplosive [Projectile|Shape|Language] impact triggers a delayed detonation after 1? second.\nDelayed detonation deals up to 165 [10] damage, and applies Elemental Debuffs based on the Grenade Ability Element to enemies within 10? meters.\nArc = Blind | Solar = x70+10 Scorch | Stasis = x80 Slow for 6+1 [0.5] seconds. | Strand = Sever for 5+2.5 | Void = Weaken for 6 [2.5] seconds.",
+      "Description": " Grenade-Matching Adaptive [Weapon|Instrument|Topology] Fusion Rifle\n[Reload] transforms the next shot into a Grenade-Matching explosive [Projectile|Shape|Language] at the cost of a Grenade Ability Charge. \nTakes 2.3 seconds to transform and refills the magazine.\nCan utilize Transcendence Grenades at the cost of a Grenade Ability Charge. Can utilize Song of Flame Wisp Grenades at no cost.\nAlways uses the element of the current Grenade Ability, regardless of overrides.\n\nKills grant 20% Grenade Energy and an additional 2.5% Light Transcendent Energy and 2.5% Dark Transcendent Energy.\n\nExplosive [Projectile|Shape|Language]:\nBehaves like a rocket, detonating on impact. Deals 180 [57] impact damage and up to 3,131 [166] explosive damage in a 6? meter radius.\nKills detonate enemies, triggering a Grenade-Matching Chain Reaction explosion.\nDeals 19% increased damage while Transcendence is active.\nExplosive shot can be stowed.\n\n↑Property: Unavoidable:\nExplosive [Projectile|Shape|Language] impact triggers a delayed detonation after 1? second.\nDelayed detonation deals up to 165 [10] damage, and applies Elemental Debuffs based on the Grenade Ability Element to enemies within 10? meters.\nArc = Blind | Solar = x70+10 Scorch | Stasis = x80 Slow for 6+1 [0.5] seconds. | Strand = Sever for 5+2.5 | Void = Weaken for 6 [2.5] seconds.",
       "Type": "EnergyExotic",
       "Comment": "Property: Undecidable\nProperty: Irreducible\n↑Property: Unavoidable",
       "hash": 3561203890,
@@ -13003,7 +13015,7 @@
     },
     {
       "Name": "Tommy's Matchbook",
-      "Description": "Solar Rapid-Fire Auto Rifle\n\nWhile hipfiring:\nGrants massively decreased Accuracy Cone Size and Accuracy Cone Growth.\nDoes not receive the -50% Recoil from crouching. Instead, it is triggered by starting to hipfire. The reduction carries over to ADS if the trigger is held after initially hipfiring.\n\nIgnition Trigger:\nInitially triggered by firing 20 rounds within 0.125 seconds of each.\nWhile active, holding down the trigger builds up 20% Heat per second. Constantly drains at -25% Heat per second while not firing.\nGrants 99% [50%] increased damage and -3% Accuracy Cone Size while active.\nDrains 15 HP from the wielder every 0.4 seconds until reaching Critical Health. Drain is decreased to 7.5 HP per tick while hipfiring.\n\n↑Heat of the Moment: While Ignition Trigger is active:\nWeapon Kills grant Cure x1.\nEvery 5th shot applies x15+5 [x10+10] Scorch.",
+      "Description": "Solar Rapid-Fire Auto Rifle\n\nWhile hipfiring:\nGrants massively decreased Accuracy Cone Size and Accuracy Cone Growth.\nDoes not receive the -50% Recoil from crouching. Instead, it is triggered by starting to hipfire. The reduction carries over to ADS if the trigger is held after initially hipfiring.\n\nIgnition Trigger:\nInitially triggered by firing 20 rounds within 0.125 seconds of each.\nWhile active, holding down the trigger builds up 20% Heat per second. Constantly drains at -25% Heat per second while not firing.\nGrants 99% [50%] increased damage and -3% Accuracy Cone Size while active.\nDrains 15 HP from the wielder every 0.4 seconds until reaching Critical Health. Drain is decreased to 7.5 HP per tick while hipfiring.\nSelf-Damage bypasses Void Overshield and does not deal damage to it.\n\n↑Heat of the Moment: While Ignition Trigger is active:\nWeapon Kills grant Cure x1.\nEvery 5th shot applies x15+5 [x10+10] Scorch.",
       "Type": "EnergyExotic",
       "Comment": "Ignition Trigger\nHeat Sink\n↑Heat of the Moment",
       "hash": 3242052935,
@@ -13012,7 +13024,7 @@
     },
     {
       "Name": "Tommy's Matchbook",
-      "Description": "Solar Rapid-Fire Auto Rifle\n\nWhile hipfiring:\nGrants massively decreased Accuracy Cone Size and Accuracy Cone Growth.\nDoes not receive the -50% Recoil from crouching. Instead, it is triggered by starting to hipfire. The reduction carries over to ADS if the trigger is held after initially hipfiring.\n\nIgnition Trigger:\nInitially triggered by firing 20 rounds within 0.125 seconds of each.\nWhile active, holding down the trigger builds up 20% Heat per second. Constantly drains at -25% Heat per second while not firing.\nGrants 99% [50%] increased damage and -3% Accuracy Cone Size while active.\nDrains 15 HP from the wielder every 0.4 seconds until reaching Critical Health. Drain is decreased to 7.5 HP per tick while hipfiring.\n\n↑Heat of the Moment: While Ignition Trigger is active:\nWeapon Kills grant Cure x1.\nEvery 5th shot applies x15+5 [x10+10] Scorch.",
+      "Description": "Solar Rapid-Fire Auto Rifle\n\nWhile hipfiring:\nGrants massively decreased Accuracy Cone Size and Accuracy Cone Growth.\nDoes not receive the -50% Recoil from crouching. Instead, it is triggered by starting to hipfire. The reduction carries over to ADS if the trigger is held after initially hipfiring.\n\nIgnition Trigger:\nInitially triggered by firing 20 rounds within 0.125 seconds of each.\nWhile active, holding down the trigger builds up 20% Heat per second. Constantly drains at -25% Heat per second while not firing.\nGrants 99% [50%] increased damage and -3% Accuracy Cone Size while active.\nDrains 15 HP from the wielder every 0.4 seconds until reaching Critical Health. Drain is decreased to 7.5 HP per tick while hipfiring.\nSelf-Damage bypasses Void Overshield and does not deal damage to it.\n\n↑Heat of the Moment: While Ignition Trigger is active:\nWeapon Kills grant Cure x1.\nEvery 5th shot applies x15+5 [x10+10] Scorch.",
       "Type": "EnergyExotic",
       "Comment": "Ignition Trigger\nHeat Sink\n↑Heat of the Moment",
       "hash": 776191470,
