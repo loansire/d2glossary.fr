@@ -2622,6 +2622,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 2928496916,
     "parentHash": "2928496916",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2629,6 +2630,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 687584589,
     "parentHash": "687584589",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2636,6 +2638,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 368110299,
     "parentHash": "368110299",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2643,6 +2646,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 651554065,
     "parentHash": "651554065",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2650,6 +2654,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 2100231191,
     "parentHash": "2100231191",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2657,6 +2662,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 3178379945,
     "parentHash": "3178379945",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2664,6 +2670,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 1225770249,
     "parentHash": "1225770249",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2671,6 +2678,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 3758615625,
     "parentHash": "3758615625",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2678,6 +2686,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 540070330,
     "parentHash": "540070330",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2685,6 +2694,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 745725302,
     "parentHash": "745725302",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2692,6 +2702,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 1278053348,
     "parentHash": "1278053348",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2699,6 +2710,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)",
     "hash": 4024789138,
     "parentHash": "4024789138",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2706,7 +2718,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 2928496916,
     "parentHash": "2928496916",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2714,7 +2726,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 687584589,
     "parentHash": "687584589",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2722,7 +2734,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 368110299,
     "parentHash": "368110299",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2730,7 +2742,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 651554065,
     "parentHash": "651554065",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2738,7 +2750,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 2100231191,
     "parentHash": "2100231191",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2746,7 +2758,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 3178379945,
     "parentHash": "3178379945",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2754,7 +2766,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 1225770249,
     "parentHash": "1225770249",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2762,7 +2774,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 3758615625,
     "parentHash": "3758615625",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2770,7 +2782,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 540070330,
     "parentHash": "540070330",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2778,7 +2790,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 745725302,
     "parentHash": "745725302",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2786,7 +2798,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 1278053348,
     "parentHash": "1278053348",
     "hash_warning": "Multiple matches found (12 total)"
@@ -2794,7 +2806,7 @@
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)",
+    "Comment": "(Rocket and Sidearms)",
     "hash": 4024789138,
     "parentHash": "4024789138",
     "hash_warning": "Multiple matches found (12 total)"

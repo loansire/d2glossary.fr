@@ -23772,7 +23772,7 @@
     },
     {
       "Name": "Jolting Feedback",
-      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
+      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nBow: ? ↑2 | 1\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
       "hash": 3966416502,
       "parentHash": "3966416502",
       "hash_warning": "Multiple matches found (2 total)",
@@ -24007,6 +24007,28 @@
           {
             "linesContent": [
               {
+                "text": "Bow",
+                "classNames": [
+                  "weapon-bow"
+                ]
+              },
+              {
+                "text": ": ? "
+              },
+              {
+                "text": "↑2",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " | 1"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
                 "text": "Rocket Pulse",
                 "classNames": [
                   "weapon-pulse-rifle"
@@ -24156,7 +24178,7 @@
     },
     {
       "Name": "Jolting Feedback",
-      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
+      "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: 14? ↑11 | 9\nSidearm: ? ↑9 | 7\nScout Rifles: ? ↑6 | 4\nBow: ? ↑2 | 1\nRocket Pulse: ?? ↑7 | 5\nSpecial Hand Cannon: ?? ↑6 | 4\nRocket Sidearm: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased.",
       "hash": 717070634,
       "parentHash": "717070634",
       "hash_warning": "Multiple matches found (2 total)",
@@ -24385,6 +24407,28 @@
               },
               {
                 "text": " | 4"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Bow",
+                "classNames": [
+                  "weapon-bow"
+                ]
+              },
+              {
+                "text": ": ? "
+              },
+              {
+                "text": "↑2",
+                "classNames": [
+                  "enhancedArrow"
+                ]
+              },
+              {
+                "text": " | 1"
               }
             ]
           },
@@ -58079,6 +58123,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 2928496916,
       "parentHash": "2928496916",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58104,6 +58149,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 687584589,
       "parentHash": "687584589",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58129,6 +58175,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 368110299,
       "parentHash": "368110299",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58154,6 +58201,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 651554065,
       "parentHash": "651554065",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58179,6 +58227,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 2100231191,
       "parentHash": "2100231191",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58204,6 +58253,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 3178379945,
       "parentHash": "3178379945",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58229,6 +58279,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 1225770249,
       "parentHash": "1225770249",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58254,6 +58305,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 3758615625,
       "parentHash": "3758615625",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58279,6 +58331,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 540070330,
       "parentHash": "540070330",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58304,6 +58357,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 745725302,
       "parentHash": "745725302",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58329,6 +58383,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 1278053348,
       "parentHash": "1278053348",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58354,6 +58409,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+      "Comment": "(Special Grenade Launchers)",
       "hash": 4024789138,
       "parentHash": "4024789138",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58379,7 +58435,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 2928496916,
       "parentHash": "2928496916",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58414,7 +58470,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 687584589,
       "parentHash": "687584589",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58449,7 +58505,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 368110299,
       "parentHash": "368110299",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58484,7 +58540,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 651554065,
       "parentHash": "651554065",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58519,7 +58575,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 2100231191,
       "parentHash": "2100231191",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58554,7 +58610,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 3178379945,
       "parentHash": "3178379945",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58589,7 +58645,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 1225770249,
       "parentHash": "1225770249",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58624,7 +58680,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 3758615625,
       "parentHash": "3758615625",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58659,7 +58715,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 540070330,
       "parentHash": "540070330",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58694,7 +58750,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 745725302,
       "parentHash": "745725302",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58729,7 +58785,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 1278053348,
       "parentHash": "1278053348",
       "hash_warning": "Multiple matches found (12 total)",
@@ -58764,7 +58820,7 @@
     {
       "Name": "Micro-Missile Frame",
       "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-      "Comment": "(Non-GLs)",
+      "Comment": "(Rocket and Sidearms)",
       "hash": 4024789138,
       "parentHash": "4024789138",
       "hash_warning": "Multiple matches found (12 total)",

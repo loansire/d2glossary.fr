@@ -84,12 +84,13 @@
   },
   {
     "Name": "Micro-Missile Frame",
-    "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage."
+    "Description": "Passively grants +20 Mobility, and 6.25% Forward Movement Speed Bonus.\nDeals 50% Decreased Self Damage.",
+    "Comment": "(Special Grenade Launchers)"
   },
   {
     "Name": "Micro-Missile Frame",
     "Description": "Uses Special Ammo. \nShoots micro-missiles that track locked-on enemies.",
-    "Comment": "(Non-GLs)"
+    "Comment": "(Rocket and Sidearms)"
   },
   {
     "Name": "MIDA Synergy",
