@@ -126,7 +126,7 @@ export function parseKeywords(text, lang = null) {
   const replacements = getReplacements(lang);
 
   for (const [key, className] of Object.entries(replacements)) {
-    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'gi'); // Ajout du flag 'i' pour insensible à la casse
+    const regex = new RegExp(`\\[${key}\\](\\s*)(\\w+)`, 'gi');
     text = text.replace(
       regex,
       `<span class="icon-word"><span class="${className}"></span>&nbsp;$2</span>`
@@ -159,6 +159,7 @@ export function getUrlParam(param) {
 
 /**
  * Met à jour un paramètre de l'URL sans recharger la page
+ * Préserve le paramètre lang si présent
  */
 export function setUrlParam(param, value) {
   const url = new URL(window.location);
@@ -182,6 +183,31 @@ export function removeUrlParam(param) {
  */
 export function getCurrentUrl() {
   return window.location.href;
+}
+
+/**
+ * Construit une URL partageable avec les bons paramètres
+ * Inclut le paramètre lang si la langue n'est pas FR
+ */
+export function getShareableUrl(extraParams = {}) {
+  const url = new URL(window.location);
+  const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
+
+  // Ajouter le paramètre lang si ce n'est pas FR
+  if (currentLang !== 'fr') {
+    url.searchParams.set('lang', currentLang);
+  } else {
+    url.searchParams.delete('lang');
+  }
+
+  // Ajouter les paramètres supplémentaires
+  for (const [key, value] of Object.entries(extraParams)) {
+    if (value !== null && value !== undefined) {
+      url.searchParams.set(key, value);
+    }
+  }
+
+  return url.toString();
 }
 
 // === CLIPBOARD ===

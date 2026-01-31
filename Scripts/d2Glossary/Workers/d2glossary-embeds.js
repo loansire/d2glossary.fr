@@ -1,5 +1,6 @@
 /**
  * Cloudflare Worker pour D2Glossary - Embeds Discord
+ * Supporte le paramètre ?lang= pour les contenus multilingues
  */
 
 // Configuration
@@ -7,19 +8,81 @@ const SITE_URL = 'https://d2glossary.fr';
 const BUNGIE_BASE_URL = 'https://www.bungie.net';
 const DATA_BASE_URL = 'https://d2glossary.fr/data';
 const DDCVACUUM_URL = 'https://d2glossary.fr/data/ddcvacuum.json';
+const DEFAULT_LANGUAGE = 'fr';
+const SUPPORTED_LANGUAGES = ['fr', 'en'];
 
 // User agent Discord
 const DISCORD_BOT = 'discordbot';
 
-// Mapping des pages
+// Mapping des pages avec leurs configurations
 const PAGE_CONFIG = {
-  'perk': { file: 'item_definitions.json', label: 'Perk' },
-  'trait': { file: 'trait_definitions.json', label: 'Trait' },
-  'breaker': { file: 'breaker_definitions.json', label: 'Champion' },
-  'damagetype': { file: 'damagetype_definitions.json', label: 'Dégât' },
-  'modifier': { file: 'modifier_definitions.json', label: 'Modificateur' },
-  'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', type: 'setarmor' },
-  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', type: 'artefact' }
+  'perk': { file: 'item_definitions.json', label: 'Perk', labelEn: 'Perk' },
+  'trait': { file: 'trait_definitions.json', label: 'Trait', labelEn: 'Trait' },
+  'breaker': { file: 'breaker_definitions.json', label: 'Champion', labelEn: 'Champion' },
+  'damagetype': { file: 'damagetype_definitions.json', label: 'Dégât', labelEn: 'Damage Type' },
+  'modifier': { file: 'modifier_definitions.json', label: 'Modificateur', labelEn: 'Modifier' },
+  'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', labelEn: 'Armor Set', type: 'setarmor' },
+  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', labelEn: 'Artifact', type: 'artefact' }
+};
+
+// Configuration du fallback générique par page
+const PAGE_FALLBACK = {
+  'index': {
+    title: 'D2Glossary - Glossaire Destiny 2',
+    titleEn: 'D2Glossary - Destiny 2 Glossary',
+    description: 'Dictionnaire bilingue des termes de Destiny 2. Perks, traits, modificateurs, sets d\'armure et plus encore.',
+    descriptionEn: 'Bilingual dictionary of Destiny 2 terms. Perks, traits, modifiers, armor sets and more.',
+    icon: `${SITE_URL}/assets/src/ico/logo-d2glossaire.png`
+  },
+  'perk': {
+    title: 'D2Glossary - Perks d\'armes',
+    titleEn: 'D2Glossary - Weapon Perks',
+    description: 'Catalogue complet des perks d\'armes de Destiny 2 avec descriptions détaillées.',
+    descriptionEn: 'Complete catalog of Destiny 2 weapon perks with detailed descriptions.',
+    icon: `${SITE_URL}/assets/src/Perks_thumb.jpg`
+  },
+  'trait': {
+    title: 'D2Glossary - Traits élémentaires',
+    titleEn: 'D2Glossary - Elemental Traits',
+    description: 'Découvrez tous les traits et verbes élémentaires de Destiny 2.',
+    descriptionEn: 'Discover all elemental traits and verbs of Destiny 2.',
+    icon: `${SITE_URL}/assets/src/Traits_thumb.jpg`
+  },
+  'breaker': {
+    title: 'D2Glossary - Champions',
+    titleEn: 'D2Glossary - Champions',
+    description: 'Guide des types de champions et leurs contres dans Destiny 2.',
+    descriptionEn: 'Guide to champion types and their counters in Destiny 2.',
+    icon: `${SITE_URL}/assets/src/Champions_thumb.jpg`
+  },
+  'damagetype': {
+    title: 'D2Glossary - Types de dégâts',
+    titleEn: 'D2Glossary - Damage Types',
+    description: 'Tous les types de dégâts élémentaires de Destiny 2.',
+    descriptionEn: 'All elemental damage types in Destiny 2.',
+    icon: `${SITE_URL}/assets/src/Doctrine_thumb.jpg`
+  },
+  'modifier': {
+    title: 'D2Glossary - Modificateurs',
+    titleEn: 'D2Glossary - Modifiers',
+    description: 'Liste complète des modificateurs d\'activités de Destiny 2.',
+    descriptionEn: 'Complete list of Destiny 2 activity modifiers.',
+    icon: `${SITE_URL}/assets/src/modifier_thumb.jpg`
+  },
+  'setarmor': {
+    title: 'D2Glossary - Sets d\'armure',
+    titleEn: 'D2Glossary - Armor Sets',
+    description: 'Tous les sets d\'armure et leurs bonus dans Destiny 2.',
+    descriptionEn: 'All armor sets and their bonuses in Destiny 2.',
+    icon: `${SITE_URL}/assets/src/Setarmor_thumb.jpg`
+  },
+  'artefact': {
+    title: 'D2Glossary - Artefact saisonnier',
+    titleEn: 'D2Glossary - Seasonal Artifact',
+    description: 'Détails de l\'artefact saisonnier actuel de Destiny 2.',
+    descriptionEn: 'Details of the current Destiny 2 seasonal artifact.',
+    icon: `${SITE_URL}/assets/src/artefact_thumb.jpg`
+  }
 };
 
 // Cache pour DDCVacuum (indexé par hash)
@@ -31,6 +94,22 @@ let ddcvacuumCache = null;
 function isDiscordBot(userAgent) {
   if (!userAgent) return false;
   return userAgent.toLowerCase().includes(DISCORD_BOT);
+}
+
+/**
+ * Valide et normalise le paramètre de langue
+ */
+function getValidLanguage(langParam) {
+  if (!langParam) return DEFAULT_LANGUAGE;
+  const lang = langParam.toLowerCase();
+  return SUPPORTED_LANGUAGES.includes(lang) ? lang : DEFAULT_LANGUAGE;
+}
+
+/**
+ * Récupère le label selon la langue
+ */
+function getLocalizedLabel(config, lang) {
+  return lang === 'en' ? (config.labelEn || config.label) : config.label;
 }
 
 /**
@@ -50,22 +129,17 @@ async function loadData(lang, filename) {
 
 /**
  * Transforme la structure par catégories en index par hash
- * @param {Object} rawData - Données brutes avec catégories (WeaponPerks, WeaponMods, etc.)
- * @returns {Object} Index avec hash comme clé
  */
 function indexByHash(rawData) {
   const indexed = {};
-
   for (const category of Object.values(rawData)) {
     if (!Array.isArray(category)) continue;
-
     for (const item of category) {
       if (item.hash) {
         indexed[String(item.hash)] = item;
       }
     }
   }
-
   return indexed;
 }
 
@@ -83,16 +157,11 @@ function isNewStructure(data) {
  */
 async function loadDDCVacuum() {
   if (ddcvacuumCache) return ddcvacuumCache;
-
   try {
     const response = await fetch(DDCVACUUM_URL, { cf: { cacheTtl: 3600 } });
     if (!response.ok) return null;
-
     const rawData = await response.json();
-
-    // Transformer si c'est la nouvelle structure par catégories
     ddcvacuumCache = isNewStructure(rawData) ? indexByHash(rawData) : rawData;
-
     return ddcvacuumCache;
   } catch (e) {
     console.error(`Erreur chargement DDCVacuum:`, e);
@@ -136,9 +205,7 @@ async function getSetArmorPerkInfo(id, lang) {
 
   for (const [setId, setData] of Object.entries(data)) {
     if (!setData.setPerks) continue;
-
     const perk = setData.setPerks.find(p => String(p.sandboxPerkHash) === String(id));
-
     if (perk && perk.displayProperties) {
       return {
         name: perk.displayProperties.name || 'Inconnu',
@@ -162,15 +229,12 @@ async function getArtefactPerkInfo(id, lang) {
 
   for (const [artifactId, artifact] of Object.entries(data)) {
     if (!artifact.tiers) continue;
-
     for (const tier of artifact.tiers) {
       if (!tier.items) continue;
-
       const item = tier.items.find(i =>
         String(i.perkHash) === String(id) ||
         String(i.itemHash) === String(id)
       );
-
       if (item && item.name) {
         return {
           name: item.name,
@@ -185,13 +249,17 @@ async function getArtefactPerkInfo(id, lang) {
 }
 
 /**
- * Nettoie la description
+ * Nettoie la description en retirant le texte entre crochets [xxx]
+ * et les variables {var:xxx}
  */
 function cleanDescription(text) {
   if (!text) return '';
   return text
+    // Retirer les textes entre crochets [xxx] (valeurs PVP, etc.)
+    .replace(/\[[^\]]*\]/g, '')
+    // Retirer les variables {var:xxx}
     .replace(/\{var:[a-zA-Z0-9_]+\}/g, '')
-    .replace(/\[([^\]]+)\]/g, '$1')
+    // Nettoyer les espaces multiples
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -209,30 +277,58 @@ function escapeHtml(text) {
 }
 
 /**
- * Génère le titre selon le type de page
+ * Génère le titre selon le type de page et la langue
  */
-function generateTitle(info, pageLabel, pageType) {
+function generateTitle(info, pageLabel, pageType, lang) {
   if (pageType === 'setarmor' && info.requiredCount) {
-    return `Set d'armure ${info.requiredCount}x - ${info.name}`;
+    const prefix = lang === 'en' ? `Armor Set ${info.requiredCount}x` : `Set d'armure ${info.requiredCount}x`;
+    return `${prefix} - ${info.name}`;
   }
   if (pageType === 'artefact' && info.tierIndex !== undefined) {
-    return `Artefact saisonnier - colonne ${info.tierIndex + 1} - ${info.name}`;
+    const prefix = lang === 'en'
+      ? `Seasonal Artifact - column ${info.tierIndex + 1}`
+      : `Artefact saisonnier - colonne ${info.tierIndex + 1}`;
+    return `${prefix} - ${info.name}`;
   }
   return `${pageLabel} - ${info.name}`;
 }
 
 /**
- * Génère le HTML avec métadonnées pour Discord
+ * Génère le HTML avec métadonnées pour Discord (embed spécifique à un item)
  */
-function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumFooter) {
-  const title = generateTitle(info, pageLabel, pageType);
+function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumFooter, lang) {
+  const title = generateTitle(info, pageLabel, pageType, lang);
   const description = cleanDescription(info.description);
 
   let fullDescription = description;
   if (showDDCVacuumFooter) {
-    const footer = 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
+    const footer = lang === 'en'
+      ? 'Click for Destiny Data Compendium details.'
+      : 'Cliquez pour obtenir les détails de Destiny Data Compendium.';
     fullDescription = description ? `${description}\n\n${footer}` : footer;
   }
+
+  return generateHtmlResponse(title, fullDescription, info.icon, pageUrl);
+}
+
+/**
+ * Génère le fallback générique pour une page sans ID
+ */
+function generateFallbackEmbed(pageName, pageUrl, lang) {
+  const fallback = PAGE_FALLBACK[pageName] || PAGE_FALLBACK['index'];
+
+  const title = lang === 'en' ? (fallback.titleEn || fallback.title) : fallback.title;
+  const description = lang === 'en' ? (fallback.descriptionEn || fallback.description) : fallback.description;
+  const icon = fallback.icon;
+
+  return generateHtmlResponse(title, description, icon, pageUrl);
+}
+
+/**
+ * Génère la réponse HTML commune
+ */
+function generateHtmlResponse(title, description, icon, pageUrl) {
+  const iconMeta = icon ? `<meta property="og:image" content="${icon}">` : '';
 
   return `<!DOCTYPE html>
 <html>
@@ -242,8 +338,8 @@ function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumF
   <!-- Discord Embed -->
   <meta property="og:site_name" content="D2Glossary.fr - Glossaire des termes de Destiny 2">
   <meta property="og:title" content="${escapeHtml(title)}">
-  <meta property="og:description" content="${escapeHtml(fullDescription)}">
-  <meta property="og:image" content="${info.icon}">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  ${iconMeta}
   <meta property="og:url" content="${pageUrl}">
   <meta property="og:type" content="website">
 
@@ -260,6 +356,22 @@ function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumF
 }
 
 /**
+ * Construit l'URL canonique avec le paramètre lang si nécessaire
+ */
+function buildCanonicalUrl(url, lang) {
+  const canonical = new URL(url);
+
+  // Retirer le paramètre lang si c'est la langue par défaut (FR)
+  if (lang === DEFAULT_LANGUAGE) {
+    canonical.searchParams.delete('lang');
+  } else {
+    canonical.searchParams.set('lang', lang);
+  }
+
+  return canonical.toString();
+}
+
+/**
  * Handler principal
  */
 export default {
@@ -272,19 +384,54 @@ export default {
       return fetch(request);
     }
 
-    // Extraire la page et l'ID
-    const id = url.searchParams.get('id');
-    if (!id) return fetch(request);
+    // Extraire et valider la langue
+    const langParam = url.searchParams.get('lang');
+    const lang = getValidLanguage(langParam);
 
+    // Extraire la page
     const pageMatch = url.pathname.match(/\/([a-z]+)\.html$/);
-    if (!pageMatch) return fetch(request);
+    const pageName = pageMatch ? pageMatch[1] : 'index';
 
-    const pageName = pageMatch[1];
+    // Vérifier si c'est la page d'index
+    if (pageName === 'index' || url.pathname === '/' || url.pathname === '') {
+      const canonicalUrl = buildCanonicalUrl(url, lang);
+      const html = generateFallbackEmbed('index', canonicalUrl, lang);
+      return new Response(html, {
+        headers: {
+          'Content-Type': 'text/html;charset=UTF-8',
+          'Cache-Control': 'public, max-age=3600'
+        }
+      });
+    }
+
     const config = PAGE_CONFIG[pageName];
-    if (!config) return fetch(request);
 
-    // Langue (défaut: fr)
-    const lang = url.searchParams.get('lang') || 'fr';
+    // Si page non configurée, utiliser le fallback générique
+    if (!config) {
+      const canonicalUrl = buildCanonicalUrl(url, lang);
+      const html = generateFallbackEmbed('index', canonicalUrl, lang);
+      return new Response(html, {
+        headers: {
+          'Content-Type': 'text/html;charset=UTF-8',
+          'Cache-Control': 'public, max-age=3600'
+        }
+      });
+    }
+
+    // Récupérer l'ID
+    const id = url.searchParams.get('id');
+
+    // Si pas d'ID, utiliser le fallback de la page
+    if (!id) {
+      const canonicalUrl = buildCanonicalUrl(url, lang);
+      const html = generateFallbackEmbed(pageName, canonicalUrl, lang);
+      return new Response(html, {
+        headers: {
+          'Content-Type': 'text/html;charset=UTF-8',
+          'Cache-Control': 'public, max-age=3600'
+        }
+      });
+    }
 
     // Récupérer les infos selon le type de page
     let itemInfo = null;
@@ -296,13 +443,29 @@ export default {
       itemInfo = await getItemInfo(id, lang, config.file);
     }
 
-    if (!itemInfo) return fetch(request);
+    // Si item non trouvé, utiliser le fallback
+    if (!itemInfo) {
+      const canonicalUrl = buildCanonicalUrl(url, lang);
+      const html = generateFallbackEmbed(pageName, canonicalUrl, lang);
+      return new Response(html, {
+        headers: {
+          'Content-Type': 'text/html;charset=UTF-8',
+          'Cache-Control': 'public, max-age=3600'
+        }
+      });
+    }
 
     // Vérifier si l'item a des données DDCVacuum
     const showDDCVacuumFooter = await hasDDCVacuum(id);
 
+    // Construire l'URL canonique
+    const canonicalUrl = buildCanonicalUrl(url, lang);
+
+    // Récupérer le label localisé
+    const pageLabel = getLocalizedLabel(config, lang);
+
     // Générer l'embed Discord
-    const html = generateDiscordEmbed(itemInfo, config.label, url.toString(), config.type, showDDCVacuumFooter);
+    const html = generateDiscordEmbed(itemInfo, pageLabel, canonicalUrl, config.type, showDDCVacuumFooter, lang);
 
     return new Response(html, {
       headers: {

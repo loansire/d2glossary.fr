@@ -5,7 +5,7 @@ import {
   normalizeName,
   setUrlParam,
   removeUrlParam,
-  getCurrentUrl,
+  getShareableUrl,
   copyToClipboard,
   getBungieIconUrl,
   onEscapeKey
@@ -118,13 +118,22 @@ export function closePopupItem() {
 
 // === SHARE FUNCTIONS ===
 export function sharePopupItem() {
-  const url = getCurrentUrl();
+  // Récupérer l'ID actuel depuis l'URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const itemId = urlParams.get('id');
+
+  // Construire l'URL partageable avec lang si nécessaire
+  const url = getShareableUrl({ id: itemId });
   copyToClipboard(url, 'Lien copié dans le presse-papier :\n' + url);
 }
 
 export function copyDiscordMarkdown() {
   const displayName = document.getElementById('popupitem-name')?.textContent.trim();
-  const url = getCurrentUrl();
+  const urlParams = new URLSearchParams(window.location.search);
+  const itemId = urlParams.get('id');
+
+  // Construire l'URL partageable
+  const url = getShareableUrl({ id: itemId });
   const iconSwitch = document.getElementById('iconSwitch');
   const iconEnabled = iconSwitch?.checked;
 

@@ -7,7 +7,7 @@ import {
   escapeHtml,
   getBungieIconUrl,
   copyToClipboard,
-  getCurrentUrl,
+  getShareableUrl,
   setUrlParam,
   removeUrlParam,
   normalizeName,
@@ -382,13 +382,17 @@ export async function loadArtefactPage({
   }
 
   function sharePopupItem() {
-    const url = getCurrentUrl();
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('id');
+    const url = getShareableUrl({ id: itemId });
     copyToClipboard(url, 'Lien copié dans le presse-papier :\n' + url);
   }
 
   function copyDiscordMarkdown() {
     const displayName = document.getElementById('popupitem-name')?.textContent.trim();
-    const url = getCurrentUrl();
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('id');
+    const url = getShareableUrl({ id: itemId });
     const iconSwitch = document.getElementById('iconSwitch');
     const iconEnabled = iconSwitch?.checked;
 
@@ -422,9 +426,8 @@ export async function loadArtefactPage({
       alert('Aucune sélection à partager !');
       return;
     }
-    const url = new URL(getCurrentUrl());
-    url.searchParams.set('selection', Array.from(selectedItems).join(','));
-    copyToClipboard(url.toString(), 'Lien copié !\n' + url.toString());
+    const url = getShareableUrl({ selection: Array.from(selectedItems).join(',') });
+    copyToClipboard(url, 'Lien copié !\n' + url);
   });
 
   resetBtn.addEventListener('click', () => {
@@ -432,7 +435,7 @@ export async function loadArtefactPage({
     selectedItems.clear();
     document.querySelectorAll('.item-icon.selected').forEach(el => el.classList.remove('selected'));
     updateProgress();
-    const url = new URL(getCurrentUrl());
+    const url = new URL(window.location);
     url.searchParams.delete('selection');
     history.replaceState(null, '', url);
   });
