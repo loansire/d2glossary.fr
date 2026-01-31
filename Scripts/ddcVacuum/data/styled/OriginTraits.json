@@ -2,7 +2,7 @@
   {
     "Name": "Air-Cooled Core",
     "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-    "Comment": "Renegade Weapons\nDestination",
+    "Comment": "Lawless Frontier\nDestination",
     "hash": 1309453587,
     "parentHash": "1309453587",
     "hash_warning": "Multiple matches found (2 total)",
@@ -65,7 +65,7 @@
   {
     "Name": "Air-Cooled Core",
     "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-    "Comment": "Renegade Weapons\nDestination",
+    "Comment": "Lawless Frontier\nDestination",
     "hash": 4280607931,
     "parentHash": "4280607931",
     "hash_warning": "Multiple matches found (2 total)",
@@ -1604,6 +1604,33 @@
     "Comment": "Guardian Games\nEvent",
     "hash": 1702976605,
     "parentHash": "1702976605",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 5% Class Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Classy Contender",
+    "Description": "On Weapon Kill:\nGrants 5% Class Ability Energy.",
+    "Comment": "Guardian Games\nEvent",
+    "hash": 2523469161,
+    "parentHash": "2523469161",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -5229,8 +5256,8 @@
   },
   {
     "Name": "Nail, Meet Hammer",
-    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
-    "Comment": "Season of Renegades\nEvents",
+    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+    "Comment": "Renegades\nArms Week Event",
     "hash": 2152442764,
     "parentHash": "2152442764",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5239,7 +5266,7 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants ?% increased damage towards Combatant Shields."
+              "text": "Passively grants 8% increased damage towards Combatant Shields."
             }
           ]
         },
@@ -5251,25 +5278,14 @@
         {
           "linesContent": [
             {
-              "text": "1.?x "
-            },
+              "text": "Upon breaking a Combatant Shield:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
             {
-              "text": "Special Ammo",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": " Progress Multiplier for "
-            },
-            {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": " and "
+              "text": "Primary and "
             },
             {
               "text": "Power Weapons",
@@ -5278,14 +5294,29 @@
               ]
             },
             {
-              "text": "."
+              "text": " grant 8% "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "1.?x "
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " grant 8% "
             },
             {
               "text": "Power Ammo",
@@ -5294,16 +5325,7 @@
               ]
             },
             {
-              "text": " Progress Multiplier for "
-            },
-            {
-              "text": "Special Weapons",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": "."
+              "text": " Progress."
             }
           ]
         }
@@ -5312,8 +5334,8 @@
   },
   {
     "Name": "Nail, Meet Hammer",
-    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
-    "Comment": "Season of Renegades\nEvents",
+    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+    "Comment": "Renegades\nArms Week Event",
     "hash": 1209885908,
     "parentHash": "1209885908",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5322,7 +5344,7 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants ?% increased damage towards Combatant Shields."
+              "text": "Passively grants 8% increased damage towards Combatant Shields."
             }
           ]
         },
@@ -5334,25 +5356,14 @@
         {
           "linesContent": [
             {
-              "text": "1.?x "
-            },
+              "text": "Upon breaking a Combatant Shield:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
             {
-              "text": "Special Ammo",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": " Progress Multiplier for "
-            },
-            {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": " and "
+              "text": "Primary and "
             },
             {
               "text": "Power Weapons",
@@ -5361,14 +5372,29 @@
               ]
             },
             {
-              "text": "."
+              "text": " grant 8% "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "1.?x "
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " grant 8% "
             },
             {
               "text": "Power Ammo",
@@ -5377,16 +5403,7 @@
               ]
             },
             {
-              "text": " Progress Multiplier for "
-            },
-            {
-              "text": "Special Weapons",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": "."
+              "text": " Progress."
             }
           ]
         }

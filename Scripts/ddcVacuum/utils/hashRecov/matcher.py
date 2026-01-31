@@ -1,10 +1,62 @@
 """
 Hash Matcher - Finds hash matches between ddcVacuum and d2glossary data
+Avec normalisation Unicode pour gérer les accents/diacritiques
 """
 
 import json
+import unicodedata
 from typing import List, Dict, Any, Optional
 from .config import get_nested_value
+
+
+def normalize_name(name: str) -> str:
+    """
+    Normalise un nom pour la comparaison :
+    - Retire les accents/diacritiques (ä → a, é → e, etc.)
+    - Convertit en minuscules
+    - Supprime les espaces en début/fin
+
+    Args:
+        name: Nom à normaliser
+
+    Returns:
+        Nom normalisé
+
+    Examples:
+        >>> normalize_name("Häkke Breach Armaments")
+        "hakke breach armaments"
+        >>> normalize_name("Éclat Solaire")
+        "eclat solaire"
+    """
+    if not name:
+        return ""
+
+    # Normaliser en forme NFD (décompose les caractères accentués)
+    # Ex: "ä" devient "a" + combining diaeresis
+    normalized = unicodedata.normalize('NFD', name)
+
+    # Retirer les marques diacritiques (catégorie 'Mn' = Mark, Nonspacing)
+    without_diacritics = ''.join(
+        char for char in normalized
+        if unicodedata.category(char) != 'Mn'
+    )
+
+    # Minuscules et strip
+    return without_diacritics.lower().strip()
+
+
+def names_match(name1: str, name2: str) -> bool:
+    """
+    Compare deux noms de manière insensible aux accents et à la casse
+
+    Args:
+        name1: Premier nom
+        name2: Deuxième nom
+
+    Returns:
+        True si les noms correspondent
+    """
+    return normalize_name(name1) == normalize_name(name2)
 
 
 def find_hash_matches(
@@ -16,14 +68,14 @@ def find_hash_matches(
 ) -> List[Dict[str, Any]]:
     """
     Recherche tous les hash correspondant à un nom dans les données d2glossary.
-    La comparaison des noms est insensible à la casse.
+    La comparaison des noms est insensible à la casse ET aux accents/diacritiques.
 
     Supporte les structures imbriquées avec array_path utilisant la notation:
     - "setPerks" : array simple
     - "tiers.items" : array imbriqué (parcourt tiers[], puis items[] dans chaque tier)
 
     Args:
-        vacuum_name: Le nom à rechercher (ex: "Force Converter")
+        vacuum_name: Le nom à rechercher (ex: "Force Converter", "Hakke Breach Armaments")
         glossary_data: Les données d2glossary complètes
         name_path: Chemin vers le champ name (ex: "tiers.items.name")
         hash_path: Chemin vers le champ hash (ex: "tiers.items.perkHash")
@@ -33,6 +85,7 @@ def find_hash_matches(
         Liste de dictionnaires contenant les matches trouvés
     """
     matches = []
+    normalized_vacuum_name = normalize_name(vacuum_name)
 
     # Parcourir tous les items du glossary
     for parent_hash, item in glossary_data.items():
@@ -47,9 +100,8 @@ def find_hash_matches(
 
                 element_name = get_nested_value(element, element_name_path)
 
-                # Vérifier si le nom correspond (insensible à la casse)
-                # Ignorer les éléments sans nom ou avec nom vide
-                if element_name and element_name.strip() and element_name.strip().lower() == vacuum_name.strip().lower():
+                # Vérifier si le nom correspond (insensible à la casse ET aux accents)
+                if element_name and element_name.strip() and normalize_name(element_name) == normalized_vacuum_name:
                     element_hash = get_nested_value(element, element_hash_path)
 
                     # Ignorer si pas de hash ou hash null
@@ -72,7 +124,7 @@ def find_hash_matches(
             # Cas simple : recherche directe dans l'item
             item_name = get_nested_value(item, name_path)
 
-            if item_name and item_name.strip() and item_name.strip().lower() == vacuum_name.strip().lower():
+            if item_name and item_name.strip() and normalize_name(item_name) == normalized_vacuum_name:
                 item_hash = get_nested_value(item, hash_path)
 
                 if item_hash:

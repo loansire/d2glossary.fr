@@ -2,7 +2,7 @@
   {
     "Name": "Air-Cooled Core",
     "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-    "Comment": "Renegade Weapons\nDestination"
+    "Comment": "Lawless Frontier\nDestination"
   },
   {
     "Name": "Accelerated Assault",
@@ -181,8 +181,8 @@
   },
   {
     "Name": "Nail, Meet Hammer",
-    "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
-    "Comment": "Season of Renegades\nEvents"
+    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+    "Comment": "Renegades\nArms Week Event"
   },
   {
     "Name": "Nano-Munitions",

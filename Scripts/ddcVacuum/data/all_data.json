@@ -1264,7 +1264,7 @@
     {
       "Name": "Air-Cooled Core",
       "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-      "Comment": "Renegade Weapons\nDestination"
+      "Comment": "Lawless Frontier\nDestination"
     },
     {
       "Name": "Accelerated Assault",
@@ -1443,8 +1443,8 @@
     },
     {
       "Name": "Nail, Meet Hammer",
-      "Description": "Passively grants ?% increased damage towards Combatant Shields.\n\n1.?x Special Ammo Progress Multiplier for Primary Weapons and Power Weapons.\n1.?x Power Ammo Progress Multiplier for Special Weapons.",
-      "Comment": "Season of Renegades\nEvents"
+      "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+      "Comment": "Renegades\nArms Week Event"
     },
     {
       "Name": "Nano-Munitions",
@@ -2996,7 +2996,7 @@
     },
     {
       "Name": "Hierarchy of Needs",
-      "Description": "Solar Lightweight Combat Bow\n\nDirect Hits grant a Guidance Ring charge, up to a maximum of 3 charges. \nGuidance Ring charges persist through stow.\n\nGuidance Ring:\nSpawned by firing a fully-drawn hipfired shot while at x3 Guidance Ring Charges.\n Guidance Ring lasts for 20 seconds and rotates to face its owner. Only one Guidance Ring may exist at once across all players.\nALL Arrows that pass through a Guidance Ring release 3 seeking explosive projectiles, which deal up to 192 [15] damage.\nSeeking Projectiles that travel over 40 meters deal 50% [~15-20% Guardians | 50% Constructs] increased damage. Seeking Projectiles dissipate after traveling 80 metres.\nShadowshot and Buried Bloodline will also shoot out seeking projectiles.\n\n↑Panoptic Tessellation:\n0.5x Draw Time Multiplier, 100? Reload Speed, and ? Reload Duration Multiplier for 5 seconds after deploying a Guidance Ring or scoring a hit with a seeking projectile.\nAdditional seeking projectile hits or redeploying a Guidance Ring refresh the buff duration.",
+      "Description": "Solar Lightweight Combat Bow\n\nDirect Hits grant a Guidance Ring charge, up to a maximum of 3 charges. \nGuidance Ring charges persist through stow.\n\nGuidance Ring:\nSpawned by firing a fully-drawn hipfired shot while at x3 Guidance Ring Charges.\n Guidance Ring lasts for 20 seconds and rotates to face its owner. Only 3 Guidance Ring may exist at once across all players. Only 1 Ring per user.\nALL Arrows that pass through a Guidance Ring release 2* explosive seekers, each dealing up to 114 [15] damage.\nSeeking Projectiles that travel over 40 meters deal 50% [~15-20% Guardians | 50% Constructs] increased damage. Seeking Projectiles dissipate after traveling 80 metres.\n\nCrossbows, Shadowshot, Buried Bloodline, and all other bows except for Heirloom will shoot out seeking projectiles.\nHierarchy of Needs, Trinity Ghoul, and Ticuu's (Hipfire) are the only bows that will release 3 seekers instead of 2.\n\n↑Panoptic Tessellation:\n0.5x Draw Time Multiplier, 100? Reload Speed, and ? Reload Duration Multiplier for 5 seconds after deploying a Guidance Ring or scoring a hit with a seeking projectile.\nAdditional seeking projectile hits or redeploying a Guidance Ring refresh the buff duration.",
       "Type": "EnergyExotic",
       "Comment": "Guidance Ring\nApollonic Tangent\n↑Panoptic Tessellation"
     },
