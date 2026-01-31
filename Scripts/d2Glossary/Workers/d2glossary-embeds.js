@@ -356,15 +356,28 @@ function generateHtmlResponse(title, description, icon, pageUrl) {
 }
 
 /**
- * Construit l'URL canonique avec le paramètre lang si nécessaire
+ * Construit l'URL canonique avec les paramètres ordonnés (id > lang)
  */
 function buildCanonicalUrl(url, lang) {
-  const canonical = new URL(url);
+  const original = new URL(url);
+  const canonical = new URL(original.origin + original.pathname);
 
-  // Retirer le paramètre lang si c'est la langue par défaut (FR)
-  if (lang === DEFAULT_LANGUAGE) {
-    canonical.searchParams.delete('lang');
-  } else {
+  // Ordre défini : id en premier, puis autres params, puis lang
+  const id = original.searchParams.get('id');
+  const selection = original.searchParams.get('selection');
+
+  // 1. Ajouter l'ID si présent
+  if (id) {
+    canonical.searchParams.set('id', id);
+  }
+
+  // 2. Ajouter selection si présent (pour artefact)
+  if (selection) {
+    canonical.searchParams.set('selection', selection);
+  }
+
+  // 3. Ajouter lang en dernier si ce n'est pas la langue par défaut
+  if (lang !== DEFAULT_LANGUAGE) {
     canonical.searchParams.set('lang', lang);
   }
 

@@ -187,24 +187,29 @@ export function getCurrentUrl() {
 
 /**
  * Construit une URL partageable avec les bons paramètres
+ * Ordre des paramètres : id > lang (user-friendly)
  * Inclut le paramètre lang si la langue n'est pas FR
  */
 export function getShareableUrl(extraParams = {}) {
-  const url = new URL(window.location);
+  const url = new URL(window.location.origin + window.location.pathname);
   const currentLang = window.D2Language?.getCurrentLanguage?.() || 'fr';
 
-  // Ajouter le paramètre lang si ce n'est pas FR
-  if (currentLang !== 'fr') {
-    url.searchParams.set('lang', currentLang);
-  } else {
-    url.searchParams.delete('lang');
+  // Ordre défini : id en premier, puis lang
+  // 1. Ajouter l'ID si présent dans extraParams
+  if (extraParams.id !== null && extraParams.id !== undefined) {
+    url.searchParams.set('id', extraParams.id);
   }
 
-  // Ajouter les paramètres supplémentaires
+  // 2. Ajouter les autres paramètres (sauf id et lang)
   for (const [key, value] of Object.entries(extraParams)) {
-    if (value !== null && value !== undefined) {
+    if (key !== 'id' && key !== 'lang' && value !== null && value !== undefined) {
       url.searchParams.set(key, value);
     }
+  }
+
+  // 3. Ajouter le paramètre lang en dernier si ce n'est pas FR
+  if (currentLang !== 'fr') {
+    url.searchParams.set('lang', currentLang);
   }
 
   return url.toString();
