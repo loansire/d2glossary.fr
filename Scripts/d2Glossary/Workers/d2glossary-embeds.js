@@ -250,15 +250,15 @@ async function getArtefactPerkInfo(id, lang) {
 
 /**
  * Nettoie la description en retirant le texte entre crochets [xxx]
- * et les variables {var:xxx}
+ * et en remplaçant les variables {var:xxx} par une valeur par défaut
  */
 function cleanDescription(text) {
   if (!text) return '';
   return text
     // Retirer les textes entre crochets [xxx] (valeurs PVP, etc.)
     .replace(/\[[^\]]*\]/g, '')
-    // Retirer les variables {var:xxx}
-    .replace(/\{var:[a-zA-Z0-9_]+\}/g, '')
+    // Remplacer les variables {var:xxx} par 25 (valeur par défaut)
+    .replace(/\{var:[a-zA-Z0-9_]+\}/g, '25')
     // Nettoyer les espaces multiples
     .replace(/\s+/g, ' ')
     .trim();
