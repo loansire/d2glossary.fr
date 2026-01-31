@@ -17,6 +17,7 @@ export async function loadItemListPage({
   containerId,
   inputId,
   filterOptions = {},
+  excludeOptions = {},  // NOUVEAU: options d'exclusion
   itemsPerPage = 50
 }) {
   const container = document.getElementById(containerId);
@@ -61,6 +62,7 @@ export async function loadItemListPage({
     allFilteredItems = Object.entries(data).filter(([id, item]) => {
       const props = item.displayProperties;
 
+      // === FILTER OPTIONS (inclusion) ===
       const matchesCategoryHash = () => {
         const filterHash = filterOptions.itemCategoryHash;
         if (!filterHash) return true;
@@ -77,12 +79,65 @@ export async function loadItemListPage({
         return false;
       };
 
+      // === EXCLUDE OPTIONS (exclusion) ===
+      const passesExcludeOptions = () => {
+        // excludeIfExists: exclure si la clé existe (peu importe la valeur)
+        if (excludeOptions.excludeIfExists) {
+          const keysToCheck = Array.isArray(excludeOptions.excludeIfExists)
+            ? excludeOptions.excludeIfExists
+            : [excludeOptions.excludeIfExists];
+
+          for (const key of keysToCheck) {
+            if (item[key] !== undefined && item[key] !== null) {
+              return false; // Exclure cet item
+            }
+          }
+        }
+
+        // excludeIfEquals: exclure si la clé a une valeur spécifique
+        if (excludeOptions.excludeIfEquals) {
+          for (const [key, value] of Object.entries(excludeOptions.excludeIfEquals)) {
+            if (item[key] === value) {
+              return false; // Exclure cet item
+            }
+          }
+        }
+
+        // excludeIfIncludes: exclure si un array contient une valeur
+        if (excludeOptions.excludeIfIncludes) {
+          for (const [key, values] of Object.entries(excludeOptions.excludeIfIncludes)) {
+            const itemArray = item[key];
+            if (!Array.isArray(itemArray)) continue;
+
+            const valuesToCheck = Array.isArray(values) ? values : [values];
+            for (const val of valuesToCheck) {
+              if (itemArray.includes(val)) {
+                return false; // Exclure cet item
+              }
+            }
+          }
+        }
+
+        // excludeIfNotEquals: exclure si la clé N'A PAS une valeur spécifique
+        // (utile pour "garder seulement ceux qui ont cette valeur")
+        if (excludeOptions.excludeIfNotEquals) {
+          for (const [key, value] of Object.entries(excludeOptions.excludeIfNotEquals)) {
+            if (item[key] !== value) {
+              return false; // Exclure cet item
+            }
+          }
+        }
+
+        return true; // Garder cet item
+      };
+
       return (
         props?.name &&
         props?.description &&
         props?.icon &&
         !excludedIds.includes(id) &&
         matchesCategoryHash() &&
+        passesExcludeOptions() &&  // NOUVEAU
         (filterOptions.itemType === undefined || item.itemType === filterOptions.itemType) &&
         (filterOptions.itemSubType === undefined || item.itemSubType === filterOptions.itemSubType) &&
         (filterOptions.classType === undefined || item.classType === filterOptions.classType) &&
