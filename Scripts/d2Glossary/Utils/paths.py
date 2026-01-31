@@ -1,5 +1,6 @@
 """
 paths.py - Configuration centralisée des chemins du projet (version multilingue)
+Utilise une approche WHITELIST : on ne garde que les clés explicitement listées
 """
 import os
 from pathlib import Path
@@ -72,19 +73,127 @@ MANIFEST_LIST = {
     "DestinyIconDefinition": ICON_DEFINITIONS_FILE
 }
 
-# Clés à exclure lors du nettoyage des données
-KEYS_TO_EXCLUDE = [
-    "uiItemDisplayStyle", "displaySource", "action", "equippingBlock",
-    "translationBlock", "preview", "quality", "acquireRewardSiteHash",
-    "acquireUnlockHash", "doesPostmasterPullHaveSideEffects", "nonTransferrable",
-    "tooltipNotifications", "backgroundColor", "crafting",
-    "stats", "investmentStats", "allowActions",
-    "isWrapper", "equippable", "traitIds", "traitHashes", "index",
-    "redacted", "blacklisted", "iconWatermark",
-    "iconWatermarkShelved", "iconWatermarkFeatured",
-    "isFeaturedItem", "isHolofoil", "isAdept",
-    "flavorText", "inventory"
+# =============================================================================
+# WHITELIST PAR TYPE DE DÉFINITION
+# On ne garde QUE les clés listées ici (approche whitelist)
+# Utilise la notation pointée pour les clés imbriquées
+# =============================================================================
+
+# Clés communes à la plupart des définitions
+COMMON_WHITELIST = [
+    "hash",
+    "displayProperties",          # Objet complet (name, description, icon, hasIcon)
 ]
+
+# Configuration whitelist par type de manifest
+MANIFEST_WHITELIST = {
+    # Items (perks, mods, etc.) - le plus gros fichier
+    "item_definitions": [
+        *COMMON_WHITELIST,
+        "itemType",
+        "itemSubType",
+        "classType",
+        "breakerType",
+        "itemCategoryHashes",
+        "traitIds",
+        "perks",                    # Pour l'enrichissement artefact (array complet)
+    ],
+
+    # Traits élémentaires
+    "trait_definitions": [
+        *COMMON_WHITELIST,
+    ],
+
+    # Types de champions (breaker)
+    "breaker_definitions": [
+        *COMMON_WHITELIST,
+    ],
+
+    # Types de dégâts
+    "damagetype_definitions": [
+        *COMMON_WHITELIST,
+        "transparentIconPath",
+    ],
+
+    # Modificateurs d'activités
+    "modifier_definitions": [
+        *COMMON_WHITELIST,
+    ],
+
+    # Sets d'armure (DestinyEquipableItemSetDefinition)
+    # Structure Bungie: setItems (array de hashes), setPerks (à enrichir)
+    "setarmor_definitions": [
+        *COMMON_WHITELIST,
+        "setType",
+        "setIsFeatured",
+        "setItems",                 # Array de itemHash (pièces d'armure)
+        "setPerks",                 # Array avec sandboxPerkHash et requiredSetCount
+    ],
+
+    # Perks sandbox (pour enrichissement des sets et artefacts)
+    "sandboxperk_definitions": [
+        *COMMON_WHITELIST,
+        "perkIdentifier",
+        "isDisplayable",
+        "damageType",
+        "damageTypeHash",
+    ],
+
+    # Artefacts saisonniers
+    "artefact_definitions": [
+        *COMMON_WHITELIST,
+        "tiers",                    # Array complet des tiers avec items
+    ],
+
+    # Icônes
+    "icon_definition": [
+        *COMMON_WHITELIST,
+    ],
+}
+
+def get_whitelist_for_definition(definition_type: str) -> list[str]:
+    """
+    Retourne la whitelist pour un type de définition donné
+
+    Args:
+        definition_type: Type de définition (ex: "item_definitions")
+
+    Returns:
+        Liste des clés à conserver
+    """
+    # Retirer l'extension .json si présente
+    clean_type = definition_type.replace(".json", "")
+    return MANIFEST_WHITELIST.get(clean_type, COMMON_WHITELIST)
+
+def is_key_whitelisted(key_path: str, whitelist: list[str]) -> bool:
+    """
+    Vérifie si une clé (ou son chemin parent) est dans la whitelist
+
+    Args:
+        key_path: Chemin de la clé (ex: "displayProperties.name")
+        whitelist: Liste des clés autorisées
+
+    Returns:
+        True si la clé est autorisée
+    """
+    # Vérification directe
+    if key_path in whitelist:
+        return True
+
+    # Vérifier si un parent est dans la whitelist (pour les objets complets)
+    parts = key_path.split('.')
+    for i in range(len(parts)):
+        parent_path = '.'.join(parts[:i+1])
+        if parent_path in whitelist:
+            return True
+
+    # Vérifier si c'est un enfant d'une clé whitelistée
+    for whitelisted_key in whitelist:
+        if key_path.startswith(whitelisted_key + '.'):
+            return True
+
+    return False
+
 
 # Configuration de version.json
 def get_version_config(lang: str = None) -> dict:
