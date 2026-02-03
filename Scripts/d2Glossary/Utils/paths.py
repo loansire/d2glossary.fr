@@ -1,6 +1,7 @@
 """
 paths.py - Configuration centralisée des chemins du projet (version multilingue)
 Utilise une approche WHITELIST : on ne garde que les clés explicitement listées
+Si aucune whitelist n'est définie pour un type, on garde toutes les données (fallback)
 """
 import os
 from pathlib import Path
@@ -18,19 +19,27 @@ UTILS_DIR = SCRIPTS_DIR / "Utils"
 SUPPORTED_LANGUAGES = ["fr", "en"]
 DEFAULT_LANGUAGE = "fr"
 
-# Fonction pour obtenir les chemins localisés
+
+# =============================================================================
+# FONCTIONS DE CHEMINS
+# =============================================================================
+
 def get_localized_path(filename: str, lang: str = DEFAULT_LANGUAGE) -> Path:
     """Retourne le chemin d'un fichier pour une langue donnée"""
     if lang not in SUPPORTED_LANGUAGES:
         raise ValueError(f"Langue non supportée: {lang}. Langues disponibles: {SUPPORTED_LANGUAGES}")
     return DATA_DIR / lang / filename
 
-# Fonction pour obtenir tous les chemins localisés
+
 def get_all_localized_paths(filename: str) -> dict[str, Path]:
     """Retourne un dict {lang: path} pour toutes les langues"""
     return {lang: get_localized_path(filename, lang) for lang in SUPPORTED_LANGUAGES}
 
-# Noms de fichiers (sans langue)
+
+# =============================================================================
+# NOMS DE FICHIERS
+# =============================================================================
+
 ITEM_DEFINITIONS_FILE = "item_definitions.json"
 TRAIT_DEFINITIONS_FILE = "trait_definitions.json"
 BREAKER_DEFINITIONS_FILE = "breaker_definitions.json"
@@ -44,7 +53,16 @@ SETARMOR_ENRICHED_FILE = "setarmor_definitions_enriched.json"
 ARTEFACT_ENRICHED_FILE = "artefact_definitions_enriched.json"
 DDCVACUUM_FILE = "ddcvacuum.json"
 
-# Chemins par défaut (français) pour compatibilité
+# Nouveaux fichiers
+ITEM_CATEGORY_DEFINITION_FILE = "item_category_definitions.json"
+SOCKET_TYPE_DEFINITION_FILE = "socket_type_definitions.json"
+SOCKET_CATEGORY_DEFINITION_FILE = "socket_category_definitions.json"
+
+
+# =============================================================================
+# CHEMINS PAR DÉFAUT (français) pour compatibilité
+# =============================================================================
+
 ITEM_DEFINITIONS = get_localized_path(ITEM_DEFINITIONS_FILE)
 TRAIT_DEFINITIONS = get_localized_path(TRAIT_DEFINITIONS_FILE)
 BREAKER_DEFINITIONS = get_localized_path(BREAKER_DEFINITIONS_FILE)
@@ -57,10 +75,18 @@ ICON_DEFINITIONS = get_localized_path(ICON_DEFINITIONS_FILE)
 SETARMOR_ENRICHED = get_localized_path(SETARMOR_ENRICHED_FILE)
 ARTEFACT_ENRICHED = get_localized_path(ARTEFACT_ENRICHED_FILE)
 
+ITEM_CATEGORY = get_localized_path(ITEM_CATEGORY_DEFINITION_FILE)
+SOCKET_TYPE = get_localized_path(SOCKET_TYPE_DEFINITION_FILE)
+SOCKET_CATEGORY = get_localized_path(SOCKET_CATEGORY_DEFINITION_FILE)
+
 # Fichier de version (commun à toutes les langues)
 VERSION_FILE = DATA_DIR / "version.json"
 
-# Dictionnaire des manifests à télécharger
+
+# =============================================================================
+# DICTIONNAIRE DES MANIFESTS À TÉLÉCHARGER
+# =============================================================================
+
 MANIFEST_LIST = {
     "DestinyInventoryItemDefinition": ITEM_DEFINITIONS_FILE,
     "DestinyTraitDefinition": TRAIT_DEFINITIONS_FILE,
@@ -70,12 +96,18 @@ MANIFEST_LIST = {
     "DestinyEquipableItemSetDefinition": SETARMOR_DEFINITIONS_FILE,
     "DestinySandboxPerkDefinition": SANDBOXPERK_DEFINITIONS_FILE,
     "DestinyArtifactDefinition": ARTEFACT_DEFINITIONS_FILE,
-    "DestinyIconDefinition": ICON_DEFINITIONS_FILE
+    "DestinyIconDefinition": ICON_DEFINITIONS_FILE,
+    # Nouveaux manifests
+    "DestinyItemCategoryDefinition": ITEM_CATEGORY_DEFINITION_FILE,
+    "DestinySocketTypeDefinition": SOCKET_TYPE_DEFINITION_FILE,
+    "DestinySocketCategoryDefinition": SOCKET_CATEGORY_DEFINITION_FILE,
 }
+
 
 # =============================================================================
 # WHITELIST PAR TYPE DE DÉFINITION
 # On ne garde QUE les clés listées ici (approche whitelist)
+# Si un type n'est pas listé, on garde TOUTES les données (fallback)
 # Utilise la notation pointée pour les clés imbriquées
 # =============================================================================
 
@@ -86,6 +118,7 @@ COMMON_WHITELIST = [
 ]
 
 # Configuration whitelist par type de manifest
+# IMPORTANT: Le nom doit correspondre au nom du fichier SANS extension .json
 MANIFEST_WHITELIST = {
     # Items (perks, mods, etc.) - le plus gros fichier
     "item_definitions": [
@@ -121,7 +154,6 @@ MANIFEST_WHITELIST = {
     ],
 
     # Sets d'armure (DestinyEquipableItemSetDefinition)
-    # Structure Bungie: setItems (array de hashes), setPerks (à enrichir)
     "setarmor_definitions": [
         *COMMON_WHITELIST,
         "setType",
@@ -149,9 +181,20 @@ MANIFEST_WHITELIST = {
     "icon_definition": [
         *COMMON_WHITELIST,
     ],
+
+    # NOTE: Les types suivants n'ont PAS de whitelist définie,
+    # donc TOUTES leurs données seront conservées (fallback):
+    # - item_category_definitions
+    # - socket_type_definitions
+    # - socket_category_definitions
 }
 
-def get_whitelist_for_definition(definition_type: str) -> list[str]:
+
+# =============================================================================
+# FONCTIONS DE WHITELIST
+# =============================================================================
+
+def get_whitelist_for_definition(definition_type: str) -> list[str] | None:
     """
     Retourne la whitelist pour un type de définition donné
 
@@ -159,11 +202,17 @@ def get_whitelist_for_definition(definition_type: str) -> list[str]:
         definition_type: Type de définition (ex: "item_definitions")
 
     Returns:
-        Liste des clés à conserver
+        Liste des clés à conserver, ou None si pas de whitelist (garde tout)
     """
     # Retirer l'extension .json si présente
     clean_type = definition_type.replace(".json", "")
-    return MANIFEST_WHITELIST.get(clean_type, COMMON_WHITELIST)
+
+    # Si pas de whitelist définie, retourner None (= garder tout)
+    if clean_type not in MANIFEST_WHITELIST:
+        return None
+
+    return MANIFEST_WHITELIST.get(clean_type)
+
 
 def is_key_whitelisted(key_path: str, whitelist: list[str]) -> bool:
     """
@@ -195,7 +244,10 @@ def is_key_whitelisted(key_path: str, whitelist: list[str]) -> bool:
     return False
 
 
-# Configuration de version.json
+# =============================================================================
+# CONFIGURATION VERSION.JSON
+# =============================================================================
+
 def get_version_config(lang: str = None) -> dict:
     """
     Retourne la configuration des fichiers pour version.json
@@ -237,11 +289,17 @@ def get_version_config(lang: str = None) -> dict:
             ]
         }
 
+
+# =============================================================================
+# FONCTIONS UTILITAIRES
+# =============================================================================
+
 def ensure_data_dirs():
     """Crée les dossiers data pour toutes les langues"""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     for lang in SUPPORTED_LANGUAGES:
         (DATA_DIR / lang).mkdir(parents=True, exist_ok=True)
+
 
 def get_relative_path(file_path: Path) -> str:
     """Retourne le chemin relatif par rapport à PROJECT_ROOT"""

@@ -1,6 +1,7 @@
 """
 updateManifests.py - Téléchargement et nettoyage des manifests Bungie (multilingue)
 Utilise une approche WHITELIST : on ne garde que les clés explicitement listées
+Si aucune whitelist n'est définie, on garde toutes les données
 """
 import json
 import requests
@@ -13,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from Utils.paths import (
     DATA_DIR, MANIFEST_LIST, SUPPORTED_LANGUAGES,
     ensure_data_dirs, get_relative_path, get_localized_path,
-    get_whitelist_for_definition
+    get_whitelist_for_definition, is_key_whitelisted
 )
 from Utils.ApiKey import bungie_api
 
@@ -26,134 +27,122 @@ BUNGIE_LANG_CODES = {
     "en": "en"
 }
 
+# Types de définitions qui n'ont PAS de displayProperties standard
+# et doivent ignorer la vérification nom/icône
+SKIP_DISPLAY_CHECK = [
+    "setarmor_definitions",
+    "item_category_definitions",
+    "socket_type_definitions",
+    "socket_category_definitions",
+    "icon_definition",
+]
 
-def extract_whitelisted_data(data: dict, whitelist: list[str], current_path: str = "") -> dict | None:
+
+def filter_by_whitelist(data: dict, whitelist: list[str]) -> dict:
     """
-    Extrait uniquement les données whitelistées d'un dictionnaire
+    Filtre un dictionnaire en ne gardant que les clés whitelistées
 
     Args:
-        data: Données source
-        whitelist: Liste des chemins de clés à conserver
-        current_path: Chemin actuel (pour la récursion)
+        data: Dictionnaire à filtrer
+        whitelist: Liste des clés autorisées
 
     Returns:
-        Dictionnaire nettoyé ou None si vide/invalide
+        Dictionnaire filtré
     """
     if not isinstance(data, dict):
         return data
 
-    result = {}
+    filtered = {}
 
     for key, value in data.items():
-        # Construire le chemin complet de la clé
-        full_path = f"{current_path}.{key}" if current_path else key
+        # Vérifier si cette clé est dans la whitelist
+        if key in whitelist:
+            # Si c'est un dict ou une liste, on le garde tel quel
+            # (la whitelist autorise l'objet complet)
+            filtered[key] = value
+        elif isinstance(value, dict):
+            # Vérifier si des sous-clés sont whitelistées
+            sub_filtered = {}
+            for sub_key, sub_value in value.items():
+                full_path = f"{key}.{sub_key}"
+                if is_key_whitelisted(full_path, whitelist):
+                    sub_filtered[sub_key] = sub_value
 
-        # Vérifier si cette clé ou un de ses enfants est dans la whitelist
-        key_is_whitelisted = any(
-            # Clé exacte
-            full_path == w or
-            # Clé parente (ex: "displayProperties" autorise "displayProperties.name")
-            w.startswith(full_path + ".") or
-            # Clé enfant (ex: "displayProperties.name" autorise "displayProperties")
-            full_path.startswith(w + ".")
-            for w in whitelist
-        )
+            if sub_filtered:
+                filtered[key] = sub_filtered
 
-        # Vérifier aussi si la clé elle-même est directement whitelistée
-        direct_match = full_path in whitelist
-
-        if key_is_whitelisted or direct_match:
-            if isinstance(value, dict):
-                # Récursion pour les objets imbriqués
-                cleaned_value = extract_whitelisted_data(value, whitelist, full_path)
-                if cleaned_value:  # Ne pas ajouter les dicts vides
-                    result[key] = cleaned_value
-            elif isinstance(value, list):
-                # Traiter les listes
-                cleaned_list = []
-                for i, item in enumerate(value):
-                    if isinstance(item, dict):
-                        cleaned_item = extract_whitelisted_data(item, whitelist, full_path)
-                        if cleaned_item:
-                            cleaned_list.append(cleaned_item)
-                    else:
-                        cleaned_list.append(item)
-                if cleaned_list:
-                    result[key] = cleaned_list
-            else:
-                # Valeur simple
-                result[key] = value
-
-    return result if result else None
+    return filtered
 
 
-def should_keep_entry(data: dict, definition_type: str) -> bool:
+def should_skip_display_check(definition_type: str) -> bool:
     """
-    Détermine si une entrée doit être conservée
+    Vérifie si on doit ignorer la vérification displayProperties pour ce type
 
     Args:
-        data: Données de l'entrée
         definition_type: Type de définition
 
     Returns:
-        True si l'entrée doit être conservée
+        True si on doit ignorer la vérification
     """
-    # Vérifications spécifiques selon le type
-    if definition_type == "setarmor_definitions":
-        # Pour les sets d'armure, pas de vérification d'icône
-        return True
-
-    # Vérifications standard
-    display_props = data.get('displayProperties', {})
-
-    # Doit avoir un nom non vide
-    if not display_props.get('name'):
-        return False
-
-    # Doit avoir une icône (sauf exception)
-    if display_props.get('hasIcon') is False:
-        return False
-
-    return True
+    clean_type = definition_type.replace(".json", "") if definition_type else ""
+    return clean_type in SKIP_DISPLAY_CHECK
 
 
-def clean_data(data: dict, definition_type: str) -> dict | None:
+def clean_data(data, definition_type=None):
     """
-    Nettoie les données du manifest en utilisant la whitelist
+    Nettoie récursivement les données du manifest en utilisant la whitelist
 
     Args:
-        data: Données brutes du manifest
-        definition_type: Type de définition (pour la whitelist appropriée)
+        data: Données à nettoyer
+        definition_type: Type de définition (ex: "item_definitions")
 
     Returns:
-        Dictionnaire nettoyé
+        Données nettoyées
     """
-    if not isinstance(data, dict):
-        return data
-
     # Récupérer la whitelist pour ce type
-    whitelist = get_whitelist_for_definition(definition_type)
+    whitelist = get_whitelist_for_definition(definition_type) if definition_type else None
 
-    result = {}
+    # Vérifier si on doit ignorer la vérification displayProperties
+    skip_display = should_skip_display_check(definition_type)
 
-    for entry_id, entry_data in data.items():
-        if not isinstance(entry_data, dict):
-            continue
+    if isinstance(data, dict):
+        # Si c'est le niveau racine (dict de hash -> item), traiter chaque item
+        cleaned = {}
 
-        # Vérifier si l'entrée doit être conservée
-        if not should_keep_entry(entry_data, definition_type):
-            continue
+        for key, value in data.items():
+            if isinstance(value, dict):
+                # C'est un item individuel
 
-        # Extraire uniquement les données whitelistées
-        cleaned_entry = extract_whitelisted_data(entry_data, whitelist)
+                # Vérifications de base (items sans nom/icône)
+                # SAUF pour les types qui n'ont pas de displayProperties standard
+                if not skip_display and 'displayProperties' in value:
+                    display_props = value['displayProperties']
+                    # Ignorer les items sans nom ou sans icône
+                    if display_props.get('hasIcon') is False or not display_props.get('name'):
+                        continue
 
-        if cleaned_entry:
-            result[entry_id] = cleaned_entry
+                # Si pas de whitelist, garder tout l'item
+                if whitelist is None:
+                    cleaned[key] = value
+                else:
+                    # Appliquer la whitelist
+                    filtered_item = filter_by_whitelist(value, whitelist)
+                    if filtered_item:  # Ne garder que si pas vide
+                        cleaned[key] = filtered_item
+            else:
+                # Garder les autres types de données
+                cleaned[key] = value
 
-    return result
+        return cleaned
+
+    elif isinstance(data, list):
+        # Pour les listes, nettoyer chaque élément
+        return [clean_data(item, definition_type) for item in data if item is not None]
+
+    return data
 
 
-def download_manifest(definition_key: str, file_name: str, lang: str = "fr") -> bool:
+def download_manifest(definition_key, file_name, lang="fr"):
     """Télécharge un fichier du manifest pour une langue donnée"""
     try:
         # Requête pour obtenir le manifeste
@@ -171,24 +160,34 @@ def download_manifest(definition_key: str, file_name: str, lang: str = "fr") -> 
         # Télécharger le fichier
         full_url = "https://www.bungie.net" + lang_manifest_paths[definition_key]
         file_path = get_localized_path(file_name, lang)
-        definition_type = file_name.replace(".json", "")
 
         print(f"📥 [{lang.upper()}] Téléchargement de {definition_key}...")
         r = requests.get(full_url, headers=HEADERS)
         r.raise_for_status()
 
-        # Nettoyer avec la whitelist
-        data = r.json()
-        original_count = len(data) if isinstance(data, dict) else 0
+        # Déterminer le type de définition pour la whitelist
+        definition_type = file_name.replace(".json", "")
 
+        # Vérifier si une whitelist existe
+        whitelist = get_whitelist_for_definition(definition_type)
+        if whitelist is None:
+            print(f"   ℹ️  Pas de whitelist pour {definition_type}, conservation de toutes les clés")
+        else:
+            print(f"   🔧 Application de la whitelist ({len(whitelist)} clés autorisées)")
+
+        # Nettoyer et sauvegarder
+        data = r.json()
         cleaned_data = clean_data(data, definition_type)
-        final_count = len(cleaned_data) if isinstance(cleaned_data, dict) else 0
+
+        # Compter les items avant/après pour le log
+        original_count = len(data) if isinstance(data, dict) else 0
+        cleaned_count = len(cleaned_data) if isinstance(cleaned_data, dict) else 0
 
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(cleaned_data, f, ensure_ascii=False)
 
         print(f"✅ [{lang.upper()}] {definition_key} enregistré: {get_relative_path(file_path)}")
-        print(f"   📊 {final_count}/{original_count} entrées conservées (whitelist)")
+        print(f"   📊 {cleaned_count}/{original_count} items conservés")
         return True
 
     except requests.RequestException as e:
@@ -213,10 +212,9 @@ def update_manifests(languages=None):
         languages = SUPPORTED_LANGUAGES
 
     print("=" * 60)
-    print("📦 MISE À JOUR DES MANIFESTS BUNGIE (WHITELIST)")
+    print("📦 MISE À JOUR DES MANIFESTS BUNGIE (MULTILINGUE)")
     print("=" * 60)
     print(f"Langues à télécharger: {', '.join(lang.upper() for lang in languages)}")
-    print(f"Mode: WHITELIST (on ne garde que les clés essentielles)")
     print()
 
     ensure_data_dirs()
