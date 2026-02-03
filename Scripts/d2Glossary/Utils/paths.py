@@ -55,8 +55,6 @@ DDCVACUUM_FILE = "ddcvacuum.json"
 
 # Nouveaux fichiers
 ITEM_CATEGORY_DEFINITION_FILE = "item_category_definitions.json"
-SOCKET_TYPE_DEFINITION_FILE = "socket_type_definitions.json"
-SOCKET_CATEGORY_DEFINITION_FILE = "socket_category_definitions.json"
 
 
 # =============================================================================
@@ -76,8 +74,6 @@ SETARMOR_ENRICHED = get_localized_path(SETARMOR_ENRICHED_FILE)
 ARTEFACT_ENRICHED = get_localized_path(ARTEFACT_ENRICHED_FILE)
 
 ITEM_CATEGORY = get_localized_path(ITEM_CATEGORY_DEFINITION_FILE)
-SOCKET_TYPE = get_localized_path(SOCKET_TYPE_DEFINITION_FILE)
-SOCKET_CATEGORY = get_localized_path(SOCKET_CATEGORY_DEFINITION_FILE)
 
 # Fichier de version (commun à toutes les langues)
 VERSION_FILE = DATA_DIR / "version.json"
@@ -99,8 +95,6 @@ MANIFEST_LIST = {
     "DestinyIconDefinition": ICON_DEFINITIONS_FILE,
     # Nouveaux manifests
     "DestinyItemCategoryDefinition": ITEM_CATEGORY_DEFINITION_FILE,
-    "DestinySocketTypeDefinition": SOCKET_TYPE_DEFINITION_FILE,
-    "DestinySocketCategoryDefinition": SOCKET_CATEGORY_DEFINITION_FILE,
 }
 
 
