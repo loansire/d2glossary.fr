@@ -13,8 +13,8 @@ from collections import defaultdict
 # =============================================================================
 
 DEFINITIONS = {
-    "items": "item_definitions.json",
-    "categories": "item_category_definitions.json",
+    "items": "../item_definitions.json",
+    "categories": "../item_category_definitions.json",
 }
 
 EXCLUSIONS_CONFIG = "exclusions_config.json"

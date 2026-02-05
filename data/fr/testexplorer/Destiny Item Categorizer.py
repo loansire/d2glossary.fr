@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 # === FICHIERS ===
-ITEM_DEFINITIONS_FILE = "item_definitions.json"
-ITEM_CATEGORY_DEFINITION_FILE = "item_category_definitions.json"
+ITEM_DEFINITIONS_FILE = "../item_definitions.json"
+ITEM_CATEGORY_DEFINITION_FILE = "../item_category_definitions.json"
 OUTPUT_FILE = "destiny-items-preview.html"
 
 # === ARCHÉTYPES D'ARMES ===
