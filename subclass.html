@@ -17,11 +17,9 @@
   <link rel="preload" href="assets/src/ico/logo-d2glossaire.png" as="image">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/banniere.css">
   <link rel="stylesheet" href="assets/css/variables.css">
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/d2elementstyles.css">
-  <link rel="stylesheet" href="assets/css/pagination.css">
   <link rel="stylesheet" href="assets/css/loader.css">
   <link rel="stylesheet" href="assets/css/language-selector.css">
   <link rel="stylesheet" href="styles.css">
@@ -49,11 +47,13 @@
     <div id="result-count"></div>
   </div>
 
+  <!-- Conteneur principal -->
   <div id="card-list"></div>
 
+  <!-- Popup item -->
   <div id="popupitem-container"></div>
 
-  <!-- JS - Charger dataManager avant tout -->
+  <!-- JS -->
   <script type="module">
     import { loadHTML } from './assets/js/utils.js';
     import { checkVersion } from './assets/js/dataManager.js';

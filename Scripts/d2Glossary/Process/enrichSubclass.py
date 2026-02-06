@@ -65,12 +65,12 @@ SUBCLASS_PLUG_CATEGORIES = [
     "shared.strand.fragments", "shared.strand.grenades",
     # prism
     "hunter.prism.aspects", "hunter.prism.class_abilities", "hunter.prism.melee",
-    "hunter.prism.movement", "hunter.prism.supers",
+    "hunter.prism.movement", "hunter.prism.supers", "hunter.prism.grenades",
     "titan.prism.aspects", "titan.prism.class_abilities", "titan.prism.melee",
-    "titan.prism.movement", "titan.prism.supers",
+    "titan.prism.movement", "titan.prism.supers", "titan.prism.grenades",
     "warlock.prism.aspects", "warlock.prism.class_abilities", "warlock.prism.melee",
-    "warlock.prism.movement", "warlock.prism.supers",
-    "shared.prism.fragments", "shared.prism.grenades",
+    "warlock.prism.movement", "warlock.prism.supers", "warlock.prism.grenades",
+    "shared.prism.fragments",
 ]
 
 
