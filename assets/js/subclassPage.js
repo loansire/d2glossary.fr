@@ -85,8 +85,8 @@ const ELEMENTS = ['solar', 'arc', 'void', 'stasis', 'strand', 'prism'];
 // Noms affichés par élément (FR/EN)
 const ELEMENT_LABELS = {
   solar:     { fr: 'Solaire', en: 'Solar' },
-  arc:       { fr: 'Cryo', en: 'Arc' },
-  void:      { fr: 'Abyssal', en: 'Void' },
+  arc:       { fr: 'Cryo-électrique', en: 'Arc' },
+  void:      { fr: 'Abyssale', en: 'Void' },
   stasis:    { fr: 'Stase', en: 'Stasis' },
   strand:    { fr: 'Filobscure', en: 'Strand' },
   prism: { fr: 'Prismatique', en: 'Prismatic' },

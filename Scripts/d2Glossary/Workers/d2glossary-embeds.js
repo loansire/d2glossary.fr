@@ -23,7 +23,7 @@ const PAGE_CONFIG = {
   'modifier': { file: 'modifier_definitions.json', label: 'Modificateur', labelEn: 'Modifier' },
   'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', labelEn: 'Armor Set', type: 'setarmor' },
   'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', labelEn: 'Artifact', type: 'artefact' },
-  'subclass': { file: 'subclass_definitions_enriched.json', label: 'doctrine', labelEn: 'Subclass' },  // ← AJOUT
+  'subclass': { file: 'subclass_definitions_enriched.json', label: 'Doctrine', labelEn: 'Subclass', type: 'subclass' },
 };
 
 // Configuration du fallback générique par page
@@ -91,6 +91,15 @@ const PAGE_FALLBACK = {
     descriptionEn: 'All Destiny 2 subclass abilities: supers, aspects, fragments, grenades and melee.',
     icon: `${SITE_URL}/assets/src/ico/logo-d2glossaire.png`
   },
+};
+
+const SUBCLASS_ELEMENT_LABELS = {
+  'solar':     { fr: 'Solaire', en: 'Solar' },
+  'arc':       { fr: 'Cryo-électrique', en: 'Arc' },
+  'void':      { fr: 'Abyssale', en: 'Void' },
+  'stasis':    { fr: 'Stase', en: 'Stasis' },
+  'strand':    { fr: 'Filobscure', en: 'Strand' },
+  'prism': { fr: 'Prismatique', en: 'Prismatic' },
 };
 
 // Cache pour DDCVacuum (indexé par hash)
@@ -257,6 +266,30 @@ async function getArtefactPerkInfo(id, lang) {
 }
 
 /**
+ * Récupère les infos d'un item de subclass
+ */
+async function getSubclassItemInfo(id, lang) {
+  const data = await loadData(lang, 'subclass_definitions_enriched.json');
+  if (!data || !data[id]) return null;
+
+  const item = data[id];
+  const props = item.displayProperties;
+  if (!props) return null;
+
+  // Extraire l'élément depuis le plugCategoryIdentifier
+  const plugCatId = item.plug?.plugCategoryIdentifier || '';
+  const parts = plugCatId.split('.');
+  const element = parts.length >= 2 ? parts[1] : null;
+
+  return {
+    name: props.name || 'Inconnu',
+    description: props.description || '',
+    icon: props.icon ? `${BUNGIE_BASE_URL}${props.icon}` : null,
+    element: element,
+  };
+}
+
+/**
  * Nettoie la description en retirant le texte entre crochets [xxx]
  * et en remplaçant les variables {var:xxx} par une valeur par défaut
  */
@@ -298,6 +331,13 @@ function generateTitle(info, pageLabel, pageType, lang) {
       : `Artefact saisonnier - colonne ${info.tierIndex + 1}`;
     return `${prefix} - ${info.name}`;
   }
+  // Subclass : "Doctrine - Solaire - Tison de combustion"
+  if (pageType === 'subclass' && info.element) {
+    const elementLabel = SUBCLASS_ELEMENT_LABELS[info.element]?.[lang]
+      || SUBCLASS_ELEMENT_LABELS[info.element]?.['fr']
+      || info.element;
+    return `${pageLabel} - ${elementLabel} - ${info.name}`;
+  }
   return `${pageLabel} - ${info.name}`;
 }
 
@@ -316,7 +356,7 @@ function generateDiscordEmbed(info, pageLabel, pageUrl, pageType, showDDCVacuumF
     fullDescription = description ? `${description}\n\n${footer}` : footer;
   }
 
-  return generateHtmlResponse(title, fullDescription, info.icon, pageUrl);
+  return generateHtmlResponse(title, fullDescription, info.icon, pageUrl, false);
 }
 
 /**
@@ -329,14 +369,18 @@ function generateFallbackEmbed(pageName, pageUrl, lang) {
   const description = lang === 'en' ? (fallback.descriptionEn || fallback.description) : fallback.description;
   const icon = fallback.icon;
 
-  return generateHtmlResponse(title, description, icon, pageUrl);
+  return generateHtmlResponse(title, description, icon, pageUrl, true);
 }
 
 /**
  * Génère la réponse HTML commune
  */
-function generateHtmlResponse(title, description, icon, pageUrl) {
-  const iconMeta = icon ? `<meta property="og:image" content="${icon}">` : '';
+function generateHtmlResponse(title, description, icon, pageUrl, isLargeImage = false) {
+  const twitterCard = isLargeImage ? 'summary_large_image' : 'summary';
+  const iconMeta = icon ? `
+  <meta property="og:image" content="${icon}">
+  <meta name="twitter:card" content="${twitterCard}">
+  <meta name="twitter:image" content="${icon}">` : '';
 
   return `<!DOCTYPE html>
 <html>
@@ -460,6 +504,8 @@ export default {
       itemInfo = await getSetArmorPerkInfo(id, lang);
     } else if (config.type === 'artefact') {
       itemInfo = await getArtefactPerkInfo(id, lang);
+    } else if (config.type === 'subclass') {
+      itemInfo = await getSubclassItemInfo(id, lang);
     } else {
       itemInfo = await getItemInfo(id, lang, config.file);
     }
