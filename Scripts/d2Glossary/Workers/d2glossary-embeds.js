@@ -22,7 +22,8 @@ const PAGE_CONFIG = {
   'damagetype': { file: 'damagetype_definitions.json', label: 'Dégât', labelEn: 'Damage Type' },
   'modifier': { file: 'modifier_definitions.json', label: 'Modificateur', labelEn: 'Modifier' },
   'setarmor': { file: 'setarmor_definitions_enriched.json', label: 'Set d\'armure', labelEn: 'Armor Set', type: 'setarmor' },
-  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', labelEn: 'Artifact', type: 'artefact' }
+  'artefact': { file: 'artefact_definitions_enriched.json', label: 'Artefact', labelEn: 'Artifact', type: 'artefact' },
+  'subclass': { file: 'subclass_definitions_enriched.json', label: 'doctrine', labelEn: 'Subclass' },  // ← AJOUT
 };
 
 // Configuration du fallback générique par page
@@ -82,7 +83,14 @@ const PAGE_FALLBACK = {
     description: 'Détails de l\'artefact saisonnier actuel de Destiny 2.',
     descriptionEn: 'Details of the current Destiny 2 seasonal artifact.',
     icon: `${SITE_URL}/assets/src/artefact_thumb.jpg`
-  }
+  },
+  'subclass': {
+    title: 'D2Glossary - Doctrines',
+    titleEn: 'D2Glossary - Subclasses',
+    description: 'Toutes les compétences de doctrine de Destiny 2 : supers, aspects, fragments, grenades et mêlée.',
+    descriptionEn: 'All Destiny 2 subclass abilities: supers, aspects, fragments, grenades and melee.',
+    icon: `${SITE_URL}/assets/src/ico/logo-d2glossaire.png`
+  },
 };
 
 // Cache pour DDCVacuum (indexé par hash)
