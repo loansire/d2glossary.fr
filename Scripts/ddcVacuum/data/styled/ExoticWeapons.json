@@ -32680,10 +32680,10 @@
               ]
             },
             {
-              "text": ", and 15% Damage Resist against Non-"
+              "text": ", and 15% Damage Resist against "
             },
             {
-              "text": "Arc",
+              "text": "Non-Arc",
               "classNames": [
                 "arc"
               ]
@@ -35552,10 +35552,10 @@
               ]
             },
             {
-              "text": " Orb fires Explosive Projectiles every 0.5 seconds towards non-"
+              "text": " Orb fires Explosive Projectiles every 0.5 seconds towards "
             },
             {
-              "text": "frozen",
+              "text": "non-frozen",
               "classNames": [
                 "stasis"
               ]
@@ -36822,14 +36822,32 @@
         {
           "linesContent": [
             {
-              "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy Blink Attack."
+              "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy "
+            },
+            {
+              "text": "Blink",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Attack."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Heavy Blink Attacks drain 50% "
+              "text": "Heavy "
+            },
+            {
+              "text": "Blink",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Attacks drain 50% "
             },
             {
               "text": "Sword",
@@ -36861,7 +36879,16 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a Tesseract kill allows performing another Heavy Blink Attack within ? seconds that consume ? Ammo and drain 10% "
+              "text": "Scoring a Tesseract kill allows performing another Heavy "
+            },
+            {
+              "text": "Blink",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Attack within ? seconds that consume ? Ammo and drain 10% "
             },
             {
               "text": "Sword",

@@ -42,31 +42,31 @@ STYLE_PATTERNS = {
 
     # === ELEMENTS / SUBCLASSES ===
     "solar_keywords": {
-        "pattern": r'\b(Well of Radiance|Blade Barrage|Song of Flame|Ember of \w+|Firesprites?|Restoration|Scorch(?:ed|ing)?|Ignitions?|Daybreak|Golden Gun|Ignit(?:ed|es)|Radiant|Solar|Cure)\b',
+        "pattern": r'\b(Well of Radiance|Blade Barrage|Song of Flame|Ember of \w+|Firesprites?|Restoration|(?:non-)?Scorch(?:ed|ing)?|Ignitions?|Daybreak|Golden Gun|Ignit(?:ed|es)|Radiant|(?:non-)?Solar|Cure)\b',
         "class": "solar",
         "flags": re.IGNORECASE,
         "description": "Solar subclass keywords"
     },
     "arc_keywords": {
-        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces?|Stormtrance|Bolt Charges?|Arc Staff|Jolt(?:ed|ing) Shot|Amplified|Blinded|Blind(?:ed)?|Jolt(?:ed|ing)?|Arc)\b',
+        "pattern": r'\b(Fist of Havoc|Speed Booster|Thundercrash|Ionic Traces?|Stormtrance|Bolt Charges?|Arc Staff|Jolt(?:ed|ing) Shot|Amplified|Blinded|Blind(?:ed)?|Jolt(?:ed|ing)?|(?:non-)?Arc)\b',
         "class": "arc",
         "flags": re.IGNORECASE,
         "description": "Arc subclass keywords"
     },
     "void_keywords": {
-        "pattern": r'\b(Chaos Accelerant|Void (?:Overshields?|Breach(?:es)?)|Invisibility|Suppress(?:ions?|ed|ing)|Echo of \w+|Smoke Bomb|Weaken(?:ed|ing)?|Invisible|Volatile (?:Rounds|Explosions?)|Volatile|Overshields?|Devour|Void)\b',
+        "pattern": r'\b(Chaos Accelerant|Void (?:Overshields?|Breach(?:es)?)|Invisibility|Suppress(?:ions?|ed|ing)|Echo of \w+|Smoke Bomb|Weaken(?:ed|ing)?|Invisible|Volatile (?:Rounds|Explosions?)|Volatile|Overshields?|Devour|(?:non-)?Void|(?:non-)?Blink)\b',
         "class": "void",
         "flags": re.IGNORECASE,
         "description": "Void subclass keywords"
     },
     "stasis_keywords": {
-        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|(?:Crystals? )?Shatter(?:ed|ing)?|Slow(?:ed)?|Frozens?|Freez(?:e|ing)|Shards?|Stasis)\b',
+        "pattern": r'\b(Stasis (?:Crystals?|Seekers?|Shards?|Debuff)|Whisper of \w+|Glacial Guard|Frost Armor|(?:Crystals? )?Shatter(?:ed|ing)?|Slow(?:ed)?|(?:non-)?Frozens?|Freez(?:e|ing)|Shards?|(?:non-)?Stasis)\b',
         "class": "stasis",
         "flags": re.IGNORECASE,
         "description": "Stasis subclass keywords"
     },
     "strand_keywords": {
-        "pattern": r'\b(Unravel(?:ing|ed)? (?:Rounds?|Threads?)|Thread of \w+|Threadlings?|Woven Mail|Unravel(?:ing|ed)?|Tangles? (?:Explosions?)|Tangles?|Sever(?:ed|ing)|Suspends?(?:ed)?|Strand|Sever)\b',
+        "pattern": r'\b(Unravel(?:ing|ed)? (?:Rounds?|Threads?)|Thread of \w+|Threadlings?|Woven Mail|Unravel(?:ing|ed)?|Tangles? (?:Explosions?)|(?:non-)?Tangles?|Sever(?:ed|ing)|Suspends?(?:ed)?|(?:non-)?Strand|Sever)\b',
         "class": "strand",
         "flags": re.IGNORECASE,
         "description": "Strand subclass keywords"

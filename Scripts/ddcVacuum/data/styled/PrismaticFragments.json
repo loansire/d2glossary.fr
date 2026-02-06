@@ -23,10 +23,10 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 5 second cooldown between spawning the same Non-"
+              "text": "Incurs a 5 second cooldown between spawning the same "
             },
             {
-              "text": "Tangle",
+              "text": "Non-Tangle",
               "classNames": [
                 "strand"
               ]

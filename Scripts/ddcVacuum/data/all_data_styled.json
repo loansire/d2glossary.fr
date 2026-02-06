@@ -92702,10 +92702,10 @@
                 ]
               },
               {
-                "text": " Moth | Non-"
+                "text": " Moth | "
               },
               {
-                "text": "Solar",
+                "text": "Non-Solar",
                 "classNames": [
                   "solar"
                 ]
@@ -93196,10 +93196,10 @@
                 ]
               },
               {
-                "text": " to a non-"
+                "text": " to a "
               },
               {
-                "text": "scorched",
+                "text": "non-scorched",
                 "classNames": [
                   "solar"
                 ]
@@ -93605,7 +93605,16 @@
           {
             "linesContent": [
               {
-                "text": "Shooting | Grenade, Melee, Super, or Blink Ability Usage | Barricade or Rift Placement | Vehicle Summon"
+                "text": "Shooting | Grenade, Melee, Super, or "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Ability Usage | Barricade or Rift Placement | Vehicle Summon"
               }
             ]
           },
@@ -93624,7 +93633,16 @@
           {
             "linesContent": [
               {
-                "text": "Beginning Sprint | Non-Blink Movement Ability Usage | Hunter Class Ability Usage"
+                "text": "Beginning Sprint | "
+              },
+              {
+                "text": "Non-Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Movement Ability Usage | Hunter Class Ability Usage"
               }
             ]
           }
@@ -98251,10 +98269,10 @@
           {
             "linesContent": [
               {
-                "text": "Incurs a 5 second cooldown between spawning the same Non-"
+                "text": "Incurs a 5 second cooldown between spawning the same "
               },
               {
-                "text": "Tangle",
+                "text": "Non-Tangle",
                 "classNames": [
                   "strand"
                 ]
@@ -132274,10 +132292,10 @@
                 ]
               },
               {
-                "text": ", and 15% Damage Resist against Non-"
+                "text": ", and 15% Damage Resist against "
               },
               {
-                "text": "Arc",
+                "text": "Non-Arc",
                 "classNames": [
                   "arc"
                 ]
@@ -135146,10 +135164,10 @@
                 ]
               },
               {
-                "text": " Orb fires Explosive Projectiles every 0.5 seconds towards non-"
+                "text": " Orb fires Explosive Projectiles every 0.5 seconds towards "
               },
               {
-                "text": "frozen",
+                "text": "non-frozen",
                 "classNames": [
                   "stasis"
                 ]
@@ -136416,14 +136434,32 @@
           {
             "linesContent": [
               {
-                "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy Blink Attack."
+                "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attack."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Heavy Blink Attacks drain 50% "
+                "text": "Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attacks drain 50% "
               },
               {
                 "text": "Sword",
@@ -136455,7 +136491,16 @@
           {
             "linesContent": [
               {
-                "text": "Scoring a Tesseract kill allows performing another Heavy Blink Attack within ? seconds that consume ? Ammo and drain 10% "
+                "text": "Scoring a Tesseract kill allows performing another Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attack within ? seconds that consume ? Ammo and drain 10% "
               },
               {
                 "text": "Sword",

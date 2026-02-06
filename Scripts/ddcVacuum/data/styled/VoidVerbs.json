@@ -165,7 +165,16 @@
         {
           "linesContent": [
             {
-              "text": "Shooting | Grenade, Melee, Super, or Blink Ability Usage | Barricade or Rift Placement | Vehicle Summon"
+              "text": "Shooting | Grenade, Melee, Super, or "
+            },
+            {
+              "text": "Blink",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Ability Usage | Barricade or Rift Placement | Vehicle Summon"
             }
           ]
         },
@@ -184,7 +193,16 @@
         {
           "linesContent": [
             {
-              "text": "Beginning Sprint | Non-Blink Movement Ability Usage | Hunter Class Ability Usage"
+              "text": "Beginning Sprint | "
+            },
+            {
+              "text": "Non-Blink",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Movement Ability Usage | Hunter Class Ability Usage"
             }
           ]
         }

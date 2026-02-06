@@ -255,10 +255,10 @@
               ]
             },
             {
-              "text": " Moth | Non-"
+              "text": " Moth | "
             },
             {
-              "text": "Solar",
+              "text": "Non-Solar",
               "classNames": [
                 "solar"
               ]
@@ -749,10 +749,10 @@
               ]
             },
             {
-              "text": " to a non-"
+              "text": " to a "
             },
             {
-              "text": "scorched",
+              "text": "non-scorched",
               "classNames": [
                 "solar"
               ]
