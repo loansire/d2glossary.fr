@@ -1,0 +1,681 @@
+[
+  {
+    "Name": "Echo of Cessation",
+    "Description": "Finishers apply Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach.",
+    "hash": 3854948620,
+    "parentHash": "3854948620",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Finishers apply "
+            },
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to enemies within ? metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemies spawns a "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Dilation",
+    "Description": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched.\nCrouch Speed cannot be decreased below 4m/s, identically to Transversives Steps.",
+    "hash": 2272984656,
+    "parentHash": "2272984656",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Crouch Speed cannot be decreased below 4m/s, identically to Transversives Steps."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Domineering",
+    "Description": "Suppressing an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon.\nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Suppressed Enemies spawns a Void Breach.",
+    "hash": 2272984657,
+    "parentHash": "2272984657",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Suppressing",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 4 second cooldown before it can be reactivated."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Suppressed",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemies spawns a "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Exchange",
+    "Description": "Melee Kills grant Grenade Energy based on Enemy Rank.\n Tier 1 Combatants = 7.5%\nTier 2 Combatants = 11%\nTier 3 Combatants | Guardians = 16.25%\n Tier 4 Combatant | Minibosses | Bosses = 25% ",
+    "hash": 2272984667,
+    "parentHash": "2272984667",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Melee Kills grant Grenade Energy based on Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1 Combatants = 7.5%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 2 Combatants = 11%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 3 Combatants | Guardians = 16.25%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 4 Combatant | Minibosses | Bosses = 25%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Expulsion",
+    "Description": "Void Ability Kills cause enemies to explode, dealing up to 160 [130] damage in a 7 metre radius.",
+    "hash": 2272984665,
+    "parentHash": "2272984665",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Ability Kills cause enemies to explode, dealing up to 160 ["
+            },
+            {
+              "text": "130",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage in a 7 metre radius."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Harvest",
+    "Description": "Killing Weakened Enemies creates an Orb of Power that grants 2.5% Super Energy and a Void Breach.\nIncurs a 10 second cooldown upon creating an Orb of Power.",
+    "hash": 2661180601,
+    "parentHash": "2661180601",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Weakened",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemies creates an Orb of Power that grants 2.5% Super Energy and a "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 second cooldown upon creating an Orb of Power."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Instability",
+    "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\nDoes not require Void Grenade Kills.",
+    "hash": 2661180600,
+    "parentHash": "2661180600",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Kills grant "
+            },
+            {
+              "text": "Volatile Rounds",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Weapons for 11.25 ["
+            },
+            {
+              "text": "7.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not require "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Grenade Kills."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Leeching",
+    "Description": "Melee Kills begin health regeneration for the user and allies within ? metres.",
+    "hash": 2272984670,
+    "parentHash": "2272984670",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Melee Kills begin health regeneration for the user and allies within ? metres."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Obscurity",
+    "Description": "Finishers grant Invisibility for 5+2 seconds.",
+    "hash": 2661180602,
+    "parentHash": "2661180602",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Finishers grant "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 5+2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Persistence",
+    "Description": "Void Buffs applied to the user last longer.\nDevour: 50% Increased duration.\nInvisibility: 40% increased duration.\nVoid Overshield: 50% increased duration.",
+    "hash": 2272984671,
+    "parentHash": "2272984671",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Buffs applied to the user last longer."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ": 50% Increased duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ": 40% increased duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ": 50% increased duration."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Provision",
+    "Description": "Grenade Ability Damage grants Melee Energy.\nCan only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable.\n\n3% Melee Energy: Scatter, Spike, Voidwall, Vortex\n8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor",
+    "hash": 2272984664,
+    "parentHash": "2272984664",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Ability Damage grants Melee Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "3% Melee Energy: Scatter, Spike, Voidwall, Vortex"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Remnants",
+    "Description": "Axion Bolts last ?% longer.\nVoid Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier.\nVoid Wall last 50% longer.\nVortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier.\nChaos Accelerant-enhanced Vortex Grenades last 55% longer.",
+    "hash": 2272984666,
+    "parentHash": "2272984666",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Axion Bolts last ?% longer."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Wall last 50% longer."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Vortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Chaos Accelerant",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "-enhanced Vortex Grenades last 55% longer."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Reprisal",
+    "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant an additional ?% Super Energy.\nIncurs a 1? second cooldown between activations.",
+    "hash": 2272984669,
+    "parentHash": "2272984669",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While surrounded by 3+ enemies within 8 meters:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills grant an additional ?% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1? second cooldown between activations."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Starvation",
+    "Description": "On Orb of Power or Void Breach Pickup:\nGrants Devour for 5+2.5 seconds.",
+    "hash": 2661180603,
+    "parentHash": "2661180603",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Orb of Power or "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Pickup:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 5+2.5 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Undermining",
+    "Description": "Void Grenades apply Weaken on hit for 6 [2.5] seconds.",
+    "hash": 2272984668,
+    "parentHash": "2272984668",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Grenades apply "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " on hit for 6 ["
+            },
+            {
+              "text": "2.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Echo of Vigilance",
+    "Description": "Upon killing an enemy while at Critical Health:\nGrants Void Overshield for 5+2.5 seconds.\nIncurs a 8 second cooldown after activating.",
+    "hash": 3854948621,
+    "parentHash": "3854948621",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon killing an enemy while at Critical Health:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 5+2.5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 8 second cooldown after activating."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -90,6 +90,7 @@ def main():
     hash_enricher = HashEnricher()
 
     for name, gid in SHEETS.items():
+        print(f"**********************************************************************")
         print(f"📥 Récupération de {name}...")
 
         try:

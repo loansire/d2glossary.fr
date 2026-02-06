@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "Ember of Ashes",
+    "Description": "Scorch Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60.\nEvery source of Scorch will have its base number alongside Ember of Ashes' benefit in smaller text next to the regular stack amount. Eg: x40+20.\n\nCertain sources of Scorch do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others."
+  },
+  {
+    "Name": "Ember of Beams",
+    "Description": "Solar Super Ability projectiles have stronger tracking towards enemies.\nCurrently only works with Blade Barrage Knives, Daybreak Projectiles. and Song of Flame Projectiles?"
+  },
+  {
+    "Name": "Ember of Benevolence",
+    "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods"
+  },
+  {
+    "Name": "Ember of Blistering",
+    "Description": "Ignition Kills grant Grenade Ability Energy based on Enemy Rank. \nT1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%"
+  },
+  {
+    "Name": "Ember of Char",
+    "Description": "Ignitions inflict x40+20 Scorch to enemies damaged by the explosion.\nDoes not apply to the ignited enemy."
+  },
+  {
+    "Name": "Ember of Combustion",
+    "Description": "Solar Super Kills trigger an ignition and spawn a Firesprite.\nWell of Radiance makes all of the Caster's Weapon Damage count as Super Ability Damage. Solar Weapons Kills will count as Solar Super Kills."
+  },
+  {
+    "Name": "Ember of Empyrean",
+    "Description": "Solar Kills extend Restoration and Radiant effects. Buff duration cannot exceed 15 seconds. \nScoring a Solar Kill while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds.\n\nT1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds"
+  },
+  {
+    "Name": "Ember of Eruption",
+    "Description": "Ignitions have 25% increased radius.\n8 -> 10 meters."
+  },
+  {
+    "Name": "Ember of Mercy",
+    "Description": "On Firesprite Pickup:\nRestoration x1 for 2+1 seconds.\nIf Restoration is active, then it will extend its duration by 2+1 seconds.\nPicking up a Firesprite while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds\n\nOn Ally Revival:\nUser and allies within ? metres Restoration x1 for 5+2.5 seconds."
+  },
+  {
+    "Name": "Ember of Resolve",
+    "Description": "Grenade Kills grant Cure x1."
+  },
+  {
+    "Name": "Ember of Searing",
+    "Description": "Killing Scorched enemies grants Melee Ability Energy based on Enemy Rank and spawns a Firesprite.\nT1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%"
+  },
+  {
+    "Name": "Ember of Singeing",
+    "Description": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting Scorch to enemies.\nOnly triggers upon inflicting Scorch to a non-scorched enemy. Will not activate if the enemy dies from the hit that would have Scorched."
+  },
+  {
+    "Name": "Ember of Solace",
+    "Description": "Restoration and Radiant effects last 50% longer on the user.\nSources of Solar Effects will have their base duration alongside Ember of Solace's benefit in smaller text. Eg: 10+5 Radiant, or 4+2 Restoration."
+  },
+  {
+    "Name": "Ember of Tempering",
+    "Description": "Solar Weapon Kills grant a stack of Ember of Tempering for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks.\n\nEmber of Tempering:\n +20 Airborne Effectiveness and Solar Weapon Kills spawn a Firesprite while active.\n+20 | +40 | +60 Health Stat based on the stack amount."
+  },
+  {
+    "Name": "Ember of Torches",
+    "Description": "Powered Melee Hits grant Radiant for 8+4 seconds to the user and allies within 8 meters."
+  },
+  {
+    "Name": "Ember of Wonder",
+    "Description": "Killing 2 enemies within ? seconds of each with Ignitions creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown upon creating an Orb of Power."
+  }
+]

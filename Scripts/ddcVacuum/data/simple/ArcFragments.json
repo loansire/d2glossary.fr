@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "Spark of Amplitude",
+    "Description": "While Amplified:\nScoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy.\nTriggering Amplified through an Arc Kill will count the kill towards the 2-kill counter.\nIncurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count."
+  },
+  {
+    "Name": "Spark of Beacons",
+    "Description": "Special and Heavy Ammo Arc Weapon Kills while Amplified create a blinding blast, inflicting Blind to enemies within 7.5 metres."
+  },
+  {
+    "Name": "Spark of Brilliance",
+    "Description": "Precision Kills against Blinded Enemies trigger a Blinding blast, inflicting Blind to enemies within 7.5 metres."
+  },
+  {
+    "Name": "Spark of Discharge",
+    "Description": "Arc Weapon Kills progress a counter that spawns an Ionic Trace upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\n\nPicking up Ionic Traces grants x1 Bolt Charge."
+  },
+  {
+    "Name": "Spark of Feedback",
+    "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable."
+  },
+  {
+    "Name": "Spark of Focus",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n150% [75%] Additional Base Class Ability Regeneration Rate.\nDeactivates once Class Ability has at least 1 charge readied."
+  },
+  {
+    "Name": "Spark of Frequency",
+    "Description": "Upon scoring a Melee Hit:\n+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds.\n\nWhile Amplified:\n(almost) All sources of Bolt Charge now grant an additional stack.\nIn-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses."
+  },
+  {
+    "Name": "Spark of Haste",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n Grants +50 Health Stat."
+  },
+  {
+    "Name": "Spark of Instinct",
+    "Description": "While at Critical Health:\nBeing damaged releases a burst of Arc Energy, dealing up to 46 [20] damage and inflicting Jolt to enemies within ? metres.\nIncurs a 15? second cooldown between activations."
+  },
+  {
+    "Name": "Spark of Ions",
+    "Description": "Killing Jolted Enemies, or scoring a Bolt Charge Kill creates an Ionic Trace.\nIncurs a 10 second cooldown between Ionic Traces spawns."
+  },
+  {
+    "Name": "Spark of Magnitude",
+    "Description": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts.\n Pulse Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses.\n Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer."
+  },
+  {
+    "Name": "Spark of Momentum",
+    "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks."
+  },
+  {
+    "Name": "Spark of Recharge",
+    "Description": "Upon reaching Critical Health:\n400% [200%] Additional Base Grenade and Melee Ability Regeneration Rate.\nBuff lasts until Shields are fully restored."
+  },
+  {
+    "Name": "Spark of Resistance",
+    "Description": "While within 15 metres of at least 3 enemies:\n25% [10%] Damage Resist.\nLingers for 2 seconds. "
+  },
+  {
+    "Name": "Spark of Shock",
+    "Description": "Arc Grenades inflict Jolt on hit."
+  },
+  {
+    "Name": "Spark of Volts",
+    "Description": "Finishers grant Amplified and x1 Bolt Charge."
+  }
+]

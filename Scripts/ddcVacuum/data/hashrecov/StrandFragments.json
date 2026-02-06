@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Thread of Ascent",
+    "Description": "On Grenade Ability Usage:\nRefills readied weapon.\n+40? Handling, +40 Reload Speed, 0.925x Reload Duration Multiplier and +30 Airborne Effectiveness for 15 seconds.\nIncurs a 4 second cooldown between Ammo Refills upon activation.",
+    "hash": 4208512216,
+    "parentHash": "4208512216"
+  },
+  {
+    "Name": "Thread of Binding",
+    "Description": "Super Kills create a Suspending Blast.",
+    "hash": 3192552688,
+    "parentHash": "3192552688"
+  },
+  {
+    "Name": "Thread of Continuity",
+    "Description": "Strand Debuffs normally last 50% longer.\nDebuff sources will have their value with Continuity shown in smaller text next to the regular duration.",
+    "hash": 3192552690,
+    "parentHash": "3192552690"
+  },
+  {
+    "Name": "Thread of Evolution",
+    "Description": "Threadling move 30?% faster, travel further, and deal increased damage.\n\nThreadling Damage Increase:\n33% against Combatants | 12.5% against Guardians",
+    "hash": 4208512211,
+    "parentHash": "4208512211"
+  },
+  {
+    "Name": "Thread of Finality",
+    "Description": "Finishers create Threadlings, with the amount scaling with Enemy Rank.\nRank-And-File = 1 | Elite = 2 | Miniboss = 3",
+    "hash": 4208512217,
+    "parentHash": "4208512217"
+  },
+  {
+    "Name": "Thread of Fury",
+    "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%",
+    "hash": 4208512219,
+    "parentHash": "4208512219"
+  },
+  {
+    "Name": "Thread of Generation",
+    "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant.",
+    "hash": 3192552691,
+    "parentHash": "3192552691"
+  },
+  {
+    "Name": "Thread of Isolation",
+    "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, applying Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns",
+    "hash": 3192552689,
+    "parentHash": "3192552689"
+  },
+  {
+    "Name": "Thread of Mind",
+    "Description": "Killing Suspended Enemies grants Class Ability Energy based on Enemy Rank.\nIncurs a 1? second cooldown upon scoring a kill.\nTier 1 Combatant = 10% | T2 = 12% | T3 = 15% | T4 = 30% | Guardians = 15%",
+    "hash": 4208512218,
+    "parentHash": "4208512218"
+  },
+  {
+    "Name": "Thread of Propagation",
+    "Description": "On Powered Melee Ability Kill:\nGrants Unraveling Rounds to Strand Weapons for 8 [5] seconds.",
+    "hash": 4208512210,
+    "parentHash": "4208512210"
+  },
+  {
+    "Name": "Thread of Rebirth",
+    "Description": "Strand Weapon Kills progress a counter that spawns a variable number of Threadlings upon reaching 100%.\n\nCounter Progress (Threadling Amount):\nRank-And-File = 34% (1) | Elite = 67% (2) | Miniboss and Boss = 100% (3) | Guardians = 67% (2)",
+    "hash": 4208512220,
+    "parentHash": "4208512220"
+  },
+  {
+    "Name": "Thread of Transmutation",
+    "Description": "While Woven Mail is active:\nWeapon Kills spawn a Tangle.",
+    "hash": 4208512221,
+    "parentHash": "4208512221"
+  },
+  {
+    "Name": "Thread of Warding",
+    "Description": "On Orb of Power Pickup:\nGrants Woven Mail for 5 seconds.",
+    "hash": 4208512222,
+    "parentHash": "4208512222"
+  },
+  {
+    "Name": "Thread of Wisdom",
+    "Description": "Killing Suspended Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power.",
+    "hash": 4208512223,
+    "parentHash": "4208512223"
+  }
+]

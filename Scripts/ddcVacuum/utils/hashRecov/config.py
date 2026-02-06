@@ -47,9 +47,19 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
+    "ArcFragments": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
 
     "SolarVerbs": {
         "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+    "SolarFragments": {
+        "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
@@ -59,9 +69,19 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
+    "StasisFragments": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
 
     "StrandVerbs": {
         "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+    "StrandFragments": {
+        "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
@@ -71,9 +91,19 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
+    "VoidFragments": {
+        "source": "item_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
 
     "PrismaticVerbs": {
         "source": "trait_definitions.json",
+        "name_path": "displayProperties.name",
+        "hash_path": "hash"
+    },
+    "PrismaticFragments": {
+        "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },

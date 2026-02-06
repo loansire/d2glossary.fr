@@ -18,11 +18,17 @@ SHEETS = {
     "ArmorMods": "923125516",
     "ArtifactPerks": "828585521",
     "ArcVerbs": "41303738",
+    "ArcFragments": "1886162144",
     "SolarVerbs": "993506142",
+    "SolarFragments": "514016694",
     "VoidVerbs": "1094405333",
+    "VoidFragments": "199206387",
     "StasisVerbs": "258124247",
+    "StasisFragments": "1910636551",
     "StrandVerbs": "976476629",
+    "StrandFragments": "143366149",
     "PrismaticVerbs": "1280102267",
+    "PrismaticFragments": "184315295",
     "ExoticWeapons": "1301197513",
 }
 

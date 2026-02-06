@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "Echo of Cessation",
+    "Description": "Finishers apply Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach.",
+    "hash": 3854948620,
+    "parentHash": "3854948620"
+  },
+  {
+    "Name": "Echo of Dilation",
+    "Description": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched.\nCrouch Speed cannot be decreased below 4m/s, identically to Transversives Steps.",
+    "hash": 2272984656,
+    "parentHash": "2272984656"
+  },
+  {
+    "Name": "Echo of Domineering",
+    "Description": "Suppressing an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon.\nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Suppressed Enemies spawns a Void Breach.",
+    "hash": 2272984657,
+    "parentHash": "2272984657"
+  },
+  {
+    "Name": "Echo of Exchange",
+    "Description": "Melee Kills grant Grenade Energy based on Enemy Rank.\n Tier 1 Combatants = 7.5%\nTier 2 Combatants = 11%\nTier 3 Combatants | Guardians = 16.25%\n Tier 4 Combatant | Minibosses | Bosses = 25% ",
+    "hash": 2272984667,
+    "parentHash": "2272984667"
+  },
+  {
+    "Name": "Echo of Expulsion",
+    "Description": "Void Ability Kills cause enemies to explode, dealing up to 160 [130] damage in a 7 metre radius.",
+    "hash": 2272984665,
+    "parentHash": "2272984665"
+  },
+  {
+    "Name": "Echo of Harvest",
+    "Description": "Killing Weakened Enemies creates an Orb of Power that grants 2.5% Super Energy and a Void Breach.\nIncurs a 10 second cooldown upon creating an Orb of Power.",
+    "hash": 2661180601,
+    "parentHash": "2661180601"
+  },
+  {
+    "Name": "Echo of Instability",
+    "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\nDoes not require Void Grenade Kills.",
+    "hash": 2661180600,
+    "parentHash": "2661180600"
+  },
+  {
+    "Name": "Echo of Leeching",
+    "Description": "Melee Kills begin health regeneration for the user and allies within ? metres.",
+    "hash": 2272984670,
+    "parentHash": "2272984670"
+  },
+  {
+    "Name": "Echo of Obscurity",
+    "Description": "Finishers grant Invisibility for 5+2 seconds.",
+    "hash": 2661180602,
+    "parentHash": "2661180602"
+  },
+  {
+    "Name": "Echo of Persistence",
+    "Description": "Void Buffs applied to the user last longer.\nDevour: 50% Increased duration.\nInvisibility: 40% increased duration.\nVoid Overshield: 50% increased duration.",
+    "hash": 2272984671,
+    "parentHash": "2272984671"
+  },
+  {
+    "Name": "Echo of Provision",
+    "Description": "Grenade Ability Damage grants Melee Energy.\nCan only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable.\n\n3% Melee Energy: Scatter, Spike, Voidwall, Vortex\n8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor",
+    "hash": 2272984664,
+    "parentHash": "2272984664"
+  },
+  {
+    "Name": "Echo of Remnants",
+    "Description": "Axion Bolts last ?% longer.\nVoid Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier.\nVoid Wall last 50% longer.\nVortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier.\nChaos Accelerant-enhanced Vortex Grenades last 55% longer.",
+    "hash": 2272984666,
+    "parentHash": "2272984666"
+  },
+  {
+    "Name": "Echo of Reprisal",
+    "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant an additional ?% Super Energy.\nIncurs a 1? second cooldown between activations.",
+    "hash": 2272984669,
+    "parentHash": "2272984669"
+  },
+  {
+    "Name": "Echo of Starvation",
+    "Description": "On Orb of Power or Void Breach Pickup:\nGrants Devour for 5+2.5 seconds.",
+    "hash": 2661180603,
+    "parentHash": "2661180603"
+  },
+  {
+    "Name": "Echo of Undermining",
+    "Description": "Void Grenades apply Weaken on hit for 6 [2.5] seconds.",
+    "hash": 2272984668,
+    "parentHash": "2272984668"
+  },
+  {
+    "Name": "Echo of Vigilance",
+    "Description": "Upon killing an enemy while at Critical Health:\nGrants Void Overshield for 5+2.5 seconds.\nIncurs a 8 second cooldown after activating.",
+    "hash": 3854948621,
+    "parentHash": "3854948621"
+  }
+]

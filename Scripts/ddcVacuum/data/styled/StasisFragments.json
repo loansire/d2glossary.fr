@@ -1,0 +1,707 @@
+[
+  {
+    "Name": "Whisper of Bonds",
+    "Description": "Killing Frozen Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power.",
+    "hash": 3469412974,
+    "parentHash": "3469412974",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Enemies creates an Orb of Power that grants 2.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 second cooldown after creating an Orb of Power."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Chains",
+    "Description": "Kills while Frost Armor is active progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%",
+    "hash": 537774540,
+    "parentHash": "537774540",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills while "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " is active progress a counter that spawns a Small "
+            },
+            {
+              "text": "Stasis Shard",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " upon reaching 100%."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Chill",
+    "Description": "Stasis Weapon Kills progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\nIncurs a 5? second cooldown after creating a Stasis Shard, before additional kills progress the counter.",
+    "hash": 2368990401,
+    "parentHash": "2368990401",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Weapon Kills progress a counter that spawns a Small "
+            },
+            {
+              "text": "Stasis Shard",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " upon reaching 100%."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 5? second cooldown after creating a "
+            },
+            {
+              "text": "Stasis Shard",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ", before additional kills progress the counter."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Conduction",
+    "Description": "Stasis Shards within 15 metres are pulled towards the user after a 1 second delay.",
+    "hash": 2483898429,
+    "parentHash": "2483898429",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Stasis Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " within 15 metres are pulled towards the user after a 1 second delay."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Durance",
+    "Description": "Slow Debuff Duration and certain abilities last longer.\nAll affected Slow sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount.\nEg: 25 seconds -> 25+5",
+    "hash": 3469412969,
+    "parentHash": "3469412969",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Debuff Duration and certain abilities last longer."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "All affected "
+            },
+            {
+              "text": "Slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Eg: 25 seconds -> 25+5"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Fissures",
+    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.",
+    "hash": 3469412971,
+    "parentHash": "3469412971",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Shattering",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " enemies or destroying Crystals deals an additional damage instance, dealing up to 25 ["
+            },
+            {
+              "text": "9",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage in a 10 ["
+            },
+            {
+              "text": "8",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] metre radius."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Falloff decreases damage dealt down to a minimum of 17 ["
+            },
+            {
+              "text": "4",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage at the maximum falloff distance."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Fractures",
+    "Description": "Grants x1 Frost Armor upon shattering an enemy with Melee Damage.",
+    "hash": 537774542,
+    "parentHash": "537774542",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants x1 "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " upon "
+            },
+            {
+              "text": "shattering",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " an enemy with Melee Damage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Hedrons",
+    "Description": "Freezing an enemy grants +? Handling, and +30 Health for 11 seconds.",
+    "hash": 3469412970,
+    "parentHash": "3469412970",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Freezing",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " an enemy grants +? Handling, and +30 Health for 11 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Hunger",
+    "Description": "Stasis Shards grant increased Melee Energy.\nSmall Shards grant 17.5% Melee Energy, from 10%\nLarge Shards grant 75% Melee Energy, from 50%.",
+    "hash": 2483898431,
+    "parentHash": "2483898431",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Stasis Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " grant increased Melee Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Small "
+            },
+            {
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " grant 17.5% Melee Energy, from 10%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Large "
+            },
+            {
+              "text": "Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " grant 75% Melee Energy, from 50%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Impetus",
+    "Description": "Upon dealing Powered Melee Damage:\nRefills all weapons and grants +40 Handling for 5 seconds.\nBuff duration serves as cooldown.",
+    "hash": 537774543,
+    "parentHash": "537774543",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing Powered Melee Damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills all weapons and grants +40 Handling for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff duration serves as cooldown."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Refraction",
+    "Description": "Kills against enemies affected by Stasis effects grants Class Ability Energy based on Enemy Rank.\n9% = Tier 1 Combatant\n13% = Tier 2 Combatant\n15% = Guardian\n20% = Tier 3 Combatant\n30% = Tier 4 Combatant\n40% = Miniboss\n50% = Boss",
+    "hash": 3469412968,
+    "parentHash": "3469412968",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills against enemies affected by "
+            },
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " effects grants Class Ability Energy based on Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "9% = Tier 1 Combatant"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "13% = Tier 2 Combatant"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "15% = Guardian"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "20% = Tier 3 Combatant"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "30% = Tier 4 Combatant"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "40% = Miniboss"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "50% = Boss"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Rending",
+    "Description": "Primary Ammo Weapons deal 100% increased damage against Stasis Crystals and 50% increased damage against Frozen Enemies.\nIncludes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes.",
+    "hash": 2483898428,
+    "parentHash": "2483898428",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Primary Ammo Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": " deal 100% increased damage against "
+            },
+            {
+              "text": "Stasis Crystals",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " and 50% increased damage against "
+            },
+            {
+              "text": "Frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Enemies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Includes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Reversal",
+    "Description": "While Frost Armor is active:\nDealing or receiving Physical Melee Damage applies x10? Slow for ?+? [?+?] seconds.\nAlso applies to Glaive Melee.",
+    "hash": 2368990400,
+    "parentHash": "2368990400",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing or receiving Physical Melee Damage applies x10? "
+            },
+            {
+              "text": "Slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " for ?+? ["
+            },
+            {
+              "text": "?+?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Also applies to "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Rime",
+    "Description": "Enhances Frost Armor, increasing the maximum stack amount to x8, and the duration to 13 seconds.",
+    "hash": 2483898430,
+    "parentHash": "2483898430",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Enhances "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ", increasing the maximum stack amount to x8, and the duration to 13 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Shards",
+    "Description": "Upon destroying a Stasis Crystal: \nGrants 500% [150%] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds.",
+    "hash": 3469412975,
+    "parentHash": "3469412975",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon destroying a "
+            },
+            {
+              "text": "Stasis Crystal",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 500% ["
+            },
+            {
+              "text": "150%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Whisper of Torment",
+    "Description": "Upon receiving damage:\nGrants 7% Grenade Ability Energy.\nIncreased to 12% Grenade Ability Energy while Frost Armor is active.\nIncurs a 1 second cooldown between Grenade Energy gains.",
+    "hash": 537774541,
+    "parentHash": "537774541",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon receiving damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 7% Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Increased to 12% Grenade Ability Energy while "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " is active."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1 second cooldown between Grenade Energy gains."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

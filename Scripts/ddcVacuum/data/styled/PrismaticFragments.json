@@ -1,0 +1,1366 @@
+[
+  {
+    "Name": "Facet of Awakening",
+    "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup.",
+    "hash": 124726505,
+    "parentHash": "124726505",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elemental Pickup is determined by the Damage Type of the final kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 5 second cooldown between spawning the same Non-"
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Elemental Pickups."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Balance",
+    "Description": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy.",
+    "hash": 2626922114,
+    "parentHash": "2626922114",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Killing 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Blessing",
+    "Description": "Melee Kills begin health regeneration. \nEffect applies to allies within ? metres while Transcendent.",
+    "hash": 124726496,
+    "parentHash": "124726496",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Melee Kills begin health regeneration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect applies to allies within ? metres while Transcendent."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Bravery",
+    "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\n\nPowered Melee Kills grant Unraveling Rounds to Strand Weapons for 11.25 [7.5] seconds.",
+    "hash": 124726503,
+    "parentHash": "124726503",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Kills grant "
+            },
+            {
+              "text": "Volatile Rounds",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Weapons for 11.25 ["
+            },
+            {
+              "text": "7.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Powered Melee Kills grant "
+            },
+            {
+              "text": "Unraveling Rounds",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " to "
+            },
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Weapons for 11.25 ["
+            },
+            {
+              "text": "7.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Command",
+    "Description": "Freezing or Suppressing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively.",
+    "hash": 124726497,
+    "parentHash": "124726497",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Freezing",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Suppressing",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 4 second cooldown before it can be reactivated."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Frozen",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Suppressed",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Enemies spawns a "
+            },
+            {
+              "text": "Stasis Shard",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " respectively."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Courage",
+    "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs.\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage.",
+    "hash": 2626922124,
+    "parentHash": "2626922124",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Against enemies inflicted with "
+            },
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Elemental Debuffs."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Light Abilities deal 10% increased damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Light Powered Melee Abilities deal 50% ["
+            },
+            {
+              "text": "10%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Dawn",
+    "Description": "Powered Melee Hits grant Radiant for 5 seconds.\n\nPowered Melee Kills grant Radiant for 5 seconds to the user and allies within ? metres.",
+    "hash": 2626922126,
+    "parentHash": "2626922126",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Powered Melee Hits grant "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " for 5 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Powered Melee Kills grant "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " for 5 seconds to the user and allies within ? metres."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Defiance",
+    "Description": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters.\nArc = Jolt | Solar = x40 Scorch | Void = Volatile \nStasis = x? Slow for ? seconds | Strand = Sever",
+    "hash": 74393640,
+    "parentHash": "74393640",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " = "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " = x40 "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " = "
+            },
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " = x? "
+            },
+            {
+              "text": "Slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " for ? seconds | "
+            },
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " = "
+            },
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Devotion",
+    "Description": "Killing enemies affected by Stasis or Strand Elemental Debuffs grants additional Light Transcendence Energy.\nRank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%",
+    "hash": 2626922125,
+    "parentHash": "2626922125",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing enemies affected by "
+            },
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " or "
+            },
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Elemental Debuffs grants additional Light "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Dominance",
+    "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.",
+    "hash": 124726504,
+    "parentHash": "124726504",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Grenade Ability Damage applies "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 6 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Grenade Ability Damage applies "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Generosity",
+    "Description": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds.\nUp to a maximum of 4 Orbs of Power can be spawned per Transcendence activation.\n\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%\nOrbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds.",
+    "hash": 2626922127,
+    "parentHash": "2626922127",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Up to a maximum of 4 Orbs of Power can be spawned per "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " activation."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Orbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Grace",
+    "Description": "Kinetic Weapon Kills grant an additional 2% [?%] Transcendence energy.\n\nSuper Kills grant an additional 2% [?%] Transcendence Energy to the user and allies within ? metres.",
+    "hash": 2626922121,
+    "parentHash": "2626922121",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Kinetic Weapon",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Kills grant an additional 2% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Kills grant an additional 2% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " Energy to the user and allies within ? metres."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Honor",
+    "Description": "Picking up Elemental Pickups or destroying a Tangle grants additional Transcendence Energy of the matching alignment.\n\nIonic Traces, Firesprites, Void Breaches = 7.5% Light Energy \nStasis Shards = 5% Darkness Energy | Tangles = 10% Darkness Energy",
+    "hash": 124726501,
+    "parentHash": "124726501",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Picking up Elemental Pickups or destroying a "
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " grants additional "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " Energy of the matching alignment."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Firesprites",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Void Breaches",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " = 7.5% Light Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stasis Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " = 5% Darkness Energy | "
+            },
+            {
+              "text": "Tangles",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " = 10% Darkness Energy"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Hope",
+    "Description": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff.\nEffect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs.",
+    "hash": 2626922122,
+    "parentHash": "2626922122",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Effect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Justice",
+    "Description": "Ability Kills while Transcendent trigger an explosion that deals up to 130 [?] Ability-Matching damage over ? meters",
+    "hash": 2626922115,
+    "parentHash": "2626922115",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Ability Kills while Transcendent trigger an explosion that deals up to 130 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Ability-Matching damage over ? meters"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Mending",
+    "Description": "Grenade Ability Kills grant Cure x1.\nPrismatic Grenade Kills grant Cure x2.",
+    "hash": 124726500,
+    "parentHash": "124726500",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Ability Kills grant "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x1."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Prismatic Grenade Kills grant "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x2."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Protection",
+    "Description": "While within 15 metres of 3 enemies:\n15% [?%] Damage Resist.\nIn-Game Description is erroneous, the effect does NOT become increased while Transcendent. \nInstead, the 15% DR from Protection stacks with Transcendence's 20%, totalling 32% DR.",
+    "hash": 2626922120,
+    "parentHash": "2626922120",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While within 15 metres of 3 enemies:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "15% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage Resist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "In-Game Description is erroneous, the effect does NOT become increased while Transcendent."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Instead, the 15% DR from Protection stacks with "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": "'s 20%, totalling 32% DR."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Purpose",
+    "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 9 seconds.\nStrand: Woven Mail for 5 seconds.",
+    "hash": 124726498,
+    "parentHash": "124726498",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ": x1 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x1 for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ": 22.5 HP "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ": x2 "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " for 9 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for 5 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Ruin",
+    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.\n\nIgnitions have 25% increased radius.",
+    "hash": 124726499,
+    "parentHash": "124726499",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Shattering",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " enemies or destroying Crystals deals an additional damage instance, dealing up to 25 ["
+            },
+            {
+              "text": "9",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage in a 10 ["
+            },
+            {
+              "text": "8",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] metre radius."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Falloff decreases damage dealt down to a minimum of 17 ["
+            },
+            {
+              "text": "4",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage at the maximum falloff distance."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ignitions",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " have 25% increased radius."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Sacrifice",
+    "Description": "Ability Kills while affected by an Arc, Solar, or Void Elemental Buff grant an additional 1% [?%] Darkness Transcendence Energy.",
+    "hash": 124726502,
+    "parentHash": "124726502",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Ability Kills while affected by an "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", or "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Elemental Buff grant an additional 1% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Darkness "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Facet of Solitude",
+    "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example.",
+    "hash": 2626922123,
+    "parentHash": "2626922123",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The next damage instance from any source within 3 seconds will emit a "
+            },
+            {
+              "text": "Severing",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Burst."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Burst inflicts "
+            },
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " to enemies within 3 metres. Radius is increased to 6 meters while Transcendent."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 4 second cooldown upon "
+            },
+            {
+              "text": "Severing",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": ". Precision Hits during the cooldown will not be counted."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Precision hits required to prepare the "
+            },
+            {
+              "text": "Severing",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Burst:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "20% of Magazine + 1, rounded down."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": ": 2 hits"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The Precision Hit that prepares the "
+            },
+            {
+              "text": "Severing",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

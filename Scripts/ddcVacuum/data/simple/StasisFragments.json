@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "Whisper of Bonds",
+    "Description": "Killing Frozen Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power."
+  },
+  {
+    "Name": "Whisper of Chains",
+    "Description": "Kills while Frost Armor is active progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%"
+  },
+  {
+    "Name": "Whisper of Chill",
+    "Description": "Stasis Weapon Kills progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\nIncurs a 5? second cooldown after creating a Stasis Shard, before additional kills progress the counter."
+  },
+  {
+    "Name": "Whisper of Conduction",
+    "Description": "Stasis Shards within 15 metres are pulled towards the user after a 1 second delay."
+  },
+  {
+    "Name": "Whisper of Durance",
+    "Description": "Slow Debuff Duration and certain abilities last longer.\nAll affected Slow sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount.\nEg: 25 seconds -> 25+5"
+  },
+  {
+    "Name": "Whisper of Fissures",
+    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance."
+  },
+  {
+    "Name": "Whisper of Fractures",
+    "Description": "Grants x1 Frost Armor upon shattering an enemy with Melee Damage."
+  },
+  {
+    "Name": "Whisper of Hedrons",
+    "Description": "Freezing an enemy grants +? Handling, and +30 Health for 11 seconds."
+  },
+  {
+    "Name": "Whisper of Hunger",
+    "Description": "Stasis Shards grant increased Melee Energy.\nSmall Shards grant 17.5% Melee Energy, from 10%\nLarge Shards grant 75% Melee Energy, from 50%."
+  },
+  {
+    "Name": "Whisper of Impetus",
+    "Description": "Upon dealing Powered Melee Damage:\nRefills all weapons and grants +40 Handling for 5 seconds.\nBuff duration serves as cooldown."
+  },
+  {
+    "Name": "Whisper of Refraction",
+    "Description": "Kills against enemies affected by Stasis effects grants Class Ability Energy based on Enemy Rank.\n9% = Tier 1 Combatant\n13% = Tier 2 Combatant\n15% = Guardian\n20% = Tier 3 Combatant\n30% = Tier 4 Combatant\n40% = Miniboss\n50% = Boss"
+  },
+  {
+    "Name": "Whisper of Rending",
+    "Description": "Primary Ammo Weapons deal 100% increased damage against Stasis Crystals and 50% increased damage against Frozen Enemies.\nIncludes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes."
+  },
+  {
+    "Name": "Whisper of Reversal",
+    "Description": "While Frost Armor is active:\nDealing or receiving Physical Melee Damage applies x10? Slow for ?+? [?+?] seconds.\nAlso applies to Glaive Melee."
+  },
+  {
+    "Name": "Whisper of Rime",
+    "Description": "Enhances Frost Armor, increasing the maximum stack amount to x8, and the duration to 13 seconds."
+  },
+  {
+    "Name": "Whisper of Shards",
+    "Description": "Upon destroying a Stasis Crystal: \nGrants 500% [150%] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds."
+  },
+  {
+    "Name": "Whisper of Torment",
+    "Description": "Upon receiving damage:\nGrants 7% Grenade Ability Energy.\nIncreased to 12% Grenade Ability Energy while Frost Armor is active.\nIncurs a 1 second cooldown between Grenade Energy gains."
+  }
+]

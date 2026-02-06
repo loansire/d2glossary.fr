@@ -2284,7 +2284,7 @@
     },
     {
       "Name": "Kinetic Synthesis",
-      "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo.\nNo Land Beyond can spawn an Ammo Brick but does not receive ammo."
+      "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo."
     },
     {
       "Name": "Armorsmith",
@@ -2377,6 +2377,72 @@
       "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage."
     }
   ],
+  "ArcFragments": [
+    {
+      "Name": "Spark of Amplitude",
+      "Description": "While Amplified:\nScoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy.\nTriggering Amplified through an Arc Kill will count the kill towards the 2-kill counter.\nIncurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count."
+    },
+    {
+      "Name": "Spark of Beacons",
+      "Description": "Special and Heavy Ammo Arc Weapon Kills while Amplified create a blinding blast, inflicting Blind to enemies within 7.5 metres."
+    },
+    {
+      "Name": "Spark of Brilliance",
+      "Description": "Precision Kills against Blinded Enemies trigger a Blinding blast, inflicting Blind to enemies within 7.5 metres."
+    },
+    {
+      "Name": "Spark of Discharge",
+      "Description": "Arc Weapon Kills progress a counter that spawns an Ionic Trace upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\n\nPicking up Ionic Traces grants x1 Bolt Charge."
+    },
+    {
+      "Name": "Spark of Feedback",
+      "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable."
+    },
+    {
+      "Name": "Spark of Focus",
+      "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n150% [75%] Additional Base Class Ability Regeneration Rate.\nDeactivates once Class Ability has at least 1 charge readied."
+    },
+    {
+      "Name": "Spark of Frequency",
+      "Description": "Upon scoring a Melee Hit:\n+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds.\n\nWhile Amplified:\n(almost) All sources of Bolt Charge now grant an additional stack.\nIn-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses."
+    },
+    {
+      "Name": "Spark of Haste",
+      "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n Grants +50 Health Stat."
+    },
+    {
+      "Name": "Spark of Instinct",
+      "Description": "While at Critical Health:\nBeing damaged releases a burst of Arc Energy, dealing up to 46 [20] damage and inflicting Jolt to enemies within ? metres.\nIncurs a 15? second cooldown between activations."
+    },
+    {
+      "Name": "Spark of Ions",
+      "Description": "Killing Jolted Enemies, or scoring a Bolt Charge Kill creates an Ionic Trace.\nIncurs a 10 second cooldown between Ionic Traces spawns."
+    },
+    {
+      "Name": "Spark of Magnitude",
+      "Description": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts.\n Pulse Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses.\n Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer."
+    },
+    {
+      "Name": "Spark of Momentum",
+      "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks."
+    },
+    {
+      "Name": "Spark of Recharge",
+      "Description": "Upon reaching Critical Health:\n400% [200%] Additional Base Grenade and Melee Ability Regeneration Rate.\nBuff lasts until Shields are fully restored."
+    },
+    {
+      "Name": "Spark of Resistance",
+      "Description": "While within 15 metres of at least 3 enemies:\n25% [10%] Damage Resist.\nLingers for 2 seconds. "
+    },
+    {
+      "Name": "Spark of Shock",
+      "Description": "Arc Grenades inflict Jolt on hit."
+    },
+    {
+      "Name": "Spark of Volts",
+      "Description": "Finishers grant Amplified and x1 Bolt Charge."
+    }
+  ],
   "SolarVerbs": [
     {
       "Name": "Cure",
@@ -2405,6 +2471,72 @@
     {
       "Name": "Solar Effect\nDamage Scaling",
       "Description": "Solar Effect (Scorch | Ignition) damage can be increased through Perks and Exotics, but the source used for initially scorching will determine what it will be counted as.\n \nApplying a Solar Effect with a Weapon, such as with Incandescent or through Exotic Weapons such as Tommy's Matchbook or Conditional Finality, will result in Solar Effects counting as Weapon Damage, benefitting from Weapon Buffs and Activity Modifiers that exclusively benefit Weapons, such as Radiant, Solar Weapon Surges, and Overcharge.\n\nApplying Solar Effects through abilities such as Fusion Grenades and Well of Radiance will result in the Solar Effects counting as Solar Ability Damage, with their damage only being increased by Grenade (Verity's Brow), and Super (Heart of the Flame) Damage Increases respectively. Melee Damage Buffs do not increase Solar Effect Damage.\nEffects that increase all Ability Damage will benefit all Solar Effects that are initially applied through Solar Abilities.\n\nActivity Modifiers that increase all Solar Damage, such as Solar Surge, will also apply to Solar Effects, regardless of source."
+    }
+  ],
+  "SolarFragments": [
+    {
+      "Name": "Ember of Ashes",
+      "Description": "Scorch Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60.\nEvery source of Scorch will have its base number alongside Ember of Ashes' benefit in smaller text next to the regular stack amount. Eg: x40+20.\n\nCertain sources of Scorch do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others."
+    },
+    {
+      "Name": "Ember of Beams",
+      "Description": "Solar Super Ability projectiles have stronger tracking towards enemies.\nCurrently only works with Blade Barrage Knives, Daybreak Projectiles. and Song of Flame Projectiles?"
+    },
+    {
+      "Name": "Ember of Benevolence",
+      "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods"
+    },
+    {
+      "Name": "Ember of Blistering",
+      "Description": "Ignition Kills grant Grenade Ability Energy based on Enemy Rank. \nT1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%"
+    },
+    {
+      "Name": "Ember of Char",
+      "Description": "Ignitions inflict x40+20 Scorch to enemies damaged by the explosion.\nDoes not apply to the ignited enemy."
+    },
+    {
+      "Name": "Ember of Combustion",
+      "Description": "Solar Super Kills trigger an ignition and spawn a Firesprite.\nWell of Radiance makes all of the Caster's Weapon Damage count as Super Ability Damage. Solar Weapons Kills will count as Solar Super Kills."
+    },
+    {
+      "Name": "Ember of Empyrean",
+      "Description": "Solar Kills extend Restoration and Radiant effects. Buff duration cannot exceed 15 seconds. \nScoring a Solar Kill while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds.\n\nT1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds"
+    },
+    {
+      "Name": "Ember of Eruption",
+      "Description": "Ignitions have 25% increased radius.\n8 -> 10 meters."
+    },
+    {
+      "Name": "Ember of Mercy",
+      "Description": "On Firesprite Pickup:\nRestoration x1 for 2+1 seconds.\nIf Restoration is active, then it will extend its duration by 2+1 seconds.\nPicking up a Firesprite while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds\n\nOn Ally Revival:\nUser and allies within ? metres Restoration x1 for 5+2.5 seconds."
+    },
+    {
+      "Name": "Ember of Resolve",
+      "Description": "Grenade Kills grant Cure x1."
+    },
+    {
+      "Name": "Ember of Searing",
+      "Description": "Killing Scorched enemies grants Melee Ability Energy based on Enemy Rank and spawns a Firesprite.\nT1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%"
+    },
+    {
+      "Name": "Ember of Singeing",
+      "Description": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting Scorch to enemies.\nOnly triggers upon inflicting Scorch to a non-scorched enemy. Will not activate if the enemy dies from the hit that would have Scorched."
+    },
+    {
+      "Name": "Ember of Solace",
+      "Description": "Restoration and Radiant effects last 50% longer on the user.\nSources of Solar Effects will have their base duration alongside Ember of Solace's benefit in smaller text. Eg: 10+5 Radiant, or 4+2 Restoration."
+    },
+    {
+      "Name": "Ember of Tempering",
+      "Description": "Solar Weapon Kills grant a stack of Ember of Tempering for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks.\n\nEmber of Tempering:\n +20 Airborne Effectiveness and Solar Weapon Kills spawn a Firesprite while active.\n+20 | +40 | +60 Health Stat based on the stack amount."
+    },
+    {
+      "Name": "Ember of Torches",
+      "Description": "Powered Melee Hits grant Radiant for 8+4 seconds to the user and allies within 8 meters."
+    },
+    {
+      "Name": "Ember of Wonder",
+      "Description": "Killing 2 enemies within ? seconds of each with Ignitions creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown upon creating an Orb of Power."
     }
   ],
   "VoidVerbs": [
@@ -2441,6 +2573,72 @@
       "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot: Deadfall grants 35% [50%?] increased damage against tethered enemies.\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect."
     }
   ],
+  "VoidFragments": [
+    {
+      "Name": "Echo of Cessation",
+      "Description": "Finishers apply Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach."
+    },
+    {
+      "Name": "Echo of Dilation",
+      "Description": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched.\nCrouch Speed cannot be decreased below 4m/s, identically to Transversives Steps."
+    },
+    {
+      "Name": "Echo of Domineering",
+      "Description": "Suppressing an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon.\nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Suppressed Enemies spawns a Void Breach."
+    },
+    {
+      "Name": "Echo of Exchange",
+      "Description": "Melee Kills grant Grenade Energy based on Enemy Rank.\n Tier 1 Combatants = 7.5%\nTier 2 Combatants = 11%\nTier 3 Combatants | Guardians = 16.25%\n Tier 4 Combatant | Minibosses | Bosses = 25% "
+    },
+    {
+      "Name": "Echo of Expulsion",
+      "Description": "Void Ability Kills cause enemies to explode, dealing up to 160 [130] damage in a 7 metre radius."
+    },
+    {
+      "Name": "Echo of Harvest",
+      "Description": "Killing Weakened Enemies creates an Orb of Power that grants 2.5% Super Energy and a Void Breach.\nIncurs a 10 second cooldown upon creating an Orb of Power."
+    },
+    {
+      "Name": "Echo of Instability",
+      "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\nDoes not require Void Grenade Kills."
+    },
+    {
+      "Name": "Echo of Leeching",
+      "Description": "Melee Kills begin health regeneration for the user and allies within ? metres."
+    },
+    {
+      "Name": "Echo of Obscurity",
+      "Description": "Finishers grant Invisibility for 5+2 seconds."
+    },
+    {
+      "Name": "Echo of Persistence",
+      "Description": "Void Buffs applied to the user last longer.\nDevour: 50% Increased duration.\nInvisibility: 40% increased duration.\nVoid Overshield: 50% increased duration."
+    },
+    {
+      "Name": "Echo of Provision",
+      "Description": "Grenade Ability Damage grants Melee Energy.\nCan only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable.\n\n3% Melee Energy: Scatter, Spike, Voidwall, Vortex\n8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor"
+    },
+    {
+      "Name": "Echo of Remnants",
+      "Description": "Axion Bolts last ?% longer.\nVoid Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier.\nVoid Wall last 50% longer.\nVortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier.\nChaos Accelerant-enhanced Vortex Grenades last 55% longer."
+    },
+    {
+      "Name": "Echo of Reprisal",
+      "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant an additional ?% Super Energy.\nIncurs a 1? second cooldown between activations."
+    },
+    {
+      "Name": "Echo of Starvation",
+      "Description": "On Orb of Power or Void Breach Pickup:\nGrants Devour for 5+2.5 seconds."
+    },
+    {
+      "Name": "Echo of Undermining",
+      "Description": "Void Grenades apply Weaken on hit for 6 [2.5] seconds."
+    },
+    {
+      "Name": "Echo of Vigilance",
+      "Description": "Upon killing an enemy while at Critical Health:\nGrants Void Overshield for 5+2.5 seconds.\nIncurs a 8 second cooldown after activating."
+    }
+  ],
   "StasisVerbs": [
     {
       "Name": "Stasis Shard",
@@ -2465,6 +2663,72 @@
     {
       "Name": "Shatter",
       "Description": "Frozen Enemies can be shattered through damage or directly through specific Stasis Aspects, dealing up to 400 [?] damage to enemies within ? metres.\n\nOverload Champions become Stunned upon receiving shatter damage. "
+    }
+  ],
+  "StasisFragments": [
+    {
+      "Name": "Whisper of Bonds",
+      "Description": "Killing Frozen Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power."
+    },
+    {
+      "Name": "Whisper of Chains",
+      "Description": "Kills while Frost Armor is active progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%"
+    },
+    {
+      "Name": "Whisper of Chill",
+      "Description": "Stasis Weapon Kills progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\nIncurs a 5? second cooldown after creating a Stasis Shard, before additional kills progress the counter."
+    },
+    {
+      "Name": "Whisper of Conduction",
+      "Description": "Stasis Shards within 15 metres are pulled towards the user after a 1 second delay."
+    },
+    {
+      "Name": "Whisper of Durance",
+      "Description": "Slow Debuff Duration and certain abilities last longer.\nAll affected Slow sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount.\nEg: 25 seconds -> 25+5"
+    },
+    {
+      "Name": "Whisper of Fissures",
+      "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance."
+    },
+    {
+      "Name": "Whisper of Fractures",
+      "Description": "Grants x1 Frost Armor upon shattering an enemy with Melee Damage."
+    },
+    {
+      "Name": "Whisper of Hedrons",
+      "Description": "Freezing an enemy grants +? Handling, and +30 Health for 11 seconds."
+    },
+    {
+      "Name": "Whisper of Hunger",
+      "Description": "Stasis Shards grant increased Melee Energy.\nSmall Shards grant 17.5% Melee Energy, from 10%\nLarge Shards grant 75% Melee Energy, from 50%."
+    },
+    {
+      "Name": "Whisper of Impetus",
+      "Description": "Upon dealing Powered Melee Damage:\nRefills all weapons and grants +40 Handling for 5 seconds.\nBuff duration serves as cooldown."
+    },
+    {
+      "Name": "Whisper of Refraction",
+      "Description": "Kills against enemies affected by Stasis effects grants Class Ability Energy based on Enemy Rank.\n9% = Tier 1 Combatant\n13% = Tier 2 Combatant\n15% = Guardian\n20% = Tier 3 Combatant\n30% = Tier 4 Combatant\n40% = Miniboss\n50% = Boss"
+    },
+    {
+      "Name": "Whisper of Rending",
+      "Description": "Primary Ammo Weapons deal 100% increased damage against Stasis Crystals and 50% increased damage against Frozen Enemies.\nIncludes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes."
+    },
+    {
+      "Name": "Whisper of Reversal",
+      "Description": "While Frost Armor is active:\nDealing or receiving Physical Melee Damage applies x10? Slow for ?+? [?+?] seconds.\nAlso applies to Glaive Melee."
+    },
+    {
+      "Name": "Whisper of Rime",
+      "Description": "Enhances Frost Armor, increasing the maximum stack amount to x8, and the duration to 13 seconds."
+    },
+    {
+      "Name": "Whisper of Shards",
+      "Description": "Upon destroying a Stasis Crystal: \nGrants 500% [150%] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds."
+    },
+    {
+      "Name": "Whisper of Torment",
+      "Description": "Upon receiving damage:\nGrants 7% Grenade Ability Energy.\nIncreased to 12% Grenade Ability Energy while Frost Armor is active.\nIncurs a 1 second cooldown between Grenade Energy gains."
     }
   ],
   "StrandVerbs": [
@@ -2501,10 +2765,154 @@
       "Description": "Strand Weapons apply Unravel upon dealing damage, and Barrier Champion Shields are able to be damaged while Unraveling Rounds are active, stunning the Champion when destroyed."
     }
   ],
+  "StrandFragments": [
+    {
+      "Name": "Thread of Ascent",
+      "Description": "On Grenade Ability Usage:\nRefills readied weapon.\n+40? Handling, +40 Reload Speed, 0.925x Reload Duration Multiplier and +30 Airborne Effectiveness for 15 seconds.\nIncurs a 4 second cooldown between Ammo Refills upon activation."
+    },
+    {
+      "Name": "Thread of Binding",
+      "Description": "Super Kills create a Suspending Blast."
+    },
+    {
+      "Name": "Thread of Continuity",
+      "Description": "Strand Debuffs normally last 50% longer.\nDebuff sources will have their value with Continuity shown in smaller text next to the regular duration."
+    },
+    {
+      "Name": "Thread of Evolution",
+      "Description": "Threadling move 30?% faster, travel further, and deal increased damage.\n\nThreadling Damage Increase:\n33% against Combatants | 12.5% against Guardians"
+    },
+    {
+      "Name": "Thread of Finality",
+      "Description": "Finishers create Threadlings, with the amount scaling with Enemy Rank.\nRank-And-File = 1 | Elite = 2 | Miniboss = 3"
+    },
+    {
+      "Name": "Thread of Fury",
+      "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%"
+    },
+    {
+      "Name": "Thread of Generation",
+      "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant."
+    },
+    {
+      "Name": "Thread of Isolation",
+      "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, applying Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns"
+    },
+    {
+      "Name": "Thread of Mind",
+      "Description": "Killing Suspended Enemies grants Class Ability Energy based on Enemy Rank.\nIncurs a 1? second cooldown upon scoring a kill.\nTier 1 Combatant = 10% | T2 = 12% | T3 = 15% | T4 = 30% | Guardians = 15%"
+    },
+    {
+      "Name": "Thread of Propagation",
+      "Description": "On Powered Melee Ability Kill:\nGrants Unraveling Rounds to Strand Weapons for 8 [5] seconds."
+    },
+    {
+      "Name": "Thread of Rebirth",
+      "Description": "Strand Weapon Kills progress a counter that spawns a variable number of Threadlings upon reaching 100%.\n\nCounter Progress (Threadling Amount):\nRank-And-File = 34% (1) | Elite = 67% (2) | Miniboss and Boss = 100% (3) | Guardians = 67% (2)"
+    },
+    {
+      "Name": "Thread of Transmutation",
+      "Description": "While Woven Mail is active:\nWeapon Kills spawn a Tangle."
+    },
+    {
+      "Name": "Thread of Warding",
+      "Description": "On Orb of Power Pickup:\nGrants Woven Mail for 5 seconds."
+    },
+    {
+      "Name": "Thread of Wisdom",
+      "Description": "Killing Suspended Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power."
+    }
+  ],
   "PrismaticVerbs": [
     {
       "Name": "Transcendence",
       "Description": "Unique ability obtained upon utilizing enough Light and Darkness damage types.\nKinetic Damage fills both Light and Darkness bars at 50% decreased rate. Overkill Damage isn't counted for Transcendence gains.\n\nDealing damage, alongside applying Elemental Effects grants Transcendence Energy. \nApplying Elemental Effects, both buffs and debuffs, grant Transcendence Energy to their corresponding alignment.\n\nTranscendence:\nInstantly recharges 2 Grenade and Melee Ability Charges on activation.\nReplaces Grenade Ability with an unique class-specific Prismatic Grenade Ability with Light and Darkness damage types.\nGrants 5% Increased Weapon Damage, an additional 10% Grenade and Melee Regeneration Speed, and 20% [5%] Damage Resist for 20 seconds.\nDamage Increase stacks with everything.\n\nDealing Grenade Ability Damage while Transcendent increases the Melee Regeneration Speed to 35% Fixed Melee Ability Energy per second for 2 seconds.\nDealing Melee Ability Damage while Transcendent increases the Prismatic Grenade Regeneration Speed to 35% Prismatic Grenade Ability Energy per second for 2 seconds.\n\nKills while Transcendent extend its duration, with the amount extended decreasing as more kills are scored.\nTier 1 and T2 Combatants = 5% | T3 and T4 = 10% | T3 Elites, Minibosses and Bosses = 15% | Guardians = ?%\nEach kill after the first gets a cumulative 0.9?x penalty to the duration extension."
+    }
+  ],
+  "PrismaticFragments": [
+    {
+      "Name": "Facet of Awakening",
+      "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup."
+    },
+    {
+      "Name": "Facet of Balance",
+      "Description": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy."
+    },
+    {
+      "Name": "Facet of Blessing",
+      "Description": "Melee Kills begin health regeneration. \nEffect applies to allies within ? metres while Transcendent."
+    },
+    {
+      "Name": "Facet of Bravery",
+      "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\n\nPowered Melee Kills grant Unraveling Rounds to Strand Weapons for 11.25 [7.5] seconds."
+    },
+    {
+      "Name": "Facet of Command",
+      "Description": "Freezing or Suppressing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively."
+    },
+    {
+      "Name": "Facet of Courage",
+      "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs.\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage."
+    },
+    {
+      "Name": "Facet of Dawn",
+      "Description": "Powered Melee Hits grant Radiant for 5 seconds.\n\nPowered Melee Kills grant Radiant for 5 seconds to the user and allies within ? metres."
+    },
+    {
+      "Name": "Facet of Defiance",
+      "Description": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters.\nArc = Jolt | Solar = x40 Scorch | Void = Volatile \nStasis = x? Slow for ? seconds | Strand = Sever"
+    },
+    {
+      "Name": "Facet of Devotion",
+      "Description": "Killing enemies affected by Stasis or Strand Elemental Debuffs grants additional Light Transcendence Energy.\nRank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%"
+    },
+    {
+      "Name": "Facet of Dominance",
+      "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt."
+    },
+    {
+      "Name": "Facet of Generosity",
+      "Description": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds.\nUp to a maximum of 4 Orbs of Power can be spawned per Transcendence activation.\n\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%\nOrbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds."
+    },
+    {
+      "Name": "Facet of Grace",
+      "Description": "Kinetic Weapon Kills grant an additional 2% [?%] Transcendence energy.\n\nSuper Kills grant an additional 2% [?%] Transcendence Energy to the user and allies within ? metres."
+    },
+    {
+      "Name": "Facet of Honor",
+      "Description": "Picking up Elemental Pickups or destroying a Tangle grants additional Transcendence Energy of the matching alignment.\n\nIonic Traces, Firesprites, Void Breaches = 7.5% Light Energy \nStasis Shards = 5% Darkness Energy | Tangles = 10% Darkness Energy"
+    },
+    {
+      "Name": "Facet of Hope",
+      "Description": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff.\nEffect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs."
+    },
+    {
+      "Name": "Facet of Justice",
+      "Description": "Ability Kills while Transcendent trigger an explosion that deals up to 130 [?] Ability-Matching damage over ? meters"
+    },
+    {
+      "Name": "Facet of Mending",
+      "Description": "Grenade Ability Kills grant Cure x1.\nPrismatic Grenade Kills grant Cure x2."
+    },
+    {
+      "Name": "Facet of Protection",
+      "Description": "While within 15 metres of 3 enemies:\n15% [?%] Damage Resist.\nIn-Game Description is erroneous, the effect does NOT become increased while Transcendent. \nInstead, the 15% DR from Protection stacks with Transcendence's 20%, totalling 32% DR."
+    },
+    {
+      "Name": "Facet of Purpose",
+      "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 9 seconds.\nStrand: Woven Mail for 5 seconds."
+    },
+    {
+      "Name": "Facet of Ruin",
+      "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.\n\nIgnitions have 25% increased radius."
+    },
+    {
+      "Name": "Facet of Sacrifice",
+      "Description": "Ability Kills while affected by an Arc, Solar, or Void Elemental Buff grant an additional 1% [?%] Darkness Transcendence Energy."
+    },
+    {
+      "Name": "Facet of Solitude",
+      "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example."
     }
   ],
   "ExoticWeapons": [

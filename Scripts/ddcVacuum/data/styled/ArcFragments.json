@@ -1,0 +1,730 @@
+[
+  {
+    "Name": "Spark of Amplitude",
+    "Description": "While Amplified:\nScoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy.\nTriggering Amplified through an Arc Kill will count the kill towards the 2-kill counter.\nIncurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count.",
+    "hash": 3277705906,
+    "parentHash": "3277705906",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Triggering "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " through an "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Kill will count the kill towards the 2-kill counter."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Beacons",
+    "Description": "Special and Heavy Ammo Arc Weapon Kills while Amplified create a blinding blast, inflicting Blind to enemies within 7.5 metres.",
+    "hash": 1727069367,
+    "parentHash": "1727069367",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Heavy Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Weapon Kills while "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " create a blinding blast, inflicting "
+            },
+            {
+              "text": "Blind",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " to enemies within 7.5 metres."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Brilliance",
+    "Description": "Precision Kills against Blinded Enemies trigger a Blinding blast, inflicting Blind to enemies within 7.5 metres.",
+    "hash": 3277705905,
+    "parentHash": "3277705905",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Precision Kills against "
+            },
+            {
+              "text": "Blinded",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Enemies trigger a Blinding blast, inflicting "
+            },
+            {
+              "text": "Blind",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " to enemies within 7.5 metres."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Discharge",
+    "Description": "Arc Weapon Kills progress a counter that spawns an Ionic Trace upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\n\nPicking up Ionic Traces grants x1 Bolt Charge.",
+    "hash": 1727069362,
+    "parentHash": "1727069362",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Weapon Kills progress a counter that spawns an "
+            },
+            {
+              "text": "Ionic Trace",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " upon reaching 100%."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Picking up "
+            },
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " grants x1 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Feedback",
+    "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable.",
+    "hash": 3277705907,
+    "parentHash": "3277705907",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon being physically struck by a Melee Attack:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "100% ["
+            },
+            {
+              "text": "50%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Increased Melee Damage for the next Melee Hit within 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff is not refreshable."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Focus",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n150% [75%] Additional Base Class Ability Regeneration Rate.\nDeactivates once Class Ability has at least 1 charge readied.",
+    "hash": 1727069360,
+    "parentHash": "1727069360",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "150% ["
+            },
+            {
+              "text": "75%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Additional Base Class Ability Regeneration Rate."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Deactivates once Class Ability has at least 1 charge readied."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Frequency",
+    "Description": "Upon scoring a Melee Hit:\n+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds.\n\nWhile Amplified:\n(almost) All sources of Bolt Charge now grant an additional stack.\nIn-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses.",
+    "hash": 1727069361,
+    "parentHash": "1727069361",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Melee Hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "(almost) All sources of "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " now grant an additional stack."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "In-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Haste",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n Grants +50 Health Stat.",
+    "hash": 3478354817,
+    "parentHash": "3478354817",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants +50 Health Stat."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Instinct",
+    "Description": "While at Critical Health:\nBeing damaged releases a burst of Arc Energy, dealing up to 46 [20] damage and inflicting Jolt to enemies within ? metres.\nIncurs a 15? second cooldown between activations.",
+    "hash": 3478354816,
+    "parentHash": "3478354816",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While at Critical Health:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Being damaged releases a burst of "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Energy, dealing up to 46 ["
+            },
+            {
+              "text": "20",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage and inflicting "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " to enemies within ? metres."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 15? second cooldown between activations."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Ions",
+    "Description": "Killing Jolted Enemies, or scoring a Bolt Charge Kill creates an Ionic Trace.\nIncurs a 10 second cooldown between Ionic Traces spawns.",
+    "hash": 1727069363,
+    "parentHash": "1727069363",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Jolted",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Enemies, or scoring a "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Kill creates an "
+            },
+            {
+              "text": "Ionic Trace",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 second cooldown between "
+            },
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " spawns."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Magnitude",
+    "Description": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts.\n Pulse Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses.\n Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer.",
+    "hash": 1727069374,
+    "parentHash": "1727069374",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Pulse",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": " Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Momentum",
+    "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks.",
+    "hash": 1727069365,
+    "parentHash": "1727069365",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " stacks."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Recharge",
+    "Description": "Upon reaching Critical Health:\n400% [200%] Additional Base Grenade and Melee Ability Regeneration Rate.\nBuff lasts until Shields are fully restored.",
+    "hash": 1727069375,
+    "parentHash": "1727069375",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon reaching Critical Health:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "400% ["
+            },
+            {
+              "text": "200%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Additional Base Grenade and Melee Ability Regeneration Rate."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff lasts until Shields are fully restored."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Resistance",
+    "Description": "While within 15 metres of at least 3 enemies:\n25% [10%] Damage Resist.\nLingers for 2 seconds. ",
+    "hash": 1727069366,
+    "parentHash": "1727069366",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While within 15 metres of at least 3 enemies:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "25% ["
+            },
+            {
+              "text": "10%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage Resist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Lingers for 2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Shock",
+    "Description": "Arc Grenades inflict Jolt on hit.",
+    "hash": 1727069364,
+    "parentHash": "1727069364",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Grenades inflict "
+            },
+            {
+              "text": "Jolt",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " on hit."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Spark of Volts",
+    "Description": "Finishers grant Amplified and x1 Bolt Charge.",
+    "hash": 3277705904,
+    "parentHash": "3277705904",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Finishers grant "
+            },
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " and x1 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

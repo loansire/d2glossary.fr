@@ -1,0 +1,993 @@
+[
+  {
+    "Name": "Ember of Ashes",
+    "Description": "Scorch Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60.\nEvery source of Scorch will have its base number alongside Ember of Ashes' benefit in smaller text next to the regular stack amount. Eg: x40+20.\n\nCertain sources of Scorch do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others.",
+    "hash": 1051276349,
+    "parentHash": "1051276349",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Every source of "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " will have its base number alongside "
+            },
+            {
+              "text": "Ember of Ashes",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "' benefit in smaller text next to the regular stack amount. Eg: x40+20."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Certain sources of "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Beams",
+    "Description": "Solar Super Ability projectiles have stronger tracking towards enemies.\nCurrently only works with Blade Barrage Knives, Daybreak Projectiles. and Song of Flame Projectiles?",
+    "hash": 362132295,
+    "parentHash": "362132295",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Super Ability projectiles have stronger tracking towards enemies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Currently only works with "
+            },
+            {
+              "text": "Blade Barrage",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Knives, "
+            },
+            {
+              "text": "Daybreak",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Projectiles. and "
+            },
+            {
+              "text": "Song of Flame",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Projectiles?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Benevolence",
+    "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods",
+    "hash": 362132292,
+    "parentHash": "362132292",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Applying "
+            },
+            {
+              "text": "cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 ["
+            },
+            {
+              "text": "3.5?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Triggers Benevolence:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Well of Radiance",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Support Frame "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Burst"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Do NOT trigger Benevolence:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Empowering Rifts | Crest of Alpha Lupi's Healing "
+            },
+            {
+              "text": "Pulse",
+              "classNames": [
+                "weapon-pulse-rifle"
+              ]
+            },
+            {
+              "text": " | Mothkeeper's "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Moth | Non-"
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Support Frame "
+            },
+            {
+              "text": "Auto Rifles",
+              "classNames": [
+                "weapon-auto-rifle"
+              ]
+            },
+            {
+              "text": " | Mods"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Blistering",
+    "Description": "Ignition Kills grant Grenade Ability Energy based on Enemy Rank. \nT1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%",
+    "hash": 362132301,
+    "parentHash": "362132301",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Ignition",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Kills grant Grenade Ability Energy based on Enemy Rank."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "T1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Char",
+    "Description": "Ignitions inflict x40+20 Scorch to enemies damaged by the explosion.\nDoes not apply to the ignited enemy.",
+    "hash": 362132291,
+    "parentHash": "362132291",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Ignitions",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " inflict x40+20 "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " to enemies damaged by the explosion."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not apply to the "
+            },
+            {
+              "text": "ignited",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " enemy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Combustion",
+    "Description": "Solar Super Kills trigger an ignition and spawn a Firesprite.\nWell of Radiance makes all of the Caster's Weapon Damage count as Super Ability Damage. Solar Weapons Kills will count as Solar Super Kills.",
+    "hash": 362132289,
+    "parentHash": "362132289",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Super Kills trigger an "
+            },
+            {
+              "text": "ignition",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " and spawn a "
+            },
+            {
+              "text": "Firesprite",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Well of Radiance",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " makes all of the Caster's Weapon Damage count as Super Ability Damage. "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Weapons Kills will count as "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Super Kills."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Empyrean",
+    "Description": "Solar Kills extend Restoration and Radiant effects. Buff duration cannot exceed 15 seconds. \nScoring a Solar Kill while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds.\n\nT1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds",
+    "hash": 362132294,
+    "parentHash": "362132294",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Kills extend "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " effects. Buff duration cannot exceed 15 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring a "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Kill while a "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "T1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Eruption",
+    "Description": "Ignitions have 25% increased radius.\n8 -> 10 meters.",
+    "hash": 1051276348,
+    "parentHash": "1051276348",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Ignitions",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " have 25% increased radius."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "8 -> 10 meters."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Mercy",
+    "Description": "On Firesprite Pickup:\nRestoration x1 for 2+1 seconds.\nIf Restoration is active, then it will extend its duration by 2+1 seconds.\nPicking up a Firesprite while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds\n\nOn Ally Revival:\nUser and allies within ? metres Restoration x1 for 5+2.5 seconds.",
+    "hash": 4180586737,
+    "parentHash": "4180586737",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Firesprite",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Pickup:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x1 for 2+1 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "If "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " is active, then it will extend its duration by 2+1 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Picking up a "
+            },
+            {
+              "text": "Firesprite",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " while a "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "On Ally Revival:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "User and allies within ? metres "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x1 for 5+2.5 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Resolve",
+    "Description": "Grenade Kills grant Cure x1.",
+    "hash": 4180586736,
+    "parentHash": "4180586736",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Grenade Kills grant "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x1."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Searing",
+    "Description": "Killing Scorched enemies grants Melee Ability Energy based on Enemy Rank and spawns a Firesprite.\nT1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%",
+    "hash": 1051276351,
+    "parentHash": "1051276351",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing "
+            },
+            {
+              "text": "Scorched",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " enemies grants Melee Ability Energy based on Enemy Rank and spawns a "
+            },
+            {
+              "text": "Firesprite",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "T1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Singeing",
+    "Description": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting Scorch to enemies.\nOnly triggers upon inflicting Scorch to a non-scorched enemy. Will not activate if the enemy dies from the hit that would have Scorched.",
+    "hash": 362132293,
+    "parentHash": "362132293",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " to enemies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only triggers upon inflicting "
+            },
+            {
+              "text": "Scorch",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " to a non-"
+            },
+            {
+              "text": "scorched",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " enemy. Will not activate if the enemy dies from the hit that would have "
+            },
+            {
+              "text": "Scorched",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Solace",
+    "Description": "Restoration and Radiant effects last 50% longer on the user.\nSources of Solar Effects will have their base duration alongside Ember of Solace's benefit in smaller text. Eg: 10+5 Radiant, or 4+2 Restoration.",
+    "hash": 362132300,
+    "parentHash": "362132300",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " effects last 50% longer on the user."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sources of "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Effects will have their base duration alongside "
+            },
+            {
+              "text": "Ember of Solace",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "'s benefit in smaller text. Eg: 10+5 "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", or 4+2 "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Tempering",
+    "Description": "Solar Weapon Kills grant a stack of Ember of Tempering for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks.\n\nEmber of Tempering:\n +20 Airborne Effectiveness and Solar Weapon Kills spawn a Firesprite while active.\n+20 | +40 | +60 Health Stat based on the stack amount.",
+    "hash": 362132290,
+    "parentHash": "362132290",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Weapon Kills grant a stack of "
+            },
+            {
+              "text": "Ember of Tempering",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ember of Tempering",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 Airborne Effectiveness and "
+            },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Weapon Kills spawn a "
+            },
+            {
+              "text": "Firesprite",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " while active."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+20 | +40 | +60 Health Stat based on the stack amount."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Torches",
+    "Description": "Powered Melee Hits grant Radiant for 8+4 seconds to the user and allies within 8 meters.",
+    "hash": 362132288,
+    "parentHash": "362132288",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Powered Melee Hits grant "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " for 8+4 seconds to the user and allies within 8 meters."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ember of Wonder",
+    "Description": "Killing 2 enemies within ? seconds of each with Ignitions creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown upon creating an Orb of Power.",
+    "hash": 1051276350,
+    "parentHash": "1051276350",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing 2 enemies within ? seconds of each with "
+            },
+            {
+              "text": "Ignitions",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " creates an Orb of Power that grants 2.5% Super Energy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 10 second cooldown upon creating an Orb of Power."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

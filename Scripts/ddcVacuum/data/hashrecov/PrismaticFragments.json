@@ -1,0 +1,128 @@
+[
+  {
+    "Name": "Facet of Awakening",
+    "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup.",
+    "hash": 124726505,
+    "parentHash": "124726505"
+  },
+  {
+    "Name": "Facet of Balance",
+    "Description": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy.",
+    "hash": 2626922114,
+    "parentHash": "2626922114"
+  },
+  {
+    "Name": "Facet of Blessing",
+    "Description": "Melee Kills begin health regeneration. \nEffect applies to allies within ? metres while Transcendent.",
+    "hash": 124726496,
+    "parentHash": "124726496"
+  },
+  {
+    "Name": "Facet of Bravery",
+    "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\n\nPowered Melee Kills grant Unraveling Rounds to Strand Weapons for 11.25 [7.5] seconds.",
+    "hash": 124726503,
+    "parentHash": "124726503"
+  },
+  {
+    "Name": "Facet of Command",
+    "Description": "Freezing or Suppressing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively.",
+    "hash": 124726497,
+    "parentHash": "124726497"
+  },
+  {
+    "Name": "Facet of Courage",
+    "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs.\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage.",
+    "hash": 2626922124,
+    "parentHash": "2626922124"
+  },
+  {
+    "Name": "Facet of Dawn",
+    "Description": "Powered Melee Hits grant Radiant for 5 seconds.\n\nPowered Melee Kills grant Radiant for 5 seconds to the user and allies within ? metres.",
+    "hash": 2626922126,
+    "parentHash": "2626922126"
+  },
+  {
+    "Name": "Facet of Defiance",
+    "Description": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters.\nArc = Jolt | Solar = x40 Scorch | Void = Volatile \nStasis = x? Slow for ? seconds | Strand = Sever",
+    "hash": 74393640,
+    "parentHash": "74393640"
+  },
+  {
+    "Name": "Facet of Devotion",
+    "Description": "Killing enemies affected by Stasis or Strand Elemental Debuffs grants additional Light Transcendence Energy.\nRank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%",
+    "hash": 2626922125,
+    "parentHash": "2626922125"
+  },
+  {
+    "Name": "Facet of Dominance",
+    "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.",
+    "hash": 124726504,
+    "parentHash": "124726504"
+  },
+  {
+    "Name": "Facet of Generosity",
+    "Description": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds.\nUp to a maximum of 4 Orbs of Power can be spawned per Transcendence activation.\n\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%\nOrbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds.",
+    "hash": 2626922127,
+    "parentHash": "2626922127"
+  },
+  {
+    "Name": "Facet of Grace",
+    "Description": "Kinetic Weapon Kills grant an additional 2% [?%] Transcendence energy.\n\nSuper Kills grant an additional 2% [?%] Transcendence Energy to the user and allies within ? metres.",
+    "hash": 2626922121,
+    "parentHash": "2626922121"
+  },
+  {
+    "Name": "Facet of Honor",
+    "Description": "Picking up Elemental Pickups or destroying a Tangle grants additional Transcendence Energy of the matching alignment.\n\nIonic Traces, Firesprites, Void Breaches = 7.5% Light Energy \nStasis Shards = 5% Darkness Energy | Tangles = 10% Darkness Energy",
+    "hash": 124726501,
+    "parentHash": "124726501"
+  },
+  {
+    "Name": "Facet of Hope",
+    "Description": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff.\nEffect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs.",
+    "hash": 2626922122,
+    "parentHash": "2626922122"
+  },
+  {
+    "Name": "Facet of Justice",
+    "Description": "Ability Kills while Transcendent trigger an explosion that deals up to 130 [?] Ability-Matching damage over ? meters",
+    "hash": 2626922115,
+    "parentHash": "2626922115"
+  },
+  {
+    "Name": "Facet of Mending",
+    "Description": "Grenade Ability Kills grant Cure x1.\nPrismatic Grenade Kills grant Cure x2.",
+    "hash": 124726500,
+    "parentHash": "124726500"
+  },
+  {
+    "Name": "Facet of Protection",
+    "Description": "While within 15 metres of 3 enemies:\n15% [?%] Damage Resist.\nIn-Game Description is erroneous, the effect does NOT become increased while Transcendent. \nInstead, the 15% DR from Protection stacks with Transcendence's 20%, totalling 32% DR.",
+    "hash": 2626922120,
+    "parentHash": "2626922120"
+  },
+  {
+    "Name": "Facet of Purpose",
+    "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 9 seconds.\nStrand: Woven Mail for 5 seconds.",
+    "hash": 124726498,
+    "parentHash": "124726498"
+  },
+  {
+    "Name": "Facet of Ruin",
+    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.\n\nIgnitions have 25% increased radius.",
+    "hash": 124726499,
+    "parentHash": "124726499"
+  },
+  {
+    "Name": "Facet of Sacrifice",
+    "Description": "Ability Kills while affected by an Arc, Solar, or Void Elemental Buff grant an additional 1% [?%] Darkness Transcendence Energy.",
+    "hash": 124726502,
+    "parentHash": "124726502"
+  },
+  {
+    "Name": "Facet of Solitude",
+    "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example.",
+    "hash": 2626922123,
+    "parentHash": "2626922123"
+  }
+]
