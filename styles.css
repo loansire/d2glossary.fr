@@ -173,3 +173,31 @@ h1 {
 .share-btn {
   left: var(--spacing-sm);
 }
+
+.item-meta {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.badge-arc { background-color: #85c5f1; color: #1a1a1a; }
+.badge-void { background-color: #b19cd9; color: #1a1a1a; }
+.badge-solar { background-color: #f0631e; color: #fff; }
+.badge-stasis { background-color: #4d88ff; color: #fff; }
+.badge-strand { background-color: #2e7d4e; color: #fff; }
+.badge-prismatic {
+    background: linear-gradient(90deg, #85c5f1, #b19cd9, #f0631e);
+    color: #fff;
+}
+
+.badge-class { background-color: #444; color: #fff; }
+.badge-type { background-color: #666; color: #fff; }

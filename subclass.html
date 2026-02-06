@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="assets/src/ico/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/src/ico/favicon.svg" />
+  <link rel="shortcut icon" href="assets/src/ico/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/src/ico/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="D2Glossary" />
+  <link rel="manifest" href="assets/src/ico/site.webmanifest" />
+
+  <!-- Preload ressources critiques -->
+  <link rel="preload" href="assets/fonts/NeueHaasDisplayRoman.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/src/ico/logo-d2glossaire.png" as="image">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/banniere.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/d2elementstyles.css">
+  <link rel="stylesheet" href="assets/css/pagination.css">
+  <link rel="stylesheet" href="assets/css/loader.css">
+  <link rel="stylesheet" href="assets/css/language-selector.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/banniere.css">
+  <link rel="stylesheet" href="assets/css/popupitem.css">
+  <link rel="stylesheet" href="assets/css/ddcvacuum-popup.css">
+  <link rel="stylesheet" href="assets/css/subclass.css">
+
+  <title>D2Glossary - Subclass</title>
+</head>
+<body>
+  <!-- Sélecteur de langue -->
+  <div id="language-selector-container"></div>
+
+  <div id="banniere-container"></div>
+
+  <!-- Filtres par élément -->
+  <div id="subclass-filters"></div>
+
+  <div class="search-box">
+    <div class="input-container">
+      <input type="text" id="search" placeholder="Rechercher une compétence de sous-classe...">
+      <button id="clear-button" class="clear-button" aria-label="Clear">✖</button>
+    </div>
+    <div id="result-count"></div>
+  </div>
+
+  <div id="card-list"></div>
+
+  <div id="popupitem-container"></div>
+
+  <!-- JS - Charger dataManager avant tout -->
+  <script type="module">
+    import { loadHTML } from './assets/js/utils.js';
+    import { checkVersion } from './assets/js/dataManager.js';
+    import { loadSubclassPage } from './assets/js/subclassPage.js';
+    import { initLanguageSystem } from './assets/js/languageSelector.js';
+
+    // Charger la bannière avec navigation
+    await loadHTML('assets/html/banniere.html', 'banniere-container');
+
+    // Importer et initialiser la navigation
+    const { initBanniereNavigation } = await import('./assets/js/banniere.js');
+    initBanniereNavigation();
+
+    // Initialiser le système de langue
+    const lang = initLanguageSystem();
+
+    // Vérifier la version avant de charger les données
+    await checkVersion();
+
+    // Charger la page subclass
+    loadSubclassPage({
+      dataFile: `data/${lang}/subclass_definitions_enriched.json`,
+      containerId: 'card-list',
+      inputId: 'search',
+      excludedIds: [
+        "1618645595", "2111549310", "2164407902", "3207138885", "4037640975",
+        "330751742", "1372656117", "1372656116", "770211541", "3834374608",
+        "662916127", "2801436041", "3363787531", "1826298670", "3472368310",
+        "2789698445", "2802541735", "4205702044", "424005861", "2352766955",
+        "3416473448", "3875863236", "2808665197", "3720092164", "1080004479",
+        "3635963100", "518663192"
+      ],
+    });
+  </script>
+</body>
+</html>

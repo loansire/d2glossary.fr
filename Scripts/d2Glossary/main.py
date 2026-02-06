@@ -12,6 +12,7 @@ from Process.updateManifests import update_manifests
 from Process.enrichArmorSet import enrich_armor_sets
 from Process.updateVersion import update_version
 from Utils.paths import SUPPORTED_LANGUAGES
+from Process.enrichSubclass import enrich_subclasses
 
 
 def print_header(title):
@@ -79,16 +80,18 @@ Exemples d'utilisation:
     print_step(current_step, total_steps, "Enrichissement des données")
 
     try:
-        if not enrich_armor_sets(languages):
-            print("\n❌ Échec de l'enrichissement des données")
+        if not enrich_armor_sets():
+            print("\n❌ Échec de l'enrichissement des sets/artefacts")
             success = False
+
+        # Enrichir les subclass
+        if success and not enrich_subclasses():
+            print("\n❌ Échec de l'enrichissement des subclass")
+            success = False
+
     except Exception as e:
         print(f"\n❌ Erreur lors de l'enrichissement: {e}")
         success = False
-
-    if not success:
-        print_header("❌ ÉCHEC DE LA MISE À JOUR")
-        return False
 
     # === ÉTAPE 3 : Mise à jour de la version ===
     current_step += 1
@@ -108,6 +111,7 @@ Exemples d'utilisation:
         print("\n📊 Résumé:")
         print("   ✅ Manifests téléchargés et nettoyés")
         print("   ✅ Données enrichies (sets d'armure et artefacts)")
+        print("   ✅ Données enrichies (sets d'armure, artefacts et subclass)")
         print("   ✅ Version mise à jour")
         print(f"\n🌐 Langues traitées: {', '.join(lang.upper() for lang in languages)}")
         print(f"\n💡 Les données sont maintenant disponibles dans:")

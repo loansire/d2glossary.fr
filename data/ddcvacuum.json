@@ -88600,7 +88600,7 @@
     },
     {
       "Name": "Kinetic Synthesis",
-      "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo.\nNo Land Beyond can spawn an Ammo Brick but does not receive ammo.",
+      "Description": "Dealing Kinetic Weapon Damage and scoring Kinetic Weapon Kills progress a counter, spawning an unique Kinetic Ammo Brick upon reaching 100%.\nCounter lasts 15s and is refreshed upon dealing Kinetic Weapon Damage.\n\nEach damage point grants 0.0265% progress, requiring 3770 damage to spawn a brick.\nRnF Kill = 8% | Elite = 15% | Miniboss = 25%\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\nThis means it requires the same \"hits\" regardless of delta.\n\nUpon collecting a Kinetic Ammo Brick:\nRefills equipped Kinetic Damage Weapons and generates Special/Power Ammo.\n5% Special and 5% Heavy Ammo Progress.\n\nKinetic Ammo Generation is unaffected by Scavenger Bricks.\nGenerates 33% of Magazine, rounded up, with certain exceptions.\nCounts for Ammo Pickup effects.\n\nBastion = +1 Ammo | Microcosm = +24 Ammo.",
       "hash": "193266679",
       "parentHash": "2894222926",
       "parentName": "Implement of Curiosity",
@@ -88812,13 +88812,6 @@
             "linesContent": [
               {
                 "text": "Bastion = +1 Ammo | Microcosm = +24 Ammo."
-              }
-            ]
-          },
-          {
-            "linesContent": [
-              {
-                "text": "No Land Beyond can spawn an Ammo Brick but does not receive ammo."
               }
             ]
           }
@@ -90821,6 +90814,736 @@
       }
     }
   ],
+  "ArcFragments": [
+    {
+      "Name": "Spark of Amplitude",
+      "Description": "While Amplified:\nScoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy.\nTriggering Amplified through an Arc Kill will count the kill towards the 2-kill counter.\nIncurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count.",
+      "hash": 3277705906,
+      "parentHash": "3277705906",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While "
+              },
+              {
+                "text": "Amplified",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Scoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Triggering "
+              },
+              {
+                "text": "Amplified",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " through an "
+              },
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Kill will count the kill towards the 2-kill counter."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Beacons",
+      "Description": "Special and Heavy Ammo Arc Weapon Kills while Amplified create a blinding blast, inflicting Blind to enemies within 7.5 metres.",
+      "hash": 1727069367,
+      "parentHash": "1727069367",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Special",
+                "classNames": [
+                  "special"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Heavy Ammo",
+                "classNames": [
+                  "heavy"
+                ]
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Weapon Kills while "
+              },
+              {
+                "text": "Amplified",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " create a blinding blast, inflicting "
+              },
+              {
+                "text": "Blind",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " to enemies within 7.5 metres."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Brilliance",
+      "Description": "Precision Kills against Blinded Enemies trigger a Blinding blast, inflicting Blind to enemies within 7.5 metres.",
+      "hash": 3277705905,
+      "parentHash": "3277705905",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Precision Kills against "
+              },
+              {
+                "text": "Blinded",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Enemies trigger a Blinding blast, inflicting "
+              },
+              {
+                "text": "Blind",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " to enemies within 7.5 metres."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Discharge",
+      "Description": "Arc Weapon Kills progress a counter that spawns an Ionic Trace upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\n\nPicking up Ionic Traces grants x1 Bolt Charge.",
+      "hash": 1727069362,
+      "parentHash": "1727069362",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Weapon Kills progress a counter that spawns an "
+              },
+              {
+                "text": "Ionic Trace",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " upon reaching 100%."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%"
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Picking up "
+              },
+              {
+                "text": "Ionic Traces",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " grants x1 "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Feedback",
+      "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable.",
+      "hash": 3277705907,
+      "parentHash": "3277705907",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon being physically struck by a Melee Attack:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "100% ["
+              },
+              {
+                "text": "50%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Increased Melee Damage for the next Melee Hit within 5 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Buff is not refreshable."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Focus",
+      "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n150% [75%] Additional Base Class Ability Regeneration Rate.\nDeactivates once Class Ability has at least 1 charge readied.",
+      "hash": 1727069360,
+      "parentHash": "1727069360",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "150% ["
+              },
+              {
+                "text": "75%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Additional Base Class Ability Regeneration Rate."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Deactivates once Class Ability has at least 1 charge readied."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Frequency",
+      "Description": "Upon scoring a Melee Hit:\n+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds.\n\nWhile Amplified:\n(almost) All sources of Bolt Charge now grant an additional stack.\nIn-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses.",
+      "hash": 1727069361,
+      "parentHash": "1727069361",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon scoring a Melee Hit:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "While "
+              },
+              {
+                "text": "Amplified",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "(almost) All sources of "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " now grant an additional stack."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "In-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Haste",
+      "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n Grants +50 Health Stat.",
+      "hash": 3478354817,
+      "parentHash": "3478354817",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants +50 Health Stat."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Instinct",
+      "Description": "While at Critical Health:\nBeing damaged releases a burst of Arc Energy, dealing up to 46 [20] damage and inflicting Jolt to enemies within ? metres.\nIncurs a 15? second cooldown between activations.",
+      "hash": 3478354816,
+      "parentHash": "3478354816",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While at Critical Health:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Being damaged releases a burst of "
+              },
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Energy, dealing up to 46 ["
+              },
+              {
+                "text": "20",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage and inflicting "
+              },
+              {
+                "text": "Jolt",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " to enemies within ? metres."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 15? second cooldown between activations."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Ions",
+      "Description": "Killing Jolted Enemies, or scoring a Bolt Charge Kill creates an Ionic Trace.\nIncurs a 10 second cooldown between Ionic Traces spawns.",
+      "hash": 1727069363,
+      "parentHash": "1727069363",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Jolted",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Enemies, or scoring a "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Kill creates an "
+              },
+              {
+                "text": "Ionic Trace",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown between "
+              },
+              {
+                "text": "Ionic Traces",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " spawns."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Magnitude",
+      "Description": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts.\n Pulse Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses.\n Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer.",
+      "hash": 1727069374,
+      "parentHash": "1727069374",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Momentum",
+      "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks.",
+      "hash": 1727069365,
+      "parentHash": "1727069365",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " stacks."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Recharge",
+      "Description": "Upon reaching Critical Health:\n400% [200%] Additional Base Grenade and Melee Ability Regeneration Rate.\nBuff lasts until Shields are fully restored.",
+      "hash": 1727069375,
+      "parentHash": "1727069375",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon reaching Critical Health:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "400% ["
+              },
+              {
+                "text": "200%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Additional Base Grenade and Melee Ability Regeneration Rate."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Buff lasts until Shields are fully restored."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Resistance",
+      "Description": "While within 15 metres of at least 3 enemies:\n25% [10%] Damage Resist.\nLingers for 2 seconds. ",
+      "hash": 1727069366,
+      "parentHash": "1727069366",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While within 15 metres of at least 3 enemies:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "25% ["
+              },
+              {
+                "text": "10%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage Resist."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Lingers for 2 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Shock",
+      "Description": "Arc Grenades inflict Jolt on hit.",
+      "hash": 1727069364,
+      "parentHash": "1727069364",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Grenades inflict "
+              },
+              {
+                "text": "Jolt",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " on hit."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Spark of Volts",
+      "Description": "Finishers grant Amplified and x1 Bolt Charge.",
+      "hash": 3277705904,
+      "parentHash": "3277705904",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Finishers grant "
+              },
+              {
+                "text": "Amplified",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " and x1 "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "SolarVerbs": [
     {
       "Name": "Cure",
@@ -91722,6 +92445,999 @@
       }
     }
   ],
+  "SolarFragments": [
+    {
+      "Name": "Ember of Ashes",
+      "Description": "Scorch Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60.\nEvery source of Scorch will have its base number alongside Ember of Ashes' benefit in smaller text next to the regular stack amount. Eg: x40+20.\n\nCertain sources of Scorch do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others.",
+      "hash": 1051276349,
+      "parentHash": "1051276349",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Stacks inflicted are increased by 50%, rounded up. Eg: x3 -> x5 | x40 -> x60."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Every source of "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " will have its base number alongside "
+              },
+              {
+                "text": "Ember of Ashes",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "' benefit in smaller text next to the regular stack amount. Eg: x40+20."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Certain sources of "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " do not follow the 50% increase, such as Caliban's Hand (x60+0), Tommy's Matchbook (x15+5), Skyburner's Oath (x5+5), among others."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Beams",
+      "Description": "Solar Super Ability projectiles have stronger tracking towards enemies.\nCurrently only works with Blade Barrage Knives, Daybreak Projectiles. and Song of Flame Projectiles?",
+      "hash": 362132295,
+      "parentHash": "362132295",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Super Ability projectiles have stronger tracking towards enemies."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Currently only works with "
+              },
+              {
+                "text": "Blade Barrage",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Knives, "
+              },
+              {
+                "text": "Daybreak",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Projectiles. and "
+              },
+              {
+                "text": "Song of Flame",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Projectiles?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Benevolence",
+      "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods",
+      "hash": 362132292,
+      "parentHash": "362132292",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Applying "
+              },
+              {
+                "text": "cure",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 ["
+              },
+              {
+                "text": "3.5?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Triggers Benevolence:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Well of Radiance",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Support Frame "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Burst"
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Do NOT trigger Benevolence:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Empowering Rifts | Crest of Alpha Lupi's Healing "
+              },
+              {
+                "text": "Pulse",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              },
+              {
+                "text": " | Mothkeeper's "
+              },
+              {
+                "text": "Overshield",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Moth | "
+              },
+              {
+                "text": "Non-Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Support Frame "
+              },
+              {
+                "text": "Auto Rifles",
+                "classNames": [
+                  "weapon-auto-rifle"
+                ]
+              },
+              {
+                "text": " | Mods"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Blistering",
+      "Description": "Ignition Kills grant Grenade Ability Energy based on Enemy Rank. \nT1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%",
+      "hash": 362132301,
+      "parentHash": "362132301",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Ignition",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Kills grant Grenade Ability Energy based on Enemy Rank."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "T1 Combatant = 8% | T2 = 12.25% | T3 = 16.5% |  T4 = 25% | Guardians = 20.75%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Char",
+      "Description": "Ignitions inflict x40+20 Scorch to enemies damaged by the explosion.\nDoes not apply to the ignited enemy.",
+      "hash": 362132291,
+      "parentHash": "362132291",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Ignitions",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " inflict x40+20 "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " to enemies damaged by the explosion."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Does not apply to the "
+              },
+              {
+                "text": "ignited",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " enemy."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Combustion",
+      "Description": "Solar Super Kills trigger an ignition and spawn a Firesprite.\nWell of Radiance makes all of the Caster's Weapon Damage count as Super Ability Damage. Solar Weapons Kills will count as Solar Super Kills.",
+      "hash": 362132289,
+      "parentHash": "362132289",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Super Kills trigger an "
+              },
+              {
+                "text": "ignition",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " and spawn a "
+              },
+              {
+                "text": "Firesprite",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Well of Radiance",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " makes all of the Caster's Weapon Damage count as Super Ability Damage. "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Weapons Kills will count as "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Super Kills."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Empyrean",
+      "Description": "Solar Kills extend Restoration and Radiant effects. Buff duration cannot exceed 15 seconds. \nScoring a Solar Kill while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds.\n\nT1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds",
+      "hash": 362132294,
+      "parentHash": "362132294",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Kills extend "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " effects. Buff duration cannot exceed 15 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Scoring a "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Kill while a "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "T1 Combatant = +1.5 seconds | T2 = +2.25 seconds | T3 = +3 seconds | T4 = +6 seconds | Guardians = +3 seconds"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Eruption",
+      "Description": "Ignitions have 25% increased radius.\n8 -> 10 meters.",
+      "hash": 1051276348,
+      "parentHash": "1051276348",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Ignitions",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " have 25% increased radius."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "8 -> 10 meters."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Mercy",
+      "Description": "On Firesprite Pickup:\nRestoration x1 for 2+1 seconds.\nIf Restoration is active, then it will extend its duration by 2+1 seconds.\nPicking up a Firesprite while a Solar Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds\n\nOn Ally Revival:\nUser and allies within ? metres Restoration x1 for 5+2.5 seconds.",
+      "hash": 4180586737,
+      "parentHash": "4180586737",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "On "
+              },
+              {
+                "text": "Firesprite",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Pickup:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x1 for 2+1 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "If "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " is active, then it will extend its duration by 2+1 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Picking up a "
+              },
+              {
+                "text": "Firesprite",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " while a "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Effect's timer is >15 seconds will lower it to 15 seconds. Eg: Stronghold + Solace + Doppler Efect = 26 seconds -> 15 seconds"
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "On Ally Revival:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "User and allies within ? metres "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x1 for 5+2.5 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Resolve",
+      "Description": "Grenade Kills grant Cure x1.",
+      "hash": 4180586736,
+      "parentHash": "4180586736",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Kills grant "
+              },
+              {
+                "text": "Cure",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x1."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Searing",
+      "Description": "Killing Scorched enemies grants Melee Ability Energy based on Enemy Rank and spawns a Firesprite.\nT1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%",
+      "hash": 1051276351,
+      "parentHash": "1051276351",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Scorched",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " enemies grants Melee Ability Energy based on Enemy Rank and spawns a "
+              },
+              {
+                "text": "Firesprite",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "T1 Combatant = 8% | T2 = 15% | T3 = 17.5% | T4 = 25% | Guardians = 20%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Singeing",
+      "Description": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting Scorch to enemies.\nOnly triggers upon inflicting Scorch to a non-scorched enemy. Will not activate if the enemy dies from the hit that would have Scorched.",
+      "hash": 362132293,
+      "parentHash": "362132293",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "400% Additional Base Class Ability Regeneration Rate for 3 seconds upon inflicting "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " to enemies."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Only triggers upon inflicting "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " to a "
+              },
+              {
+                "text": "non-scorched",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " enemy. Will not activate if the enemy dies from the hit that would have "
+              },
+              {
+                "text": "Scorched",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Solace",
+      "Description": "Restoration and Radiant effects last 50% longer on the user.\nSources of Solar Effects will have their base duration alongside Ember of Solace's benefit in smaller text. Eg: 10+5 Radiant, or 4+2 Restoration.",
+      "hash": 362132300,
+      "parentHash": "362132300",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " effects last 50% longer on the user."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Sources of "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Effects will have their base duration alongside "
+              },
+              {
+                "text": "Ember of Solace",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "'s benefit in smaller text. Eg: 10+5 "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", or 4+2 "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Tempering",
+      "Description": "Solar Weapon Kills grant a stack of Ember of Tempering for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks.\n\nEmber of Tempering:\n +20 Airborne Effectiveness and Solar Weapon Kills spawn a Firesprite while active.\n+20 | +40 | +60 Health Stat based on the stack amount.",
+      "hash": 362132290,
+      "parentHash": "362132290",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Weapon Kills grant a stack of "
+              },
+              {
+                "text": "Ember of Tempering",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " for the user and allies within 15 meters for 8 seconds, up to a maximum of 3 stacks."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Ember of Tempering",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "+20 Airborne Effectiveness and "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " Weapon Kills spawn a "
+              },
+              {
+                "text": "Firesprite",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " while active."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "+20 | +40 | +60 Health Stat based on the stack amount."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Torches",
+      "Description": "Powered Melee Hits grant Radiant for 8+4 seconds to the user and allies within 8 meters.",
+      "hash": 362132288,
+      "parentHash": "362132288",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Powered Melee Hits grant "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " for 8+4 seconds to the user and allies within 8 meters."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Ember of Wonder",
+      "Description": "Killing 2 enemies within ? seconds of each with Ignitions creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown upon creating an Orb of Power.",
+      "hash": 1051276350,
+      "parentHash": "1051276350",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing 2 enemies within ? seconds of each with "
+              },
+              {
+                "text": "Ignitions",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " creates an Orb of Power that grants 2.5% Super Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown upon creating an Orb of Power."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "VoidVerbs": [
     {
       "Name": "Devour",
@@ -91889,7 +93605,16 @@
           {
             "linesContent": [
               {
-                "text": "Shooting | Grenade, Melee, Super, or Blink Ability Usage | Barricade or Rift Placement | Vehicle Summon"
+                "text": "Shooting | Grenade, Melee, Super, or "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Ability Usage | Barricade or Rift Placement | Vehicle Summon"
               }
             ]
           },
@@ -91908,7 +93633,16 @@
           {
             "linesContent": [
               {
-                "text": "Beginning Sprint | Non-Blink Movement Ability Usage | Hunter Class Ability Usage"
+                "text": "Beginning Sprint | "
+              },
+              {
+                "text": "Non-Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Movement Ability Usage | Hunter Class Ability Usage"
               }
             ]
           }
@@ -92540,6 +94274,687 @@
               },
               {
                 "text": " effect."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "VoidFragments": [
+    {
+      "Name": "Echo of Cessation",
+      "Description": "Finishers apply Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach.",
+      "hash": 3854948620,
+      "parentHash": "3854948620",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Finishers apply "
+              },
+              {
+                "text": "Volatile",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " to enemies within ? metres."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Volatile",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Enemies spawns a "
+              },
+              {
+                "text": "Void Breach",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Dilation",
+      "Description": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched.\nCrouch Speed cannot be decreased below 4m/s, identically to Transversives Steps.",
+      "hash": 2272984656,
+      "parentHash": "2272984656",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Crouch Speed is set to 4 meters per second and grants doubled radar resolution while crouched."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Crouch Speed cannot be decreased below 4m/s, identically to Transversives Steps."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Domineering",
+      "Description": "Suppressing an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon.\nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Suppressed Enemies spawns a Void Breach.",
+      "hash": 2272984657,
+      "parentHash": "2272984657",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Suppressing",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " an enemy grants +30 Weapons and 4% Forward Movement Speed Bonus for 10 seconds and refills the readied weapon."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 4 second cooldown before it can be reactivated."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Suppressed",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Enemies spawns a "
+              },
+              {
+                "text": "Void Breach",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Exchange",
+      "Description": "Melee Kills grant Grenade Energy based on Enemy Rank.\n Tier 1 Combatants = 7.5%\nTier 2 Combatants = 11%\nTier 3 Combatants | Guardians = 16.25%\n Tier 4 Combatant | Minibosses | Bosses = 25% ",
+      "hash": 2272984667,
+      "parentHash": "2272984667",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Melee Kills grant Grenade Energy based on Enemy Rank."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 1 Combatants = 7.5%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 2 Combatants = 11%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 3 Combatants | Guardians = 16.25%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 4 Combatant | Minibosses | Bosses = 25%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Expulsion",
+      "Description": "Void Ability Kills cause enemies to explode, dealing up to 160 [130] damage in a 7 metre radius.",
+      "hash": 2272984665,
+      "parentHash": "2272984665",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Ability Kills cause enemies to explode, dealing up to 160 ["
+              },
+              {
+                "text": "130",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage in a 7 metre radius."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Harvest",
+      "Description": "Killing Weakened Enemies creates an Orb of Power that grants 2.5% Super Energy and a Void Breach.\nIncurs a 10 second cooldown upon creating an Orb of Power.",
+      "hash": 2661180601,
+      "parentHash": "2661180601",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Weakened",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Enemies creates an Orb of Power that grants 2.5% Super Energy and a "
+              },
+              {
+                "text": "Void Breach",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown upon creating an Orb of Power."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Instability",
+      "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\nDoes not require Void Grenade Kills.",
+      "hash": 2661180600,
+      "parentHash": "2661180600",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Kills grant "
+              },
+              {
+                "text": "Volatile Rounds",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " to "
+              },
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Weapons for 11.25 ["
+              },
+              {
+                "text": "7.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Does not require "
+              },
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Grenade Kills."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Leeching",
+      "Description": "Melee Kills begin health regeneration for the user and allies within ? metres.",
+      "hash": 2272984670,
+      "parentHash": "2272984670",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Melee Kills begin health regeneration for the user and allies within ? metres."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Obscurity",
+      "Description": "Finishers grant Invisibility for 5+2 seconds.",
+      "hash": 2661180602,
+      "parentHash": "2661180602",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Finishers grant "
+              },
+              {
+                "text": "Invisibility",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " for 5+2 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Persistence",
+      "Description": "Void Buffs applied to the user last longer.\nDevour: 50% Increased duration.\nInvisibility: 40% increased duration.\nVoid Overshield: 50% increased duration.",
+      "hash": 2272984671,
+      "parentHash": "2272984671",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Buffs applied to the user last longer."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Devour",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ": 50% Increased duration."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Invisibility",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ": 40% increased duration."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Void Overshield",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ": 50% increased duration."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Provision",
+      "Description": "Grenade Ability Damage grants Melee Energy.\nCan only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable.\n\n3% Melee Energy: Scatter, Spike, Voidwall, Vortex\n8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor",
+      "hash": 2272984664,
+      "parentHash": "2272984664",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Ability Damage grants Melee Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Can only activate once per damage instance. Hitting multiple enemies counts as 1 instance. Does not work with Unbreakable."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "3% Melee Energy: Scatter, Spike, Voidwall, Vortex"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "8% Melee Energy: Axion, Handheld Supernova, Magnetic, Suppressor"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Remnants",
+      "Description": "Axion Bolts last ?% longer.\nVoid Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier.\nVoid Wall last 50% longer.\nVortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier.\nChaos Accelerant-enhanced Vortex Grenades last 55% longer.",
+      "hash": 2272984666,
+      "parentHash": "2272984666",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Axion Bolts last ?% longer."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Spikes last 50% longer, and begin dealing damage 0.1 seconds earlier."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Wall last 50% longer."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Vortex Grenade last 25% longer, and begin dealing damage 0.13 seconds earlier."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Chaos Accelerant",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": "-enhanced Vortex Grenades last 55% longer."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Reprisal",
+      "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant an additional ?% Super Energy.\nIncurs a 1? second cooldown between activations.",
+      "hash": 2272984669,
+      "parentHash": "2272984669",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While surrounded by 3+ enemies within 8 meters:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Kills grant an additional ?% Super Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 1? second cooldown between activations."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Starvation",
+      "Description": "On Orb of Power or Void Breach Pickup:\nGrants Devour for 5+2.5 seconds.",
+      "hash": 2661180603,
+      "parentHash": "2661180603",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "On Orb of Power or "
+              },
+              {
+                "text": "Void Breach",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Pickup:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants "
+              },
+              {
+                "text": "Devour",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " for 5+2.5 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Undermining",
+      "Description": "Void Grenades apply Weaken on hit for 6 [2.5] seconds.",
+      "hash": 2272984668,
+      "parentHash": "2272984668",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Grenades apply "
+              },
+              {
+                "text": "Weaken",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " on hit for 6 ["
+              },
+              {
+                "text": "2.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Echo of Vigilance",
+      "Description": "Upon killing an enemy while at Critical Health:\nGrants Void Overshield for 5+2.5 seconds.\nIncurs a 8 second cooldown after activating.",
+      "hash": 3854948621,
+      "parentHash": "3854948621",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon killing an enemy while at Critical Health:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants "
+              },
+              {
+                "text": "Void Overshield",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " for 5+2.5 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 8 second cooldown after activating."
               }
             ]
           }
@@ -93481,6 +95896,713 @@
       }
     }
   ],
+  "StasisFragments": [
+    {
+      "Name": "Whisper of Bonds",
+      "Description": "Killing Frozen Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power.",
+      "hash": 3469412974,
+      "parentHash": "3469412974",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " Enemies creates an Orb of Power that grants 2.5% Super Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown after creating an Orb of Power."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Chains",
+      "Description": "Kills while Frost Armor is active progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%",
+      "hash": 537774540,
+      "parentHash": "537774540",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Kills while "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " is active progress a counter that spawns a Small "
+              },
+              {
+                "text": "Stasis Shard",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " upon reaching 100%."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = ?%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Chill",
+      "Description": "Stasis Weapon Kills progress a counter that spawns a Small Stasis Shard upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\nIncurs a 5? second cooldown after creating a Stasis Shard, before additional kills progress the counter.",
+      "hash": 2368990401,
+      "parentHash": "2368990401",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " Weapon Kills progress a counter that spawns a Small "
+              },
+              {
+                "text": "Stasis Shard",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " upon reaching 100%."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 5? second cooldown after creating a "
+              },
+              {
+                "text": "Stasis Shard",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ", before additional kills progress the counter."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Conduction",
+      "Description": "Stasis Shards within 15 metres are pulled towards the user after a 1 second delay.",
+      "hash": 2483898429,
+      "parentHash": "2483898429",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Stasis Shards",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " within 15 metres are pulled towards the user after a 1 second delay."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Durance",
+      "Description": "Slow Debuff Duration and certain abilities last longer.\nAll affected Slow sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount.\nEg: 25 seconds -> 25+5",
+      "hash": 3469412969,
+      "parentHash": "3469412969",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " Debuff Duration and certain abilities last longer."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "All affected "
+              },
+              {
+                "text": "Slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " sources and abilities will have their value with Durance shown in smaller text next to the regular duration or stack amount."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Eg: 25 seconds -> 25+5"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Fissures",
+      "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.",
+      "hash": 3469412971,
+      "parentHash": "3469412971",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Shattering",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " enemies or destroying Crystals deals an additional damage instance, dealing up to 25 ["
+              },
+              {
+                "text": "9",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage in a 10 ["
+              },
+              {
+                "text": "8",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] metre radius."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Falloff decreases damage dealt down to a minimum of 17 ["
+              },
+              {
+                "text": "4",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage at the maximum falloff distance."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Fractures",
+      "Description": "Grants x1 Frost Armor upon shattering an enemy with Melee Damage.",
+      "hash": 537774542,
+      "parentHash": "537774542",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grants x1 "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " upon "
+              },
+              {
+                "text": "shattering",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " an enemy with Melee Damage."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Hedrons",
+      "Description": "Freezing an enemy grants +? Handling, and +30 Health for 11 seconds.",
+      "hash": 3469412970,
+      "parentHash": "3469412970",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Freezing",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " an enemy grants +? Handling, and +30 Health for 11 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Hunger",
+      "Description": "Stasis Shards grant increased Melee Energy.\nSmall Shards grant 17.5% Melee Energy, from 10%\nLarge Shards grant 75% Melee Energy, from 50%.",
+      "hash": 2483898431,
+      "parentHash": "2483898431",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Stasis Shards",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " grant increased Melee Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Small "
+              },
+              {
+                "text": "Shards",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " grant 17.5% Melee Energy, from 10%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Large "
+              },
+              {
+                "text": "Shards",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " grant 75% Melee Energy, from 50%."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Impetus",
+      "Description": "Upon dealing Powered Melee Damage:\nRefills all weapons and grants +40 Handling for 5 seconds.\nBuff duration serves as cooldown.",
+      "hash": 537774543,
+      "parentHash": "537774543",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon dealing Powered Melee Damage:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Refills all weapons and grants +40 Handling for 5 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Buff duration serves as cooldown."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Refraction",
+      "Description": "Kills against enemies affected by Stasis effects grants Class Ability Energy based on Enemy Rank.\n9% = Tier 1 Combatant\n13% = Tier 2 Combatant\n15% = Guardian\n20% = Tier 3 Combatant\n30% = Tier 4 Combatant\n40% = Miniboss\n50% = Boss",
+      "hash": 3469412968,
+      "parentHash": "3469412968",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Kills against enemies affected by "
+              },
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " effects grants Class Ability Energy based on Enemy Rank."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "9% = Tier 1 Combatant"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "13% = Tier 2 Combatant"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "15% = Guardian"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "20% = Tier 3 Combatant"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "30% = Tier 4 Combatant"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "40% = Miniboss"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "50% = Boss"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Rending",
+      "Description": "Primary Ammo Weapons deal 100% increased damage against Stasis Crystals and 50% increased damage against Frozen Enemies.\nIncludes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes.",
+      "hash": 2483898428,
+      "parentHash": "2483898428",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Primary Ammo Weapons",
+                "classNames": [
+                  "primary"
+                ]
+              },
+              {
+                "text": " deal 100% increased damage against "
+              },
+              {
+                "text": "Stasis Crystals",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " and 50% increased damage against "
+              },
+              {
+                "text": "Frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " Enemies."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Includes Fighting Lion, Revision Zero, Vex Mythoclast, and their respective alternate fire modes."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Reversal",
+      "Description": "While Frost Armor is active:\nDealing or receiving Physical Melee Damage applies x10? Slow for ?+? [?+?] seconds.\nAlso applies to Glaive Melee.",
+      "hash": 2368990400,
+      "parentHash": "2368990400",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " is active:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Dealing or receiving Physical Melee Damage applies x10? "
+              },
+              {
+                "text": "Slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " for ?+? ["
+              },
+              {
+                "text": "?+?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Also applies to "
+              },
+              {
+                "text": "Glaive",
+                "classNames": [
+                  "weapon-glaive"
+                ]
+              },
+              {
+                "text": " Melee."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Rime",
+      "Description": "Enhances Frost Armor, increasing the maximum stack amount to x8, and the duration to 13 seconds.",
+      "hash": 2483898430,
+      "parentHash": "2483898430",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Enhances "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ", increasing the maximum stack amount to x8, and the duration to 13 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Shards",
+      "Description": "Upon destroying a Stasis Crystal: \nGrants 500% [150%] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds.",
+      "hash": 3469412975,
+      "parentHash": "3469412975",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon destroying a "
+              },
+              {
+                "text": "Stasis Crystal",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants 500% ["
+              },
+              {
+                "text": "150%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Additional Base Grenade Regeneration Rate for 6 seconds, up to a maximum of 11 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Whisper of Torment",
+      "Description": "Upon receiving damage:\nGrants 7% Grenade Ability Energy.\nIncreased to 12% Grenade Ability Energy while Frost Armor is active.\nIncurs a 1 second cooldown between Grenade Energy gains.",
+      "hash": 537774541,
+      "parentHash": "537774541",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon receiving damage:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants 7% Grenade Ability Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Increased to 12% Grenade Ability Energy while "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " is active."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 1 second cooldown between Grenade Energy gains."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "StrandVerbs": [
     {
       "Name": "Tangle",
@@ -94209,6 +97331,741 @@
       }
     }
   ],
+  "StrandFragments": [
+    {
+      "Name": "Thread of Ascent",
+      "Description": "On Grenade Ability Usage:\nRefills readied weapon.\n+40? Handling, +40 Reload Speed, 0.925x Reload Duration Multiplier and +30 Airborne Effectiveness for 15 seconds.\nIncurs a 4 second cooldown between Ammo Refills upon activation.",
+      "hash": 4208512216,
+      "parentHash": "4208512216",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "On Grenade Ability Usage:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Refills readied weapon."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "+40? Handling, +40 Reload Speed, 0.925x Reload Duration Multiplier and +30 Airborne Effectiveness for 15 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 4 second cooldown between Ammo Refills upon activation."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Binding",
+      "Description": "Super Kills create a Suspending Blast.",
+      "hash": 3192552688,
+      "parentHash": "3192552688",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Super Kills create a Suspending Blast."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Continuity",
+      "Description": "Strand Debuffs normally last 50% longer.\nDebuff sources will have their value with Continuity shown in smaller text next to the regular duration.",
+      "hash": 3192552690,
+      "parentHash": "3192552690",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Debuffs normally last 50% longer."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Debuff sources will have their value with Continuity shown in smaller text next to the regular duration."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Evolution",
+      "Description": "Threadling move 30?% faster, travel further, and deal increased damage.\n\nThreadling Damage Increase:\n33% against Combatants | 12.5% against Guardians",
+      "hash": 4208512211,
+      "parentHash": "4208512211",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Threadling",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " move 30?% faster, travel further, and deal increased damage."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Threadling",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Damage Increase:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "33% against Combatants | 12.5% against Guardians"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Finality",
+      "Description": "Finishers create Threadlings, with the amount scaling with Enemy Rank.\nRank-And-File = 1 | Elite = 2 | Miniboss = 3",
+      "hash": 4208512217,
+      "parentHash": "4208512217",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Finishers create "
+              },
+              {
+                "text": "Threadlings",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": ", with the amount scaling with Enemy Rank."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-And-File = 1 | Elite = 2 | Miniboss = 3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Fury",
+      "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%",
+      "hash": 4208512219,
+      "parentHash": "4208512219",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon dealing damage with "
+              },
+              {
+                "text": "Tangles",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants a varying amount of Melee Energy per damage instance."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Generation",
+      "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant.",
+      "hash": 3192552691,
+      "parentHash": "3192552691",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon dealing damage:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants a variable amount of Grenade Ability Energy."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Ability Energy Gains vary depending on the source, as well as the amount of damage."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Generally, the more damage something deals, the more Ability Energy it will grant."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Isolation",
+      "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, applying Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns",
+      "hash": 3192552689,
+      "parentHash": "3192552689",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon scoring multiple Precision Hits within 2 seconds of each:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Emits a "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst, applying "
+              },
+              {
+                "text": "Sever",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " to enemies within ? metres."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 4 second cooldown upon "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": ". Precision Hits during the cooldown will not be counted."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Precision Hits work on a Counter System, triggering the "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst upon reaching 100%."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Counter System is exclusively Weapon Archetype based."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Counter Progress per Precision Hit:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "50% Counter: Slug "
+              },
+              {
+                "text": "Shotguns",
+                "classNames": [
+                  "weapon-shotgun"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "34% Counter: "
+              },
+              {
+                "text": "Bows",
+                "classNames": [
+                  "weapon-bow"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Sniper Rifles",
+                "classNames": [
+                  "weapon-sniper-rifle"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "25% Counter: "
+              },
+              {
+                "text": "Hand Cannons",
+                "classNames": [
+                  "weapon-hand-cannon"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Scout Rifles",
+                "classNames": [
+                  "weapon-scout-rifle"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "20% Counter: "
+              },
+              {
+                "text": "Sidearms",
+                "classNames": [
+                  "weapon-sidearm"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "15% Counter: "
+              },
+              {
+                "text": "Auto Rifles",
+                "classNames": [
+                  "weapon-auto-rifle"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "12% Counter: "
+              },
+              {
+                "text": "Machine Guns",
+                "classNames": [
+                  "weapon-machine-gun"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Pulse Rifles",
+                "classNames": [
+                  "weapon-pulse-rifle"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "10% Counter: "
+              },
+              {
+                "text": "Trace Rifles",
+                "classNames": [
+                  "weapon-trace-rifle"
+                ]
+              },
+              {
+                "text": " and "
+              },
+              {
+                "text": "Submachine Guns",
+                "classNames": [
+                  "weapon-smg"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Mind",
+      "Description": "Killing Suspended Enemies grants Class Ability Energy based on Enemy Rank.\nIncurs a 1? second cooldown upon scoring a kill.\nTier 1 Combatant = 10% | T2 = 12% | T3 = 15% | T4 = 30% | Guardians = 15%",
+      "hash": 4208512218,
+      "parentHash": "4208512218",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Suspended",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Enemies grants Class Ability Energy based on Enemy Rank."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 1? second cooldown upon scoring a kill."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 1 Combatant = 10% | T2 = 12% | T3 = 15% | T4 = 30% | Guardians = 15%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Propagation",
+      "Description": "On Powered Melee Ability Kill:\nGrants Unraveling Rounds to Strand Weapons for 8 [5] seconds.",
+      "hash": 4208512210,
+      "parentHash": "4208512210",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "On Powered Melee Ability Kill:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants "
+              },
+              {
+                "text": "Unraveling Rounds",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " to "
+              },
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Weapons for 8 ["
+              },
+              {
+                "text": "5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Rebirth",
+      "Description": "Strand Weapon Kills progress a counter that spawns a variable number of Threadlings upon reaching 100%.\n\nCounter Progress (Threadling Amount):\nRank-And-File = 34% (1) | Elite = 67% (2) | Miniboss and Boss = 100% (3) | Guardians = 67% (2)",
+      "hash": 4208512220,
+      "parentHash": "4208512220",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Weapon Kills progress a counter that spawns a variable number of "
+              },
+              {
+                "text": "Threadlings",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " upon reaching 100%."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Counter Progress ("
+              },
+              {
+                "text": "Threadling",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Amount):"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-And-File = 34% (1) | Elite = 67% (2) | Miniboss and Boss = 100% (3) | Guardians = 67% (2)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Transmutation",
+      "Description": "While Woven Mail is active:\nWeapon Kills spawn a Tangle.",
+      "hash": 4208512221,
+      "parentHash": "4208512221",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While "
+              },
+              {
+                "text": "Woven Mail",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " is active:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Weapon Kills spawn a "
+              },
+              {
+                "text": "Tangle",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Warding",
+      "Description": "On Orb of Power Pickup:\nGrants Woven Mail for 5 seconds.",
+      "hash": 4208512222,
+      "parentHash": "4208512222",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "On Orb of Power Pickup:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Grants "
+              },
+              {
+                "text": "Woven Mail",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " for 5 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Thread of Wisdom",
+      "Description": "Killing Suspended Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power.",
+      "hash": 4208512223,
+      "parentHash": "4208512223",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Suspended",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Enemies creates an Orb of Power that grants 2.5% Super Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 10 second cooldown after creating an Orb of Power."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
   "PrismaticVerbs": [
     {
       "Name": "Transcendence",
@@ -94380,6 +98237,1372 @@
             "linesContent": [
               {
                 "text": "Each kill after the first gets a cumulative 0.9?x penalty to the duration extension."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "PrismaticFragments": [
+    {
+      "Name": "Facet of Awakening",
+      "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup.",
+      "hash": 124726505,
+      "parentHash": "124726505",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Elemental Pickup is determined by the Damage Type of the final kill."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 5 second cooldown between spawning the same "
+              },
+              {
+                "text": "Non-Tangle",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Elemental Pickups."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Kills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Balance",
+      "Description": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy.",
+      "hash": 2626922114,
+      "parentHash": "2626922114",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Killing 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Blessing",
+      "Description": "Melee Kills begin health regeneration. \nEffect applies to allies within ? metres while Transcendent.",
+      "hash": 124726496,
+      "parentHash": "124726496",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Melee Kills begin health regeneration."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Effect applies to allies within ? metres while Transcendent."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Bravery",
+      "Description": "Grenade Kills grant Volatile Rounds to Void Weapons for 11.25 [7.5] seconds.\n\nPowered Melee Kills grant Unraveling Rounds to Strand Weapons for 11.25 [7.5] seconds.",
+      "hash": 124726503,
+      "parentHash": "124726503",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Kills grant "
+              },
+              {
+                "text": "Volatile Rounds",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " to "
+              },
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Weapons for 11.25 ["
+              },
+              {
+                "text": "7.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Powered Melee Kills grant "
+              },
+              {
+                "text": "Unraveling Rounds",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " to "
+              },
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Weapons for 11.25 ["
+              },
+              {
+                "text": "7.5",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Command",
+      "Description": "Freezing or Suppressing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively.",
+      "hash": 124726497,
+      "parentHash": "124726497",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Freezing",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Suppressing",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 4 second cooldown before it can be reactivated."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Killing "
+              },
+              {
+                "text": "Frozen",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Suppressed",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Enemies spawns a "
+              },
+              {
+                "text": "Stasis Shard",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Void Breach",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " respectively."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Courage",
+      "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs.\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage.",
+      "hash": 2626922124,
+      "parentHash": "2626922124",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Against enemies inflicted with "
+              },
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Elemental Debuffs."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Light Abilities deal 10% increased damage."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Light Powered Melee Abilities deal 50% ["
+              },
+              {
+                "text": "10%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] increased damage."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Dawn",
+      "Description": "Powered Melee Hits grant Radiant for 5 seconds.\n\nPowered Melee Kills grant Radiant for 5 seconds to the user and allies within ? metres.",
+      "hash": 2626922126,
+      "parentHash": "2626922126",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Powered Melee Hits grant "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " for 5 seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Powered Melee Kills grant "
+              },
+              {
+                "text": "Radiant",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " for 5 seconds to the user and allies within ? metres."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Defiance",
+      "Description": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters.\nArc = Jolt | Solar = x40 Scorch | Void = Volatile \nStasis = x? Slow for ? seconds | Strand = Sever",
+      "hash": 74393640,
+      "parentHash": "74393640",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Finishers trigger an Elemental Detonation that deals 135 Super-Matching Elemental Damage and applies a Super-Matching Elemental Debuff to enemies within 7 meters."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " = "
+              },
+              {
+                "text": "Jolt",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " | "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " = x40 "
+              },
+              {
+                "text": "Scorch",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " | "
+              },
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " = "
+              },
+              {
+                "text": "Volatile",
+                "classNames": [
+                  "void"
+                ]
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " = x? "
+              },
+              {
+                "text": "Slow",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " for ? seconds | "
+              },
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " = "
+              },
+              {
+                "text": "Sever",
+                "classNames": [
+                  "strand"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Devotion",
+      "Description": "Killing enemies affected by Stasis or Strand Elemental Debuffs grants additional Light Transcendence Energy.\nRank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%",
+      "hash": 2626922125,
+      "parentHash": "2626922125",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Killing enemies affected by "
+              },
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " or "
+              },
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Elemental Debuffs grants additional Light "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " Energy."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Rank-and-File = 1% | Elites = 3% | Minibosses+ = 5% | Guardians = ?%"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Dominance",
+      "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.",
+      "hash": 124726504,
+      "parentHash": "124726504",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Grenade Ability Damage applies "
+              },
+              {
+                "text": "Weaken",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " for 6 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] seconds."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": " Grenade Ability Damage applies "
+              },
+              {
+                "text": "Jolt",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Generosity",
+      "Description": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds.\nUp to a maximum of 4 Orbs of Power can be spawned per Transcendence activation.\n\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%\nOrbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds.",
+      "hash": 2626922127,
+      "parentHash": "2626922127",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Kills while Transcendent progress a counter that spawns Orbs of Power that grant 7.15% Super Energy for allies at specific thresholds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Up to a maximum of 4 Orbs of Power can be spawned per "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " activation."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Tier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4 = 34% | Minibosses = 40% | Bosses = 50% | Guardians = ?%"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Orbs of Power are spawned at the 30% (1st) | 50% (2nd) | 70% (3rd) | 100% (4th) thresholds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Grace",
+      "Description": "Kinetic Weapon Kills grant an additional 2% [?%] Transcendence energy.\n\nSuper Kills grant an additional 2% [?%] Transcendence Energy to the user and allies within ? metres.",
+      "hash": 2626922121,
+      "parentHash": "2626922121",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Kinetic Weapon",
+                "classNames": [
+                  "kinetic"
+                ]
+              },
+              {
+                "text": " Kills grant an additional 2% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " energy."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Super Kills grant an additional 2% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " Energy to the user and allies within ? metres."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Honor",
+      "Description": "Picking up Elemental Pickups or destroying a Tangle grants additional Transcendence Energy of the matching alignment.\n\nIonic Traces, Firesprites, Void Breaches = 7.5% Light Energy \nStasis Shards = 5% Darkness Energy | Tangles = 10% Darkness Energy",
+      "hash": 124726501,
+      "parentHash": "124726501",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Picking up Elemental Pickups or destroying a "
+              },
+              {
+                "text": "Tangle",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " grants additional "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " Energy of the matching alignment."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Ionic Traces",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "Firesprites",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "Void Breaches",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " = 7.5% Light Energy"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Stasis Shards",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " = 5% Darkness Energy | "
+              },
+              {
+                "text": "Tangles",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " = 10% Darkness Energy"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Hope",
+      "Description": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff.\nEffect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs.",
+      "hash": 2626922122,
+      "parentHash": "2626922122",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Effect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Justice",
+      "Description": "Ability Kills while Transcendent trigger an explosion that deals up to 130 [?] Ability-Matching damage over ? meters",
+      "hash": 2626922115,
+      "parentHash": "2626922115",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Ability Kills while Transcendent trigger an explosion that deals up to 130 ["
+              },
+              {
+                "text": "?",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Ability-Matching damage over ? meters"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Mending",
+      "Description": "Grenade Ability Kills grant Cure x1.\nPrismatic Grenade Kills grant Cure x2.",
+      "hash": 124726500,
+      "parentHash": "124726500",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Grenade Ability Kills grant "
+              },
+              {
+                "text": "Cure",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x1."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Prismatic Grenade Kills grant "
+              },
+              {
+                "text": "Cure",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x2."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Protection",
+      "Description": "While within 15 metres of 3 enemies:\n15% [?%] Damage Resist.\nIn-Game Description is erroneous, the effect does NOT become increased while Transcendent. \nInstead, the 15% DR from Protection stacks with Transcendence's 20%, totalling 32% DR.",
+      "hash": 2626922120,
+      "parentHash": "2626922120",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "While within 15 metres of 3 enemies:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "15% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Damage Resist."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "In-Game Description is erroneous, the effect does NOT become increased while Transcendent."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Instead, the 15% DR from Protection stacks with "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": "'s 20%, totalling 32% DR."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Purpose",
+      "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 9 seconds.\nStrand: Woven Mail for 5 seconds.",
+      "hash": 124726498,
+      "parentHash": "124726498",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": ": x1 "
+              },
+              {
+                "text": "Bolt Charge",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ": "
+              },
+              {
+                "text": "Restoration",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " x1 for 5 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": ": 22.5 HP "
+              },
+              {
+                "text": "Overshield",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " for 5 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Stasis",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": ": x2 "
+              },
+              {
+                "text": "Frost Armor",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " for 9 seconds."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Strand",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": ": "
+              },
+              {
+                "text": "Woven Mail",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " for 5 seconds."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Ruin",
+      "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.\n\nIgnitions have 25% increased radius.",
+      "hash": 124726499,
+      "parentHash": "124726499",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Shattering",
+                "classNames": [
+                  "stasis"
+                ]
+              },
+              {
+                "text": " enemies or destroying Crystals deals an additional damage instance, dealing up to 25 ["
+              },
+              {
+                "text": "9",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage in a 10 ["
+              },
+              {
+                "text": "8",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] metre radius."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Falloff decreases damage dealt down to a minimum of 17 ["
+              },
+              {
+                "text": "4",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] damage at the maximum falloff distance."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Ignitions",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": " have 25% increased radius."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Sacrifice",
+      "Description": "Ability Kills while affected by an Arc, Solar, or Void Elemental Buff grant an additional 1% [?%] Darkness Transcendence Energy.",
+      "hash": 124726502,
+      "parentHash": "124726502",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Ability Kills while affected by an "
+              },
+              {
+                "text": "Arc",
+                "classNames": [
+                  "arc"
+                ]
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "Solar",
+                "classNames": [
+                  "solar"
+                ]
+              },
+              {
+                "text": ", or "
+              },
+              {
+                "text": "Void",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Elemental Buff grant an additional 1% ["
+              },
+              {
+                "text": "?%",
+                "classNames": [
+                  "pvp"
+                ]
+              },
+              {
+                "text": "] Darkness "
+              },
+              {
+                "text": "Transcendence",
+                "classNames": [
+                  "prismatic"
+                ]
+              },
+              {
+                "text": " Energy."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Facet of Solitude",
+      "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example.",
+      "hash": 2626922123,
+      "parentHash": "2626922123",
+      "descriptions": {
+        "en": [
+          {
+            "linesContent": [
+              {
+                "text": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "The next damage instance from any source within 3 seconds will emit a "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Sever",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst inflicts "
+              },
+              {
+                "text": "Sever",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " to enemies within 3 metres. Radius is increased to 6 meters while Transcendent."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Incurs a 4 second cooldown upon "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": ". Precision Hits during the cooldown will not be counted."
+              }
+            ]
+          },
+          {
+            "classNames": [
+              "spacer"
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Precision hits required to prepare the "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst:"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "20% of Magazine + 1, rounded down."
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "Bows",
+                "classNames": [
+                  "weapon-bow"
+                ]
+              },
+              {
+                "text": ": 2 hits"
+              }
+            ]
+          },
+          {
+            "linesContent": [
+              {
+                "text": "The Precision Hit that prepares the "
+              },
+              {
+                "text": "Severing",
+                "classNames": [
+                  "strand"
+                ]
+              },
+              {
+                "text": " Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example."
               }
             ]
           }
@@ -127069,10 +132292,10 @@
                 ]
               },
               {
-                "text": ", and 15% Damage Resist against Non-"
+                "text": ", and 15% Damage Resist against "
               },
               {
-                "text": "Arc",
+                "text": "Non-Arc",
                 "classNames": [
                   "arc"
                 ]
@@ -129941,10 +135164,10 @@
                 ]
               },
               {
-                "text": " Orb fires Explosive Projectiles every 0.5 seconds towards non-"
+                "text": " Orb fires Explosive Projectiles every 0.5 seconds towards "
               },
               {
-                "text": "frozen",
+                "text": "non-frozen",
                 "classNames": [
                   "stasis"
                 ]
@@ -131211,14 +136434,32 @@
           {
             "linesContent": [
               {
-                "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy Blink Attack."
+                "text": "Grounded Powered Heavy Attack while Temporal Sprint is active launch a Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attack."
               }
             ]
           },
           {
             "linesContent": [
               {
-                "text": "Heavy Blink Attacks drain 50% "
+                "text": "Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attacks drain 50% "
               },
               {
                 "text": "Sword",
@@ -131250,7 +136491,16 @@
           {
             "linesContent": [
               {
-                "text": "Scoring a Tesseract kill allows performing another Heavy Blink Attack within ? seconds that consume ? Ammo and drain 10% "
+                "text": "Scoring a Tesseract kill allows performing another Heavy "
+              },
+              {
+                "text": "Blink",
+                "classNames": [
+                  "void"
+                ]
+              },
+              {
+                "text": " Attack within ? seconds that consume ? Ammo and drain 10% "
               },
               {
                 "text": "Sword",

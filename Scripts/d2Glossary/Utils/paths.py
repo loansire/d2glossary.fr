@@ -55,6 +55,7 @@ DDCVACUUM_FILE = "ddcvacuum.json"
 
 # Nouveaux fichiers
 ITEM_CATEGORY_DEFINITION_FILE = "item_category_definitions.json"
+SUBCLASS_ENRICHED_FILE = "subclass_definitions_enriched.json"
 
 
 # =============================================================================
@@ -74,6 +75,7 @@ SETARMOR_ENRICHED = get_localized_path(SETARMOR_ENRICHED_FILE)
 ARTEFACT_ENRICHED = get_localized_path(ARTEFACT_ENRICHED_FILE)
 
 ITEM_CATEGORY = get_localized_path(ITEM_CATEGORY_DEFINITION_FILE)
+SUBCLASS_ENRICHED = get_localized_path(SUBCLASS_ENRICHED_FILE)
 
 # Fichier de version (commun à toutes les langues)
 VERSION_FILE = DATA_DIR / "version.json"
@@ -123,6 +125,7 @@ MANIFEST_WHITELIST = {
         "breakerType",
         "itemCategoryHashes",
         "traitIds",
+        "plug.plugCategoryIdentifier",
         "perks",                    # Pour l'enrichissement artefact (array complet)
     ],
 

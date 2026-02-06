@@ -1,0 +1,181 @@
+/* subclass.css - Styles pour la page Subclass */
+
+/* =========================================================================
+   BARRE DE FILTRES PAR ÉLÉMENT
+   ========================================================================= */
+
+.subclass-filter-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px 20px;
+  margin-bottom: 8px;
+}
+
+.subclass-filter-btn {
+  padding: 8px 18px;
+  border: 1px solid var(--color-border, #333);
+  border-radius: 6px;
+  background: var(--color-bg-card, #1a1a1a);
+  color: var(--color-text-secondary, #aaa);
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.subclass-filter-btn:hover {
+  border-color: var(--color-primary, #F3CF55);
+  color: var(--color-text-primary, #fff);
+}
+
+.subclass-filter-btn.active {
+  background: var(--color-primary, #F3CF55);
+  color: var(--color-bg, #0a0a0a);
+  border-color: var(--color-primary, #F3CF55);
+  font-weight: 600;
+}
+
+/* Couleurs spécifiques par élément pour les boutons de filtre */
+.element-filter-solar.active {
+  background: var(--color-solar, #f0631e);
+  border-color: var(--color-solar, #f0631e);
+}
+
+.element-filter-arc.active {
+  background: var(--color-arc, #79bbe8);
+  border-color: var(--color-arc, #79bbe8);
+}
+
+.element-filter-void.active {
+  background: var(--color-void, #b085df);
+  border-color: var(--color-void, #b085df);
+}
+
+.element-filter-stasis.active {
+  background: var(--color-stasis, #4d88ff);
+  border-color: var(--color-stasis, #4d88ff);
+}
+
+.element-filter-strand.active {
+  background: var(--color-strand, #35b078);
+  border-color: var(--color-strand, #35b078);
+}
+
+.element-filter-prism.active {
+  background: linear-gradient(135deg, var(--color-solar, #f0631e), var(--color-arc, #79bbe8), var(--color-void, #b085df), var(--color-stasis, #4d88ff), var(--color-strand, #35b078));
+  border-color: var(--color-primary, #F3CF55);
+}
+
+/* =========================================================================
+   SECTIONS D'ÉLÉMENTS
+   ========================================================================= */
+
+.subclass-element-section {
+  margin-bottom: 40px;
+}
+
+.subclass-element-header {
+  padding: 12px 20px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--color-border, #333);
+}
+
+.subclass-element-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Couleurs des titres par élément */
+.element-solar     { color: var(--color-solar, #f0631e); }
+.element-arc       { color: var(--color-arc, #79bbe8); }
+.element-void      { color: var(--color-void, #b085df); }
+.element-stasis    { color: var(--color-stasis, #4d88ff); }
+.element-strand    { color: var(--color-strand, #35b078); }
+.element-prism {
+  background: linear-gradient(90deg, var(--color-solar, #f0631e), var(--color-arc, #79bbe8), var(--color-void, #b085df), var(--color-stasis, #4d88ff), var(--color-strand, #35b078));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Bordure colorée par élément */
+.subclass-element-solar .subclass-element-header     { border-color: var(--color-solar, #f0631e); }
+.subclass-element-arc .subclass-element-header       { border-color: var(--color-arc, #79bbe8); }
+.subclass-element-void .subclass-element-header      { border-color: var(--color-void, #b085df); }
+.subclass-element-stasis .subclass-element-header    { border-color: var(--color-stasis, #4d88ff); }
+.subclass-element-strand .subclass-element-header    { border-color: var(--color-strand, #35b078); }
+.subclass-element-prism .subclass-element-header { border-image: linear-gradient(90deg, var(--color-solar), var(--color-arc), var(--color-void), var(--color-stasis), var(--color-strand)) 1; }
+
+/* =========================================================================
+   SECTIONS DE CLASSES (Hunter/Titan/Warlock/Shared)
+   ========================================================================= */
+
+.subclass-element-content {
+  padding: 0 20px;
+}
+
+.subclass-class-section {
+  margin-bottom: 24px;
+}
+
+.subclass-class-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary, #F3CF55);
+  margin: 0 0 12px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--color-border, #333);
+}
+
+/* =========================================================================
+   SECTIONS D'ABILITY (Supers/Aspects/Melee/etc.)
+   ========================================================================= */
+
+.subclass-ability-section {
+  margin-bottom: 16px;
+}
+
+.subclass-ability-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-secondary, #aaa);
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.subclass-ability-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* =========================================================================
+   RESPONSIVE
+   ========================================================================= */
+
+@media (max-width: 768px) {
+  .subclass-filter-bar {
+    gap: 6px;
+    padding: 12px 10px;
+  }
+
+  .subclass-filter-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .subclass-element-header {
+    padding: 10px 12px;
+  }
+
+  .subclass-element-title {
+    font-size: 1.2rem;
+  }
+
+  .subclass-element-content {
+    padding: 0 12px;
+  }
+}

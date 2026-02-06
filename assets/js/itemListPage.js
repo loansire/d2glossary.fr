@@ -11,13 +11,28 @@ import { loadDDCVacuumData } from './ddcvacuum.js';
 import { Pagination } from './pagination.js';
 import { createSearchIndex, searchWithIndex, loadOtherLanguageData } from './multilingualSearch.js';
 
+/**
+ * Accède à une valeur imbriquée via dot notation
+ * Ex: getNestedValue(item, 'plug.plugCategoryIdentifier')
+ *     → item.plug.plugCategoryIdentifier
+ * @param {Object} obj - Objet source
+ * @param {string} path - Chemin en dot notation
+ * @returns {*} Valeur trouvée ou undefined
+ */
+function getNestedValue(obj, path) {
+  if (!obj || !path) return undefined;
+  // Clé directe (pas de point) → accès simple, plus rapide
+  if (!path.includes('.')) return obj[path];
+  return path.split('.').reduce((acc, key) => acc?.[key], obj);
+}
+
 export async function loadItemListPage({
   dataFile,
   excludedIds = [],
   containerId,
   inputId,
   filterOptions = {},
-  excludeOptions = {},  // NOUVEAU: options d'exclusion
+  excludeOptions = {},
   itemsPerPage = 50
 }) {
   const container = document.getElementById(containerId);
@@ -79,56 +94,74 @@ export async function loadItemListPage({
         return false;
       };
 
+      // === FILTRAGE GÉNÉRIQUE PAR CLÉS (supporte dot notation) ===
+      const matchesGenericFilters = () => {
+        for (const [key, expected] of Object.entries(filterOptions)) {
+          // Ignorer itemCategoryHash, traité séparément
+          if (key === 'itemCategoryHash') continue;
+
+          const value = getNestedValue(item, key);
+
+          // Si expected est un array → la valeur doit être dedans (OR)
+          if (Array.isArray(expected)) {
+            if (!expected.includes(value)) return false;
+          } else {
+            if (value !== expected) return false;
+          }
+        }
+        return true;
+      };
+
       // === EXCLUDE OPTIONS (exclusion) ===
       const passesExcludeOptions = () => {
-        // excludeIfExists: exclure si la clé existe (peu importe la valeur)
+        // excludeIfExists: exclure si la clé existe (supporte dot notation)
         if (excludeOptions.excludeIfExists) {
           const keysToCheck = Array.isArray(excludeOptions.excludeIfExists)
             ? excludeOptions.excludeIfExists
             : [excludeOptions.excludeIfExists];
 
           for (const key of keysToCheck) {
-            if (item[key] !== undefined && item[key] !== null) {
-              return false; // Exclure cet item
+            const val = getNestedValue(item, key);
+            if (val !== undefined && val !== null) {
+              return false;
             }
           }
         }
 
-        // excludeIfEquals: exclure si la clé a une valeur spécifique
+        // excludeIfEquals: exclure si la clé a une valeur spécifique (supporte dot notation)
         if (excludeOptions.excludeIfEquals) {
           for (const [key, value] of Object.entries(excludeOptions.excludeIfEquals)) {
-            if (item[key] === value) {
-              return false; // Exclure cet item
+            if (getNestedValue(item, key) === value) {
+              return false;
             }
           }
         }
 
-        // excludeIfIncludes: exclure si un array contient une valeur
+        // excludeIfIncludes: exclure si un array contient une valeur (supporte dot notation)
         if (excludeOptions.excludeIfIncludes) {
           for (const [key, values] of Object.entries(excludeOptions.excludeIfIncludes)) {
-            const itemArray = item[key];
+            const itemArray = getNestedValue(item, key);
             if (!Array.isArray(itemArray)) continue;
 
             const valuesToCheck = Array.isArray(values) ? values : [values];
             for (const val of valuesToCheck) {
               if (itemArray.includes(val)) {
-                return false; // Exclure cet item
+                return false;
               }
             }
           }
         }
 
-        // excludeIfNotEquals: exclure si la clé N'A PAS une valeur spécifique
-        // (utile pour "garder seulement ceux qui ont cette valeur")
+        // excludeIfNotEquals: exclure si la clé N'A PAS une valeur (supporte dot notation)
         if (excludeOptions.excludeIfNotEquals) {
           for (const [key, value] of Object.entries(excludeOptions.excludeIfNotEquals)) {
-            if (item[key] !== value) {
-              return false; // Exclure cet item
+            if (getNestedValue(item, key) !== value) {
+              return false;
             }
           }
         }
 
-        return true; // Garder cet item
+        return true;
       };
 
       return (
@@ -137,11 +170,8 @@ export async function loadItemListPage({
         props?.icon &&
         !excludedIds.includes(id) &&
         matchesCategoryHash() &&
-        passesExcludeOptions() &&  // NOUVEAU
-        (filterOptions.itemType === undefined || item.itemType === filterOptions.itemType) &&
-        (filterOptions.itemSubType === undefined || item.itemSubType === filterOptions.itemSubType) &&
-        (filterOptions.classType === undefined || item.classType === filterOptions.classType) &&
-        (filterOptions.breakerType === undefined || item.breakerType === filterOptions.breakerType)
+        matchesGenericFilters() &&
+        passesExcludeOptions()
       );
     });
 
@@ -222,3 +252,6 @@ export async function loadItemListPage({
     `;
   }
 }
+
+// Export de getNestedValue pour réutilisation dans d'autres modules
+export { getNestedValue };
