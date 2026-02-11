@@ -1,0 +1,586 @@
+[
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Amplified",
+    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while Amplified.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\n\nBeing Amplified enhances certain Abilities.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Bolt Charge",
+    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Glaive Melee | Gifted Conviction's Explosives",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Ionic Trace",
+    "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Blind",
+    "Description": "Blinded Combatants are disoriented, rendering them unable to attack or use abilities for 10 seconds.\n\nBlinded Guardians have their HUD removed, screen whitened, and audio distorted for 3 seconds.\n\nUnstoppable Champions become Stunned upon being Blinded. ",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Jolted",
+    "Description": "Jolted Enemies will release chain lightning for 10 [5] seconds, dealing 119 [51] Arc Damage to all enemies within 12 meters upon taking 115 [45] damage. \nDuration can be refreshed by reinflicting Jolt.\n The damage from the hit that applies Jolt counts towards the damage threshold. Jolt has a 0.8 second cooldown between chain lightning activations.\n\nGuardians that release Chain Lightning do not receive chain damage unless it deals damage to other Guardians.\n\nOverload Champions become Stunned upon receiving Jolt damage.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Amplitude",
+    "Description": "While Amplified:\nScoring 2 kills within 4 seconds of each creates an Orb of Power that grants 2.5% Super Energy.\nTriggering Amplified through an Arc Kill will count the kill towards the 2-kill counter.\nIncurs a 10 second cooldown upon creating an Orb of Power. Kills during the cooldown do not count.",
+    "hash": 3277705906,
+    "parentHash": "3277705906"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Beacons",
+    "Description": "Special and Heavy Ammo Arc Weapon Kills while Amplified create a blinding blast, inflicting Blind to enemies within 7.5 metres.",
+    "hash": 1727069367,
+    "parentHash": "1727069367"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Brilliance",
+    "Description": "Precision Kills against Blinded Enemies trigger a Blinding blast, inflicting Blind to enemies within 7.5 metres.",
+    "hash": 3277705905,
+    "parentHash": "3277705905"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Discharge",
+    "Description": "Arc Weapon Kills progress a counter that spawns an Ionic Trace upon reaching 100%.\nRank-And-File = 34% | Elite = 67% | Miniboss+ = 100% | Guardians = 67%\n\nPicking up Ionic Traces grants x1 Bolt Charge.",
+    "hash": 1727069362,
+    "parentHash": "1727069362"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Feedback",
+    "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable.",
+    "hash": 3277705907,
+    "parentHash": "3277705907"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Focus",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n150% [75%] Additional Base Class Ability Regeneration Rate.\nDeactivates once Class Ability has at least 1 charge readied.",
+    "hash": 1727069360,
+    "parentHash": "1727069360"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Frequency",
+    "Description": "Upon scoring a Melee Hit:\n+15 Stability, +50 Reload Speed, and 0.8x Reload Duration Multiplier for 5.25 seconds.\n\nWhile Amplified:\n(almost) All sources of Bolt Charge now grant an additional stack.\nIn-game tooltip mentions increasing the fragment's effects, which is not true, at least for the Reload Speed bonuses.",
+    "hash": 1727069361,
+    "parentHash": "1727069361"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Haste",
+    "Description": "After 1.25 seconds of sprinting, while maintaining both sprint and a movement speed of at least 5m/s:\n Grants +50 Health Stat.",
+    "hash": 3478354817,
+    "parentHash": "3478354817"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Instinct",
+    "Description": "While at Critical Health:\nBeing damaged releases a burst of Arc Energy, dealing up to 46 [20] damage and inflicting Jolt to enemies within ? metres.\nIncurs a 15? second cooldown between activations.",
+    "hash": 3478354816,
+    "parentHash": "3478354816"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Ions",
+    "Description": "Killing Jolted Enemies, or scoring a Bolt Charge Kill creates an Ionic Trace.\nIncurs a 10 second cooldown between Ionic Traces spawns.",
+    "hash": 1727069363,
+    "parentHash": "1727069363"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Magnitude",
+    "Description": "Lightning Grenade fire an additional lightning bolt, increasing to a maximum of 5 bolts.\n Pulse Grenade release an additional 2 pulses, increasing to a maximum of 8 pulses.\n Storm Grenade release an additional barrage. Enhanced Storm's Roaming Storm lasts 1.5 seconds longer.",
+    "hash": 1727069374,
+    "parentHash": "1727069374"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Momentum",
+    "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks.",
+    "hash": 1727069365,
+    "parentHash": "1727069365"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Recharge",
+    "Description": "Upon reaching Critical Health:\n400% [200%] Additional Base Grenade and Melee Ability Regeneration Rate.\nBuff lasts until Shields are fully restored.",
+    "hash": 1727069375,
+    "parentHash": "1727069375"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Resistance",
+    "Description": "While within 15 metres of at least 3 enemies:\n25% [10%] Damage Resist.\nLingers for 2 seconds. ",
+    "hash": 1727069366,
+    "parentHash": "1727069366"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Shock",
+    "Description": "Arc Grenades inflict Jolt on hit.",
+    "hash": 1727069364,
+    "parentHash": "1727069364"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Spark of Volts",
+    "Description": "Finishers grant Amplified and x1 Bolt Charge.",
+    "hash": 3277705904,
+    "parentHash": "3277705904"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Arcbolt Grenade",
+    "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 8 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 8 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 1582574009,
+    "parentHash": "1582574009",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Arcbolt Grenade",
+    "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 8 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 8 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 3897682694,
+    "parentHash": "3897682694",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Flashbang Grenade",
+    "Description": "Medium Trajectory\n\nExplodes after its speed is sufficiently reduced. Has a brief delay before it can explode.\n\nExplosion deals up to 621 [120] damage in a 7.5 meter radius, and inflicts blind to enemies within 10 meters for up to 5 [3] seconds.\nThe user is immune to self-blind.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 2909720723,
+    "parentHash": "2909720723"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Flux Grenade",
+    "Description": "Almost Straight Trajectory | Slight Projectile Tracking | Sticky\n\nAttaches to enemies or surfaces, exploding after 1.7 seconds.\n\nExplosion deals up to 901 [150] damage in a 6 meter radius on detonation.\nSticking an enemy increases explosion damage by 66.7% to 1,500 [250] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 4198689901,
+    "parentHash": "4198689901"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Lightning Grenade",
+    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a laser for 1 second before triggering.\n\nEmits a Lightning Bolt every 1.67 seconds, up to a maximum of 4+1 times.\nLightning Bolts deal 373 [120] damage, up to a total of 1,492 [1,865] [480 [600]] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 2994412667,
+    "parentHash": "2994412667"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Pulse Grenade",
+    "Description": "Medium Trajectory\n\nDetonates on impact, dealing up to 156 [50] damage in a 6 meter radius.\n\nPeriodically pulses every 0.7 seconds, dealing up to 276 [80] damage in a 6 meter radius an additional 5+2 times.\nCan deal up to a total of 1,401 [1,899] [530 [690]] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 1713935764,
+    "parentHash": "1713935764",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Pulse Grenade",
+    "Description": "Medium Trajectory\n\nDetonates on impact, dealing up to 156 [50] damage in a 6 meter radius.\n\nPeriodically pulses every 0.7 seconds, dealing up to 276 [80] damage in a 6 meter radius an additional 5+2 times.\nCan deal up to a total of 1,401 [1,899] [530 [690]] damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 1323461861,
+    "parentHash": "1323461861",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Skip Grenade",
+    "Description": "Medium Trajectory | Seekers\n\nSplits on impact, releasing 4 seekers that chase after enemies.\n\nSeekers begin chasing enemies that come within 6 metres of them, exploding after dealing damage, or self-destructing after ~2 seconds if their velocity is low.\n\nEach projectile deals 24 [4] impact damage twice, then explodes for up to 90 [15] damage.\nDeals up to 552 [92] damage with all 4 seekers.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 146194908,
+    "parentHash": "146194908"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Storm Grenade",
+    "Description": "Medium Trajectory\n\nCalls down a focused strike on impact which hits after 0.85 seconds, dealing up to 440 [70] damage in a 7 meter radius.\n\nAfter 0.6 seconds of the initial strike:\nCalls down a barrage of bolts in a + pattern over 7 meters, dealing up to 311 [50] damage.\nSpark of Magnitude: Calls down a barrage of bolts in an X pattern, dealing up to 311 [50] damage, then calls down a barrage in a + pattern, dealing up to 311 [50] damage.\nCombatants can only be hurt once per barrage, up to a maximum of 751 [1062] damage.\nGuardians can only be hurt once by the barrage of bolts, regardless of pattern, for a maximum of 120 damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 2481624867,
+    "parentHash": "2481624867",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Storm Grenade",
+    "Description": "Medium Trajectory\n\nCalls down a focused strike on impact which hits after 0.85 seconds, dealing up to 440 [70] damage in a 7 meter radius.\n\nAfter 0.6 seconds of the initial strike:\nCalls down a barrage of bolts in a + pattern over 7 meters, dealing up to 311 [50] damage.\nSpark of Magnitude: Calls down a barrage of bolts in an X pattern, dealing up to 311 [50] damage, then calls down a barrage in a + pattern, dealing up to 311 [50] damage.\nCombatants can only be hurt once per barrage, up to a maximum of 751 [1062] damage.\nGuardians can only be hurt once by the barrage of bolts, regardless of pattern, for a maximum of 120 damage.",
+    "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
+    "hash": 4241856103,
+    "parentHash": "4241856103",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Melee",
+    "Name": "Combination Blow",
+    "Description": "Upon scoring a Melee Kill:\nGrants 100% Class Ability, restores Health, and grants a stack of Combination Blow for 20 seconds, up to 3 stacks.\n\nCombination Blow:\nBasic Melee Attacks now deal Arc Damage.\n133% | 266% | 400% Increased Melee Damage\n23% | 51.3% | 86% Increased Melee Damage\nRestores x0 = 100 HP | x1 = 80 HP | x2 = 60 HP | x3 = 40 HP on Melee Kill.",
+    "hash": 2716335211,
+    "parentHash": "2716335211",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Melee",
+    "Name": "Combination Blow",
+    "Description": "Upon scoring a Melee Kill:\nGrants 100% Class Ability, restores Health, and grants a stack of Combination Blow for 20 seconds, up to 3 stacks.\n\nCombination Blow:\nBasic Melee Attacks now deal Arc Damage.\n133% | 266% | 400% Increased Melee Damage\n23% | 51.3% | 86% Increased Melee Damage\nRestores x0 = 100 HP | x1 = 80 HP | x2 = 60 HP | x3 = 40 HP on Melee Kill.",
+    "hash": 2657901005,
+    "parentHash": "2657901005",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Melee",
+    "Name": "Disorienting Blow",
+    "Description": "Deals 488 [?] Impact Damage. Enemies within 7 meters are dealt up to 488 [?] Splash Damage.\nInflicts Blind for 8.5 seconds to enemies within 9.6 meters on hit.\n\nGrants the user Amplified and x2 Bolt Charge on hit.",
+    "hash": 2716335210,
+    "parentHash": "2716335210"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Arc Staff",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy.",
+    "hash": 3769507633,
+    "parentHash": "3769507633"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Gathering Storm",
+    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nHurls forward an Arc Staff that explodes and embeds itself on whatever it hits on impact.\nDeals 544 [300] damage and inflicts jolt on impact. Explosion deals up to 608 [?] damage in a 10 meter radius.\n\nAfter 2 seconds, the Arc Staff gets struck by a lightning strike, dealing up to 1350 [500] damage in a 10 meter radius.\n\nAfter 1.2 seconds of being struck by lightning, the Staff emits a damaging field, dealing 446 [60] damage every 0.7 seconds in a 10 meter radius for 8 seconds.",
+    "hash": 3769507632,
+    "parentHash": "3769507632"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Storm's Edge",
+    "Description": "General Super Information\nDamage Resistance: 90% [45%]\nBase Duration: ? seconds, or ?% Super Drain per Second.\n\nThrows out a homing knife, dealing 90 [?] impact damage and up to 171 [45?] radial damage to enemies within 3 meters on impact, teleporting to it afterwards.\nPerforms a wide whirling strike after teleporting, dealing 1,440 x 2 [300?] damage to enemies within 6 metres.\nConsumes ?% Super Energy per knife thrown, up to 3 times per Super activation.",
+    "hash": 3769507635,
+    "parentHash": "3769507635",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Storm's Edge",
+    "Description": "General Super Information\nDamage Resistance: 90% [45%]\nBase Duration: ? seconds, or ?% Super Drain per Second.\n\nThrows out a homing knife, dealing 90 [?] impact damage and up to 171 [45?] radial damage to enemies within 3 meters on impact, teleporting to it afterwards.\nPerforms a wide whirling strike after teleporting, dealing 1,440 x 2 [300?] damage to enemies within 6 metres.\nConsumes ?% Super Energy per knife thrown, up to 3 times per Super activation.",
+    "hash": 2370269388,
+    "parentHash": "2370269388",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Ascension",
+    "Description": "While Airborne and having a Class Ability Charge:\n[Air Move] consumes a Class Ability Charge to perform an upwards Arc Staff Twirl.\nTriggers the effects of the equipped Class Ability on usage.\n\nGrants Amplified to the user and allies within 10 meters.\nDeals up to 181 [?] damage, as well as Jolting enemies within 10 metres.",
+    "hash": 4194622039,
+    "parentHash": "4194622039",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Ascension",
+    "Description": "While Airborne and having a Class Ability Charge:\n[Air Move] consumes a Class Ability Charge to perform an upwards Arc Staff Twirl.\nTriggers the effects of the equipped Class Ability on usage.\n\nGrants Amplified to the user and allies within 10 meters.\nDeals up to 181 [?] damage, as well as Jolting enemies within 10 metres.",
+    "hash": 2835214901,
+    "parentHash": "2835214901",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Flow State",
+    "Description": "Scoring a Jolted Enemy Kill grants Amplified. \n\nWhile Amplified:\n200% Additional Base Class Ability Regeneration Rate, +50 Reload Speed, and 0.8x Reload Duration Multiplier.\n66% [32%] Damage Resist during Dodge Animation.",
+    "hash": 4194622036,
+    "parentHash": "4194622036"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Lethal Current",
+    "Description": "Melee Hits on Jolted Enemies inflict Blind.\n\nOn Class Ability Usage:\nMelee Lunge Distance is increased to 7 metres. \nThe next Melee Hit within 10 seconds inflicts Jolt and creates a damaging aftershock, dealing 195 [?] damage to enemies within 6 metres.",
+    "hash": 4194622038,
+    "parentHash": "4194622038"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Tempest Strike",
+    "Description": "Scoring a Jolted Enemy Kill grants x1 Bolt Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, launching an Arc Wave along the ground up to 22 metres away, dealing 739 [125] damage and inflicting Jolt.\nGrants 75% Damage Resist against Combatants for 4? seconds after usage. Unable to use during slide if user shoots.\nCan trigger Combination Blow effects, and benefits from its damage increase.",
+    "hash": 4194622037,
+    "parentHash": "4194622037"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Class",
+    "Name": "Thruster",
+    "Description": "Performs an evasive first-person dash that removes Combatant Projectile Tracking?, as well as Aim Assist against Guardians.\n\nQuickly dashes 8 metres towards the currently held movement direction. Not inputting a movement direction will result in a 4 metre backwards dash.\nOnly usable while on the ground.",
+    "hash": 489583098,
+    "parentHash": "489583098",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Class",
+    "Name": "Thruster",
+    "Description": "Performs an evasive first-person dash that removes Combatant Projectile Tracking?, as well as Aim Assist against Guardians.\n\nQuickly dashes 8 metres towards the currently held movement direction. Not inputting a movement direction will result in a 4 metre backwards dash.\nOnly usable while on the ground.",
+    "hash": 2868073563,
+    "parentHash": "2868073563",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Ballistic Slam",
+    "Description": "While Airborne, after sprinting for 0.03 seconds:\nQuickly descends and strikes the ground, dealing a minimum of 210 [65] damage with no falloff to enemies within 8 metres.\nGrants 3% Super Energy and x3 Bolt Charge per enemy hit.\nDamage scales with time spent falling. A maximum jump height diagonal slam deals ~1,000 damage\nCannot perform a Melee Attack within 0.9 seconds of landing.",
+    "hash": 2708585276,
+    "parentHash": "2708585276"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Seismic Strike",
+    "Description": "Shared with other Shoulder Charge Abilities:\nRequires sprinting for 1.25 seconds. Drains 15% Melee Ability Energy if no enemy is hit. Unable to use during slide if user shoots. \nGuardians directly hit by Shoulder Charge have their Melee Lunge disabled for 0.5 seconds\nLunges forward 6.8 meters, automatically targeting enemies in range.\n\nHitting an enemy deals 537 [110] impact damage, as well as dealing up to 196 [40] radial damage and inflicting Blind for 5? [1.6] seconds to enemies within 6 meters.\n\nWhile Amplified:\n Blind Radius is increased to 10 metres, and the Blind Duration lasts ? [3] seconds.",
+    "hash": 2708585277,
+    "parentHash": "2708585277"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Thunderclap",
+    "Description": "Chargeable Melee Attack\nDeals 703 [120] damage in a 7.5 metre wide cone up to 16 metres away, gradually dealing up to 100% increased damage after charging for 2 seconds.\nGrants 80% Damage Resist against Combatants during the animation, and for ? seconds after usage. ",
+    "hash": 3141315153,
+    "parentHash": "3141315153",
+    "hash_warning": "Multiple matches found (3 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Thunderclap",
+    "Description": "Chargeable Melee Attack\nDeals 703 [120] damage in a 7.5 metre wide cone up to 16 metres away, gradually dealing up to 100% increased damage after charging for 2 seconds.\nGrants 80% Damage Resist against Combatants during the animation, and for ? seconds after usage. ",
+    "hash": 2708585279,
+    "parentHash": "2708585279",
+    "hash_warning": "Multiple matches found (3 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Thunderclap",
+    "Description": "Chargeable Melee Attack\nDeals 703 [120] damage in a 7.5 metre wide cone up to 16 metres away, gradually dealing up to 100% increased damage after charging for 2 seconds.\nGrants 80% Damage Resist against Combatants during the animation, and for ? seconds after usage. ",
+    "hash": 1980796563,
+    "parentHash": "1980796563",
+    "hash_warning": "Multiple matches found (3 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Super",
+    "Name": "Fists of Havoc",
+    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\n\nLight Attack\nDrains 6% Super Energy.\nHits deal 499 [?] damage and heavily knock enemies back.\nScoring a Light Attack grants the next heavy attack hit 4 additional damage instances of 273 [?] damage each.\n\nHeavy Attack\nDrains 12% Super Energy.\nSlams downwards, dealing 1619 [?] damage and inflicting blind in a 11 metre radius. Super Cast also slams, without the aftershocks\nSlam deals 4 additional damage instances of 273 [?] damage each if the user is in the animation for at least 1 second. Requires inputting a directional key.\nCreates up to 4 aftershocks, each dealing up to 292 [?] damage.",
+    "hash": 119041299,
+    "parentHash": "119041299"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Super",
+    "Name": "Thundercrash",
+    "Description": "General Super Information\nDamage Resistance: 90% [25%]\nBase Duration: Up to 4.5 seconds, or 22.2% Super Drain per Second\n\nEnemies that are very close when flying receive 150 [?] Collision Damage.\n\nDetonates on impact with a surface or enemy, dealing 180 [?] impact damage, as well as up to 8,260 [?] explosive damage over 10 meters.\nExplosion releases aftershocks 0.75 seconds after impact, dealing up to 108 [?] damage every second for 4 seconds. ",
+    "hash": 119041298,
+    "parentHash": "119041298",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Super",
+    "Name": "Thundercrash",
+    "Description": "General Super Information\nDamage Resistance: 90% [25%]\nBase Duration: Up to 4.5 seconds, or 22.2% Super Drain per Second\n\nEnemies that are very close when flying receive 150 [?] Collision Damage.\n\nDetonates on impact with a surface or enemy, dealing 180 [?] impact damage, as well as up to 8,260 [?] explosive damage over 10 meters.\nExplosion releases aftershocks 0.75 seconds after impact, dealing up to 108 [?] damage every second for 4 seconds. ",
+    "hash": 2529942644,
+    "parentHash": "2529942644",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Juggernaut",
+    "Description": "While sprinting and with full Class Ability Energy:\nGain an Overshield with 50 HP that absorbs frontal damage, granting x1 Bolt Charge per attack blocked.\nOvershield receives 33% Damage Resist while Amplified, increasing its effective health to 75eHP.\n60% [10%] Splash Damage Resist, and 10% Damage Resist against Combatants while active.\n\nOvershield is able to fully absorb the last hit before being destroyed, depleting all Class Ability Energy.\n\nStacks with other Overshields.",
+    "hash": 1656549673,
+    "parentHash": "1656549673"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Knockout",
+    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\n160% [30%] increased Basic Melee Damage, 160% [20%] increased Charged Melee Damage, increases Melee Lunge Distance to 6 metres, and Basic Melee Attacks now counts as an Arc Powered Melee Hits for 6 seconds.\n\nSpark of Feedback's PVP Melee Damage Increase is decreased to 15% while Knockout is active.",
+    "hash": 1656549674,
+    "parentHash": "1656549674",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Knockout",
+    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\n160% [30%] increased Basic Melee Damage, 160% [20%] increased Charged Melee Damage, increases Melee Lunge Distance to 6 metres, and Basic Melee Attacks now counts as an Arc Powered Melee Hits for 6 seconds.\n\nSpark of Feedback's PVP Melee Damage Increase is decreased to 15% while Knockout is active.",
+    "hash": 1262901523,
+    "parentHash": "1262901523",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Storm's Keep",
+    "Description": "On Class Ability Usage:\nGrants x4 Bolt Charge. \nThruster grants x6 Bolt Charge.\n\nWhile behind the Barricade:\nGrants a stack of Bolt Charge every 0.6 seconds. \nBolt Charge can now trigger with Weapon Damage.\nSpark of Frequency does not increase the number of Bolt Charge stacks gained. Does not stack with multiple barricades.",
+    "hash": 1656549675,
+    "parentHash": "1656549675"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Touch of Thunder",
+    "Description": "Enhances certain Grenade types:\n\nFlashbang: Blinds enemies within 5 metres upon bouncing for the first time.\n\nLightning: Grants an additional Grenade Charge, and the lightning strikes after the first apply jolt.\n\nPulse: Damaging an enemy creates an Ionic Trace with a 1 second cooldown. Deals up to 25% increased damage as it lingers.\n1st = 2% | 2nd = 9% | 3rd = 18.5% | 4th = 24% | 5th onwards = 25%\n\nStorm: Creates a roaming storm for 4+1.5 seconds after detonating, chasing after enemies at an initial speed of 2 [1.5] m/s, increasing to 4 [3] m/s after 1.3 seconds.\n Roaming Storm fires lightning bolts underneath it that deal 164 [30] damage up to 11+4 times.",
+    "hash": 1656549672,
+    "parentHash": "1656549672"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Melee",
+    "Name": "Ball Lightning",
+    "Description": "Fires a Ball Lightning forward up to 35 meters away, releasing a lightning strike if an enemy is up to 4? meters under it, after reaching its maximum distance, or on impact.\n\nLightning strike deals 271 [70] damage over 2? meters.\nDirectly impacting an enemy will deal an additional 117 [30] damage.\n\nWhile Amplified:\nCreates 2 additional lightning strikes, each dealing 163 [?] damage.\nDeals up to 714 [240] damage upon scoring a direct hit alongside all 3 lightning strikes.",
+    "hash": 1232050830,
+    "parentHash": "1232050830"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Melee",
+    "Name": "Chain Lightning",
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\n\nDirectly strikes an enemy, dealing 245 [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 133 [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
+    "hash": 1232050831,
+    "parentHash": "1232050831",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Melee",
+    "Name": "Chain Lightning",
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\n\nDirectly strikes an enemy, dealing 245 [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 133 [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
+    "hash": 3644045868,
+    "parentHash": "3644045868",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Super",
+    "Name": "Chaos Reach",
+    "Description": "General Super Information\nDamage Resistance: 90% [55%]\nBase Duration: 4 seconds, or 25% Super Drain per Second\nMovement Speed: 4.5 meters per second.\n\nChannels a long range beam towards the reticle, dealing 378 [?] damage every 0.13 seconds. Does not deal damage for the first 0.67 seconds of the animation.\nScoring 7 hits on an enemy summons a jolting lightning strike on the enemy's location, dealing 202 [?] damage.\n\nPartially refunds Super Energy on early deactivation, up to a maximum of 30% Super Energy if immediately cancelled.",
+    "hash": 1081893461,
+    "parentHash": "1081893461"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Super",
+    "Name": "Stormtrance",
+    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 16 seconds, or 6.25% Super Drain per Second.\n\nOn Super Cast:\nDeals up to 690 [?] damage in a 6 meter radius, knocking enemies back, and releases 5 Lightning Seekers around the caster.\nLightning Seekers deal 440 [150] damage and inflict jolt for 16 seconds.\n\nLight Attack\nDrains ?% Super Energy.\nTargets enemies within 12 meters, releasing chain lighting that deals 178 [90] damage every 0.34 seconds.\nDamage ramps up over time, increasing by 5% every 0.33 seconds, up to 65% increased damage after 3.33 seconds.\n Damage Increase decays after 2 seconds of not dealing damage.\n\nHeavy Attack | Sprint\nPerforms an Ionic Blink, consuming 6.25% Super Energy and teleporting up to 7 meters away towards the currently input movement direction.",
+    "hash": 1081893460,
+    "parentHash": "1081893460",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Super",
+    "Name": "Stormtrance",
+    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 16 seconds, or 6.25% Super Drain per Second.\n\nOn Super Cast:\nDeals up to 690 [?] damage in a 6 meter radius, knocking enemies back, and releases 5 Lightning Seekers around the caster.\nLightning Seekers deal 440 [150] damage and inflict jolt for 16 seconds.\n\nLight Attack\nDrains ?% Super Energy.\nTargets enemies within 12 meters, releasing chain lighting that deals 178 [90] damage every 0.34 seconds.\nDamage ramps up over time, increasing by 5% every 0.33 seconds, up to 65% increased damage after 3.33 seconds.\n Damage Increase decays after 2 seconds of not dealing damage.\n\nHeavy Attack | Sprint\nPerforms an Ionic Blink, consuming 6.25% Super Energy and teleporting up to 7 meters away towards the currently input movement direction.",
+    "hash": 1869939007,
+    "parentHash": "1869939007",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Arc Soul",
+    "Description": "Rifts created by the user grant an Arc Soul to the user and allies that pass through it.\nDuration can be refreshed by stepping back into the Rift.\n\nArc Buddy lasts 15 seconds and fires homing projectiles that deal 69 [11] Arc Grenade Damage in 3-round bursts at a rate of 100RPM towards enemies within 30 meters.\nCan trigger Grenade Ability interactions.\n\nGrants Additional Base Class Ability Regeneration Rate while within 15? metres of allies.\nx1 = 40% [20%] | x2 = 80% [40%] | x3 = 120% [60%]\n\nWhile Amplified:\nArc Boi shoots bursts of 5 shots, increasing its overall RPM to 225RPM.",
+    "hash": 1293395731,
+    "parentHash": "1293395731"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Electrostatic Mind",
+    "Description": "Arc Ability Kills and kills against enemies affected by Arc Elemental Debuffs create an Ionic Trace.\nIncurs a 1? second cooldown between Ionic Trace spawns.\n\nIonic Traces grant Amplified on pickup.",
+    "hash": 1293395729,
+    "parentHash": "1293395729"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Ionic Sentry",
+    "Description": "Arc Kills and Kinetic Kills charge up an Ionic Sentry. Readies at 6 Charges.\nWeapon = 1 [2] | Abilities = 2 [?]\n\nReplaces Grenade with an Ionic Sentry.\nCounts as an Arc Grenade Ability Damage, and will trigger Grenade Ability interactions.\n\nIonic Sentry:\nInflicts Blind for 10? [3?] seconds to enemies within 5 meters upon landing\nAutomatically shoots a chaining bolt of lightning every second at enemies within 16 metres, dealing 202 [50] Arc Damage. \nChains towards an additional enemy within 6 meters of the initially struck target.\nGrants x1 Bolt Charge on hit.\nLasts for 15 seconds and has ? Construct HP.\nUser is immune to self-blind.\n\nIncurs a 6 second cooldown after activating. Kills while on cooldown don't give charges.",
+    "hash": 1293395728,
+    "parentHash": "1293395728"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Lightning Surge",
+    "Description": "While Sliding:\n[Melee Ability] warps the user forward 10 meters, calling down 5 lightning bolts in a ⬠-shape 7 meters away from the exit point, and granting x1 Bolt Charge per enemy hit.\nGrants Amplified on usage. Does not grant any Bolt Charge past x1 unless hits are scored.\nGrants ?% Damage Resist against Combatants for ? seconds after usage. Unable to use during slide if user shoots.\n\nLightning bolts deal 634 + 127 = 761 [105 + 47 = 152] damage simultaneously and inflict Jolt.",
+    "hash": 1293395730,
+    "parentHash": "1293395730",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Lightning Surge",
+    "Description": "While Sliding:\n[Melee Ability] warps the user forward 10 meters, calling down 5 lightning bolts in a ⬠-shape 7 meters away from the exit point, and granting x1 Bolt Charge per enemy hit.\nGrants Amplified on usage. Does not grant any Bolt Charge past x1 unless hits are scored.\nGrants ?% Damage Resist against Combatants for ? seconds after usage. Unable to use during slide if user shoots.\n\nLightning bolts deal 634 + 127 = 761 [105 + 47 = 152] damage simultaneously and inflict Jolt.",
+    "hash": 790664812,
+    "parentHash": "790664812",
+    "hash_warning": "Multiple matches found (2 total)"
+  }
+]

@@ -413,7 +413,7 @@
   },
   {
     "Name": "Hatchling",
-    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑although sometimes 2 Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling every ? Hatchling triggers."
+    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑2 (at a 10?% chance) Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling at a 10%? chance."
   },
   {
     "Name": "Headseeker",

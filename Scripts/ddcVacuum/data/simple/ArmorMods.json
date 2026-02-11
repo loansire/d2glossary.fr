@@ -193,7 +193,7 @@
   },
   {
     "Name": "Enhanced Athletics",
-    "Description": "+30 | +50 | +60 Mobility.",
+    "Description": "+30 | +50 | +60 Mobility.\n\nHunters reach maximum Mobility with 1 Mod in PVE.",
     "Type": "LegsMods",
     "Comment": "[1 Energy]"
   },

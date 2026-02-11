@@ -5,7 +5,7 @@
   },
   {
     "Name": "Grapple Tangle",
-    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
+    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nStrand and Prismatic Subclasses allow using Grapple Melee. Prismatic Warlocks need to equip Arcane Needle to receive Grapple Melee.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
   },
   {
     "Name": "Threadling",

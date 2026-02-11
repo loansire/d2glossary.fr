@@ -1,0 +1,458 @@
+[
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Tangle",
+    "Description": "Strand Elemental Pickup\n\n Spawned when an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) is killed while on a Strand Subclass, or through Exotic Gear. \nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Grapple Tangle",
+    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nStrand and Prismatic Subclasses allow using Grapple Melee. Prismatic Warlocks need to equip Arcane Needle to receive Grapple Melee.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Threadling",
+    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 338 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Woven Mail",
+    "Description": "Grants 45% [25%] Damage Resist for 10 seconds. \nPrecision Hits and Melee Attacks from Guardians bypass the Damage Resist.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Sever",
+    "Description": "Decreases the enemy's outgoing damage dealt by 40% [15%] for 10+5 [5+2.5] seconds.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Suspend",
+    "Description": "Suspended Enemies are held midair, unable to use abilities.\n\nSuspended Combatants are unable to move, shoot, or use abilities.\nRank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds.\nBoss Combatants are immune to suspension, instead receiving 300 damage after ? seconds.\n\nSuspended Guardians are lifted midair, being able to slowly hover and hipfire their weapons for 2+1 seconds in a third-person perspective.\n\nSuspending Blasts deal up to 120 [40] damage and inflict Suspend to enemies within 10 meters.\n\nUnstoppable Champions are stunned upon being Suspended.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Unravel",
+    "Description": "Unraveled Enemies release 3 seeking threads towards enemies within ? metres 0.25 seconds after receiving 40 damage.\nEach Thread deals 26 [4] damage and applies Unravel on hit.\nUnravel has a 1.2 second cooldown between thread releases. \n\n Thread hits refresh the duration of Unravel, up to its original duration. \n(If the Unravel source applied a 9 second debuff, thread hits will reapply it to 9 seconds)",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "SubClassVerb",
+    "Name": "Unraveling Rounds",
+    "Description": "Strand Weapons apply Unravel upon dealing damage, and Barrier Champion Shields are able to be damaged while Unraveling Rounds are active, stunning the Champion when destroyed.",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Ascent",
+    "Description": "On Grenade Ability Usage:\nRefills readied weapon.\n+40? Handling, +40 Reload Speed, 0.925x Reload Duration Multiplier and +30 Airborne Effectiveness for 15 seconds.\nIncurs a 4 second cooldown between Ammo Refills upon activation.",
+    "hash": 4208512216,
+    "parentHash": "4208512216"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Binding",
+    "Description": "Super Kills create a Suspending Blast.",
+    "hash": 3192552688,
+    "parentHash": "3192552688"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Continuity",
+    "Description": "Strand Debuffs normally last 50% longer.\nDebuff sources will have their value with Continuity shown in smaller text next to the regular duration.",
+    "hash": 3192552690,
+    "parentHash": "3192552690"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Evolution",
+    "Description": "Threadling move 30?% faster, travel further, and deal increased damage.\n\nThreadling Damage Increase:\n33% against Combatants | 12.5% against Guardians",
+    "hash": 4208512211,
+    "parentHash": "4208512211"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Finality",
+    "Description": "Finishers create Threadlings, with the amount scaling with Enemy Rank.\nRank-And-File = 1 | Elite = 2 | Miniboss = 3",
+    "hash": 4208512217,
+    "parentHash": "4208512217"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Fury",
+    "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%",
+    "hash": 4208512219,
+    "parentHash": "4208512219"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Generation",
+    "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant.",
+    "hash": 3192552691,
+    "parentHash": "3192552691"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Isolation",
+    "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, applying Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns",
+    "hash": 3192552689,
+    "parentHash": "3192552689"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Mind",
+    "Description": "Killing Suspended Enemies grants Class Ability Energy based on Enemy Rank.\nIncurs a 1? second cooldown upon scoring a kill.\nTier 1 Combatant = 10% | T2 = 12% | T3 = 15% | T4 = 30% | Guardians = 15%",
+    "hash": 4208512218,
+    "parentHash": "4208512218"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Propagation",
+    "Description": "On Powered Melee Ability Kill:\nGrants Unraveling Rounds to Strand Weapons for 8 [5] seconds.",
+    "hash": 4208512210,
+    "parentHash": "4208512210"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Rebirth",
+    "Description": "Strand Weapon Kills progress a counter that spawns a variable number of Threadlings upon reaching 100%.\n\nCounter Progress (Threadling Amount):\nRank-And-File = 34% (1) | Elite = 67% (2) | Miniboss and Boss = 100% (3) | Guardians = 67% (2)",
+    "hash": 4208512220,
+    "parentHash": "4208512220"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Transmutation",
+    "Description": "While Woven Mail is active:\nWeapon Kills spawn a Tangle.",
+    "hash": 4208512221,
+    "parentHash": "4208512221"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Warding",
+    "Description": "On Orb of Power Pickup:\nGrants Woven Mail for 5 seconds.",
+    "hash": 4208512222,
+    "parentHash": "4208512222"
+  },
+  {
+    "Class": "General",
+    "Type": "Fragment",
+    "Name": "Thread of Wisdom",
+    "Description": "Killing Suspended Enemies creates an Orb of Power that grants 2.5% Super Energy.\nIncurs a 10 second cooldown after creating an Orb of Power.",
+    "hash": 4208512223,
+    "parentHash": "4208512223"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Grapple",
+    "Description": "Hooks up to 22 metres away, dealing 38 [?] damage and staggering enemies on impact, as well as attaching to enemies or objects.\nCancelling a Grapple within 1 second of activation refunds 50% Grenade Energy.\n\nUpon Grappling a Tangle or Grapple Tangle:\nFully refunds a Grapple Ability Charge and grants Grapple Returned for 4 seconds, allowing immediate reactivation if Grappling ends while the buff is active.\nGrenade Kickstart does not activate when grappling a Tangle or Grapple Tangle.\n\nGrapple Melee:\nPerformed by pressing [Melee Attack] while grappling, or for up to ? seconds after, while at a sufficiently fast speed.\nDeals 432 [61] impact damage, and up to 432 [61] radial damage over a 4? metre radius, unraveling and pushing enemies back.\nGuardians directly hit by Grapple Melee have their Melee Lunge disabled for 0.5 seconds\n\nGrapple Melee counts as both a Grenade and Melee Ability.\nAshes to Assets grants 50% less Super Energy when a Grapple Melee is used with a Grapple Tangle.\n\nGrapple Passive Ability Regeneration is disabled until no longer airborne. Also applies to Silkstrike.",
+    "hash": 2470512752,
+    "parentHash": "2470512752",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Grapple",
+    "Description": "Hooks up to 22 metres away, dealing 38 [?] damage and staggering enemies on impact, as well as attaching to enemies or objects.\nCancelling a Grapple within 1 second of activation refunds 50% Grenade Energy.\n\nUpon Grappling a Tangle or Grapple Tangle:\nFully refunds a Grapple Ability Charge and grants Grapple Returned for 4 seconds, allowing immediate reactivation if Grappling ends while the buff is active.\nGrenade Kickstart does not activate when grappling a Tangle or Grapple Tangle.\n\nGrapple Melee:\nPerformed by pressing [Melee Attack] while grappling, or for up to ? seconds after, while at a sufficiently fast speed.\nDeals 432 [61] impact damage, and up to 432 [61] radial damage over a 4? metre radius, unraveling and pushing enemies back.\nGuardians directly hit by Grapple Melee have their Melee Lunge disabled for 0.5 seconds\n\nGrapple Melee counts as both a Grenade and Melee Ability.\nAshes to Assets grants 50% less Super Energy when a Grapple Melee is used with a Grapple Tangle.\n\nGrapple Passive Ability Regeneration is disabled until no longer airborne. Also applies to Silkstrike.",
+    "hash": 1225978592,
+    "parentHash": "1225978592",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Shackle Grenade",
+    "Description": "??? Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "hash": 2809342386,
+    "parentHash": "2809342386",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Shackle Grenade",
+    "Description": "??? Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "hash": 1517917190,
+    "parentHash": "1517917190",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Threadling Grenade",
+    "Description": "Medium Trajectory\n\nSplits into 3 projectiles while midair, each creating a Threadling on impact.",
+    "hash": 4228170798,
+    "parentHash": "4228170798",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Threadling Grenade",
+    "Description": "Medium Trajectory\n\nSplits into 3 projectiles while midair, each creating a Threadling on impact.",
+    "hash": 3994381207,
+    "parentHash": "3994381207",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Melee",
+    "Name": "Threaded Spike",
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. Catching the Threaded Spike increases the amount of Melee Energy gained.\n\nHits | Melee % | Caught %\n0 | 5% | 20%\n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
+    "hash": 1680616210,
+    "parentHash": "1680616210",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Melee",
+    "Name": "Threaded Spike",
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. Catching the Threaded Spike increases the amount of Melee Energy gained.\n\nHits | Melee % | Caught %\n0 | 5% | 20%\n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
+    "hash": 2657901002,
+    "parentHash": "2657901002",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Silkstrike",
+    "Description": "General Super Information\nDamage Resistance: 90% [45%]\nBase Duration: 24.5 seconds, or 4% Super Drain per Second\n\nLight Attack\nDrains 4% Super Energy.\nHits deal 1638 [260] damage.\nKills cause the enemy to explode, dealing up to 1293 [?] damage to enemies within ? metres.\n\nHeavy Attack\nDrains 9% Super Energy.\nSwings the rope dart in a 360-degree arc, dealing [504] [80] damage in a ? metre radius. Hits twice per usage.\n\nGrenade\nDoes not drain Super Energy.\nFunctionally identical to a Grapple Grenade that instantly recharges once grounded.\n\nClass Ability\nDrains 4.5% Super Energy.\nPerforms the Arc Staff Dodge Animation, evading attacks.\n\n Allows the repeated usage of Ensnaring Slam while the Aspect is equipped at the cost of 4.5% Super Energy.",
+    "hash": 2463983862,
+    "parentHash": "2463983862",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Super",
+    "Name": "Silkstrike",
+    "Description": "General Super Information\nDamage Resistance: 90% [45%]\nBase Duration: 24.5 seconds, or 4% Super Drain per Second\n\nLight Attack\nDrains 4% Super Energy.\nHits deal 1638 [260] damage.\nKills cause the enemy to explode, dealing up to 1293 [?] damage to enemies within ? metres.\n\nHeavy Attack\nDrains 9% Super Energy.\nSwings the rope dart in a 360-degree arc, dealing [504] [80] damage in a ? metre radius. Hits twice per usage.\n\nGrenade\nDoes not drain Super Energy.\nFunctionally identical to a Grapple Grenade that instantly recharges once grounded.\n\nClass Ability\nDrains 4.5% Super Energy.\nPerforms the Arc Staff Dodge Animation, evading attacks.\n\n Allows the repeated usage of Ensnaring Slam while the Aspect is equipped at the cost of 4.5% Super Energy.",
+    "hash": 2370269384,
+    "parentHash": "2370269384",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Ensnaring Slam",
+    "Description": "[Air Move] expends Class Ability Energy to dive downwards, dealing 61 [11] damage and inflicting Suspension to enemies within 8 [6.5] metres.\nTriggers the effects of the equipped Class Ability, as well as Threaded Specter if equipped.\n\nGrants Woven Mail for 4 seconds for each enemy suspended with the Ensnaring Slam, up to a maximum of 20 seconds.",
+    "hash": 4249729126,
+    "parentHash": "4249729126"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Threaded Specter",
+    "Description": "On Class Ability Usage:\nSpawns a Strand Decoy. \n\nDecoy has 175 Construct HP and lasts for up to 12 seconds. Combatants are lured to attack it, and has 70% Damage Resist against Combatants. \nAllies and Caster deal 150% increased Ability and Weapon Damage towards it.\nDecoy always counts as hostile and can be damaged by allies, enemies, and the caster. Does not activate any On-Kill effect.\n\nUpon losing all HP or when an enemy is within ? metres:\n Deals up to 600 [60 Guardians | 121 Objects] damage in a ? metre radius.\nExplosions triggered by enemies being near it spawn 2 Threadlings.\n\nPassively applies 0.6x Class Ability Regeneration Speed while equipped.",
+    "hash": 4249729125,
+    "parentHash": "4249729125",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Threaded Specter",
+    "Description": "On Class Ability Usage:\nSpawns a Strand Decoy. \n\nDecoy has 175 Construct HP and lasts for up to 12 seconds. Combatants are lured to attack it, and has 70% Damage Resist against Combatants. \nAllies and Caster deal 150% increased Ability and Weapon Damage towards it.\nDecoy always counts as hostile and can be damaged by allies, enemies, and the caster. Does not activate any On-Kill effect.\n\nUpon losing all HP or when an enemy is within ? metres:\n Deals up to 600 [60 Guardians | 121 Objects] damage in a ? metre radius.\nExplosions triggered by enemies being near it spawn 2 Threadlings.\n\nPassively applies 0.6x Class Ability Regeneration Speed while equipped.",
+    "hash": 2835214897,
+    "parentHash": "2835214897",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Whirling Maelstrom",
+    "Description": "Upon destroying a regular, boring Tangle:\nSummons a Spinny Tangle, which seeks enemies within ? metres, accelerating as it gets closer, up to a maximum of 6m/s.\nBeyblade Tangles counts as a Grapple Tangle.\n\nWhirling Tangles have ? Construct HP, and last for 12 seconds.\n🛸UFO Tangles deal 35 [?] Strand damage every 0.1 seconds in a 2? meter radius, and release Unraveling Projectiles on kill.\nStabby Tangles kills count as Tangle Kills. Rotating Tangles Hits do not count as Tangle hits nor as Ability Damage.",
+    "hash": 4249729124,
+    "parentHash": "4249729124"
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
+    "Name": "Widow's Silk",
+    "Description": "Grants an additional Grenade Ability Charge.\n\nGrapple creates a Grapple Tangle.\nGrapple Tangle won't be created if Grapple attaches to an enemy or ally.\n\nScoring a Grapple Melee hit creates a Grapple Tangle.\nOnly creates one if the Grapple wasn't free by initially targeting a Tangle or Grapple Tangle.",
+    "hash": 4249729127,
+    "parentHash": "4249729127"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Frenzied Blade",
+    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed for ? [?] seconds.",
+    "hash": 4094417246,
+    "parentHash": "4094417246",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Melee",
+    "Name": "Frenzied Blade",
+    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed for ? [?] seconds.",
+    "hash": 1980796564,
+    "parentHash": "1980796564",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Super",
+    "Name": "Bladefury",
+    "Description": "General Super Information\nDamage Resistance: 90% [50%]\nBase Duration: 24 seconds, or 4.167% Super Drain per Second\nGrants 3 Melee Ability Charges on Super End.\n\nLight Attack\nDrains 3% Super Energy.\nPerforms a strengthened Frenzied Blade Melee that deals 851 [210] damage and can be infinitely chained.\nDeals 25% increased damage against Suspended enemies. \nAttacks 3 times per second. Increases Attack Speed by 100% after chaining 3 sustained light attacks. \nPerforming a Heavy Attack, or failing to maintain a Light Attack chain will remove the Attack Speed Increase.\n\nHeavy Attack\nDrains 10.5% Super Energy. Incurs a 3 second cooldown after usage.\nHurls a pair of Suspending projectiles forward that home in towards enemies, dealing 143 x 2 [61] impact damage, and up to 608 x 2 [36] splash damage over ? meters.\nLight Attack Hits reduce the cooldown by 1 second. Receiving any damage reduces the cooldown by 1 second.",
+    "hash": 3574662354,
+    "parentHash": "3574662354",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Super",
+    "Name": "Bladefury",
+    "Description": "General Super Information\nDamage Resistance: 90% [50%]\nBase Duration: 24 seconds, or 4.167% Super Drain per Second\nGrants 3 Melee Ability Charges on Super End.\n\nLight Attack\nDrains 3% Super Energy.\nPerforms a strengthened Frenzied Blade Melee that deals 851 [210] damage and can be infinitely chained.\nDeals 25% increased damage against Suspended enemies. \nAttacks 3 times per second. Increases Attack Speed by 100% after chaining 3 sustained light attacks. \nPerforming a Heavy Attack, or failing to maintain a Light Attack chain will remove the Attack Speed Increase.\n\nHeavy Attack\nDrains 10.5% Super Energy. Incurs a 3 second cooldown after usage.\nHurls a pair of Suspending projectiles forward that home in towards enemies, dealing 143 x 2 [61] impact damage, and up to 608 x 2 [36] splash damage over ? meters.\nLight Attack Hits reduce the cooldown by 1 second. Receiving any damage reduces the cooldown by 1 second.",
+    "hash": 2529942642,
+    "parentHash": "2529942642",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Banner of War",
+    "Description": "Upon scoring a Sword Kill, Melee Kill, Glaive Melee Kill, Super Light Attack Kill, or Finisher:\nRaises a Banner of War for 15 seconds, buffing the user and nearby allies within 10 metres. \nKills scored by the user or nearby allies empower and extend the duration of Banner of War, up to a maximum of x4 Banner of War and 30 seconds.\n\nBanner of War:\nLasts for 15 seconds, up to a maximum of 24 seconds.\nGrants x1 stacks for every 7 [2] enemies that either die within 20 meters, are killed by the user, or by allies within 20 metres.\nKills increase the duration by +5 seconds. Each stack after the second decreases the duration extension by -1, down to +3 seconds per kill at x4 stacks.\nPeriodically restores 20 HP every 2.5 seconds. Each stack after the first decreases the delay between pulses by 0.5 second, down to 1 second at x4 stacks.\nGrants 100% [Varies] Increased Melee Damage, 40% Increased Bladefury Damage, and 20% Increased Sword Damage.\n[x1 = ?% Inc. Melee DMG | x2 = ?% | x3 = ?% | x4 = ?%]\n\nStacks | Time Extension | Kills for next stack | Pulse Delay\nx1 | +6 seconds | 7 [2] Kills | 2.5 seconds\nx2 | +5 seconds | 7 [2] Kills | 2 seconds\nx3 | +4 seconds | 7 [2] Kills | 1.5 seconds\nx4 | +3 seconds | - | 1 second",
+    "hash": 988980154,
+    "parentHash": "988980154"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Drengr's Lash",
+    "Description": "On Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
+    "hash": 988980152,
+    "parentHash": "988980152",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Drengr's Lash",
+    "Description": "On Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
+    "hash": 1262901525,
+    "parentHash": "1262901525",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Flechette Storm",
+    "Description": "While sliding:\n[Melee Ability] leaps into the air, draining 50% Melee Energy, knocking enemies within ? metres back, and dealing 135 [66] damage.\nUnable to use during slide if user shoots.\n\nWhile Airborne after using Melee Ability:\n[Melee Ability] drains 50% Melee Energy to launch a cluster of 4 Unraveling Projectiles, each dealing 171 [25.2] damage to enemies within ? metres.\n[Melee Ability] while airborne to chain additional throws.\n\nGrants 25% Damage Resist against Non-Melee while in the Melee Animation.",
+    "hash": 988980155,
+    "parentHash": "988980155"
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
+    "Name": "Into The Fray",
+    "Description": "Upon destroying a Tangle:\nReleases 3 pulses from where the Tangle was destroyed, restoring 15 HP and granting Woven Mail to the user and allies within 10? metres every 2 seconds.\n\nOn Super Cast:\nGrants allies within ? metres Woven Mail.\n\nWhile Woven Mail is active:\n300% [200%] Additional Base Melee Regeneration Rate.",
+    "hash": 988980153,
+    "parentHash": "988980153"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Melee",
+    "Name": "Arcane Needle",
+    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.16x Regeneration Speed | 1 Charge = 1.64x Regeneration Speed | 2 Charges = 2.6x Regeneration Speed\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nThrows a seeking Strand Needle, homing towards the targeted enemy, dealing 505 [68] damage and inflicting unravel for ?+? [7+2.5] seconds.",
+    "hash": 2307689415,
+    "parentHash": "2307689415",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Melee",
+    "Name": "Arcane Needle",
+    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.16x Regeneration Speed | 1 Charge = 1.64x Regeneration Speed | 2 Charges = 2.6x Regeneration Speed\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nThrows a seeking Strand Needle, homing towards the targeted enemy, dealing 505 [68] damage and inflicting unravel for ?+? [7+2.5] seconds.",
+    "hash": 3644045871,
+    "parentHash": "3644045871",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Super",
+    "Name": "Needlestorm",
+    "Description": "General Super Information\nDamage Resistance: ?% [53%]\n\nReleases 9 homing projecties, each dealing 783 [?] damage and embedding on hit, exploding after ? seconds into threadlings.\nThreadlings spawned from Needlestorm deal 368 [?] damage.",
+    "hash": 1885339915,
+    "parentHash": "1885339915",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Super",
+    "Name": "Needlestorm",
+    "Description": "General Super Information\nDamage Resistance: ?% [53%]\n\nReleases 9 homing projecties, each dealing 783 [?] damage and embedding on hit, exploding after ? seconds into threadlings.\nThreadlings spawned from Needlestorm deal 368 [?] damage.",
+    "hash": 1869939001,
+    "parentHash": "1869939001",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Mindspun Invocation",
+    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to consume a Grenade Charge, granting 5 Perched Threadlings.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.",
+    "hash": 262821318,
+    "parentHash": "262821318"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "The Wanderer",
+    "Description": "Destroying a Tangle creates a Suspending Burst after ? seconds. applying Suspension to enemies within 7 metres.\n\nThrown Tangles now seek and attach to enemies, exploding in a Suspending Burst, applying Suspension to enemies within 7 metres.\nThrown Tangles are unaffected by Gravity.\n\nThreadling Kills now spawn a Tangle.",
+    "hash": 262821319,
+    "parentHash": "262821319"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Weaver's Call",
+    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated.\n Cannot generate more than 1 Threadling at a time.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
+    "hash": 262821317,
+    "parentHash": "262821317",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Weaver's Call",
+    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated.\n Cannot generate more than 1 Threadling at a time.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
+    "hash": 790664810,
+    "parentHash": "790664810",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Weavewalk",
+    "Description": "While airborne and while having at least 1 Melee Ability Charge:\n[Air Move] grants Weavewalk and instantly consumes 20% Melee Ability Energy.\n\nWhile Weavewalk is active:\nGenerates a Perched Threadlings every 0.5 seconds. Grants 90% [90%, 60% while carrying Spark] Damage Resist.\nDrains 25% Melee Ability Energy per second.\nFunctionally identical to Void Invisibility.\nArc Souls, No Time To Explain's Time-slip Portal, and Threadlings deal 50% Decreased Damage.\nUnable to use Weapon, Abilities, or perform revives. Cannot pick up ammo or Orbs of Power.\n\nUpon exiting Weavewalk:\nGrants Woven Mail to the user and allies within ? meters.\nDuration scales from 2 seconds, up to a maximum of 20 seconds after being in Weavewalk for ? seconds.",
+    "hash": 262821312,
+    "parentHash": "262821312"
+  }
+]

@@ -47,7 +47,7 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    "ArcFragments": {
+    "ArcSubclass": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
@@ -58,7 +58,7 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    "SolarFragments": {
+    "SolarSubclass": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
@@ -69,7 +69,7 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    "StasisFragments": {
+    "StasisSubclass": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
@@ -80,7 +80,7 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    "StrandFragments": {
+    "StrandSubclass": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"
@@ -91,7 +91,7 @@ HASH_MAPPINGS = {
         "name_path": "displayProperties.name",
         "hash_path": "hash"
     },
-    "VoidFragments": {
+    "VoidSubclass": {
         "source": "item_definitions.json",
         "name_path": "displayProperties.name",
         "hash_path": "hash"

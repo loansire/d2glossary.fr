@@ -20062,7 +20062,7 @@
   },
   {
     "Name": "Hatchling",
-    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑although sometimes 2 Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling every ? Hatchling triggers.",
+    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑2 (at a 10?% chance) Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling at a 10%? chance.",
     "hash": 831391274,
     "parentHash": "831391274",
     "hash_warning": "Multiple matches found (2 total)",
@@ -20081,10 +20081,22 @@
               "text": "Spawns 1 "
             },
             {
-              "text": "↑although sometimes 2 Threadling on Enemy Death Location.",
+              "text": "↑2",
               "classNames": [
                 "enhancedArrow"
               ]
+            },
+            {
+              "text": " (at a 10?% chance) "
+            },
+            {
+              "text": "Threadling",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " on Enemy Death Location."
             }
           ]
         },
@@ -20096,7 +20108,7 @@
         {
           "linesContent": [
             {
-              "text": "↑Spawns an additional Threadling every ? Hatchling triggers.",
+              "text": "↑Spawns an additional Threadling at a 10%? chance.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -20108,7 +20120,7 @@
   },
   {
     "Name": "Hatchling",
-    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑although sometimes 2 Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling every ? Hatchling triggers.",
+    "Description": "Upon scoring a Precision Kill OR 3 kills within 3 seconds of each:\nSpawns 1 ↑2 (at a 10?% chance) Threadling on Enemy Death Location. \n\n↑Spawns an additional Threadling at a 10%? chance.",
     "hash": 102912326,
     "parentHash": "102912326",
     "hash_warning": "Multiple matches found (2 total)",
@@ -20127,10 +20139,22 @@
               "text": "Spawns 1 "
             },
             {
-              "text": "↑although sometimes 2 Threadling on Enemy Death Location.",
+              "text": "↑2",
               "classNames": [
                 "enhancedArrow"
               ]
+            },
+            {
+              "text": " (at a 10?% chance) "
+            },
+            {
+              "text": "Threadling",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " on Enemy Death Location."
             }
           ]
         },
@@ -20142,7 +20166,7 @@
         {
           "linesContent": [
             {
-              "text": "↑Spawns an additional Threadling every ? Hatchling triggers.",
+              "text": "↑Spawns an additional Threadling at a 10%? chance.",
               "classNames": [
                 "enhancedArrow"
               ]
