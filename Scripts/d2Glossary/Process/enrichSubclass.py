@@ -71,6 +71,7 @@ SUBCLASS_PLUG_CATEGORIES = [
     "warlock.prism.aspects", "warlock.prism.class_abilities", "warlock.prism.melee",
     "warlock.prism.movement", "warlock.prism.supers", "warlock.prism.grenades",
     "shared.prism.fragments",
+    "hunter.prism.prism_grenade", "titan.prism.prism_grenade", "warlock.prism.prism_grenade",
 ]
 
 

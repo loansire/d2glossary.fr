@@ -76,6 +76,7 @@ const SUBCLASS_PLUG_CATEGORIES = [
   'warlock.prism.aspects', 'warlock.prism.class_abilities', 'warlock.prism.melee',
   'warlock.prism.movement', 'warlock.prism.supers', 'warlock.prism.grenades',
   'shared.prism.fragments',
+  "hunter.prism.prism_grenade", "titan.prism.prism_grenade", "warlock.prism.prism_grenade",
 ];
 
 const ELEMENTS = ['solar', 'arc', 'void', 'stasis', 'strand', 'prism'];
@@ -103,6 +104,7 @@ const ABILITY_LABELS = {
   totems:          { fr: 'Aspects', en: 'Aspects' },
   melee:           { fr: 'Mêlée', en: 'Melee' },
   grenades:        { fr: 'Grenades', en: 'Grenades' },
+  prism_grenade:   { fr: 'Grenade Prismatique', en: 'Prismatic Grenade' }, // AJOUT
   class_abilities: { fr: 'Compétence de classe', en: 'Class Ability' },
   movement:        { fr: 'Saut', en: 'Jump' },
   fragments:       { fr: 'Fragments', en: 'Fragments' },
@@ -203,6 +205,20 @@ function createSupersSection(items, onItemClick) {
   });
 
   section.appendChild(container);
+  return section;
+}
+
+/**
+ * Section Prism Grenade - Affichée sous les supers (unique à Prismatique)
+ */
+function createPrismGrenadeSection(items, onItemClick) {
+  const section = document.createElement('div');
+  section.className = 'subclass-prism-grenade-section';
+
+  items.forEach(([id, item]) => {
+    section.appendChild(createAbilityBlock(id, item, onItemClick));
+  });
+
   return section;
 }
 
@@ -314,6 +330,12 @@ function createSubclassClassBlock(classKey, classData, lang, onItemClick, hasCla
   const supers = classData.supers || [];
   if (supers.length > 0) {
     content.appendChild(createSupersSection(supers, onItemClick));
+  }
+
+  // === PRISM GRENADE (unique à Prismatique, sous les supers) ===
+  const prismGrenade = classData.prism_grenade || [];
+  if (prismGrenade.length > 0) {
+    content.appendChild(createPrismGrenadeSection(prismGrenade, onItemClick));
   }
 
   // === CORE ABILITIES (Grenades si pas partagées + Mêlées + Class) ===
