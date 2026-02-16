@@ -99,7 +99,7 @@ const SUBCLASS_ELEMENT_LABELS = {
   'void':      { fr: 'Abyssale', en: 'Void' },
   'stasis':    { fr: 'Stase', en: 'Stasis' },
   'strand':    { fr: 'Filobscure', en: 'Strand' },
-  'prism': { fr: 'Prismatique', en: 'Prismatic' },
+  'prism':     { fr: 'Prismatique', en: 'Prismatic' },
 };
 
 // Cache pour DDCVacuum (indexé par hash)
@@ -454,7 +454,7 @@ export default {
     const lang = getValidLanguage(langParam);
 
     // Extraire la page
-    const pageMatch = url.pathname.match(/\/([a-z]+)\.html$/);
+    const pageMatch = url.pathname.match(/\/([a-z]+)(?:\.html)?$/);
     const pageName = pageMatch ? pageMatch[1] : 'index';
 
     // Vérifier si c'est la page d'index

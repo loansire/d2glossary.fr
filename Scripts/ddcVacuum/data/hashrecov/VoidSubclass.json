@@ -439,13 +439,6 @@
   },
   {
     "Class": "Titan",
-    "Type": "Super",
-    "Name": "Ward of Dawn OLD",
-    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\n\nCreates a Dome with a radius of 3 metres that grants a 300 HP Void Overshield and protects from outside damage.\nPassing through the dome grants 25% increased damage for 15 seconds. Being inside the dome grants +50 Handling and +50 Reload Speed.\n\nWard of Dawn has 8,000 HP and can be destroyed. Guardian Weapons deal 50% increased damage, and abilities are uniquely tweaked.\nWard of Dawn receives between 7x Damage to 0.25x damage from Boss Combatants, depending on the Titan's Resilience Stat. \nRank-and-File and Elite Combatants deal 0.25x Damage against the Ward of Dawn.\nMinibosses and Bosses deal between 7x Damage at 0 Resilience, down to 0.25x Damage at 100 Resilience against the Ward of Dawn, based on the Resilience Stat of the Caster. \nFormula for the Ward of Dawn Damage Taken from Minibosses and Bosses: 7- 0.0675 x Resilience",
-    "hash_warning": "No matching hash found in d2glossary"
-  },
-  {
-    "Class": "Titan",
     "Type": "Aspect",
     "Name": "Bastion",
     "Description": "On Super Cast:\nGrants allies within 15 metres a 45 HP Void Overshield.\n\nOn Enhanced Barricade Cast:\nGrants a 45 HP Overshield for the user and allies within 15? metres \nEnhanced Barricade takes 20% increased damage from Guardians.\n\nWhile behind the Enhanced Barricade:\nGenerates 11 Void Overshield HP per second.\n\nCrucible-Only:\nOverrides Towering Barricade Cooldown to 100 seconds at base.\nOverrides Rally Barricade Cooldown to 80 seconds at base.",
@@ -495,13 +488,6 @@
     "hash": 1262901521,
     "parentHash": "1262901521",
     "hash_warning": "Multiple matches found (2 total)"
-  },
-  {
-    "Class": "Titan",
-    "Type": "Aspect",
-    "Name": "Unbreakable OLD",
-    "Description": "Hold [Grenade] to summon a Void Shield that grants 95% [75%] Damage Resist against blocked damage.\nVoid Shield quickly drains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second. Shield continuously generates 16.7 Void Overshield HP/s for 5 seconds.\nA single Grenade Charge allows using the Void Shield for up to 3 seconds. Having 2 Grenade Charges increases its maximum duration to 7 seconds.\nCombatants that come into contact with the shield become disoriented for ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against 10 [any] damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a ~0.75? second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 33% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [80] damage for not blocking any damage, linearly scaling to 2300 [185] damage after receiving ? [40] blocked damage.\n\nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nNew changes Soon™",
-    "hash_warning": "No matching hash found in d2glossary"
   },
   {
     "Class": "Warlock",
