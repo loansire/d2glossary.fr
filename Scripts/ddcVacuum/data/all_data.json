@@ -574,7 +574,7 @@
     },
     {
       "Name": "One-Two Punch",
-      "Description": "Upon scoring a hit with 12 ↑10 pellets:\nGrants 150% Shotgun | 75% Hand Cannon [100%?] increased Melee Damage for the next Melee Hit within three3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10."
+      "Description": "Upon scoring a hit with 12 ↑10 pellets:\nGrants 150% Shotgun | 75% Hand Cannon [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10."
     },
     {
       "Name": "Onslaught",
