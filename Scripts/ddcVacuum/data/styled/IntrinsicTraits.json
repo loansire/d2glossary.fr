@@ -7416,7 +7416,7 @@
   },
   {
     "Name": "Balanced Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
     "hash": 3771737927,
     "parentHash": "3771737927",
     "hash_warning": "Multiple matches found (4 total)",
@@ -7476,7 +7476,7 @@
               ]
             },
             {
-              "text": " Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -7497,7 +7497,7 @@
   },
   {
     "Name": "Balanced Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
     "hash": 2732952950,
     "parentHash": "2732952950",
     "hash_warning": "Multiple matches found (4 total)",
@@ -7557,7 +7557,7 @@
               ]
             },
             {
-              "text": " Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -7578,7 +7578,7 @@
   },
   {
     "Name": "Balanced Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
     "hash": 2167115920,
     "parentHash": "2167115920",
     "hash_warning": "Multiple matches found (4 total)",
@@ -7638,7 +7638,7 @@
               ]
             },
             {
-              "text": " Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -7659,7 +7659,7 @@
   },
   {
     "Name": "Balanced Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon beginning a Manual Vent while Heat is ≥875:\n2x Vent Rate Multiplier.\n\nPrimary Ammo Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\n\nAdditional information regarding Heat Weapons.",
     "hash": 1002219198,
     "parentHash": "1002219198",
     "hash_warning": "Multiple matches found (4 total)",
@@ -7719,7 +7719,7 @@
               ]
             },
             {
-              "text": " Balanced Heat Weapons intrinsically deal 15% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Balanced Heat Weapons intrinsically deal 20% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -7830,7 +7830,7 @@
   },
   {
     "Name": "Dynamic Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
     "hash": 2331097520,
     "parentHash": "2331097520",
     "hash_warning": "Multiple matches found (5 total)",
@@ -7906,7 +7906,7 @@
               ]
             },
             {
-              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -7934,7 +7934,7 @@
   },
   {
     "Name": "Dynamic Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
     "hash": 1442784346,
     "parentHash": "1442784346",
     "hash_warning": "Multiple matches found (5 total)",
@@ -8010,7 +8010,7 @@
               ]
             },
             {
-              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -8038,7 +8038,7 @@
   },
   {
     "Name": "Dynamic Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
     "hash": 1611330137,
     "parentHash": "1611330137",
     "hash_warning": "Multiple matches found (5 total)",
@@ -8114,7 +8114,7 @@
               ]
             },
             {
-              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -8142,7 +8142,7 @@
   },
   {
     "Name": "Dynamic Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
     "hash": 4108848057,
     "parentHash": "4108848057",
     "hash_warning": "Multiple matches found (5 total)",
@@ -8218,7 +8218,7 @@
               ]
             },
             {
-              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -8246,7 +8246,7 @@
   },
   {
     "Name": "Dynamic Heat Weapon",
-    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
+    "Description": "Firing generates Heat equal to the Heat Generated stat. \nPassively dissipates Heat equal to the displayed Cooling Efficiency value each second, even while stowed.\nReaching 1000 Heat triggers Overheat, forcing a Manual Vent and rendering the weapon unusable until its Heat is ≤150.\n\nUpon cancelling a Manual Vent while Heat is ≤125:\nDynamic Heat Limiter | -50% Heat Generation for 5 seconds or until stowing the weapon.\nTriggering Dynamic Heat Limiter through reload or sprint after having dealt damage will freeze the timer until shooting.\n\nPrimary Ammo Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles.\nAdditionally, they deal 2.5% increased direct damage to Guardians.\n\nAdditional information regarding Heat Weapons.",
     "hash": 1406835319,
     "parentHash": "1406835319",
     "hash_warning": "Multiple matches found (5 total)",
@@ -8322,7 +8322,7 @@
               ]
             },
             {
-              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 32.25% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
+              "text": " Dynamic Heat Weapons intrinsically deal 15% Increased Impact Damage to Rank-and-File, and 38% Increased Impact Damage to Elites, Mini-bosses, Bosses, and Vehicles."
             }
           ]
         },
@@ -18440,7 +18440,7 @@
   },
   {
     "Name": "Spread Shot",
-    "Description": "Fires a spread of 12 pellets, each dealing 30 [?] damage with a 1.2x Precision Multiplier.\nPellets disappear after 25 meters, and deal a minimum of 0.33x damage at Maximum Damage Falloff.",
+    "Description": "Fires a spread of 12 pellets, each dealing ? [10] damage with a 1.2x Precision Multiplier.\nPellets disappear after 25 meters, and deal a minimum of 0.33x damage at Maximum Damage Falloff.",
     "hash": 2427219599,
     "parentHash": "2427219599",
     "descriptions": {
@@ -18448,10 +18448,10 @@
         {
           "linesContent": [
             {
-              "text": "Fires a spread of 12 pellets, each dealing 30 ["
+              "text": "Fires a spread of 12 pellets, each dealing ? ["
             },
             {
-              "text": "?",
+              "text": "10",
               "classNames": [
                 "pvp"
               ]

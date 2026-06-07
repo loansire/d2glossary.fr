@@ -291,7 +291,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Roaring Flames",
-    "Description": "Solar Ability Kills and Ignitions grant a stack of Roaring Flames for 20 seconds, up to a maximum of 3 stacks.\nAdditional Solar Ability and Ignition Kills refresh the buff duration.\n\nRoaring Flames grants increased Solar Ability Damage.\n67% | 133% | 200% Increased Melee Damage.\n20% [13%] | 44% [28%] | 73% [44%] increased Grenade and Super Ability Damage.\n\nUnpowered Melee Hits while Roaring Flames is active inflict x30+10 Scorch and count as Powered Melee Hits."
+    "Description": "Solar Ability Kills and Ignition Kills grant a stack of Roaring Flames for 20 seconds, up to a maximum of 3 stacks.\nAdditional Solar Ability and Ignition Kills refresh the buff duration.\n\nRoaring Flames grants increased Solar Ability Damage.\n67% | 133% | 200% Increased Melee Damage.\n20% [13%] | 44% [28%] | 73% [44%] increased Grenade and Super Ability Damage.\n\nUnpowered Melee Hits while Roaring Flames is active inflict x30+10 Scorch and count as Powered Melee Hits."
   },
   {
     "Class": "Titan",

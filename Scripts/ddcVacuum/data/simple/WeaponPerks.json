@@ -5,7 +5,7 @@
   },
   {
     "Name": "Adagio",
-    "Description": "On Weapon Kill:\n30% increased damage, +10 Range, and 1.2x Fire Recovery Delay/Charge Time Multiplier/Draw Time Multiplier for 7 ↑8 seconds.\nBows and Shotguns are instead granted 20% increased damage.\nBuff is removed on stow.\n\n↑Buff duration is increased to 8 seconds."
+    "Description": "On Weapon Kill:\n30% increased damage, +10 Range, and 1.2x Fire Recovery Delay/Charge Time Multiplier/Draw Time Multiplier for 7 ↑8 seconds.\nBuff is removed on stow.\n\nHand Cannons are granted 27% increased damage.\n\n↑Buff duration is increased to 8 seconds."
   },
   {
     "Name": "Adaptive Munitions",
@@ -13,7 +13,7 @@
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑410 [?] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage."
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑410 [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage."
   },
   {
     "Name": "Adrenaline Junkie",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only begins after readying the weapon with All-Star.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star."
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nPicking up additional Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only ticks down while the weapon with All-Star is readied.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star."
   },
   {
     "Name": "Alloy Magazine",
@@ -65,7 +65,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nCreates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\n\nHits required to activate:\n55% of Magazine + 2, rounded down.\nBows: 5 | Swords: 6 | Grenade Launchers: 10 | Area-Denial Grenade Launchers: 27\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 2), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.\nCounter persists through stow.\n\n↑Orb of Power grants 1.1% Super Energy."
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nCreates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\n\nHits required to activate:\n55% of Magazine + 2, rounded down.\nBows: 5 | Swords: 6 | Grenade Launchers: 4 | Rocket Launchers: 3 | Area-Denial Grenade Launchers: 27\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 2), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.\nCounter persists through stow.\n\n↑Orb of Power grants 1.1% Super Energy."
   },
   {
     "Name": "Auto-Loading Holster",
@@ -137,7 +137,7 @@
   },
   {
     "Name": "Cascade Point",
-    "Description": "Upon scoring multiple Precision Hits within 5 seconds of each with a different weapon or upon scoring a kill with a different weapon:\nGrants Cascade Point Ready for 5 seconds.\n\nUpon readying the weapon while Cascade Point Ready is active:\nGrants Cascade Point for 2.5 ↑2.75 seconds.\nCascade Point grants 0.7x Fire Recovery Delay for Machine Guns and Submachine Guns, and 0.6x Fire Recovery Delay for everything else.\n\nPrecision Hits work on a Counter System, granting Cascade Point Ready upon reaching 100%.\n50% Counter per Precision Hit: Bows, Linear Fusion Rifles, Shotguns, and Sniper Rifles.\n17.5% Counter per Precision Hit: Hand Cannons, Scout Rifles, and Sidearms.\n8% Counter per Precision Hit: Auto Rifles, Machine Guns, Pulse Rifles, Submachine Guns, and Trace Rifles. \n\n↑Buff duration is increased to 2.75 seconds."
+    "Description": "Upon scoring multiple Precision Hits within 5 seconds of each with a different weapon or upon scoring a kill with a different weapon:\nGrants Cascade Point Ready for 5 seconds.\n\nUpon readying the weapon while Cascade Point Ready is active:\nGrants Cascade Point for 2.5 ↑2.75 seconds.\nCascade Point grants 0.7x Fire Recovery Delay for Machine Guns and Submachine Guns, and 0.6x Fire Recovery Delay for everything else.\n\nPrecision Hits work on a Counter System, granting Cascade Point Ready upon reaching 100%.\n2 Precision Hits: Bows, Linear Fusion Rifles, Shotguns, and Sniper Rifles.\n4 Precision Hits: Hand Cannons, Scout Rifles, and Sidearms.\n6 Precision Hits: Auto Rifles, Machine Guns, Pulse Rifles, Submachine Guns, and Trace Rifles. \n\n↑Buff duration is increased to 2.75 seconds."
   },
   {
     "Name": "Celerity",
@@ -181,11 +181,11 @@
   },
   {
     "Name": "Collective Action",
-    "Description": "On Subclass-Pickup Interaction:\n20% [10%] increased damage for 7 ↑8 seconds.\nAdditional pickups increase the duration by 7 seconds, up to 12 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n\n↑Initial buff duration is increased to 8 seconds."
+    "Description": "On Elemental-Pickup Interaction:\n30% ↑33% [10% ↑11%] increased damage for an Elemental-Pickup based duration.\nAdditional pickups increase the duration by 7 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \nBuff can be activated while stowed, and persists through stow.\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n\n↑Increased damage buff."
   },
   {
     "Name": "Collective Pugilism",
-    "Description": "On Subclass-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy."
+    "Description": "On Elemental-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy.\nAdditional pickups increase the duration by 8 seconds, up to 16 seconds.\nFiresprites, Void Breaches, and Thrown Tangles grant +8 seconds. \nIonic Traces, Stasis Shards, and Shot Tangles grant +4 seconds. \n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%\n\nSubclass Pickups: Ionic Traces, Firesprites, Void Breaches, Stasis Shards, and Tangles. Elemental Orbs from Artifact Perks.\n↑Grants 10% Increased Melee Ability Energy."
   },
   {
     "Name": "Compulsive Reloader",
@@ -233,7 +233,7 @@
   },
   {
     "Name": "Desperado",
-    "Description": "Upon finishing a reload within 5.2 seconds of a Precision Kill:\n0.7x Fire Recovery Delay for 6 ↑7 seconds.\nBuff can be refreshed by reactivating the perk. Buff is removed on stow.\n\n↑Buff Duration is increased to 7 seconds."
+    "Description": "Upon finishing a reload within 5.2 seconds of a Precision Kill or 3 Kills within ? seconds of each:\n0.7x Fire Recovery Delay for 6 ↑7 seconds.\nBuff can be refreshed by reactivating the perk. Buff is removed on stow.\n\n↑Buff Duration is increased to 7 seconds."
   },
   {
     "Name": "Desperate Measures",
@@ -245,7 +245,7 @@
   },
   {
     "Name": "Detonator Beam",
-    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing up to 250 [?] Element-Matching Damage over 8 meters.\n\n↑Triggers in 20 hits."
+    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing up to 250 [100] Element-Matching Damage over 8 meters.\n\n↑Triggers in 20 hits."
   },
   {
     "Name": "Discord",
@@ -365,7 +365,7 @@
   },
   {
     "Name": "Focused Fury",
-    "Description": "Upon scoring 50% of Magazine as Precision Hits:\n20% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.\n\n↑Buff Duration is increased to 12 seconds."
+    "Description": "Upon scoring 35% of Magazine as Precision Hits:\n25% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.\n\n↑Buff Duration is increased to 12 seconds."
   },
   {
     "Name": "Fourth Time's The Charm",
@@ -377,7 +377,7 @@
   },
   {
     "Name": "Frenzy",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work."
+    "Description": "After having maintained a state of dealing or receiving damage every 5 ↑5.5 seconds for at least 12 seconds:\n15% Increased damage, +100 Handling, and +100 Reload Speed for 7 seconds. \nDealing or receiving damage refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Damage Timer USED TO BE increased to 5.5 seconds, but is currently not working. \nRetested in Update 9.5.0.5 (Jan 13, 2026) aaaaaand still broken LMAO\nIT ACTUALLY GOT FIXED OMG\n\nRoar of Battle (Crucible Origin Trait) prevents Frenzy from activating on that weapon. Other weapons with Frenzy will still work."
   },
   {
     "Name": "Full Auto Trigger System",
@@ -385,11 +385,11 @@
   },
   {
     "Name": "Full Choke",
-    "Description": "While ADS:\n-3.75% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty."
+    "Description": "While ADS:\n-5% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty."
   },
   {
     "Name": "Full Court",
-    "Description": "After 0.2 seconds of the projectile being fired:\nGrants up to 25% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 25% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius."
+    "Description": "After 0.2 seconds of the projectile being fired:\nGrants up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 35% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius."
   },
   {
     "Name": "Genesis",
@@ -405,7 +405,7 @@
   },
   {
     "Name": "Gutshot Straight",
-    "Description": "While ADS:\n -20% ↑-15%? Auto Aim Cone Size and increased non-Precision Damage,\nStill increases damage to Weakspots!\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns\n\n↑Reduces Aim Assistance Cone Size penalty to -15?%."
+    "Description": "While ADS:\n -15% ↑-10%? Auto Aim Cone Size and increased non-Precision Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns\n\n↑Reduces Aim Assistance Cone Size penalty to -10?%."
   },
   {
     "Name": "Harmony",
@@ -441,7 +441,7 @@
   },
   {
     "Name": "High-Impact Reserves",
-    "Description": "As Magazine decreases below 50% ↑55%, down to 0%:\n12.1% [3%] to 25.6% [6%] Increased damage. \nDoes not increase the damage of Explosive Damage Perks.\n\n↑Activates at the 55% Magazine Threshold."
+    "Description": "As Magazine decreases below 50% ↑55%, down to maximum effect at 7.5% Magazine:\n12.1% [3%] to 25.6% [6%] Increased damage. \nDoes not increase the damage of Explosive Damage Perks.\n\n↑Activates at the 55% Magazine Threshold."
   },
   {
     "Name": "Hip-Fire Grip",
@@ -513,7 +513,7 @@
   },
   {
     "Name": "Lasting Impression",
-    "Description": "Passively grants +50 Blast Radius.\n\nRockets attach on impact, detonating after 3 seconds, dealing an additional 25% Explosive Damage.\n\n↑Passively grants an additional +5 Blast Radius."
+    "Description": "Passively grants +50 Blast Radius.\n\nRockets attach on impact, detonating after 3 seconds, dealing an additional 35% Explosive Damage.\n\n↑Passively grants an additional +5 Blast Radius."
   },
   {
     "Name": "Lead from Gold",
@@ -709,7 +709,7 @@
   },
   {
     "Name": "Ricochet Rounds",
-    "Description": "Passively grants +5 Range and +10 Stability.\n\nBullets are guaranteed to ricochet off of surfaces."
+    "Description": "Passively grants +5 ↑+6 Range and +10 ↑+11 Stability.\n\nBullets are guaranteed to ricochet off of surfaces."
   },
   {
     "Name": "Rimestealer",
@@ -733,7 +733,7 @@
   },
   {
     "Name": "Shield Disorient",
-    "Description": "On Matching Elemental Shield Break:\nEnemies within 7 metres become disoriented for 5 seconds"
+    "Description": "On Matching Combatant Elemental Shield Break:\nEnemies within 7 metres become disoriented for 5 seconds"
   },
   {
     "Name": "Shoot to Loot",
@@ -809,7 +809,7 @@
   },
   {
     "Name": "Supercharged Magazine",
-    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds..\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.\n\n↑Passively grants +15 Magazine Stat.",
+    "Description": "While Amplified:\nRefills 5% of Magazine every 1.5 seconds.\n\nWhile Speed Booster is active:\nRefills 5% of Magazine every 0.25 seconds. \nCan grant up to 100% Increased Magazine Capacity through refilling.\n\nBoth effects work while stowed.\n\n↑Passively grants +15 Magazine Stat.",
     "Comment": "Centrifuse pls"
   },
   {

@@ -274,7 +274,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Knockout",
-    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\n160% [30%] increased Basic Melee Damage, 160% [20%] increased Charged Melee Damage, increases Melee Lunge Distance to 6 metres, and Basic Melee Attacks now counts as an Arc Powered Melee Hits for 6 seconds.\n\nSpark of Feedback's PVP Melee Damage Increase is decreased to 15% while Knockout is active."
+    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\n160% [30%] increased Basic/Glaive Melee Damage, 160% [20%] increased Charged Melee Damage, increases Melee Lunge Distance to 6 metres, and Basic Melee Attacks count as Arc Powered Melee Hits for 6 seconds.\n\nSpark of Feedback's PVP Melee Damage Increase is decreased to 15% while Knockout is active."
   },
   {
     "Class": "Titan",

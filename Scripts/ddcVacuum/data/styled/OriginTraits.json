@@ -647,7 +647,7 @@
   },
   {
     "Name": "Advanced Reflexes",
-    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\nGrants +30 Mobility, +30 Handling, and +20 Charge Rate for 7.5 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\nGrants 5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
     "Comment": "Dreaming City Reprises\nDestination",
     "hash": 930692523,
     "parentHash": "930692523",
@@ -663,7 +663,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants +30 Mobility, +30 Handling, and +20 Charge Rate for 7.5 seconds."
+              "text": "Grants 5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 seconds."
             }
           ]
         },
@@ -1743,7 +1743,7 @@
   },
   {
     "Name": "Contending Cascade",
-    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills.",
+    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 12 ↑10 stacks.\nRenames to Crowning Cascade upon reaching 12 ↑10 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed at 12 ↑10 stacks.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 10 rapid kills.",
     "Comment": "Call To Arms\nEvent",
     "hash": 934928524,
     "parentHash": "934928524",
@@ -1762,10 +1762,10 @@
               ]
             },
             {
-              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
+              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 12 "
             },
             {
-              "text": "↑12",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1778,10 +1778,10 @@
         {
           "linesContent": [
             {
-              "text": "Renames to Crowning Cascade upon reaching 15 "
+              "text": "Renames to Crowning Cascade upon reaching 12 "
             },
             {
-              "text": "↑12",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1812,7 +1812,16 @@
               ]
             },
             {
-              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
+              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed at 12 "
+            },
+            {
+              "text": "↑10",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " stacks."
             }
           ]
         },
@@ -1840,7 +1849,7 @@
         {
           "linesContent": [
             {
-              "text": "↑The requirement to be impressed is lowered to 12 rapid kills.",
+              "text": "↑The requirement to be impressed is lowered to 10 rapid kills.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1852,7 +1861,7 @@
   },
   {
     "Name": "Contending Cascade",
-    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 15 ↑12 stacks.\nRenames to Crowning Cascade upon reaching 15 ↑12 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 12 rapid kills.",
+    "Description": "Grants a stack of Contending Cascade for each kill scored within 4 seconds of each from any source, up to a maximum of 12 ↑10 stacks.\nRenames to Crowning Cascade upon reaching 12 ↑10 stacks.\nStacks are lost on death.\n\nContending Cascade grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed at 12 ↑10 stacks.\nScoring a Weapon Kill while Crowning Cascade is active triggers an Elemental Explosion, dealing up to ? [?] Damage over ? meters.\n\n↑The requirement to be impressed is lowered to 10 rapid kills.",
     "Comment": "Call To Arms\nEvent",
     "hash": 2691822036,
     "parentHash": "2691822036",
@@ -1871,10 +1880,10 @@
               ]
             },
             {
-              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 15 "
+              "text": " for each kill scored within 4 seconds of each from any source, up to a maximum of 12 "
             },
             {
-              "text": "↑12",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1887,10 +1896,10 @@
         {
           "linesContent": [
             {
-              "text": "Renames to Crowning Cascade upon reaching 15 "
+              "text": "Renames to Crowning Cascade upon reaching 12 "
             },
             {
-              "text": "↑12",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -1921,7 +1930,16 @@
               ]
             },
             {
-              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed."
+              "text": " grants increased Handling and Reload Speed, up to a maximum of +? Handling and +? Reload Speed at 12 "
+            },
+            {
+              "text": "↑10",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " stacks."
             }
           ]
         },
@@ -1949,7 +1967,7 @@
         {
           "linesContent": [
             {
-              "text": "↑The requirement to be impressed is lowered to 12 rapid kills.",
+              "text": "↑The requirement to be impressed is lowered to 10 rapid kills.",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -2560,8 +2578,65 @@
     }
   },
   {
+    "Name": "Eyes Up",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:\n+? Range, +? Reload Speed, and Increased Damage against Combatants for ? seconds after dealing or receiving any damage.\n\nDamage Increase:\n\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +? seconds and increase its effects.",
+    "Comment": "Cosmodrome\nDestination",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+? Range, +? Reload Speed, and Increased Damage against Combatants for ? seconds after dealing or receiving any damage."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage Increase:"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapons Kills while "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " is active extend the buff duration by +? seconds and increase its effects."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Exhaustive Research",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [50 Primary | 75 Special | 62.5 Heavy] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
     "Comment": "Kepler\nDestination",
     "hash": 1906137414,
     "parentHash": "1906137414",
@@ -2593,7 +2668,7 @@
               "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
             },
             {
-              "text": "?",
+              "text": "50 Primary | 75 Special | 62.5 Heavy",
               "classNames": [
                 "pvp"
               ]
@@ -2633,7 +2708,7 @@
   },
   {
     "Name": "Exhaustive Research",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [?] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [50 Primary | 75 Special | 62.5 Heavy] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
     "Comment": "Kepler\nDestination",
     "hash": 1278990682,
     "parentHash": "1278990682",
@@ -2665,7 +2740,7 @@
               "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
             },
             {
-              "text": "?",
+              "text": "50 Primary | 75 Special | 62.5 Heavy",
               "classNames": [
                 "pvp"
               ]
@@ -4026,7 +4101,7 @@
   },
   {
     "Name": "Gun and Run",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 10 seconds of each:\nRank-and-File = 34% | Elite = 100% | Guardians = 100%\n\n6.25% Increased Sprinting Speed for 10 seconds.\nBuff remains active while stowed.",
+    "Description": "Kills grant a stack of Gun and Run for ? seconds, up to a maximum of ? stacks.\n\nSprinting for ? seconds consumes a stack, refilling ?% of Magazine. \nBows receive 0.?x Draw Time Multiplier for ? seconds.",
     "Comment": "Gambit\r\nRitual",
     "hash": 515704826,
     "parentHash": "515704826",
@@ -4035,14 +4110,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 10 seconds of each:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
+              "text": "Kills grant a stack of "
+            },
             {
-              "text": "Rank-and-File = 34% | Elite = 100% | Guardians = 100%"
+              "text": "Gun and Run",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for ? seconds, up to a maximum of ? stacks."
             }
           ]
         },
@@ -4054,14 +4131,20 @@
         {
           "linesContent": [
             {
-              "text": "6.25% Increased Sprinting Speed for 10 seconds."
+              "text": "Sprinting for ? seconds consumes a stack, refilling ?% of Magazine."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Buff remains active while stowed."
+              "text": "Bows",
+              "classNames": [
+                "weapon-bow"
+              ]
+            },
+            {
+              "text": " receive 0.?x Draw Time Multiplier for ? seconds."
             }
           ]
         }
@@ -10894,248 +10977,6 @@
           "linesContent": [
             {
               "text": "Damage against Combatants scales with Combatant Rank Modifiers."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Willing Vessel",
-    "Description": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses.\n100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds.\n\nVisual Buff Stacks to Damage Thresholds:\nAuto: ? | ? | ? | ? | ?\nBow: ~180 | ~750 | ? | ? | ?\nSidearm: ? | ? | ? | ? | ?\nSMG : ? | ? | ? | ? | ?\nFusion Rifle: ? | ? | ? | ? | ?\nGlaive: ? | ? | ? | ? | ?\nGL: I | don't | think | so | lmao\nLFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200\nMG: ~385 | ? | ? | ? | ?\nSword: ? | ? | ? | ? | ?\n\nGrants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored.\nStat Bonuses (at the start of the stack):\nx1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate\nx2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate\nx3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate\nx4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate\nx5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate\n\nThis is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!",
-    "Comment": "Episode: Heresy",
-    "hash": 878237828,
-    "parentHash": "878237828",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "100% Counter is displayed as x5 "
-            },
-            {
-              "text": "Willing Vessel",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": ". Counter constantly decreases by 2.2?% every 1? seconds."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Visual Buff Stacks to Damage Thresholds:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Auto",
-              "classNames": [
-                "weapon-auto-rifle"
-              ]
-            },
-            {
-              "text": ": ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Bow",
-              "classNames": [
-                "weapon-bow"
-              ]
-            },
-            {
-              "text": ": ~180 | ~750 | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Sidearm",
-              "classNames": [
-                "weapon-sidearm"
-              ]
-            },
-            {
-              "text": ": ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "SMG",
-              "classNames": [
-                "weapon-smg"
-              ]
-            },
-            {
-              "text": " : ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Fusion Rifle",
-              "classNames": [
-                "weapon-fusion-rifle"
-              ]
-            },
-            {
-              "text": ": ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Glaive",
-              "classNames": [
-                "weapon-glaive"
-              ]
-            },
-            {
-              "text": ": ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "GL",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": ": I | don't | think | so | lmao"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "LFR",
-              "classNames": [
-                "weapon-linear-fusion-rifle"
-              ]
-            },
-            {
-              "text": ": ~380 | ~1750 | ~3450 | ~4150 | ~6200"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "MG",
-              "classNames": [
-                "weapon-machine-gun"
-              ]
-            },
-            {
-              "text": ": ~385 | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Sword",
-              "classNames": [
-                "weapon-sword"
-              ]
-            },
-            {
-              "text": ": ? | ? | ? | ? | ?"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Grants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Stat Bonuses (at the start of the stack):"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "x1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "x2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "x3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "x4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "x5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "This is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!"
             }
           ]
         }

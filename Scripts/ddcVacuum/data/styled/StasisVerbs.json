@@ -492,7 +492,7 @@
   },
   {
     "Name": "Freeze",
-    "Description": "Frozen Enemies are completely immobilized, rendering them unable to shoot, use abilities, or move.\nFrozen Enemies receive 10% increased damage from Special and Power Weapons, 5% increased damage from Arc, Solar, and Void Abilities, and 5% [60%] decreased damage from Primary Weapons. \nFrozen Rank-and-File and Elite Combatants, as well as Guardians receive 120% increased Basic Melee and Glaive Melee Attack Damage.\n\nFrozen Enemies shatter after receiving varying [200] damage.\n\nFrozen Enemies are immobilized for 6 [1.35 to 4.75] seconds. \nBoss Combatants are unhindered by freeze and automatically shatter after 3 seconds.\nGrounded Guardians can cast their Super Ability to instantly break out.\n\nBrief Freeze:\nGuardians frozen by other Guardians are frozen for 1.35 seconds\n\nProlonged Freeze:\nGuardians that become frozen by Combatants, or by Stasis Super Abilities, are frozen for 4.75 seconds.\nFrozen Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health.\nGuardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation.",
+    "Description": "Frozen Enemies are completely immobilized, rendering them unable to shoot, use abilities, or move.\nFrozen Enemies receive 10% increased damage from Special and Power Weapons, 5% increased damage from Arc, Solar, and Void Abilities, and 5% [60%] decreased damage from Primary Weapons. \nFrozen Rank-and-File and Elite Combatants, as well as Guardians receive 120% increased Basic Melee and Glaive Melee Attack Damage.\n\nFrozen Enemies shatter after receiving varying [200] damage.\n\nFrozen Enemies are immobilized for 6 [1.35 to 4.75] seconds. \nBoss Combatants are unhindered by freeze and automatically shatter after 3 seconds.\nGrounded Guardians can cast their Super Ability to instantly break out.\nPoison Effects are removed upon directly inflicting freeze an enemy (not through Slow x100).\n\nBrief Freeze:\nGuardians frozen by other Guardians are frozen for 1.35 seconds\n\nProlonged Freeze:\nGuardians that become frozen by Combatants, or by Stasis Super Abilities, are frozen for 4.75 seconds.\nFrozen Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health.\nGuardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation.",
     "hash": 2968599152,
     "parentHash": "2968599152",
     "descriptions": {
@@ -700,6 +700,31 @@
           "linesContent": [
             {
               "text": "Grounded Guardians can cast their Super Ability to instantly break out."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Poison Effects are removed upon directly inflicting "
+            },
+            {
+              "text": "freeze",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " an enemy (not through "
+            },
+            {
+              "text": "Slow",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " x100)."
             }
           ]
         },

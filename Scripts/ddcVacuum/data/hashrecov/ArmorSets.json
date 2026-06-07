@@ -1,5 +1,15 @@
 [
   {
+    "Name": "Winterized Gear",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least ? seconds:\nGrants ? stacks of Winterized Gear. \nStacks begin decaying after having dealt or received damage.\nStacks are reacquired after having maintained a state of not dealing or receiving damage for at least ? seconds\n\nWinterized Gear x3 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.\nWinterized Gear x2 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.\nWinterized Gear x1 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.",
+    "Comment": "Europa\nDestination",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Armor Set Bonuses",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
     "Name": "Force Converter",
     "Description": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
     "Comment": "Kepler",
@@ -80,6 +90,22 @@
     "parentName": "Collective Psyche"
   },
   {
+    "Name": "Primary Survivor",
+    "Description": "On Ally Death:\nGrants a stack of Primary Survivor for ? seconds.\nGrants Primary Survivor x? while solo.\n\nPrimary Survivor x1 | Primary Weapons are granted +? Handling, +? Reload Speed, +? Aim Assist, and ?% Flinch Resist.\nPrimary Survivor x2 | Primary Weapons are granted +? Handling, +? Reload Speed, +? Aim Assist, and ?% Flinch Resist.",
+    "Comment": "Trials",
+    "SetName": "Cruel Electrum",
+    "PieceRequirement": "2 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Primary Phantom",
+    "Description": "On Primary Kill:\nPrevents passively pinging enemy radar for ? seconds.\nReadying a Special or Power Weapon will remove the buff.",
+    "Comment": "Trials",
+    "SetName": "Cruel Electrum",
+    "PieceRequirement": "4 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
     "Name": "Costumes",
     "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus.",
     "Comment": "Festival of the Lost",
@@ -126,6 +152,22 @@
     "parentName": "Ferropotent"
   },
   {
+    "Name": "Primary Honing",
+    "Description": "For Primary Ammo Weapons:\n+? Handling, +? Reload Speed.\nIncreased Damage against Non-Boss Combatants based on the Weapons stat.",
+    "Comment": "Iron Banner",
+    "SetName": "Iron Batallion",
+    "PieceRequirement": "2 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Supercyclical",
+    "Description": "Final blows while Super is active refund Super energy when it ends.",
+    "Comment": "Iron Banner",
+    "SetName": "Iron Batallion",
+    "PieceRequirement": "4 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
     "Name": "Vigilant Watch",
     "Description": "As Shield HP drops, initially triggering at ? Shield HP, maxing out in effect at ? Shield HP:\nLinearly? grants up to +? Stability and +? Handling\n\nWhile at Critical Health:\nWeapon Kills restore 30HP.\nIncurs a 5 second cooldown between triggers.",
     "Comment": "Iron Banner",
@@ -137,7 +179,7 @@
   },
   {
     "Name": "Iron Conviction",
-    "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger from reaching Critical Health for ? seconds upon triggering.",
+    "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger until any Shield HP is recovered.",
     "Comment": "Iron Banner",
     "SetName": "Iron Panoply",
     "PieceRequirement": "4 Piece",
@@ -184,6 +226,22 @@
     "hash": 4048287941,
     "parentHash": "3737690559",
     "parentName": "Lustrous"
+  },
+  {
+    "Name": "Primary Chain",
+    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of ? stacks.\n\nPrimary Chain grants +? Mobility, as well as +? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +? Range, and +? Handling.",
+    "Comment": "Competitive Crucible",
+    "SetName": "Per Audacia",
+    "PieceRequirement": "2 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Sublime Transit",
+    "Description": "Passively grants +? Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
+    "Comment": "Competitive Crucible",
+    "SetName": "Per Audacia",
+    "PieceRequirement": "4 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
   },
   {
     "Name": "Paroli",
@@ -286,103 +344,19 @@
     "parentName": "Swordmaster"
   },
   {
-    "Name": "Wrecker",
-    "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
-    "Comment": "Solo/Fireteam Ops",
-    "SetName": "Techsec",
+    "Name": "Queensfoil Rush",
+    "Description": "Finishers grant a 200 HP Overshield for the duration of the finisher (+0.3s).\n\nOn Finisher:\nInflicts x? Slow to enemies within ? meters.",
+    "Comment": "Shattered Throne",
+    "SetName": "Techeun's Regalia",
     "PieceRequirement": "2 Piece",
-    "hash": 1130213040,
-    "parentHash": "239346083",
-    "parentName": "Techsec"
+    "hash_warning": "No matching hash found in d2glossary"
   },
   {
-    "Name": "Concussive Rounds",
-    "Description": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
-    "Comment": "Solo/Fireteam Ops",
-    "SetName": "Techsec",
+    "Name": "Truth to Power",
+    "Description": "Dealing damage or scoring kills grants Truth to Power stacks, up to a maximum of ? stacks.\nTruth To Power grants Damage Resist per stack, up to ?% DR at maximum.\n\nReaching maximum stacks also grants ?% Additional Base Grenade, Melee, and Class Regeneration Rate",
+    "Comment": "Shattered Throne",
+    "SetName": "Techeun's Regalia",
     "PieceRequirement": "4 Piece",
-    "hash": 1130213041,
-    "parentHash": "239346083",
-    "parentName": "Techsec"
-  },
-  {
-    "Name": "Opening Act",
-    "Description": "Upon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
-    "Comment": "Lawless Frontier",
-    "SetName": "Thriving Survivor",
-    "PieceRequirement": "2 Piece",
-    "hash": 681117218,
-    "parentHash": "2151917545",
-    "parentName": "Thriving Survivor"
-  },
-  {
-    "Name": "Room Clearing",
-    "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
-    "Comment": "Lawless Frontier",
-    "SetName": "Thriving Survivor",
-    "PieceRequirement": "4 Piece",
-    "hash": 681117219,
-    "parentHash": "2151917545",
-    "parentName": "Thriving Survivor"
-  },
-  {
-    "Name": "Crook and Flail",
-    "Description": "On Ammo Brick Pickup:\nRestores 70 HP.",
-    "Comment": "Trials",
-    "SetName": "Twofold Crown",
-    "PieceRequirement": "2 Piece",
-    "hash": 1025384966,
-    "parentHash": "3259216565",
-    "parentName": "Twofold Crown"
-  },
-  {
-    "Name": "Gift of Sight",
-    "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
-    "Comment": "Trials",
-    "SetName": "Twofold Crown",
-    "PieceRequirement": "4 Piece",
-    "hash": 1025384967,
-    "parentHash": "3259216565",
-    "parentName": "Twofold Crown"
-  },
-  {
-    "Name": "Special Relativity",
-    "Description": "On Ammo Brick Pickup:\nRefills stowed Special Weapons.",
-    "Comment": "Desert Perpetual\nEpic Raid",
-    "SetName": "Uncaged Deviants",
-    "PieceRequirement": "2 Piece",
-    "hash": 3376007203,
-    "parentHash": "2450108908",
-    "parentName": "Wayward Psyche Set"
-  },
-  {
-    "Name": "Superluminal Motion",
-    "Description": "Upon dealing Super Damage:, while Movement Speed isn't 0m/s:\nRestores 15HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
-    "Comment": "Desert Perpetual\nEpic Raid",
-    "SetName": "Uncaged Deviants",
-    "PieceRequirement": "4 Piece",
-    "hash": 3376007202,
-    "parentHash": "2450108908",
-    "parentName": "Wayward Psyche Set"
-  },
-  {
-    "Name": "Fanfare",
-    "Description": "While Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows and GLs",
-    "Comment": "Crucible",
-    "SetName": "Wild Anthem",
-    "PieceRequirement": "2 Piece",
-    "hash": 3390457361,
-    "parentHash": "2258577662",
-    "parentName": "Wild Anthem"
-  },
-  {
-    "Name": "Suros Harmony",
-    "Description": "Upon finishing a reload:\nSUROS Harmony | +? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
-    "Comment": "Crucible",
-    "SetName": "Wild Anthem",
-    "PieceRequirement": "4 Piece",
-    "hash": 3390457360,
-    "parentHash": "2258577662",
-    "parentName": "Wild Anthem"
+    "hash_warning": "No matching hash found in d2glossary"
   }
 ]
