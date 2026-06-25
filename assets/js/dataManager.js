@@ -2,7 +2,7 @@
 
 const VERSION_URL = 'data/version.json';
 const CACHE_VERSION_KEY = 'd2glossary_version';
-const CACHE_NAME = 'd2glossary-cache-v1';
+const CACHE_NAME = 'd2glossary-cache-v2';
 
 // État global
 let currentVersion = null;

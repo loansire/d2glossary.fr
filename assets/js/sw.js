@@ -1,6 +1,6 @@
 /* sw.js - Service Worker pour D2Glossary */
 
-const CACHE_NAME = 'd2glossary-cache-v1';
+const CACHE_NAME = 'd2glossary-cache-v2';
 
 // Fichiers critiques à cacher immédiatement lors de l'installation
 const CRITICAL_ASSETS = [
