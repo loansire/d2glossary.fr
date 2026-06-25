@@ -32,6 +32,9 @@ export async function loadSetArmorPage({
   const input = document.getElementById(inputId);
   const resultCount = document.getElementById('result-count');
   const clearButton = document.getElementById('clear-button');
+  const sourceInput = document.getElementById('source-filter');
+  const sourceClearButton = document.getElementById('source-clear-button');
+  const sourceList = document.getElementById('source-list');
   const popupContainer = document.getElementById('popupitem-container');
   const banniereContainer = document.getElementById('banniere-container');
 
@@ -221,6 +224,14 @@ export async function loadSetArmorPage({
       }
       card.appendChild(grid);
 
+      // Source de drop en bas de carte
+      if (setData.source) {
+        const sourceEl = document.createElement('div');
+        sourceEl.className = 'set-source';
+        sourceEl.innerHTML = `<span class="set-source-label">Source :</span> ${setData.source}`;
+        card.appendChild(sourceEl);
+      }
+
       return card;
     };
 
@@ -245,34 +256,69 @@ export async function loadSetArmorPage({
       }
     }
 
-    const handleSearch = debounce((query) => {
-      if (!query) {
-        updateResultCount(allSets);
-        pagination.setItems(allSets);
-        return;
+    // Construire la liste des sources uniques pour l'autocomplétion
+    const uniqueSources = [...new Set(
+      allSets.map(s => s.source).filter(Boolean)
+    )].sort((a, b) => a.localeCompare(b));
+
+    if (sourceList) {
+      sourceList.innerHTML = uniqueSources
+        .map(src => `<option value="${src.replace(/"/g, '&quot;')}"></option>`)
+        .join('');
+    }
+
+    // Normalisation pour comparaison insensible aux accents/casse
+    const normalizeText = (t) => (t || '')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .trim();
+
+    // Filtre combiné : nom ET source
+    function applyFilters() {
+      const nameQuery = input?.value?.trim() || '';
+      const sourceQuery = normalizeText(sourceInput?.value);
+
+      // 1. Filtre par nom (réutilise l'index multilingue)
+      let results = nameQuery
+        ? searchWithIndex(nameQuery.toLowerCase(), searchIndex, setsAsObject)
+            .map(([id]) => allSets.find(set => set.id === id))
+            .filter(Boolean)
+        : allSets;
+
+      // 2. Filtre par source (ET) — match partiel sur le texte saisi
+      if (sourceQuery) {
+        results = results.filter(set => normalizeText(set.source).includes(sourceQuery));
       }
 
-      const allMatches = searchWithIndex(query, searchIndex, setsAsObject);
+      updateResultCount(results);
+      pagination.setItems(results);
+    }
 
-      const filteredResults = allMatches
-        .map(([id]) => allSets.find(set => set.id === id))
-        .filter(Boolean);
-
-      updateResultCount(filteredResults);
-      pagination.setItems(filteredResults);
-    }, 150);
+    const handleSearch = debounce(applyFilters, 150);
 
     input?.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase();
-      handleSearch(query);
+      handleSearch();
       clearButton.style.display = e.target.value ? 'block' : 'none';
+    });
+
+    sourceInput?.addEventListener('input', (e) => {
+      handleSearch();
+      if (sourceClearButton) {
+        sourceClearButton.style.display = e.target.value ? 'block' : 'none';
+      }
     });
 
     clearButton?.addEventListener('click', () => {
       input.value = '';
       clearButton.style.display = 'none';
-      updateResultCount(allSets);
-      pagination.setItems(allSets);
+      applyFilters();
+    });
+
+    sourceClearButton?.addEventListener('click', () => {
+      sourceInput.value = '';
+      sourceClearButton.style.display = 'none';
+      applyFilters();
     });
 
     function createPerkElement(perk, setData) {
@@ -343,6 +389,14 @@ export async function loadSetArmorPage({
       requiredCount.className = 'setarmor-required-count';
       requiredCount.innerHTML = `<strong>Pièces requises :</strong> ${perk.requiredSetCount} armures`;
       contentContainer.appendChild(requiredCount);
+
+      // Source de drop du set
+      if (setData.source) {
+        const sourceDiv = document.createElement('div');
+        sourceDiv.className = 'setarmor-source';
+        sourceDiv.innerHTML = `<strong>Source :</strong> ${setData.source}`;
+        contentContainer.appendChild(sourceDiv);
+      }
 
       const separator = document.createElement('hr');
       separator.className = 'setarmor-items-separator';

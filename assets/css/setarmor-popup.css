@@ -33,7 +33,7 @@
 .setarmor-required-count {
   font-family: var(--font-primary);
   color: var(--color-text-secondary);
-  margin-bottom: var(--spacing-base);
+  margin-bottom: var(--spacing-sm);
   font-size: 0.95rem;
 }
 
@@ -124,6 +124,17 @@
   height: 50px;
   min-width: 50px;
   border-radius: var(--radius-base);
+}
+
+.setarmor-source {
+  font-family: var(--font-primary);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-base);
+  font-size: 0.95rem;
+}
+
+.setarmor-source strong {
+  color: var(--color-primary);
 }
 
 /* === RESPONSIVE === */

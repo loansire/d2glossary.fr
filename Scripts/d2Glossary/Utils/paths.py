@@ -49,6 +49,7 @@ SETARMOR_DEFINITIONS_FILE = "setarmor_definitions.json"
 SANDBOXPERK_DEFINITIONS_FILE = "sandboxperk_definitions.json"
 ARTEFACT_DEFINITIONS_FILE = "artefact_definitions.json"
 ICON_DEFINITIONS_FILE = "icon_definition.json"
+COLLECTIBLE_DEFINITIONS_FILE = "collectible_definitions.json"
 SETARMOR_ENRICHED_FILE = "setarmor_definitions_enriched.json"
 ARTEFACT_ENRICHED_FILE = "artefact_definitions_enriched.json"
 DDCVACUUM_FILE = "ddcvacuum.json"
@@ -95,8 +96,8 @@ MANIFEST_LIST = {
     "DestinySandboxPerkDefinition": SANDBOXPERK_DEFINITIONS_FILE,
     "DestinyArtifactDefinition": ARTEFACT_DEFINITIONS_FILE,
     "DestinyIconDefinition": ICON_DEFINITIONS_FILE,
-    # Nouveaux manifests
     "DestinyItemCategoryDefinition": ITEM_CATEGORY_DEFINITION_FILE,
+    "DestinyCollectibleDefinition": COLLECTIBLE_DEFINITIONS_FILE,
 }
 
 
@@ -126,7 +127,8 @@ MANIFEST_WHITELIST = {
         "itemCategoryHashes",
         "traitIds",
         "plug.plugCategoryIdentifier",
-        "perks",                    # Pour l'enrichissement artefact (array complet)
+        "perks",
+        "collectibleHash",
     ],
 
     # Traits élémentaires
@@ -177,6 +179,11 @@ MANIFEST_WHITELIST = {
     # Icônes
     "icon_definition": [
         *COMMON_WHITELIST,
+    ],
+
+    "collectible_definitions": [
+        *COMMON_WHITELIST,
+        "sourceString",
     ],
 
     # NOTE: Les types suivants n'ont PAS de whitelist définie,

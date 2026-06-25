@@ -4,6 +4,7 @@ enrichArmorSet.py - Enrichissement des données d'armures et artefacts (multilin
 import json
 from pathlib import Path
 import sys
+import re
 
 # Ajouter le dossier parent au path pour les imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -12,9 +13,143 @@ from Utils.paths import (
     SUPPORTED_LANGUAGES, get_localized_path, get_relative_path,
     SETARMOR_DEFINITIONS_FILE, SANDBOXPERK_DEFINITIONS_FILE,
     ITEM_DEFINITIONS_FILE, ARTEFACT_DEFINITIONS_FILE,
-    SETARMOR_ENRICHED_FILE, ARTEFACT_ENRICHED_FILE
+    SETARMOR_ENRICHED_FILE, ARTEFACT_ENRICHED_FILE,
+    COLLECTIBLE_DEFINITIONS_FILE
 )
 
+
+# =============================================================================
+# NETTOYAGE DES SOURCES (sourceString)
+# =============================================================================
+
+# Mentions techniques à ignorer (pas de vraie source de drop).
+IGNORED_SOURCES = [
+    "attributs aleatoires : cet objet ne peut pas etre acquis de nouveau dans les collections",
+    "random perks: this item cannot be reacquired from collections",
+]
+
+# Mapping manuel des sources spéciales.
+# Clé = sourceString après normalisation : préfixe "Source :" retiré, point final retiré,
+#       espaces insécables convertis en espaces simples, espaces multiples réduits.
+# Valeur = résultat final affiché, retourné tel quel.
+SOURCE_MANUAL_MAP = {
+    # === EN ===
+    'Dungeon "Duality"': "« Duality » Dungeon",
+    "Vesper's Host": "« Vesper's Host » Dungeon",
+    "Sundered Doctrine": "« Sundered Doctrine » Dungeon",
+    "Equilibrium": "« Equilibrium » Dungeon",
+    "Last Wish raid": "« Last Wish » Raid",
+
+    # === FR ===
+    "Hôte Vesper": "Donjon « Hôte Vesper »",
+    "Dogme fragmenté": "Donjon « Dogme fragmenté »",
+    "Équilibre": "Donjon « Équilibre »",
+    "Raid Orée du Salut": "Raid « Orée du Salut »",
+}
+
+
+def _normalize_for_compare(text):
+    """Minuscule + suppression accents + normalisation espaces (insécables inclus)."""
+    import unicodedata
+    text = text.lower()
+    text = text.replace('\u00a0', ' ').replace('\u202f', ' ')
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
+def _replace_quotes(text):
+    """Remplace les guillemets droits " par paires : 1er → « , 2e → » , etc."""
+    result = []
+    opening = True
+    for ch in text:
+        if ch == '"':
+            result.append('«\u00a0' if opening else '\u00a0»')
+            opening = not opening
+        else:
+            result.append(ch)
+    return ''.join(result)
+
+
+def _clean_source(source):
+    """
+    Nettoie un sourceString :
+    - normalise les espaces insécables
+    - retire le préfixe "Source :" (FR/EN)
+    - remplace les guillemets droits par « » (par paires)
+    - retire le préfixe "Complete/Terminer" + conjugaisons
+    - retire TOUS les points
+    - met la 1re lettre en majuscule
+    """
+    # 0. Normaliser les espaces insécables
+    source = source.replace('\u00a0', ' ').replace('\u202f', ' ')
+
+    # 1. Retirer le préfixe "Source :" / "Source:" / "Source"
+    source = re.sub(r'^\s*source\s*:?\s*', '', source, flags=re.IGNORECASE).strip()
+
+    # 2. Remplacer les guillemets droits par « » (par paires)
+    source = _replace_quotes(source)
+
+    # 3. Retirer le préfixe d'action (FR/EN : complete/terminer + conjugaisons)
+    source = re.sub(
+        r'^\s*(completez|complete|terminez|terminer|termine|terminé|terminée)\s+(the|le|la|les|des|du)?\s*',
+        '',
+        source,
+        flags=re.IGNORECASE
+    ).strip()
+
+    # 4. Retirer TOUS les points
+    source = source.replace('.', '')
+
+    # 5. Réduire les espaces multiples (hors insécables introduits par _replace_quotes)
+    source = re.sub(r'[ \t]{2,}', ' ', source).strip()
+
+    # 6. Majuscule sur le 1er caractère
+    if source:
+        source = source[0].upper() + source[1:]
+
+    return source.strip()
+
+
+def get_item_source(item_def, collectible_data):
+    """
+    Récupère la source de drop d'un item via sa fiche collection.
+    item.collectibleHash → DestinyCollectibleDefinition[hash].sourceString
+    Priorité : mapping manuel > mentions ignorées > nettoyage standard.
+    Retourne None si pas de source exploitable.
+    """
+    coll_hash = item_def.get("collectibleHash")
+    if not coll_hash:
+        return None
+    coll = collectible_data.get(str(coll_hash))
+    if not coll:
+        return None
+    raw = coll.get("sourceString", "").strip()
+    if not raw:
+        return None
+
+    # Base de comparaison : insécables → espaces simples, préfixe "Source :" + point final retirés
+    base = raw.replace('\u00a0', ' ').replace('\u202f', ' ')
+    base = re.sub(r'^\s*source\s*:?\s*', '', base, flags=re.IGNORECASE)
+    base = re.sub(r'\s+', ' ', base).strip().rstrip(' .').strip()
+
+    # 1. Mapping manuel prioritaire (valeur retournée telle quelle)
+    if base in SOURCE_MANUAL_MAP:
+        return SOURCE_MANUAL_MAP[base]
+
+    # 2. Ignorer les mentions techniques
+    if _normalize_for_compare(base) in IGNORED_SOURCES:
+        return None
+
+    # 3. Nettoyage standard
+    cleaned = _clean_source(raw)
+    return cleaned or None
+
+
+# =============================================================================
+# I/O JSON
+# =============================================================================
 
 def load_json(file_path):
     """Charge un fichier JSON"""
@@ -40,7 +175,11 @@ def save_json(data, file_path):
         return False
 
 
-def enrich_setarmor(setarmor_data, sandboxperk_data, item_data):
+# =============================================================================
+# ENRICHISSEMENT
+# =============================================================================
+
+def enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data):
     """Enrichit les données des sets d'armure"""
     for set_id, set_info in setarmor_data.items():
 
@@ -56,19 +195,29 @@ def enrich_setarmor(setarmor_data, sandboxperk_data, item_data):
                         "icon": perk_def.get("icon", None),
                     }
 
-        # Enrichir les setItems directement
+        # Enrichir les setItems directement + récupérer la source
         if "setItems" in set_info:
             enriched_items = []
+            set_source = None                       # source au niveau du set
             for item_hash in set_info["setItems"]:
                 item_hash_str = str(item_hash)
                 if item_hash_str in item_data:
-                    item_def = item_data[item_hash_str].get("displayProperties", {})
+                    item_def = item_data[item_hash_str]
+                    display = item_def.get("displayProperties", {})
+                    item_source = get_item_source(item_def, collectible_data)
+
+                    # Mémoriser la 1re source trouvée comme source du set
+                    if item_source and not set_source:
+                        set_source = item_source
+
                     enriched_items.append({
                         "hash": item_hash,
-                        "name": item_def.get("name", ""),
-                        "icon": item_def.get("icon", None),
+                        "name": display.get("name", ""),
+                        "icon": display.get("icon", None),
+                        "source": item_source,        # source par item (fallback futur)
                     })
             set_info["setItems"] = enriched_items
+            set_info["source"] = set_source           # source du set (peut être None)
 
     return setarmor_data
 
@@ -136,8 +285,9 @@ def enrich_for_language(lang):
     sandboxperk_data = load_json(get_localized_path(SANDBOXPERK_DEFINITIONS_FILE, lang))
     item_data = load_json(get_localized_path(ITEM_DEFINITIONS_FILE, lang))
     artefact_data = load_json(get_localized_path(ARTEFACT_DEFINITIONS_FILE, lang))
+    collectible_data = load_json(get_localized_path(COLLECTIBLE_DEFINITIONS_FILE, lang))
 
-    if not all([setarmor_data, sandboxperk_data, item_data, artefact_data]):
+    if not all([setarmor_data, sandboxperk_data, item_data, artefact_data, collectible_data]):
         print(f"❌ [{lang.upper()}] Impossible de charger toutes les données sources")
         return False
 
@@ -145,7 +295,7 @@ def enrich_for_language(lang):
 
     # Enrichir les sets d'armure
     print(f"⚙️  [{lang.upper()}] Enrichissement des sets d'armure...")
-    enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data)
+    enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data)
 
     output_path = get_localized_path(SETARMOR_ENRICHED_FILE, lang)
     if save_json(enriched_setarmor, output_path):

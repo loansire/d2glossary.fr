@@ -43,6 +43,14 @@
       <input type="text" id="search" placeholder="Rechercher un set d'armure...">
       <button id="clear-button" class="clear-button" aria-label="Clear">✖</button>
     </div>
+
+    <!-- Filtre par source (dropdown éditable) -->
+    <div class="input-container source-filter-container">
+      <input type="text" id="source-filter" list="source-list" placeholder="Filtrer par source..." autocomplete="off">
+      <datalist id="source-list"></datalist>
+      <button id="source-clear-button" class="clear-button" aria-label="Clear source">✖</button>
+    </div>
+
     <div id="result-count"></div>
   </div>
 

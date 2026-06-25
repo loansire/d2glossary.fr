@@ -35,6 +35,7 @@ SKIP_DISPLAY_CHECK = [
     "socket_type_definitions",
     "socket_category_definitions",
     "icon_definition",
+    "collectible_definitions",
 ]
 
 
