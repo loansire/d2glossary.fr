@@ -1,5 +1,32 @@
 [
   {
+    "Name": "Sprint Grip",
+    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting."
+  },
+  {
+    "Name": "Stunloader",
+    "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine."
+  },
+  {
+    "Name": "Synergy",
+    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation."
+  },
+  {
+    "Name": "Tactical",
+    "Description": "+6 ↑+7 Handling and +6 ↑+7 Reload Speed."
+  },
+  {
+    "Name": "Targeting Adjuster",
+    "Description": "+5 ↑+7 Aim Assist."
+  },
+  {
+    "Name": "Tension",
+    "Description": "+6 ↑+7 Draw Time and +6 ↑+7 Accuracy."
+  },
+  {
+    "Name": "Intrinsic Traits"
+  },
+  {
     "Name": "Adaptive Burst",
     "Description": "Fires 3-round bursts."
   },
@@ -99,36 +126,5 @@
   {
     "Name": "Precision Frame",
     "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw."
-  },
-  {
-    "Name": "Precision Frame",
-    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
-    "Comment": "(Rocket Launchers)"
-  },
-  {
-    "Name": "Precision Frame",
-    "Description": "+25 Airborne Effectiveness, 10% Decreased ADS Movement Speed Penalty, and -20% Recoil Yaw (Horizontal Recoil).",
-    "Comment": "(Hand Cannon)"
-  },
-  {
-    "Name": "Rapid-Fire Frame",
-    "Description": "Upon starting a reload while magazine is empty:\n0.8x Reload Duration Multiplier."
-  },
-  {
-    "Name": "Rapid-Fire Frame",
-    "Description": "Passively grants 0.8x Reload Duration Multiplier.",
-    "Comment": "(Shotguns)"
-  },
-  {
-    "Name": "Spread Shot",
-    "Description": "Fires a spread of 12 pellets, each dealing ? [10] damage with a 1.2x Precision Multiplier.\nPellets disappear after 25 meters, and deal a minimum of 0.33x damage at Maximum Damage Falloff."
-  },
-  {
-    "Name": "Support Frame",
-    "Description": "Shoots slow, tracking projectiles that travel at a speed of 40m/s. Projectiles do not have a distance limit, but will eventually lose their tracers.\n Has 50% Increased Aim Assist Falloff Distance at 0 Range, down to 25% at 100 Range, compared to a regular Auto Rifle.\n\nDealing ANY (really, ANY!) damage generates Weapon Energy, at a rate of 1% Energy for every 4 [3.6] damage dealt, reaching 100% Charge after dealing 400 [360] damage.\nDealing damage with the Support Auto Rifle doubles the Weapon Energy gains, generating 1% Energy for every 2 [1.8] damage, requiring 200 [180] damage to fully charge.\n\nLooking near an ally within range widens the reticle. Hipfiring while an ally is in healing range will shoot healing projectiles that have much stronger tracking.\nConsumes 2% Weapon Energy per healing shot fired towards an ally, restoring 13.3 HP to them on impact.\nTargeting Range = 28 + (0.1 x Range Stat) meters, up to 38 Meters at 100 Range.\nIf multiple allies are targeted, then the healing shots will alternate between allies.\n\nUpon scoring 5 healing hits within 1 second of each on allies:\nThe next healing hits within 1 seconds of each on allies bestows them with an Element-Matching Effect, and applies Support Frame Boost to the user and the targeted ally.\nSupport Frame Boost grants 10% increased weapon damage for 6 seconds. Stacks with everything.\nStrand Support Frames cause the targeted ally to release 4 Unraveling Projectiles.\nSolar Support Frames bestow Restoration x1 for 4+2 seconds to the targeted ally.\nVoid Support Frames bestow 15 Void Overshield for 10+5 seconds to the targeted ally. \n\nOnly triggers On-Heal Effects upon applying Rapid Healing. Shots that restore missing health count for \"on-hit\" related interactions.\nIncurs a 1.5 second cooldown upon applying Support Frame Boost before additional healing hits are counted on the same ally."
-  },
-  {
-    "Name": "Together Forever",
-    "Description": "Weapon Kills refill Sturm and grant it an Overcharged Bullet with increased damage, up to 25 Sturm Overcharge stacks.\nScoring an additional Weapon Kill within 3 seconds of the first grants 3 Sturm Overcharge stacks.\nFurther Weapon Kills within ? seconds of the last grant 5 Sturm Overcharge stacks."
   }
 ]

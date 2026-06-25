@@ -2149,7 +2149,7 @@
   },
   {
     "Name": "Melee",
-    "Description": "On Melee Ability Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Melee Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nMelee Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
+    "Description": "On Melee Ability Charge Usage while having Armor Charges:\n\nConsumes all Armor Charges to grant Melee Ability Energy. \n\nAbility Energy Gains are based on the sum of number of Armor Charges consumed and Mod copies equipped.\n\nMelee Ability Energy:\n16.2% | 21.7% | 28.4% | 34.4% | 38.4% | 41.3% | 43.4% | 45%\n12.5% | 14.2% | 16.2% | 18.7% | 21.7% | 25% | 28.4% | 31.6%",
     "Type": "ArmsMods",
     "Comment": " Kickstart\n[3 Energy]",
     "hash_warning": "No matching hash found in d2glossary",
@@ -2167,7 +2167,7 @@
               ]
             },
             {
-              "text": " Ability Usage while having Armor Charges:"
+              "text": " Ability Charge Usage while having Armor Charges:"
             }
           ]
         },
@@ -2457,7 +2457,7 @@
   },
   {
     "Name": "Shield Break Charge",
-    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 Armor Charge.",
+    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 | x2 Armor Charge.",
     "Type": "ArmsMods",
     "Comment": "[4 Energy]",
     "hash": 48578555,
@@ -2480,7 +2480,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants x1 Armor Charge."
+              "text": "Grants x1 | x2 Armor Charge."
             }
           ]
         }
@@ -2489,7 +2489,7 @@
   },
   {
     "Name": "Shield Break Charge",
-    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 Armor Charge.",
+    "Description": "Upon breaking a Combatant Shield with Matching Damage:\n\nGrants x1 | x2 Armor Charge.",
     "Type": "ArmsMods",
     "Comment": "[4 Energy]",
     "hash": 3047946307,
@@ -2512,7 +2512,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants x1 Armor Charge."
+              "text": "Grants x1 | x2 Armor Charge."
             }
           ]
         }
@@ -2881,7 +2881,7 @@
   },
   {
     "Name": "Resistance",
-    "Description": "Grants 15% | 25% | 30% Damage Resist against Combatants.\n\nElemental Mods reduce Mod-Matching Elemental damage.\nSniper reduces damage from >29 metres.\nMelee reduces damage from <4 metres.\nConcussive Dampener reduces AoE/Blast/Explosive Damage.\n\nDifferent Resist Mods, as well as other sources of Resist all stack multiplicatively with each other.",
+    "Description": "Grants 15% | 25% | 30% Damage Resist against Combatants.\n\nElemental Mods reduce Mod-Matching Elemental damage.\nSniper reduces damage from >30 metres.\nMelee reduces damage from <5 metres.\nConcussive Dampener reduces AoE/Blast/Explosive Damage.\n\nDifferent Resist Mods, as well as other sources of Resist all stack multiplicatively with each other.",
     "Type": "ChestMods",
     "Comment": "[1–3 Energy]",
     "hash_warning": "No matching hash found in d2glossary",
@@ -2909,14 +2909,14 @@
         {
           "linesContent": [
             {
-              "text": "Sniper reduces damage from >29 metres."
+              "text": "Sniper reduces damage from >30 metres."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Melee reduces damage from <4 metres."
+              "text": "Melee reduces damage from <5 metres."
             }
           ]
         },

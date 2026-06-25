@@ -1,7 +1,7 @@
 [
   {
     "Name": "Tangle",
-    "Description": "Strand Elemental Pickup\n\n Spawned when an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) is killed while on a Strand Subclass, or through Exotic Gear. \nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
+    "Description": "Strand Subclass Intrinsic\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects!\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
   },
   {
     "Name": "Grapple Tangle",
@@ -9,7 +9,7 @@
   },
   {
     "Name": "Threadling",
-    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 338 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range."
+    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range."
   },
   {
     "Name": "Woven Mail",

@@ -1,18 +1,8 @@
 [
   {
-    "Name": "Winterized Gear",
-    "Description": "After having maintained a state of not dealing or receiving damage for at least ? seconds:\nGrants ? stacks of Winterized Gear. \nStacks begin decaying after having dealt or received damage.\nStacks are reacquired after having maintained a state of not dealing or receiving damage for at least ? seconds\n\nWinterized Gear x3 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.\nWinterized Gear x2 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.\nWinterized Gear x1 = +? Stability, +? Handling, and +? Reload Speed for ? seconds.",
-    "Comment": "Europa\nDestination",
-    "hash_warning": "No matching hash found in d2glossary"
-  },
-  {
-    "Name": "Armor Set Bonuses",
-    "hash_warning": "No matching hash found in d2glossary"
-  },
-  {
     "Name": "Force Converter",
     "Description": "Upon scoring a Micro-Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants Force Converter.\n\nSprinting while Force Converter is active grants Speed Booster.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Rounds, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-    "Comment": "Kepler",
+    "Comment": "Kepler\nDestination",
     "SetName": "AION Renewal",
     "PieceRequirement": "2 Piece",
     "hash": 2140508055,
@@ -22,7 +12,7 @@
   {
     "Name": "Reactive Booster",
     "Description": "Sprinting while at Critical Health, being Suspended, or being affected by a Stasis Debuff will grant Speed Booster.\nCan only trigger once per Force Converter activation.",
-    "Comment": "Kepler",
+    "Comment": "Kepler\nDestination",
     "SetName": "AION Renewal",
     "PieceRequirement": "4 Piece",
     "hash": 2140508054,
@@ -31,8 +21,8 @@
   },
   {
     "Name": "Force Absorption",
-    "Description": "Upon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\nGrants 20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
-    "Comment": "Kepler",
+    "Description": "Upon scoring a Missile, Rocket Launcher or Grenade Launcher Kill:\n20% Area-of-Effect Damage Resist and 60% Explosive Self-Damage Resist for 15 seconds.\n\nMissiles:\nQuicksilver Storm's Rocket Tracer, Nanotech Tracer Round, Exhaustive Research Rockets, Rocket Frames, Grand Overture Missiles, and Hazardous Propulsion's Exodus Rockets.",
+    "Comment": "Kepler\nDestination",
     "SetName": "AION Adapter",
     "PieceRequirement": "2 Piece",
     "hash": 2840280305,
@@ -42,7 +32,7 @@
   {
     "Name": "Reactive Shock",
     "Description": "While Force Absorption is active:\nBeing hit by a Melee Attack triggers a Disorienting Burst, disorienting enemies within ? meters for ? seconds.\nCan only trigger once per Reactive Shock activation.",
-    "Comment": "Kepler",
+    "Comment": "Kepler\nDestination",
     "SetName": "AION Adapter",
     "PieceRequirement": "4 Piece",
     "hash": 2840280304,
@@ -50,8 +40,48 @@
     "parentName": "AION Adapter"
   },
   {
+    "Name": "Regenerative Threshold",
+    "Description": "On Finisher:\nGrants Regenerative Threshold.\n\nUpon reaching Critical Health:\nConsumes Regenerative Threshold.\nRestores 20 HP and begins Health Regeneration.",
+    "Comment": "Pit of Heresy\nDungeon",
+    "SetName": "Apostate's Blade",
+    "PieceRequirement": "2 Piece",
+    "hash": 696050397,
+    "parentHash": "1439803506",
+    "parentName": "Apostate's Blade"
+  },
+  {
+    "Name": "Melee Conduction",
+    "Description": "While Cure, Radiant, or Restoration are active:\nMelee Hits trigger a Solar Burst on the target, dealing 28 [17] Damage and inflicting x20+10 Scorch within 7 meters.\nIncurs a 1 second cooldown per trigger.\nWill NOT trigger if the Melee Hit granted a Solar Buff, such as Ember of Torches, unless the Melee Ability intrinsically inflicts Scorch. (Exotics do NOT count)",
+    "Comment": "Pit of Heresy\nDungeon",
+    "SetName": "Apostate's Blade",
+    "PieceRequirement": "4 Piece",
+    "hash": 696050396,
+    "parentHash": "1439803506",
+    "parentName": "Apostate's Blade"
+  },
+  {
+    "Name": "Radiolaria Breach",
+    "Description": "On Orb of Power Pickup:\nGrants BUFF NAME.\n\nUpon reaching Critical Health:\nConsumes BUFF NAME.\n+? Health Stat for ? seconds and releases 4 Radiolaria Pools 5 meters away from the user.\nRadiolaria Pools deal ? Arc Damage every ? seconds.",
+    "Comment": "Vault of Glass\nRaid",
+    "SetName": "Atheon's Memory",
+    "PieceRequirement": "2 Piece",
+    "hash": 17188252,
+    "parentHash": "741162535",
+    "parentName": "Atheon's Memory"
+  },
+  {
+    "Name": "Collective Power",
+    "Description": "Upon scoring 5 damage instances within 5 seconds of each while any Elemental Buff is active:\nSpawns an Orb of Power on the user that grants ?% Super Energy.\nIncurs a 5 second cooldown upon activation.",
+    "Comment": "Vault of Glass\nRaid",
+    "SetName": "Atheon's Memory",
+    "PieceRequirement": "4 Piece",
+    "hash": 17188253,
+    "parentHash": "741162535",
+    "parentName": "Atheon's Memory"
+  },
+  {
     "Name": "Iaido",
-    "Description": "Scoring a Weapon Kill within ? seconds of reloading or readying a gun restores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
+    "Description": "Upon scoring a Weapon Kill within ? seconds of reloading or readying a weapon:\nRestores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
     "Comment": "Pinnacle Ops",
     "SetName": "Bushido",
     "PieceRequirement": "2 Piece",
@@ -61,13 +91,53 @@
   },
   {
     "Name": "Unfaltering Focus",
-    "Description": "On Bow, Shotgun, or Sword Kill:\nGrants Resist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
+    "Description": "On Bow, Shotgun, or Sword Kill:\nResist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
     "Comment": "Pinnacle Ops",
     "SetName": "Bushido",
     "PieceRequirement": "4 Piece",
     "hash": 1964062928,
     "parentHash": "1083114430",
     "parentName": "Bushido"
+  },
+  {
+    "Name": "Revving Up",
+    "Description": "While Movement Speed is at least ?m/s:\nGrants a stack of Revving Up, with a maximum of 10 stacks.\nTransforms into Fully Revved at 10 stacks.\n\nEach Revving Up stack grants increased Critical Health Regeneration Speed. Does not affect Shields in any way.\nBy default, it takes 1.75 seconds for Critical Health to begin regenerating at a rate of 27.5%HP/s.\nAt x5 stacks, it takes 1.5 seconds to begin regenerating at a rate of ~37.5% HP/s.\nAt x10 stacks, it takes 1.25 seconds to begin regenerating at a rate of 45% HP/s\n\nSprinting: 5 seconds per stack, takes 45 seconds to max out regardless of speed.\nOther movement (Jumping, Falling, Sword Swinging, Sparrows) greatly accelerate the rate based on their speed, down to a minimum of 1.25 seconds per stack.\nMost easily achieved by using a Sparrow, as those reach the Movement Cap.\n\nWhile Movement Speed is lower than 3m/s:\nRapidly removes 4 stacks per second after a 0.5 second delay.\n\nWhile Fully Revved is ready:\nSprinting for 2.5 seconds grants Speed Booster.\nTriggering Speed Booster and sliding at least once grants Extended Slide Distance until death.",
+    "Comment": "Sparrow Racing League",
+    "SetName": "Circuit",
+    "PieceRequirement": "2 Piece",
+    "hash": 2657416818,
+    "parentHash": "2032049849",
+    "parentName": "Circuit"
+  },
+  {
+    "Name": "Dielectric Drift",
+    "Description": "While Speed Booster is active:\nSliding inflicts Jolt to Combatants within ? meters.",
+    "Comment": "Sparrow Racing League",
+    "SetName": "Circuit",
+    "PieceRequirement": "4 Piece",
+    "hash": 2657416819,
+    "parentHash": "2032049849",
+    "parentName": "Circuit"
+  },
+  {
+    "Name": "Between Poles",
+    "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
+    "Comment": "Prophecy\nDungeon",
+    "SetName": "CODA",
+    "PieceRequirement": "2 Piece",
+    "hash": 1814176200,
+    "parentHash": "1490136267",
+    "parentName": "CODA"
+  },
+  {
+    "Name": "So Very Thin",
+    "Description": "Light Weapon Kills grant ?% Grenade Energy.\nKinetic/Dark Weapon Kills grant ?% Melee Energy.\n\nUpon scoring ? Kills within ? seconds of each while alternating between alignments between kills:\n40?% Damage Resist for 5? seconds.\nRefreshable on kills.",
+    "Comment": "Prophecy\nDungeon",
+    "SetName": "CODA",
+    "PieceRequirement": "4 Piece",
+    "hash": 1814176201,
+    "parentHash": "1490136267",
+    "parentName": "CODA"
   },
   {
     "Name": "Accretion",
@@ -90,30 +160,128 @@
     "parentName": "Collective Psyche"
   },
   {
+    "Name": "Cursed Fist",
+    "Description": "On Melee Kill:\nCauses the enemy to explode, dealing up to ? [?] Arc? Damage over a 4.5 metre radius.\nGlaive Melees also trigger it.",
+    "Comment": "Crota's End\nRaid",
+    "SetName": "Crota's Memory",
+    "PieceRequirement": "2 Piece",
+    "hash": 3872620150,
+    "parentHash": "2620550053",
+    "parentName": "Crota's Memory"
+  },
+  {
+    "Name": "Power of the Son",
+    "Description": "While maintaining a state of dealing or receiving damage every 7 seconds:\nGrants a stack of ?? after 12 seconds, up to 2 stacks after 24 seconds.\n\n??? x1 | 15% Damage Resist and Flinch Resist\n??? x1 | 25% Damage Resist and Flinch Resist",
+    "Comment": "Crota's End\nRaid",
+    "SetName": "Crota's Memory",
+    "PieceRequirement": "4 Piece",
+    "hash": 3872620151,
+    "parentHash": "2620550053",
+    "parentName": "Crota's Memory"
+  },
+  {
     "Name": "Primary Survivor",
     "Description": "On Ally Death:\nGrants a stack of Primary Survivor for ? seconds.\nGrants Primary Survivor x? while solo.\n\nPrimary Survivor x1 | Primary Weapons are granted +? Handling, +? Reload Speed, +? Aim Assist, and ?% Flinch Resist.\nPrimary Survivor x2 | Primary Weapons are granted +? Handling, +? Reload Speed, +? Aim Assist, and ?% Flinch Resist.",
     "Comment": "Trials",
     "SetName": "Cruel Electrum",
     "PieceRequirement": "2 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 2562518502,
+    "parentHash": "742845781",
+    "parentName": "Cruel Electrum"
   },
   {
     "Name": "Primary Phantom",
-    "Description": "On Primary Kill:\nPrevents passively pinging enemy radar for ? seconds.\nReadying a Special or Power Weapon will remove the buff.",
+    "Description": "On Primary Kill:\nPrevents passively pinging enemy radar for 7 seconds.\nReadying a Special or Power Weapon will remove the buff.",
     "Comment": "Trials",
     "SetName": "Cruel Electrum",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 2562518503,
+    "parentHash": "742845781",
+    "parentName": "Cruel Electrum"
   },
   {
-    "Name": "Costumes",
-    "Description": "Has an Armor Mod Slot to convert the armor piece into another Armor Set's, counting as a piece for that set for both Armor Set Bonuses and New Gear Bonus.",
-    "Comment": "Festival of the Lost",
-    "hash_warning": "No matching hash found in d2glossary"
+    "Name": "Resupply",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least 12? seconds:\nThe next kill scored spawns an Orb of Power that grants 1?% Super Energy, as well as +20% Special Ammo Progress and +20% Power Ammo Progress.",
+    "Comment": "Europa\nDestination",
+    "SetName": "Crystocrene",
+    "PieceRequirement": "2 Piece",
+    "hash": 793561548,
+    "parentHash": "3090557911",
+    "parentName": "Crystocrene"
+  },
+  {
+    "Name": "From the Storm",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least 12 seconds:\nGrants a stack of Frost Armor every 3 seconds.",
+    "Comment": "Europa\nDestination",
+    "SetName": "Crystocrene",
+    "PieceRequirement": "4 Piece",
+    "hash": 793561549,
+    "parentHash": "3090557911",
+    "parentName": "Crystocrene"
+  },
+  {
+    "Name": "Adrenal Rush",
+    "Description": "Upon sprinting for 0.5 seconds:\nGrants Adrenal Rush for ? seconds.\nScoring Additional Kills extend the buff duration by +? seconds, up to ? seconds.\n\nAdrenal Rush | +? Handling and Reload Speed",
+    "Comment": "Gambit",
+    "SetName": "Cyberserpent Null",
+    "PieceRequirement": "2 Piece",
+    "hash": 3432283357,
+    "parentHash": "1790308978",
+    "parentName": "Cyberserpent Null"
+  },
+  {
+    "Name": "Bountiful Munitions",
+    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant ?.?x Special Ammo Progress.\nElite+ Combatants, Taken Combatants and Guardian Kills instead grant ?.?x Special Ammo Progress.",
+    "Comment": "Gambit",
+    "SetName": "Cyberserpent Null",
+    "PieceRequirement": "4 Piece",
+    "hash": 3432283356,
+    "parentHash": "1790308978",
+    "parentName": "Cyberserpent Null"
+  },
+  {
+    "Name": "Taking Initiative",
+    "Description": "Upon scoring a Melee or Sword Hit:\nGrants a stack of Initiative for 8 seconds, up to a maximum of 5 stacks.\nInitiative grants +Handling and +Reload Speed.\nStacks decay one at a time.\n\nInitiative\n+? | +? | +? | +? | +? Handling and Reload Speed",
+    "Comment": "Warlord's Ruin\nDungeon",
+    "SetName": "Dark Age",
+    "PieceRequirement": "2 Piece",
+    "hash": 3599123169,
+    "parentHash": "1658353742",
+    "parentName": "Dark Age"
+  },
+  {
+    "Name": "Healing Initiative",
+    "Description": "On Class Ability Usage while Initiative is active:\nCreates a stationary Healing Drone that restores HP every 2 seconds in a ? meter radius.\nHealing Drone restores 10? HP per Initiative stack per pulse up to 5 times per Class Ability Usage.\nHealing Drone has no collision but can block projectiles.",
+    "Comment": "Warlord's Ruin\nDungeon",
+    "SetName": "Dark Age",
+    "PieceRequirement": "4 Piece",
+    "hash": 3599123168,
+    "parentHash": "1658353742",
+    "parentName": "Dark Age"
+  },
+  {
+    "Name": "Built Bitter",
+    "Description": "Grants a stack of Built Bitter for every ? damage taken, up to 10 stacks after receiving ? damage.\nSelf damage does not count. Stacks are lost when stowing.\n\nBuilt Bitter grants Reload Speed and Reload Duration Multiplier per stack until stowed.\nGrants up to +50?? Reload Speed and ~0.85–0.9x Reload Duration Multiplier.\n\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +50??  Reload Speed.\n?x | ?x | ?x | ?x | ?x | ?x | ?x | ?x | ?x | ~0.85x–0.9x Reload Duration Multiplier.",
+    "Comment": "Duality\nDungeon",
+    "SetName": "Deep Explorer",
+    "PieceRequirement": "2 Piece",
+    "hash": 1875006806,
+    "parentHash": "1557540933",
+    "parentName": "Deep Explorer"
+  },
+  {
+    "Name": "Bittersweet",
+    "Description": "On Weapon Stow, while Built Bitter stacks are active.\nBegins Critical Health Regeneration.\nRestores Health based on the amount of Built Bitter stacks lost by swapping weapons.\nDo note there are some weird inconsistencies that can result in MUCH higher healing values.\n\nx1 = ~35 [?] | x2 = ~65 [?] | x3 = 87.5 [?] | x4 = ~105 [?] | x5 = 130 [?]\nx6 = ~170 [?] | x7 = 195 [?] | x8 = Full Heal [?] | x9 = Full Heal [?] | x10 = Full Heal [?] \n\nBut acktually you should test with Brawn beyond x8!\nNo, thank you, I'd rather chew bricks.",
+    "Comment": "Duality\nDungeon",
+    "SetName": "Deep Explorer",
+    "PieceRequirement": "4 Piece",
+    "hash": 1875006807,
+    "parentHash": "1557540933",
+    "parentName": "Deep Explorer"
   },
   {
     "Name": "Pleas Heard",
-    "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
+    "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \nCURRENTLY BUGGED AND HEALS 5HP/S OR SO\n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
     "Comment": "Crucible",
     "SetName": "Disaster Corps",
     "PieceRequirement": "2 Piece",
@@ -132,6 +300,66 @@
     "parentName": "Disaster Corps Set"
   },
   {
+    "Name": "Nightmarish Power",
+    "Description": "Upon scoring an Elite+ Kill:\nGrants Unstable Essence for 15 seconds.\nScoring additional Elite+ Kills refresh the buff duration.\n\nUnstable Essence | +30 Melee Stat and +30 Grenade Stat.",
+    "Comment": "Moon",
+    "SetName": "Dreambane",
+    "PieceRequirement": "2 Piece",
+    "hash": 3449901215,
+    "parentHash": "2250480800",
+    "parentName": "Dreambane"
+  },
+  {
+    "Name": "Nightmarish Resilience",
+    "Description": "While Unstable Essence is active:\nUpon scoring a total of 8 weapon damage instances within 3 seconds of each, counted up to once every 0.45 seconds: \nBegins Critical Health Regeneration and restores 20 HP.\nIncurs a 2 second cooldown upon triggering before hits count again. \nPerk takes AT LEAST 3.6 seconds to initially trigger, then 5.6 seconds for the next reactivation assuming nonstop damage.",
+    "Comment": "Moon",
+    "SetName": "Dreambane",
+    "PieceRequirement": "4 Piece",
+    "hash": 3449901214,
+    "parentHash": "2250480800",
+    "parentName": "Dreambane"
+  },
+  {
+    "Name": "Gift of the Ley Lines",
+    "Description": "Upon scoring 3 Void Kills within 5? seconds of each:\nSpawns a Void Breach.",
+    "Comment": "Arena/Pinnacle Ops",
+    "SetName": "Eutechnology",
+    "PieceRequirement": "2 Piece",
+    "hash": 4083289735,
+    "parentHash": "2461275960",
+    "parentName": "Eutechnology"
+  },
+  {
+    "Name": "Techeun's Foresight",
+    "Description": "On Void Breach Pickup:\nGrants Techeun's Clairvoyance for 7 seconds.\nThe next Void Weapon Kill consumes Techeun's Clairvoyance to trigger a Potent Void Detonation.\nPotent Void Detonation deals up to 173 [?] Damage over 5 meters.\n\nOn Techeun's Clairvoyance timer expiry:\nDowngrades to Techeun's Foresight.\nThe next Void Weapon Kill consumes Techeun's Foresight to trigger a Void Detonation.\nVoid Detonation deals 87 [?] Damage over 3 meters.",
+    "Comment": "Arena/Pinnacle Ops",
+    "SetName": "Eutechnology",
+    "PieceRequirement": "4 Piece",
+    "hash": 4083289734,
+    "parentHash": "2461275960",
+    "parentName": "Eutechnology"
+  },
+  {
+    "Name": "Emergency Electromagnet",
+    "Description": "Upon reaching Critical Health:\nPicks up Ammo Bricks and Orbs of Power within 10? meters.\nPicking up multiple Orbs of Power will count as simultaneous gains for the Repurposed Charges.",
+    "Comment": "Nessus\nDestination",
+    "SetName": "Exodus Down",
+    "PieceRequirement": "2 Piece",
+    "hash": 1076851135,
+    "parentHash": "3120219904",
+    "parentName": "Exodus Down"
+  },
+  {
+    "Name": "Repurposed Charge",
+    "Description": "Gaining, losing, or consuming Armor Charges restores 5? HP and grants stacks of Repurposed Charge.\n\nRepurposed Charge stacks are based on the amount of simultaneously(!) gained/lost/consumed Armor charges + 1.\nMaxes out at x7 with 6 Armor Charges simultaneously lost/spent through Kickstart or Finisher Mods.\n\nInitial Buff duration as well as Buff Extensions are equal to (3 seconds X Repurposed Charge Stacks gained/lost/consumed)\n Buff can be extended to a maximum of 30 seconds, maintaining the highest stack.\nExamples: Orb Pickups grant x2 (13% DR) for +6 seconds.\n Special Finisher will grant x4 (30% DR) for +12 seconds. Picking up an Orb afterwards will maintain x4 stacks and add +6 seconds.\n\nRepurposed Charge:\nGrant Damage Resist per Repurposed Charge stack, up to 35% [?%] DR at 7 stacks.\nx1 = 0% [0%] | x2 = 13% [?%] | x3 = 21% [?%] | x4 = 29.5% [?%] | x5 = 31% [?%] | x6 = 33% [?%] | x7 = 35% [?%]",
+    "Comment": "Nessus\nDestination",
+    "SetName": "Exodus Down",
+    "PieceRequirement": "4 Piece",
+    "hash": 1076851134,
+    "parentHash": "3120219904",
+    "parentName": "Exodus Down"
+  },
+  {
     "Name": "Rapid Repair",
     "Description": "Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
     "Comment": "Solo/Fireteam Ops",
@@ -143,7 +371,7 @@
   },
   {
     "Name": "Built from Scratch",
-    "Description": "While Heavy? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Bonus Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Bonus Heavy Ammo Progress.",
+    "Description": "While Power? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Power Ammo Progress.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Ferropotent",
     "PieceRequirement": "4 Piece",
@@ -152,12 +380,72 @@
     "parentName": "Ferropotent"
   },
   {
+    "Name": "Stack 'Em Up",
+    "Description": "Scoring a kill with each unique element grants a stack of Stack 'Em Up for 24 seconds.\nStacks up to a maximum of 5 stacks by scoring an Arc, Solar, Void, Stasis, and Strand Kill.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once 5 stacks have been reached.\n\nStack 'Em Up grants 1.2% | 2.4% | 3.6% | 4.8% | 6% Light+Dark Transcendence Energy.\nGrants a minimum of 18% Light+Dark Transcendence Energy over the 5 stacks.\nIncurs a 24 second \"cooldown\" after getting a kill with every element before Stack 'Em Up can be stacked again.",
+    "Comment": "Pale Heart\nDestination",
+    "SetName": "First Ascent",
+    "PieceRequirement": "2 Piece",
+    "hash": 3004427454,
+    "parentHash": "1625535837",
+    "parentName": "First Ascent"
+  },
+  {
+    "Name": "Burn 'Em Up",
+    "Description": "On Prismatic Grenade Ability Usage while Transcendent:\nConsumes all stacks of Stack 'Em Up to grant ~6% Prismatic Grenade Energy per stack\n6% | 12% | 18% | 24% | 30% Prismatic Grenade Energy.",
+    "Comment": "Pale Heart\nDestination",
+    "SetName": "First Ascent",
+    "PieceRequirement": "4 Piece",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Sinew Stitching",
+    "Description": "Spawns a Threadling after receiving ? damage from Combatants.\nCooldown maybe?",
+    "Comment": "Sundered Doctrine\nDungeon",
+    "SetName": "Flain",
+    "PieceRequirement": "2 Piece",
+    "hash": 754620349,
+    "parentHash": "3656317458",
+    "parentName": "Flain"
+  },
+  {
+    "Name": "Knit Together",
+    "Description": "Upon reaching Critical Health:\nThe next ? Threadling hits within ? seconds of reaching Critical Health restore ? HP.",
+    "Comment": "Sundered Doctrine\nDungeon",
+    "SetName": "Flain",
+    "PieceRequirement": "4 Piece",
+    "hash": 754620348,
+    "parentHash": "3656317458",
+    "parentName": "Flain"
+  },
+  {
+    "Name": "Taken Barrier",
+    "Description": "On Grenade Kill:\nGrants Resist x1 (10% [2.5%] DR) for 7 seconds.",
+    "Comment": "Last Wish\nRaid",
+    "SetName": "Great Hunt",
+    "PieceRequirement": "2 Piece",
+    "hash": 3657900811,
+    "parentHash": "673904900",
+    "parentName": "Great Hunt"
+  },
+  {
+    "Name": "Taken Armaments",
+    "Description": "On Grenade Kill:\nGrants ?% Heavy Ammo Progress.",
+    "Comment": "Last Wish\nRaid",
+    "SetName": "Great Hunt",
+    "PieceRequirement": "4 Piece",
+    "hash": 3657900810,
+    "parentHash": "673904900",
+    "parentName": "Great Hunt"
+  },
+  {
     "Name": "Primary Honing",
     "Description": "For Primary Ammo Weapons:\n+? Handling, +? Reload Speed.\nIncreased Damage against Non-Boss Combatants based on the Weapons stat.",
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "2 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3575602896,
+    "parentHash": "1777208707",
+    "parentName": "Iron Battalion Set"
   },
   {
     "Name": "Supercyclical",
@@ -165,7 +453,9 @@
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3575602897,
+    "parentHash": "1777208707",
+    "parentName": "Iron Battalion Set"
   },
   {
     "Name": "Vigilant Watch",
@@ -188,6 +478,26 @@
     "parentName": "Iron Panoply Set"
   },
   {
+    "Name": "Network Admin",
+    "Description": "While an ally is within 15? meters:\n+? Handling and +? Reload Speed.\n+? Health Stat while an allied Network Admin is in the same VLAN.",
+    "Comment": "Garden of Salvation Reprises\nRaid",
+    "SetName": "Kentarch 3",
+    "PieceRequirement": "2 Piece",
+    "hash": 4110483281,
+    "parentHash": "640349758",
+    "parentName": "Kentarch 3"
+  },
+  {
+    "Name": "Network Upload",
+    "Description": "On Weapon Kill:\n?% Melee Energy for the user and their allies within ? meters.",
+    "Comment": "Garden of Salvation Reprises\nRaid",
+    "SetName": "Kentarch 3",
+    "PieceRequirement": "4 Piece",
+    "hash": 4110483280,
+    "parentHash": "640349758",
+    "parentName": "Kentarch 3"
+  },
+  {
     "Name": "Terminal Velocity",
     "Description": "Upon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
     "Comment": "Crucible",
@@ -199,13 +509,53 @@
   },
   {
     "Name": "Power Loader",
-    "Description": "Upon picking up an Orb of Power:\nGrants 6% Special Ammo Progress.",
+    "Description": "Upon picking up an Orb of Power:\n+6% Special Ammo Progress.",
     "Comment": "Crucible",
     "SetName": "Last Discipline",
     "PieceRequirement": "4 Piece",
     "hash": 2433863522,
     "parentHash": "3252452908",
     "parentName": "Last Discipline"
+  },
+  {
+    "Name": "Augmented Servos",
+    "Description": "On Powered Melee Kill:\nTarget releases a Disorienting Pulse over 10 meters after 0.67 seconds of dying.\nDisorienting Pulse inflicts Disorient for 2.5 seconds",
+    "Comment": "Deep Stone Crypt\nRaid",
+    "SetName": "Legacy's Oath",
+    "PieceRequirement": "2 Piece",
+    "hash": 2270091246,
+    "parentHash": "774717709",
+    "parentName": "Legacy's Oath"
+  },
+  {
+    "Name": "God-Like Judgment",
+    "Description": "Upon reaching Critical Health through Combatant Damage, or on Super Cast:\nFires multiple Seeking Micro-Missiles, each dealing 680 [31] Kinetic Damage.\nCritical Health = 2 Missiles | Super Cast = 4 Missiles",
+    "Comment": "Deep Stone Crypt\nRaid",
+    "SetName": "Legacy's Oath",
+    "PieceRequirement": "4 Piece",
+    "hash": 2270091247,
+    "parentHash": "774717709",
+    "parentName": "Legacy's Oath"
+  },
+  {
+    "Name": "Ionic Overclock",
+    "Description": "While Amplified:\n(Linear) Fusion Rifles and Heat Weapons are granted +? Handling and +? Reload Speed.",
+    "Comment": "Solo/Fireteam Ops",
+    "SetName": "Luminopotent",
+    "PieceRequirement": "2 Piece",
+    "hash": 2769443639,
+    "parentHash": "499993704",
+    "parentName": "Luminopotent"
+  },
+  {
+    "Name": "Shock and Clear",
+    "Description": "Upon scoring a Jolt Kill or a Jolted Enemy Kill:\nCreates an Ionic Trace.",
+    "Comment": "Solo/Fireteam Ops",
+    "SetName": "Luminopotent",
+    "PieceRequirement": "4 Piece",
+    "hash": 2769443638,
+    "parentHash": "499993704",
+    "parentName": "Luminopotent"
   },
   {
     "Name": "Photogalvanic",
@@ -219,29 +569,13 @@
   },
   {
     "Name": "Cauterize",
-    "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.",
+    "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.\nIncurs a ? second cooldown between heals.",
     "Comment": "Solstice",
     "SetName": "Lustrous",
     "PieceRequirement": "4 Piece",
     "hash": 4048287941,
     "parentHash": "3737690559",
     "parentName": "Lustrous"
-  },
-  {
-    "Name": "Primary Chain",
-    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of ? stacks.\n\nPrimary Chain grants +? Mobility, as well as +? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +? Range, and +? Handling.",
-    "Comment": "Competitive Crucible",
-    "SetName": "Per Audacia",
-    "PieceRequirement": "2 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
-  },
-  {
-    "Name": "Sublime Transit",
-    "Description": "Passively grants +? Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
-    "Comment": "Competitive Crucible",
-    "SetName": "Per Audacia",
-    "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
   },
   {
     "Name": "Paroli",
@@ -264,6 +598,146 @@
     "parentName": "New Demotic"
   },
   {
+    "Name": "Bad Dreams",
+    "Description": "Upon scoring 3 Elementally-Debuffed Enemy Kills:\nSpawns an Orb of Power that grants ?% Super Energy.\nNo cooldown between Orbs?",
+    "Comment": "Root of Nightmare\nRaid",
+    "SetName": "Nezarec's Nightmare",
+    "PieceRequirement": "2 Piece",
+    "hash": 1567556260,
+    "parentHash": "2586994783",
+    "parentName": "Nezarec's Nightmare"
+  },
+  {
+    "Name": "Dream-Devourer",
+    "Description": "On Elite+ Finisher:\nDevour for 6+3 seconds.\n\nWhile Devour is active:\n20?% Damage Resist against Combatants.",
+    "Comment": "Root of Nightmare\nRaid",
+    "SetName": "Nezarec's Nightmare",
+    "PieceRequirement": "4 Piece",
+    "hash": 1567556261,
+    "parentHash": "2586994783",
+    "parentName": "Nezarec's Nightmare"
+  },
+  {
+    "Name": "Iron Sharpens Iron",
+    "Description": "On Elite+/Guardian Kill:\n?.?x Special and ?.?x Power Ammo Progress.",
+    "Comment": "King's Fall\nRaid",
+    "SetName": "Oryx's Memory",
+    "PieceRequirement": "2 Piece",
+    "hash": 846599599,
+    "parentHash": "305091568",
+    "parentName": "Oryx's Memory"
+  },
+  {
+    "Name": "Ascendant Escape",
+    "Description": "On Elite+ Kill:\nGrants Ascendant Escape.\n\nAscendant Escape:\nReaching Critical Health grants Invisibility for 6+? seconds.",
+    "Comment": "King's Fall\nRaid",
+    "SetName": "Oryx's Memory",
+    "PieceRequirement": "4 Piece",
+    "hash": 846599598,
+    "parentHash": "305091568",
+    "parentName": "Oryx's Memory"
+  },
+  {
+    "Name": "Well Prepared",
+    "Description": "On Ammo Brick Pickup: \nGrants a stack of Armor Charge.\n\nEach Armor Charge stack grants +10 Health Stat.\nGrants up to +30 Health Stat with x3 Armor Charge.\nMaxes out at +60 Health Stat with x6 Armor Charges.",
+    "Comment": "Pantheon",
+    "SetName": "Pantheos Resplendent",
+    "PieceRequirement": "2 Piece",
+    "hash": 2318783944,
+    "parentHash": "2386215115",
+    "parentName": "Pantheos Resplendent"
+  },
+  {
+    "Name": "Down the Line",
+    "Description": "Upon scoring a hit against Miniboss+ Combatants:\nGrants a stack of Down the Line, up to a maximum of 10 stacks. \nIncurs a 1 second cooldown between gaining stacks.\n\nDown the Line:\nGrants 15% increased Weapon Damage against Rank-and-File and Elite Combatants.\nConsumes a stack upon killing Rank-and-File and Elite Combatants.",
+    "Comment": "Pantheon",
+    "SetName": "Pantheos Resplendent",
+    "PieceRequirement": "4 Piece",
+    "hash": 2318783945,
+    "parentHash": "2386215115",
+    "parentName": "Pantheos Resplendent"
+  },
+  {
+    "Name": "Primary Chain",
+    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of ? stacks.\n\nPrimary Chain grants +? Mobility, as well as +? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +? Range, and +? Handling.",
+    "Comment": "Competitive \nCrucible",
+    "SetName": "Per Audacia",
+    "PieceRequirement": "2 Piece",
+    "hash": 3091068916,
+    "parentHash": "2618364783",
+    "parentName": "Per Audacia"
+  },
+  {
+    "Name": "Sublime Transit",
+    "Description": "Passively grants +? Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
+    "Comment": "Competitive \nCrucible",
+    "SetName": "Per Audacia",
+    "PieceRequirement": "4 Piece",
+    "hash": 3091068917,
+    "parentHash": "2618364783",
+    "parentName": "Per Audacia"
+  },
+  {
+    "Name": "Stable Resonance",
+    "Description": "On Elite+ Kill:\nGrants 7% Increased Damage and 25?% Damage Resist for 12 seconds.",
+    "Comment": "Salvation's Edge\nRaid",
+    "SetName": "Promised",
+    "PieceRequirement": "2 Piece",
+    "hash": 705026903,
+    "parentHash": "2687807560",
+    "parentName": "Promised"
+  },
+  {
+    "Name": "Resonance Redirection",
+    "Description": "While Stable Resonance is active:\nDealing 600? Weapon Damage within ? seconds of each triggers an Exhausting Blast, centered on the enemy.\nIncurs an 2? second cooldown between Exhausting Blasts.\n\nExhausting Blast deals ? Damage and inflicts Exhaustion over 8 meters.",
+    "Comment": "Salvation's Edge\nRaid",
+    "SetName": "Promised",
+    "PieceRequirement": "4 Piece",
+    "hash": 705026902,
+    "parentHash": "2687807560",
+    "parentName": "Promised"
+  },
+  {
+    "Name": "Resonant Plating",
+    "Description": "Upon receiving a Melee Attack from a Miniboss+ Combatant:\nBegins Health Regeneration.",
+    "Comment": "Vow of the Disciple\nRaid",
+    "SetName": "Resonant Fury",
+    "PieceRequirement": "2 Piece",
+    "hash": 1010623577,
+    "parentHash": "338646742",
+    "parentName": "Resonant Fury"
+  },
+  {
+    "Name": "Siphoning Touch",
+    "Description": "Upon scoring weapon damage instances or a Glaive Melee Attack:\nGrants a stack of Siphoning Touch, up to a maximum of 5 stacks.\nx1 = ~26.7% of Mag | x2 = ~53.4% | x3 = ~80% | x4 = ~106% | x5 = ~133%\nScorch does not count for damage instances. Always rounds down\n\nOn Weapon Stow:\nConsumes all Siphoning Touch to restores HP, based on the stack amount.\n30 | 60 | 90 | 105 | 120 HP restored.",
+    "Comment": "Vow of the Disciple\nRaid",
+    "SetName": "Resonant Fury",
+    "PieceRequirement": "4 Piece",
+    "hash": 1010623576,
+    "parentHash": "338646742",
+    "parentName": "Resonant Fury"
+  },
+  {
+    "Name": "A Wish for Protection",
+    "Description": "Upon receiving ? damage within ? seconds of each damage instance:\nGrants Protective Wish for 7 seconds.\nIncurs a 5 second cooldown once the buff expires before it can be triggered again.\n\nProtective Wish:\n+? Reload Speed and 0.?x Reload Duration Multiplier\nCombatants are less accurate at targeting the wearer.",
+    "Comment": "Dreaming City\nDestination",
+    "SetName": "Reverie Dawn",
+    "PieceRequirement": "2 Piece",
+    "hash": 1246205950,
+    "parentHash": "428813981",
+    "parentName": "Reverie Dawn"
+  },
+  {
+    "Name": "A Wish Fulfilled",
+    "Description": "On Protective Wish expiry:\nGrants Cure x1.\n\nUpon scoring ? Kills within ? seconds of each:\nProtective Wish expires prematurely.",
+    "Comment": "Dreaming City\nDestination",
+    "SetName": "Reverie Dawn",
+    "PieceRequirement": "4 Piece",
+    "hash": 1246205951,
+    "parentHash": "428813981",
+    "parentName": "Reverie Dawn"
+  },
+  {
     "Name": "Combat Meditation",
     "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
     "Comment": "Equilibrium \nDungeon",
@@ -282,6 +756,26 @@
     "hash": 109046536,
     "parentHash": "4222859846",
     "parentName": "Sage Protector"
+  },
+  {
+    "Name": "Rasputin's Wrath",
+    "Description": "Upon scoring an Non-Direct, Solar Ability, Seventh Seraph Weapon, IKELOS, Sleeper Simulant or Outbreak Perfected Weapon Kills:\nGrants a Warmind Charge for 10 seconds, up to a maximum of 10 charges.\nAll stacks disappear upon expiry.\n\nEach Warmind Charge grants +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat.",
+    "Comment": "Cosmodrome\nDestination",
+    "SetName": "Seventh Seraph",
+    "PieceRequirement": "2 Piece",
+    "hash": 4287944422,
+    "parentHash": "222121557",
+    "parentName": "Seventh Seraph"
+  },
+  {
+    "Name": "Rasputin's Reprisal",
+    "Description": "Upon killing an Elite+ Combatant or destroying a Construct/Tangle while having Warmind Charges:\n\nTriggers a Warmind Detonation, centered on the Combatant/Construct.\nDetonation (from Elite Kill) deals 405 [?] Solar Damage and restores 50 HP to the user and their allies over 10 meters without falloff.\nDetonation (from destroying a Construct) deals half the damage and restores half the health. <---NEEDS MORE THOROUGH TESTING\nDetonation Kills can grant Warmind Charges, but will not chain into additional Warmind Detonations.\nIncurs a 0.3? second internal cooldown between explosions? Hard to test sometimes",
+    "Comment": "Cosmodrome\nDestination",
+    "SetName": "Seventh Seraph",
+    "PieceRequirement": "4 Piece",
+    "hash": 4287944423,
+    "parentHash": "222121557",
+    "parentName": "Seventh Seraph"
   },
   {
     "Name": "Reflex Action",
@@ -305,7 +799,7 @@
   },
   {
     "Name": "Ride Together, Die Together",
-    "Description": "On Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 50% [5%] Damage Resist.\nDamage Resist scales down to ~37.5% with 1.5 seconds left, further reduced to 30% with 1 second left, decreasing down to 0% over the remaining second.",
+    "Description": "On Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 40% [5%] Damage Resist.\nDamage Resist scales down to ~30?% with 1.5 seconds left, further reduced to 24?% with 1 second left, decreasing down to 0% over the remaining second.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Smoke Jumper",
     "PieceRequirement": "2 Piece",
@@ -315,13 +809,33 @@
   },
   {
     "Name": "Too Old for This",
-    "Description": "Upon finishing an Elite+ Combatant:\nGrants 16% Special Ammo Progress and restores 35 HP.",
+    "Description": "On Elite+ Finisher:\nRestores 35 HP and grants +16% Special Ammo Progress.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Smoke Jumper",
     "PieceRequirement": "4 Piece",
     "hash": 3078673683,
     "parentHash": "2751989785",
     "parentName": "Smoke Jumper Set"
+  },
+  {
+    "Name": "Augmented Armaments",
+    "Description": "Primary Ammo Weapons deal 15% increased damage against Disoriented Combatants.\nDoes NOT work with Arc Blind.",
+    "Comment": "Vesper's Host\nDungeon",
+    "SetName": "Spacewalk",
+    "PieceRequirement": "2 Piece",
+    "hash": 627214276,
+    "parentHash": "3639539903",
+    "parentName": "Spacewalk"
+  },
+  {
+    "Name": "Augmented Explosives",
+    "Description": "On Grenade Ability Detonation: \nDisorients enemies within ? meters for ? seconds.",
+    "Comment": "Vesper's Host\nDungeon",
+    "SetName": "Spacewalk",
+    "PieceRequirement": "4 Piece",
+    "hash": 627214277,
+    "parentHash": "3639539903",
+    "parentName": "Spacewalk"
   },
   {
     "Name": "Balestra",
@@ -344,19 +858,263 @@
     "parentName": "Swordmaster"
   },
   {
+    "Name": "The Ceremony",
+    "Description": "On Finisher or Ally Revival:\nInitiates a Ceremony for 30 seconds.\nAdditional Finishers/Revivals extends the buff duration to 30 seconds.\n\nWhile Ceremony is active:\n+30 Super Stat.",
+    "Comment": "Ghosts of the Deep\nDungeon",
+    "SetName": "Taken King",
+    "PieceRequirement": "2 Piece",
+    "hash": 1836665911,
+    "parentHash": "1624798568",
+    "parentName": "Taken King"
+  },
+  {
+    "Name": "Lucent Swarm",
+    "Description": "On Orb of Power Pickup:\nExtends the Ceremony duration to 30 seconds.\n\nWhile Ceremony is active:\nScoring 2 Ability Kills spawns a Loyal Arc Moth that lingers for 8 seconds.\nLoyal Arc Moths relentlessly chase the closest enemy within 60+👀 meters, dealing up to 180 Arc Damage and inflicting blind for 8 seconds over ~6? meters.\nAnything that would discharge Bolt Charge counts, including Unpowered Melee Kills and Forerunner's Rock EXCEPT FOR PRAXIC BLADE😔.",
+    "Comment": "Ghosts of the Deep\nDungeon",
+    "SetName": "Taken King",
+    "PieceRequirement": "4 Piece",
+    "hash": 1836665910,
+    "parentHash": "1624798568",
+    "parentName": "Taken King"
+  },
+  {
     "Name": "Queensfoil Rush",
-    "Description": "Finishers grant a 200 HP Overshield for the duration of the finisher (+0.3s).\n\nOn Finisher:\nInflicts x? Slow to enemies within ? meters.",
+    "Description": "Finishers grant a 200? HP Overshield for the duration of the finisher (+0.3s).\n\nOn Finisher:\nInflicts x? Slow to enemies within 7 meters.",
     "Comment": "Shattered Throne",
     "SetName": "Techeun's Regalia",
     "PieceRequirement": "2 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 2458353887,
+    "parentHash": "1339137760",
+    "parentName": "Techeun's Regalia"
   },
   {
     "Name": "Truth to Power",
-    "Description": "Dealing damage or scoring kills grants Truth to Power stacks, up to a maximum of ? stacks.\nTruth To Power grants Damage Resist per stack, up to ?% DR at maximum.\n\nReaching maximum stacks also grants ?% Additional Base Grenade, Melee, and Class Regeneration Rate",
+    "Description": "Each damage instance scored grants a stack of Truth, up to a maximum of x999 stacks.\nKills and Finishers grant many more stacks, although it seems to have different gains depending on the stack amount.\nKills tend to be within 20-35 stacks. Finishers tend to give around 60-90 stacks. \nALL stacks are removed on death.\n\nTruth grants Damage Resist per stack, up to 15% DR at maximum.\n250 = 3.75% | 500 = 7.5% | 750 = 10% | 999 = 15% Damage Resist\n\nTransforms into Power upon reaching x999 stacks.\nPower grants ?% Additional Base Grenade, Melee, and Class Regeneration Rate, on top of the aforementioned 15% Damage Resist.",
     "Comment": "Shattered Throne",
     "SetName": "Techeun's Regalia",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 2458353886,
+    "parentHash": "1339137760",
+    "parentName": "Techeun's Regalia"
+  },
+  {
+    "Name": "Wrecker",
+    "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
+    "Comment": "Solo/Fireteam Ops",
+    "SetName": "Techsec",
+    "PieceRequirement": "2 Piece",
+    "hash": 1130213040,
+    "parentHash": "239346083",
+    "parentName": "Techsec"
+  },
+  {
+    "Name": "Concussive Rounds",
+    "Description": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
+    "Comment": "Solo/Fireteam Ops",
+    "SetName": "Techsec",
+    "PieceRequirement": "4 Piece",
+    "hash": 1130213041,
+    "parentHash": "239346083",
+    "parentName": "Techsec"
+  },
+  {
+    "Name": "Opening Act",
+    "Description": "Upon scoring a Grenade Kill:\nGrants Opening Act for 15 seconds.\n\nOpening Act | +? Stability and +? Vent Speed to Heat Weapons. Primary Weapons are instead granted +? Stability and +? Reload Speed.",
+    "Comment": "Lawless Frontier",
+    "SetName": "Thriving Survivor",
+    "PieceRequirement": "2 Piece",
+    "hash": 681117218,
+    "parentHash": "2151917545",
+    "parentName": "Thriving Survivor"
+  },
+  {
+    "Name": "Room Clearing",
+    "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
+    "Comment": "Lawless Frontier",
+    "SetName": "Thriving Survivor",
+    "PieceRequirement": "4 Piece",
+    "hash": 681117219,
+    "parentHash": "2151917545",
+    "parentName": "Thriving Survivor"
+  },
+  {
+    "Name": "License to Thrill",
+    "Description": "On Grenade Ability Usage, or upon triggering either the Nanotech Tracer Missile Origin Trait or Quicksilver Storm's Missile Tracer: \nGrants a stack of License to Thrill for 15 seconds, up to a maximum of 10 stacks.\n\nLicense to Thrill | 12% [2%] Damage Resist against enemies within <5 metres, increased by +?% [?%] per stack afterwards, up to 30% [5%] Damage Resist.",
+    "Comment": "Neomuna\nDestination",
+    "SetName": "Thunderhead",
+    "PieceRequirement": "2 Piece",
+    "hash": 4275454259,
+    "parentHash": "3283637820",
+    "parentName": "Thunderhead"
+  },
+  {
+    "Name": "Lethal Weave",
+    "Description": "On Unraveled Enemy Kill:\nGrants ?% Grenade Ability Energy.\nGrants +?% Special Ammo Progress if at maximum Grenade Ability Energy.",
+    "Comment": "Neomuna\nDestination",
+    "SetName": "Thunderhead",
+    "PieceRequirement": "4 Piece",
+    "hash": 4275454258,
+    "parentHash": "3283637820",
+    "parentName": "Thunderhead"
+  },
+  {
+    "Name": "Old Martian Diplomacy",
+    "Description": "On Weapon Stow after scoring an Elite+ or Guardian Kill:\nRestores 40? HP and disorients Combatants within 12 meters.\nIncurs a 2? second cooldown between activations",
+    "Comment": "Spire of the Watcher\nDungeon",
+    "SetName": "TM Custom",
+    "PieceRequirement": "2 Piece",
+    "hash": 446332292,
+    "parentHash": "1523985791",
+    "parentName": "TM Custom"
+  },
+  {
+    "Name": "High Noon",
+    "Description": "Upon readying a weapon:\nGrants 7% Increased Precision Damage against Combatants for 3 seconds.\n\nBonus is doubled to 14% Increased Precision Damage for the following:\nWeapons with the Tex Balanced Stock Origin Trait and Tex Mechanica Exotics.\nDead Man's Tale | Huckleberry | Last Word | Tarrabah | Chaperone | Prospector",
+    "Comment": "Spire of the Watcher\nDungeon",
+    "SetName": "TM Custom",
+    "PieceRequirement": "4 Piece",
+    "hash": 446332293,
+    "parentHash": "1523985791",
+    "parentName": "TM Custom"
+  },
+  {
+    "Name": "Scoot to Loot",
+    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\nGrants +? Handling and +? Reload Speed for 10? seconds.",
+    "Comment": "Quickplay Crucible",
+    "SetName": "Triumphal Anthem",
+    "PieceRequirement": "2 Piece",
+    "hash": 4261390988,
+    "parentHash": "50540439",
+    "parentName": "Triumphal Anthem"
+  },
+  {
+    "Name": "Shoot to Scoot",
+    "Description": "Upon dealing Weapon Damage:\nIncreases Scoot Distance by 33% for 3? seconds.\n\nWhile scooting:\n50% [10%] Damage Resist (Resist x4)",
+    "Comment": "Quickplay Crucible",
+    "SetName": "Triumphal Anthem",
+    "PieceRequirement": "4 Piece",
+    "hash": 4261390989,
+    "parentHash": "50540439",
+    "parentName": "Triumphal Anthem"
+  },
+  {
+    "Name": "Crook and Flail",
+    "Description": "On Ammo Brick Pickup:\nRestores 70 HP.",
+    "Comment": "Trials",
+    "SetName": "Twofold Crown",
+    "PieceRequirement": "2 Piece",
+    "hash": 1025384966,
+    "parentHash": "3259216565",
+    "parentName": "Twofold Crown"
+  },
+  {
+    "Name": "Gift of Sight",
+    "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
+    "Comment": "Trials",
+    "SetName": "Twofold Crown",
+    "PieceRequirement": "4 Piece",
+    "hash": 1025384967,
+    "parentHash": "3259216565",
+    "parentName": "Twofold Crown"
+  },
+  {
+    "Name": "Special Relativity",
+    "Description": "On Ammo Brick Pickup:\nRefills stowed Special Weapons.",
+    "Comment": "Desert Perpetual\nEpic Raid",
+    "SetName": "Uncaged Deviants",
+    "PieceRequirement": "2 Piece",
+    "hash": 3376007203,
+    "parentHash": "2450108908",
+    "parentName": "Wayward Psyche Set"
+  },
+  {
+    "Name": "Superluminal Motion",
+    "Description": "Upon dealing Super Damage, while Movement Speed isn't 0m/s:\nRestores 30 [15] HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+    "Comment": "Desert Perpetual\nEpic Raid",
+    "SetName": "Uncaged Deviants",
+    "PieceRequirement": "4 Piece",
+    "hash": 3376007202,
+    "parentHash": "2450108908",
+    "parentName": "Wayward Psyche Set"
+  },
+  {
+    "Name": "Lucent Transmutation",
+    "Description": "Upon scoring 2 Powered Melee Kills or a finisher:\nGenerates a Light-Subclass Super-Matching Elemental Pickup.\nDoes nothing while a Stasis or Strand Super is equipped. Kills must be spaced out by at least ~0.2 seconds.",
+    "Comment": "Throne World\nDestination",
+    "SetName": "Veritas",
+    "PieceRequirement": "2 Piece",
+    "hash": 1302582377,
+    "parentHash": "2481896422",
+    "parentName": "Veritas"
+  },
+  {
+    "Name": "Lucent Tithes",
+    "Description": "On Elite+ Finisher:\nRestores 50? HP and spawns 3 Loyal Void Moths that each grant 22.5HP Void Overshield to the user and their allies on impact.",
+    "Comment": "Throne World\nDestination",
+    "SetName": "Veritas",
+    "PieceRequirement": "4 Piece",
+    "hash": 1302582376,
+    "parentHash": "2481896422",
+    "parentName": "Veritas"
+  },
+  {
+    "Name": "Fanfare",
+    "Description": "While Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows, GLs, and Rockets",
+    "Comment": "Crucible",
+    "SetName": "Wild Anthem",
+    "PieceRequirement": "2 Piece",
+    "hash": 3390457361,
+    "parentHash": "2258577662",
+    "parentName": "Wild Anthem"
+  },
+  {
+    "Name": "Suros Harmony",
+    "Description": "Upon finishing a reload:\nSUROS Harmony | +30? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
+    "Comment": "Crucible",
+    "SetName": "Wild Anthem",
+    "PieceRequirement": "4 Piece",
+    "hash": 3390457360,
+    "parentHash": "2258577662",
+    "parentName": "Wild Anthem"
+  },
+  {
+    "Name": "Watchtower",
+    "Description": "Upon scoring a kill while ADS:\nGrants Resist x2 (25% [5%]) until no longer ADS.",
+    "Comment": "EDZ\nDestination",
+    "SetName": "Wildwood",
+    "PieceRequirement": "2 Piece",
+    "hash": 4160419914,
+    "parentHash": "2554324129",
+    "parentName": "Wildwood"
+  },
+  {
+    "Name": "Field Expertise",
+    "Description": "On Precision Kill:\nGrants a stack of Field Expertise for 15 seconds, up to a maximum of 5 stacks.\nScoring a Non-Precision Weapon Kill immediately removes all stacks.\n\nField Expertise x1 | 3.5% Increased Non-Boss Combatant Damage, +? Reload Speed, +? Aim Assist.\nField Expertise x2 | 7% Increased Non-Boss Combatant Damage, +? Reload Speed, +? Aim Assist.\nField Expertise x3 | 8% Increased Non-Boss Combatant Damage, +? Reload Speed, +? Aim Assist.\nField Expertise x4 | 9% Increased Non-Boss Combatant Damage, +? Reload Speed, +? Aim Assist.\nField Expertise x5 | 10% Increased Non-Boss Combatant Damage, +? Reload Speed, +? Aim Assist.",
+    "Comment": "EDZ\nDestination",
+    "SetName": "Wildwood",
+    "PieceRequirement": "4 Piece",
+    "hash": 4160419915,
+    "parentHash": "2554324129",
+    "parentName": "Wildwood"
+  },
+  {
+    "Name": "Untold Greed",
+    "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants stacks of Untold Greed, up to a maximum of 100 stacks.\nReaching Critical Health removes 10 stacks.\n\nUntold Greed:\nGrants up to +? Reload Speed and ?% Damage Resist at ? stacks.",
+    "Comment": "Grasp of Avarice",
+    "SetName": "Yearning Echo",
+    "PieceRequirement": "2 Piece",
+    "hash": 2162040230,
+    "parentHash": "1507061013",
+    "parentName": "Yearning Echo"
+  },
+  {
+    "Name": "Overflowing Coffers",
+    "Description": "While Untold Greed is active:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups grant +?% Ability Energy.\nStrand Tangles are granted the privilege of being DISABLED.\n\nUpon reaching Critical Health:\nConverts ALL STACKS of Untold Greed into Orbs of Power that grant ?% Super Energy.\n\nthis is what happens when you become greedy gremlins!!!!",
+    "Comment": "Grasp of Avarice",
+    "SetName": "Yearning Echo",
+    "PieceRequirement": "4 Piece",
+    "hash": 2162040231,
+    "parentHash": "1507061013",
+    "parentName": "Yearning Echo"
   }
 ]

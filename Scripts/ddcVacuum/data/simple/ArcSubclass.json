@@ -3,13 +3,13 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Amplified",
-    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while Amplified.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\n\nBeing Amplified enhances certain Abilities."
+    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while active.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\n\nBeing Amplified enhances certain Abilities."
   },
   {
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Bolt Charge",
-    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Glaive Melee | Gifted Conviction's Explosives"
+    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\nDoes not count as Ability Damage.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Glaive Melee | Gifted Conviction's Explosives"
   },
   {
     "Class": "General",
@@ -57,7 +57,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Spark of Feedback",
-    "Description": "Upon being physically struck by a Melee Attack:\n100% [50%] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable."
+    "Description": "Upon being physically struck by a Melee Attack:\n100% [50% | 15% while Knockout is active] Increased Melee Damage for the next Melee Hit within 5 seconds.\nBuff is not refreshable."
   },
   {
     "Class": "General",
@@ -117,7 +117,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Spark of Shock",
-    "Description": "Arc Grenades inflict Jolt on hit."
+    "Description": "Arc Grenades inflict Jolt on hit.\n\nArc Soul and Ionic Sentries have a 4 second cooldown before being able to inflict Jolt again."
   },
   {
     "Class": "General",
@@ -150,7 +150,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Lightning Grenade",
-    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a laser for 1 second before triggering.\n\nEmits a Lightning Bolt every 1.67 seconds, up to a maximum of 4+1 times.\nLightning Bolts deal 373 [120] damage, up to a total of 1,492 [1,865] [480 [600]] damage.",
+    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a laser for 1 second before triggering.\n\nEmits a Lightning Bolt every 1.67 seconds, up to a maximum of 4+1 times.\nLightning Bolts deal 466? [120] damage, up to a total of 1,865? [2,331] [480 [600]] damage.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
@@ -190,7 +190,7 @@
     "Class": "Hunter",
     "Type": "Super",
     "Name": "Arc Staff",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy."
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nKills grant x? Bolt Charge.\n\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy."
   },
   {
     "Class": "Hunter",
@@ -208,7 +208,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Ascension",
-    "Description": "While Airborne and having a Class Ability Charge:\n[Air Move] consumes a Class Ability Charge to perform an upwards Arc Staff Twirl.\nTriggers the effects of the equipped Class Ability on usage.\n\nGrants Amplified to the user and allies within 10 meters.\nDeals up to 181 [?] damage, as well as Jolting enemies within 10 metres."
+    "Description": "While Airborne and having a Class Ability Charge:\n[Air Move] consumes a Class Ability Charge to perform an upwards Arc Staff Twirl.\nTriggers the effects of the equipped Class Ability on usage. \n\nGrants Amplified to the user and allies within 10 meters.\nDeals up to 181 [?] damage, as well as Jolting enemies within 10 metres.\nAspect's Damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat."
   },
   {
     "Class": "Hunter",
@@ -232,7 +232,7 @@
     "Class": "Titan",
     "Type": "Class",
     "Name": "Thruster",
-    "Description": "Performs an evasive first-person dash that removes Combatant Projectile Tracking?, as well as Aim Assist against Guardians.\n\nQuickly dashes 8 metres towards the currently held movement direction. Not inputting a movement direction will result in a 4 metre backwards dash.\nOnly usable while on the ground."
+    "Description": "Performs an evasive first-person dash that removes Combatant Projectile Tracking?, as well as Aim Assist against Guardians.\n\nQuickly dashes 8 metres towards the currently held movement direction. Not inputting a movement direction will result in a 4 metre backwards dash."
   },
   {
     "Class": "Titan",
@@ -274,7 +274,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Knockout",
-    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\n160% [30%] increased Basic/Glaive Melee Damage, 160% [20%] increased Charged Melee Damage, increases Melee Lunge Distance to 6 metres, and Basic Melee Attacks count as Arc Powered Melee Hits for 6 seconds.\n\nSpark of Feedback's PVP Melee Damage Increase is decreased to 15% while Knockout is active."
+    "Description": "On Melee Kill:\nQuickly restores a varying amount of Health over 0.1 seconds, begins Health Regeneration and grants Amplified.\nRank-and-File = 50 HP | Elite = 75 HP | Miniboss+ = 100 HP | Guardian = 30 HP \n\nUpon breaking an Enemy Shield, or dealing damage to an enemy below 30% HP:\nGrants Knockout for 6 seconds.\n\nKnockout:\n160% [30%] increased Basic/Glaive Melee Damage\n160% [20%] increased Charged Melee Damage\nBasic Melee Attacks count as Arc Powered Melee Hits.\nIncreases Melee Lunge Distance against Combatants to 6 metres"
   },
   {
     "Class": "Titan",
@@ -286,7 +286,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Touch of Thunder",
-    "Description": "Enhances certain Grenade types:\n\nFlashbang: Blinds enemies within 5 metres upon bouncing for the first time.\n\nLightning: Grants an additional Grenade Charge, and the lightning strikes after the first apply jolt.\n\nPulse: Damaging an enemy creates an Ionic Trace with a 1 second cooldown. Deals up to 25% increased damage as it lingers.\n1st = 2% | 2nd = 9% | 3rd = 18.5% | 4th = 24% | 5th onwards = 25%\n\nStorm: Creates a roaming storm for 4+1.5 seconds after detonating, chasing after enemies at an initial speed of 2 [1.5] m/s, increasing to 4 [3] m/s after 1.3 seconds.\n Roaming Storm fires lightning bolts underneath it that deal 164 [30] damage up to 11+4 times."
+    "Description": "Enhances certain Grenade types:\n\nFlashbang: Explodes an additional time on impact, dealing up to ? [?] damage to enemies and blinding within 5 meters.\n\nLightning: Grants an additional Grenade Charge, lightning strikes after the first apply jolt, and hits grant x5 Bolt Charge.\n\nPulse: Damaging an enemy creates an Ionic Trace with a 1 second cooldown. Deals up to 25% increased damage as it lingers.\n1st = 2% | 2nd = 9% | 3rd = 18.5% | 4th = 24% | 5th onwards = 25%\n\nStorm: Creates a roaming storm for 4.5+1.5 seconds after detonating, chasing after enemies at an initial speed of 2 [1.5] m/s, increasing to 5.5 [3] m/s after 1.6 seconds.\n Roaming Storm fires lightning bolts underneath it that deal 164 [30] damage up to 11+4 times."
   },
   {
     "Class": "Warlock",
@@ -298,7 +298,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Chain Lightning",
-    "Description": "Melee Attack with an extended lunge distance of 6 meters.\n\nDirectly strikes an enemy, dealing 245 [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 133 [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning."
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nHas 2 Ability Charges on the Arc Subclass.\n\nDirectly strikes an enemy, dealing 490? [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 266? [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning."
   },
   {
     "Class": "Warlock",
@@ -316,7 +316,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Arc Soul",
-    "Description": "Rifts created by the user grant an Arc Soul to the user and allies that pass through it.\nDuration can be refreshed by stepping back into the Rift.\n\nArc Buddy lasts 15 seconds and fires homing projectiles that deal 69 [11] Arc Grenade Damage in 3-round bursts at a rate of 100RPM towards enemies within 30 meters.\nCan trigger Grenade Ability interactions.\n\nGrants Additional Base Class Ability Regeneration Rate while within 15? metres of allies.\nx1 = 40% [20%] | x2 = 80% [40%] | x3 = 120% [60%]\n\nWhile Amplified:\nArc Boi shoots bursts of 5 shots, increasing its overall RPM to 225RPM."
+    "Description": "Rifts created by the user grant an Arc Soul to the user and allies that pass through it.\nDuration can be refreshed by stepping back into the Rift.\n\nArc Buddy lasts 15 seconds and fires homing projectiles that deal 69 [11] Arc Grenade Damage in 3-round bursts at a rate of 100RPM towards enemies within 24 meters.\nCan trigger Grenade Ability interactions.\n\nGrants Additional Base Class Ability Regeneration Rate while within 15? metres of allies.\nx1 = 40% [20%] | x2 = 80% [40%] | x3 = 120% [60%]\n\nWhile Amplified:\nArc Boi shoots bursts of 5 shots, increasing its overall RPM to 225RPM."
   },
   {
     "Class": "Warlock",

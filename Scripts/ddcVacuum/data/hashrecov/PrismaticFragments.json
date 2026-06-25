@@ -55,7 +55,7 @@
   },
   {
     "Name": "Facet of Dominance",
-    "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.",
+    "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.\nArc Soul has a 4 second cooldown before being able to inflict Jolt again.",
     "hash": 124726504,
     "parentHash": "124726504"
   },
@@ -103,7 +103,7 @@
   },
   {
     "Name": "Facet of Purpose",
-    "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 9 seconds.\nStrand: Woven Mail for 5 seconds.",
+    "Description": "Orbs of Power grant Elemental Buffs on pickup, based on the equipped Super.\n\nArc: x1 Bolt Charge.\nSolar: Restoration x1 for 5 seconds.\nVoid: 22.5 HP Overshield for 5 seconds.\nStasis: x2 Frost Armor for 5 seconds.\nStrand: Woven Mail for 5 seconds.",
     "hash": 124726498,
     "parentHash": "124726498"
   },

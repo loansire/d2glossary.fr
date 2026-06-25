@@ -583,7 +583,7 @@
   },
   {
     "Name": "Volatile Rounds",
-    "Description": "Void Weapons inflict Volatile upon dealing damage, and Barrier Champion Shields are able to be damaged, stunning the Champion when destroyed while Volatile Rounds are active.",
+    "Description": "Void Weapons inflict Volatile upon dealing damage and deal 10% increased Weapon Damage against Champions while Volatile Rounds are active.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -605,16 +605,7 @@
               ]
             },
             {
-              "text": " upon dealing damage, and "
-            },
-            {
-              "text": "Barrier Champion",
-              "classNames": [
-                "barrier"
-              ]
-            },
-            {
-              "text": " Shields are able to be damaged, stunning the Champion when destroyed while "
+              "text": " upon dealing damage and deal 10% increased Weapon Damage against Champions while "
             },
             {
               "text": "Volatile Rounds",
@@ -632,7 +623,7 @@
   },
   {
     "Name": "Weaken",
-    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot: Deadfall grants 35% [50%?] increased damage against tethered enemies.\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
+    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate and slower.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a dramatically stronger weaken that grants 30% [generally 50%] increased damage.\n\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\n\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst.\nTractor Cannon's Repulsor Force and Fafnir (Quantum Nova Active) grants 30% [50%] increased damage against enemies it damages.\nFafnir's, Felwinter's, Tractor's weaken duration can be extended by any other Weaken effect.\n\nShadowshot: Deadfall uniquely grants 35% [50%?] increased damage against tethered enemies.",
     "hash": 3336638905,
     "parentHash": "3336638905",
     "descriptions": {
@@ -682,7 +673,7 @@
               ]
             },
             {
-              "text": " Combatants become less accurate."
+              "text": " Combatants become less accurate and slower."
             }
           ]
         },
@@ -719,10 +710,10 @@
               ]
             },
             {
-              "text": " inflict a stronger "
+              "text": " inflict a dramatically stronger "
             },
             {
-              "text": "Weaken",
+              "text": "weaken",
               "classNames": [
                 "void"
               ]
@@ -731,7 +722,7 @@
               "text": " that grants 30% ["
             },
             {
-              "text": "varies%",
+              "text": "generally 50%",
               "classNames": [
                 "pvp"
               ]
@@ -749,22 +740,6 @@
         {
           "linesContent": [
             {
-              "text": "Shadowshot: Deadfall grants 35% ["
-            },
-            {
-              "text": "50%?",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage against tethered enemies."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
               "text": "Shadowshot: Moebius grants 30% ["
             },
             {
@@ -776,6 +751,11 @@
             {
               "text": "] increased damage against tethered enemies."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -799,7 +779,39 @@
               ]
             },
             {
-              "text": " burst. Its duration can be extended by any other "
+              "text": " burst."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tractor Cannon's Repulsor Force and Fafnir (Quantum Nova Active) grants 30% ["
+            },
+            {
+              "text": "50%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage against enemies it damages."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fafnir's, Felwinter's, Tractor's "
+            },
+            {
+              "text": "weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " duration can be extended by any other "
             },
             {
               "text": "Weaken",
@@ -813,27 +825,23 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
-              "text": "Tractor Cannon's Repulsor Force grants 30% ["
+              "text": "Shadowshot: Deadfall uniquely grants 35% ["
             },
             {
-              "text": "50%",
+              "text": "50%?",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] increased damage against enemies it damages. Its duration can be extended by any other "
-            },
-            {
-              "text": "Weaken",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " effect."
+              "text": "] increased damage against tethered enemies."
             }
           ]
         }

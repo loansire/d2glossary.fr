@@ -40,6 +40,11 @@
     "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons"
   },
   {
+    "Name": "Carrion Munitions",
+    "Description": "On Elite+ Weapon Kill:\nSpawns an insectoid robot that chases after enemies within 25 meters.\nInsectoid deals up to varying [?] Weapon Matching-Damage on explosion over 5 meters.\nIncurs a 0.5? second cooldown between Insectoid spawns. Insectoid kill cannot spawn more insectoids.\n\nSubmachine Gun = ? [?] Damage\nAuto Rifle = 627 [?] Damage\nHand Cannon = 721 [?] Damage\nSniper Rifle = 817 [?] Damage\nFusion Rifle = 940 [?] Damage\nMachine Gun = 749 [?] Damage",
+    "Comment": "Distortion Weapons"
+  },
+  {
     "Name": "Cast No Shadows",
     "Description": "Upon dealing Melee Damage:\nGrants +? Handling for ? seconds and refills 20% of Magazine.",
     "Comment": "Season of Dawn Reprises"
@@ -61,7 +66,7 @@
   },
   {
     "Name": "Crossing Over",
-    "Description": "For the top 50% of the Magazine:\nLinearly grants +10 Range and +? Handling, down to +5 Range and +? Handling.\n\nFor the bottom 50% of the Magazine:\nLinearly grants 1.5% increased damage, up to +3% increased damage.",
+    "Description": "For the top 50% of the Magazine:\nLinearly grants +10 ↑+12? Range and +? ↑+15? Handling, down to +5 Range and +? Handling.\n\nFor the bottom 50% of the Magazine:\nLinearly grants 1.5% ↑2.1% increased damage, up to +3% ↑+4% increased damage.",
     "Comment": "Prophecy Reprises\r\nDungeon"
   },
   {
@@ -100,8 +105,13 @@
     "Comment": "Solstice\nEvent"
   },
   {
+    "Name": "Eliptical Orbit",
+    "Description": "Passively grants Inner Orbit.\nInner Orbit | +? Stability, +? Reload Speed, and ?% Flinch Resist.\n\nUpon sprinting for 1.5 seconds:\nReplaces Inner Orbit with Outer Orbit for 3 seconds.\nSprinting for ANY amount of time will refresh the buff duration.\n\nOuter Orbit | +? ↑+45? Ammo Generation stat.",
+    "Comment": "Pantheon"
+  },
+  {
     "Name": "Eyes Up",
-    "Description": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:\n+? Range, +? Reload Speed, and Increased Damage against Combatants for ? seconds after dealing or receiving any damage.\n\nDamage Increase:\n\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +? seconds and increase its effects.",
+    "Description": "After having maintained a state of dealing or receiving damage for at least ??? seconds:\nScoring a kill within 3? seconds of dealing or receiving damage grants Eyes Up x1 for 8 seconds.\nNo idea, inconsistent :) Definitely kill based though!\n\nAdditional Kills grant a stack of Eyes Up for 8 seconds, up to a maximum of 15 stacks.\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +4 seconds, up to a maximum 25 seconds.\nBuff persists through stow.\n\nEyes Up grants +Range, +Reload Speed, and increased damage against Combatants.\nInitially grants 1.5% increased damage, scaling up to 5%.",
     "Comment": "Cosmodrome\nDestination"
   },
   {
@@ -120,6 +130,11 @@
     "Comment": "Season of the Haunted"
   },
   {
+    "Name": "Fail-Deadly",
+    "Description": "Each Damage Instance scored grant a stack of Fail-Deadly.\nMaximum stack amount is equal to the Magazine.\n\nFail-Deadly grants up to 100% increased Magazine Capacity, +? Range, and +? Aim Assist at maximum stacks.\nAll stacks are removed upon scoring a kill with the weapon.\nBuff persists through stow.",
+    "Comment": "Nessus\nDestination"
+  },
+  {
     "Name": "Field-Tested",
     "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
     "Comment": "Field-Forged Foundry"
@@ -128,6 +143,11 @@
     "Name": "Fleet Footed",
     "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
     "Comment": "Trials of Osiris\nRitual"
+  },
+  {
+    "Name": "Forge's Kin",
+    "Description": "Black Armory weapon final blows briefly grant significantly more ammo generation, reload speed, and damage against combatants when the weapon is redrawn. Buff potency and duration significantly increases for each equipped Black Armory weapon.",
+    "Comment": "Black Armory Reprises"
   },
   {
     "Name": "Frame of Reference",
@@ -141,7 +161,7 @@
   },
   {
     "Name": "Gun and Run",
-    "Description": "Kills grant a stack of Gun and Run for ? seconds, up to a maximum of ? stacks.\n\nSprinting for ? seconds consumes a stack, refilling ?% of Magazine. \nBows receive 0.?x Draw Time Multiplier for ? seconds.",
+    "Description": "Kills grant a stack of Gun and Run for 10 seconds, up to a maximum of 3 stacks.\nStacks decay one at a time.\n\nWhile sprinting for at least 0.75 seconds while Magazine isn't full:\nConsumes a stack, refilling 20?% of Magazine every 0.85 seconds. \nBows receive 0.?x Draw Time Multiplier for ? seconds.\nDoes nothing for Swords (Chivalric Fire)",
     "Comment": "Gambit\r\nRitual"
   },
   {
@@ -156,8 +176,13 @@
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up, after crouching for 2 seconds:\n+? Handling and +10 Reload Speed for 5 seconds.",
+    "Description": "Upon standing up, after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? Handling and +30? Reload Speed for 5 seconds.",
     "Comment": "Season of the Witch"
+  },
+  {
+    "Name": "Heretical Behavior",
+    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 seconds.\nBuff can be refreshed by retriggering it.\nGlaive Melee requires 8 hits. Breach GL requires considerably more hits.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.\nheretical stat buffs 👀",
+    "Comment": "Pit of Heresy\nReprised Heretical Weapons"
   },
   {
     "Name": "Hot Swap",
@@ -167,7 +192,12 @@
   {
     "Name": "Indomitability",
     "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% Melee Ability Energy.",
-    "Comment": "Brave Foundry"
+    "Comment": "Brave Foundry\nOnslaught"
+  },
+  {
+    "Name": "Ignoble Deeds",
+    "Description": "Upon inflicting an Elemental Debuff:\nGrants x2 Ignoble Deeds, up to a maximum of 10 stacks. \nScoring a kill consumes 1 [2] stacks of Ignoble Deeds.\nBuff can be activated while stowed, and persists through stow.\n\nIgnoble Deeds grants +30? ↑+35? Handling and +30? ↑+35? Reload Speed. Swords receive +20? ↑+? Charge Rate.",
+    "Comment": "Shattered Throne\nDungeon"
   },
   {
     "Name": "Imperial Allegiance",
@@ -176,8 +206,13 @@
   },
   {
     "Name": "Land Tank",
-    "Description": "On Weapon Kill:\n+10 Health and 5% Damage Resist against Combatants per stack for 5 seconds, up to a maximum of 3 stacks.\nBuff remains active while stowed.",
+    "Description": "On Weapon Kill:\n+10 Health Stat and 5% ↑+?% Damage Resist against Combatants per stack for 5 seconds, up to a maximum of 3 stacks.\nBuff remains active while stowed.",
     "Comment": "Season of the Risen"
+  },
+  {
+    "Name": "Loss",
+    "Description": "Upon reaching Critical Health or on Ally Death:\nGrants a stack of Loss, up to a maximum of 10 stacks.\nStacks persist until death.\n\nLoss:\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Stability.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Handling.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Aim Assist",
+    "Comment": "Moon Reprises"
   },
   {
     "Name": "Nadir Focus",
@@ -196,7 +231,7 @@
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24  [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 45% of Magazine.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\nIncurs a 1 second cooldown between firing a missile and additional hits counting towards the next missile.",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24  [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\n\nIncurs a 1 ↑? second cooldown between firing a missile and additional hits counting towards the next missile.",
     "Comment": "Neomuna\nDestination"
   },
   {
@@ -216,12 +251,12 @@
   },
   {
     "Name": "Paracausal Fluid",
-    "Description": "Upon dealing damage:\nGrants 2 stacks of Paracausal Fluid for 3 seconds.\nBuff remains active through stow, lingering at 1 stack. \nSwapping back to the Paracausal Fluid weapon will return to 2 stacks.\n\nParacausal Fluid x1 | +? Mobility\nParacausal Fluid x2 | +? Handling, +50 Mobility, and +90 Charge Rate.",
+    "Description": "Upon dealing damage:\nGrants Paracausal Fluid for 3 seconds.\nBuff remains active through stow.\n\nParacausal Fluid | +? Handling, +50 Mobility, and +90 Charge Rate.",
     "Comment": "Season of Arrivals Reprises"
   },
   {
     "Name": "Photoinhibition",
-    "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% Increased Damage against Combatant Overshields.\n15.6% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for ? seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
+    "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% Increased Damage against Combatant Overshields.\n15.6% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
     "Comment": "Garden of Salvation Reprises\nRaid"
   },
   {
@@ -256,7 +291,7 @@
   },
   {
     "Name": "Roar of Battle",
-    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+10? Stability and +10? Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+20 Stability and +20 Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
     "Comment": "Crucible\nRitual"
   },
   {
@@ -341,12 +376,22 @@
   },
   {
     "Name": "Veist Stinger",
-    "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.\n\n↑???.",
+    "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x ↑0.8x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? ↑+? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.\n\n↑Stronger ADS, Draw Time, and Charge Rate effects.",
     "Comment": "Veist\r\nFoundry"
   },
   {
     "Name": "Wild Card",
     "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
     "Comment": "Cassoid\nFoundry"
+  },
+  {
+    "Name": "Willing Vessel",
+    "Description": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses.\n100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds.\n\nVisual Buff Stacks to Damage Thresholds:\nAuto: ? | ? | ? | ? | ?\nBow: ~180 | ~750 | ? | ? | ?\nSidearm: ? | ? | ? | ? | ?\nSMG : ? | ? | ? | ? | ?\nFusion Rifle: ? | ? | ? | ? | ?\nGlaive: ? | ? | ? | ? | ?\nGL: I | don't | think | so | lmao\nLFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200\nMG: ~385 | ? | ? | ? | ?\nSword: ? | ? | ? | ? | ?\n\nGrants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored.\nStat Bonuses (at the start of the stack):\nx1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate\nx2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate\nx3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate\nx4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate\nx5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate\n\nThis is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!",
+    "Comment": "Episode: Heresy"
+  },
+  {
+    "Name": "Winterized Gear",
+    "Description": "Grants Winterized Gear Ready.  \nTransforms into Winterized Gear x3 upon dealing or receiving damage.\nWinterized Gear Ready is reacquired 12 seconds after Winterized Gear expires.\n\nWinterized Gear x3 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.\nWinterized Gear x2 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.\nWinterized Gear x1 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.",
+    "Comment": "Europa\nDestination"
   }
 ]

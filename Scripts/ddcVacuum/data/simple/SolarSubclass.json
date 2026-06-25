@@ -9,13 +9,13 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Firesprite",
-    "Description": "Solar Elemental Pickup.\n\nGrants 12.5% Grenade Ability Energy on Pickup. Allies do not receive Firesprites created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Firesprite spawns."
+    "Description": "Solar Elemental Pickup\n\nGrants 12.5% Grenade Ability Energy on Pickup. Allies do not receive Firesprites created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Firesprite spawns."
   },
   {
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Radiant",
-    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nBarrier Champion Shields are damageable while Radiant, stunning the Champion once destroyed."
+    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nDeal 10% increased Weapon Damage against Champions while Radiant is active."
   },
   {
     "Class": "General",
@@ -207,7 +207,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Proximity Explosive Knife",
-    "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 249 [20] impact damage with a 1.3x Precision Multiplier, and up to 346 [90] detonation damage over 5.5 meters."
+    "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 249 [20] impact damage with a 1.3x Precision Multiplier, and up to 384 [100] detonation damage over 6 meters."
   },
   {
     "Class": "Hunter",
@@ -219,7 +219,7 @@
     "Class": "Hunter",
     "Type": "Super",
     "Name": "Blade Barrage",
-    "Description": "General Super Information\nDamage Resistance: 90?% [49%]\n\nReleases two fans of 7 homing knives each, totalling 14 knives.\nKnock 'Em Down adds an additional 3 knives to each fan, totalling 20 knives.\n\nKnives embed themselves on impact, dealing 99 [not much?] damage and detonate after 0.5 seconds, dealing up to an additional 509 [generally dead?] damage each.\nDeals a total of 8,512 [death] (12160 [deathx1.43] with Knock'Em Down) damage with all knife hits+explosions"
+    "Description": "General Super Information\nDamage Resistance: 90?% [49%]\n\nReleases two fans of 7 homing knives each, totalling 14 knives.\nKnock 'Em Down adds an additional 3 knives to each fan, totalling 20 knives.\n\nKnives embed themselves on impact, dealing 99 [not much?] damage and detonate after 0.5 seconds.\nKnife explosions deal up to an additional 509 [generally dead?] damage each and inflict x?+? Scorch over 4.25m.\nDeals a total of 8,512 [death] (12160 [deathx1.43] with Knock'Em Down) damage with all knife hits+explosions"
   },
   {
     "Class": "Hunter",
@@ -236,6 +236,12 @@
   {
     "Class": "Hunter",
     "Type": "Aspect",
+    "Name": "Crackshot",
+    "Description": "Hovering the reticle near enemies within 27 meters applies a ◇mark until they leave Line of Sight.\nReplaces Class Ability with Crackshot Dodge.\nTriggers the effects of the equipped Class Ability on usage.\nCrackshot Dodge can be used midair, triggering a burst of speed.\nNo interaction with Celestial Nighthawk :(\n\nOn Crackshot Dodge:\nFires up to 3 Scorching Shots at 180RPM.\nScorching Shots deal 354 [21] Damage and inflict x20?+? Scorch.\nLanding all 3 Scorching Shots grants Cure x1.\nDamage scales with Class Stat above 100, up to 65% [10%] at 200 Stat."
+  },
+  {
+    "Class": "Hunter",
+    "Type": "Aspect",
     "Name": "Gunpowder Gamble",
     "Description": "Kills charge up an Improvised Explosive. Readies at 6 Charges.\nWeapon = 1 [2] | Ignition & Scorch = 3 [4] | Abilities = 4 | Super = 6\n\nReplaces Grenade with an Ignition-on-a-Stick that causes an ignition that deals 50% increased damage upon being shot or after 3 seconds.\nShooting the dynamite increases its damage by 50% [5%], its radius by ?% to ? meters, and releases 9 homing submunitions, with each dealing up to 80 [?] Damage.\n\nIncurs a 6 second cooldown after activating. Kills while on cooldown don't give charges."
   },
@@ -243,13 +249,13 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Knock 'Em Down",
-    "Description": "While Radiant:\nPowered Melee Ability Kills grant 100% Fixed Melee Ability after a 0.2 seconds delay.\nActivating Radiant from the same hit that kills will refund Melee Ability.\n\nEnhances Super Abilities:\nMarksman Golden Gun lasts 4 seconds longer.\nDeadshot Golden Gun has 15% Damage Resist.\nBlade Barrage fires an additional 3 knives per fan."
+    "Description": "While Radiant:\nPowered Melee Ability Kills grant 100% Fixed Melee Ability after a 0.2 seconds delay.\nActivating Radiant from the same hit that kills will refund Melee Ability.\n\nEnhances Super Abilities:\nMarksman Golden Gun lasts 4 seconds longer.\nDeadshot Golden Gun has 15% Damage Resist.\nBlade Barrage fires an additional 3 knives per fan.\nGrants x1 Cure on Super Activation."
   },
   {
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "On Your Mark",
-    "Description": "Upon scoring Precision Kills, Precision Hits, or using Class Abilities:\nGrants the user and allies within 15 meters stacks of On Your Mark for 12 seconds, up to a maximum of 10 stacks.\nPrecision Kills and Hand Cannon Precision Hits grant 2 stacks. | Class Ability usage grants 1 stack.\nPrecision Hits grant 1 stacks [and incur a 1 second cooldown between gaining stacks against Guardians.]\n\nClass Ability Usage grants a stack of On Your Mark to the user.\n\nOn Your Mark:\nGrants +5 Weapon Stat, +Reload Speed, and Reload Duration Multiplier per stack.\nMaxes out at +50 Weapon Stat, +? Reload Speed, and 0.?x Reload Duration Multiplier.\n\nWhile at x10 On Your Mark:\nKills grant Cure x1."
+    "Description": "Upon scoring Precision Kills, Precision Hits, or using Class Abilities:\nGrants the user and allies within 15 meters stacks of On Your Mark for 12 seconds, up to a maximum of 10 stacks.\nPrecision Kills and Hand Cannon Precision Hits grant 2 stacks. | Class Ability usage grants 1 stack.\nPrecision Hits grant 1 stacks [and incur a 1 second cooldown between gaining stacks against Guardians.]\n\nClass Ability Usage grants a stack of On Your Mark to the user.\n\nOn Your Mark:\nGrants +5 Weapon Stat, +Reload Speed, and Reload Duration Multiplier per stack.\nMaxes out at +50 Weapon Stat, +? Reload Speed, and 0.?x Reload Duration Multiplier.\n\nWhile at x10 On Your Mark:\nKills grant Restoration x1 for 3+1.5 seconds.\n\nRed Death Reformed Kills grant Cure x1 and Restoration x1 for 3+1.5 seconds"
   },
   {
     "Class": "Titan",
@@ -296,6 +302,12 @@
   {
     "Class": "Titan",
     "Type": "Aspect",
+    "Name": "Shieldburst",
+    "Description": "Enhanced Barricades can be remotely detonated by reactivating them, triggering an explosion that heavily knocks back and spreading out Solar Waves.\nExplosion counts as destroying a Construct for the purpose of certain effects.\n\nOn Towering Barricade Placement: \nInitially placing the Barricade causes it to slide forward up to 20 meters away, deaccelerating as it moves.\nBarricade Contact Damage is increased to 328 [?] Damage and inflicts x20+10 Scorch.\n\nWhile behind a Rally Barricade:\nGrants Scorching Rounds to Kinetic and Solar Weapons.\nFor the sake of vertical screen accessibility, go to Song of Flame's section.\n\nWhile a Barricade is active:\nClass Ability is replaced by Remote Detonator.\nPassively grants Barricade-dependent (34% Towering | 10% Rally) Shieldbrust progress.\nDealing damage grants additional progress, at a rate of ~100 damage per 1 second charged.\n\nShieldburst Detonation:\nExplosion deals up to 550 [?] Damage and inflicts x50+25 Scorch over ? meters.\nSolar Shrapnel is flung towards enemies within 40? meters, dealing 71 [?] Damage and inflicting x5+5 Scorch.\n\nShieldburst grants increased explosion damage, up to 50% increased damage once fully charged.\nWhile at 100% Shieldburst Progress | Explosion additionally releases 3 Solar Waves spread out in a cone up to 15 meters away.\nSolar Waves deal 141 [?] Solar Damage. \n\nAspect's Damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat."
+  },
+  {
+    "Class": "Titan",
+    "Type": "Aspect",
     "Name": "Sol Invictus",
     "Description": "Solar Ability Kills, Scorched Enemy Kills, and Hammer of Sol Impacts create a Sunspot for ? seconds.\nStanding in a Sunspot refreshes its duration, up to a maximum duration of 12 seconds.\n\nSunspots grant Sol Invictus for 5 seconds and Restoration x1 for 5+2.5 seconds.\nSol Invictus grant 100% Additional Base Grenade and Melee Regeneration Rate, and 40% Decreased Passive Super Drain.\nSunspots deal 60 [22] damage and inflict x5+3 Scorch every 0.167 seconds."
   },
@@ -309,7 +321,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Celestial Fire",
-    "Description": "Sends out a spiral of 3 homing Solar blasts.\n\nSolar blasts each deal up to 150 [35] damage and apply x10+5 Scorch in a ? meter radius.\nCan deal up to 450 [105] damage and apply x30+15 Scorch by scoring hits with all 3 Solar blasts."
+    "Description": "Sends out a spiral of 3 homing Solar blasts.\n\nSolar blasts each deal up to 150 [35] damage and inflict x10+5 Scorch in a ? meter radius.\nCan deal up to 450 [105] damage and inflict x30+15 Scorch by scoring hits with all 3 Solar blasts."
   },
   {
     "Class": "Warlock",
@@ -321,7 +333,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Song of Flame",
-    "Description": "General Super Information\nDamage Resistance: 90% [~50?%]\nBase Duration: 25 seconds, or 4% Super Drain per Second.\n\nSong of Flame:\nCaster is granted +100 Grenade, +100 Melee, +100 Class, Radiant and Scorching Rounds. \nWeapon Kills by the Caster count as Super Kills. Weapon damage does not count as Ability damage.\nAllies within 15 metres are granted 30% [?%] Damage Resist, Scorching Rounds, and 15% Fixed Bonus Grenade, Melee, and Class Ability Energy per second.\nGrants full Grenade and Melee Ability Charges on Super End.\n\nScorching Rounds:\nDealing Kinetic or Solar Weapon Damage inflicts Scorch, with the stack amount and cooldown between Scorch applications varying per Weapon Type.\nx3+2 Scorch every 0.2 seconds = Auto Rifles | Submachine Guns\nx5+5 Scorch every 0.2? seconds = Machine Guns | Trace Rifles\nx10+5 Scorch every 0.6 seconds = Hand Cannon | Pulse Rifle | Scout Rifles | Sidearms\nx15+5 Scorch every 0.4 seconds = Fusion Rifles (+Bastion) | Glaive (Melee/Projectile) | Shotgun | Sniper Rifle | Swords (+Solar Ergo Sum)\nx20+10 Scorch every 0.6? seconds = Bows | Heavy Grenade Launchers | Special Grenade Launchers | Linear Fusion Rifles (+Arbalest) | Rocket Launchers\nDouble Fire Grenade Launchers can inflict x40+x20 Scorch in a single shot.\n\nGrenade Ability: Drains 4.8% Super Energy, and has a 2 second cooldown between usages.\nSends forth a homing Solar Wisp that detonates on impact, dealing up to 685 [?] damage and inflicting x40+20 Scorch. Wisps have ? HP.\nAnother Wisp is spawned on the impact location if an enemy is within 15? meters, chasing towards the closest enemy it hasn't already damaged.\nCan spawn up to 3 additional Wisps per ability usage.\nConsuming a Solar Wisp while Heat Rises is equipped grants Cure x3 and Restoration x2 for 4+2 seconds to the user and their allies within 9 meters.\n\nMelee Ability: Drains 2.4% Super Energy, and has a 1.75 second cooldown between usages.\nCelestial Fire sends out 5 Solar blasts, each dealing up to 200 [87] damage and inflicting x10+5 Scorch.\nIncinerator Snap releases a barrage of 7 Solar Sparks, each dealing up to 155 [41] damage and inflicting x20+10 [x10+5] Scorch.\n[Auto Melee] against an enemy within Melee Lunge Distance while Incinerator Snap is equipped performs an Enhanced Basic Melee that deals 1000 [456] Solar Damage and inflicts x60+30 Scorch over a tiny radius, consuming Super Energy and a Melee Ability Charge.\n\nClass Ability: Drains 6% Super Energy, and has a 2.85 second cooldown between usages.\nFunctions as the selected Class Ability, recharging quickly at the cost of Super Energy."
+    "Description": "General Super Information\nDamage Resistance: 90% [~50?%]\nBase Duration: 25 seconds, or 4% Super Drain per Second.\n\nSong of Flame:\nCaster is granted +100 Grenade, +100 Melee, +100 Class, Radiant and Scorching Rounds. \nWeapon Kills by the Caster count as Super Kills. Weapon damage does not count as Ability damage.\nAllies within 15 metres are granted 30% [?%] Damage Resist, Scorching Rounds, and 15% Fixed Bonus Grenade, Melee, and Class Ability Energy per second.\nGrants full Grenade and Melee Ability Charges on Super End.\n\nScorching Rounds:\nDealing Direct Kinetic or Solar Weapon Damage inflicts Scorch, with the stack amount and cooldown between Scorch applications varying per Weapon Type.\nx3+2 Scorch every 0.2 seconds = Auto Rifles | Submachine Guns\nx5+5 Scorch every 0.2? seconds = Machine Guns | Trace Rifles\nx10+5 Scorch every 0.6 seconds = Hand Cannon | Pulse Rifle | Scout Rifles | Sidearms\nx15+5 Scorch every 0.4 seconds = Fusion Rifles | Glaive (Melee/Projectile) | Shotgun | Sniper Rifle | Swords (+Solar Ergo Sum)\nx20+10 Scorch every 0.6? seconds = Bows | Heavy Grenade Launchers | Special Grenade Launchers | Linear Fusion Rifles (+Arbalest) | Rocket Launchers\nDouble Fire Grenade Launchers can inflict x40+x20 Scorch in a single shot.\n\nGrenade Ability: Drains 4.8% Super Energy, and has a 2 second cooldown between usages.\nSends forth a homing Solar Wisp that detonates on impact, dealing up to 685 [?] damage and inflicting x40+20 Scorch. Wisps have ? HP.\nAnother Wisp is spawned on the impact location if an enemy is within 15? meters, chasing towards the closest enemy it hasn't already damaged.\nCan spawn up to 3 additional Wisps per ability usage.\nConsuming a Solar Wisp while Heat Rises is equipped grants Cure x3 and Restoration x2 for 4+2 seconds to the user and their allies within 9 meters.\n\nMelee Ability: Drains 2.4% Super Energy, and has a 1.75 second cooldown between usages.\nCelestial Fire sends out 5 Solar blasts, each dealing up to 200 [87] damage and inflicting x10+5 Scorch.\nIncinerator Snap releases a barrage of 7 Solar Sparks, each dealing up to 155 [41] damage and inflicting x20+10 [x10+5] Scorch.\n[Auto Melee] against an enemy within Melee Lunge Distance while Incinerator Snap is equipped performs an Enhanced Basic Melee that deals 1000 [456] Solar Damage and inflicts x60+30 Scorch over a tiny radius, consuming Super Energy and a Melee Ability Charge.\n\nClass Ability: Drains 6% Super Energy, and has a 2.85 second cooldown between usages.\nFunctions as the selected Class Ability, recharging quickly at the cost of Super Energy."
   },
   {
     "Class": "Warlock",
@@ -339,13 +351,13 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Heat Rises",
-    "Description": "Passively grants +20 Airborne Effectiveness, and allows Weapon and Ability Usage while gliding. \n\nKills while Airborne grant Melee Energy.\nTier 1 Combatant = 20% | T2 = 25% | T3 = 35% | T4 = 50% | Guardians = 50%\n\nHold [Grenade] to consume a Grenade Ability Charge, granting Heat Rises and releasing a burst of Cure x2 that affects the user and their allies within 9 meters.\nConsuming a Healing Grenade increases Cure to x3. Consuming a Touch of Flame Healing Grenade additionally grants Restoration x1 for 4+2 seconds.\nConsuming a Song of Flame' Wisp releases a burst of Cure x3 and grants Restoration x2 for 4+2 seconds to the user and their allies within 9 meters.\n\nHeat Rises\nGrants +50 Airborne Effectiveness, and a modified Glide that changes depending on the selected Movement Ability for 15 seconds.\nModified Glide has -99% Glide Upkeep and Activation cost, extending maximum glide duration by 100 times, and marks the user's location on radar to Guardians within 25 meters.\nBalanced Glide: Strong Directional and Initial Burst | Burst Glide: Strong Directional Control | Strafe Glide: Strong Initial Burst.\n\nScoring additional Airborne Kills while Heat Rises is active extends the buff duration, up to 30 seconds.\nTier 1 Combatant = +5 seconds | T2 & T3 = +10 seconds | T4 = +15 seconds | Guardians = +5 seconds\nConsuming a Grenade always overwrites the duration to 15 seconds, even if it was previously higher."
+    "Description": "Passively grants +20 Airborne Effectiveness, and allows Weapon and Ability Usage while gliding. \n\nKills while Airborne grant Melee Energy.\nTier 1 Combatant = 20% | T2 = 25% | T3 = 35% | T4 = 50% | Guardians = 50%\n\nHold [Grenade] to consume a Grenade Ability Charge, granting Heat Rises and releasing a burst of Cure x2 that affects the user and their allies within 9 meters.\nConsuming a Healing Grenade increases Cure to x3. Consuming a Touch of Flame Healing Grenade additionally grants Restoration x1 for 4+2 seconds.\nConsuming a Song of Flame' Wisp releases a burst of Cure x3 and grants Restoration x2 for 4+2 seconds to the user and their allies within 9 meters.\n\nHeat Rises\nGrants +50 Airborne Effectiveness, and a modified Glide that changes depending on the selected Movement Ability for 15 seconds.\nCombatants are less accurate at targeting the wearer while active.\nModified Glide has -99% Glide Upkeep and Activation cost, extending maximum glide duration by 100 times, and marks the user's location on radar to Guardians within 25 meters.\nBalanced Glide: Strong Directional and Initial Burst | Burst Glide: Strong Directional Control | Strafe Glide: Strong Initial Burst.\n\nScoring additional Airborne Kills while Heat Rises is active extends the buff duration, up to 30 seconds.\nTier 1 Combatant = +5 seconds | T2 & T3 = +10 seconds | T4 = +15 seconds | Guardians = +5 seconds\nConsuming a Grenade always overwrites the duration to 15 seconds, even if it was previously higher."
   },
   {
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Hellion",
-    "Description": "On Class Ability Usage:\nGrants Hellion for 20 seconds.\n\nHellion:\nLobs scorching Solar projectiles every 1.35 seconds towards enemies up to 40 meters away.\nSolar projectiles deal up to 217 [38] Solar Grenade Ability Damage and inflict x30+10 Scorch per hit in a 4 meter radius.\nCan trigger Grenade Ability interactions. Hellion-inflicted Solar Effects are not scaled by Grenade Damage."
+    "Description": "On Class Ability Usage:\nGrants Hellion for 20 seconds.\n\nHellion:\nLobs scorching Solar projectiles every 1.35 seconds towards enemies up to 32 meters away.\nSolar projectiles deal up to 217 [38] Solar Grenade Ability Damage and inflict x30+10 Scorch per hit in a 4 meter radius.\nCan trigger Grenade Ability interactions. Hellion-inflicted Solar Effects are not scaled by Grenade Damage."
   },
   {
     "Class": "Warlock",

@@ -3,7 +3,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Tangle",
-    "Description": "Strand Elemental Pickup\n\n Spawned when an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) is killed while on a Strand Subclass, or through Exotic Gear. \nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
+    "Description": "Strand Subclass Intrinsic\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects!\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -16,19 +16,14 @@
               ]
             },
             {
-              "text": " Elemental Pickup"
+              "text": " Subclass Intrinsic"
             }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Spawned when an enemy affected by a "
+              "text": "Killing an enemy affected by a "
             },
             {
               "text": "Strand",
@@ -64,8 +59,26 @@
               ]
             },
             {
-              "text": ") is killed while on a "
+              "text": ") spawns a "
             },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": ", adhering to the standard cooldown."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
             {
               "text": "Strand",
               "classNames": [
@@ -73,7 +86,7 @@
               ]
             },
             {
-              "text": " Subclass, or through Exotic Gear."
+              "text": " Elemental Pickup:"
             }
           ]
         },
@@ -120,6 +133,13 @@
             },
             {
               "text": "] damage in a 5? metre radius."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Either method counts as an Elemental Interaction for the purposes of perks and effects!"
             }
           ]
         },
@@ -246,7 +266,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Threadling",
-    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 338 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range.",
+    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -277,7 +297,7 @@
               ]
             },
             {
-              "text": " explode on contact or after leaping, dealing up to 338 ["
+              "text": " explode on contact or after leaping, dealing up to 366 ["
             },
             {
               "text": "35",
@@ -2107,7 +2127,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Shackle Grenade",
-    "Description": "??? Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
     "hash": 2809342386,
     "parentHash": "2809342386",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2116,7 +2136,7 @@
         {
           "linesContent": [
             {
-              "text": "??? Trajectory"
+              "text": "Bola Trajectory"
             }
           ]
         },
@@ -2169,7 +2189,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Shackle Grenade",
-    "Description": "??? Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
     "hash": 1517917190,
     "parentHash": "1517917190",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2178,7 +2198,7 @@
         {
           "linesContent": [
             {
-              "text": "??? Trajectory"
+              "text": "Bola Trajectory"
             }
           ]
         },
@@ -2221,6 +2241,70 @@
             },
             {
               "text": "] damage and applying Suspension on hit."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Class": "General",
+    "Type": "Grenade",
+    "Name": "Slicewire",
+    "Description": "Medium? Trajectory\n\nThrows a bouncing grenade that explodes soon after impact, dealing up to 170? [?] damage and inflicting Sever for ?+? seconds over ? meters.\nRepeats up to 3 additional times, dealing up to 680? [?] damage over 4 hits.",
+    "hash_warning": "No matching hash found in d2glossary",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Medium? Trajectory"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Throws a bouncing grenade that explodes soon after impact, dealing up to 170? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage and inflicting "
+            },
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for ?+? seconds over ? meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Repeats up to 3 additional times, dealing up to 680? ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage over 4 hits."
             }
           ]
         }
@@ -2313,7 +2397,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Threaded Spike",
-    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. Catching the Threaded Spike increases the amount of Melee Energy gained.\n\nHits | Melee % | Caught %\n0 | 5% | 20%\n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained and grants Woven Mail for a duration.\n\nHits | Melee % | Caught % | Woven Mail Duration\n0 | 5% | 20% | ?s\n1 | 10% | 30% | ?s\n2 | 20% | 50% | ?s\n3 | 30% | 70% | ?s\n4 | 35% | 85% | ?s\n5+ | 40% | 100% | ?s",
     "hash": 1680616210,
     "parentHash": "1680616210",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2375,7 +2459,14 @@
               ]
             },
             {
-              "text": "] while the projectile is nearby to catch it. Catching the "
+              "text": "] while the projectile is nearby to catch it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Catching the "
             },
             {
               "text": "Threaded Spike",
@@ -2384,7 +2475,16 @@
               ]
             },
             {
-              "text": " increases the amount of Melee Energy gained."
+              "text": " increases the amount of Melee Energy gained and grants "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for a duration."
             }
           ]
         },
@@ -2396,49 +2496,58 @@
         {
           "linesContent": [
             {
-              "text": "Hits | Melee % | Caught %"
+              "text": "Hits | Melee % | Caught % | "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Duration"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "0 | 5% | 20%"
+              "text": "0 | 5% | 20% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "1 | 10% | 30%"
+              "text": "1 | 10% | 30% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "2 | 20% | 50%"
+              "text": "2 | 20% | 50% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "3 | 30% | 70%"
+              "text": "3 | 30% | 70% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "4 | 35% | 85%"
+              "text": "4 | 35% | 85% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "5+ | 40% | 100%"
+              "text": "5+ | 40% | 100% | ?s"
             }
           ]
         }
@@ -2449,7 +2558,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Threaded Spike",
-    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. Catching the Threaded Spike increases the amount of Melee Energy gained.\n\nHits | Melee % | Caught %\n0 | 5% | 20%\n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained and grants Woven Mail for a duration.\n\nHits | Melee % | Caught % | Woven Mail Duration\n0 | 5% | 20% | ?s\n1 | 10% | 30% | ?s\n2 | 20% | 50% | ?s\n3 | 30% | 70% | ?s\n4 | 35% | 85% | ?s\n5+ | 40% | 100% | ?s",
     "hash": 2657901002,
     "parentHash": "2657901002",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2511,7 +2620,14 @@
               ]
             },
             {
-              "text": "] while the projectile is nearby to catch it. Catching the "
+              "text": "] while the projectile is nearby to catch it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Catching the "
             },
             {
               "text": "Threaded Spike",
@@ -2520,7 +2636,16 @@
               ]
             },
             {
-              "text": " increases the amount of Melee Energy gained."
+              "text": " increases the amount of Melee Energy gained and grants "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " for a duration."
             }
           ]
         },
@@ -2532,49 +2657,58 @@
         {
           "linesContent": [
             {
-              "text": "Hits | Melee % | Caught %"
+              "text": "Hits | Melee % | Caught % | "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Duration"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "0 | 5% | 20%"
+              "text": "0 | 5% | 20% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "1 | 10% | 30%"
+              "text": "1 | 10% | 30% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "2 | 20% | 50%"
+              "text": "2 | 20% | 50% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "3 | 30% | 70%"
+              "text": "3 | 30% | 70% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "4 | 35% | 85%"
+              "text": "4 | 35% | 85% | ?s"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "5+ | 40% | 100%"
+              "text": "5+ | 40% | 100% | ?s"
             }
           ]
         }
@@ -4377,12 +4511,24 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Drengr's Lash",
-    "Description": "On Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
+    "Description": "Killing Elementally-Debuffed Enemies grants ?% Class Ability Energy.\n\nOn Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
     "hash": 988980152,
     "parentHash": "988980152",
     "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing Elementally-Debuffed Enemies grants ?% Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
         {
           "linesContent": [
             {
@@ -4435,12 +4581,24 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Drengr's Lash",
-    "Description": "On Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
+    "Description": "Killing Elementally-Debuffed Enemies grants ?% Class Ability Energy.\n\nOn Class Ability Usage:\nUnleashes a Strand Lash forward that travels up to 30 metres away.\nStrand Lash tracks enemies in its path, dealing 61 [31] damage and applying Suspension on hit.",
     "hash": 1262901525,
     "parentHash": "1262901525",
     "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Killing Elementally-Debuffed Enemies grants ?% Class Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
         {
           "linesContent": [
             {
@@ -5094,7 +5252,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Mindspun Invocation",
-    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to consume a Grenade Charge, granting 5 Perched Threadlings.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.",
+    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to throw a Threadling nest.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.\n\nSlicewire Grenade: Hold [Grenade] to overcharge it. The fourth explosion will release submunitions and spawn a Tangle.",
     "hash": 262821318,
     "parentHash": "262821318",
     "descriptions": {
@@ -5159,16 +5317,16 @@
               ]
             },
             {
-              "text": "] to consume a Grenade Charge, granting 5 Perched "
+              "text": "] to throw a "
             },
             {
-              "text": "Threadlings",
+              "text": "Threadling",
               "classNames": [
                 "strand"
               ]
             },
             {
-              "text": "."
+              "text": " nest."
             }
           ]
         },
@@ -5199,6 +5357,36 @@
               "text": "Kills create a Suspending Explosion while Weaver's Trance is active."
             }
           ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Slicewire Grenade: Hold ["
+            },
+            {
+              "text": "Grenade",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] to overcharge it. The fourth explosion will release submunitions and spawn a "
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
         }
       ]
     }
@@ -5207,7 +5395,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "The Wanderer",
-    "Description": "Destroying a Tangle creates a Suspending Burst after ? seconds. applying Suspension to enemies within 7 metres.\n\nThrown Tangles now seek and attach to enemies, exploding in a Suspending Burst, applying Suspension to enemies within 7 metres.\nThrown Tangles are unaffected by Gravity.\n\nThreadling Kills now spawn a Tangle.",
+    "Description": "Destroying a Tangle creates a Suspending Burst after ? seconds. applying Suspension to enemies within 7 metres.\n\nThrown Tangles now seek and attach to enemies, exploding in a Suspending Burst, applying Suspension to enemies within 7 metres.\nThrown Tangles are unaffected by Gravity.\n\nThreadling Kills spawn a Tangle and decrease the Tangle Cooldown by 1 second.",
     "hash": 262821319,
     "parentHash": "262821319",
     "descriptions": {
@@ -5279,7 +5467,7 @@
               ]
             },
             {
-              "text": " Kills now spawn a "
+              "text": " Kills spawn a "
             },
             {
               "text": "Tangle",
@@ -5288,7 +5476,16 @@
               ]
             },
             {
-              "text": "."
+              "text": " and decrease the "
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Cooldown by 1 second."
             }
           ]
         }

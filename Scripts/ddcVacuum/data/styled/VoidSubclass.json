@@ -596,7 +596,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Volatile Rounds",
-    "Description": "Void Weapons inflict Volatile upon dealing damage, and Barrier Champion Shields are able to be damaged, stunning the Champion when destroyed while Volatile Rounds are active.",
+    "Description": "Void Weapons inflict Volatile upon dealing damage and deal 10% increased Weapon Damage against Champions while Volatile Rounds are active.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -618,16 +618,7 @@
               ]
             },
             {
-              "text": " upon dealing damage, and "
-            },
-            {
-              "text": "Barrier Champion",
-              "classNames": [
-                "barrier"
-              ]
-            },
-            {
-              "text": " Shields are able to be damaged, stunning the Champion when destroyed while "
+              "text": " upon dealing damage and deal 10% increased Weapon Damage against Champions while "
             },
             {
               "text": "Volatile Rounds",
@@ -647,7 +638,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Weaken",
-    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a stronger Weaken that grants 30% [varies%] increased damage.\n\nShadowshot: Deadfall grants 35% [50%?] increased damage against tethered enemies.\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst. Its duration can be extended by any other Weaken effect.\nTractor Cannon's Repulsor Force grants 30% [50%] increased damage against enemies it damages. Its duration can be extended by any other Weaken effect.",
+    "Description": "Weakened Enemies receive 15% [7.5%] increased damage and 20% Decreased Movement Speed for 6 [2.5] seconds.\n\nWeakened Combatants become less accurate and slower.\n\nUnique Weaken Effects:\nCertain sources of Weaken inflict a dramatically stronger weaken that grants 30% [generally 50%] increased damage.\n\nShadowshot: Moebius grants 30% [50%] increased damage against tethered enemies.\n\nFelwinter's Helm's Warlord's End grants 30% [30%] increased damage against enemies affected by its weakening burst.\nTractor Cannon's Repulsor Force and Fafnir (Quantum Nova Active) grants 30% [50%] increased damage against enemies it damages.\nFafnir's, Felwinter's, Tractor's weaken duration can be extended by any other Weaken effect.\n\nShadowshot: Deadfall uniquely grants 35% [50%?] increased damage against tethered enemies.",
     "hash": 278235650,
     "parentHash": "278235650",
     "descriptions": {
@@ -697,7 +688,7 @@
               ]
             },
             {
-              "text": " Combatants become less accurate."
+              "text": " Combatants become less accurate and slower."
             }
           ]
         },
@@ -734,10 +725,10 @@
               ]
             },
             {
-              "text": " inflict a stronger "
+              "text": " inflict a dramatically stronger "
             },
             {
-              "text": "Weaken",
+              "text": "weaken",
               "classNames": [
                 "void"
               ]
@@ -746,7 +737,7 @@
               "text": " that grants 30% ["
             },
             {
-              "text": "varies%",
+              "text": "generally 50%",
               "classNames": [
                 "pvp"
               ]
@@ -764,22 +755,6 @@
         {
           "linesContent": [
             {
-              "text": "Shadowshot: Deadfall grants 35% ["
-            },
-            {
-              "text": "50%?",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage against tethered enemies."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
               "text": "Shadowshot: Moebius grants 30% ["
             },
             {
@@ -791,6 +766,11 @@
             {
               "text": "] increased damage against tethered enemies."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -814,7 +794,39 @@
               ]
             },
             {
-              "text": " burst. Its duration can be extended by any other "
+              "text": " burst."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tractor Cannon's Repulsor Force and Fafnir (Quantum Nova Active) grants 30% ["
+            },
+            {
+              "text": "50%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage against enemies it damages."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fafnir's, Felwinter's, Tractor's "
+            },
+            {
+              "text": "weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " duration can be extended by any other "
             },
             {
               "text": "Weaken",
@@ -828,27 +840,23 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
-              "text": "Tractor Cannon's Repulsor Force grants 30% ["
+              "text": "Shadowshot: Deadfall uniquely grants 35% ["
             },
             {
-              "text": "50%",
+              "text": "50%?",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] increased damage against enemies it damages. Its duration can be extended by any other "
-            },
-            {
-              "text": "Weaken",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " effect."
+              "text": "] increased damage against tethered enemies."
             }
           ]
         }
@@ -2588,8 +2596,117 @@
   {
     "Class": "General",
     "Type": "Melee",
+    "Name": "Phantom Surge",
+    "Description": "Dashes forward up to ? meters away, slashing through enemies.\nDash can phase through enemies.\n\nDeals 595 [?] Damage within ? meters.\nDamage is increased by 100% [?%] against Void-Debuffed Enemies and On The Prowl's Marked Enemy.\nGrants +? Void Overshield per enemy hit.\n\nScoring a kill grants an additional +? Void Overshield and 50?% Melee Ability Energy.",
+    "hash": 1139822080,
+    "parentHash": "1139822080",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Dashes forward up to ? meters away, slashing through enemies."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dash can phase through enemies."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Deals 595 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage within ? meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage is increased by 100% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] against "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": "-Debuffed Enemies and On The Prowl's Marked Enemy."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants +? "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " per enemy hit."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring a kill grants an additional +? "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " and 50?% Melee Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Class": "General",
+    "Type": "Melee",
     "Name": "Snare Bomb",
-    "Description": "Smoke Bomb that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached.\n\nBomb explodes upon detecting an enemy within ? meters of it, or upon directly striking an enemy, creating a cloud of smoke.\n\nSnare Bomb deals 33 [10] impact damage, and up to 120 + 24 [40 + ?] explosion damage over ? meters. Impact and explosion weaken and disorient for 8 [2.5] seconds.\n\nSmoke Cloud\nLasts for 5 [2] seconds on detonation, dealing DoT every 0.6 seconds and disorienting enemies.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by 13% per tick, up to 24.8 [?] damage on its last 9th tick, dealing up to 156.7 [?] damage over 5 seconds.",
+    "Description": "Smoke Bomb that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached.\nSmoke Bombs grant Invisibility to allies within 6 meters of its impact for 5+2 seconds.\n\nBomb explodes upon detecting an enemy within ? meters of it, or upon directly striking an enemy, creating a cloud of smoke.\n\nSnare Bomb deals 33 [10] impact damage, and up to 120 + 24 [40 + ?] explosion damage over ? meters. Impact and explosion weaken and disorient for 8 [2.5] seconds.\n\nSmoke Cloud\nLasts for 5 [2] seconds on detonation, dealing DoT every 0.6 seconds and disorienting enemies.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by 13% per tick, up to 24.8 [?] damage on its last 9th tick, dealing up to 156.7 [?] damage over 5 seconds.",
     "hash": 1139822081,
     "parentHash": "1139822081",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2605,6 +2722,22 @@
             },
             {
               "text": " that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Smoke Bombs grant "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to allies within 6 meters of its impact for 5+2 seconds."
             }
           ]
         },
@@ -2743,7 +2876,7 @@
     "Class": "General",
     "Type": "Melee",
     "Name": "Snare Bomb",
-    "Description": "Smoke Bomb that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached.\n\nBomb explodes upon detecting an enemy within ? meters of it, or upon directly striking an enemy, creating a cloud of smoke.\n\nSnare Bomb deals 33 [10] impact damage, and up to 120 + 24 [40 + ?] explosion damage over ? meters. Impact and explosion weaken and disorient for 8 [2.5] seconds.\n\nSmoke Cloud\nLasts for 5 [2] seconds on detonation, dealing DoT every 0.6 seconds and disorienting enemies.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by 13% per tick, up to 24.8 [?] damage on its last 9th tick, dealing up to 156.7 [?] damage over 5 seconds.",
+    "Description": "Smoke Bomb that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached.\nSmoke Bombs grant Invisibility to allies within 6 meters of its impact for 5+2 seconds.\n\nBomb explodes upon detecting an enemy within ? meters of it, or upon directly striking an enemy, creating a cloud of smoke.\n\nSnare Bomb deals 33 [10] impact damage, and up to 120 + 24 [40 + ?] explosion damage over ? meters. Impact and explosion weaken and disorient for 8 [2.5] seconds.\n\nSmoke Cloud\nLasts for 5 [2] seconds on detonation, dealing DoT every 0.6 seconds and disorienting enemies.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by 13% per tick, up to 24.8 [?] damage on its last 9th tick, dealing up to 156.7 [?] damage over 5 seconds.",
     "hash": 2657901007,
     "parentHash": "2657901007",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2759,6 +2892,22 @@
             },
             {
               "text": " that attaches to surfaces for up to 9 seconds. Pings Enemy Radar while attached."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Smoke Bombs grant "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to allies within 6 meters of its impact for 5+2 seconds."
             }
           ]
         },
@@ -3444,7 +3593,7 @@
     "Class": "General",
     "Type": "Super",
     "Name": "Shadowshot: Moebius Quiver",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nSuper Duration: 16 seconds [20 with Orpheus Rigs]\n\nShadowshot fires 3 Moebius Anchors up to 2 times per activation.\nDealing damage while Shadowshot is active linearly grants increased Moebius Anchor and Bow Weapon Damage.\nMaxes out at 127% increased Moebius Anchor Damage and 150% increased Bow Weapon Damage after dealing ~3000 damage.\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\n\nMoebius Anchor:\nDeals 1076 [?] Damage and inflicts Suppression, Volatile, and Weaken on impact. Counts as a Construct with ? HP.\nEnemies within 7 meters of the anchor are tethered. Deals 20% increased damage to tethered enemies. Tethered enemies are inflicted with Weaken and Suppression.\n50% of the Bodyshot (Base) Damage dealt to tethered enemies is also inflicted to other tethered enemies.\n\nMoebius Anchor lasts for 6 seconds by default. Tethered Enemy kills increase its duration by 0.5 seconds, up to a maximum of 25 seconds.",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nSuper Duration: 16 seconds [20 with Orpheus Rigs]\n\nShadowshot fires 3 Moebius Anchors up to 2 times per activation.\nDealing damage while Shadowshot is active linearly grants increased Moebius Anchor and Bow Weapon Damage.\nMaxes out at 127% increased Moebius Anchor Damage and 150% [75% Crossbow] increased Bow Weapon Damage after dealing ~3000 damage.\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\n\nMoebius Anchor:\nDeals 1076 [?] Damage and inflicts Suppression, Volatile, and Weaken on impact. Counts as a Construct with ? HP.\nEnemies within 7 meters of the anchor are tethered. Deals 20% increased damage to tethered enemies. Tethered enemies are inflicted with Weaken and Suppression.\n50% of the Bodyshot (Base) Damage dealt to tethered enemies is also inflicted to other tethered enemies.\n\nMoebius Anchor lasts for 6 seconds by default. Tethered Enemy kills increase its duration by 0.5 seconds, up to a maximum of 25 seconds.",
     "hash": 2722573681,
     "parentHash": "2722573681",
     "descriptions": {
@@ -3519,7 +3668,16 @@
         {
           "linesContent": [
             {
-              "text": "Maxes out at 127% increased Moebius Anchor Damage and 150% increased "
+              "text": "Maxes out at 127% increased Moebius Anchor Damage and 150% ["
+            },
+            {
+              "text": "75% Crossbow",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased "
             },
             {
               "text": "Bow",
@@ -3645,7 +3803,7 @@
     "Class": "General",
     "Type": "Aspect",
     "Name": "On The Prowl",
-    "Description": "Upon gaining Void Invisibility:\nMarks [Highlights] a Non-Boss Enemy within 45 [25] meters as a Priority Target.\nGrants On The Prowl buff while a Priority Target is alive. Priority Target receives the Pursuit Predation debuff indefinitely [for 15 seconds].\nPrioritizes marking Rank-and-File Combatants closer to the reticle.\n\nUpon killing a Priority Target:\nReleases a weakening cloud of smoke on Enemy Death Location.\nGrants a stack of Succesful Hunt for ? seconds, up to a maximum of 3 stacks, as well as ?% Grenade, Melee, and Class Ability Energy.\n\nSuccesful Hunt x1 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\nSuccesful Hunt x2 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\nSuccesful Hunt x3 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\n\nCloud of smoke:\nInstantly deals up to 133 [?] Void Damage over ? meters.\nEnemies that come in contact with the smoke are weakened for 6? seconds and disoriented while inside the cloud. The user and allies gain Void Invisibility for 5+2 seconds.\nLingers for 7? seconds over ? meters, dealing scaling DoT every 0.6 seconds.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by ?% per tick, up to 24.8 [?] damage on the 9th tick, dealing up to ? [?] damage over 7 seconds.\nFunctionally, the cloud of smoke is a Snare Bomb that is instantly detonated, with a larger radius and duration. It even procs melee-related effects. ",
+    "Description": "Upon gaining Void Invisibility, or after ? seconds of not having marked a Combatant:\nMarks [Highlights] a Non-Boss Enemy within 45 [25] meters as a Priority Target.\nGrants On The Prowl buff while a Priority Target is alive. Priority Target receives the Pursuit Predation debuff indefinitely [for 15 seconds].\nPrioritizes marking Rank-and-File Combatants closer to the reticle.\n\nUpon killing a Priority Target:\nReleases a weakening cloud of smoke on Enemy Death Location.\nGrants a stack of Succesful Hunt for ? seconds, up to a maximum of 3 stacks, as well as ?% Grenade, Melee, and Class Ability Energy.\n\nSuccesful Hunt x1 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\nSuccesful Hunt x2 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\nSuccesful Hunt x3 | +? Stability, +? Reload Speed, and 0.?x Reload Duration Multiplier\n\nCloud of smoke:\nInstantly deals up to 133 [?] Void Damage over ? meters.\nEnemies that come in contact with the smoke are weakened for 6? seconds and disoriented while inside the cloud. The user and allies gain Void Invisibility for 5+2 seconds.\nLingers for 7? seconds over ? meters, dealing scaling DoT every 0.6 seconds.\nDeals DoT after 0.87 seconds, starting at 12.65 [?] damage, increasing by ?% per tick, up to 24.8 [?] damage on the 9th tick, dealing up to ? [?] damage over 7 seconds.\nFunctionally, the cloud of smoke is a Snare Bomb that is instantly detonated, with a larger radius and duration. It even procs melee-related effects. ",
     "hash": 187655375,
     "parentHash": "187655375",
     "descriptions": {
@@ -3671,7 +3829,7 @@
               ]
             },
             {
-              "text": ":"
+              "text": ", or after ? seconds of not having marked a Combatant:"
             }
           ]
         },
@@ -4268,6 +4426,232 @@
             },
             {
               "text": " to allies within 6 meters of its impact for 5+2 seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Class": "General",
+    "Type": "Aspect",
+    "Name": "Trapper's Ambush",
+    "Description": "[Air Move] triggers Quickfall, consuming a Class Ability Charge.\nTriggers the effects of the equipped Class Ability on usage. Quickfall retriggers Invisibility if said buff is active.\n\nQuickfall:\nPerforms a slam, dealing up to 630 [?] Void Damage over ? meters.\nDamage is increased by 50% while a Void Buff is active.\nRestores ? HP upon dealing damage.\nKills grant Devour for 10+5 seconds.\n\n–––––\nWhile Vanishing Step is also equipped:\nQuickfall creates a Smoke Cloud upon landing with a longer smoke duration of 6 seconds.\nEnemies caught by the Smoke Cloud are dealt 200? [50?] Void Damage and become weakened for 10 [5] seconds. \nAllies that enter the Smoke Cloud become invisible for 6.5 seconds.\n\nAspect's damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat.",
+    "hash": 187655372,
+    "parentHash": "187655372",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "["
+            },
+            {
+              "text": "Air Move",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] triggers Quickfall, consuming a Class Ability Charge."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Triggers the effects of the equipped Class Ability on usage. Quickfall retriggers "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " if said buff is active."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Quickfall:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Performs a slam, dealing up to 630 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Damage over ? meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage is increased by 50% while a "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Buff is active."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores ? HP upon dealing damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kills grant "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 10+5 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "–––––"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While Vanishing Step is also equipped:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Quickfall creates a Smoke Cloud upon landing with a longer smoke duration of 6 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Enemies caught by the Smoke Cloud are dealt 200? ["
+            },
+            {
+              "text": "50?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Damage and become "
+            },
+            {
+              "text": "weakened",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 10 ["
+            },
+            {
+              "text": "5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Allies that enter the Smoke Cloud become "
+            },
+            {
+              "text": "invisible",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 6.5 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Aspect's damage scales with Class Stat above 100, up to 65% ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] at 200 Stat."
             }
           ]
         }
@@ -5417,6 +5801,199 @@
   },
   {
     "Class": "Titan",
+    "Type": "Super",
+    "Name": "Ward of Dawn",
+    "Description": "ill do this at some point, promise :)\n\nGeneral Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nConstruct with 8,000 HP. Guardian Weapons deal 50% increased damage towards it, and abilities are uniquely tweaked.\nProjects a dome-shaped barrier with a 3 meter radius that blocks incoming and outgoing projectiles, prevents damage from the outside, and continuously generates 16.5 [11] HP Void Overshield per second to allies within ? meters outside of it.\nInflicts Weaken to enemies within 6 meters on cast.\nCombatants deal 0.25x Damage against the Ward of Dawn.\n\nBeing inside the dome grants Void Overshield, 60% [30%] Damage Resist, +50 Handling, and +50 Reload Speed.\nVoid Overshield regenerates at a rate of 49.5HP/s after 3 seconds of not receiving damage while inside the dome.\nCombatants up to ? meters away are taunted towards Guardians inside the dome.\nCaster can generate up to 5? Orbs of Power by scoring Melee Kills while within the dome.",
+    "hash": 4260353953,
+    "parentHash": "4260353953",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "ill do this at some point, promise :)"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "General Super Information"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage Resistance while in Cast Animation: ?% ["
+            },
+            {
+              "text": "26.5%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "]"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ward of Dawn",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Construct with 8,000 HP. Guardian Weapons deal 50% increased damage towards it, and abilities are uniquely tweaked."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Projects a dome-shaped barrier with a 3 meter radius that blocks incoming and outgoing projectiles, prevents damage from the outside, and continuously generates 16.5 ["
+            },
+            {
+              "text": "11",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] HP "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " per second to allies within ? meters outside of it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Inflicts "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " to enemies within 6 meters on cast."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Combatants deal 0.25x Damage against the "
+            },
+            {
+              "text": "Ward of Dawn",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Being inside the dome grants "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", 60% ["
+            },
+            {
+              "text": "30%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage Resist, +50 Handling, and +50 Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " regenerates at a rate of 49.5HP/s after 3 seconds of not receiving damage while inside the dome."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Combatants up to ? meters away are taunted towards Guardians inside the dome."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Caster can generate up to 5? Orbs of Power by scoring Melee Kills while within the dome."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Class": "Titan",
     "Type": "Aspect",
     "Name": "Bastion",
     "Description": "On Super Cast:\nGrants allies within 15 metres a 45 HP Void Overshield.\n\nOn Enhanced Barricade Cast:\nGrants a 45 HP Overshield for the user and allies within 15? metres \nEnhanced Barricade takes 20% increased damage from Guardians.\n\nWhile behind the Enhanced Barricade:\nGenerates 11 Void Overshield HP per second.\n\nCrucible-Only:\nOverrides Towering Barricade Cooldown to 100 seconds at base.\nOverrides Rally Barricade Cooldown to 80 seconds at base.",
@@ -5763,7 +6340,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Offensive Bulwark",
-    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while affected by a Ward of Dawn's Armor of Light:\n400% [200%] Additional Base Grenade Regeneration Rate, 160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10? HP Void Overshield.\nUnpowered Melee Hits count as Powered Void Melee Hits, except for Doomfang Pauldrons.",
+    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while affected by a Ward of Dawn's Armor of Light:\n400% [200%] Additional Base Grenade Regeneration Rate, 160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10? HP Void Overshield and grant ?% Melee Ability Energy.\nUnpowered Melee Hits count as Powered Void Melee Hits, except for Doomfang Pauldrons.",
     "hash": 1602994570,
     "parentHash": "1602994570",
     "descriptions": {
@@ -5833,7 +6410,7 @@
               ]
             },
             {
-              "text": "."
+              "text": " and grant ?% Melee Ability Energy."
             }
           ]
         },
@@ -5860,7 +6437,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Unbreakable",
-    "Description": "Hold [Grenade] to summon a Void Shield. \nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [75?%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nContinuously generates ? Void Overshield HP/s. Void Overshield lasts for 5+2.5 seconds.\nDrains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants ?% Fixed Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [64?] damage for not blocking any damage, linearly scaling to 2760? [178?] damage after receiving a lot [?] blocked damage.",
+    "Description": "Hold [Grenade] to summon a Void Shield.\nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [75?%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nContinuously generates ? Void Overshield HP/s. Void Overshield lasts for 5+2.5 seconds.\nDrains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants ?% Fixed Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [64?] damage for not blocking any damage, linearly scaling to 2760? [178?] damage after receiving a lot [?] blocked damage.\n\nUnbreakable Kills grant Devour for ?+? seconds.",
     "hash": 1602994571,
     "parentHash": "1602994571",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6067,6 +6644,33 @@
               "text": "] blocked damage."
             }
           ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Unbreakable",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Kills grant "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for ?+? seconds."
+            }
+          ]
         }
       ]
     }
@@ -6075,7 +6679,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Unbreakable",
-    "Description": "Hold [Grenade] to summon a Void Shield. \nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [75?%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nContinuously generates ? Void Overshield HP/s. Void Overshield lasts for 5+2.5 seconds.\nDrains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants ?% Fixed Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [64?] damage for not blocking any damage, linearly scaling to 2760? [178?] damage after receiving a lot [?] blocked damage.",
+    "Description": "Hold [Grenade] to summon a Void Shield.\nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [75?%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nContinuously generates ? Void Overshield HP/s. Void Overshield lasts for 5+2.5 seconds.\nDrains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants ?% Fixed Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [64?] damage for not blocking any damage, linearly scaling to 2760? [178?] damage after receiving a lot [?] blocked damage.\n\nUnbreakable Kills grant Devour for ?+? seconds.",
     "hash": 1262901521,
     "parentHash": "1262901521",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6282,6 +6886,33 @@
               "text": "] blocked damage."
             }
           ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Unbreakable",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Kills grant "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for ?+? seconds."
+            }
+          ]
         }
       ]
     }
@@ -6290,7 +6921,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Pocket Singularity",
-    "Description": "Innately has 2 Melee Ability Charges.\n\nLaunches an unstable ball of Void Energy that lasts for 2 seconds.\n\nSingularity homes in towards the closest enemy within 2? meters, exploding on contact.\n\nExplosion knocks enemies within 3.75 meters away from the blast, dealing 527 [60] damage and inflicting Volatile.\n\nGuardians hit by Pocket Singularity cannot perform Melee Lunges for 0.5 second, and interrupts active slides.",
+    "Description": "Innately has 2 Melee Ability Charges.\n\nLaunches an unstable ball of Void Energy that lasts for 2 seconds.\nUsing Auto-Melee will consume a charge to perform a Melee Lunge. \nUsed this way, it will still inflict knockback and Volatile, but its damage will be reduced by 65% to 50%, with closer distances dealing less damage.\n\nSingularity homes in towards the closest enemy within 2? meters, exploding on contact.\n\nExplosion knocks enemies within 3.75 meters away from the blast, dealing 527 [60] damage and inflicting Volatile.\n\nGuardians hit by Pocket Singularity cannot perform Melee Lunges for 0.5 second, and interrupts active slides.",
     "hash": 2299867342,
     "parentHash": "2299867342",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6321,6 +6952,29 @@
             },
             {
               "text": " Energy that lasts for 2 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Using Auto-Melee will consume a charge to perform a Melee Lunge."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Used this way, it will still inflict knockback and "
+            },
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", but its damage will be reduced by 65% to 50%, with closer distances dealing less damage."
             }
           ]
         },
@@ -6394,7 +7048,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Pocket Singularity",
-    "Description": "Innately has 2 Melee Ability Charges.\n\nLaunches an unstable ball of Void Energy that lasts for 2 seconds.\n\nSingularity homes in towards the closest enemy within 2? meters, exploding on contact.\n\nExplosion knocks enemies within 3.75 meters away from the blast, dealing 527 [60] damage and inflicting Volatile.\n\nGuardians hit by Pocket Singularity cannot perform Melee Lunges for 0.5 second, and interrupts active slides.",
+    "Description": "Innately has 2 Melee Ability Charges.\n\nLaunches an unstable ball of Void Energy that lasts for 2 seconds.\nUsing Auto-Melee will consume a charge to perform a Melee Lunge. \nUsed this way, it will still inflict knockback and Volatile, but its damage will be reduced by 65% to 50%, with closer distances dealing less damage.\n\nSingularity homes in towards the closest enemy within 2? meters, exploding on contact.\n\nExplosion knocks enemies within 3.75 meters away from the blast, dealing 527 [60] damage and inflicting Volatile.\n\nGuardians hit by Pocket Singularity cannot perform Melee Lunges for 0.5 second, and interrupts active slides.",
     "hash": 3644045870,
     "parentHash": "3644045870",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6425,6 +7079,29 @@
             },
             {
               "text": " Energy that lasts for 2 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Using Auto-Melee will consume a charge to perform a Melee Lunge."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Used this way, it will still inflict knockback and "
+            },
+            {
+              "text": "Volatile",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", but its damage will be reduced by 65% to 50%, with closer distances dealing less damage."
             }
           ]
         },
@@ -6967,7 +7644,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Child of the Old Gods",
-    "Description": "On Rift Cast:\nGrants Void Soul Ready for 25 seconds. Can stack up to 2 Void Souls.\n\nScoring a Weapon Hit on an enemy launches the Void Buddy to fly towards them, projecting a Draining Field upon arriving.\nThe Draining Field deals 43 [10] Void Grenade Ability Damage and inflicts weaken for 4 [2.5] seconds every 0.7 seconds for up to 9.25 seconds to enemies within 10 meters. \nThe Void Friend has 150 HP and can be, unfortunately, destroyed. Has ?% Damage Resist until it is actively draining.\n\nGrants different bonuses while the Void Soul is dealing damage, depending on the selected Class Ability:\nHealing Rift: Grants 4% Grenade and Melee Energy every 1.4 seconds.\nEmpowering Rift: Restores 25 HP every 1.4 seconds.\n\nEnemies killed within its Draining Field grant Class Ability Energy based on their Enemy Rank:\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4+ = 50% | Guardian = 33.4%",
+    "Description": "On Rift Cast:\nGrants Void Soul Ready for 25 seconds. Can stack up to 2 Void Souls.\n\nScoring a Weapon Hit on an enemy launches the Void Buddy to fly towards them, projecting a Draining Field upon arriving.\nThe Draining Field deals 43 [10] Void Grenade Ability Damage and inflicts weaken for 4 [2.5] seconds every 0.7 seconds for up to 9.25 seconds to enemies within 10 meters. \nAfter ? seconds of projecting the Draining Field, it additionally suppresses.\n\nThe Void Friend has 150 HP and can be, unfortunately, destroyed. Has ?% Damage Resist until it is actively draining.\n\nGrants different bonuses while the Void Soul is dealing damage, depending on the selected Class Ability:\nHealing Rift: Grants 4% Grenade and Melee Energy every 1.4 seconds.\nEmpowering Rift: Restores 25 HP every 1.4 seconds.\n\nEnemies killed within its Draining Field grant Class Ability Energy based on their Enemy Rank:\nTier 1 Combatant = 10% | T2 = 15% | T3 = 20% | T4+ = 50% | Guardian = 33.4%",
     "hash": 2321824287,
     "parentHash": "2321824287",
     "descriptions": {
@@ -7066,6 +7743,18 @@
             {
               "text": "] seconds every 0.7 seconds for up to 9.25 seconds to enemies within 10 meters."
             }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "After ? seconds of projecting the Draining Field, it additionally suppresses."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -7538,6 +8227,110 @@
           "linesContent": [
             {
               "text": "Tier 1 Combatant = 15% | T2 = 23.2% | T3 = 27.5% | T4 = 40% | Guardians = 40%"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Class": "Warlock",
+    "Type": "Aspect",
+    "Name": "Soul Siphon",
+    "Description": "On Powered Melee Hit:\nReplaces Melee Ability with Soul Siphon for 20 seconds.\n\nOn Soul Siphon Usage:\nTethers up to 4 enemies within 25? meters, dealing increasingly higher Melee Damage every ? seconds over ? seconds.\nGrants +? Void Overshield and ?% Class Ability Energy per enemy per tick.\n\nSoul Siphon Damage???:\n2 | 11 | ~32 | ~90",
+    "hash": 2321824286,
+    "parentHash": "2321824286",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Powered Melee Hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Replaces Melee Ability with "
+            },
+            {
+              "text": "Soul Siphon",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 20 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Soul Siphon",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Usage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Tethers up to 4 enemies within 25? meters, dealing increasingly higher Melee Damage every ? seconds over ? seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants +? "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " and ?% Class Ability Energy per enemy per tick."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Soul Siphon",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Damage???:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2 | 11 | ~32 | ~90"
             }
           ]
         }

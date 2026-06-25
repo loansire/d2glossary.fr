@@ -1,107 +1,53 @@
 [
   {
-    "Name": "Calm Amidst Chaos",
-    "Description": "After not receiving damage for 5 ↑4 seconds:\n+35? Handling, 0.75?x ADS Duration Multiplier, and ?% Flinch Resist until the next shot is fired.",
-    "hash": 2363538324,
-    "parentHash": "2363538324",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Whirlwind Blade",
+    "Description": "On Powered Sword Hit:\n3% | 6% | 9% | 12% | 15% | 18% | 21% | 24% | 27% | 30% Increased damage for 3.5 ↑4 seconds.\nAdditional Powered Sword Hits refresh the buff duration.\nBlocking or stowing removes all stacks.\n\n↑Buff duration is increased to 4 seconds.",
+    "hash": 3913600130,
+    "parentHash": "3913600130",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Calm Amidst Chaos",
-    "Description": "After not receiving damage for 5 ↑4 seconds:\n+35? Handling, 0.75?x ADS Duration Multiplier, and ?% Flinch Resist until the next shot is fired.",
-    "hash": 3176795734,
-    "parentHash": "3176795734",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Whirlwind Blade",
+    "Description": "On Powered Sword Hit:\n3% | 6% | 9% | 12% | 15% | 18% | 21% | 24% | 27% | 30% Increased damage for 3.5 ↑4 seconds.\nAdditional Powered Sword Hits refresh the buff duration.\nBlocking or stowing removes all stacks.\n\n↑Buff duration is increased to 4 seconds.",
+    "hash": 147913470,
+    "parentHash": "147913470",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Calm Amidst Chaos",
-    "Description": "After not receiving damage for 5 ↑4 seconds:\n+35? Handling, 0.75?x ADS Duration Multiplier, and ?% Flinch Resist until the next shot is fired.",
-    "hash": 3481749002,
-    "parentHash": "3481749002",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Withering Gaze",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "hash": 1134488199,
+    "parentHash": "1134488199",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Kill Shot",
-    "Description": "Upon finishing a reload within 5 seconds of a kill:\nThe impact from the first shot fired deals an additional instance of 230 ↑250 [10 ↑12] Weapon-Matching Splash Damage over ~2 meters, removing Combatant Shields on hit.\n Also removes Barrier Champion's Barrier Shield, even with a different Breaker Effect active. Ignores Bane Damage Resist. Does NOT remove Ablative Shields. \nSplash Damage is not affected by Weapon Damage Increases, Power Delta, or Combatant Scalars, but does count as Weapon Damage.\nBuff persists through stow. Can be triggered multiple times from a single kill. Removes SOME immune shields :)\n\nPicking up a Special/Power Ammo Bricks grants Kill Shot to all weapons with the mod equipped.",
-    "hash": 2363538327,
-    "parentHash": "2363538327",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Withering Gaze",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "hash": 2904194311,
+    "parentHash": "2904194311",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Kill Shot",
-    "Description": "Upon finishing a reload within 5 seconds of a kill:\nThe impact from the first shot fired deals an additional instance of 230 ↑250 [10 ↑12] Weapon-Matching Splash Damage over ~2 meters, removing Combatant Shields on hit.\n Also removes Barrier Champion's Barrier Shield, even with a different Breaker Effect active. Ignores Bane Damage Resist. Does NOT remove Ablative Shields. \nSplash Damage is not affected by Weapon Damage Increases, Power Delta, or Combatant Scalars, but does count as Weapon Damage.\nBuff persists through stow. Can be triggered multiple times from a single kill. Removes SOME immune shields :)\n\nPicking up a Special/Power Ammo Bricks grants Kill Shot to all weapons with the mod equipped.",
-    "hash": 3176795733,
-    "parentHash": "3176795733",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Zen Moment",
+    "Description": "On Hit:\n Grants ?% Flinch Resist, -15?% Visual Weapon Shake and -15?% Reticle Bounce per stack for 1 second, up to 5? stacks. \nHas no effect on actual recoil/camera movement, despite the in-game perk description.\n\nPulse Rifles and Sidearms grant 1.5x as many stacks per hit, only needing ? hits to be at maximum effect.\n Hand Cannons and Scout Rifles grant 2x as many stacks per hit, only needing ? hits to be at maximum effect.\n\n↑Passively grants +5 Stability.",
+    "hash": 2387244414,
+    "parentHash": "2387244414",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Kill Shot",
-    "Description": "Upon finishing a reload within 5 seconds of a kill:\nThe impact from the first shot fired deals an additional instance of 230 ↑250 [10 ↑12] Weapon-Matching Splash Damage over ~2 meters, removing Combatant Shields on hit.\n Also removes Barrier Champion's Barrier Shield, even with a different Breaker Effect active. Ignores Bane Damage Resist. Does NOT remove Ablative Shields. \nSplash Damage is not affected by Weapon Damage Increases, Power Delta, or Combatant Scalars, but does count as Weapon Damage.\nBuff persists through stow. Can be triggered multiple times from a single kill. Removes SOME immune shields :)\n\nPicking up a Special/Power Ammo Bricks grants Kill Shot to all weapons with the mod equipped.",
-    "hash": 4043176609,
-    "parentHash": "4043176609",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Zen Moment",
+    "Description": "On Hit:\n Grants ?% Flinch Resist, -15?% Visual Weapon Shake and -15?% Reticle Bounce per stack for 1 second, up to 5? stacks. \nHas no effect on actual recoil/camera movement, despite the in-game perk description.\n\nPulse Rifles and Sidearms grant 1.5x as many stacks per hit, only needing ? hits to be at maximum effect.\n Hand Cannons and Scout Rifles grant 2x as many stacks per hit, only needing ? hits to be at maximum effect.\n\n↑Passively grants +5 Stability.",
+    "hash": 1748774930,
+    "parentHash": "1748774930",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Opening Salvo",
-    "Description": "After not receiving damage for 5 seconds:\nGrants Opening Salvo Ready until firing.\nOnce Opening Salvo expires, Opening Salvo Ready can be reobtained after 5 seconds of not receiving damage.\n\nOpening Salvo | +20 Range, ?% Increased Flinch, and damage staggers Unstoppable Champions for ? ↑4 seconds.\nStaggers Unstoppable Champions even while a different Breaker Effect is active.\nBoth buffs persist and remain active through stow.",
-    "hash": 2363538325,
-    "parentHash": "2363538325",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "For in-depth Damage Stacking info, check out Court's Modifier Database ",
+    "Description": "Reload Perk Notes:\n\nGenerate = Grants Ammo to Magazine out of thin air, up to its Base Magazine Size. Does not work with Overflown Magazines.\n\nOverflow = Increases Base Magazine Capacity by a certain amount, rounded up.\n\nRefill = Reload, but does not have an animation and doesn't proc on-reload perks. Pulls from reserves on Special and Power Weapons.\nFor Heat Weapons, it will instead be \"Dissipates X Heat\" to discern it from manual venting\n\nReload = Procs on-reload perks. Manual Reload, Marksman's Dodge, and Dragon's Shadow all count as regular reloads.\nFor Heat Weapons, finishing a manual vent will count as a regular reload.",
+    "hash_warning": "No matching hash found in d2glossary"
   },
   {
-    "Name": "Opening Salvo",
-    "Description": "After not receiving damage for 5 seconds:\nGrants Opening Salvo Ready until firing.\nOnce Opening Salvo expires, Opening Salvo Ready can be reobtained after 5 seconds of not receiving damage.\n\nOpening Salvo | +20 Range, ?% Increased Flinch, and damage staggers Unstoppable Champions for ? ↑4 seconds.\nStaggers Unstoppable Champions even while a different Breaker Effect is active.\nBoth buffs persist and remain active through stow.",
-    "hash": 3176795735,
-    "parentHash": "3176795735",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Opening Salvo",
-    "Description": "After not receiving damage for 5 seconds:\nGrants Opening Salvo Ready until firing.\nOnce Opening Salvo expires, Opening Salvo Ready can be reobtained after 5 seconds of not receiving damage.\n\nOpening Salvo | +20 Range, ?% Increased Flinch, and damage staggers Unstoppable Champions for ? ↑4 seconds.\nStaggers Unstoppable Champions even while a different Breaker Effect is active.\nBoth buffs persist and remain active through stow.",
-    "hash": 1254077559,
-    "parentHash": "1254077559",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Overpressured Munitions",
-    "Description": "Passively deals ?15 ↑17% increased damage towards Cabal Combatants.",
-    "hash": 2363538323,
-    "parentHash": "2363538323",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Overpressured Munitions",
-    "Description": "Passively deals ?15 ↑17% increased damage towards Cabal Combatants.",
-    "hash": 3176795729,
-    "parentHash": "3176795729",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Overpressured Munitions",
-    "Description": "Passively deals ?15 ↑17% increased damage towards Cabal Combatants.",
-    "hash": 3890581141,
-    "parentHash": "3890581141",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Stay in the Fight",
-    "Description": "While at Critical Health:\n+? Stability and +? Ammo Generation.\nBuff lingers for 6 ↑7 seconds after regenerating Shields.",
-    "hash": 2363538326,
-    "parentHash": "2363538326",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Stay in the Fight",
-    "Description": "While at Critical Health:\n+? Stability and +? Ammo Generation.\nBuff lingers for 6 ↑7 seconds after regenerating Shields.",
-    "hash": 3176795732,
-    "parentHash": "3176795732",
-    "hash_warning": "Multiple matches found (3 total)"
-  },
-  {
-    "Name": "Stay in the Fight",
-    "Description": "While at Critical Health:\n+? Stability and +? Ammo Generation.\nBuff lingers for 6 ↑7 seconds after regenerating Shields.",
-    "hash": 3804466364,
-    "parentHash": "3804466364",
-    "hash_warning": "Multiple matches found (3 total)"
+    "Name": "Weapon Mods",
+    "hash_warning": "No matching hash found in d2glossary"
   }
 ]

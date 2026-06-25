@@ -57,7 +57,7 @@
   },
   {
     "Name": "Firesprite",
-    "Description": "Solar Elemental Pickup.\n\nGrants 12.5% Grenade Ability Energy on Pickup. Allies do not receive Firesprites created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Firesprite spawns.",
+    "Description": "Solar Elemental Pickup\n\nGrants 12.5% Grenade Ability Energy on Pickup. Allies do not receive Firesprites created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Firesprite spawns.",
     "hash": 37177486,
     "parentHash": "37177486",
     "descriptions": {
@@ -71,7 +71,7 @@
               ]
             },
             {
-              "text": " Elemental Pickup."
+              "text": " Elemental Pickup"
             }
           ]
         },
@@ -117,7 +117,7 @@
   },
   {
     "Name": "Radiant",
-    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nBarrier Champion Shields are damageable while Radiant, stunning the Champion once destroyed.",
+    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nDeal 10% increased Weapon Damage against Champions while Radiant is active.",
     "hash": 157469667,
     "parentHash": "157469667",
     "descriptions": {
@@ -183,13 +183,7 @@
         {
           "linesContent": [
             {
-              "text": "Barrier Champion",
-              "classNames": [
-                "barrier"
-              ]
-            },
-            {
-              "text": " Shields are damageable while "
+              "text": "Deal 10% increased Weapon Damage against Champions while "
             },
             {
               "text": "Radiant",
@@ -198,7 +192,7 @@
               ]
             },
             {
-              "text": ", stunning the Champion once destroyed."
+              "text": " is active."
             }
           ]
         }
