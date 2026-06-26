@@ -121,7 +121,7 @@
   },
   {
     "Name": "Between Poles",
-    "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
+    "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
     "Comment": "Prophecy\nDungeon",
     "SetName": "CODA",
     "PieceRequirement": "2 Piece",
@@ -390,12 +390,14 @@
     "parentName": "First Ascent"
   },
   {
-    "Name": "Burn 'Em Up",
+    "Name": "Burn 'Em Down",
     "Description": "On Prismatic Grenade Ability Usage while Transcendent:\nConsumes all stacks of Stack 'Em Up to grant ~6% Prismatic Grenade Energy per stack\n6% | 12% | 18% | 24% | 30% Prismatic Grenade Energy.",
     "Comment": "Pale Heart\nDestination",
     "SetName": "First Ascent",
     "PieceRequirement": "4 Piece",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3004427455,
+    "parentHash": "1625535837",
+    "parentName": "First Ascent"
   },
   {
     "Name": "Sinew Stitching",
@@ -659,7 +661,7 @@
   },
   {
     "Name": "Primary Chain",
-    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of ? stacks.\n\nPrimary Chain grants +? Mobility, as well as +? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +? Range, and +? Handling.",
+    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain grants +? Mobility, as well as +5? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +15 Range, and +? Handling.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "2 Piece",
@@ -669,7 +671,7 @@
   },
   {
     "Name": "Sublime Transit",
-    "Description": "Passively grants +? Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
+    "Description": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "4 Piece",

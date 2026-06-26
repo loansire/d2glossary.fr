@@ -902,9 +902,18 @@
       "hash_warning": "Multiple matches found (2 total)"
     },
     {
-      "Name": "Dimensional Breach",
+      "Name": "Dimensional Shift",
       "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
-      "hash_warning": "No matching hash found in d2glossary"
+      "hash": 3182497402,
+      "parentHash": "3182497402",
+      "hash_warning": "Multiple matches found (2 total)"
+    },
+    {
+      "Name": "Dimensional Shift",
+      "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
+      "hash": 1767911158,
+      "parentHash": "1767911158",
+      "hash_warning": "Multiple matches found (2 total)"
     },
     {
       "Name": "Discord",
@@ -9072,7 +9081,7 @@
     },
     {
       "Name": "Between Poles",
-      "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
+      "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
       "Comment": "Prophecy\nDungeon",
       "SetName": "CODA",
       "PieceRequirement": "2 Piece",
@@ -9341,12 +9350,14 @@
       "parentName": "First Ascent"
     },
     {
-      "Name": "Burn 'Em Up",
+      "Name": "Burn 'Em Down",
       "Description": "On Prismatic Grenade Ability Usage while Transcendent:\nConsumes all stacks of Stack 'Em Up to grant ~6% Prismatic Grenade Energy per stack\n6% | 12% | 18% | 24% | 30% Prismatic Grenade Energy.",
       "Comment": "Pale Heart\nDestination",
       "SetName": "First Ascent",
       "PieceRequirement": "4 Piece",
-      "hash_warning": "No matching hash found in d2glossary"
+      "hash": 3004427455,
+      "parentHash": "1625535837",
+      "parentName": "First Ascent"
     },
     {
       "Name": "Sinew Stitching",
@@ -9610,7 +9621,7 @@
     },
     {
       "Name": "Primary Chain",
-      "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of ? stacks.\n\nPrimary Chain grants +? Mobility, as well as +? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +? Range, and +? Handling.",
+      "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain grants +? Mobility, as well as +5? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +15 Range, and +? Handling.",
       "Comment": "Competitive \nCrucible",
       "SetName": "Per Audacia",
       "PieceRequirement": "2 Piece",
@@ -9620,7 +9631,7 @@
     },
     {
       "Name": "Sublime Transit",
-      "Description": "Passively grants +? Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
+      "Description": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
       "Comment": "Competitive \nCrucible",
       "SetName": "Per Audacia",
       "PieceRequirement": "4 Piece",
@@ -11368,7 +11379,7 @@
       "Class": "General",
       "Type": "Grenade",
       "Name": "Arcbolt Grenade",
-      "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 8 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 8 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
+      "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 12 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 10 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
       "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
       "hash": 1582574009,
       "parentHash": "1582574009",
@@ -11378,7 +11389,7 @@
       "Class": "General",
       "Type": "Grenade",
       "Name": "Arcbolt Grenade",
-      "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 8 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 8 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
+      "Description": "Heavy Trajectory | Scan\n\nScans and targets the closest enemy in Line of Sight within 12 meters upon impact, releasing Arc Lightning towards them after 1 second.\nAfter dealing damage, it chains to the closest enemy within 10 meters that hasn't been hit by Arc Lightning, repeating until it has damaged a maximum of 4 enemies.\n\nArc Lightning deals 521 [85] damage.",
       "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!",
       "hash": 3897682694,
       "parentHash": "3897682694",
@@ -11490,7 +11501,7 @@
       "Class": "Hunter",
       "Type": "Super",
       "Name": "Arc Staff",
-      "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nKills grant x? Bolt Charge.\n\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy.",
+      "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nKills grant x1 Bolt Charge.\nw\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy.",
       "hash": 3769507633,
       "parentHash": "3769507633"
     },
@@ -12164,7 +12175,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Lightweight Knife",
-      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly throws a Lightweight Knife that travels at a speed of 40m/s.\n\nScoring a Precision Hit grants Radiant for 10 seconds.\n\nLightweight Knife deals 408 [100] damage with a 1.5x Precision Multiplier.",
+      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly throws a Lightweight Knife that travels at a speed of 40m/s.\n\nPrecision Hits grant Radiant for 10 seconds.\n\nLightweight Knife deals 408 [100] damage with a 1.5x Precision Multiplier.",
       "hash": 4016776974,
       "parentHash": "4016776974"
     },
@@ -12172,7 +12183,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Proximity Explosive Knife",
-      "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 249 [20] impact damage with a 1.3x Precision Multiplier, and up to 384 [100] detonation damage over 6 meters.",
+      "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 306 [20] impact damage with a 1.3x Precision Multiplier, and up to 405 [100] detonation damage over 6 meters.",
       "hash": 4016776973,
       "parentHash": "4016776973"
     },
@@ -12180,7 +12191,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Weighted Throwing Knife",
-      "Description": "Weighted Knife that requires a 0.65 second wind-up before throwing. Animation takes 1.55 seconds to complete.\n\nScoring a Precision Kill grants 100% Fixed Class Ability.\nScoring a hit against a Scorched enemy causes an ignition.\n\nWeighted Knife deals 571 [140] damage with a 1.5x Precision Multiplier.",
+      "Description": "Weighted Knife that requires a 0.65 second wind-up before throwing. Animation takes 1.55 seconds to complete.\n\nScoring a Precision Kill grant a Class Ability Charge.\nScoring a hit against a Scorched enemy causes an ignition.\n\nWeighted Knife deals 571 [140] damage with a 1.5x Precision Multiplier.",
       "hash": 4016776975,
       "parentHash": "4016776975"
     },
@@ -13417,7 +13428,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Withering Blade",
-      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies. Shurikens are able to ricochet up to 3 times off of surfaces or enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 325 [72] damage and apply x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
+      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies.\nShurikens are able to ricochet up to 3 times off of surfaces or towards up to 4 enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 296 [72] damage and inflict x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
       "hash": 1341767667,
       "parentHash": "1341767667",
       "hash_warning": "Multiple matches found (2 total)"
@@ -13426,7 +13437,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Withering Blade",
-      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies. Shurikens are able to ricochet up to 3 times off of surfaces or enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 325 [72] damage and apply x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
+      "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies.\nShurikens are able to ricochet up to 3 times off of surfaces or towards up to 4 enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 296 [72] damage and inflict x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
       "hash": 2657901006,
       "parentHash": "2657901006",
       "hash_warning": "Multiple matches found (2 total)"
@@ -13930,7 +13941,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Threaded Spike",
-      "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained and grants Woven Mail for a duration.\n\nHits | Melee % | Caught % | Woven Mail Duration\n0 | 5% | 20% | ?s\n1 | 10% | 30% | ?s\n2 | 20% | 50% | ?s\n3 | 30% | 70% | ?s\n4 | 35% | 85% | ?s\n5+ | 40% | 100% | ?s",
+      "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 427 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained.\nCatching the Threaded Spike grants Woven Mail for 2 seconds for each kill it scores, up to a maximum of 10 seconds.\n\nHits | Melee % | Caught %\n0 | 5% | 20% \n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
       "hash": 1680616210,
       "parentHash": "1680616210",
       "hash_warning": "Multiple matches found (2 total)"
@@ -13939,7 +13950,7 @@
       "Class": "Hunter",
       "Type": "Melee",
       "Name": "Threaded Spike",
-      "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained and grants Woven Mail for a duration.\n\nHits | Melee % | Caught % | Woven Mail Duration\n0 | 5% | 20% | ?s\n1 | 10% | 30% | ?s\n2 | 20% | 50% | ?s\n3 | 30% | 70% | ?s\n4 | 35% | 85% | ?s\n5+ | 40% | 100% | ?s",
+      "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 427 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained.\nCatching the Threaded Spike grants Woven Mail for 2 seconds for each kill it scores, up to a maximum of 10 seconds.\n\nHits | Melee % | Caught %\n0 | 5% | 20% \n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%",
       "hash": 2657901002,
       "parentHash": "2657901002",
       "hash_warning": "Multiple matches found (2 total)"
@@ -14008,7 +14019,7 @@
       "Class": "Titan",
       "Type": "Melee",
       "Name": "Frenzied Blade",
-      "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed for ? [?] seconds.",
+      "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed.",
       "hash": 4094417246,
       "parentHash": "4094417246",
       "hash_warning": "Multiple matches found (2 total)"
@@ -14017,7 +14028,7 @@
       "Class": "Titan",
       "Type": "Melee",
       "Name": "Frenzied Blade",
-      "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed for ? [?] seconds.",
+      "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed.",
       "hash": 1980796564,
       "parentHash": "1980796564",
       "hash_warning": "Multiple matches found (2 total)"

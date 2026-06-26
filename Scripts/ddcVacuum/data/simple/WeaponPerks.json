@@ -256,7 +256,7 @@
     "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing up to 250 [100] Element-Matching Damage over 8 meters.\n\n↑Triggers in 20 hits."
   },
   {
-    "Name": "Dimensional Breach",
+    "Name": "Dimensional Shift",
     "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill."
   },
   {

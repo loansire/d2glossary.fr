@@ -236,7 +236,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Withering Blade",
-    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies. Shurikens are able to ricochet up to 3 times off of surfaces or enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 325 [72] damage and apply x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
+    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies.\nShurikens are able to ricochet up to 3 times off of surfaces or towards up to 4 enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 296 [72] damage and inflict x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
     "hash": 1341767667,
     "parentHash": "1341767667",
     "hash_warning": "Multiple matches found (2 total)"
@@ -245,7 +245,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Withering Blade",
-    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies. Shurikens are able to ricochet up to 3 times off of surfaces or enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 325 [72] damage and apply x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
+    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly tosses a Stasis Shuriken towards enemies.\nShurikens are able to ricochet up to 3 times off of surfaces or towards up to 4 enemies, tracking towards enemies within 12 [8] meters.\n\nWithering Blades deal 296 [72] damage and inflict x60 [x40] Slow for 3.5+3.5 [1.5+0.5] seconds on hit.",
     "hash": 2657901006,
     "parentHash": "2657901006",
     "hash_warning": "Multiple matches found (2 total)"

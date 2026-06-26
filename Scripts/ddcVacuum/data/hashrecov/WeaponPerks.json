@@ -901,9 +901,18 @@
     "hash_warning": "Multiple matches found (2 total)"
   },
   {
-    "Name": "Dimensional Breach",
+    "Name": "Dimensional Shift",
     "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
-    "hash_warning": "No matching hash found in d2glossary"
+    "hash": 3182497402,
+    "parentHash": "3182497402",
+    "hash_warning": "Multiple matches found (2 total)"
+  },
+  {
+    "Name": "Dimensional Shift",
+    "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
+    "hash": 1767911158,
+    "parentHash": "1767911158",
+    "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Discord",

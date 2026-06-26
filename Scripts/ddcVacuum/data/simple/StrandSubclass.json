@@ -159,7 +159,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Threaded Spike",
-    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 394 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained and grants Woven Mail for a duration.\n\nHits | Melee % | Caught % | Woven Mail Duration\n0 | 5% | 20% | ?s\n1 | 10% | 30% | ?s\n2 | 20% | 50% | ?s\n3 | 30% | 70% | ?s\n4 | 35% | 85% | ?s\n5+ | 40% | 100% | ?s"
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 427 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained.\nCatching the Threaded Spike grants Woven Mail for 2 seconds for each kill it scores, up to a maximum of 10 seconds.\n\nHits | Melee % | Caught %\n0 | 5% | 20% \n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%"
   },
   {
     "Class": "Hunter",
@@ -195,7 +195,7 @@
     "Class": "Titan",
     "Type": "Melee",
     "Name": "Frenzied Blade",
-    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed for ? [?] seconds."
+    "Description": "Innately has 3 Melee Ability Charges.\n0 Charges = 1.15x Regeneration Speed | 1 Charge = 1.55x Regeneration Speed | 2 Charges = 1.95x Regeneration Speed.\nOn Prismatic: Penalized with an additional 0.7x Regeneration Speed\n\nPerforms a dash, moving forward ? metres and slashing towards enemies, dealing 569 [105] damage and inflicting severed."
   },
   {
     "Class": "Titan",

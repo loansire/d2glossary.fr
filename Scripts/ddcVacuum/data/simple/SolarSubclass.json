@@ -201,19 +201,19 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Lightweight Knife",
-    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly throws a Lightweight Knife that travels at a speed of 40m/s.\n\nScoring a Precision Hit grants Radiant for 10 seconds.\n\nLightweight Knife deals 408 [100] damage with a 1.5x Precision Multiplier."
+    "Description": "Innately has 2 Melee Ability Charges.\n\nQuickly throws a Lightweight Knife that travels at a speed of 40m/s.\n\nPrecision Hits grant Radiant for 10 seconds.\n\nLightweight Knife deals 408 [100] damage with a 1.5x Precision Multiplier."
   },
   {
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Proximity Explosive Knife",
-    "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 249 [20] impact damage with a 1.3x Precision Multiplier, and up to 384 [100] detonation damage over 6 meters."
+    "Description": "Quickly throws an Explosive Knife that is able to stick to surfaces for up to 14 seconds.\n\nProximity Knife explodes upon detecting an enemy within 5 meters of it, or upon directly sticking to an enemy.\n\nExplody Knife deals 306 [20] impact damage with a 1.3x Precision Multiplier, and up to 405 [100] detonation damage over 6 meters."
   },
   {
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Weighted Throwing Knife",
-    "Description": "Weighted Knife that requires a 0.65 second wind-up before throwing. Animation takes 1.55 seconds to complete.\n\nScoring a Precision Kill grants 100% Fixed Class Ability.\nScoring a hit against a Scorched enemy causes an ignition.\n\nWeighted Knife deals 571 [140] damage with a 1.5x Precision Multiplier."
+    "Description": "Weighted Knife that requires a 0.65 second wind-up before throwing. Animation takes 1.55 seconds to complete.\n\nScoring a Precision Kill grant a Class Ability Charge.\nScoring a hit against a Scorched enemy causes an ignition.\n\nWeighted Knife deals 571 [140] damage with a 1.5x Precision Multiplier."
   },
   {
     "Class": "Hunter",

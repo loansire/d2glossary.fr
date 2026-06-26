@@ -13723,9 +13723,11 @@
     }
   },
   {
-    "Name": "Dimensional Breach",
+    "Name": "Dimensional Shift",
     "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
-    "hash_warning": "No matching hash found in d2glossary",
+    "hash": 3182497402,
+    "parentHash": "3182497402",
+    "hash_warning": "Multiple matches found (2 total)",
     "descriptions": {
       "en": [
         {
@@ -13747,16 +13749,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants "
-            },
-            {
-              "text": "Dimensional Breach",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " until the next Weapon Kill."
+              "text": "Grants Dimensional Breach until the next Weapon Kill."
             }
           ]
         },
@@ -13775,16 +13768,107 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Weapon Kill while "
+              "text": "Upon scoring a Weapon Kill while Dimensional Breach is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapon Kills grants 22.5 "
             },
             {
-              "text": "Dimensional Breach",
+              "text": "↑25",
               "classNames": [
-                "perkname"
+                "enhancedArrow"
               ]
             },
             {
-              "text": " is active:"
+              "text": " "
+            },
+            {
+              "text": "Void Overshield",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 8+4 seconds for the next 5? seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapon Kills extend the buff duration to 5 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Increased Void Overshield on Kill.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Dimensional Shift",
+    "Description": "On Void Breach Pickup:\nGrants Dimensional Breach until the next Weapon Kill.\nCan be triggered and persists through stow.\n\nUpon scoring a Weapon Kill while Dimensional Breach is active:\nWeapon Kills grants 22.5 ↑25 Void Overshield for 8+4 seconds for the next 5? seconds.\nAdditional Weapon Kills extend the buff duration to 5 seconds.\n\n↑Increased Void Overshield on Kill.",
+    "hash": 1767911158,
+    "parentHash": "1767911158",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On "
+            },
+            {
+              "text": "Void Breach",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " Pickup:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants Dimensional Breach until the next Weapon Kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can be triggered and persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a Weapon Kill while Dimensional Breach is active:"
             }
           ]
         },
