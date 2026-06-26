@@ -10,7 +10,7 @@ import re
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from Utils.paths import (
-    SUPPORTED_LANGUAGES, get_localized_path, get_relative_path,
+    SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, get_localized_path, get_relative_path,
     SETARMOR_DEFINITIONS_FILE, SANDBOXPERK_DEFINITIONS_FILE,
     ITEM_DEFINITIONS_FILE, ARTEFACT_DEFINITIONS_FILE,
     SETARMOR_ENRICHED_FILE, ARTEFACT_ENRICHED_FILE,
@@ -46,6 +46,56 @@ SOURCE_MANUAL_MAP = {
     "Équilibre": "Donjon « Équilibre »",
     "Raid Orée du Salut": "Raid « Orée du Salut »",
 }
+
+# Override manuel de source PAR SET (clé = set_id du JSON enrichi).
+# Prioritaire sur la détection automatique : remplit les `source: null`
+# ET écrase une source existante si besoin.
+# Valeur : soit une string (commune à toutes les langues),
+#          soit un dict {"fr": ..., "en": ...} (fallback sur DEFAULT_LANGUAGE).
+# Une valeur vide ("") ou absente est ignorée → comportement automatique conservé.
+SOURCE_SET_OVERRIDE = {
+    "239346083":  {"fr": "Zavala", "en": "Zavala"},
+    "3252452908": {"fr": "Shaxx", "en": "Shaxx"},
+    "1083114430": {"fr": "Zavala", "en": "Zavala"},
+    "2751989785": {"fr": "Zavala", "en": "Zavala"},
+    "2947197258": {"fr": "Shaxx", "en": "Shaxx"},
+    "3734029045": {"fr": "Zavala", "en": "Zavala"},
+    "2258577662": {"fr": "Shaxx", "en": "Shaxx"},
+    "2391762223": {"fr": "Zavala", "en": "Zavala"},
+    "499993704":  {"fr": "Zavala // Opération Solo/Escouade", "en": "Zavala // Solo/FireTeam ops"},
+    "50540439":   {"fr": "Shaxx/Zavala", "en": "Shaxx/Zavala"},
+    "2461275960": {"fr": "Zavala // Opération en Arène/Prestige", "en": "Zavala // Arena/Pinnacle ops"},
+    "222121557":  {"fr": "Exploration du Cosmodrome", "en": "Exploring Cosmodrome"},
+    "2554324129": {"fr": "Exploration de la ZME", "en": "Exploring EDZ"},
+    "3120219904": {"fr": "Exploration de Nessos", "en": "Exploring Nessus"},
+    "428813981":  {"fr": "Exploration de la Cité des Rêves", "en": "Exploring Dreaming city"},
+    "2250480800": {"fr": "Exploration de la Lune", "en": "Exploring Moon"},
+    "3090557911": {"fr": "Exploration de Europe", "en": "Exploring Europa"},
+    "2481896422": {"fr": "Exploration du Monde Trône de Savathûn", "en": "Exploring Court of Savathûn"},
+    "3283637820": {"fr": "Exploration de Neomuna", "en": "Exploring Neomuna"},
+    "1625535837": {"fr": "Exploration du Coeur Pâle", "en": "Exploring Pale heart"},
+}
+
+
+def _resolve_set_override(set_id, lang):
+    """
+    Retourne la source override pour un set/langue, ou None si absente/vide.
+
+    - String : valeur commune à toutes les langues.
+    - Dict : on prend la langue demandée, puis fallback DEFAULT_LANGUAGE.
+    - Vide ("" ou None) : ignoré (None retourné) → détection auto conservée.
+    """
+    override = SOURCE_SET_OVERRIDE.get(str(set_id))
+    if override is None:
+        return None
+
+    if isinstance(override, dict):
+        value = override.get(lang) or override.get(DEFAULT_LANGUAGE)
+    else:
+        value = override  # string commune
+
+    value = (value or "").strip()
+    return value or None
 
 
 def _normalize_for_compare(text):
@@ -179,7 +229,7 @@ def save_json(data, file_path):
 # ENRICHISSEMENT
 # =============================================================================
 
-def enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data):
+def enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data, lang):
     """Enrichit les données des sets d'armure"""
     for set_id, set_info in setarmor_data.items():
 
@@ -218,6 +268,12 @@ def enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data
                     })
             set_info["setItems"] = enriched_items
             set_info["source"] = set_source           # source du set (peut être None)
+
+        # Override manuel par set (prioritaire) : écrase l'auto / remplit le null.
+        # Une valeur vide dans SOURCE_SET_OVERRIDE est ignorée (retourne None).
+        override = _resolve_set_override(set_id, lang)
+        if override is not None:
+            set_info["source"] = override
 
     return setarmor_data
 
@@ -295,7 +351,7 @@ def enrich_for_language(lang):
 
     # Enrichir les sets d'armure
     print(f"⚙️  [{lang.upper()}] Enrichissement des sets d'armure...")
-    enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data)
+    enriched_setarmor = enrich_setarmor(setarmor_data, sandboxperk_data, item_data, collectible_data, lang)
 
     output_path = get_localized_path(SETARMOR_ENRICHED_FILE, lang)
     if save_json(enriched_setarmor, output_path):
