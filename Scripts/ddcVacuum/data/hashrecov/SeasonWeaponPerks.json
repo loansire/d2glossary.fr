@@ -1,28 +1,14 @@
 [
   {
-    "Name": "Whirlwind Blade",
-    "Description": "On Powered Sword Hit:\n3% | 6% | 9% | 12% | 15% | 18% | 21% | 24% | 27% | 30% Increased damage for 3.5 ↑4 seconds.\nAdditional Powered Sword Hits refresh the buff duration.\nBlocking or stowing removes all stacks.\n\n↑Buff duration is increased to 4 seconds.",
-    "hash": 3913600130,
-    "parentHash": "3913600130",
-    "hash_warning": "Multiple matches found (2 total)"
-  },
-  {
-    "Name": "Whirlwind Blade",
-    "Description": "On Powered Sword Hit:\n3% | 6% | 9% | 12% | 15% | 18% | 21% | 24% | 27% | 30% Increased damage for 3.5 ↑4 seconds.\nAdditional Powered Sword Hits refresh the buff duration.\nBlocking or stowing removes all stacks.\n\n↑Buff duration is increased to 4 seconds.",
-    "hash": 147913470,
-    "parentHash": "147913470",
-    "hash_warning": "Multiple matches found (2 total)"
-  },
-  {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
     "hash": 1134488199,
     "parentHash": "1134488199",
     "hash_warning": "Multiple matches found (2 total)"
   },
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\n\n↑Activation timer is decreased to 1.4 seconds.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
     "hash": 2904194311,
     "parentHash": "2904194311",
     "hash_warning": "Multiple matches found (2 total)"
@@ -48,6 +34,10 @@
   },
   {
     "Name": "Weapon Mods",
+    "hash_warning": "No matching hash found in d2glossary"
+  },
+  {
+    "Name": "Seasonal Mods",
     "hash_warning": "No matching hash found in d2glossary"
   }
 ]

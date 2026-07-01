@@ -753,7 +753,7 @@
   },
   {
     "Name": "Arbalest",
-    "Description": "Special Ammo Kinetic Precision Linear Fusion Rifle\nIntrinsic Shield-Piercing Breaker.\n\nFires a single shield-piercing Precision Slug that deals 462 [132] Kinetic Damage with a 3.44x [4.3x] Precision Multiplier.\nShield-Piercing Slug instantly destroys Barrier Champion's Shield and Combatant Elemental Shields on hit.\n\nKinetic Vulnerability from Disruption Break applies to Arbalest.\n\n↑Catalyst:\nPassively grants +20 Handling, +1 Magazine Size (5 -> 6), and the Genesis trait.",
+    "Description": "Special Ammo Kinetic Precision Linear Fusion Rifle\n\nFires a single shield-piercing Precision Slug that deals 462 [132] Kinetic Damage with a 3.44x [4.3x] Precision Multiplier.\nShield-Piercing Slug instantly destroys Barrier Champion's Shield and Combatant Elemental Shields on hit.\n\nKinetic Vulnerability from Disruption Break applies to Arbalest.\n\n↑Catalyst:\nPassively grants +20 Handling, +1 Magazine Size (5 -> 6), and the Genesis trait.",
     "Type": "KineticExotics",
     "Comment": "Compouding Force\nDisruption Break\n↑Genesis",
     "hash": 2130065553,
@@ -785,13 +785,6 @@
               "classNames": [
                 "weapon-linear-fusion-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -1578,7 +1571,7 @@
   },
   {
     "Name": "Bastion",
-    "Description": "Kinetic Fusion Rifle\nIntrinsic Unstoppable Breaker.\n\nFires a 3-round burst of 7 pellets each.\nDeals 104 [31.2] damage per pellet x 7 = 728 [218.4] per burst x 3 = 2184 [655.2] damage per ammo spent.\n\nUpon scoring 18? pellets in a burst:\nGrants 300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
+    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 104 [31.2] damage per pellet x 7 = 728 [218.4] per burst x 3 = 2184 [655.2] damage per ammo spent.\n\nUpon scoring 18? pellets in a burst:\nGrants 300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
     "Type": "KineticExotics",
     "Comment": "Saint's Fists\nBreakthrough\n↑Cast No Shadows",
     "hash": 1602994569,
@@ -1602,13 +1595,6 @@
               "classNames": [
                 "weapon-fusion-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
             }
           ]
         },
@@ -1736,7 +1722,7 @@
   },
   {
     "Name": "Bastion",
-    "Description": "Kinetic Fusion Rifle\nIntrinsic Unstoppable Breaker.\n\nFires a 3-round burst of 7 pellets each.\nDeals 104 [31.2] damage per pellet x 7 = 728 [218.4] per burst x 3 = 2184 [655.2] damage per ammo spent.\n\nUpon scoring 18? pellets in a burst:\nGrants 300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
+    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 104 [31.2] damage per pellet x 7 = 728 [218.4] per burst x 3 = 2184 [655.2] damage per ammo spent.\n\nUpon scoring 18? pellets in a burst:\nGrants 300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
     "Type": "KineticExotics",
     "Comment": "Saint's Fists\nBreakthrough\n↑Cast No Shadows",
     "hash": 2415517654,
@@ -1760,13 +1746,6 @@
               "classNames": [
                 "weapon-fusion-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
             }
           ]
         },
@@ -2061,7 +2040,7 @@
   },
   {
     "Name": "The Chaperone",
-    "Description": "Kinetic Rapid-Fire Slug Shotgun\nGrants Lightweight Frame bonuses. Passively has 5% Increased Damage Falloff Distance.\n\nUpon scoring a Precision Kill, or 2 Precision Hits within ? seconds of each:\nGrants Roadborn for 10 seconds.\n\nRoadborn:\n22% Increased Precision Damage, +20 Stability, +40 Reload Speed, 0.75x Reload Duration Multiplier, 0.56x Handling Duration Multiplier, and 0.58x Fire Recovery Delay.\n10% Increased Damage Falloff Distance. Additive to Passive.\nScoring additional Precision Hits extends the buff duration by +3 seconds, up to 10? seconds.\n\n↑Catalyst: Grants the Triple Tap trait.",
+    "Description": "Kinetic Rapid-Fire Slug Shotgun\nGrants Lightweight Frame bonuses. Passively has 5% Increased Damage Falloff Distance.\n\nUpon scoring a Precision Kill, or 2 Precision Hits within ? seconds of each:\nGrants Roadborn for 10 seconds.\nBuff persists through stow.\n\nRoadborn:\n22% Increased Precision Damage, +20 Stability, +40 Reload Speed, 0.75x Reload Duration Multiplier, 0.56x Handling Duration Multiplier, and 0.58x Fire Recovery Delay.\n10% Increased Damage Falloff Distance. Additive to Passive.\nScoring additional Precision Hits extends the buff duration by +3 seconds, up to 10? seconds.\n\n↑Catalyst: Grants the Triple Tap trait.",
     "Type": "KineticExotics",
     "Comment": "Precision Slug\nThe Roadborn\n↑Triple Tap",
     "hash": 3413860062,
@@ -2110,6 +2089,13 @@
           "linesContent": [
             {
               "text": "Grants Roadborn for 10 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff persists through stow."
             }
           ]
         },
@@ -2166,7 +2152,7 @@
   },
   {
     "Name": "Conditional Finality",
-    "Description": "Stasis + Solar Aggressive Shotgun\nReloads both shells at once.\n Counts as a weapon for Harmonic Resonance, and benefits from the Handling and Reload Speed Increase from it.\n\nWhile Ammo = 2:\nDeals Stasis Damage. ▲ Pattern Spread. Intrinsic Overload Breaker.\n Scoring a hit with 10 out of the 12 pellets inflicts freeze.\nBenefits from Stasis Mods.\n\nWhile Ammo = 1 or 0:\nDeals Solar Damage. ⬤ Pattern Spread. Intrinsic Unstoppable Breaker.\nScoring a hit with 10 out of the 12 pellets triggers an ignition.\nBenefits from Solar Mods.\n\n↑Catalyst: Grants the Heal Clip and Rimestealer traits.",
+    "Description": "Stasis + Solar Aggressive Shotgun\nReloads both shells at once.\n Counts as a weapon for Harmonic Resonance, and benefits from the Handling and Reload Speed Increase from it.\n\nWhile Ammo = 2:\nDeals Stasis Damage. ▲ Pattern Spread.\nScoring a hit with 10 out of the 12 pellets inflicts freeze.\nBenefits from Stasis Mods.\n\nWhile Ammo = 1 or 0:\nDeals Solar Damage. ⬤ Pattern Spread.\nScoring a hit with 10 out of the 12 pellets triggers an ignition.\nBenefits from Solar Mods.\n\n↑Catalyst: Grants the Heal Clip and Rimestealer traits.",
     "Type": "KineticExotics",
     "Comment": "Split Decision \nParacausal Pellets\n↑Heal Clip\n↑Rimestealer",
     "hash": 3371017761,
@@ -2239,7 +2225,7 @@
               ]
             },
             {
-              "text": " Damage. ▲ Pattern Spread. Intrinsic Overload Breaker."
+              "text": " Damage. ▲ Pattern Spread."
             }
           ]
         },
@@ -2299,7 +2285,7 @@
               ]
             },
             {
-              "text": " Damage. ⬤ Pattern Spread. Intrinsic Unstoppable Breaker."
+              "text": " Damage. ⬤ Pattern Spread."
             }
           ]
         },
@@ -4324,7 +4310,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 2978016230,
@@ -4366,7 +4352,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -4392,14 +4378,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -4471,7 +4457,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 3229272315,
@@ -4513,7 +4499,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -4539,14 +4525,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -4618,7 +4604,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 2896466320,
@@ -4660,7 +4646,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -4686,14 +4672,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -4765,7 +4751,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 460724140,
@@ -4807,7 +4793,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -4833,14 +4819,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -4912,7 +4898,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 546372301,
@@ -4954,7 +4940,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -4980,14 +4966,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5059,7 +5045,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 2192598950,
@@ -5101,7 +5087,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5127,14 +5113,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5206,7 +5192,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 2257699986,
@@ -5248,7 +5234,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5274,14 +5260,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5353,7 +5339,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 2602176822,
@@ -5395,7 +5381,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5421,14 +5407,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5500,7 +5486,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 1718158916,
@@ -5542,7 +5528,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5568,14 +5554,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5647,7 +5633,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 1386238359,
@@ -5689,7 +5675,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5715,14 +5701,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5794,7 +5780,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 3536086285,
@@ -5836,7 +5822,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -5862,14 +5848,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -5941,7 +5927,7 @@
   },
   {
     "Name": "The Jade Rabbit",
-    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nNon-Precision Hits deal the same damage as a Precision Hit and consume a stack.\nGrants ?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
+    "Description": "Kinetic High-Impact Scout Rifle\n\nUpon scoring 3 Precision Hits within 2 seconds of each or a Precision Kill:\nRefills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks.\nFate of All Fools persists through stow.\n\nFate of All Fools:\nLanding a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit.\nGrants 100?% increased Firefly damage.\n\n↑Catalyst: Passively grants +30 Stability.\nHolding [Reload] consumes all Fate of All Fools stacks, granting a single Micro-Missile round that deals increased damage based on the number of stacks consumed.\nMicro-Missile deals up to ? [?] damage over ? meters initially, with each stack increasing its damage up to ? [?] damage at 15 stacks.\nCan also be used to rocket jump, weeeeeeeeeee!",
     "Type": "KineticExotics",
     "Comment": "The Fate of All Fools\nShoot To Loot\nFirefly",
     "hash": 3844694310,
@@ -5983,7 +5969,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 3 Ammo and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
+              "text": "Refills Magazine and grants 1 stack of Fate of All Fools, up to a maximum of 15 stacks."
             }
           ]
         },
@@ -6009,14 +5995,14 @@
         {
           "linesContent": [
             {
-              "text": "Non-Precision Hits deal the same damage as a Precision Hit and consume a stack."
+              "text": "Landing a Non-Precision Hit consumes a stack to make it deal the same damage as a Precision Hit."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants ?% increased Firefly damage."
+              "text": "Grants 100?% increased Firefly damage."
             }
           ]
         },
@@ -6453,7 +6439,7 @@
   },
   {
     "Name": "Malfeasance",
-    "Description": "Kinetic Precision Hand Cannon\nIntrinsic Unstoppable Breaker.\n\nHits embed Explosive Slugs on the enemy for 6 seconds. Slugs expire harmlessly individually.\nEmbedding 5 slugs on an enemy causes the slugs to explode, each dealing 216 [45] damage per slug and stunning Unstoppable Champions.\nEmbedded slugs also explode on death.\n\nDeals 25% Increased damage against Gambit Invaders and Taken Combatants.\nDeals 25% Increased damage against Combatants that are directly struck by Witherhoard's Blight.\n\n↑Catalyst:\nPassively grants +20 Range and the Vorpal Weapon trait.",
+    "Description": "Kinetic Precision Hand Cannon\n\nHits embed Explosive Slugs on the enemy for 6 seconds. Slugs expire harmlessly individually.\nEmbedding 5 slugs on an enemy causes the slugs to explode, each dealing 216 [45] damage per slug.\nEmbedded slugs also explode on death.\n\nDeals 25% Increased damage against Gambit Invaders and Taken Combatants.\nDeals 25% Increased damage against Combatants that are directly struck by Witherhoard's Blight.\n\n↑Catalyst:\nPassively grants +20 Range and the Vorpal Weapon trait.",
     "Type": "KineticExotics",
     "Comment": "Explosive Shadow\nTaken Predator\n↑Vorpal Weapon",
     "hash": 204878059,
@@ -6481,13 +6467,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -6511,16 +6490,7 @@
               ]
             },
             {
-              "text": "] damage per slug and stunning "
-            },
-            {
-              "text": "Unstoppable Champions",
-              "classNames": [
-                "unstoppable"
-              ]
-            },
-            {
-              "text": "."
+              "text": "] damage per slug."
             }
           ]
         },
@@ -6574,7 +6544,7 @@
   },
   {
     "Name": "Malfeasance",
-    "Description": "Kinetic Precision Hand Cannon\nIntrinsic Unstoppable Breaker.\n\nHits embed Explosive Slugs on the enemy for 6 seconds. Slugs expire harmlessly individually.\nEmbedding 5 slugs on an enemy causes the slugs to explode, each dealing 216 [45] damage per slug and stunning Unstoppable Champions.\nEmbedded slugs also explode on death.\n\nDeals 25% Increased damage against Gambit Invaders and Taken Combatants.\nDeals 25% Increased damage against Combatants that are directly struck by Witherhoard's Blight.\n\n↑Catalyst:\nPassively grants +20 Range and the Vorpal Weapon trait.",
+    "Description": "Kinetic Precision Hand Cannon\n\nHits embed Explosive Slugs on the enemy for 6 seconds. Slugs expire harmlessly individually.\nEmbedding 5 slugs on an enemy causes the slugs to explode, each dealing 216 [45] damage per slug.\nEmbedded slugs also explode on death.\n\nDeals 25% Increased damage against Gambit Invaders and Taken Combatants.\nDeals 25% Increased damage against Combatants that are directly struck by Witherhoard's Blight.\n\n↑Catalyst:\nPassively grants +20 Range and the Vorpal Weapon trait.",
     "Type": "KineticExotics",
     "Comment": "Explosive Shadow\nTaken Predator\n↑Vorpal Weapon",
     "hash": 3656769954,
@@ -6602,13 +6572,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -6632,16 +6595,7 @@
               ]
             },
             {
-              "text": "] damage per slug and stunning "
-            },
-            {
-              "text": "Unstoppable Champions",
-              "classNames": [
-                "unstoppable"
-              ]
-            },
-            {
-              "text": "."
+              "text": "] damage per slug."
             }
           ]
         },
@@ -7977,7 +7931,7 @@
   },
   {
     "Name": "No Time to Explain",
-    "Description": "Kinetic High-Impact Pulse Rifle.\n\nPrecision Hits and Hits against enemies affected by Stasis grant a stack of Rewind Again and refill 1 Ammo.\nReaching 10 stacks summons a Time-slip Portal for 9 seconds. Precision Hits refresh its duration by 1 second.\nRewind Again stacks persist through stow.\n\nTime-slip Portal:\n Shoots a burst of 3 bullets every 1.25 seconds towards enemies within 40 metres that are near the reticle.\nEach bullet deals 46.1 [10.2] damage, has no damage falloff, inherits No Time To Explain's Breaker-Type, and scales with Combatant Rank Multipliers.\nTime-slip Portal is removed on stow.\n\n↑Blast from the Side: \nTime-slip Portal burst delay is decreased to 0.85 seconds.",
+    "Description": "Kinetic High-Impact Pulse Rifle.\n\nPrecision Hits and Hits against enemies affected by Stasis grant a stack of Rewind Again and refill 1 Ammo.\nReaching 10 stacks summons a Time-slip Portal for 9 seconds. Precision Hits refresh its duration by 1 second.\nRewind Again stacks persist through stow.\n\nTime-slip Portal:\n Shoots a burst of 3 bullets every 1.25 seconds towards enemies within 40 metres that are near the reticle.\nEach bullet deals 46.1 [10.2] damage, has no damage falloff, inherits No Time To Explain's Shield-Piercing, and scales with Combatant Rank Multipliers.\nTime-slip Portal is removed on stow.\n\n↑Blast from the Side: \nTime-slip Portal burst delay is decreased to 0.85 seconds.",
     "Type": "KineticExotics",
     "Comment": "Rewind Again\nFeeding Frenzy\n↑Blast from the Side",
     "hash": 1594120904,
@@ -8081,7 +8035,7 @@
               ]
             },
             {
-              "text": "'s Breaker-Type, and scales with Combatant Rank Multipliers."
+              "text": "'s Shield-Piercing, and scales with Combatant Rank Multipliers."
             }
           ]
         },
@@ -9364,7 +9318,7 @@
   },
   {
     "Name": "Praxic Blade",
-    "Description": "Special Ammo Shield-Piercing Lightsaber Sword\nModifiable Tangs, Grips, Traits, Mods, and Catalysts.\nIntrinsic Shield-Piercing Breaker. \nDeals 50% increased damage towards Combatant Shields, and 200% increased damage towards Barrier Shields.\nDefensive Form for base damage values against Elites, as it has no damage bonuses.\n\n[Light Attack] performs a Melee Combo, with each hit dealing 479 [256] Kinetic Damage. Melee Attacks can discharge Bolt Charge.\nUsing [Heavy Attack] after performing 3 [Light Attacks] executes a Cormorant Combo.\nCormorant Combo deals 689 [368] Kinetic Damage, followed by 3 damage instances of 417 [220] Kinetic Damage each, totalling 1940 [☠️] damage.\n\n[Heavy Attack Press] performs a Ranged Attack, throwing the blade forward up to 50 meters away, homing towards up to 3 enemies before returning.\nDeals 945 [174] Kinetic Damage per hit. Damage is reduced by 80% when returning. Attacking recalls the blade.\n\n[Heavy Attack Hold] throws the blade on a straight path forward, dealing 100% increased damage. [Heavy Attack Release] to recall the blade.\n\n[Blocking] grants 100% [~46%] Damage Resist against all damage in a ?° cone.\nBlocking a hit retaliates by reflecting a Crystal-Color Matching Bolt that deals 255 [50] Kinetic Damage towards the reticle.\n\n-------------\n\nBalanced Form | Scoring 3 Melee Attack Kills within 5 seconds of each grants +1 Ammo, restores 65 HP, and begins Health Regeneration. \nDeals 10% increased damage against Rank-and-File and Elite Combatants. Technically 11.2% due to impact stat shift.\n\nDefensive Form | Blocking an attack within 1 seconds of beginning to block grants 20% increased damage for 2 seconds.\nBlocking ? attacks within ? seconds of each attack grants +1 Ammo, up to once per second.\n\nOffensive Form | Scoring 3 damage instances within ? seconds of each grants +1 Ammo.\nDeals 15% increased damage against Bosses and Vehicles.",
+    "Description": "Special Ammo Shield-Piercing Lightsaber Sword\nModifiable Tangs, Grips, Traits, Mods, and Catalysts.\nDeals 50% increased damage towards Combatant Shields, and 200% increased damage towards Barrier Shields.\nDefensive Form for base damage values against Elites, as it has no damage bonuses.\n\n[Light Attack] performs a Melee Combo, with each hit dealing 479 [256] Kinetic Damage. Melee Attacks can discharge Bolt Charge.\nUsing [Heavy Attack] after performing 3 [Light Attacks] executes a Cormorant Combo.\nCormorant Combo deals 689 [368] Kinetic Damage, followed by 3 damage instances of 417 [220] Kinetic Damage each, totalling 1940 [☠️] damage.\n\n[Heavy Attack Press] performs a Ranged Attack, throwing the blade forward up to 50 meters away, homing towards up to 3 enemies before returning.\nDeals 945 [174] Kinetic Damage per hit. Damage is reduced by 80% when returning. Attacking recalls the blade.\n\n[Heavy Attack Hold] throws the blade on a straight path forward, dealing 100% increased damage. [Heavy Attack Release] to recall the blade.\n\n[Blocking] grants 100% [~46%] Damage Resist against all damage in a ?° cone.\nBlocking a hit retaliates by reflecting a Crystal-Color Matching Bolt that deals 255 [50] Kinetic Damage towards the reticle.\n\n-------------\n\nBalanced Form | Scoring 3 Melee Attack Kills within 5 seconds of each grants +1 Ammo, restores 65 HP, and begins Health Regeneration. \nDeals 10% increased damage against Rank-and-File and Elite Combatants. Technically 11.2% due to impact stat shift.\n\nDefensive Form | Blocking an attack within 1 seconds of beginning to block grants 20% increased damage for 2 seconds.\nBlocking ? attacks within ? seconds of each attack grants +1 Ammo, up to once per second.\n\nOffensive Form | Scoring 3 damage instances within ? seconds of each grants +1 Ammo.\nDeals 15% increased damage against Bosses and Vehicles.",
     "Type": "KineticExotics",
     "Comment": "Technically-Not-A-Lightsaber\n\nRanged Weapon\nCormorant Reversal\nCormorant Combo",
     "hash": 3049715579,
@@ -9394,13 +9348,6 @@
           "linesContent": [
             {
               "text": "Modifiable Tangs, Grips, Traits, Mods, and Catalysts."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -10421,7 +10368,7 @@
   },
   {
     "Name": "Revision Zero",
-    "Description": "Craftable Kinetic Pulse Rifle\nSelectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames. \nIntrinsic Shield-Piercing Breaker.\n\nScoring 12 Precision Hits grants a stack of Targeting Data, up to 4 stacks after 48 Precision Hits.\n\nHunter's Trace:\nHold [Reload] while at least one stack of Targeting Data is loaded to swap into Hunter's Trace. Ammo loaded is equal to the amount of Targeting Data stacks acquired.\nReplaces the 18 Zoom Scope with a 50 Zoom Scope. Fires with perfect accuracy, and has a Red Sniper Rifle Glint.\nFires High-Damage Hunter's Trace Rounds that deal 557.2 [158] Damage with a 3x Precision Multiplier at 72RPM and inherit the Shield-Piercing effect.\nScoring a Hunter's Trace hit triggers a Kinetic Shockwave that deals 280 [20] Damage and exhausts.\nHunter's Trace persists through stow and can only be deactivated by fully emptying the magazine or dying.\n\n↑Selectable Retrofit:\nGrants the option to slot-in Feeding Frenzy, Fourth Time's The Charm, Outlaw, or Under Pressure trait equivalents. Fourth Time's The Charm allows firing up to 6 Sniper Shots.",
+    "Description": "Craftable Kinetic Pulse Rifle\nSelectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames. \n\nScoring 12 Precision Hits grants a stack of Targeting Data, up to 4 stacks after 48 Precision Hits.\n\nHunter's Trace:\nHold [Reload] while at least one stack of Targeting Data is loaded to swap into Hunter's Trace. Ammo loaded is equal to the amount of Targeting Data stacks acquired.\nReplaces the 18 Zoom Scope with a 50 Zoom Scope. Fires with perfect accuracy, and has a Red Sniper Rifle Glint.\nFires High-Damage Hunter's Trace Rounds that deal 557.2 [158] Damage with a 3x Precision Multiplier at 72RPM and inherit the Shield-Piercing effect.\nScoring a Hunter's Trace hit triggers a Kinetic Shockwave that deals 280 [20] Damage and exhausts.\nHunter's Trace persists through stow and can only be deactivated by fully emptying the magazine or dying.\n\n↑Selectable Retrofit:\nGrants the option to slot-in Feeding Frenzy, Fourth Time's The Charm, Outlaw, or Under Pressure trait equivalents. Fourth Time's The Charm allows firing up to 6 Sniper Shots.",
     "Type": "KineticExotics",
     "Comment": "Hunter's Trace I–IV\nCraftable Trait\nBurst Mode\n↑Craftable Refit",
     "hash": 1473821207,
@@ -10455,13 +10402,6 @@
           "linesContent": [
             {
               "text": "Selectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -10593,7 +10533,7 @@
   },
   {
     "Name": "Revision Zero",
-    "Description": "Craftable Kinetic Pulse Rifle\nSelectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames. \nIntrinsic Shield-Piercing Breaker.\n\nScoring 12 Precision Hits grants a stack of Targeting Data, up to 4 stacks after 48 Precision Hits.\n\nHunter's Trace:\nHold [Reload] while at least one stack of Targeting Data is loaded to swap into Hunter's Trace. Ammo loaded is equal to the amount of Targeting Data stacks acquired.\nReplaces the 18 Zoom Scope with a 50 Zoom Scope. Fires with perfect accuracy, and has a Red Sniper Rifle Glint.\nFires High-Damage Hunter's Trace Rounds that deal 557.2 [158] Damage with a 3x Precision Multiplier at 72RPM and inherit the Shield-Piercing effect.\nScoring a Hunter's Trace hit triggers a Kinetic Shockwave that deals 280 [20] Damage and exhausts.\nHunter's Trace persists through stow and can only be deactivated by fully emptying the magazine or dying.\n\n↑Selectable Retrofit:\nGrants the option to slot-in Feeding Frenzy, Fourth Time's The Charm, Outlaw, or Under Pressure trait equivalents. Fourth Time's The Charm allows firing up to 6 Sniper Shots.",
+    "Description": "Craftable Kinetic Pulse Rifle\nSelectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames. \n\nScoring 12 Precision Hits grants a stack of Targeting Data, up to 4 stacks after 48 Precision Hits.\n\nHunter's Trace:\nHold [Reload] while at least one stack of Targeting Data is loaded to swap into Hunter's Trace. Ammo loaded is equal to the amount of Targeting Data stacks acquired.\nReplaces the 18 Zoom Scope with a 50 Zoom Scope. Fires with perfect accuracy, and has a Red Sniper Rifle Glint.\nFires High-Damage Hunter's Trace Rounds that deal 557.2 [158] Damage with a 3x Precision Multiplier at 72RPM and inherit the Shield-Piercing effect.\nScoring a Hunter's Trace hit triggers a Kinetic Shockwave that deals 280 [20] Damage and exhausts.\nHunter's Trace persists through stow and can only be deactivated by fully emptying the magazine or dying.\n\n↑Selectable Retrofit:\nGrants the option to slot-in Feeding Frenzy, Fourth Time's The Charm, Outlaw, or Under Pressure trait equivalents. Fourth Time's The Charm allows firing up to 6 Sniper Shots.",
     "Type": "KineticExotics",
     "Comment": "Hunter's Trace I–IV\nCraftable Trait\nBurst Mode\n↑Craftable Refit",
     "hash": 2658740569,
@@ -10627,13 +10567,6 @@
           "linesContent": [
             {
               "text": "Selectable Origin Traits, between Heavy Burst Frames and Aggressive Burst Frames."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -13235,7 +13168,7 @@
   },
   {
     "Name": "Wicked Implement",
-    "Description": "Stasis Rapid-Fire Scout Rifle\nIntrinsic Overload Breaker. \n\nScoring 4 Precision Hits within 4.5 seconds of each grants Creeping Attrition for 4.5 seconds. \nAdditional Precision Hits refresh the duration of Creeping Attrition.\nCreeping Attrition is removed on stow.\n\nWhile Creeping Attrition is active:\nPrecision Hits inflict x40 [x20] Slow for 4+4 [4+2] seconds. \n\nScoring a Precision Kill or shattering a Stasis Crystal creates a Small Stasis Shard that returns to the wielder.\n Incurs a 2 second cooldown between spawning shards.\n\nCollecting Stasis Shards or destroying Stasis Crystals refills Magazine.\n\n↑Hadopelagic Tribute: \nStasis Shards additionally grant +5 Ammo on pickup, overflowing up to 100% Increased Magazine Capacity, and the Headstone trait.",
+    "Description": "Stasis Rapid-Fire Scout Rifle\n\nScoring 4 Precision Hits within 4.5 seconds of each grants Creeping Attrition for 4.5 seconds. \nAdditional Precision Hits refresh the duration of Creeping Attrition.\nCreeping Attrition is removed on stow.\n\nWhile Creeping Attrition is active:\nPrecision Hits inflict x40 [x20] Slow for 4+4 [4+2] seconds. \n\nScoring a Precision Kill or shattering a Stasis Crystal creates a Small Stasis Shard that returns to the wielder.\n Incurs a 2 second cooldown between spawning shards.\n\nCollecting Stasis Shards or destroying Stasis Crystals refills Magazine.\n\n↑Hadopelagic Tribute: \nStasis Shards additionally grant +5 Ammo on pickup, overflowing up to 100% Increased Magazine Capacity, and the Headstone trait.",
     "Type": "KineticExotics",
     "Comment": " Creeping Attrition\nTithing Harvest\n↑Hadopelagic Tribute\n↑Headstone",
     "hash": 940371471,
@@ -13258,13 +13191,6 @@
               "classNames": [
                 "weapon-scout-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -13455,7 +13381,7 @@
   },
   {
     "Name": "Wish-Ender",
-    "Description": "Kinetic Lightweight Combat Bow\nIntrinsic Shield-Piercing Breaker.\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
+    "Description": "Kinetic Lightweight Combat Bow\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
     "Type": "KineticExotics",
     "Comment": "Queen's Wrath\nBroadhead\n↑One For All",
     "hash": 757817572,
@@ -13483,13 +13409,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -13643,7 +13562,7 @@
   },
   {
     "Name": "Wish-Ender",
-    "Description": "Kinetic Lightweight Combat Bow\nIntrinsic Shield-Piercing Breaker.\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
+    "Description": "Kinetic Lightweight Combat Bow\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
     "Type": "KineticExotics",
     "Comment": "Queen's Wrath\nBroadhead\n↑One For All",
     "hash": 2064394295,
@@ -13671,13 +13590,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -13831,7 +13743,7 @@
   },
   {
     "Name": "Wish-Ender",
-    "Description": "Kinetic Lightweight Combat Bow\nIntrinsic Shield-Piercing Breaker.\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
+    "Description": "Kinetic Lightweight Combat Bow\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
     "Type": "KineticExotics",
     "Comment": "Queen's Wrath\nBroadhead\n↑One For All",
     "hash": 814876684,
@@ -13859,13 +13771,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -14019,7 +13924,7 @@
   },
   {
     "Name": "Wish-Ender",
-    "Description": "Kinetic Lightweight Combat Bow\nIntrinsic Shield-Piercing Breaker.\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
+    "Description": "Kinetic Lightweight Combat Bow\n\n[ADS] while fully-drawn grants Truesight, displaying enemy silhouettes through walls up to 64 metres away.\nTruesight lasts until no longer ADS, or after 3 seconds of being active. Must fully redraw to reactivate the perk.\n\nArrows deal a total of 595 [159] damage split into 3 [2] different damage instances.\nThe initial arrow impact deals 125 [129] damage and is affected by Precision Hits.\nThe two [one] instances from Broadhead deal [235] [28.75] damage and are not affected by Precision Hits.\nDraw Strength affects the damage of all damage instances.\n\n25% Increased damage against Combatants stuck by Witherhoard's Blight. \n10% Increased damage against Taken Combatants.\n\n↑Catalyst: Grants the One For All trait.",
     "Type": "KineticExotics",
     "Comment": "Queen's Wrath\nBroadhead\n↑One For All",
     "hash": 2411744491,
@@ -14043,13 +13948,6 @@
               "classNames": [
                 "weapon-bow"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -17166,7 +17064,7 @@
   },
   {
     "Name": "Delicate Tomb",
-    "Description": "Solar Adaptive Sidearm\nIntrinsic Unstoppable Breaker.\n\nKills spawn a Firesprite.\nPicking up a Firesprite enables Pyrogenesis.\nPyrogenesis Ready persists through stow.\n\nHold [Reload] while Pyrogenesis is active to perform a special reload that loads up a High-Powered Laser.\n\nHits against Suspended Enemies inflict x20+10 Scorch.\nwhy?\n\nHigh-Powered Laser:\nDeals ? [22] Damage with a 1.6x Precision Multiplier, as well as inflicting x20+10 Scorch per hit up to ? times over 0.93 seconds.\nLaser Kills trigger an ignition.\n\n↑Catalyst: Grants the Collective Action trait.",
+    "Description": "Solar Adaptive Sidearm\n\nKills spawn a Firesprite.\nPicking up a Firesprite enables Pyrogenesis.\nPyrogenesis Ready persists through stow.\n\nHits against Suspended Enemies inflict x20+10 Scorch.\n\nHold [Reload] while Pyrogenesis is active to perform a special reload that loads up a High-Powered Laser.\n\nHigh-Powered Laser:\nDeals ? [22] Damage with a 1.6x Precision Multiplier, as well as inflicting x20+10 Scorch per hit up to ? times over 0.93 seconds.\nLaser Kills trigger an ignition.\n\n↑Catalyst: Grants the Collective Action trait.",
     "Type": "EnergyExotic",
     "Comment": "Traitor's Vessel\nTempest Cascade\n↑Ionic Interment",
     "hash": 374573733,
@@ -17189,13 +17087,6 @@
               "classNames": [
                 "weapon-sidearm"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
             }
           ]
         },
@@ -17251,36 +17142,6 @@
         {
           "linesContent": [
             {
-              "text": "Hold ["
-            },
-            {
-              "text": "Reload",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] while Pyrogenesis is active to perform a "
-            },
-            {
-              "text": "special",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": " reload that loads up a High-Powered Laser."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
               "text": "Hits against "
             },
             {
@@ -17304,9 +17165,32 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
-              "text": "why?"
+              "text": "Hold ["
+            },
+            {
+              "text": "Reload",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] while Pyrogenesis is active to perform a "
+            },
+            {
+              "text": "special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " reload that loads up a High-Powered Laser."
             }
           ]
         },
@@ -17383,9 +17267,9 @@
   },
   {
     "Name": "Devil's Ruin",
-    "Description": "Arc Trace Rifle\nIntrinsic Overload Breaker. \nDeals half the damage of a regular Trace Rifle.\n\nFires a continuous beam that deals 15.3 [7.5] Arc Damage with a 1.34x Precision Multiplier at 900RPM.\n\nScoring 10 [5] hits within 0.15 seconds of each weakens, increasing damage taken by 15% [15%], and inflicting censured, creating a Precision Cage for 1.25 seconds. \nShots that hit the Precision Cage are converted into into Precision Hits, but do not count as Weakspot Hits.\nWeapons that cannot deal Precision Damage, such as Rocket Launchers and Fusion Rifles do not benefit from Precision Hits.\nDivinity's weaken increases Divinity Damage by 30%.\n\n Enemies that remain in the Precision Field for 3.75 seconds suffer from Penance, receiving 1272 [520] damage. \nPenance's timer is set to 3 seconds after the initial strike.\n\n↑Catalyst: Grants the Focused Fury and Jolting Feedback traits.",
+    "Description": "Arc Trace Rifle\nDeals half the damage of a regular Trace Rifle.\n\nFires a continuous beam that deals 15.3 [7.5] Arc Damage with a 1.34x Precision Multiplier at 900RPM.\n\nScoring 10 [5] hits within 0.15 seconds of each weakens, increasing damage taken by 15% [15%], and inflicting censured, creating a Precision Cage for 1.25 seconds. \nShots that hit the Precision Cage are converted into into Precision Hits, but do not count as Weakspot Hits.\nWeapons that cannot deal Precision Damage, such as Rocket Launchers and Fusion Rifles do not benefit from Precision Hits.\nDivinity's weaken increases Divinity Damage by 30%.\n\n Enemies that remain in the Precision Field for 3.75 seconds suffer from Penance, receiving 1272 [520] damage. \nPenance's timer is set to 3 seconds after the initial strike.\n\n↑Catalyst: Grants the Focused Fury and Jolting Feedback traits.",
     "Type": "EnergyExotic",
-    "Comment": "Close The Gap\nPyrogenesis",
+    "Comment": "Close The Gap\nPyrogenesis\n↑Collective Action",
     "hash": 2613477126,
     "parentHash": "2613477126",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17407,13 +17291,6 @@
               "classNames": [
                 "weapon-trace-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -17589,9 +17466,9 @@
   },
   {
     "Name": "Devil's Ruin",
-    "Description": "Arc Trace Rifle\nIntrinsic Overload Breaker. \nDeals half the damage of a regular Trace Rifle.\n\nFires a continuous beam that deals 15.3 [7.5] Arc Damage with a 1.34x Precision Multiplier at 900RPM.\n\nScoring 10 [5] hits within 0.15 seconds of each weakens, increasing damage taken by 15% [15%], and inflicting censured, creating a Precision Cage for 1.25 seconds. \nShots that hit the Precision Cage are converted into into Precision Hits, but do not count as Weakspot Hits.\nWeapons that cannot deal Precision Damage, such as Rocket Launchers and Fusion Rifles do not benefit from Precision Hits.\nDivinity's weaken increases Divinity Damage by 30%.\n\n Enemies that remain in the Precision Field for 3.75 seconds suffer from Penance, receiving 1272 [520] damage. \nPenance's timer is set to 3 seconds after the initial strike.\n\n↑Catalyst: Grants the Focused Fury and Jolting Feedback traits.",
+    "Description": "Arc Trace Rifle\nDeals half the damage of a regular Trace Rifle.\n\nFires a continuous beam that deals 15.3 [7.5] Arc Damage with a 1.34x Precision Multiplier at 900RPM.\n\nScoring 10 [5] hits within 0.15 seconds of each weakens, increasing damage taken by 15% [15%], and inflicting censured, creating a Precision Cage for 1.25 seconds. \nShots that hit the Precision Cage are converted into into Precision Hits, but do not count as Weakspot Hits.\nWeapons that cannot deal Precision Damage, such as Rocket Launchers and Fusion Rifles do not benefit from Precision Hits.\nDivinity's weaken increases Divinity Damage by 30%.\n\n Enemies that remain in the Precision Field for 3.75 seconds suffer from Penance, receiving 1272 [520] damage. \nPenance's timer is set to 3 seconds after the initial strike.\n\n↑Catalyst: Grants the Focused Fury and Jolting Feedback traits.",
     "Type": "EnergyExotic",
-    "Comment": "Close The Gap\nPyrogenesis",
+    "Comment": "Close The Gap\nPyrogenesis\n↑Collective Action",
     "hash": 3824106094,
     "parentHash": "3824106094",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17613,13 +17490,6 @@
               "classNames": [
                 "weapon-trace-rifle"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -18580,7 +18450,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nCure and Restoration are increased to x2 while Touch of Flame is equipped.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 3551884421,
@@ -18697,28 +18567,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Cure",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "Restoration",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " are increased to x2 while Touch of Flame is equipped."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -18738,7 +18586,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nCure and Restoration are increased to x2 while Touch of Flame is equipped.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 542203595,
@@ -18855,28 +18703,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Cure",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "Restoration",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " are increased to x2 while Touch of Flame is equipped."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -18896,7 +18722,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nCure and Restoration are increased to x2 while Touch of Flame is equipped.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 3127165437,
@@ -19013,28 +18839,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Cure",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " and "
-            },
-            {
-              "text": "Restoration",
-              "classNames": [
-                "solar"
-              ]
-            },
-            {
-              "text": " are increased to x2 while Touch of Flame is equipped."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -19054,7 +18858,7 @@
   },
   {
     "Name": "Edge of Intent",
-    "Description": "Special Ammo Solar Hand Cannon\nIntrinsic Shield-Piercing Breaker.\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
+    "Description": "Special Ammo Solar Hand Cannon\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
     "Type": "EnergyExotic",
     "Comment": "Healing Turret\nIncandescent\n↑Heal Clip",
     "hash": 3024740338,
@@ -19091,13 +18895,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -19261,7 +19058,7 @@
   },
   {
     "Name": "Edge of Intent",
-    "Description": "Special Ammo Solar Hand Cannon\nIntrinsic Shield-Piercing Breaker.\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
+    "Description": "Special Ammo Solar Hand Cannon\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
     "Type": "EnergyExotic",
     "Comment": "Healing Turret\nIncandescent\n↑Heal Clip",
     "hash": 14194600,
@@ -19298,13 +19095,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -19468,7 +19258,7 @@
   },
   {
     "Name": "Edge of Intent",
-    "Description": "Special Ammo Solar Hand Cannon\nIntrinsic Shield-Piercing Breaker.\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
+    "Description": "Special Ammo Solar Hand Cannon\n\nFires a single Shield-Piercing bullet that deals 594 [77] Solar Damage with 1.6x Precision Multiplier.\n\nDeath At First Glance grants 32.5% increased damage for the first scoped shot.\nPrecision Hits and Hits against Combatant Shields maintain Death At First Glance. \nDeath At First Glance reactivates after 3 seconds of not firing.\n\nBreaking a Solar Shield or Barrier Champion's Shield triggers an Ignition.\nGuardians in their Super Ability count as having an Elemental Shield that matches the element of their Super.\nDeals 67% increased damage against Barrier Champions.\nIgnition damage is also increased by 67% against the Barrier Champion.\n\n↑More to Give:\nPassively grants +3 Magazine Size (6 -> 9) and an Auto-Loading Holster trait equivalent.",
     "Type": "EnergyExotic",
     "Comment": "Healing Turret\nIncandescent\n↑Heal Clip",
     "hash": 1665561856,
@@ -19501,13 +19291,6 @@
               "classNames": [
                 "weapon-hand-cannon"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -20984,7 +20767,7 @@
   },
   {
     "Name": "Ex Diris",
-    "Description": "Primary Ammo Void Breech-Loaded Grenade Launcher.\nGrants Lightweight Frame bonuses. Deals 40% increased damage against Rank-and-File Combatants (compared to Exotic Primary's 30%)\n\nDealing damage grants +70 Reload Speed for 7 seconds.\nDirect Hits trigger a Volatile Burst, inflicting Volatile to enemies within ? meters.\n\nDeals 24.5% Increased Impact Damage against Combatant Shields.\n\nKills within 6 seconds before OR after dealing damage with Fighting Lion refill the magazine.\n\n↑Chimera:\nGrants +30 Reload Speed as well as the Chimera trait.\nChimera grants +100 Handling and -30% Accuracy Cone Size to Kinetic Slot and Power Slot Weapons for 3 seconds after shooting.",
+    "Description": "Primary Ammo Void Breech-Loaded Grenade Launcher.\nGrants Lightweight Frame bonuses.\n\nFires bouncing grenades that can be remotely detonated after ? seconds.\nGrenades deal 142 [?] Impact Damage and up to 559 [?] Explosive Damage, down to ?% Damage over ? meters.\nDirect Hits trigger a Volatile Burst, inflicting Volatile to enemies within ? meters.\n\nDealing damage grants +70 Reload Speed for 7 seconds\nDeals 24.5% Increased Impact Damage against Combatant Shields.\n\nScoring a Non-Fighting Lion kill within 6 seconds before OR after dealing damage with Fighting Lion refills the magazine.\n\n↑Chimera:\nGrants +30 Reload Speed as well as the Chimera trait.\nChimera grants +100 Handling and -30% Accuracy Cone Size to Kinetic Slot and Power Slot Weapons for 3 seconds after shooting.",
     "Type": "EnergyExotic",
     "Comment": "Corrupted Nucleosynthesis\nLoyal Moths\n↑Berserk Rush",
     "hash": 3821409356,
@@ -21025,7 +20808,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants Lightweight Frame bonuses. Deals 40% increased damage against Rank-and-File Combatants (compared to Exotic Primary's 30%)"
+              "text": "Grants Lightweight Frame bonuses."
             }
           ]
         },
@@ -21037,7 +20820,32 @@
         {
           "linesContent": [
             {
-              "text": "Dealing damage grants +70 Reload Speed for 7 seconds."
+              "text": "Fires bouncing grenades that can be remotely detonated after ? seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grenades deal 142 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Impact Damage and up to 559 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Explosive Damage, down to ?% Damage over ? meters."
             }
           ]
         },
@@ -21074,6 +20882,13 @@
         {
           "linesContent": [
             {
+              "text": "Dealing damage grants +70 Reload Speed for 7 seconds"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "Deals 24.5% Increased Impact Damage against Combatant Shields."
             }
           ]
@@ -21086,7 +20901,7 @@
         {
           "linesContent": [
             {
-              "text": "Kills within 6 seconds before OR after dealing damage with Fighting Lion refill the magazine."
+              "text": "Scoring a Non-Fighting Lion kill within 6 seconds before OR after dealing damage with Fighting Lion refills the magazine."
             }
           ]
         },
@@ -21130,7 +20945,7 @@
   },
   {
     "Name": "Fighting Lion",
-    "Description": "Heavy Burst Void Pulse Rifle.\nDecreased RPM of 300 instead of the usual Heavy Burst's 324RPM.\n\nThe 1st round of a burst deals 15% decreased damage but has no recoil.\nThe 2nd round of a burst deals 35.294118% increased damage, has no damage falloff, and has recoil.\nTotal damage per burst matches that of a Heavy Burst Pulse Rifle.\n\nKills fling enemies backwards and trigger a Void Explosion that deals up to 437 [100] damage over 5? meter radius and releases 2 seeking Void orbs.\nSeeking Void Orbs each deal up to 67 [20?] damage on explosion.\n\n↑Catalyst:\nPassively grants +20 Range, the Turnabout trait, and the Vorpal Weapon trait.",
+    "Description": "Heavy Burst Void Pulse Rifle.\nDecreased RPM of 300 instead of the usual Heavy Burst's 324RPM.\n\nThe 1st round of a burst deals 15% decreased damage but has no recoil.\nThe 2nd round of a burst deals 35.3% increased damage, has no damage falloff, and has recoil.\nTotal damage per burst matches that of a Heavy Burst Pulse Rifle.\n\nKills fling enemies backwards and trigger a Void Explosion that deals up to 437 [100] damage over 5? meter radius and releases 2 seeking Void orbs.\nSeeking Void Orbs each deal up to 67 [20?] damage on explosion.\n\n↑Catalyst:\nPassively grants +20 Range, the Turnabout trait, and the Vorpal Weapon trait.",
     "Type": "EnergyExotic",
     "Comment": "Delayed Gratification\nThin The Herd\n↑Chimera",
     "hash": 3549153978,
@@ -21184,7 +20999,7 @@
         {
           "linesContent": [
             {
-              "text": "The 2nd round of a burst deals 35.294118% increased damage, has no damage falloff, and has recoil."
+              "text": "The 2nd round of a burst deals 35.3% increased damage, has no damage falloff, and has recoil."
             }
           ]
         },
@@ -21292,7 +21107,7 @@
   },
   {
     "Name": "Graviton Lance",
-    "Description": "Craftable Arc + Stasis Modal Hand Cannon\n[Reload] to swap between 150RPM Arc Firing Mode and 95RPM Stasis Firing Mode, refilling 3 Ammo.\n\nScoring a combined total of 3 Kills and Precision Hits within 7 seconds of each grants Overcharge to the opposite element.\nOvercharge progress persists through stow and reload, but is cleared upon swapping firing modes.\nOvercharge begins passively draining at a rate of -4.5% per second upon fully charging, even while stowed. \n\n150RPM Arc Mode:\nFires bullets that deal 129 [42.03] Damage with a 1.85x Precision Multiplier.\n\nArc Overcharge:\nKills and Precision Hits call down a lightning strike, dealing up to 238 + 219 = 457 [21 + 21 = 42] Arc Damage over ? meters.\nEach Precision Hit consumes 34% Arc Overcharge.\n\n95RPM Stasis Mode:\nFires explosive bullets that deal 169 [43.2] Impact Damage and up to 136 [21.02] Explosive Damage with a 1.85x Precision Multiplier.\n\nStasis Overcharge:\n Kills and Precision Hits trigger a Stasis Explosion that deals up to 115 [?] Damage over ? meters and create 2 seekers perpendicular to the target.\nSeekers spawn a Medium Stasis Crystal rotated 45 degrees away from the enemy after traveling 4 meters, forming a \\  / shape.\nEach Precision Hit consumes 34% Stasis Overcharge.\n\n↑Catalyst grants multiple craftable traits:\nTemporal Alignment Refit grants 20% [?%] increased damage for 16 seconds upon triggering both Arc and Stasis overcharge. \nTriggering the buff has no time limit, and the buff can be refreshed by overcharging both modes in the same order it was activated in.\nRapid Hit trait.\nSubsistence trait.\nTranscendent Moment trait.",
+    "Description": "Craftable Arc + Stasis Modal Hand Cannon\n[Reload] to swap between 150RPM Arc Firing Mode and 95RPM Stasis Firing Mode, refilling 3 Ammo.\n\nScoring a combined total of 3 Kills and Precision Hits within 7 seconds of each grants Overcharge to the opposite element.\nOvercharge progress persists through stow and reload, but is cleared upon swapping firing modes.\nOvercharge begins passively draining at a rate of -4.5% per second upon fully charging, even while stowed. \n\n150RPM Arc Mode:\nFires bullets that deal 129 [42.03] Damage with a 1.85x Precision Multiplier.\n\nArc Overcharge:\nKills and Precision Hits call down a lightning strike, dealing up to 238 + 219 = 457 [21 + 21 = 42] Arc Damage over ? meters.\nEach Precision Hit consumes 34% Arc Overcharge.\n\n95RPM Stasis Mode:\nFires explosive bullets that deal 169 [43.2] Impact Damage and up to 136 [21.02] Explosive Damage with a 1.85x Precision Multiplier.\n\nStasis Overcharge:\n Kills and Precision Hits trigger a Stasis Explosion that deals up to 115 [?] Damage over ? meters and create 2 seekers perpendicular to the target.\nSeekers spawn a Medium Stasis Crystal rotated 45 degrees away from the enemy after traveling 4 meters, forming a \\  / shape.\nEach Precision Hit consumes 34% Stasis Overcharge.\n\n↑Catalyst grants multiple craftable traits:\nTemporal Alignment Refit grants 20% [?%] increased damage for 16 seconds upon triggering both Arc and Stasis overcharge. \nTriggering the buff has no time limit, and the buff can be refreshed by overcharging both modes in the same order it was activated in.\nOther options include the Rapid Hit trait, the Subsistence trait, and the Transcendent Moment trait.",
     "Type": "EnergyExotic",
     "Comment": "Black Hole\nCosmology\n↑Turnabout\n↑Vorpal Weapon",
     "hash": 3628991658,
@@ -21663,21 +21478,7 @@
         {
           "linesContent": [
             {
-              "text": "Rapid Hit trait."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Subsistence trait."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Transcendent Moment trait."
+              "text": "Other options include the Rapid Hit trait, the Subsistence trait, and the Transcendent Moment trait."
             }
           ]
         }
@@ -22034,7 +21835,7 @@
   },
   {
     "Name": "Hard Light",
-    "Description": "Solar Combat Crossbow Balanced Heat Blaster\nPassively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic.\nIntrinsic Unstoppable Breaker\n\nFires explosive bolts that explode on impact and generate 130 Heat per shot.\nBolts deal 338 [70] Impact Damage with a 1.?x Precision Multiplier and up to 450 [40] Explosive Damage, down to 50% Explosive Damage over 4 meters on impact.\n\nAiming Down Sights generates 30 Heat every 0.3 seconds and increases the Charge Level up to 3 times after 0.6 | 1.5 | 2.25 seconds.\nCharge Levels increase the damage and explosive radius of the next shot fired.\n\nCharged Shots:\nx1 | 461 [71] Impact Damage, 526 [41] Explosive Damage, ↑and x20+0 Scorch over 5 meters after 0.5 seconds of charging. Generates 185 Heat upon firing.\nx2 | 645 [80] Impact Damage, 573 [49] Explosive Damage, ↑and x40+0 Scorch over 6 meters after 1.25 seconds of charging. Generates 280 Heat upon firing.\nx3 | 829 [106] Impact Damage, 860 [81] Explosive Damage, ↑and x60+0 Scorch over ~9.5 meters after 1.875 seconds of charging. Generates 340 Heat upon firing.\n\n↑Heirloom Catalyst:\nDirect Hits with charged shots inflict x20 Scorch per Charge Level. Solar Effects initially inflicted by Heirloom deal 110% increased damage.\nDeals 10% increased damage against Scorched Enemies.",
+    "Description": "Solar Combat Crossbow Balanced Heat Blaster\nPassively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic.\n\nFires explosive bolts that explode on impact and generate 130 Heat per shot.\nBolts deal 338 [70] Impact Damage with a 1.?x Precision Multiplier and up to 450 [40] Explosive Damage, down to 50% Explosive Damage over 4 meters on impact.\n\nAiming Down Sights generates 30 Heat every 0.3 seconds and increases the Charge Level up to 3 times after 0.6 | 1.5 | 2.25 seconds.\nCharge Levels increase the damage and explosive radius of the next shot fired.\n\nCharged Shots:\nx1 | 461 [71] Impact Damage, 526 [41] Explosive Damage, ↑and x20+0 Scorch over 5 meters after 0.5 seconds of charging. Generates 185 Heat upon firing.\nx2 | 645 [80] Impact Damage, 573 [49] Explosive Damage, ↑and x40+0 Scorch over 6 meters after 1.25 seconds of charging. Generates 280 Heat upon firing.\nx3 | 829 [106] Impact Damage, 860 [81] Explosive Damage, ↑and x60+0 Scorch over ~9.5 meters after 1.875 seconds of charging. Generates 340 Heat upon firing.\n\n↑Heirloom Catalyst:\nDirect Hits with charged shots inflict x20 Scorch per Charge Level. Solar Effects initially inflicted by Heirloom deal 110% increased damage.\nDeals 10% increased damage against Scorched Enemies.",
     "Type": "EnergyExotic",
     "Comment": "Volatile Light \nThe Fundamentals\n↑Light Touch",
     "hash": 227756207,
@@ -22059,13 +21860,6 @@
           "linesContent": [
             {
               "text": "Passively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker"
             }
           ]
         },
@@ -22297,7 +22091,7 @@
   },
   {
     "Name": "Hard Light",
-    "Description": "Solar Combat Crossbow Balanced Heat Blaster\nPassively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic.\nIntrinsic Unstoppable Breaker\n\nFires explosive bolts that explode on impact and generate 130 Heat per shot.\nBolts deal 338 [70] Impact Damage with a 1.?x Precision Multiplier and up to 450 [40] Explosive Damage, down to 50% Explosive Damage over 4 meters on impact.\n\nAiming Down Sights generates 30 Heat every 0.3 seconds and increases the Charge Level up to 3 times after 0.6 | 1.5 | 2.25 seconds.\nCharge Levels increase the damage and explosive radius of the next shot fired.\n\nCharged Shots:\nx1 | 461 [71] Impact Damage, 526 [41] Explosive Damage, ↑and x20+0 Scorch over 5 meters after 0.5 seconds of charging. Generates 185 Heat upon firing.\nx2 | 645 [80] Impact Damage, 573 [49] Explosive Damage, ↑and x40+0 Scorch over 6 meters after 1.25 seconds of charging. Generates 280 Heat upon firing.\nx3 | 829 [106] Impact Damage, 860 [81] Explosive Damage, ↑and x60+0 Scorch over ~9.5 meters after 1.875 seconds of charging. Generates 340 Heat upon firing.\n\n↑Heirloom Catalyst:\nDirect Hits with charged shots inflict x20 Scorch per Charge Level. Solar Effects initially inflicted by Heirloom deal 110% increased damage.\nDeals 10% increased damage against Scorched Enemies.",
+    "Description": "Solar Combat Crossbow Balanced Heat Blaster\nPassively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic.\n\nFires explosive bolts that explode on impact and generate 130 Heat per shot.\nBolts deal 338 [70] Impact Damage with a 1.?x Precision Multiplier and up to 450 [40] Explosive Damage, down to 50% Explosive Damage over 4 meters on impact.\n\nAiming Down Sights generates 30 Heat every 0.3 seconds and increases the Charge Level up to 3 times after 0.6 | 1.5 | 2.25 seconds.\nCharge Levels increase the damage and explosive radius of the next shot fired.\n\nCharged Shots:\nx1 | 461 [71] Impact Damage, 526 [41] Explosive Damage, ↑and x20+0 Scorch over 5 meters after 0.5 seconds of charging. Generates 185 Heat upon firing.\nx2 | 645 [80] Impact Damage, 573 [49] Explosive Damage, ↑and x40+0 Scorch over 6 meters after 1.25 seconds of charging. Generates 280 Heat upon firing.\nx3 | 829 [106] Impact Damage, 860 [81] Explosive Damage, ↑and x60+0 Scorch over ~9.5 meters after 1.875 seconds of charging. Generates 340 Heat upon firing.\n\n↑Heirloom Catalyst:\nDirect Hits with charged shots inflict x20 Scorch per Charge Level. Solar Effects initially inflicted by Heirloom deal 110% increased damage.\nDeals 10% increased damage against Scorched Enemies.",
     "Type": "EnergyExotic",
     "Comment": "Volatile Light \nThe Fundamentals\n↑Light Touch",
     "hash": 4124984448,
@@ -22322,13 +22116,6 @@
           "linesContent": [
             {
               "text": "Passively dissipates 15 Heat per second. Has the Perfect Vent Balanced Heat Weapon Mechanic."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker"
             }
           ]
         },
@@ -23387,7 +23174,7 @@
   },
   {
     "Name": "Jötunn",
-    "Description": "Void Lightweight Combat Bow\nGrants Lightweight Frame bonuses.\nIntrinsic Overload Breaker.\n\nPerfectly-drawn arrows poison enemies and stun Overload Champions.\nPerfectly-drawn Precision Hits trigger a poison burst, poisoning and disrupting enemies within 3? metres.\n\nPoison:\nBegins dealing damage after 0.55 seconds of being inflicted.\nDeals 46 [2.5] Void Damage every 0.25 seconds up to 6 times over 1.35 seconds, totalling 276 [15] damage.\n\n↑Catalyst:\nPassively grants +30 Stability, +20 Reload Speed, and the Unrelenting trait.",
+    "Description": "Void Lightweight Combat Bow\nGrants Lightweight Frame bonuses.\n\nPerfectly-drawn arrows poison enemies.\nPerfectly-drawn Precision Hits trigger a poison burst, poisoning enemies within 3? metres.\n\nPoison:\nBegins dealing damage after 0.55 seconds of being inflicted.\nDeals 46 [2.5] Void Damage every 0.25 seconds up to 6 times over 1.35 seconds, totalling 276 [15] damage.\n\n↑Catalyst:\nPassively grants +30 Stability, +20 Reload Speed, and the Unrelenting trait.",
     "Type": "EnergyExotic",
     "Comment": "Charge Shot\nShield Disorient\n↑Cornered\n↑Incandescent",
     "hash": 417164956,
@@ -23421,13 +23208,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -23435,23 +23215,14 @@
         {
           "linesContent": [
             {
-              "text": "Perfectly-drawn arrows poison enemies and stun "
-            },
-            {
-              "text": "Overload Champions",
-              "classNames": [
-                "overload"
-              ]
-            },
-            {
-              "text": "."
+              "text": "Perfectly-drawn arrows poison enemies."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Perfectly-drawn Precision Hits trigger a poison burst, poisoning and disrupting enemies within 3? metres."
+              "text": "Perfectly-drawn Precision Hits trigger a poison burst, poisoning enemies within 3? metres."
             }
           ]
         },
@@ -23532,7 +23303,7 @@
   },
   {
     "Name": "Le Monarque",
-    "Description": "Primary Ammo Burst-Fire Arc Trace Rifle\nHold [Reload] to quickly activate Arc Alignment once it is fully charged. \nArc Alignment can be cancelled by holding [Reload] to preserve the remaining charge.\n\nHipfire | Becomes an Adaptive Trace Rifle.\nDeals 85% of the damage of a Special Ammo Adaptive Trace Rifle.\n\nADS | Becomes a Rapid-Fire Pulse Rifle.\nDeals 30% increased damage against Arc-Debuffed Enemies, and causes them to explode on death, dealing up to 395 [?] Arc Damage and inflicting blind over ? meters.\n\nScoring Arc Hits charges up Arc Alignment.\nHipfire Mode = 1% Charge | ADS Mode = 3% Charge | Non-Lodestar Arc Hits = 1% Charge\n\nArc Alignment:\nAutomatically refills the magazine upon triggering and grants -75%? Recoil.\nDrains at a rate of ~14% Energy per second, ending after 7 seconds. Drain persists through stow.\nHipfire inflicts Jolt on hit.\nADS reduces drain rate by 67%, down to 5% per second, increasing the duration to a maximum of 20 seconds.\n\n↑Supercharged Matrix:\n While Amplified:\n+? Reload Speed, +10? Aim Assist, and ?% Decreased ADS Movement Speed Penalty..",
+    "Description": "Primary Ammo Burst-Fire Arc Trace Rifle\nHold [Reload] to quickly activate Arc Alignment once it is fully charged. \nArc Alignment can be cancelled by holding [Reload] to preserve the remaining charge.\n\nHipfire | Becomes an Adaptive Trace Rifle.\nDeals 85% of the damage of a Special Ammo Adaptive Trace Rifle.\n\nADS | Becomes a Rapid-Fire Pulse Rifle.\nDeals 30% increased damage against Arc-Debuffed Enemies, and causes them to explode on death, dealing up to 395 [?] Arc Damage and inflicting blind over ? meters.\n\nScoring Arc Hits charges up Arc Alignment.\nHipfire Mode = 1% Charge | ADS Mode = 3% Charge | Non-Lodestar Arc Damage Instances = 1% Charge\n\nArc Alignment:\nAutomatically refills the magazine upon triggering and grants -75%? Recoil.\nDrains at a rate of ~14% Energy per second, ending after 7 seconds. Drain persists through stow.\nHipfire inflicts Jolt on hit.\nADS reduces drain rate by 67%, down to 5% per second, increasing the duration to a maximum of 20 seconds.\n\n↑Supercharged Matrix:\n While Amplified:\n+? Reload Speed, +10? Aim Assist, and ?% Decreased ADS Movement Speed Penalty..",
     "Type": "EnergyExotic",
     "Comment": "Poison Arrows\nSnapshot Sights\n↑Unrelenting",
     "hash": 3588934839,
@@ -23766,7 +23537,7 @@
               ]
             },
             {
-              "text": " Hits = 1% Charge"
+              "text": " Damage Instances = 1% Charge"
             }
           ]
         },
@@ -23865,7 +23636,7 @@
   },
   {
     "Name": "Lodestar",
-    "Description": "Solar Burst Shotgun\nReloads its entire magazine at once.\n\nFires in short-range 5-round bursts.\n\nWhile hipfiring (Release The Wolves):\nDeals 175 [39.9] Solar Damage per bullet with a 1.6x Precision Multiplier.\n-? Range, 0.4?x Fire Recovery Delay, and +200?% Accuracy Cone Size. Becomes automatic.\n\nWhile ADS:\nDeals 126 [21] Solar Damage per bullet with a 1.89x Precision Multiplier.\n\n↑Fang and Claw. Passively grants +20 Stability, +60 Reload Speed and .85x Reload Duration Multiplier:\nHipfired Shots inflict x10+5 Scorch upon dealing damage Incurs a 0.5? second cooldown between Scorch applications.\nAimed Shots trigger a Scorching Explosion on kill, inflicting x30+10 Scorch to enemies within 8? meters.\nSolar Effects that are initially applied by Lord of Wolves deal 110% increased damage and its damage can be increased by Weapon Buffs.",
+    "Description": "Solar Burst Shotgun\nReloads its entire magazine at once.\n\nFires in short-range 5-round bursts.\n\nWhile hipfiring (Release The Wolves):\nDeals 175 [39.9] Solar Damage per bullet with a 1.6x Precision Multiplier.\n-? Range, 0.4?x Fire Recovery Delay, and +200?% Accuracy Cone Size. Becomes automatic.\n\nWhile ADS:\nDeals 126 [21] Solar Damage per bullet with a 1.89x Precision Multiplier.\n\n↑Fang and Claw. Passively grants +20 Stability, +60 Reload Speed and .85x Reload Duration Multiplier:\nHipfired Shots inflict x10+5 Scorch upon dealing damage. Incurs a 0.5? second cooldown between Scorch applications.\nAimed Shots trigger a Scorching Explosion on kill, inflicting x30+10 Scorch to enemies within 8? meters.\nSolar Effects that are initially applied by Lord of Wolves deal 110% increased damage and its damage can be increased by Weapon Buffs.",
     "Type": "EnergyExotic",
     "Comment": "Starlight Beam\nArc Alignment\nPhase Converter\n↑Supercharged Matrix",
     "hash": 3725585710,
@@ -24021,7 +23792,7 @@
               ]
             },
             {
-              "text": " upon dealing damage Incurs a 0.5? second cooldown between "
+              "text": " upon dealing damage. Incurs a 0.5? second cooldown between "
             },
             {
               "text": "Scorch",
@@ -26859,7 +26630,7 @@
   },
   {
     "Name": "Riskrunner",
-    "Description": "Void Adaptive Trace Rifle\nIntrinsically has a 1.4x PVE Bonus over Legendary Trace Rifles.\n\nKills collapse enemies into Transmutation Spheres with 30 Ammo. Spheres can remain on the ground for up to 30 seconds. \n\nTransmutation Spheres are pickupable objects that are able to use Light Attacks, Heavy Attacks, and Guard/Drain. Dropping a Transmutation Sphere immediately despawns it.\nAmmo is passively drained at a rate of 1 Ammo Per Second. Attacking or Guarding disables passive drain until the Attack Animation is finished or until no longer Guarding.\n\nTransmutation Spheres:\nThey are considered Generic Void Weapons, and their damage can be increased through Weapon Damage Buffs, as well as Activity Surges and other generic Void Damage buffs. \nThey are also able to inflict Volatile through Volatile Rounds, but will not inherit their Shield-Piercing Breaker capabilities. \nSpheres will not trigger, nor be affected by any effect related to Melee Abilities, Void Abilities, Trace Rifles, or Weapon Surge Mods.\n\nLight Attacks | Lunges forward, dealing 300 [150] damage, disorienting Combatants and consuming 1 Ammo. Airborne Attacks deal 25% decreased damage. Can attack twice every second.\n\nHeavy Attacks | Slams the Sphere onto the ground, detonating it, dealing 1500 [300 Guardians | 1500 Constructs] damage without falloff and inflicting suppression to enemies within 5? metres. \nDamage is unaffected by the Ammo Remaining.\n\nGuarding | Projects a draining field over a ? metre radius, dealing 30 [12] damage and restoring 5 HP per enemy hit every 0.3 seconds.\nGrants 80% [50%] Damage Resist and prevents knockback while guarding. Combatants inside the draining field are disoriented.\nAmmo Drains at a rate of 1 Ammo every 0.25 seconds. The last remaining 3 Ammo drain at a rate of 1 Ammo every 0.5 seconds until 1 Ammo is left.\n\nGuarding while at 1 Ammo inflicts Transfiguration, dealing increasingly higher self-damage every 0.7 seconds until no longer Guarding or death. \nSelf-Damage inflicted maxes out at 100 damage per tick and ignores all Damage Resist. Will eventually outright kill after enough time.\n\n↑Deconstruction:\nUpon scoring a Transmutation Sphere Kill or upon damaging a Miniboss+ with a Transmutation Sphere:\n30% [15%] increased damage for 7 seconds.",
+    "Description": "Void Adaptive Trace Rifle\nIntrinsically has a 1.4x PVE Bonus over Legendary Trace Rifles.\n\nKills collapse enemies into Transmutation Spheres with 30 Ammo. Spheres can remain on the ground for up to 30 seconds. \n\nTransmutation Spheres are pickupable objects that are able to use Light Attacks, Heavy Attacks, and Guard/Drain. Dropping a Transmutation Sphere immediately despawns it.\nAmmo is passively drained at a rate of 1 Ammo Per Second. Attacking or Guarding disables passive drain until the Attack Animation is finished or until no longer Guarding.\n\nTransmutation Spheres:\nThey are considered Generic Void Weapons, and their damage can be increased through Weapon Damage Buffs, as well as Activity Surges and other generic Void Damage buffs. \nThey are also able to inflict Volatile through Volatile Rounds. \nSpheres will not trigger, nor be affected by any effect related to Melee Abilities, Void Abilities, Trace Rifles, or Weapon Surge Mods.\n\nLight Attacks | Lunges forward, dealing 300 [150] damage, disorienting Combatants and consuming 1 Ammo. Airborne Attacks deal 25% decreased damage. Can attack twice every second.\n\nHeavy Attacks | Slams the Sphere onto the ground, detonating it, dealing 1500 [300 Guardians | 1500 Constructs] damage without falloff and inflicting suppression to enemies within 5? metres. \nDamage is unaffected by the Ammo Remaining.\n\nGuarding | Projects a draining field over a ? metre radius, dealing 30 [12] damage and restoring 5 HP per enemy hit every 0.3 seconds.\nGrants 80% [50%] Damage Resist and prevents knockback while guarding. Combatants inside the draining field are disoriented.\nAmmo Drains at a rate of 1 Ammo every 0.25 seconds. The last remaining 3 Ammo drain at a rate of 1 Ammo every 0.5 seconds until 1 Ammo is left.\n\nGuarding while at 1 Ammo inflicts Transfiguration, dealing increasingly higher self-damage every 0.7 seconds until no longer Guarding or death. \nSelf-Damage inflicted maxes out at 100 damage per tick and ignores all Damage Resist. Will eventually outright kill after enough time.\n\n↑Deconstruction:\nUpon scoring a Transmutation Sphere Kill or upon damaging a Miniboss+ with a Transmutation Sphere:\n30% [15%] increased damage for 7 seconds.",
     "Type": "EnergyExotic",
     "Comment": "Arc Conductor\nSuperconductor\n↑Chain Reaction",
     "hash": 3089417789,
@@ -26990,7 +26761,7 @@
               ]
             },
             {
-              "text": ", but will not inherit their Shield-Piercing Breaker capabilities."
+              "text": "."
             }
           ]
         },
@@ -27282,7 +27053,7 @@
   },
   {
     "Name": "Skyburner's Oath",
-    "Description": "Craftable Void Pinpoint Slug Frame Shotgun\nReloads its entire magazine at once.\nIntrinsic Overload Breaker.\n\nFires Slug Rounds that release 7 bouncing, tracking submunitions on impact.\nSubmunitions deal 88 [5.03] Void Damage, bounce up to 3 times, and are unaffected by damage falloff.\nSubmunitions deal 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\nDirectly impacting an enemy will score a hit with every submunition\n\nSubmunitions can be redirected towards the nearest enemy within 5? meters inside a 45? degree cone pointed in the direction of the the bounce.\n If the submunitions impact a surface, the redirection angle is increased to 360 degrees to enemies within 5 meters.\n\nScoring a kill or picking up a Void Breach grants Nightsworn Sight for 7 seconds and Truesight for 3 seconds.\nBuff persists through stow. Allies with Slayer's Fang within ? meters also receive the buff upon scoring a kill.\n\nWhile Nightsworn Sight is active:\nGrants +? Reload Speed and 15% increased Precision Damage.\nSubmunitions inflict Weaken, and bounce up to 4 times. Possibly higher redirection angle.\nRefills 1 Ammo every ? seconds.\nDeals 10% increased damage towards Fallen and Scorn Combatants.\n\n↑Catalyst:\nGrants the option to slot-in Repulsor Brace, Stats for All, Cascade Point, and Loose Change trait equivalents.",
+    "Description": "Craftable Void Pinpoint Slug Frame Shotgun\nReloads its entire magazine at once.\n\nFires Slug Rounds that release 7 bouncing, tracking submunitions on impact.\nSubmunitions deal 88 [5.03] Void Damage, bounce up to 3 times, and are unaffected by damage falloff.\nSubmunitions deal 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\nDirectly impacting an enemy will score a hit with every submunition\n\nSubmunitions can be redirected towards the nearest enemy within 5? meters inside a 45? degree cone pointed in the direction of the the bounce.\n If the submunitions impact a surface, the redirection angle is increased to 360 degrees to enemies within 5 meters.\n\nScoring a kill or picking up a Void Breach grants Nightsworn Sight for 7 seconds and Truesight for 3 seconds.\nBuff persists through stow. Allies with Slayer's Fang within ? meters also receive the buff upon scoring a kill.\n\nWhile Nightsworn Sight is active:\nGrants +? Reload Speed and 15% increased Precision Damage.\nSubmunitions inflict Weaken, and bounce up to 4 times. Possibly higher redirection angle.\nRefills 1 Ammo every ? seconds.\nDeals 10% increased damage towards Fallen and Scorn Combatants.\n\n↑Catalyst:\nGrants the option to slot-in Repulsor Brace, Stats for All, Cascade Point, and Loose Change trait equivalents.",
     "Type": "EnergyExotic",
     "Comment": "Slug Rifle\nFor The Empire\n↑Incandescent\n↑Burning Ambition",
     "hash": 4255268456,
@@ -27315,13 +27086,6 @@
           "linesContent": [
             {
               "text": "Reloads its entire magazine at once."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -29112,7 +28876,7 @@
   },
   {
     "Name": "Telesto",
-    "Description": " Grenade-Matching Adaptive [Weapon|Instrument|Topology] Fusion Rifle\n[Reload] transforms the next shot into a Grenade-Matching explosive [Projectile|Shape|Language] at the cost of a Grenade Ability Charge. \nTakes 2.3 seconds to transform and refills the magazine.\nCan utilize Transcendence Grenades at the cost of a Grenade Ability Charge. Can utilize Song of Flame Wisp Grenades at no cost.\nAlways uses the element of the current Grenade Ability, regardless of overrides.\n\nKills grant 20% Grenade Energy and an additional 2.5% Light Transcendent Energy and 2.5% Dark Transcendent Energy.\n\nExplosive [Projectile|Shape|Language]:\nBehaves like a rocket, detonating on impact. Deals 180 [57] impact damage and up to 3,131 [166] explosive damage in a 6? meter radius.\nKills detonate enemies, triggering a Grenade-Matching Chain Reaction explosion.\nDeals 19% increased damage while Transcendence is active.\nExplosive shot can be stowed.\n\n↑Property: Unavoidable:\nExplosive [Projectile|Shape|Language] impact triggers a delayed detonation after 1? second.\nDelayed detonation deals up to 165 [10] damage, and applies Elemental Debuffs based on the Grenade Ability Element to enemies within 10? meters.\nArc = Blind | Solar = x70+10 Scorch | Stasis = x80 Slow for 6+1 [0.5] seconds. | Strand = Sever for 5+2.5 | Void = Weaken for 6 [2.5] seconds.",
+    "Description": " Grenade-Matching Adaptive [Weapon|Instrument|Topology] Fusion Rifle\n[Reload] transforms the next shot into a Grenade-Matching explosive [Projectile|Shape|Language] at the cost of a Grenade Ability Charge. \nTakes 2.3 seconds to transform and refills the magazine.\nCan utilize Transcendence Grenades at the cost of a Grenade Ability Charge. Can utilize Song of Flame Wisp Grenades at no cost.\nAlways uses the element of the current Grenade Ability, regardless of overrides.\n\nKills grant 20% Grenade Energy and an additional 2.5% Light Transcendent Energy and 2.5% Dark Transcendent Energy.\n\nExplosive [Projectile|Shape|Language]:\nBehaves like a rocket, detonating on impact. Deals 250 [57] impact damage, up to 3,552 [166] explosive damage, down to 25% damage at 7 meters.\nKills detonate enemies, triggering a Grenade-Matching Chain Reaction explosion.\nDeals 19% increased damage while Transcendence is active.\nExplosive shot can be stowed.\n\n↑Property: Unavoidable:\nExplosive [Projectile|Shape|Language] impact triggers a delayed detonation after 0.2? seconds.\nEnemies within 10 meters of the impact are dealt up to 188 [10] damage and are [afflicts|burdens|cursed| with Elemental Debuffs based on the Grenade Ability Element.\n\nArc = Blind | Solar = x70+10 Scorch with 5% increased Solar Effect damage | Void = Weaken for 6 [2.5] seconds.\nStasis = x80 Slow for 6+1 [0.5] seconds. | Strand = Sever for 5+2.5",
     "Type": "EnergyExotic",
     "Comment": "Unplanned Reprieve\nHarbinger's Pulse\n↑Deeper Pockets",
     "hash": 2208405142,
@@ -29241,7 +29005,7 @@
         {
           "linesContent": [
             {
-              "text": "Behaves like a rocket, detonating on impact. Deals 180 ["
+              "text": "Behaves like a rocket, detonating on impact. Deals 250 ["
             },
             {
               "text": "57",
@@ -29250,7 +29014,7 @@
               ]
             },
             {
-              "text": "] impact damage and up to 3,131 ["
+              "text": "] impact damage, up to 3,552 ["
             },
             {
               "text": "166",
@@ -29259,7 +29023,7 @@
               ]
             },
             {
-              "text": "] explosive damage in a 6? meter radius."
+              "text": "] explosive damage, down to 25% damage at 7 meters."
             }
           ]
         },
@@ -29317,14 +29081,14 @@
               ]
             },
             {
-              "text": "] impact triggers a delayed detonation after 1? second."
+              "text": "] impact triggers a delayed detonation after 0.2? seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Delayed detonation deals up to 165 ["
+              "text": "Enemies within 10 meters of the impact are dealt up to 188 ["
             },
             {
               "text": "10",
@@ -29333,8 +29097,13 @@
               ]
             },
             {
-              "text": "] damage, and applies Elemental Debuffs based on the Grenade Ability Element to enemies within 10? meters."
+              "text": "] damage and are [afflicts|burdens|cursed| with Elemental Debuffs based on the Grenade Ability Element."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -29373,8 +29142,48 @@
               ]
             },
             {
-              "text": " | "
+              "text": " with 5% increased "
             },
+            {
+              "text": "Solar",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Effect damage | "
+            },
+            {
+              "text": "Void",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " = "
+            },
+            {
+              "text": "Weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " for 6 ["
+            },
+            {
+              "text": "2.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
             {
               "text": "Stasis",
               "classNames": [
@@ -29418,34 +29227,7 @@
               ]
             },
             {
-              "text": " for 5+2.5 | "
-            },
-            {
-              "text": "Void",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " = "
-            },
-            {
-              "text": "Weaken",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " for 6 ["
-            },
-            {
-              "text": "2.5",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] seconds."
+              "text": " for 5+2.5"
             }
           ]
         }
@@ -31458,7 +31240,7 @@
   },
   {
     "Name": "Vexcalibur",
-    "Description": "Arc Rapid-Fire Trap Grenade Launcher\n\nFires Arc Bolts that stick to surfaces or enemies for up to 30 seconds.  Up to 6 Arc Bolts can be simultaneously placed.\nBolts that are within 15 metres of others will create an electrified tripwire between each connected bolt.\n Arc Bolts that are connected will all simultaneously trigger.\n\nArc Bolts:\nDeals 189 [35] damage every 0.5 seconds in a 2? meter radius over 15 seconds once an enemy is within 2? meters.\nExplode after 10 seconds of being triggered, or upon expiring, dealing up to 600? [40] damage over ? meters.\nLinked Arc Bolts and their tripwires deal 100% [288%] increased damage.\n\n↑Catalyst: Grants the Jolting Feedback trait.\nJolts on the ",
+    "Description": "Arc Rapid-Fire Trap Grenade Launcher\n\nFires Arc Bolts that stick to surfaces or enemies for up to 30 seconds.  Up to 6 Arc Bolts can be simultaneously placed.\nBolts that are within 15 metres of others will create an electrified tripwire between each connected bolt.\n Arc Bolts that are connected will all simultaneously trigger.\n\nArc Bolts:\nDeals 189 [35] damage every 0.5 seconds in a 2? meter radius over 15 seconds once an enemy is within 2? meters.\nExplode after 10 seconds of being triggered, or upon expiring, dealing up to 600? [40] damage over ? meters.\nLinked Arc Bolts and their tripwires deal 100% [288%] increased damage.\n\n↑Catalyst: Grants the Jolting Feedback trait.\nJolts on the ?th damage instance.",
     "Type": "PowerExotics",
     "Comment": "M1R Distribution Matrix I–IV\nPerpetual Loophole\n↑Craftable Trait",
     "hash": 3118061005,
@@ -31628,7 +31410,7 @@
         {
           "linesContent": [
             {
-              "text": "Jolts on the"
+              "text": "Jolts on the ?th damage instance."
             }
           ]
         }
@@ -31637,7 +31419,7 @@
   },
   {
     "Name": "Vexcalibur",
-    "Description": "Arc Rapid-Fire Trap Grenade Launcher\n\nFires Arc Bolts that stick to surfaces or enemies for up to 30 seconds.  Up to 6 Arc Bolts can be simultaneously placed.\nBolts that are within 15 metres of others will create an electrified tripwire between each connected bolt.\n Arc Bolts that are connected will all simultaneously trigger.\n\nArc Bolts:\nDeals 189 [35] damage every 0.5 seconds in a 2? meter radius over 15 seconds once an enemy is within 2? meters.\nExplode after 10 seconds of being triggered, or upon expiring, dealing up to 600? [40] damage over ? meters.\nLinked Arc Bolts and their tripwires deal 100% [288%] increased damage.\n\n↑Catalyst: Grants the Jolting Feedback trait.\nJolts on the ",
+    "Description": "Arc Rapid-Fire Trap Grenade Launcher\n\nFires Arc Bolts that stick to surfaces or enemies for up to 30 seconds.  Up to 6 Arc Bolts can be simultaneously placed.\nBolts that are within 15 metres of others will create an electrified tripwire between each connected bolt.\n Arc Bolts that are connected will all simultaneously trigger.\n\nArc Bolts:\nDeals 189 [35] damage every 0.5 seconds in a 2? meter radius over 15 seconds once an enemy is within 2? meters.\nExplode after 10 seconds of being triggered, or upon expiring, dealing up to 600? [40] damage over ? meters.\nLinked Arc Bolts and their tripwires deal 100% [288%] increased damage.\n\n↑Catalyst: Grants the Jolting Feedback trait.\nJolts on the ?th damage instance.",
     "Type": "PowerExotics",
     "Comment": "M1R Distribution Matrix I–IV\nPerpetual Loophole\n↑Craftable Trait",
     "hash": 4223953031,
@@ -31807,7 +31589,7 @@
         {
           "linesContent": [
             {
-              "text": "Jolts on the"
+              "text": "Jolts on the ?th damage instance."
             }
           ]
         }
@@ -32006,7 +31788,7 @@
   },
   {
     "Name": "Anarchy",
-    "Description": "Arc Rapid-Fire Sniper Rifle\nUtilizes Scout Rifle Animations, granting peripheral vision unlike other Sniper Rifles.\nIntrinsic Overload Breaker.\n\nUpon aiming at an enemy for 0.5 seconds while scoped-in:\nHighlights the enemy and displays Health and Shield Percentages, distance from target, and Power Level information.\nGrants Target Acquired for as long as an enemy is highlighted.\nHighlight persists for 1 second after being off-target. Only highlights enemies within 150 metres.\n\nTarget Acquired:\nGrants 18.35% increased damage, 31.34% increased Precision Damage, +? Aim Assist, -50% Recoil, -50% Accuracy Cone Size, and 50% Flinch Resistance.\nScoring a hit while Target Acquired is active inflicts Jolt.\n\n↑Networked Targeting and passively grants +20 Stability:\nHits while Target Acquired is active grant a stack of Networked Targeting for 10.5 seconds, up to a maximum of 5 stacks to the wielder and allies with Non-Exotic Sniper Rifles within 15 meters.\nBestowing x5 Networked Targeting stacks to an ally grants 15% increased DARCI damage.\n\nNetworked Targeting Bonuses:\n+? | +? | +? | +? | +? Stability\n+? | +? | +? | +? | +? Handling\n+? | +? | +? | +? | +? Aim Assist\n2.8% | 6.1% | 9.1% | 12.5% | 15.9% Increased Precision Damage\n?% | ?% | ?% | ?% | ?% Flinch Resist",
+    "Description": "Arc Rapid-Fire Sniper Rifle\nUtilizes Scout Rifle Animations, granting peripheral vision unlike other Sniper Rifles.\n\nUpon aiming at an enemy for 0.5 seconds while scoped-in:\nHighlights the enemy and displays Health and Shield Percentages, distance from target, and Power Level information.\nGrants Target Acquired for as long as an enemy is highlighted.\nHighlight persists for 1 second after being off-target. Only highlights enemies within 150 metres.\n\nTarget Acquired:\nGrants 18.35% increased damage, 31.34% increased Precision Damage, +? Aim Assist, -50% Recoil, -50% Accuracy Cone Size, and 50% Flinch Resistance.\nScoring a hit while Target Acquired is active inflicts Jolt.\n\n↑Networked Targeting and passively grants +20 Stability:\nHits while Target Acquired is active grant a stack of Networked Targeting for 10.5 seconds, up to a maximum of 5 stacks to the wielder and allies with Non-Exotic Sniper Rifles within 15 meters.\nBestowing x5 Networked Targeting stacks to an ally grants 15% increased DARCI damage.\n\nNetworked Targeting Bonuses:\n+? | +? | +? | +? | +? Stability\n+? | +? | +? | +? | +? Handling\n+? | +? | +? | +? | +? Aim Assist\n2.8% | 6.1% | 9.1% | 12.5% | 15.9% Increased Precision Damage\n?% | ?% | ?% | ?% | ?% Flinch Resist",
     "Type": "PowerExotics",
     "Comment": "Arc Traps\nImpromptu Ammunition\n↑Jolting Feedback",
     "hash": 2376481550,
@@ -32054,13 +31836,6 @@
             },
             {
               "text": "."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -32386,7 +32161,7 @@
   },
   {
     "Name": "D.A.R.C.I.",
-    "Description": "Void High-Impact Machine Gun\nIntrinsic Shield-Piercing Breaker.\n\nWhile holding down the trigger:\nEvery 4th shot fires a Heavy Metal Projectile that inflicts Volatile.\nEvery 4th Heavy Metal (16th shot) fires a Vexadecimal Projectile that inflicts Weaken.\n\nReleasing the trigger after firing a Vexadecimal Projectile refills 12 Ammo.\n\n↑Catalyst: Grants the Target Lock trait.",
+    "Description": "Void High-Impact Machine Gun\n\nWhile holding down the trigger:\nEvery 4th shot fires a Heavy Metal Projectile that inflicts Volatile.\nEvery 4th Heavy Metal (16th shot) fires a Vexadecimal Projectile that inflicts Weaken.\n\nReleasing the trigger after firing a Vexadecimal Projectile refills 12 Ammo.\n\n↑Catalyst: Grants the Target Lock trait.",
     "Type": "PowerExotics",
     "Comment": "DARCI\nPersonal Assistant \nTarget Acquired\n↑Networked Targeting",
     "hash": 3141979346,
@@ -32409,13 +32184,6 @@
               "classNames": [
                 "weapon-machine-gun"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Shield-Piercing Breaker."
             }
           ]
         },
@@ -32495,7 +32263,7 @@
   },
   {
     "Name": "Deathbringer",
-    "Description": "Solar High-Impact Rocket Launcher\nUses a Fuel Counter to strengthen the effects of the Rocket. Always has x1 Fuel.\nIntrinsic Unstoppable Breaker.\n\nPassively gains 1 Fuel every 6 seconds, up to a maximum of 5 Fuel after 24 seconds. Ignitions within ? metres grant 2 Fuel. Reaching 5 Fuel refills the weapon. \nShooting consumes all Fuel and halts passive Fuel generation for 3 seconds.\n\nRockets leave an Incendiary Trail as they travel.\nRockets embed themselves on direct impact, triggering small explosive bursts every 0.75 seconds that deal 70 [15] damage and release 3 Incendiary Pools each time.\nFuel increases the embed duration of the rocket, allowing it to Scorch more and spreading more Incendiary Pools, as well as granting it increased explosive damage.\n\nIncendiary Pools deal 41 [74] damage and inflicts x40+20 Scorch every ? seconds in a ? meter radius for ? seconds.\nRockets' Incendiary Trail inflicts inflicts x50+20 Scorch.\n\n1 | 2 | 3 | 4 | 5 Fuel Stacks\n1.5s | 2.25s | 3s | 3.75s | 4.5s Embed Duration\n0% | 7.1% | 14.3% | 21.4% | 28.6% Increased Explosive Damage\n3 | 6 | 9 | 12 | 15 Total Incendiary Pools\n\n↑Pyromancer:\nTime between passively gaining stacks of Fuel is decreased to 3 seconds, reaching 5 Fuel after 15 seconds. (It's not 12 seconds as shooting halts passive fuel generation for 3 seconds).\nKills spawn Firesprites without any cooldown between each pickup.",
+    "Description": "Solar High-Impact Rocket Launcher\nUses a Fuel Counter to strengthen the effects of the Rocket. Always has x1 Fuel.\n\nPassively gains 1 Fuel every 6 seconds, up to a maximum of 5 Fuel after 24 seconds. Ignitions within ? metres grant 2 Fuel. Reaching 5 Fuel refills the weapon. \nShooting consumes all Fuel and halts passive Fuel generation for 3 seconds.\n\nRockets leave an Incendiary Trail as they travel.\nRockets embed themselves on direct impact, triggering small explosive bursts every 0.75 seconds that deal 70 [15] damage and release 3 Incendiary Pools each time.\nFuel increases the embed duration of the rocket, allowing it to Scorch more and spreading more Incendiary Pools, as well as granting it increased explosive damage.\n\nIncendiary Pools deal 41 [74] damage and inflicts x40+20 Scorch every ? seconds in a ? meter radius for ? seconds.\nRockets' Incendiary Trail inflicts inflicts x50+20 Scorch.\n\n1 | 2 | 3 | 4 | 5 Fuel Stacks\n1.5s | 2.25s | 3s | 3.75s | 4.5s Embed Duration\n0% | 7.1% | 14.3% | 21.4% | 28.6% Increased Explosive Damage\n3 | 6 | 9 | 12 | 15 Total Incendiary Pools\n\n↑Pyromancer:\nTime between passively gaining stacks of Fuel is decreased to 3 seconds, reaching 5 Fuel after 15 seconds. (It's not 12 seconds as shooting halts passive fuel generation for 3 seconds).\nKills spawn Firesprites without any cooldown between each pickup.",
     "Type": "PowerExotics",
     "Comment": "Dark Deliverance\nDark Descent\n↑Dead Weight",
     "hash": 2232171099,
@@ -32525,13 +32293,6 @@
           "linesContent": [
             {
               "text": "Uses a Fuel Counter to strengthen the effects of the Rocket. Always has x1 Fuel."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
             }
           ]
         },
@@ -34105,7 +33866,7 @@
   },
   {
     "Name": "Heir Apparent",
-    "Description": "Comically Large Void Bow\nIntrinsic Unstoppable Breaker\n\nFully-drawn arrows deal 800 [death] Impact Damage with a 1.6x Precision Multiplier and create a concussive blast on impact.\nConcussive Blast deals up 701 [death] Explosive Damage, inflicts Volatile, and heavily knocks enemies.\n\n↑Colossal Quiver:\nPassively grants +5 Reserves (10 -> 15) and grants an unique version of Archer's Tempo that grants 0.563x Draw Time Multiplier. (0.75^2, technically)",
+    "Description": "Comically Large Void Bow\n\nFully-drawn arrows deal 800 [death] Impact Damage with a 1.6x Precision Multiplier and create a concussive blast on impact.\nConcussive Blast deals up 701 [death] Explosive Damage, inflicts Volatile, and heavily knocks enemies.\n\n↑Colossal Quiver:\nPassively grants +5 Reserves (10 -> 15) and grants an unique version of Archer's Tempo that grants 0.563x Draw Time Multiplier. (0.75^2, technically)",
     "Type": "PowerExotics",
     "Comment": "Heavy Slug Thrower\nArmor of the Colossus\n↑Legion's Bulwark",
     "hash": 2084878005,
@@ -34131,13 +33892,6 @@
               "classNames": [
                 "weapon-bow"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker"
             }
           ]
         },
@@ -34600,7 +34354,7 @@
   },
   {
     "Name": "Microcosm",
-    "Description": "Stasis Grenade Launcher\nIntrinsic Overload Breaker\n\nDeals 25% increased damage to Frozen Enemies and always destroys Stasis Crystals.\nDamage Buff stacks with Frozen Enemy Modifiers.\n\nUncharged Shots fire Stasis Grenades that destroy Stasis Crystals on hit.\nShattering 3 crystals within ? seconds of each with the uncharged shot refills the magazine. \nDestroying a large amount of Stasis Crystals does not result in all of them exploding instantly, presumably for performance reasons. \n\nCharged Shots create Stasis Crystals in a ▼ shape.\nCreates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals further back diagonally, with the middle one being behind the Small Crystal.\nDisplays a preview of where the projectile will land while [Fire] is held.\n\n↑Catalyst:\nGrants the Rimestealer trait.",
+    "Description": "Stasis Grenade Launcher\n\nDeals 25% increased damage to Frozen Enemies and always destroys Stasis Crystals.\nDamage Buff stacks with Frozen Enemy Modifiers.\n\nUncharged Shots fire Stasis Grenades that destroy Stasis Crystals on hit.\nShattering 3 crystals within ? seconds of each with the uncharged shot refills the magazine. \nDestroying a large amount of Stasis Crystals does not result in all of them exploding instantly, presumably for performance reasons. \n\nCharged Shots create Stasis Crystals in a ▼ shape.\nCreates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals further back diagonally, with the middle one being behind the Small Crystal.\nDisplays a preview of where the projectile will land while [Fire] is held.\n\n↑Catalyst:\nGrants the Rimestealer trait.",
     "Type": "PowerExotics",
     "Comment": "Paracausal Beam\nParacausal Imbuement\n↑Stopping Power\n↑Thresh",
     "hash": 4207066264,
@@ -34623,13 +34377,6 @@
               "classNames": [
                 "weapon-heavy-grenade-launcher"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker"
             }
           ]
         },
@@ -35586,7 +35333,7 @@
   },
   {
     "Name": "The Lament",
-    "Description": "Arc Linear Fusion Rifle\nSelectable Perks, between Marksman Sights | Combat Sights, and Hip-Fire Grip | Quickdraw. \nHold [Reload] to quickly swap between Sights.\nIntrinsic Unstoppable Breaker. \n\nWhile Marksman Sights are equipped:\nGrants +15 Range, +10 Zoom, and sets charge time to 0.633 seconds. \nRight-Side Scope displays ammo (Yellow Bar on the right) and charge level (Yellow circle on the right).\nShoots a single chaining bolt that deals 439 [180] Arc Damage with a 3.44x Precision Multiplier and inflicts blinds.\nHits chain up to 5 times towards the closest enemy within 10 meters, dealing 347 [?] Arc Damage and blinding. \nEnemies can only be damaged once per chain.\n\nWhile Combat Sights are equipped:\nGrants +10 Handling, +40 Aim Assist, sets charge time to 0.533 seconds and fires in 3-Round Bursts. \nLeft-Side Scope displays ability energy. Left icon is Grenade. Right Icon is Melee. Wheel is Super.\nShoots a 3-Bolt Burst, dealing 191 x 3 = 573 [79 x 3 = 237] Arc Damage with a 3.44x Precision Multiplier per shot\nScoring 6 Hits within ? seconds of each grants Charge Accelerant for 5.5 seconds.\nCharge Accelerant | 0.6x Charge Time Multiplier.\nCharge Accelerant does not decrease damage per shot. Buff can be refreshed.\n\nCatalyst:\nGrants the Rewind Rounds trait.",
+    "Description": "Arc Linear Fusion Rifle\nSelectable Perks, between Marksman Sights | Combat Sights, and Hip-Fire Grip | Quickdraw. \nHold [Reload] to quickly swap between Sights.\n\nWhile Marksman Sights are equipped:\nGrants +15 Range, +10 Zoom, and sets charge time to 0.633 seconds. \nRight-Side Scope displays ammo (Yellow Bar on the right) and charge level (Yellow circle on the right).\n\nShoots a single chaining bolt that deals 439 [180] Arc Damage with a 3.44x Precision Multiplier and inflicts blinds.\nHits chain up to 5 times towards the closest enemy within 10 meters, dealing 347 [?] Arc Damage and blinding. \nEnemies can only be damaged once per chain.\n\nWhile Combat Sights are equipped:\nGrants +10 Handling, +40 Aim Assist, sets charge time to 0.533 seconds and fires in 3-Round Bursts. \nLeft-Side Scope displays ability energy. Left icon is Grenade. Right Icon is Melee. Wheel is Super.\n\nShoots a 3-Bolt Burst, dealing 191 x 3 = 573 [79 x 3 = 237] Arc Damage with a 3.44x Precision Multiplier per shot\nScoring 6 Hits within ? seconds of each grants Charge Accelerant for 5.5 seconds.\n\nCharge Accelerant | 0.6x Charge Time Multiplier.\nCharge Accelerant does not decrease damage per shot. Buff can be refreshed.\n\nCatalyst:\nGrants the Rewind Rounds trait.",
     "Type": "PowerExotics",
     "Comment": "Banshee's Wail\nRevved Consumption\nTireless Blade\n↑Burning Ambition",
     "hash": 3487253372,
@@ -35636,13 +35383,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Unstoppable Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -35666,6 +35406,11 @@
             {
               "text": "Right-Side Scope displays ammo (Yellow Bar on the right) and charge level (Yellow circle on the right)."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -35752,6 +35497,11 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
               "text": "Shoots a 3-Bolt Burst, dealing 191 x 3 = 573 ["
@@ -35781,6 +35531,11 @@
             {
               "text": "Scoring 6 Hits within ? seconds of each grants Charge Accelerant for 5.5 seconds."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -35821,7 +35576,7 @@
   },
   {
     "Name": "The Prospector",
-    "Description": "Arc Volley Rocket Launcher\n\nShoots a volley of 8 wildly imprecise rockets, each dealing 107 [22] impact and up to 1500 [300] explosive damage over ? meters.\n\nWhile the distance from the Guardian's feet to the ground is under 5? meters:\nGrants x1 Bolt Charge to the user and allies within ? meters for every 2 Rockets fired.\n\nOn Heavy Ammo Brick Pickup: \nRefills Magazine.\n\n↑Pinpoint Guidance Module:\nPassively grants slight tracking to the rockets.",
+    "Description": "Arc Volley Rocket Launcher\n\nShoots a volley of 8 wildly imprecise rockets, each dealing 107 [22] impact and up to 1500 [300] explosive damage over ? meters.\n\nGrants x1 Bolt Charge to the user and allies within ? meters for every 2 Rockets fired.\n\nOn Heavy Ammo Brick Pickup: \nRefills Magazine.\n\n↑Pinpoint Guidance Module:\nPassively grants slight tracking to the rockets.",
     "Type": "PowerExotics",
     "Comment": "Excavation\nF.A.T.S (Full Auto)\nChain Reaction\n↑Deeper Pockets\n↑Danger Zone",
     "hash": 3549153979,
@@ -35880,13 +35635,6 @@
         {
           "classNames": [
             "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "While the distance from the Guardian's feet to the ground is under 5? meters:"
-            }
           ]
         },
         {
@@ -35957,7 +35705,7 @@
   },
   {
     "Name": "The Queenbreaker",
-    "Description": "Arc Adaptive Machine Gun\nIntrinsic Dynamic Sway Reduction, and reticle moves drastically less, akin to Zen Moment without needing hits.\nIntrinsic Overload Breaker\n\nWhile holding down the trigger:\n0.75x Fire Recovery Delay after initially firing 13 rounds.\n0.6x Fire Recovery Delay after firing a total of 26 shots.\nTriggers a Lightning Strike every 10 hits or on kill, dealing up to 232 [65] Damage in a 5 meter radius and grant x1 Bolt Charge.\n\n↑Return Stroke:\nLightning Strikes refill 5 Ammo.",
+    "Description": "Arc Adaptive Machine Gun\nIntrinsic Dynamic Sway Reduction, and reticle moves drastically less, akin to Zen Moment without needing hits.\n\nWhile holding down the trigger:\n0.75x Fire Recovery Delay after initially firing 13 rounds.\n0.6x Fire Recovery Delay after firing a total of 26 shots.\nTriggers a Lightning Strike every 10 hits or on kill, dealing up to 232 [65] Damage in a 5 meter radius and grant x1 Bolt Charge.\n\n↑Return Stroke:\nLightning Strikes refill 5 Ammo.",
     "Type": "PowerExotics",
     "Comment": "Wire Rifle\nMarksman OR Combat Sights\nHip-fire Grip OR Quickdraw\n↑Rewind Rounds",
     "hash": 2044500762,
@@ -35987,13 +35735,6 @@
           "linesContent": [
             {
               "text": "Intrinsic Dynamic Sway Reduction, and reticle moves drastically less, akin to Zen Moment without needing hits."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker"
             }
           ]
         },
@@ -36072,7 +35813,7 @@
   },
   {
     "Name": "The Wardcliff Coil",
-    "Description": "Void Blast Shotgun\nIntrinsic Overload Breaker.\n\nVoid Blast heavily knocks enemies back. \nKnockback has no effect on Minibosses and Bosses.\n\nHits inflict suppression and a stronger weaken that increases damage received by 30% for 10 seconds.\nHits grant Scientific Method for 5 seconds, granting +35 Handling and maximized?% Increased Movement Speed.\nScientific Method remains active while stowed and cannot be refreshed.\n\n↑Deeper Pockets:\nPassively grants +3 Magazine Size (4 -> 7) and +3 Reserves (14 -> 17)",
+    "Description": "Void Blast Shotgun\n\nVoid Blast heavily knocks enemies back. \nKnockback has no effect on Minibosses and Bosses.\n\nHits inflict suppression and a stronger weaken that increases damage received by 30% for 10 seconds.\nHits grant Scientific Method for 5 seconds, granting +35 Handling and maximized?% Increased Movement Speed.\nScientific Method remains active while stowed and cannot be refreshed.\n\n↑Deeper Pockets:\nPassively grants +3 Magazine Size (4 -> 7) and +3 Reserves (14 -> 17)",
     "Type": "PowerExotics",
     "Comment": "Mad Scientist\nMechanized Autoloader\n↑Pinpoint Guidance Module",
     "hash": 1508896098,
@@ -36095,13 +35836,6 @@
               "classNames": [
                 "weapon-shotgun"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -36198,7 +35932,7 @@
   },
   {
     "Name": "Thunderlord",
-    "Description": "Void Airburst Homing Rocket Launcher\nContains 3 shots in Magazine\n\nRockets lock-on to targets by aiming, and aggressively track locked-on enemies.\nRockets have proximity detonation, exploding while within ? metres from enemies.\nRockets cannot deal Impact Damage due to Proximity Detonation.\n\nReloading after dealing damage with each rocket refills 1 Ammo.\nReloading after dealing damage with all 3 rockets grants Prototype Trueseeker until the next reload.\n\nPrototype Trueseeker grants 0.?x Fire Recovery Delay, +? Stability, massively improved tracking, and rockets explode into ? Cluster Bombs on impact\n\n↑Catalyst: Grants the Reaper's Tithe trait.",
+    "Description": "Void Airburst Homing 3-Shot Rocket Launcher\n\nRockets lock-on to targets by aiming, and aggressively track locked-on enemies.\nRockets have proximity detonation, exploding while within ? metres from enemies.\nRockets cannot deal Impact Damage due to Proximity Detonation.\n\nReloading after dealing damage with each rocket refills 1 Ammo.\nReloading after dealing damage with all 3 rockets grants Prototype Trueseeker until the next reload.\n\nPrototype Trueseeker grants 0.?x Fire Recovery Delay, +? Stability, massively improved tracking, and rockets explode into ? Cluster Bombs on impact\n\n↑Catalyst: Grants the Reaper's Tithe trait.",
     "Type": "PowerExotics",
     "Comment": "Reign Havoc\nLightning Rounds\n↑Return Stroke",
     "hash": 3325463374,
@@ -36214,20 +35948,13 @@
               ]
             },
             {
-              "text": " Airburst Homing "
+              "text": " Airburst Homing 3-Shot "
             },
             {
               "text": "Rocket Launcher",
               "classNames": [
                 "weapon-rocket-launcher"
               ]
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Contains 3 shots in Magazine"
             }
           ]
         },
@@ -36308,7 +36035,7 @@
   },
   {
     "Name": "Tractor Cannon",
-    "Description": " Void + Solar + ↑Arc Homing Rocket Launcher\nFires a burst of 2 ↑3 homing rockets.\nIntrinsic Overload Breaker.\n\nThe first rocket deals Void Damage and inflicts Suppression.\nThe second rocket deals Solar Damage and inflicts x60+30 Scorch. \n\n↑Third Tail:\nAlters the two-burst into a three-burst fire, firing an additional Arc Rocket at the end of the burst.\nThe third rocket deals deals 428 [22] Impact Damage, up to 267 [76] Explosion Damage, and inflicts Jolt.",
+    "Description": " Void + Solar + ↑Arc Homing Rocket Launcher\nFires a burst of 2 ↑3 homing rockets.\n\nThe first rocket deals Void Damage and inflicts Suppression.\nThe second rocket deals Solar Damage and inflicts x60+30 Scorch. \n\n↑Third Tail:\nAlters the two-burst into a three-burst fire, firing an additional Arc Rocket at the end of the burst.\nThe third rocket deals deals 428 [22] Impact Damage, up to 267 [76] Explosion Damage, and inflicts Jolt.",
     "Type": "PowerExotics",
     "Comment": "Repulsor Force\nScientific Method\n↑Deeper Pockets",
     "hash": 3580904581,
@@ -36365,13 +36092,6 @@
             },
             {
               "text": " homing rockets."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
             }
           ]
         },
@@ -36569,7 +36289,7 @@
   },
   {
     "Name": "Two-Tailed Fox",
-    "Description": "Stasis Aggressive Glaive\nGains 25% Weapon Energy on each Freeze Orb hit.\nIntrinsic Overload Breaker. \n\nFreeze Orb fires Explosive Projectiles every 0.5 seconds towards non-frozen enemies within 10 metres of it, inflicting Freeze in a 3? metre radius and dealing up to 60 [11] damage on impact.\n\nFreeze Orb detonates on impact, dealing 1282 [250] damage and inflicting x60 Slow in a 10 metre radius.\nFreeze Orb moves at a speed of 9.5 metres per second and has a maximum lifetime of ? seconds, being able to travel up to ? metres.\n\nWhile Magazine is loaded with at least 1 Ammo:\nMelee Attacks deal 50% increased damage and inflict x40 Slow for ?+? [1.5+0] seconds.\nBoss Combatants only receive 20% increased damage.\n\n↑Catalyst: Grants the Rimestealer trait.",
+    "Description": "Stasis Aggressive Glaive\nGains 25% Weapon Energy on each Freeze Orb hit.\n\nFreeze Orb fires Explosive Projectiles every 0.5 seconds towards non-frozen enemies within 10 metres of it.\nExplosive Projectiles inflict Freeze over a 3? meter radius and deal up to 60 [11] damage on impact.\n\nFreeze Orb detonates on impact, dealing 1282 [250] damage and inflicting x60 Slow in a 10 metre radius.\nFreeze Orb moves at a speed of 9.5 metres per second and has a maximum lifetime of ? seconds, being able to travel up to ? metres.\n\nWhile Magazine is loaded with at least 1 Ammo:\nMelee Attacks deal 50% increased damage and inflict x40 Slow for ?+? [1.5+0] seconds.\nBoss Combatants only receive 20% increased damage.\n\n↑Catalyst: Grants the Rimestealer trait.",
     "Type": "PowerExotics",
     "Comment": "Twintails\nPlay with Your Prey\n↑Third Tail",
     "hash": 2694576561,
@@ -36612,13 +36332,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Intrinsic Overload Breaker."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -36641,7 +36354,14 @@
               ]
             },
             {
-              "text": " enemies within 10 metres of it, inflicting "
+              "text": " enemies within 10 metres of it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Explosive Projectiles inflict "
             },
             {
               "text": "Freeze",
@@ -36650,7 +36370,7 @@
               ]
             },
             {
-              "text": " in a 3? metre radius and dealing up to 60 ["
+              "text": " over a 3? meter radius and deal up to 60 ["
             },
             {
               "text": "11",

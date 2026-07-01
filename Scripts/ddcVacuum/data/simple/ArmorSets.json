@@ -36,7 +36,7 @@
   },
   {
     "Name": "Melee Conduction",
-    "Description": "While Cure, Radiant, or Restoration are active:\nMelee Hits trigger a Solar Burst on the target, dealing 28 [17] Damage and inflicting x20+10 Scorch within 7 meters.\nIncurs a 1 second cooldown per trigger.\nWill NOT trigger if the Melee Hit granted a Solar Buff, such as Ember of Torches, unless the Melee Ability intrinsically inflicts Scorch. (Exotics do NOT count)",
+    "Description": "While Cure, Radiant, or Restoration are active:\nMelee and Glaive Hits trigger a Solar Burst on the target, dealing 28 [17] Damage and inflicting x20+10 Scorch within 7 meters.\nIncurs a 1 second cooldown per trigger.\nWill NOT trigger if the Melee Hit granted a Solar Buff, such as Ember of Torches, unless the Melee Ability intrinsically inflicts Scorch. (Exotics do NOT count)",
     "Comment": "Pit of Heresy\nDungeon",
     "SetName": "Apostate's Blade",
     "PieceRequirement": "4 Piece"
@@ -85,14 +85,14 @@
   },
   {
     "Name": "Between Poles",
-    "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nx5 Light Polarity --> Kinetic/Stasis/Strand Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
+    "Description": "Light Weapon Kills grant a stack of Light Polarity for 10 seconds, up to a maximum of 5 stacks.\nLight Polarity grants +8 | +16 | +24 | +32 | +40 Grenade Stat.\n\nKinetic/Dark Weapon Kills grant a stack of Dark Polarity for 10 seconds, up to a maximum of 5 stacks.\nDark Polarity grants +8 | +16 | +24 | +32 | +40 Melee Stat.\n\nScoring a Non-Alignment Matching Weapon Kill removes all stacks.\nANY Light Polarity --> Dark Alignment Weapon Kill --> x1 Dark Polarity and x0 Light Polarity.",
     "Comment": "Prophecy\nDungeon",
     "SetName": "CODA",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "So Very Thin",
-    "Description": "Light Weapon Kills grant ?% Grenade Energy.\nKinetic/Dark Weapon Kills grant ?% Melee Energy.\n\nUpon scoring ? Kills within ? seconds of each while alternating between alignments between kills:\n40?% Damage Resist for 5? seconds.\nRefreshable on kills.",
+    "Description": "Light Weapon Kills grant ~16% Grenade Energy.\nKinetic/Dark Weapon Kills grant ~16% Melee Energy.\n\nUpon scoring a Light Weapon Kill within 10 seconds of scoring a Dark Weapon Kill, or vice versa:\nResist x3 (40% [7.5%] DR) for 5 seconds.\nRefreshable by retriggering the effect.\n\nBoth effects can be triggered by destroying \"destroyable entities\" as well as Constructs.",
     "Comment": "Prophecy\nDungeon",
     "SetName": "CODA",
     "PieceRequirement": "4 Piece"
@@ -120,7 +120,7 @@
   },
   {
     "Name": "Power of the Son",
-    "Description": "While maintaining a state of dealing or receiving damage every 7 seconds:\nGrants a stack of ?? after 12 seconds, up to 2 stacks after 24 seconds.\n\n??? x1 | 15% Damage Resist and Flinch Resist\n??? x1 | 25% Damage Resist and Flinch Resist",
+    "Description": "While maintaining a state of dealing or receiving damage every 7 seconds:\nGrants a stack of Power of the Son after 12 seconds, up to 2 stacks after 24 seconds.\n\nPower of the Son x1 | 15% Damage Resist against Combatants and ?% Flinch Resist.\nPower of the Son x2 | 25% Damage Resist against Combatants and ?% Flinch Resist.",
     "Comment": "Crota's End\nRaid",
     "SetName": "Crota's Memory",
     "PieceRequirement": "4 Piece"
@@ -141,7 +141,7 @@
   },
   {
     "Name": "Resupply",
-    "Description": "After having maintained a state of not dealing or receiving damage for at least 12? seconds:\nThe next kill scored spawns an Orb of Power that grants 1?% Super Energy, as well as +20% Special Ammo Progress and +20% Power Ammo Progress.",
+    "Description": "Scoring a kill spawns an Orb of Power that grants 1?% Super Energy, as well as +20% Special Ammo Progress and +20% Power Ammo Progress.\nIncurs a 12 second cooldown before it can retrigger.",
     "Comment": "Europa\nDestination",
     "SetName": "Crystocrene",
     "PieceRequirement": "2 Piece"
@@ -169,14 +169,14 @@
   },
   {
     "Name": "Taking Initiative",
-    "Description": "Upon scoring a Melee or Sword Hit:\nGrants a stack of Initiative for 8 seconds, up to a maximum of 5 stacks.\nInitiative grants +Handling and +Reload Speed.\nStacks decay one at a time.\n\nInitiative\n+? | +? | +? | +? | +? Handling and Reload Speed",
+    "Description": "Upon scoring a Melee or Sword Damage Instance:\nGrants a stack of Initiative for 8 seconds, up to a maximum of 5 stacks.\nInitiative grants +Handling and +Reload Speed.\nStacks decay one at a time.\nCan stack on Immune Enemies and with DoT as well, such as Sword Storm Combo, Smoke Bomb, and Scorch Ticks.\n\nInitiative\n+? | +? | +? | +? | +? Handling and Reload Speed",
     "Comment": "Warlord's Ruin\nDungeon",
     "SetName": "Dark Age",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Healing Initiative",
-    "Description": "On Class Ability Usage while Initiative is active:\nCreates a stationary Healing Drone that restores HP every 2 seconds in a ? meter radius.\nHealing Drone restores 10? HP per Initiative stack per pulse up to 5 times per Class Ability Usage.\nHealing Drone has no collision but can block projectiles.",
+    "Description": "On Class Ability Usage while Initiative is active:\nCreates a stationary Healing Drone that restores HP every 2 seconds in a 7 meter radius. Instantly releases the first pulse on usage.\nHealing Drone restores 10 HP per Initiative stack per pulse up to 5 times per Class Ability Usage.\nHealing Drone has no collision but can block projectiles.",
     "Comment": "Warlord's Ruin\nDungeon",
     "SetName": "Dark Age",
     "PieceRequirement": "4 Piece"
@@ -246,14 +246,14 @@
   },
   {
     "Name": "Repurposed Charge",
-    "Description": "Gaining, losing, or consuming Armor Charges restores 5? HP and grants stacks of Repurposed Charge.\n\nRepurposed Charge stacks are based on the amount of simultaneously(!) gained/lost/consumed Armor charges + 1.\nMaxes out at x7 with 6 Armor Charges simultaneously lost/spent through Kickstart or Finisher Mods.\n\nInitial Buff duration as well as Buff Extensions are equal to (3 seconds X Repurposed Charge Stacks gained/lost/consumed)\n Buff can be extended to a maximum of 30 seconds, maintaining the highest stack.\nExamples: Orb Pickups grant x2 (13% DR) for +6 seconds.\n Special Finisher will grant x4 (30% DR) for +12 seconds. Picking up an Orb afterwards will maintain x4 stacks and add +6 seconds.\n\nRepurposed Charge:\nGrant Damage Resist per Repurposed Charge stack, up to 35% [?%] DR at 7 stacks.\nx1 = 0% [0%] | x2 = 13% [?%] | x3 = 21% [?%] | x4 = 29.5% [?%] | x5 = 31% [?%] | x6 = 33% [?%] | x7 = 35% [?%]",
+    "Description": "Gaining, losing, or consuming Armor Charges restores 5? HP and grants stacks of Repurposed Charge.\n\nRepurposed Charge stacks are based on the amount of simultaneously(!) gained/lost/consumed Armor charges + 1.\nMaxes out at x7 with 6 Armor Charges simultaneously lost/spent through Kickstart or Finisher Mods.\n\nInitial Buff duration as well as Buff Extensions are equal to (3 seconds X Repurposed Charge Stacks gained/lost/consumed)\n Buff can be extended to a maximum of 30 seconds, maintaining the highest stack.\nExamples: Orb Pickups grant x2 (13% DR) for +6 seconds.\n Special Finisher will grant x4 (29.5% DR) for +12 seconds. Picking up an Orb afterwards will maintain x4 stacks and add +6 seconds.\n\nRepurposed Charge:\nGrant Damage Resist per Repurposed Charge stack, up to 35% [?%] DR at 7 stacks.\nx1 = 0% [0%] | x2 = 13% [?%] | x3 = 21% [?%] | x4 = 29.5% [?%] | x5 = 31% [?%] | x6 = 33% [?%] | x7 = 35% [?%]",
     "Comment": "Nessus\nDestination",
     "SetName": "Exodus Down",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Rapid Repair",
-    "Description": "Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.",
+    "Description": "Upon healing Shield HP:\n 10% [2.5%] Damage Resist (Resist x1) and ?% Flinch Resist for 7 seconds.\nCan only trigger once per Full Heal.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Ferropotent",
     "PieceRequirement": "2 Piece"
@@ -295,28 +295,28 @@
   },
   {
     "Name": "Taken Barrier",
-    "Description": "On Grenade Kill:\nGrants Resist x1 (10% [2.5%] DR) for 7 seconds.",
+    "Description": "On Grenade Kill:\nResist x1 (10% [2.5%] DR) for 7 seconds.",
     "Comment": "Last Wish\nRaid",
     "SetName": "Great Hunt",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Taken Armaments",
-    "Description": "On Grenade Kill:\nGrants ?% Heavy Ammo Progress.",
+    "Description": "On Grenade Kill:\n?% Heavy Ammo Progress.",
     "Comment": "Last Wish\nRaid",
     "SetName": "Great Hunt",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Primary Honing",
-    "Description": "For Primary Ammo Weapons:\n+? Handling, +? Reload Speed.\nIncreased Damage against Non-Boss Combatants based on the Weapons stat.",
+    "Description": "Passively grants +? Handling and +? Reload Speed for Primary Weapons.\n\nIncreased Primary Weapon Damage against Non-Boss Combatants based on the Weapons stat.\n\nCompared to the damage dealt at the equivalent Weapon Stat:\n20 Stat = 0.6% | 40 = 1.2% | 60 = 1.8% | 80 = 2.4% | 100 = 3%\n120 = 4.75% | 140 = 6.6% | 160 = 8.35% | 180 = 10.2% | 200 = 12%",
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Supercyclical",
-    "Description": "Final blows while Super is active refund Super energy when it ends.",
+    "Description": "Upon scoring kills while in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy once it ends.\n\nUpon scoring kills with Super Damage while NOT in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy.",
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "4 Piece"
@@ -337,7 +337,7 @@
   },
   {
     "Name": "Network Admin",
-    "Description": "While an ally is within 15? meters:\n+? Handling and +? Reload Speed.\n+? Health Stat while an allied Network Admin is in the same VLAN.",
+    "Description": "While an ally is within 15? meters:\n+? Handling and +? Reload Speed.\n\n+? Health Stat while an allied Network Admin is within 15m.",
     "Comment": "Garden of Salvation Reprises\nRaid",
     "SetName": "Kentarch 3",
     "PieceRequirement": "2 Piece"
@@ -351,7 +351,7 @@
   },
   {
     "Name": "Terminal Velocity",
-    "Description": "Upon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nAlso triggers from destroying Constructs.",
+    "Description": "Upon scoring a Primary Weapon Kill:\n+20 Reload Speed and 0.95x Reload Duration Multiplier for Primary Weapons for 6 seconds.\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs.",
     "Comment": "Crucible",
     "SetName": "Last Discipline",
     "PieceRequirement": "2 Piece"
@@ -435,7 +435,7 @@
   },
   {
     "Name": "Iron Sharpens Iron",
-    "Description": "On Elite+/Guardian Kill:\n?.?x Special and ?.?x Power Ammo Progress.",
+    "Description": "On Elite+/Guardian Kill:\n+12% Special and +8% Power Ammo Progress.",
     "Comment": "King's Fall\nRaid",
     "SetName": "Oryx's Memory",
     "PieceRequirement": "2 Piece"
@@ -463,7 +463,7 @@
   },
   {
     "Name": "Primary Chain",
-    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain grants +? Mobility, as well as +5? Range and +? Handling for Primary Ammo per stack.\nMaxes out at +? Mobility, +15 Range, and +? Handling.",
+    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain grants +5 Mobility, as well as +5 Range and +10? Handling for Primary Ammo per stack.\nMaxes out at +15 Mobility, +15 Range, and +30? Handling after scoring 3 Primary Ammo Weapon Kills.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "2 Piece"
@@ -477,7 +477,7 @@
   },
   {
     "Name": "Stable Resonance",
-    "Description": "On Elite+ Kill:\nGrants 7% Increased Damage and 25?% Damage Resist for 12 seconds.",
+    "Description": "On Elite+ Kill:\n7% Increased Damage and Resist x2 (25% DR) for 12 seconds.",
     "Comment": "Salvation's Edge\nRaid",
     "SetName": "Promised",
     "PieceRequirement": "2 Piece"
@@ -519,14 +519,14 @@
   },
   {
     "Name": "Combat Meditation",
-    "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy. \nIncreased to 8% Grenade and Class Ability Energy while Blade Focus is active.",
+    "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy.",
     "Comment": "Equilibrium \nDungeon",
     "SetName": "Sage Protector",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Blade Focus",
-    "Description": "Upon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus.\n\nBlade Focus grants 10% Increased Sword Damage, 100% Increased Sword Lunge Distance, and doubled Combat Meditation Energy Gains for 7 seconds.\nBlade Focus is removed upon guarding or stowing the sword.",
+    "Description": "Upon guarding for 1.35 seconds:\nGrants Blade Focus Ready for 1 second.\n Swinging while it is active AND scoring a hit consumes Blade Focus Ready to grant Blade Focus for 7 seconds.\n\nBlade Focus:\n10% Increased Sword Damage and 100% Increased Sword Lunge Distance\nCombat Meditation Energy Gains are increased to 8% Grenade and Class Ability Energy.\nBlade Focus is removed upon guarding or stowing the sword.",
     "Comment": "Equilibrium \nDungeon",
     "SetName": "Sage Protector",
     "PieceRequirement": "4 Piece"
@@ -624,7 +624,7 @@
   },
   {
     "Name": "Truth to Power",
-    "Description": "Each damage instance scored grants a stack of Truth, up to a maximum of x999 stacks.\nKills and Finishers grant many more stacks, although it seems to have different gains depending on the stack amount.\nKills tend to be within 20-35 stacks. Finishers tend to give around 60-90 stacks. \nALL stacks are removed on death.\n\nTruth grants Damage Resist per stack, up to 15% DR at maximum.\n250 = 3.75% | 500 = 7.5% | 750 = 10% | 999 = 15% Damage Resist\n\nTransforms into Power upon reaching x999 stacks.\nPower grants ?% Additional Base Grenade, Melee, and Class Regeneration Rate, on top of the aforementioned 15% Damage Resist.",
+    "Description": "Each damage instance scored grants a stack of Truth, up to a maximum of x999 stacks. wherein it gets renamed to Power.\nKills and Finishers grant many more stacks, although it seems to have different gains depending on the stack amount.\nKills tend to be within 20-35 stacks. Finishers tend to give around 60-90 stacks. \nALL stacks are removed on death.\n\nTruth grants Damage Resist per stack, up to 15% DR at maximum.\n250 = 3.75% | 500 = 7.5% | 750 = 10% | 999 = 15% Damage Resist\n\nTruth to Power Effect at x999 stacks:\n+50% Additional Base Grenade, and Melee Regeneration Rate.\n+35% Additional Base Class Regeneration Rate\n15% Damage Resist.",
     "Comment": "Shattered Throne",
     "SetName": "Techeun's Regalia",
     "PieceRequirement": "4 Piece"
@@ -708,7 +708,7 @@
   },
   {
     "Name": "Gift of Sight",
-    "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\nAlso triggers from destroying Constructs.",
+    "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\n\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs.",
     "Comment": "Trials",
     "SetName": "Twofold Crown",
     "PieceRequirement": "4 Piece"
@@ -771,14 +771,14 @@
   },
   {
     "Name": "Untold Greed",
-    "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants stacks of Untold Greed, up to a maximum of 100 stacks.\nReaching Critical Health removes 10 stacks.\n\nUntold Greed:\nGrants up to +? Reload Speed and ?% Damage Resist at ? stacks.",
+    "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants a stack of Untold Greed, up to a maximum of 100 stacks.\n\nUpon reaching Critical Health:\nRemoves 10 stacks.\n\nUntold Greed:\nUp to +? Reload Speed and 15% Damage Resist at x25 stacks.\nx5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25 = 15% DR",
     "Comment": "Grasp of Avarice",
     "SetName": "Yearning Echo",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Overflowing Coffers",
-    "Description": "While Untold Greed is active:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups grant +?% Ability Energy.\nStrand Tangles are granted the privilege of being DISABLED.\n\nUpon reaching Critical Health:\nConverts ALL STACKS of Untold Greed into Orbs of Power that grant ?% Super Energy.\n\nthis is what happens when you become greedy gremlins!!!!",
+    "Description": "While Untold Greed is active:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups grant +?% Ability Energy.\nStrand Tangles deal 350% increased damage. Affects Whirling Maelstrom.\n\nUpon reaching Critical Health while having x5 Untold Greed or higher:\nRemoves ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy.\nThe Orbs of Power are ejected in front of the user at high speeds, likely clipping inside walls.\n\nLooking upwards/downwards does not affect where the Orbs go.\nAllied AND Enemy Guardians get the Orbs, too.",
     "Comment": "Grasp of Avarice",
     "SetName": "Yearning Echo",
     "PieceRequirement": "4 Piece"

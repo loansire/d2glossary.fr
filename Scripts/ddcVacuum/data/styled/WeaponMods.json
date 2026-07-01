@@ -1,59 +1,5 @@
 [
   {
-    "Name": "Abundant Ammo",
-    "Description": "+10 ↑+12 Ammo Generation.",
-    "hash": 1197814525,
-    "parentHash": "1197814525",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "+10 "
-            },
-            {
-              "text": "↑+12",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Ammo Generation."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Abundant Ammo",
-    "Description": "+10 ↑+12 Ammo Generation.",
-    "hash": 325500297,
-    "parentHash": "325500297",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "+10 "
-            },
-            {
-              "text": "↑+12",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Ammo Generation."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Name": "Aerodynamics",
     "Description": "+6 ↑+7 Blast Radius and +6 ↑+7 Velocity.",
     "hash": 2254149382,
@@ -1985,5 +1931,9 @@
         }
       ]
     }
+  },
+  {
+    "Name": "Intrinsic Traits",
+    "hash_warning": "No matching hash found in d2glossary"
   }
 ]

@@ -1,19 +1,5 @@
 [
   {
-    "Name": "Sprint Grip",
-    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting.",
-    "hash": 518387148,
-    "parentHash": "518387148",
-    "hash_warning": "Multiple matches found (2 total)"
-  },
-  {
-    "Name": "Sprint Grip",
-    "Description": "After sprinting for 1.5 seconds:\n+35 ↑+? ADS and Ready Speed Handling until no longer sprinting.",
-    "hash": 890612500,
-    "parentHash": "890612500",
-    "hash_warning": "Multiple matches found (2 total)"
-  },
-  {
     "Name": "Stunloader",
     "Description": "Upon stunning a Champion:\nRefills 50% ↑60% of Magazine.",
     "hash": 3024601835,
@@ -3385,6 +3371,470 @@
   {
     "Name": "Precision Frame",
     "Description": "-20% Recoil Yaw (Horizontal Recoil).\nFusion Rifles only receive -10% Recoil Yaw.",
+    "hash": 738967614,
+    "parentHash": "738967614",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1636108362,
+    "parentHash": "1636108362",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 453527127,
+    "parentHash": "453527127",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3000852559,
+    "parentHash": "3000852559",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3399947696,
+    "parentHash": "3399947696",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1045795938,
+    "parentHash": "1045795938",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 384272571,
+    "parentHash": "384272571",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3226552705,
+    "parentHash": "3226552705",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 224485255,
+    "parentHash": "224485255",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 743857847,
+    "parentHash": "743857847",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 364418505,
+    "parentHash": "364418505",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1236001742,
+    "parentHash": "1236001742",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2458294492,
+    "parentHash": "2458294492",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2725422375,
+    "parentHash": "2725422375",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3094629643,
+    "parentHash": "3094629643",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3356299403,
+    "parentHash": "3356299403",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2305599261,
+    "parentHash": "2305599261",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2057203855,
+    "parentHash": "2057203855",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3046673757,
+    "parentHash": "3046673757",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3274444880,
+    "parentHash": "3274444880",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2563509458,
+    "parentHash": "2563509458",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3489809232,
+    "parentHash": "3489809232",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2743098132,
+    "parentHash": "2743098132",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 4130495068,
+    "parentHash": "4130495068",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 668357349,
+    "parentHash": "668357349",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3192296481,
+    "parentHash": "3192296481",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2094305299,
+    "parentHash": "2094305299",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 445823153,
+    "parentHash": "445823153",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1322370662,
+    "parentHash": "1322370662",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 433469519,
+    "parentHash": "433469519",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 4113841443,
+    "parentHash": "4113841443",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1034287523,
+    "parentHash": "1034287523",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 886865893,
+    "parentHash": "886865893",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 4083543255,
+    "parentHash": "4083543255",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 26177576,
+    "parentHash": "26177576",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1206996986,
+    "parentHash": "1206996986",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3646909656,
+    "parentHash": "3646909656",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 797798924,
+    "parentHash": "797798924",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 216781713,
+    "parentHash": "216781713",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 762204274,
+    "parentHash": "762204274",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2409208302,
+    "parentHash": "2409208302",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 482158780,
+    "parentHash": "482158780",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2986718682,
+    "parentHash": "2986718682",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 895140517,
+    "parentHash": "895140517",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 811588234,
+    "parentHash": "811588234",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1052350088,
+    "parentHash": "1052350088",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3913106382,
+    "parentHash": "3913106382",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3419227006,
+    "parentHash": "3419227006",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 715195141,
+    "parentHash": "715195141",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 4000302358,
+    "parentHash": "4000302358",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3665558569,
+    "parentHash": "3665558569",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3114731754,
+    "parentHash": "3114731754",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 1827389998,
+    "parentHash": "1827389998",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3252839262,
+    "parentHash": "3252839262",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3419274965,
+    "parentHash": "3419274965",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3573764622,
+    "parentHash": "3573764622",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 3774850330,
+    "parentHash": "3774850330",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
+    "hash": 2927971896,
+    "parentHash": "2927971896",
+    "hash_warning": "Multiple matches found (58 total)"
+  },
+  {
+    "Name": "Precision Frame",
+    "Description": "Intrinsic Tracking Module\nDeals 5% decreased damage over High-Impact Rocket Launchers.\n1 Impact : 3.5 Explosive Damage Ratio. 42.5 RPM",
+    "Comment": "(Rocket Launchers)",
     "hash": 738967614,
     "parentHash": "738967614",
     "hash_warning": "Multiple matches found (58 total)"

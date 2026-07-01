@@ -1,17 +1,12 @@
 [
   {
-    "Name": "Air-Cooled Core",
-    "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\nGrants +? Reload/Vent Speed for 6? seconds",
-    "Comment": "Lawless Frontier\nDestination"
-  },
-  {
     "Name": "Accelerated Assault",
     "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
     "Comment": "Shiny Renegade Drops\nVanguard Alerts"
   },
   {
     "Name": "Advanced Reflexes",
-    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\nGrants 5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\n5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 ↑+? seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
     "Comment": "Dreaming City Reprises\nDestination"
   },
   {
@@ -21,32 +16,32 @@
   },
   {
     "Name": "Ambush",
-    "Description": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:\n+20 Range, +20 Handling, and Increased Damage against Combatants for 2 seconds after dealing or receiving any damage.\nBows additionally receive a 0.85x ↑0.7x Draw Time Multiplier while active.\n\nDamage Increase:\nLinear Fusion: 8.88%\nBow, Glaive, Machine Gun, Pulse Rifle, and Trace Rifle: 10.78%",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least 5 seconds:\n+20 ↑+22? Range, +20 ↑+22? Handling, and Increased Damage against Combatants for 2 seconds after dealing or receiving any damage.\nBows additionally receive a 0.85x ↑0.7x Draw Time Multiplier while active.\n\nDamage Increase:\nLinear Fusion: 8.88%\nBow, Glaive, Machine Gun, Pulse Rifle, and Trace Rifle: 10.78%",
     "Comment": "Season of the Seraph"
   },
   {
     "Name": "Bitterspite",
-    "Description": "While this weapon is readied:\nGrants a stack of Bitterspite for every 20 damage taken, up to 5 stacks after receiving 100 damage.\n\nBitterspite:\n+10 | +20 | +30 | +40 | +50 Reload Speed.\n0.97x | 0.96x | 0.95x | 0.92x | 0.9x Reload Duration Multiplier.\nStacks are consumed upon reloading.",
+    "Description": "While this weapon is readied:\nGrants a stack of Bitterspite for every 20 damage taken, up to 5 stacks after receiving 100 damage.\n\nBitterspite:\n+10 ↑+? | +20 +↑? | +30 ↑+? | +40 ↑+? | +50 ↑+55? Reload Speed.\n0.97x | 0.96x | 0.95x | 0.92x | 0.9x Reload Duration Multiplier.\nStacks are consumed upon reloading.",
     "Comment": "Duality Dungeon"
   },
   {
     "Name": "Bray Inheritance",
-    "Description": "Grants Grenade, Melee, and Class Ability Energy per damage instance.\n\nPosterity: 0.45% | Trustee: 0.35%\nHeritage: 0.85% | Succession: 1.5%\nBequest: 2% | Commemoration: 0.4%\n\n↑Increased amount of Energy gained.",
+    "Description": "Grants Grenade, Melee, and Class Ability Energy per damage instance.\n\nPosterity: 0.45% ↑?% | Trustee: 0.35% ↑?%\nHeritage: 0.85% ↑?% | Succession: 1.5% ↑?%\nBequest: 2% ↑?% | Commemoration: 0.4% ↑?%",
     "Comment": "Deep Stone Crypt\nRaid"
   },
   {
     "Name": "Bray Legacy",
-    "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.25%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.36%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.429%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 5.8%\n\nSeasonal Weapons\nRapid-Fire Auto Rifle (Ahab Char) = 0.19% ↑0.24%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = 0.75% ↑0.94%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 11.6% ↑14.5%\n\n↑25% Increased Ability Energy.",
+    "Description": "Grants Ability Energy to the most-charged Ability per damage instance. Excludes instances from Explosive Perks/Micro Missiles.\nDoes not grant any Ability Energy to abilities with multiple charges if they have at least 1 charge readied. \n\nAbility Energy Gains per damage instance:\n\nVesper's Host Weapons\nAdaptive Auto Rifle (VS Pyroelectric Propellant) = 0.25% ↑?%\nArea-Denial Grenade Launcher (VS Velocity Baton) = 0.36% ↑?%\nAdaptive Fusion Rifle (VS Gravitic Arrest) = 0.43% ↑?%\nRapid-Fire Grenade Launcher (VS Chill Inhibitor) = 5.8% ↑?%\n\nReclamation Weapons\nRapid-Fire Auto Rifle (Ahab Char) = 0.19% ↑0.24%\nHigh-Impact Scout Rifle (Jurisprudent) = ?% ↑?%\nLightweight Sidearm (Faustus Decline) = 0.75% ↑0.94%\nRapid-Fire Sniper Rifle (Shortline Dissident) = ?% ↑?%\nRocket Launcher (Haliaetus) + Sword (Eighty-Six)= 11.6% ↑14.5%",
     "Comment": "Vesper's Host Weapons\nDungeon\n\nReclamation Weapons"
   },
   {
     "Name": "Carrion Munitions",
-    "Description": "On Elite+ Weapon Kill:\nSpawns an insectoid robot that chases after enemies within 25 meters.\nInsectoid deals up to varying [?] Weapon Matching-Damage on explosion over 5 meters.\nIncurs a 0.5? second cooldown between Insectoid spawns. Insectoid kill cannot spawn more insectoids.\n\nSubmachine Gun = ? [?] Damage\nAuto Rifle = 627 [?] Damage\nHand Cannon = 721 [?] Damage\nSniper Rifle = 817 [?] Damage\nFusion Rifle = 940 [?] Damage\nMachine Gun = 749 [?] Damage",
+    "Description": "On Elite+ Weapon Kill:\nSpawns an insectoid robot that chases after enemies within 25 meters.\nInsectoid deals up to varying [?] Weapon Matching-Damage on explosion over 5 meters.\nIncurs a 0.5? second cooldown between Insectoid spawns. Insectoid kill cannot spawn more insectoids.\n\nInsectoid Damage:\nAuto Rifle and SMG = 627 [?] Damage\nHand Cannon = 721 [?] Damage\nSniper Rifle = 817 [?] Damage\nFusion Rifle = 940 [?] Damage\nMachine Gun = 749 [?] Damage",
     "Comment": "Distortion Weapons"
   },
   {
     "Name": "Cast No Shadows",
-    "Description": "Upon dealing Melee Damage:\nGrants +? Handling for ? seconds and refills 20% of Magazine.",
+    "Description": "Upon dealing Melee Damage:\n+? ↑+? Handling for ? seconds\nRefills 20% of Magazine.",
     "Comment": "Season of Dawn Reprises"
   },
   {
@@ -56,7 +51,7 @@
   },
   {
     "Name": "Collective Purpose",
-    "Description": "Grants a stack of Collective Purpose per ally within 15 meters.\n\nCollective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack.\n+? | +? | +? | +? | +? Range\n+5? | +15 | +20? | +? | +? Handling\n0.97x | 0.95x | 0.925x | +? | +? Draw Time Multiplier\n+5 | +10 | +15 | +? | +? Charge Rate",
+    "Description": "Grants a stack of Collective Purpose per ally within 15 meters.\n\nCollective Purpose grants +5? Range, +5 Handling, 0.97x Draw Time Multiplier, and +5 Charge Rate per stack.\n\nCollective Purpose x1 | +5? ↑+6? Range, +5? ↑+? Handling, 0.97x Draw Time Multiplier, and +5 ↑+? Charge Rate.\nCollective Purpose x2 | +? ↑+? Range, +15 ↑+? Handling, 0.95x Draw Time Multiplier, and +5 ↑+? Charge Rate.\nCollective Purpose x3 | +? ↑+? Range, +? ↑+? Handling, 0.925x Draw Time Multiplier, and +5 ↑+? Charge Rate.\nCollective Purpose x4 | +? ↑+? Range, +? ↑+? Handling, 0.9x Draw Time Multiplier, and +5 ↑+? Charge Rate.\nCollective Purpose x5 | +? ↑+? Range, +? ↑+? Handling, 0.?x Draw Time Multiplier, and +5 ↑+? Charge Rate.",
     "Comment": "Salvation's Edge\nRaid"
   },
   {
@@ -66,37 +61,37 @@
   },
   {
     "Name": "Crossing Over",
-    "Description": "For the top 50% of the Magazine:\nLinearly grants +10 ↑+12? Range and +? ↑+15? Handling, down to +5 Range and +? Handling.\n\nFor the bottom 50% of the Magazine:\nLinearly grants 1.5% ↑2.1% increased damage, up to +3% ↑+4% increased damage.",
+    "Description": "For the top 50% of the Magazine:\nLinearly grants +10 ↑+12? Range and +? ↑+15? Handling, down to +5 ↑+? Range and +? ↑+? Handling.\n\nFor the bottom 50% of the Magazine:\nLinearly grants 1.5% ↑2.1% increased damage, up to +3% ↑+4% increased damage.",
     "Comment": "Prophecy Reprises\r\nDungeon"
   },
   {
     "Name": "Cursed Thrall",
-    "Description": "On Melee Kill:\nWeapon Kills cause the enemy to explode, dealing up to 123.5 [?] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 seconds.\nDamage against Combatants scales with Combatant Rank Modifiers.",
+    "Description": "On Melee Kill:\nWeapon Kills cause the enemy to explode, dealing up to 123.5 [?] Weapon-Element Matching damage over a 4.5? metre radius for 7.5 ↑8.5? seconds.\nDamage against Combatants scales with Combatant Rank Modifiers.",
     "Comment": "Crota's End\nRaid"
   },
   {
     "Name": "Dark Ether Reaper",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% | Elites = ?% | Minibosses+ = 100% | Guardians = 25%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nIncurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elites = ?% ↑?% | Minibosses+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nIncurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count.",
     "Comment": "Episode: Revenant"
   },
   {
     "Name": "Dawning Surprise",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 16.7% ↑20% | Elites, Minibosses, and Bosses = 50% | Guardians = 16.7% ↑20%\n\nSpawns a 📦Box-Shaped Dawning Gift for the user and their allies, which remains on the ground for up to 10 seconds.\n\nDawning Gift:\nGrants 10% Grenade, Melee, and Class Ability Energy, restores 22 HP and begins Health Regeneration on pickup.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 16.7% ↑20% | Elites, Minibosses, and Bosses = 50% | Guardians = 16.7% ↑20%\n\nSpawns a 📦Box-Shaped Dawning Gift for the user and their allies, which remains on the ground for up to 10 seconds.\n\nDawning Gift:\nOn Pickup | 10% Grenade, Melee, and Class Ability Energy, restores 22 HP and begins Health Regeneration.",
     "Comment": "Dawning\nEvent"
   },
   {
     "Name": "Dealer's Choice",
-    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% | x2 = +1.6% | x3 = +3% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X | Still Hunt",
+    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% ↑+?% | x2 = +1.6% ↑+?% | x3 = +3% ↑+?% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X | Still Hunt",
     "Comment": "The Pale Heart\nDestination"
   },
   {
     "Name": "Disaster Plan",
-    "Description": "Upon firing/swinging, after picking up an Ammo Brick:\nGrants +15 Range and 15% Flinch Resist for 1.5 seconds. \nSwords receive +100 Charge Rate for 1.5 seconds.",
+    "Description": "Upon firing/swinging, after picking up an Ammo Brick:\n+15 Range and 15% Flinch Resist for 1.5 seconds. \nSwords receive +100 Charge Rate for 1.5 seconds.",
     "Comment": "Season of the Deep\nGambit Prime Reprises"
   },
   {
     "Name": "Dragon's Vengeance",
-    "Description": "Upon reaching Critical Health, or on Ally Death:\nRefills magazine. \nGrants +5 Range, +10? Handling, and 0.975x Charge/Draw Time Multiplier for 11 seconds.",
+    "Description": "Upon reaching Critical Health, or on Ally Death:\nRefills magazine. \n+5 ↑+? Range, +10? +↑? Handling, and 0.975x ↑0.?x Charge/Draw Time Multiplier for 11 seconds.",
     "Comment": "Season of the Wish"
   },
   {
@@ -121,18 +116,23 @@
   },
   {
     "Name": "Explosive Pact",
-    "Description": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of Explosive Pact, up to 5 stacks for 7.5 seconds\nHealing Grenades grant a stack each time the Healing Orb is picked up, either by allies or the caster.\n\n Each stack of Explosive Pact grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nExplosive Pact:\n+? | +? | +? | +? | +? Stability\n+8 | +16 | +20 | +24 | +44 Reload Speed\n0.98x | 0.98x | 0.975x | 0.96x | 0.945x Reload Duration Multiplier",
+    "Description": "Grenade Ability Usage or scoring a Grenade Kill grants a stack of Explosive Pact, up to 5 stacks for 7.5 seconds\nHealing Grenades grant a stack each time the Healing Orb is picked up, either by allies or the caster.\n\n Each stack of Explosive Pact grants +Stability, +Reload Speed, and Reload Duration Multiplier for 7.5 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nExplosive Pact:\n+? ↑+? | +? ↑+? | +? ↑+? | +? ↑+? | +? ↑+? Stability\n+8 ↑+? | +16 ↑+? | +20 ↑+? | +24 ↑+? | +44 ↑+? Reload Speed\n0.98x | 0.98x | 0.975x | 0.96x | 0.945x Reload Duration Multiplier",
     "Comment": "Last Wish Reprises\nRaid"
   },
   {
     "Name": "Extrovert",
-    "Description": "After 0.25 seconds of scoring a Weapon Kill while within 15 metres of 3 enemies or a Nightmare:\nRestores 60 HP.\nGlaive Melee Kills can also trigger the effect.\n\nIncurs a 3 second cooldown after activation.",
+    "Description": "After 0.25 seconds of scoring a Weapon Kill while within 15 metres of 3 enemies or a Nightmare:\nRestores 60 ↑+? HP.\nGlaive Melee Kills can also trigger the effect.\n\nIncurs a 3 second cooldown after activation.",
     "Comment": "Season of the Haunted"
   },
   {
     "Name": "Fail-Deadly",
-    "Description": "Each Damage Instance scored grant a stack of Fail-Deadly.\nMaximum stack amount is equal to the Magazine.\n\nFail-Deadly grants up to 100% increased Magazine Capacity, +? Range, and +? Aim Assist at maximum stacks.\nAll stacks are removed upon scoring a kill with the weapon.\nBuff persists through stow.",
+    "Description": "Each Damage Instance scored grant a stack of Fail-Deadly.\nMaximum stack amount is equal to the Magazine.\n\nFail-Deadly grants up to 100% increased Base Magazine Capacity, +? Range, and +? Aim Assist at maximum stacks.\nAll stacks are removed upon scoring a kill with the weapon.\nBuff persists through stow.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.",
     "Comment": "Nessus\nDestination"
+  },
+  {
+    "Name": "Featherweight",
+    "Description": "Upon scoring Featherweight Weapon Kills:\nGrants a stack of Featherweight for ? seconds, up to 10 stacks.\n\nFeatherweight grants ?% ↑?% Increased Movement Speed per stack, up to ?% ↑?% Increased Movement Speed",
+    "Comment": "Sparrow Racing League\nActivity"
   },
   {
     "Name": "Field-Tested",
@@ -141,17 +141,17 @@
   },
   {
     "Name": "Fleet Footed",
-    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.\n\n↑Buff duration is increased to 6 seconds.",
+    "Description": "Upon dealing damage:\nFleet Footed x1 | +15 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\n\nOn Weapon Kill:\nFleet Footed x2 | +30 Airborne Effectiveness and ?% Increased Movement Speed for 5 ↑6 seconds.\nDealing additional Weapon Damage refreshes the buff duration.\nBuff is removed on stow.",
     "Comment": "Trials of Osiris\nRitual"
   },
   {
     "Name": "Forge's Kin",
-    "Description": "Black Armory weapon final blows briefly grant significantly more ammo generation, reload speed, and damage against combatants when the weapon is redrawn. Buff potency and duration significantly increases for each equipped Black Armory weapon.",
+    "Description": "Upon scoring a Weapon Kill with a Black Armory Weapon, or readying a Black Armory Weapon within 7 seconds of scoring any Weapon Kill:\nGrants Forge's Kin for a varying duration.\nTimer only begins upon readying the weapon. Timer cannot be refreshed until it expires.\nEquipping additional Black Armory Weapons enhances the effect of Forge's Kin.\n\nForge's Kin x1 | +? ↑+15? Reload Speed and +? Ammo Generation for 5 seconds.\nForge's Kin x2 | 5% ↑7% increased damage against Combatants, +? Reload Speed and +? Ammo Generation for 7 seconds.\nForge's Kin x3 | 10% ↑13% increased damage against Combatants, +? Reload Speed and +? Ammo Generation for 9 seconds.\n\nThe following Exotic Weapons count as additional Black Armory Weapons, but do not benefit from Forge's Kin.\n Izanagi's Burden | 🍞Jötunn🍞 | 🦋Le Monarque🦋",
     "Comment": "Black Armory Reprises"
   },
   {
     "Name": "Frame of Reference",
-    "Description": "On Weapon Kill:\nGrants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks.\nAdditional Weapon Kills refresh the buff duration.\nFrame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second.\n\nFrame of Reference x1 | 1.45% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x2 | 2.8% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x3 | 4.2% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x4 | 5.6% Increased Weapon Damage, +? Range, and +? Reload Speed.\nFrame of Reference x5 | 7% Increased Weapon Damage, +? Range, and +? Reload Speed.",
+    "Description": "On Weapon Kill:\nGrants a stack of Frame of Reference for 8 seconds, up to a maximum of 5 stacks.\nAdditional Weapon Kills refresh the buff duration.\nFrame of Reference timer is paused while stowed. Remaining duration is rounded up to the nearest second.\n\nFrame of Reference x1 | 1.45% Increased Weapon Damage, +? ↑+? Range, and +? ↑+? Reload Speed.\nFrame of Reference x2 | 2.8% Increased Weapon Damage, +? ↑+? Range, and +? ↑+? Reload Speed.\nFrame of Reference x3 | 4.2% Increased Weapon Damage, +? ↑+? Range, and +? ↑+? Reload Speed.\nFrame of Reference x4 | 5.6% Increased Weapon Damage, +? ↑+? Range, and +? ↑+? Reload Speed.\nFrame of Reference x5 | 7% Increased Weapon Damage, +? ↑+? Range, and +? ↑+? Reload Speed.",
     "Comment": "Desert Perpetual\nRaid"
   },
   {
@@ -161,37 +161,37 @@
   },
   {
     "Name": "Gun and Run",
-    "Description": "Kills grant a stack of Gun and Run for 10 seconds, up to a maximum of 3 stacks.\nStacks decay one at a time.\n\nWhile sprinting for at least 0.75 seconds while Magazine isn't full:\nConsumes a stack, refilling 20?% of Magazine every 0.85 seconds. \nBows receive 0.?x Draw Time Multiplier for ? seconds.\nDoes nothing for Swords (Chivalric Fire)",
+    "Description": "Kills grant a stack of Gun and Run for 10 ↑11? seconds, up to a maximum of 3 stacks.\nStacks decay one at a time.\n\nWhile sprinting for at least 0.75 seconds while Magazine isn't full:\nConsumes a stack, refilling 20?% of Magazine every 0.85 seconds. \nBows receive 0.?x Draw Time Multiplier for ? seconds.\nDoes nothing for Swords (Chivalric Fire)",
     "Comment": "Gambit\r\nRitual"
   },
   {
     "Name": "Hakke Breach Armaments",
-    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.\n\n↑Increased Damage Bonus.\n20% against Vehicles | 60% against Turrets and Constructs",
+    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.",
     "Comment": "Häkke\nFoundry"
   },
   {
     "Name": "Harmonic Resonance",
-    "Description": "Equipping more than one Root of Nightmares Weapon grants increased Handling, Reload Speed, and damage towards enemies wielding Light and Darkness.\nList of enemies affected: \nDread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS.\n\nx1 = +10 Handling, 0.95x Reload Duration Multiplier, and 3.33% increased damage.\nx2 = +20 Handling, +20 Reload Speed, 0.95x Reload Duration Multiplier, and 10% increased damage.",
+    "Description": "Equipping more than one Root of Nightmares Weapon grants increased Handling, Reload Speed, and damage towards enemies wielding Light and Darkness.\n\nList of enemies affected: \nDread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS.\n\nTwo Weapons | +10 ↑+? Handling, 0.95x Reload Duration Multiplier, and 3.33% increased damage.\nThree Weapons | +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.95x Reload Duration Multiplier, and 10% increased damage.",
     "Comment": "Root of Nightmare\nRaid\n\nEpochal Integration HC"
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up, after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? Handling and +30? Reload Speed for 5 seconds.",
+    "Description": "Upon standing up, after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
     "Comment": "Season of the Witch"
   },
   {
     "Name": "Heretical Behavior",
-    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 seconds.\nBuff can be refreshed by retriggering it.\nGlaive Melee requires 8 hits. Breach GL requires considerably more hits.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.\nheretical stat buffs 👀",
+    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 ↑? seconds.\nBeing revived grants Heretical Behavior for ? ↑? seconds.\nBuff can be refreshed by retriggering it.\nGlaive Melee requires 8 hits. Breach GL requires considerably more hits.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.",
     "Comment": "Pit of Heresy\nReprised Heretical Weapons"
   },
   {
     "Name": "Hot Swap",
-    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 Handling for 4 seconds.\nSwords are granted +100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds.\nBuff persists through stow.",
+    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 ↑+? Handling for 4 seconds.\n+100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds on Swords.\nBuff persists through stow.",
     "Comment": "Dares of Eternity"
   },
   {
     "Name": "Indomitability",
-    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% Melee Ability Energy.",
+    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Melee Ability Energy.",
     "Comment": "Brave Foundry\nOnslaught"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "Name": "Nadir Focus",
-    "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds.\nNadir Focus grants up to +10 Range, -7.5%? Accuracy Cone Size, ?% Increased Projectile Velocity, and ?% Increased Sword Lunge Distance at max stacks.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nSidearms = Reach maximum stacks after 5 shots.\n+? | +? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% | -?% Accuracy Cone Size\n\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n+? | +? | +? | +10 Range\n-?% | -?% | -?% | -?% Accuracy Cone Size\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity",
+    "Description": "Upon firing a weapon or swinging a sword:\nGrants stacks of Nadir Focus for 2 seconds, up to a weapon type-based amount.\nNadir Focus linearly grants up to +10 ↑+? Range, -7.5%? ↑-?% Accuracy Cone Size, ?% ↑?% Increased Projectile Velocity, and ?% ↑? Increased Sword Lunge Distance.\nFiring or swinging refreshes the buff duration. \nBuff is removed on stow. Stack amount varies \n\nNADIR Focus\nAuto Rifles | Submachine Guns? =  Reach maximum stacks after 11 shots.\nSidearms = Reach maximum stacks after 5 shots.\nHand Cannons | Scout Rifles = Reach maximum stacks after 4 shots.\n\nSwords = Reach maximum stacks after 5 swings.\n20% | 40% | 60% | 80% | 100% Increased Sword Lunge Distance\n\nGrenade Launchers = Reach maximum stacks after ? shots.\n?% | ?% | ?% | ?% Increased Projectile Velocity",
     "Comment": "NADIR\nFoundry"
   },
   {
@@ -226,22 +226,22 @@
   },
   {
     "Name": "Nano-Munitions",
-    "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% per stack consumed.",
+    "Description": "While within 15 metres of an ally:\nGrants a stack of 1 Nano-Munitions every 3 seconds, up to x7 Nano-Munitions after 21 ↑10.5 seconds. \nConsumes a stack of 1 Nano-Munitions to grant a 25% ↑?% Emergency Refill. Consuming a stack restarts the timer. Magazine Refill is rounded up.\nReadying a Power Weapon consumes all stacks, refilling the magazine by 25% ↑?% per stack consumed.",
     "Comment": "Season of the Wish\r\nUndying Reprises"
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24  [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\n\nIncurs a 1 ↑? second cooldown between firing a missile and additional hits counting towards the next missile.",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nSniper Rifle: 50?% of Magazine.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine.\n\nIncurs a 1 ↑? second cooldown between firing a missile and additional hits counting towards the next missile.",
     "Comment": "Neomuna\nDestination"
   },
   {
     "Name": "Noble Deeds",
-    "Description": "Upon buffing an ally through Healing, Revives, Empowerment, or with a Subclass Verb:\nGrants x10 Noble Deeds, up to a maximum of 10 stacks. \nScoring a kill consumes 1 [2] stacks of Noble Deeds.\nBuff can be activated while stowed, and persists through stow.\n\nNoble Deeds grants +30 Handling and +30 Reload Speed. Swords receive +20 Charge Rate.",
+    "Description": "Upon buffing an ally through Healing, Revives, Empowerment, or with a Subclass Verb:\nGrants x10 Noble Deeds, up to a maximum of 10 stacks. \nScoring a kill consumes 1 [2] stacks of Noble Deeds.\nBuff can be activated while stowed, and persists through stow.\n\nNoble Deeds | +30 ↑+? Handling and +30 ↑+? Reload Speed. Swords receive +20 Charge Rate.",
     "Comment": "Season of Defiance"
   },
   {
     "Name": "Omolon Fluid Dynamics",
-    "Description": "For the top 50% of the Magazine:\n Up to +20 Stability and +30 Reload Speed.\nBenefits are linearly decreased as Magazine reaches 50%.",
+    "Description": "For the top 50% of the Magazine:\n Up to +20 ↑+? Stability and +30 ↑+? Reload Speed.\nBenefits are linearly decreased as Magazine reaches 50%.",
     "Comment": "Omolon\nFoundry"
   },
   {
@@ -251,72 +251,72 @@
   },
   {
     "Name": "Paracausal Fluid",
-    "Description": "Upon dealing damage:\nGrants Paracausal Fluid for 3 seconds.\nBuff remains active through stow.\n\nParacausal Fluid | +? Handling, +50 Mobility, and +90 Charge Rate.",
+    "Description": "Upon dealing damage:\nGrants Paracausal Fluid for 3 seconds.\nBuff remains active through stow.\n\nParacausal Fluid | +? ↑+? Handling, +50 Mobility, and +90 ↑+? Charge Rate.",
     "Comment": "Season of Arrivals Reprises"
   },
   {
     "Name": "Photoinhibition",
-    "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% Increased Damage against Combatant Overshields.\n15.6% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
+    "Description": "Passively increases damage against shielded enemies.\n\n34.3% ↑?% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% ↑?% Increased Damage against Combatant Overshields.\n15.6% ↑?% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
     "Comment": "Garden of Salvation Reprises\nRaid"
   },
   {
     "Name": "Problem Solver",
-    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3",
     "Comment": "Pinnacle Ops\nPortal Playlist"
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust. Guardians additionally deal 10% decreased damage.\nEffect cannot be refreshed.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination"
   },
   {
     "Name": "Radiolaria Transposer",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 8 seconds of each:\nRank-And-File = 34% | Elite+ = 100% | Guardians = ?%\nStowing the weapon resets the Counter.\n\nTarget explodes, dealing up to 67.5 [?] damage over 3? meters, and creating a Radiolaria Pool under them.\nRadiolaria Pools deal 15 [?] Arc Damage every 0.65 seconds over ? meters for ? seconds, up to 3? times.\nDamage against Combatants scales with Combatant Rank Modifiers. Counts as Weapon Damage, and is affected by Damage Buffs.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills within 8 seconds of each:\nRank-And-File = 34% | Elite+ = 100% | Guardians = ?%\nStowing the weapon resets the Counter.\n\nTarget explodes, dealing up to 67.5 [?] damage over 3? meters, and creating a Radiolaria Pool under them.\nRadiolaria Pools deal 15 [?] Arc Damage every 0.65 seconds over ? meters for ? ↑? seconds, up to 3? times.\nDamage against Combatants scales with Combatant Rank Modifiers. Counts as Weapon Damage, and is affected by Damage Buffs.",
     "Comment": "Episode: Echoes"
   },
   {
     "Name": "Rasputin's Arsenal",
-    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% of Magazine.",
+    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% ↑? of Magazine.",
     "Comment": "Season of the Seraph:\nIKELOS_v1.0.3\nSeraph"
   },
   {
     "Name": "Restoration Ritual",
-    "Description": "On Ally Revival or Finisher:\nRefills Magazine.\nGrants Restoration Ritual.\nConsumes Restoration Ritual when Magazine reaches 0 Ammo, refilling the magazine.\nBuff persists through stow.",
+    "Description": "On Ally Revival or Finisher:\nRefills Magazine.\nGrants Restoration Ritual.\nConsumes Restoration Ritual when Magazine reaches 0 Ammo, refilling the magazine.\nBuff persists through stow.\n\n↑Passively grants +5 Handling.",
     "Comment": "Ghosts of the Deep\nDungeon"
   },
   {
     "Name": "Right Hook",
-    "Description": "Upon dealing Melee Damage:\n +10 Range and +10 Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
+    "Description": "Upon dealing Melee Damage:\n +10 ↑+? Range and +10 ↑+? Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
     "Comment": "Season of Plunder"
   },
   {
     "Name": "Roar of Battle",
-    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+20 Stability and +20 Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.\n\n↑Buff duration is increased to 7 seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 0.65 seconds for 2 seconds:\n+20 Stability and +20 Handling for 6 ↑7 seconds.\nDealing or receiving additional damage refreshes the buff duration.",
     "Comment": "Crucible\nRitual"
   },
   {
     "Name": "Runneth Over",
-    "Description": "Upon finishing a reload while within 15 metres of allies:\nIncreases Magazine Capacity by 10% for each ally nearby.\nBows receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies.\nSwords receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies.",
+    "Description": "Upon finishing a reload while within 15 metres of allies:\nIncreases Magazine Capacity by 10% ↑?% for each ally nearby.\nBows receive 0.925x | 0.85x | 0.825x | 0.8x | 0.75x Draw Time Multiplier based on the amount of allies.\nSwords receive +? | +? | +? | +? | +? Charge Rate based on the amount of allies.",
     "Comment": "King's Fall \nRaid\n\nShiny Heretical Weapons"
   },
   {
     "Name": "Search Party",
-    "Description": "While no allies are within 15 metres: \n0.85x ↑? ADS Duration Multiplier and 10% ↑?% Decreased ADS Movement Penalty.\n\n↑? ADS Duration Multiplier and % Decreased ADS Movement Penalty.",
+    "Description": "While no allies are within 15 metres: \n0.85x ↑? ADS Duration Multiplier and 10% ↑?% Decreased ADS Movement Penalty.",
     "Comment": "Festival of the Lost \nEvent"
   },
   {
     "Name": "Skulking Wolf",
-    "Description": "Upon scoring a Weapon Kill while HP ≤90: \nGrants Enhanced Radar, combatants become less accurate at targeting the user, and prevents passively pinging enemy radar for 10 ↑? seconds. \nShooting will ping enemy radar for 2 seconds. Blue Radar Blip inaccurately shows that it's only visible for 0.75 seconds.\nBuff remains active while stowed.\n\n↑Buff duration is increased to ? seconds.",
+    "Description": "Upon scoring a Weapon Kill while HP ≤90: \nGrants Enhanced Radar, combatants become less accurate at targeting the user, and prevents passively pinging enemy radar for 10 ↑11 seconds. \nShooting will ping enemy radar for 2 seconds. Blue Radar Blip inaccurately shows that it's only visible for 0.75 seconds.\nBuff remains active while stowed.",
     "Comment": "Iron Banner\nRitual"
   },
   {
     "Name": "Splicer Surge",
-    "Description": "Upon finishing a reload after having dealt damage:\nGrants a stack of Splicer Surge, up to 3 stacks.\nBuff is removed on stow.\n\nSplicer Surge:\nx1 = +10? Handling, +10 Reload Speed, and 0.967x Reload Duration Multiplier.\nx2 = +20? Handling, +20 Reload Speed, and 0.934x Reload Duration Multiplier.\nx3 = +45? Handling, +45 Reload Speed, and 0.9x Reload Duration Multiplier.",
+    "Description": "Upon finishing a reload after having dealt damage:\nGrants a stack of Splicer Surge, up to 3 stacks.\nBuff is removed on stow.\n\nSplicer Surge x1 = +10? ↑+? Handling, +10 ↑+? Reload Speed, and 0.967x Reload Duration Multiplier.\nSplicer Surge x2 = +20? ↑+? Handling, +20 ↑+? Reload Speed, and 0.934x Reload Duration Multiplier.\nSplicer Surge x3 = +45? ↑+? Handling, +45 ↑+? Reload Speed, and 0.9x Reload Duration Multiplier.",
     "Comment": "Season of the Splicer\nReprises"
   },
   {
     "Name": "Souldrinker",
-    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 HP.\n Each Grenade Launcher hit counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
+    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 ↑? HP.\n Each Grenade Launcher hit counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
     "Comment": "Vow of the Disciple\nRaid"
   },
   {
@@ -326,47 +326,51 @@
   },
   {
     "Name": "Subjugation",
-    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 (32.5 on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n\nAgainst Miniboss+:\nInflicts exhaustion for 5 seconds on hit.\n\nGuardians:\n?% Flinch Resist for ? seconds.",
+    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 ↑? (32.5 ↑? on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n\nAgainst Miniboss+:\nInflicts exhaustion for 5 seconds on hit.\n\nGuardians:\n?% Flinch Resist for ? ↑? seconds.",
     "Comment": "Sundered Doctrine\nDungeon"
   },
   {
     "Name": "Sundering",
-    "Description": "Upon destroying a Vehicle Combatant, Construct, or breaking a Shield:\nGrants +40 Reload Speed, 0.95x Reload Duration Multiplier, and 0.9x Draw Time Multiplier for 7 seconds.\nBuff persists through stow.",
+    "Description": "Upon destroying a Vehicle Combatant, Construct, or breaking a Shield:\n+40 ↑+? Reload Speed, 0.95x Reload Duration Multiplier, and 0.9x ↑0.?x Draw Time Multiplier for 7 seconds.\nBuff persists through stow.",
     "Comment": "Warlord's Ruin\nDungeon"
   },
   {
     "Name": "Suros Synergy",
-    "Description": "Upon finishing a reload:\n+40 Handling and 20% Flinch Resist for 6 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Description": "Upon finishing a reload:\n+40 ↑+? Handling and 20% Flinch Resist for 6 seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
     "Comment": "SUROS\nFoundry"
   },
   {
     "Name": "Tenacity",
-    "Description": "On Weapon Kill, while within 15 meters of an enemy:\nGrants a stack of Tenacity, up to a maximum of 20 stacks.\nStacks persist until death.\n\nEach Tenacity stack grants 0.5% increased damage, Handling and Reload Speed.\nGrants up to 10% increased damage, +50 ↑+? Handling, and +50 ↑+? Reload Speed at 20 stacks.\n\n↑Handling and Reload Speed is increased. Damage buff is unchanged.",
+    "Description": "On Weapon Kill, while within 15 meters of an enemy:\nGrants a stack of Tenacity, up to a maximum of 20 stacks.\nStacks persist until death.\n\nEach Tenacity stack grants 0.5% increased damage, Handling and Reload Speed.\nGrants up to 10% increased damage, +50 ↑+? Handling, and +50 ↑+? Reload Speed at 20 stacks.",
     "Comment": "Reclamation Weapons"
   },
   {
     "Name": "Tex Balanced Stock",
-    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 Range, +20 Handling, +20 Reload Speed, 0.9x Reload Duration Multiplier, +1.5° Hip-Fire Precision Angle Threshold, and 10% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
+    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 ↑+? Range, +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.9x ↑0.?x Reload Duration Multiplier\n+1.5° Hip-Fire Precision Angle Threshold, and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
     "Comment": "Tex Mechanica\nFoundry"
   },
   {
     "Name": "Timelost Magazine",
-    "Description": "Weapon Kills grant additional +1?% Super Ability Energy.\n\nOn Super Ability End:\nRefills Magazine.\n100% Increased Base Magazine Capacity for 20 seconds. Found Verdict reloads 2 shells at a time.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.\nBuff can be activated while stowed, and persists through stow.",
+    "Description": "Weapon Kills grant additional +1?% ↑+?% Super Ability Energy.\n\nOn Super Ability End:\nRefills Magazine.\n100% Increased Base Magazine Capacity for 20 ↑+? seconds. Found Verdict reloads 2 shells at a time.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.\nBuff can be activated while stowed, and persists through stow.",
     "Comment": "Vault of Glass Reprises\nRaid"
   },
   {
     "Name": "To Excess",
-    "Description": "Upon scoring a Weapon Kill while Super Ability is charged:\n+20 Grenade and +20 Melee for 12 seconds.\nBuff persists through stow.",
+    "Description": "Upon scoring a Weapon Kill while Super Ability is charged:\n+20 ↑+? Grenade and +20 ↑+? Melee for 12 seconds.\nBuff persists through stow.",
     "Comment": "Season of the Haunted\nMenagerie Reprises"
   },
   {
+    "Name": "Unburied Treasure",
+    "Description": "Upon readying the weapon:\nUp to +? Range and -?% Accuracy Cone Size, scaling down to +? Range and -?% Accuracy Cone Size over ? ↑? seconds.\nSwords receive ?% Increased Lunge Distance."
+  },
+  {
     "Name": "Unsated Hunger",
-    "Description": "While Grenade, Melee, and Class Abilities are all uncharged:\n+20 Stability, +60 Handling, +60 Reload Speed. \n\nSwords: +50 Charge Rate and +40 Guard Endurance",
+    "Description": "While Grenade, Melee, and Class Abilities are all uncharged:\n+20 ↑+? Stability, +60 ↑+? Handling, +60 ↑+? Reload Speed. \nSwords receive +50 ↑+? Charge Rate and +40 ↑+? Guard Endurance.",
     "Comment": "Season of the Deep\nReckoning Reprises"
   },
   {
     "Name": "Vanguard Determination",
-    "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination:\n2% | 4% | 6% Damage Resist.\n\n↑Buff duration is increased to 12.5 seconds.",
+    "Description": "Upon scoring a Weapon Kill within 20 seconds of Class Ability Usage:\nGrants a stack of Vanguard's Determination for 10 ↑12.5 seconds, up to a maximum of 3 stacks.\nScoring additional Weapon Kills within 20 seconds of Class Ability Usage refreshes the buff duration.\nBuff remains active through stow, and stacks are shared across different weapons with the Vanguard's Determination trait.\n\nVanguard's Determination | 2% | 4% | 6% Damage Resist.",
     "Comment": "Vanguard\nRitual"
   },
   {
@@ -376,22 +380,17 @@
   },
   {
     "Name": "Veist Stinger",
-    "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x ↑0.8x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? ↑+? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.\n\n↑Stronger ADS, Draw Time, and Charge Rate effects.",
+    "Description": "Hits have a chance to activate Veist Stinger for 7 seconds, granting different bonuses based on the Weapon Archetype.\n\nVeist Stinger:\nRefills 25% of Magazine and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBows are additionally granted 0.85x ↑0.8x Draw Time Multiplier, but do not receive the Magazine Refill.\nSwords are granted +? ↑+? Charge Rate.\n\nVeist Stinger Activation Chances:\n2%: Auto Rifles and Submachine Guns.\n4%: Sidearms\n10%: Bows, Linear Fusion Rifles, and Sniper Rifles\n\nIncurs a 4 second cooldown between reactivations.",
     "Comment": "Veist\r\nFoundry"
+  },
+  {
+    "Name": "Veteran's Wisdom",
+    "Description": "Upon scoring a Precision Kill OR 3 Weapon Kills within 3 seconds of each:\nTriggers a Kinetic Shockwave at Enemy Death Location.\nKinetic Shockwave deals damage over 8 ↑9 meters without falloff, and inflicts Exhaustion for 10 seconds.\n\nKinetic Shockwave Damage:\nAuto Rifle, Pulse Rifle = 20\nSMG = ?\nSniper = 23\nFusion Rifle = ?\nSword = ?",
+    "Comment": "EDZ Weapons"
   },
   {
     "Name": "Wild Card",
     "Description": "Kills release a varying amount of Telesto Bolts on top of where the enemy died. Bolt Quantity is tied to Enemy Rank.\nRank-and-File = 1 | Elites = 3 | Minibosses = ? | Bosses and Champions = 7 | Guardians = 3\nIncurs a 6? second cooldown between additional Bolt spawns. \n\nBolts:\nIdentical to Telesto Bolts in behavior, exploding on proximity or contact, dealing up to 39.5 damage and last up to 10.5 seconds after embedding onto a surface.\nDamage against Combatants scales with Combatant Rank Modifiers.",
     "Comment": "Cassoid\nFoundry"
-  },
-  {
-    "Name": "Willing Vessel",
-    "Description": "Dealing damage or scoring kills increments a Damage based counter towards stat bonuses.\n100% Counter is displayed as x5 Willing Vessel. Counter constantly decreases by 2.2?% every 1? seconds.\n\nVisual Buff Stacks to Damage Thresholds:\nAuto: ? | ? | ? | ? | ?\nBow: ~180 | ~750 | ? | ? | ?\nSidearm: ? | ? | ? | ? | ?\nSMG : ? | ? | ? | ? | ?\nFusion Rifle: ? | ? | ? | ? | ?\nGlaive: ? | ? | ? | ? | ?\nGL: I | don't | think | so | lmao\nLFR: ~380 | ~1750 | ~3450 | ~4150 | ~6200\nMG: ~385 | ? | ? | ? | ?\nSword: ? | ? | ? | ? | ?\n\nGrants a continuously increasing Stability, Handling, Reload Speed, and Charge Rate stat bonus as more damage/kills are scored.\nStat Bonuses (at the start of the stack):\nx1 = +? Stability, +? Handling, +2? Reload Speed, 0.?x Draw/Charge Time Multiplier, and +20 Charge Rate\nx2 = +? Stability, +? Handling, +5 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +40 Charge Rate\nx3 = +? Stability, +? Handling, +10 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +50 Charge Rate\nx4 = +? Stability, +? Handling, +25 Reload Speed, 0.?x Draw/Charge Time Multiplier, and +70 Charge Rate\nx5 = +20? Stability, +30? Handling, +30 Reload Speed, 0.85x Draw/Charge Time Multiplier, and +80 Charge Rate\n\nThis is basically Target Lock's S Curve mixed with Field-Tested on top of being actually damage based, so it is much harder to test, sorry!",
-    "Comment": "Episode: Heresy"
-  },
-  {
-    "Name": "Winterized Gear",
-    "Description": "Grants Winterized Gear Ready.  \nTransforms into Winterized Gear x3 upon dealing or receiving damage.\nWinterized Gear Ready is reacquired 12 seconds after Winterized Gear expires.\n\nWinterized Gear x3 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.\nWinterized Gear x2 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.\nWinterized Gear x1 = +? Stability, +? Handling, and +? Reload Speed for 5 seconds.",
-    "Comment": "Europa\nDestination"
   }
 ]

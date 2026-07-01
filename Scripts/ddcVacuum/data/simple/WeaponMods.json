@@ -1,9 +1,5 @@
 [
   {
-    "Name": "Abundant Ammo",
-    "Description": "+10 ↑+12 Ammo Generation."
-  },
-  {
     "Name": "Aerodynamics",
     "Description": "+6 ↑+7 Blast Radius and +6 ↑+7 Velocity."
   },
@@ -142,5 +138,8 @@
   {
     "Name": "Tension",
     "Description": "+6 ↑+7 Draw Time and +6 ↑+7 Accuracy."
+  },
+  {
+    "Name": "Intrinsic Traits"
   }
 ]

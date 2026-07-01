@@ -1126,7 +1126,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Ember of Benevolence",
-    "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods",
+    "Description": "Applying cure, radiant, restoration, healing, or reviving allies grants 300% Additional Base Grenade, Melee, and Class Ability Regeneration Rate for 7 [3.5?] seconds.\n\nTriggers Benevolence:\nWell of Radiance | Healing Rifts | Lumina's Blessing | Boots of the Assembler's Noble Seekers | Edge of Intent's Healing Seekers | Precious Scars' Healing Burst\nSolar Support Frame Restoration Burst\n\nDo NOT trigger Benevolence:\n Empowering Rifts | Crest of Alpha Lupi's Healing Pulse | Mothkeeper's Overshield Moth | Non-Solar Support Frame Auto Rifles | Mods\n4 Piece Healing Initiative",
     "hash": 362132292,
     "parentHash": "362132292",
     "descriptions": {
@@ -1273,6 +1273,13 @@
             },
             {
               "text": " | Mods"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "4 Piece Healing Initiative"
             }
           ]
         }
@@ -4264,7 +4271,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Crackshot",
-    "Description": "Hovering the reticle near enemies within 27 meters applies a ◇mark until they leave Line of Sight.\nReplaces Class Ability with Crackshot Dodge.\nTriggers the effects of the equipped Class Ability on usage.\nCrackshot Dodge can be used midair, triggering a burst of speed.\nNo interaction with Celestial Nighthawk :(\n\nOn Crackshot Dodge:\nFires up to 3 Scorching Shots at 180RPM.\nScorching Shots deal 354 [21] Damage and inflict x20?+? Scorch.\nLanding all 3 Scorching Shots grants Cure x1.\nDamage scales with Class Stat above 100, up to 65% [10%] at 200 Stat.",
+    "Description": "Hovering the reticle near enemies within 27 meters applies a ◇mark until they leave Line of Sight.\nReplaces Class Ability with Crackshot Dodge.\nTriggers the effects of the equipped Class Ability on usage.\nCrackshot Dodge can be used midair, triggering a burst of speed.\nNo interaction with Celestial Nighthawk :(\n\nOn Crackshot Dodge:\nFires up to 3 Scorching Shots at 180RPM.\nScorching Shots deal 354 [21] Damage and inflict x20+10 Scorch.\nLanding all 3 Scorching Shots grants Cure x1.\nDamage scales with Class Stat above 100, up to 65% [10%] at 200 Stat.",
     "hash": 3066103997,
     "parentHash": "3066103997",
     "descriptions": {
@@ -4374,7 +4381,7 @@
               ]
             },
             {
-              "text": "] Damage and inflict x20?+? "
+              "text": "] Damage and inflict x20+10 "
             },
             {
               "text": "Scorch",
@@ -6466,7 +6473,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Shieldburst",
-    "Description": "Enhanced Barricades can be remotely detonated by reactivating them, triggering an explosion that heavily knocks back and spreading out Solar Waves.\nExplosion counts as destroying a Construct for the purpose of certain effects.\n\nOn Towering Barricade Placement: \nInitially placing the Barricade causes it to slide forward up to 20 meters away, deaccelerating as it moves.\nBarricade Contact Damage is increased to 328 [?] Damage and inflicts x20+10 Scorch.\n\nWhile behind a Rally Barricade:\nGrants Scorching Rounds to Kinetic and Solar Weapons.\nFor the sake of vertical screen accessibility, go to Song of Flame's section.\n\nWhile a Barricade is active:\nClass Ability is replaced by Remote Detonator.\nPassively grants Barricade-dependent (34% Towering | 10% Rally) Shieldbrust progress.\nDealing damage grants additional progress, at a rate of ~100 damage per 1 second charged.\n\nShieldburst Detonation:\nExplosion deals up to 550 [?] Damage and inflicts x50+25 Scorch over ? meters.\nSolar Shrapnel is flung towards enemies within 40? meters, dealing 71 [?] Damage and inflicting x5+5 Scorch.\n\nShieldburst grants increased explosion damage, up to 50% increased damage once fully charged.\nWhile at 100% Shieldburst Progress | Explosion additionally releases 3 Solar Waves spread out in a cone up to 15 meters away.\nSolar Waves deal 141 [?] Solar Damage. \n\nAspect's Damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat.",
+    "Description": "Enhanced Barricades can be remotely detonated by reactivating them, triggering an explosion that heavily knocks back and spreading out Solar Waves.\nExplosion counts as destroying a Construct for the purpose of certain effects.\n\nOn Towering Barricade Placement: \nInitially placing the Barricade causes it to slide forward up to 20 meters away, deaccelerating as it moves.\nBarricade Contact Damage is increased to 328 [?] Damage and inflicts x20+10 Scorch. \nContact Damage can only trigger once every 2 seconds on the same enemy.\n\nWhile behind a Rally Barricade:\nGrants Scorching Rounds to Kinetic and Solar Weapons.\nFor the sake of vertical screen accessibility, go to Song of Flame's section.\n\nWhile a Barricade is active:\nClass Ability is replaced by Remote Detonator.\nPassively grants Barricade-dependent (34% Towering | 10% Rally) Shieldbrust progress.\nDealing damage grants additional progress, at a rate of ~100 damage per 1 second charged.\n\nShieldburst Detonation:\nExplosion deals up to 550 [?] Damage and inflicts x50+25 Scorch over ? meters.\nSolar Shrapnel is flung towards enemies within 40? meters, dealing 71 [?] Damage and inflicting x5+5 Scorch.\n\nShieldburst grants increased explosion damage, up to 50% increased damage once fully charged.\nWhile at 100% Shieldburst Progress | Explosion additionally releases 3 Solar Waves spread out in a cone up to 15 meters away.\nSolar Waves deal 141 [?] Solar Damage. \n\nAspect's Damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat.",
     "hash": 2984351207,
     "parentHash": "2984351207",
     "descriptions": {
@@ -6535,6 +6542,13 @@
             },
             {
               "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Contact Damage can only trigger once every 2 seconds on the same enemy."
             }
           ]
         },

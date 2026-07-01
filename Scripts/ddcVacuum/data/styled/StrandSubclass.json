@@ -2251,7 +2251,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Slicewire",
-    "Description": "Medium? Trajectory\n\nThrows a bouncing grenade that explodes soon after impact, dealing up to 170? [?] damage and inflicting Sever for ?+? seconds over ? meters.\nRepeats up to 3 additional times, dealing up to 680? [?] damage over 4 hits.",
+    "Description": "Medium? Trajectory\n\nThrows a bouncing grenade that explodes soon after impact, dealing splash damage over 4 hits and inflicting Sever for 10+5 seconds over 6 meters.\n\nSlicewire Maximum Damage:\n1st = 178 [?] | 2nd = 178 [?] | 3rd = 222 [?] | 4th = 267 [?] damage.\nThe first hit against any enemy deals an additional instance of 307 [?] damage.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -2270,16 +2270,7 @@
         {
           "linesContent": [
             {
-              "text": "Throws a bouncing grenade that explodes soon after impact, dealing up to 170? ["
-            },
-            {
-              "text": "?",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] damage and inflicting "
+              "text": "Throws a bouncing grenade that explodes soon after impact, dealing splash damage over 4 hits and inflicting "
             },
             {
               "text": "Sever",
@@ -2288,14 +2279,32 @@
               ]
             },
             {
-              "text": " for ?+? seconds over ? meters."
+              "text": " for 10+5 seconds over 6 meters."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Slicewire",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " Maximum Damage:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Repeats up to 3 additional times, dealing up to 680? ["
+              "text": "1st = 178 ["
             },
             {
               "text": "?",
@@ -2304,7 +2313,50 @@
               ]
             },
             {
-              "text": "] damage over 4 hits."
+              "text": "] | 2nd = 178 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] | 3rd = 222 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] | 4th = 267 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The first hit against any enemy deals an additional instance of 307 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage."
             }
           ]
         }
@@ -5248,7 +5300,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Mindspun Invocation",
-    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to throw a Threadling nest.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.\n\nSlicewire Grenade: Hold [Grenade] to overcharge it. The fourth explosion will release submunitions and spawn a Tangle.",
+    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to throw a Threadling nest.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.\n\nSlicewire Grenade: Hold [Grenade] to overcharge it. The fourth explosion will release 4 submunition in a X formation, each dealing up to 64 [?] damage and spawning a Tangle.\nIgnores Tangle Creation Cooldown.",
     "hash": 262821318,
     "parentHash": "262821318",
     "descriptions": {
@@ -5371,7 +5423,16 @@
               ]
             },
             {
-              "text": "] to overcharge it. The fourth explosion will release submunitions and spawn a "
+              "text": "] to overcharge it. The fourth explosion will release 4 submunition in a X formation, each dealing up to 64 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] damage and spawning a "
             },
             {
               "text": "Tangle",
@@ -5381,6 +5442,22 @@
             },
             {
               "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ignores "
+            },
+            {
+              "text": "Tangle",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Creation Cooldown."
             }
           ]
         }

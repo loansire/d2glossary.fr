@@ -1,7 +1,7 @@
 [
   {
     "Name": "Stasis Shard",
-    "Description": "Stasis Subclass Intrinsic:\nShattering a Stasis Crystal or Frozen Enemy, or killing an enemy affected by a Stasis Debuff (Slow, Freeze) is killed while on a Stasis Subclass. \nSmall Stasis Shard = Rank-And-File\nLarge Stasis Shard = Elites, Minibosses, Bosses, and Guardians.\n\nStasis Elemental Pickup:\nStasis Shards grant Melee Ability Energy on pickup. \nShards last for 20 seconds. Allies receive a copy of all Shards created by the user.\nSmall Stasis Shards grant 10% Melee Energy, and Large Stasis Shards grant 50% Melee Energy.\n\nWhile Glacial, Grim or Tectonic Harvest is equipped:\nSmall Stasis Shards restore 10 HP and grant x1 Frost Armor.\nLarge Stasis Shards restore 20 HP and x3 Frost Armor.",
+    "Description": "Stasis Subclass Intrinsic:\nShattering a Stasis Crystal or Frozen Enemy, or killing an enemy affected by a Stasis Debuff (Slow, Freeze) spawns a Stasis Shard. \nSmall Stasis Shard = Rank-And-File\nLarge Stasis Shard = Elites, Minibosses, Bosses, and Guardians.\n\nStasis Elemental Pickup:\nStasis Shards grant Melee Ability Energy on pickup. \nShards last for 20 seconds. Allies receive a copy of all Shards created by the user.\nSmall Stasis Shards grant 10% Melee Energy, and Large Stasis Shards grant 50% Melee Energy.\n\nWhile Glacial, Grim or Tectonic Harvest is equipped:\nSmall Stasis Shards restore 10 HP and grant x1 Frost Armor.\nLarge Stasis Shards restore 20 HP and x3 Frost Armor.",
     "hash": 4043161234,
     "parentHash": "4043161234",
     "descriptions": {
@@ -73,16 +73,16 @@
               ]
             },
             {
-              "text": ") is killed while on a "
+              "text": ") spawns a "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Shard",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Subclass."
+              "text": "."
             }
           ]
         },
@@ -356,7 +356,7 @@
   },
   {
     "Name": "Frost Armor",
-    "Description": "Grants 7% [2%] Damage Resist per stack, up to 31.25% [10%] Damage Resist at x5 stacks\nFrost Armor decays 1 stack at a time every 5 seconds.\nDamage Resist per stack is decreased to ?% [?%] while in Super.\n\nWhisper of Rime:\nIncreases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% [16?%]\nIncreases the Frost Armor stack duration to 6 seconds.",
+    "Description": "Grants 7% [2%] Damage Resist per stack, up to 31.25% [10%] Damage Resist at x5 stacks\nFrost Armor decays 1 stack at a time every 5 seconds.\nDamage Resist per stack is decreased to ?% [?%] while in Super.\n\nWhisper of Rime:\nIncreases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% [16%]\nIncreases the Frost Armor stack duration to 6 seconds.",
     "hash": 106947924,
     "parentHash": "106947924",
     "descriptions": {
@@ -439,7 +439,7 @@
               "text": "Increases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% ["
             },
             {
-              "text": "16?%",
+              "text": "16%",
               "classNames": [
                 "pvp"
               ]

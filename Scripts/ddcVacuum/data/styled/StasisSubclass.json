@@ -3,7 +3,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Stasis Shard",
-    "Description": "Stasis Subclass Intrinsic:\nShattering a Stasis Crystal or Frozen Enemy, or killing an enemy affected by a Stasis Debuff (Slow, Freeze) is killed while on a Stasis Subclass. \nSmall Stasis Shard = Rank-And-File\nLarge Stasis Shard = Elites, Minibosses, Bosses, and Guardians.\n\nStasis Elemental Pickup:\nStasis Shards grant Melee Ability Energy on pickup. \nShards last for 20 seconds. Allies receive a copy of all Shards created by the user.\nSmall Stasis Shards grant 10% Melee Energy, and Large Stasis Shards grant 50% Melee Energy.\n\nWhile Glacial, Grim or Tectonic Harvest is equipped:\nSmall Stasis Shards restore 10 HP and grant x1 Frost Armor.\nLarge Stasis Shards restore 20 HP and x3 Frost Armor.",
+    "Description": "Stasis Subclass Intrinsic:\nShattering a Stasis Crystal or Frozen Enemy, or killing an enemy affected by a Stasis Debuff (Slow, Freeze) spawns a Stasis Shard. \nSmall Stasis Shard = Rank-And-File\nLarge Stasis Shard = Elites, Minibosses, Bosses, and Guardians.\n\nStasis Elemental Pickup:\nStasis Shards grant Melee Ability Energy on pickup. \nShards last for 20 seconds. Allies receive a copy of all Shards created by the user.\nSmall Stasis Shards grant 10% Melee Energy, and Large Stasis Shards grant 50% Melee Energy.\n\nWhile Glacial, Grim or Tectonic Harvest is equipped:\nSmall Stasis Shards restore 10 HP and grant x1 Frost Armor.\nLarge Stasis Shards restore 20 HP and x3 Frost Armor.",
     "hash": 754348260,
     "parentHash": "754348260",
     "descriptions": {
@@ -75,16 +75,16 @@
               ]
             },
             {
-              "text": ") is killed while on a "
+              "text": ") spawns a "
             },
             {
-              "text": "Stasis",
+              "text": "Stasis Shard",
               "classNames": [
                 "stasis"
               ]
             },
             {
-              "text": " Subclass."
+              "text": "."
             }
           ]
         },
@@ -361,7 +361,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Frost Armor",
-    "Description": "Grants 7% [2%] Damage Resist per stack, up to 31.25% [10%] Damage Resist at x5 stacks\nFrost Armor decays 1 stack at a time every 5 seconds.\nDamage Resist per stack is decreased to ?% [?%] while in Super.\n\nWhisper of Rime:\nIncreases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% [16?%]\nIncreases the Frost Armor stack duration to 6 seconds.",
+    "Description": "Grants 7% [2%] Damage Resist per stack, up to 31.25% [10%] Damage Resist at x5 stacks\nFrost Armor decays 1 stack at a time every 5 seconds.\nDamage Resist per stack is decreased to ?% [?%] while in Super.\n\nWhisper of Rime:\nIncreases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% [16%]\nIncreases the Frost Armor stack duration to 6 seconds.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -443,7 +443,7 @@
               "text": "Increases the maximum stack amount to x7, increasing the maximum Damage Resist to 50% ["
             },
             {
-              "text": "16?%",
+              "text": "16%",
               "classNames": [
                 "pvp"
               ]
@@ -2386,7 +2386,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Shatter Grenade",
-    "Description": "Medium Trajectory | Sticky\n\nAttaches to enemies, inflicting Freeze [x? Slow] on direct hits.\nExplodes after ? seconds, dealing up to 325? [?] damage over ? meters and releasing ? Stasis Shrapnel.\nStasis Shrapnel deals 216 [?] damage and bounces up to ? times.\nSticking a Frozen Enemy causes an instantaneous explosion and increases shrapnel damage by 100%. ",
+    "Description": "Medium Trajectory | Sticky\n\nAttaches to enemies, inflicting Freeze [x? Slow] on direct hits.\nExplodes after ? seconds, dealing up to 325? [?] damage over ? meters and releasing 9 Tracking Stasis Shrapnel in 3 groups of 3, forming a Y shape.\nStasis Shrapnel deals 216 [?] damage and bounces up to ? times.\nSticking a Frozen Enemy causes an instantaneous explosion and increases the explosion damage by 100%. ",
     "hash": 1399218,
     "parentHash": "1399218",
     "descriptions": {
@@ -2440,7 +2440,7 @@
               ]
             },
             {
-              "text": "] damage over ? meters and releasing ? "
+              "text": "] damage over ? meters and releasing 9 Tracking "
             },
             {
               "text": "Stasis",
@@ -2449,7 +2449,7 @@
               ]
             },
             {
-              "text": " Shrapnel."
+              "text": " Shrapnel in 3 groups of 3, forming a Y shape."
             }
           ]
         },
@@ -2487,7 +2487,7 @@
               ]
             },
             {
-              "text": " Enemy causes an instantaneous explosion and increases shrapnel damage by 100%."
+              "text": " Enemy causes an instantaneous explosion and increases the explosion damage by 100%."
             }
           ]
         }
@@ -3251,7 +3251,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Shatterdive",
-    "Description": "[Air Move] activates Shatterdive.\nIncurs a 4 second cooldown between Shatterdive activations.\n\nShatterdive performs a dive, dealing up to 50 damage, and shattering frozen enemies and Stasis Crystals within 8.5 metres radius.\nShatterdive damage is increased to 180 against Frozen Enemies.\nShattering a Frozen Enemy deals an additional 250 Shatter Damage. Displayed in Yellow Numbers.\n\nShattering Stasis Crystals and Frozen Enemies grants x? Frost Armor.\n\nGrants ?% Stasis Shatter Damage Resist and Fall Damage Immunity while diving.",
+    "Description": "[Air Move] activates Shatterdive.\nIncurs a 4 second cooldown between Shatterdive activations.\n\nShatterdive performs a dive, dealing up to 50 damage, and shattering frozen enemies and Stasis Crystals within 8.5 metres radius.\nShatterdive damage is increased to 180 against Frozen Enemies.\nShattering a Frozen Enemy deals an additional 250 Shatter Damage. Displayed in Yellow Numbers.\n\nShattering Stasis Crystals and Frozen Enemies grants maximum Frost Armor stacks.\n\nGrants ?% Stasis Shatter Damage Resist and Fall Damage Immunity while diving.",
     "hash": 2934767476,
     "parentHash": "2934767476",
     "descriptions": {
@@ -3427,7 +3427,7 @@
               ]
             },
             {
-              "text": " Enemies grants x? "
+              "text": " Enemies grants maximum "
             },
             {
               "text": "Frost Armor",
@@ -3436,7 +3436,7 @@
               ]
             },
             {
-              "text": "."
+              "text": " stacks."
             }
           ]
         },
@@ -4666,7 +4666,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Cryoclasm",
-    "Description": "Sliding into Stasis Crystals and Frozen Enemies shatters them and other Frozen Enemies within ? meters instantly.\n\nPassively grants 50% Increased Slide Distance.\nIncurs a 2 second cooldown after an extended slide.\n\nWhile Frost Armor is active: \nSliding launches a Stasis wave that shatters Stasis Crystals and Frozen Enemies.",
+    "Description": "Sliding into Stasis Crystals and Frozen Enemies shatters them and other Frozen Enemies within ? meters instantly.\n\nPassively grants 50% Increased Slide Distance.\nIncurs a 2 second cooldown after an extended slide.\n\nSliding launches a Stasis wave that deals 18 [?] Damage, shatters Stasis Crystals and Frozen Enemies.",
     "hash": 2031919265,
     "parentHash": "2031919265",
     "descriptions": {
@@ -4732,22 +4732,6 @@
         {
           "linesContent": [
             {
-              "text": "While "
-            },
-            {
-              "text": "Frost Armor",
-              "classNames": [
-                "stasis"
-              ]
-            },
-            {
-              "text": " is active:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
               "text": "Sliding launches a "
             },
             {
@@ -4757,7 +4741,16 @@
               ]
             },
             {
-              "text": " wave that shatters "
+              "text": " wave that deals 18 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage, shatters "
             },
             {
               "text": "Stasis Crystals",
@@ -4786,7 +4779,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Diamond Lance",
-    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a pickupable single-use weapon that can be held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 150 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 200 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned.",
+    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a pickupable single-use weapon that can be held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 136 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 180 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned.",
     "hash": 3866705246,
     "parentHash": "3866705246",
     "hash_warning": "Multiple matches found (2 total)",
@@ -4913,7 +4906,7 @@
               ]
             },
             {
-              "text": " crystals on direct impact, and dealing 150 ["
+              "text": " crystals on direct impact, and dealing 136 ["
             },
             {
               "text": "45",
@@ -4965,7 +4958,7 @@
               ]
             },
             {
-              "text": "] metres, dealing up to 200 ["
+              "text": "] metres, dealing up to 180 ["
             },
             {
               "text": "90",
@@ -5049,7 +5042,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Diamond Lance",
-    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a pickupable single-use weapon that can be held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 150 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 200 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned.",
+    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a pickupable single-use weapon that can be held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 136 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 180 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned.",
     "hash": 1262901522,
     "parentHash": "1262901522",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5176,7 +5169,7 @@
               ]
             },
             {
-              "text": " crystals on direct impact, and dealing 150 ["
+              "text": " crystals on direct impact, and dealing 136 ["
             },
             {
               "text": "45",
@@ -5228,7 +5221,7 @@
               ]
             },
             {
-              "text": "] metres, dealing up to 200 ["
+              "text": "] metres, dealing up to 180 ["
             },
             {
               "text": "90",
