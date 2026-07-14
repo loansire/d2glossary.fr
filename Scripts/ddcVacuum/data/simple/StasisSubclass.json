@@ -87,7 +87,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Whisper of Hunger",
-    "Description": "Stasis Shards grant increased Melee Energy.\nSmall Shards grant 17.5% Melee Energy, from 10%\nLarge Shards grant 75% Melee Energy, from 50%."
+    "Description": "Stasis Shards grant 60% increased Melee Energy.\nAdditive to other sources such as Yearning Echo's Overflowing Coffers's 260% increase."
   },
   {
     "Class": "General",
@@ -213,7 +213,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Diamond Lance",
-    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a pickupable single-use weapon that can be held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 136 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 180 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned."
+    "Description": "Creates a Stasis Lance upon scoring 1 [3] Stasis Weapon Kills, a Stasis Ability Kill, or a Shatter Kill.\n\nStasis Lance is a single-use weapon that can be picked up while it is within 3 meters and can held for up to 10 seconds.\nRemains for up to 25 seconds on the ground.\n\n[Fire] throws the Stasis Lance, freezing enemies within 5 metres of the impact, shattering crystals on direct impact, and dealing 136 [45] damage. \n[Melee] slams the Stasis Lance, freezing enemies within 8 [6.75?] metres, dealing up to 180 [90] damage, and bestowing the user and their allies within ? meters x2 Frost Armor.\nDiamond Lances instantly shatter Stasis Crystals upon damaging them.\nDiamond Lance Damage is considered Generic Stasis Ability Damage. Not Grenade nor Melee Damage.\n\nIncurs a 7 [17] second cooldown after spawning a Stasis Lance before another can be spawned."
   },
   {
     "Class": "Titan",
@@ -255,7 +255,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Glacial Harvest",
-    "Description": "Picking up Small Stasis Shards restores 10 HP and grants x1 Frost Armor.\nPicking up Large Stasis Shards restore ? HP and grant x3 Frost Armor.\n\nWhile Frost Armor is active:\nKinetic and Stasis Weapon Kills progress a counter that, upon reaching 100%, cause the kill to trigger a Stasis Shatter.\nEach Frost Armor stack increases the amount of progress gained per kill.\nTaking damage grants ?% Grenade Ability Energy, up to once a second?.\n\nCrucible-Only:\nIncurs a 10 second cooldown upon creating 6 Shards within ? seconds of the first shard?, preventing additional Stasis Shard creation from Harvest Aspects for 10 seconds.\nShard creation count and cooldown is shared for the entire fireteam."
+    "Description": "Picking up Small Stasis Shards restores 10 HP and grants x1 Frost Armor.\nPicking up Large Stasis Shards restore ? HP and grant x3 Frost Armor.\n\nWhile Frost Armor is active:\nKinetic and Stasis Weapon Kills has a chance to cause the kill to trigger a Stasis Shatter.\nEach Frost Armor stack increases the odds of it triggering.\nx1 = 10?% | x2 = 15?% | x3 = ?% | x4 = ?% | x5 = 50?% | x6 = 85?% | x7 = 100%\n\nTaking damage grants ?% Grenade Ability Energy, up to once a second?.\n\nCrucible-Only:\nIncurs a 10 second cooldown upon creating 6 Shards within ? seconds of the first shard?, preventing additional Stasis Shard creation from Harvest Aspects for 10 seconds.\nShard creation count and cooldown is shared for the entire fireteam."
   },
   {
     "Class": "Warlock",

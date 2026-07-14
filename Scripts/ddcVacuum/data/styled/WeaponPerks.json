@@ -645,7 +645,7 @@
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑? [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.",
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 843 \nSniper Rifle: 1149",
     "hash": 3252937884,
     "parentHash": "3252937884",
     "hash_warning": "Multiple matches found (2 total)",
@@ -673,6 +673,22 @@
           ]
         },
         {
+          "linesContent": [
+            {
+              "text": "Can trigger from "
+            },
+            {
+              "text": "Kinetic Synthesis Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Bricks."
+            }
+          ]
+        },
+        {
           "classNames": [
             "spacer"
           ]
@@ -680,16 +696,7 @@
         {
           "linesContent": [
             {
-              "text": "Sticky Bomb detonates after 0.8 seconds, dealing up to "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
+              "text": "Sticky Bomb detonates after 0.8 seconds, dealing varying ["
             },
             {
               "text": "77",
@@ -726,13 +733,48 @@
               "text": "."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hand Cannon",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": ": 843"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 1149"
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \n\nSticky Bomb detonates after 0.8 seconds, dealing up to ↑? [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.",
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 843 \nSniper Rifle: 1149",
     "hash": 122204356,
     "parentHash": "122204356",
     "hash_warning": "Multiple matches found (2 total)",
@@ -760,6 +802,22 @@
           ]
         },
         {
+          "linesContent": [
+            {
+              "text": "Can trigger from "
+            },
+            {
+              "text": "Kinetic Synthesis Ammo",
+              "classNames": [
+                "kinetic"
+              ]
+            },
+            {
+              "text": " Bricks."
+            }
+          ]
+        },
+        {
           "classNames": [
             "spacer"
           ]
@@ -767,16 +825,7 @@
         {
           "linesContent": [
             {
-              "text": "Sticky Bomb detonates after 0.8 seconds, dealing up to "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
+              "text": "Sticky Bomb detonates after 0.8 seconds, dealing varying ["
             },
             {
               "text": "77",
@@ -813,13 +862,48 @@
               "text": "."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hand Cannon",
+              "classNames": [
+                "weapon-hand-cannon"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Scout Rifle",
+              "classNames": [
+                "weapon-scout-rifle"
+              ]
+            },
+            {
+              "text": ": 843"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Sniper Rifle",
+              "classNames": [
+                "weapon-sniper-rifle"
+              ]
+            },
+            {
+              "text": ": 1149"
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Adrenaline Junkie",
-    "Description": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% increased damage and +20 Handling for 4.5 ↑5 seconds. Grenade Kills grant 5 stacks, even if stowed.\nAdditional Weapon or Grenade Kills refresh the buff duration.\nBuff persists through stow.",
+    "Description": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% increased damage and +20 Handling for 4.5 ↑5 seconds. Grenade Kills grant 5 stacks, even if stowed.\nAdditional Weapon or Grenade Kills refresh the buff duration.\nBuff can be triggered while stowed and persists through stow.",
     "hash": 11612903,
     "parentHash": "11612903",
     "hash_warning": "Multiple matches found (2 total)",
@@ -858,7 +942,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff persists through stow."
+              "text": "Buff can be triggered while stowed and persists through stow."
             }
           ]
         }
@@ -867,7 +951,7 @@
   },
   {
     "Name": "Adrenaline Junkie",
-    "Description": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% increased damage and +20 Handling for 4.5 ↑5 seconds. Grenade Kills grant 5 stacks, even if stowed.\nAdditional Weapon or Grenade Kills refresh the buff duration.\nBuff persists through stow.",
+    "Description": "On Weapon or Grenade Kill:\n6.7% | 13.3% | 20% | 26.6% | 33.3% increased damage and +20 Handling for 4.5 ↑5 seconds. Grenade Kills grant 5 stacks, even if stowed.\nAdditional Weapon or Grenade Kills refresh the buff duration.\nBuff can be triggered while stowed and persists through stow.",
     "hash": 2422968039,
     "parentHash": "2422968039",
     "hash_warning": "Multiple matches found (2 total)",
@@ -906,7 +990,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff persists through stow."
+              "text": "Buff can be triggered while stowed and persists through stow."
             }
           ]
         }
@@ -3155,7 +3239,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n55% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n57% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
     "hash": 243981275,
     "parentHash": "243981275",
     "hash_warning": "Multiple matches found (2 total)",
@@ -3206,7 +3290,7 @@
         {
           "linesContent": [
             {
-              "text": "55% of Magazine + 1, rounded down."
+              "text": "57% of Magazine + 1, rounded down."
             }
           ]
         },
@@ -3297,7 +3381,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n55% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n57% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
     "hash": 984655331,
     "parentHash": "984655331",
     "hash_warning": "Multiple matches found (2 total)",
@@ -3348,7 +3432,7 @@
         {
           "linesContent": [
             {
-              "text": "55% of Magazine + 1, rounded down."
+              "text": "57% of Magazine + 1, rounded down."
             }
           ]
         },
@@ -4523,7 +4607,7 @@
   },
   {
     "Name": "Bipod",
-    "Description": "Passively grants the following:\n+1 Magazine Capacity, +5 Reserves, and 0.75x Fire Recovery Delay\n25% decreased damage, -30 ↑-25 Blast Radius, and -20 ↑-15 Reload Speed.\nWolfpack Rounds are affected by the damage penalty.",
+    "Description": "Passively grants the following:\n+1 Magazine Capacity, +5 Reserves, and 0.75x Fire Recovery Delay\n25% decreased damage, -30 ↑-25 Blast Radius, and -20 ↑-15 Reload Speed.\nWolfpack Rounds and all other perk effects, such as Cluster Bombs and Hatchling, are affected by the damage penalty.",
     "hash": 1439600632,
     "parentHash": "1439600632",
     "hash_warning": "Multiple matches found (2 total)",
@@ -4571,7 +4655,7 @@
         {
           "linesContent": [
             {
-              "text": "Wolfpack Rounds are affected by the damage penalty."
+              "text": "Wolfpack Rounds and all other perk effects, such as Cluster Bombs and Hatchling, are affected by the damage penalty."
             }
           ]
         }
@@ -4580,7 +4664,7 @@
   },
   {
     "Name": "Bipod",
-    "Description": "Passively grants the following:\n+1 Magazine Capacity, +5 Reserves, and 0.75x Fire Recovery Delay\n25% decreased damage, -30 ↑-25 Blast Radius, and -20 ↑-15 Reload Speed.\nWolfpack Rounds are affected by the damage penalty.",
+    "Description": "Passively grants the following:\n+1 Magazine Capacity, +5 Reserves, and 0.75x Fire Recovery Delay\n25% decreased damage, -30 ↑-25 Blast Radius, and -20 ↑-15 Reload Speed.\nWolfpack Rounds and all other perk effects, such as Cluster Bombs and Hatchling, are affected by the damage penalty.",
     "hash": 2282937672,
     "parentHash": "2282937672",
     "hash_warning": "Multiple matches found (2 total)",
@@ -4628,7 +4712,7 @@
         {
           "linesContent": [
             {
-              "text": "Wolfpack Rounds are affected by the damage penalty."
+              "text": "Wolfpack Rounds and all other perk effects, such as Cluster Bombs and Hatchling, are affected by the damage penalty."
             }
           ]
         }
@@ -5049,7 +5133,7 @@
   },
   {
     "Name": "Box Breathing",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS. \nScout Rifles receive 5% Decreased Precision Damage while Box Breathing is active. Heavy Sniper Rifles only receive 30% increased Precision Damage.\nTimer starts as soon as the Aim Down Sights input is pressed.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS. \nHeavy Sniper Rifles and Glaives receive 30% increased Weakspot Damage instead.\nTimer starts as soon as the Aim Down Sights input is pressed.\nWeakspot damage? Buffs \"Precision Hits\" against Shielded Combatants but does not work on a Divinity Bubble is the least convoluted way of explaining it.",
     "hash": 2551157718,
     "parentHash": "2551157718",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5074,30 +5158,12 @@
         {
           "linesContent": [
             {
-              "text": "10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS."
+              "text": "10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS."
             }
           ]
         },
         {
           "linesContent": [
-            {
-              "text": "Scout Rifles",
-              "classNames": [
-                "weapon-scout-rifle"
-              ]
-            },
-            {
-              "text": " receive 5% Decreased Precision Damage while "
-            },
-            {
-              "text": "Box Breathing",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " is active. "
-            },
             {
               "text": "Heavy Sniper Rifles",
               "classNames": [
@@ -5105,7 +5171,16 @@
               ]
             },
             {
-              "text": " only receive 30% increased Precision Damage."
+              "text": " and "
+            },
+            {
+              "text": "Glaives",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " receive 30% increased Weakspot Damage instead."
             }
           ]
         },
@@ -5115,13 +5190,20 @@
               "text": "Timer starts as soon as the Aim Down Sights input is pressed."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weakspot damage? Buffs \"Precision Hits\" against Shielded Combatants but does not work on a Divinity Bubble is the least convoluted way of explaining it."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Box Breathing",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS. \nScout Rifles receive 5% Decreased Precision Damage while Box Breathing is active. Heavy Sniper Rifles only receive 30% increased Precision Damage.\nTimer starts as soon as the Aim Down Sights input is pressed.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS. \nHeavy Sniper Rifles and Glaives receive 30% increased Weakspot Damage instead.\nTimer starts as soon as the Aim Down Sights input is pressed.\nWeakspot damage? Buffs \"Precision Hits\" against Shielded Combatants but does not work on a Divinity Bubble is the least convoluted way of explaining it.",
     "hash": 23371658,
     "parentHash": "23371658",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5146,30 +5228,12 @@
         {
           "linesContent": [
             {
-              "text": "10% Increased Aim Assist Falloff Distance and grants 40% increased Precision Damage for the next shot while ADS."
+              "text": "10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS."
             }
           ]
         },
         {
           "linesContent": [
-            {
-              "text": "Scout Rifles",
-              "classNames": [
-                "weapon-scout-rifle"
-              ]
-            },
-            {
-              "text": " receive 5% Decreased Precision Damage while "
-            },
-            {
-              "text": "Box Breathing",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " is active. "
-            },
             {
               "text": "Heavy Sniper Rifles",
               "classNames": [
@@ -5177,7 +5241,16 @@
               ]
             },
             {
-              "text": " only receive 30% increased Precision Damage."
+              "text": " and "
+            },
+            {
+              "text": "Glaives",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " receive 30% increased Weakspot Damage instead."
             }
           ]
         },
@@ -5185,6 +5258,13 @@
           "linesContent": [
             {
               "text": "Timer starts as soon as the Aim Down Sights input is pressed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weakspot damage? Buffs \"Precision Hits\" against Shielded Combatants but does not work on a Divinity Bubble is the least convoluted way of explaining it."
             }
           ]
         }
@@ -6220,7 +6300,7 @@
   },
   {
     "Name": "Butterfly",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next Direct-Damage Kill cause targets to explode on death, dealing varying [?] Weapon-Matching Damage over ~8 meters, down to 30% damage.\nTimer starts as soon as the Aim Down Sights input is pressed. Buff is removed upon emptying the Magazine or after no longer ADS.\n\nButterfly Damage:\nScout Rifle: ?\nBow: 453\nTrace Rifle: 473 \nSniper Rifle: ?\nGlaive: ?\nCrossbow: ?\nLinear Fusion Rifle: 689",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next Direct Damage Kill cause targets to explode on death, dealing varying [?] Weapon-Matching Damage over ~8 meters, down to 30% damage.\nOn Rocket Launcher (Crux Celeritas IV): Explosive Damage Kills count, but the kill must be scored while still ADS.\nTimer starts as soon as the Aim Down Sights input is pressed. Buff is removed after no longer ADS, or upon scoring a kill.\nPerk can retrigger after 1.4 seconds of ADS without firing as long as the weapon is loaded.\n\nButterfly Maximum Damage:\nScout Rifle: ?\nBow: 453\nTrace Rifle: 473 \nShotgun: 590\nSniper Rifle: ?\nGlaive: ?\nCrossbow: 836\nLinear Fusion Rifle: 689\nRocket Launcher: 836",
     "hash": 198336270,
     "parentHash": "198336270",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6245,7 +6325,7 @@
         {
           "linesContent": [
             {
-              "text": "The next Direct-Damage Kill cause targets to explode on death, dealing varying ["
+              "text": "The next Direct Damage Kill cause targets to explode on death, dealing varying ["
             },
             {
               "text": "?",
@@ -6261,7 +6341,30 @@
         {
           "linesContent": [
             {
-              "text": "Timer starts as soon as the Aim Down Sights input is pressed. Buff is removed upon emptying the Magazine or after no longer ADS."
+              "text": "On "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " (Crux Celeritas IV): Explosive Damage Kills count, but the kill must be scored while still ADS."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Timer starts as soon as the Aim Down Sights input is pressed. Buff is removed after no longer ADS, or upon scoring a kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Perk can retrigger after 1.4 seconds of ADS without firing as long as the weapon is loaded."
             }
           ]
         },
@@ -6279,7 +6382,7 @@
               ]
             },
             {
-              "text": " Damage:"
+              "text": " Maximum Damage:"
             }
           ]
         },
@@ -6325,6 +6428,19 @@
         {
           "linesContent": [
             {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ": 590"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "Sniper Rifle",
               "classNames": [
                 "weapon-sniper-rifle"
@@ -6351,7 +6467,7 @@
         {
           "linesContent": [
             {
-              "text": "Crossbow: ?"
+              "text": "Crossbow: 836"
             }
           ]
         },
@@ -6367,13 +6483,26 @@
               "text": ": 689"
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ": 836"
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Butterfly",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next Direct-Damage Kill cause targets to explode on death, dealing varying [?] Weapon-Matching Damage over ~8 meters, down to 30% damage.\nTimer starts as soon as the Aim Down Sights input is pressed. Buff is removed upon emptying the Magazine or after no longer ADS.\n\nButterfly Damage:\nScout Rifle: ?\nBow: 453\nTrace Rifle: 473 \nSniper Rifle: ?\nGlaive: ?\nCrossbow: ?\nLinear Fusion Rifle: 689",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next Direct Damage Kill cause targets to explode on death, dealing varying [?] Weapon-Matching Damage over ~8 meters, down to 30% damage.\nOn Rocket Launcher (Crux Celeritas IV): Explosive Damage Kills count, but the kill must be scored while still ADS.\nTimer starts as soon as the Aim Down Sights input is pressed. Buff is removed after no longer ADS, or upon scoring a kill.\nPerk can retrigger after 1.4 seconds of ADS without firing as long as the weapon is loaded.\n\nButterfly Maximum Damage:\nScout Rifle: ?\nBow: 453\nTrace Rifle: 473 \nShotgun: 590\nSniper Rifle: ?\nGlaive: ?\nCrossbow: 836\nLinear Fusion Rifle: 689\nRocket Launcher: 836",
     "hash": 2216535938,
     "parentHash": "2216535938",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6398,7 +6527,7 @@
         {
           "linesContent": [
             {
-              "text": "The next Direct-Damage Kill cause targets to explode on death, dealing varying ["
+              "text": "The next Direct Damage Kill cause targets to explode on death, dealing varying ["
             },
             {
               "text": "?",
@@ -6414,7 +6543,30 @@
         {
           "linesContent": [
             {
-              "text": "Timer starts as soon as the Aim Down Sights input is pressed. Buff is removed upon emptying the Magazine or after no longer ADS."
+              "text": "On "
+            },
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " (Crux Celeritas IV): Explosive Damage Kills count, but the kill must be scored while still ADS."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Timer starts as soon as the Aim Down Sights input is pressed. Buff is removed after no longer ADS, or upon scoring a kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Perk can retrigger after 1.4 seconds of ADS without firing as long as the weapon is loaded."
             }
           ]
         },
@@ -6432,7 +6584,7 @@
               ]
             },
             {
-              "text": " Damage:"
+              "text": " Maximum Damage:"
             }
           ]
         },
@@ -6478,6 +6630,19 @@
         {
           "linesContent": [
             {
+              "text": "Shotgun",
+              "classNames": [
+                "weapon-shotgun"
+              ]
+            },
+            {
+              "text": ": 590"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "Sniper Rifle",
               "classNames": [
                 "weapon-sniper-rifle"
@@ -6504,7 +6669,7 @@
         {
           "linesContent": [
             {
-              "text": "Crossbow: ?"
+              "text": "Crossbow: 836"
             }
           ]
         },
@@ -6518,6 +6683,19 @@
             },
             {
               "text": ": 689"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Launcher",
+              "classNames": [
+                "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": ": 836"
             }
           ]
         }
@@ -7122,7 +7300,7 @@
   },
   {
     "Name": "Chain Reaction",
-    "Description": "On Weapon Kill:\nPrimary Weapons: Target explodes, dealing up to 84 ↑92.4 [56 ↑62] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.",
+    "Description": "On Weapon Kill:\nTarget explodes, dealing Weapon-Element Matching Damage in a small radius.\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Passively grants +20 Guard Endurance to Swords.",
     "hash": 2396489472,
     "parentHash": "2396489472",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7138,31 +7316,7 @@
         {
           "linesContent": [
             {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": ": Target explodes, dealing up to 84 "
-            },
-            {
-              "text": "↑92.4",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "56 ↑62",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)"
+              "text": "Target explodes, dealing Weapon-Element Matching Damage in a small radius."
             }
           ]
         },
@@ -7227,13 +7381,28 @@
               "text": "] damage in a 3 meter radius."
             }
           ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +20 Guard Endurance to Swords.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Chain Reaction",
-    "Description": "On Weapon Kill:\nPrimary Weapons: Target explodes, dealing up to 84 ↑92.4 [56 ↑62] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.",
+    "Description": "On Weapon Kill:\nTarget explodes, dealing Weapon-Element Matching Damage in a small radius.\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Passively grants +20 Guard Endurance to Swords.",
     "hash": 598607952,
     "parentHash": "598607952",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7249,31 +7418,7 @@
         {
           "linesContent": [
             {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": ": Target explodes, dealing up to 84 "
-            },
-            {
-              "text": "↑92.4",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "56 ↑62",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] Weapon-Element Matching Damage in a 3 meter radius. (Craftening lol)"
+              "text": "Target explodes, dealing Weapon-Element Matching Damage in a small radius."
             }
           ]
         },
@@ -7338,13 +7483,28 @@
               "text": "] damage in a 3 meter radius."
             }
           ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +20 Guard Endurance to Swords.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Chaos Reshaped",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active.\nHEALING IS CURRENTLY NOT WORKING CORRECTLY. RESETS HEALTH REGENERATION DELAY AND REMOVES RESTORED HEALTH.\nHealing burst builds up at a rate of 5 HP/s while readied, up to 35 HP. Healing Burst is triggered after 7 seconds, or upon stowing the weapon, consuming the built-up charge.\nHealing burst additionally begins Critical Health Regeneration, regardless of how much charge it has.\n Dealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active.\nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nChaos Reshaped x2 Healing Effect\nCharges up a Healing-over-time effect at a rate of 5 HP/s while readied, automatically triggering after either charging 35 HP (7 seconds) or stowing the weapon.\nThe Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds.\nHealing Effect prevents HP gains from non-Chaos Reshaped x2 sources above (200 - Healing Charge Built) HP if active. <100 Health Stat = 200 HP\nHealing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers.\n  In practice, just takes this as a 5HP/s effect as the missing nonrestorable HP is covered by the Healing Effect anyway. Don't overthink it!\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds.",
     "hash": 3640170453,
     "parentHash": "3640170453",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7432,28 +7592,7 @@
               ]
             },
             {
-              "text": " x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "HEALING IS CURRENTLY NOT WORKING CORRECTLY. RESETS HEALTH REGENERATION DELAY AND REMOVES RESTORED HEALTH."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Healing burst builds up at a rate of 5 HP/s while readied, up to 35 HP. Healing Burst is triggered after 7 seconds, or upon stowing the weapon, consuming the built-up charge."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Healing burst additionally begins Critical Health Regeneration, regardless of how much charge it has."
+              "text": " x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active."
             }
           ]
         },
@@ -7479,6 +7618,68 @@
         {
           "linesContent": [
             {
+              "text": "Chaos Reshaped",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 Healing Effect"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Charges up a Healing-over-time effect at a rate of 5 HP/s while readied, automatically triggering after either charging 35 HP (7 seconds) or stowing the weapon."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Healing Effect prevents HP gains from non-"
+            },
+            {
+              "text": "Chaos Reshaped",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 sources above (200 - Healing Charge Built) HP if active. <100 Health Stat = 200 HP"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Healing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "In practice, just takes this as a 5HP/s effect as the missing nonrestorable HP is covered by the Healing Effect anyway. Don't overthink it!"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds.",
               "classNames": [
                 "enhancedArrow"
@@ -7491,7 +7692,7 @@
   },
   {
     "Name": "Chaos Reshaped",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active.\nHEALING IS CURRENTLY NOT WORKING CORRECTLY. RESETS HEALTH REGENERATION DELAY AND REMOVES RESTORED HEALTH.\nHealing burst builds up at a rate of 5 HP/s while readied, up to 35 HP. Healing Burst is triggered after 7 seconds, or upon stowing the weapon, consuming the built-up charge.\nHealing burst additionally begins Critical Health Regeneration, regardless of how much charge it has.\n Dealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds.",
+    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active.\nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nChaos Reshaped x2 Healing Effect\nCharges up a Healing-over-time effect at a rate of 5 HP/s while readied, automatically triggering after either charging 35 HP (7 seconds) or stowing the weapon.\nThe Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds.\nHealing Effect prevents HP gains from non-Chaos Reshaped x2 sources above (200 - Healing Charge Built) HP if active. <100 Health Stat = 200 HP\nHealing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers.\n  In practice, just takes this as a 5HP/s effect as the missing nonrestorable HP is covered by the Healing Effect anyway. Don't overthink it!\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds.",
     "hash": 1817983009,
     "parentHash": "1817983009",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7579,28 +7780,7 @@
               ]
             },
             {
-              "text": " x2 | 35% Increased damage for 7 seconds. Periodically releases a healing burst while active."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "HEALING IS CURRENTLY NOT WORKING CORRECTLY. RESETS HEALTH REGENERATION DELAY AND REMOVES RESTORED HEALTH."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Healing burst builds up at a rate of 5 HP/s while readied, up to 35 HP. Healing Burst is triggered after 7 seconds, or upon stowing the weapon, consuming the built-up charge."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Healing burst additionally begins Critical Health Regeneration, regardless of how much charge it has."
+              "text": " x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active."
             }
           ]
         },
@@ -7615,6 +7795,68 @@
           "linesContent": [
             {
               "text": "Buff can be activated while stowed, and persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Chaos Reshaped",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 Healing Effect"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Charges up a Healing-over-time effect at a rate of 5 HP/s while readied, automatically triggering after either charging 35 HP (7 seconds) or stowing the weapon."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Healing Effect prevents HP gains from non-"
+            },
+            {
+              "text": "Chaos Reshaped",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x2 sources above (200 - Healing Charge Built) HP if active. <100 Health Stat = 200 HP"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Healing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "In practice, just takes this as a 5HP/s effect as the missing nonrestorable HP is covered by the Healing Effect anyway. Don't overthink it!"
             }
           ]
         },
@@ -11918,7 +12160,7 @@
   },
   {
     "Name": "Detonator Beam",
-    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing up to 250 [100] Element-Matching Damage over 8 meters.",
+    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing 250 [100] Element-Matching Damage, decreasing to 50% damage over 8 meters.",
     "hash": 4198902903,
     "parentHash": "4198902903",
     "hash_warning": "Multiple matches found (2 total)",
@@ -11943,7 +12185,7 @@
         {
           "linesContent": [
             {
-              "text": "Triggers an explosion around the target, dealing up to 250 ["
+              "text": "Triggers an explosion around the target, dealing 250 ["
             },
             {
               "text": "100",
@@ -11952,7 +12194,7 @@
               ]
             },
             {
-              "text": "] Element-Matching Damage over 8 meters."
+              "text": "] Element-Matching Damage, decreasing to 50% damage over 8 meters."
             }
           ]
         }
@@ -11961,7 +12203,7 @@
   },
   {
     "Name": "Detonator Beam",
-    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing up to 250 [100] Element-Matching Damage over 8 meters.",
+    "Description": "Upon scoring 25 ↑20 hits within ? seconds of each:\nTriggers an explosion around the target, dealing 250 [100] Element-Matching Damage, decreasing to 50% damage over 8 meters.",
     "hash": 222783511,
     "parentHash": "222783511",
     "hash_warning": "Multiple matches found (2 total)",
@@ -11986,7 +12228,7 @@
         {
           "linesContent": [
             {
-              "text": "Triggers an explosion around the target, dealing up to 250 ["
+              "text": "Triggers an explosion around the target, dealing 250 ["
             },
             {
               "text": "100",
@@ -11995,7 +12237,7 @@
               ]
             },
             {
-              "text": "] Element-Matching Damage over 8 meters."
+              "text": "] Element-Matching Damage, decreasing to 50% damage over 8 meters."
             }
           ]
         }
@@ -12743,7 +12985,7 @@
   },
   {
     "Name": "Dragonfly",
-    "Description": "On Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder\nTarget explodes, dealing 123.89 [95.3] Weapon-Matching Damage over a 8 metre radius.\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\n↑Increases Explosion Damage by 10% to ? [?].",
+    "Description": "On Precision Kill:\nTarget explodes, dealing Ammo-Type Based [95.3] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point.\nPrimary Ammo = 332 ↑365\nSpecial Ammo = 433 ↑477\nHeavy Ammo = 397 ↑438",
     "hash": 2848615171,
     "parentHash": "2848615171",
     "hash_warning": "Multiple matches found (3 total)",
@@ -12759,7 +13001,7 @@
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing varies ["
+              "text": "Target explodes, dealing Ammo-Type Based ["
             },
             {
               "text": "95.3",
@@ -12768,51 +13010,64 @@
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder"
+              "text": "] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing 123.89 ["
-            },
-            {
-              "text": "95.3",
+              "text": "Primary Ammo",
               "classNames": [
-                "pvp"
+                "primary"
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a 8 metre radius."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Damage against Combatants scales differently by Weapon Type and Combatant Rank :)"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Increases Explosion Damage by 10% to ? ["
+              "text": " = 332 "
             },
             {
-              "text": "?",
+              "text": "↑365",
               "classNames": [
-                "pvp"
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
               ]
             },
             {
-              "text": "]."
+              "text": " = 433 "
+            },
+            {
+              "text": "↑477",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Heavy Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " = 397 "
+            },
+            {
+              "text": "↑438",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -12821,7 +13076,7 @@
   },
   {
     "Name": "Dragonfly",
-    "Description": "On Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder\nTarget explodes, dealing 123.89 [95.3] Weapon-Matching Damage over a 8 metre radius.\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\n↑Increases Explosion Damage by 10% to ? [?].",
+    "Description": "On Precision Kill:\nTarget explodes, dealing Ammo-Type Based [95.3] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point.\nPrimary Ammo = 332 ↑365\nSpecial Ammo = 433 ↑477\nHeavy Ammo = 397 ↑438",
     "hash": 169755979,
     "parentHash": "169755979",
     "hash_warning": "Multiple matches found (3 total)",
@@ -12837,7 +13092,7 @@
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing varies ["
+              "text": "Target explodes, dealing Ammo-Type Based ["
             },
             {
               "text": "95.3",
@@ -12846,51 +13101,64 @@
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder"
+              "text": "] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing 123.89 ["
-            },
-            {
-              "text": "95.3",
+              "text": "Primary Ammo",
               "classNames": [
-                "pvp"
+                "primary"
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a 8 metre radius."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Damage against Combatants scales differently by Weapon Type and Combatant Rank :)"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Increases Explosion Damage by 10% to ? ["
+              "text": " = 332 "
             },
             {
-              "text": "?",
+              "text": "↑365",
               "classNames": [
-                "pvp"
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
               ]
             },
             {
-              "text": "]."
+              "text": " = 433 "
+            },
+            {
+              "text": "↑477",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Heavy Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " = 397 "
+            },
+            {
+              "text": "↑438",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -12899,7 +13167,7 @@
   },
   {
     "Name": "Dragonfly",
-    "Description": "On Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder\nTarget explodes, dealing 123.89 [95.3] Weapon-Matching Damage over a 8 metre radius.\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\n↑Increases Explosion Damage by 10% to ? [?].",
+    "Description": "On Precision Kill:\nTarget explodes, dealing Ammo-Type Based [95.3] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point.\nPrimary Ammo = 332 ↑365\nSpecial Ammo = 433 ↑477\nHeavy Ammo = 397 ↑438",
     "hash": 3865257976,
     "parentHash": "3865257976",
     "hash_warning": "Multiple matches found (3 total)",
@@ -12915,7 +13183,7 @@
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing varies ["
+              "text": "Target explodes, dealing Ammo-Type Based ["
             },
             {
               "text": "95.3",
@@ -12924,51 +13192,64 @@
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a ? meter radius, down to a minimum of ?% Damage at the farthest point. Placeholder"
+              "text": "] Weapon-Matching Damage over a 8 meter radius, down to a minimum of 0% Damage at the farthest point."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Target explodes, dealing 123.89 ["
-            },
-            {
-              "text": "95.3",
+              "text": "Primary Ammo",
               "classNames": [
-                "pvp"
+                "primary"
               ]
             },
             {
-              "text": "] Weapon-Matching Damage over a 8 metre radius."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Damage against Combatants scales differently by Weapon Type and Combatant Rank :)"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Increases Explosion Damage by 10% to ? ["
+              "text": " = 332 "
             },
             {
-              "text": "?",
+              "text": "↑365",
               "classNames": [
-                "pvp"
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
               ]
             },
             {
-              "text": "]."
+              "text": " = 433 "
+            },
+            {
+              "text": "↑477",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Heavy Ammo",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " = 397 "
+            },
+            {
+              "text": "↑438",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -16979,7 +17260,7 @@
   },
   {
     "Name": "Firing Line",
-    "Description": "While within 15 metres of 2 allies:\n20% Increased Precision Damage.\n\n↑Grants +10 Handling while perk is active.",
+    "Description": "While within 15 metres of 2 allies:\n20% Increased Precision Damage.\n\n↑+10 Handling while perk is active.",
     "hash": 1771339417,
     "parentHash": "1771339417",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17007,10 +17288,13 @@
         {
           "linesContent": [
             {
-              "text": "↑Grants +10 Handling while perk is active.",
+              "text": "↑+10",
               "classNames": [
                 "enhancedArrow"
               ]
+            },
+            {
+              "text": " Handling while perk is active."
             }
           ]
         }
@@ -17019,7 +17303,7 @@
   },
   {
     "Name": "Firing Line",
-    "Description": "While within 15 metres of 2 allies:\n20% Increased Precision Damage.\n\n↑Grants +10 Handling while perk is active.",
+    "Description": "While within 15 metres of 2 allies:\n20% Increased Precision Damage.\n\n↑+10 Handling while perk is active.",
     "hash": 395388285,
     "parentHash": "395388285",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17047,10 +17331,13 @@
         {
           "linesContent": [
             {
-              "text": "↑Grants +10 Handling while perk is active.",
+              "text": "↑+10",
               "classNames": [
                 "enhancedArrow"
               ]
+            },
+            {
+              "text": " Handling while perk is active."
             }
           ]
         }
@@ -17377,7 +17664,7 @@
   },
   {
     "Name": "Focused Fury",
-    "Description": "Upon scoring 35% of Magazine as Precision Hits:\n25% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload, and rounds upwards.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.",
+    "Description": "Upon scoring 35% of Magazine rounded up, as Precision Hits:\n25% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.",
     "hash": 2896038713,
     "parentHash": "2896038713",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17386,7 +17673,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 35% of Magazine as Precision Hits:"
+              "text": "Upon scoring 35% of Magazine rounded up, as Precision Hits:"
             }
           ]
         },
@@ -17402,7 +17689,7 @@
               ]
             },
             {
-              "text": " seconds. Precision counter is reset on stow or reload, and rounds upwards."
+              "text": " seconds. Precision counter is reset on stow or reload."
             }
           ]
         },
@@ -17418,7 +17705,7 @@
   },
   {
     "Name": "Focused Fury",
-    "Description": "Upon scoring 35% of Magazine as Precision Hits:\n25% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload, and rounds upwards.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.",
+    "Description": "Upon scoring 35% of Magazine rounded up, as Precision Hits:\n25% increased damage for 11 ↑12 seconds. Precision counter is reset on stow or reload.\nBuff can be refreshed while active, and persists through stow. Does not increase the damage of Explosive Damage Perks.",
     "hash": 2402480669,
     "parentHash": "2402480669",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17427,7 +17714,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 35% of Magazine as Precision Hits:"
+              "text": "Upon scoring 35% of Magazine rounded up, as Precision Hits:"
             }
           ]
         },
@@ -17443,7 +17730,7 @@
               ]
             },
             {
-              "text": " seconds. Precision counter is reset on stow or reload, and rounds upwards."
+              "text": " seconds. Precision counter is reset on stow or reload."
             }
           ]
         },
@@ -17913,7 +18200,7 @@
   },
   {
     "Name": "Full Choke",
-    "Description": "While ADS:\n-5% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty.\n\n↑Passively grants +2 Handling.",
+    "Description": "While ADS:\n-3.25% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty.\n\n↑Passively grants +2 Handling.",
     "hash": 1047830412,
     "parentHash": "1047830412",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17929,7 +18216,7 @@
         {
           "linesContent": [
             {
-              "text": "-5% Pellet Spread."
+              "text": "-3.25% Pellet Spread."
             }
           ]
         },
@@ -17960,7 +18247,7 @@
   },
   {
     "Name": "Full Choke",
-    "Description": "While ADS:\n-5% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty.\n\n↑Passively grants +2 Handling.",
+    "Description": "While ADS:\n-3.25% Pellet Spread.\nReduces Precision Damage Multiplier from 1.1078x to 1.0294x, or a 7.6% Precision Damage Penalty.\n\n↑Passively grants +2 Handling.",
     "hash": 3311319252,
     "parentHash": "3311319252",
     "hash_warning": "Multiple matches found (2 total)",
@@ -17976,7 +18263,7 @@
         {
           "linesContent": [
             {
-              "text": "-5% Pellet Spread."
+              "text": "-3.25% Pellet Spread."
             }
           ]
         },
@@ -18007,7 +18294,7 @@
   },
   {
     "Name": "Full Court",
-    "Description": "After 0.2 seconds of the projectile being fired:\nGrants up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 35% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius.",
+    "Description": "After 0.2 seconds of the projectile being fired:\nUp to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 35% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius.",
     "hash": 2888557110,
     "parentHash": "2888557110",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18023,7 +18310,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime."
+              "text": "Up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime."
             }
           ]
         },
@@ -18054,7 +18341,7 @@
   },
   {
     "Name": "Full Court",
-    "Description": "After 0.2 seconds of the projectile being fired:\nGrants up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 35% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius.",
+    "Description": "After 0.2 seconds of the projectile being fired:\nUp to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime.\nLinearly scales from 0% increased damage at 0.2 seconds, up to 35% increased damage at 1.1 seconds of projectile lifetime\n\n↑Passively grants +5 Blast Radius.",
     "hash": 1905598698,
     "parentHash": "1905598698",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18070,7 +18357,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime."
+              "text": "Up to 35% Increased Explosive and Burn (DoT) Damage based on the projectile lifetime."
             }
           ]
         },
@@ -18649,7 +18936,7 @@
   },
   {
     "Name": "Gutshot Straight",
-    "Description": "While ADS:\n -15% ↑-10%? Auto Aim Cone Size and increased non-Precision Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns",
+    "Description": "While ADS:\n -15% ↑-10%? Auto Aim Cone Size and increased Non-Precision Non-Weakspot Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Machine Guns, Pulse Rifles, Sidearm, Submachine Guns, and Trace Rifles.",
     "hash": 1365187766,
     "parentHash": "1365187766",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18674,7 +18961,7 @@
               ]
             },
             {
-              "text": " Auto Aim Cone Size and increased non-Precision Damage,"
+              "text": " Auto Aim Cone Size and increased Non-Precision Non-Weakspot Damage,"
             }
           ]
         },
@@ -18741,9 +19028,9 @@
               "text": "10% Increased Non-Precision Damage: "
             },
             {
-              "text": "Trace Rifles",
+              "text": "Machine Guns",
               "classNames": [
-                "weapon-trace-rifle"
+                "weapon-machine-gun"
               ]
             },
             {
@@ -18772,6 +19059,18 @@
               "classNames": [
                 "weapon-smg"
               ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Trace Rifles",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -18780,7 +19079,7 @@
   },
   {
     "Name": "Gutshot Straight",
-    "Description": "While ADS:\n -15% ↑-10%? Auto Aim Cone Size and increased non-Precision Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Trace Rifles, Pulse Rifles, Sidearm, Submachine Guns",
+    "Description": "While ADS:\n -15% ↑-10%? Auto Aim Cone Size and increased Non-Precision Non-Weakspot Damage,\n\n20% Increased Non-Precision Damage: Auto Rifles, Bows, Hand Cannons, Scout Rifles, and Sniper Rifles.\n10% Increased Non-Precision Damage: Machine Guns, Pulse Rifles, Sidearm, Submachine Guns, and Trace Rifles.",
     "hash": 4200236906,
     "parentHash": "4200236906",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18805,7 +19104,7 @@
               ]
             },
             {
-              "text": " Auto Aim Cone Size and increased non-Precision Damage,"
+              "text": " Auto Aim Cone Size and increased Non-Precision Non-Weakspot Damage,"
             }
           ]
         },
@@ -18872,9 +19171,9 @@
               "text": "10% Increased Non-Precision Damage: "
             },
             {
-              "text": "Trace Rifles",
+              "text": "Machine Guns",
               "classNames": [
-                "weapon-trace-rifle"
+                "weapon-machine-gun"
               ]
             },
             {
@@ -18903,6 +19202,18 @@
               "classNames": [
                 "weapon-smg"
               ]
+            },
+            {
+              "text": ", and "
+            },
+            {
+              "text": "Trace Rifles",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": "."
             }
           ]
         }
@@ -19079,7 +19390,7 @@
   },
   {
     "Name": "Headseeker",
-    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nCurrently, the existence of \"Weakspot Modifiers\" is a bug.",
+    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nOne such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't.",
     "hash": 460017080,
     "parentHash": "460017080",
     "hash_warning": "Multiple matches found (4 total)",
@@ -19300,7 +19611,7 @@
         {
           "linesContent": [
             {
-              "text": "Currently, the existence of \"Weakspot Modifiers\" is a bug."
+              "text": "One such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't."
             }
           ]
         }
@@ -19309,7 +19620,7 @@
   },
   {
     "Name": "Headseeker",
-    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nCurrently, the existence of \"Weakspot Modifiers\" is a bug.",
+    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nOne such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't.",
     "hash": 4045335048,
     "parentHash": "4045335048",
     "hash_warning": "Multiple matches found (4 total)",
@@ -19530,7 +19841,7 @@
         {
           "linesContent": [
             {
-              "text": "Currently, the existence of \"Weakspot Modifiers\" is a bug."
+              "text": "One such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't."
             }
           ]
         }
@@ -19539,7 +19850,7 @@
   },
   {
     "Name": "Headseeker",
-    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nCurrently, the existence of \"Weakspot Modifiers\" is a bug.",
+    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nOne such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't.",
     "hash": 3708253560,
     "parentHash": "3708253560",
     "hash_warning": "Multiple matches found (4 total)",
@@ -19760,7 +20071,7 @@
         {
           "linesContent": [
             {
-              "text": "Currently, the existence of \"Weakspot Modifiers\" is a bug."
+              "text": "One such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't."
             }
           ]
         }
@@ -19769,7 +20080,7 @@
   },
   {
     "Name": "Headseeker",
-    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nCurrently, the existence of \"Weakspot Modifiers\" is a bug.",
+    "Description": "Upon dealing direct non-Precision Weapon Damage:\nGrants increased Precision Damage and 3?% Increased Auto Aim Cone Size for 0.55 seconds. \nDealing additional Non-Precision Damage refreshes the buff duration.\nThe perk actually multiplies the Precision Bonus by 1.2x, but the actual Precision Damage Increase results are easier to explain.\n\nPrecision Damage Increase per Intrinsic Frame:\nAdaptive Pulse = 7.1% | Aggressive Pulse = 10% | Heavy Burst Pulse = 9.5%\nHigh-Impact Pulse = 8.74% | Lightweight Pulse = 6.3% | Rapid-Fire Pulse = 10.3%\nAdaptive Burst Sidearm = 8.46% | Heavy Burst Sidearm = 7.36%\nPrecision Scout Rifle = 8.66%\nHeavy Burst Hand Cannon = 7% increased Weakspot Damage.\n\n↑Passively grants +5 Stability.\n\nWhat even is a Weakspot? How is it different from a Precision Hit?\nWeakspot Hits that do not register as a Precision Hit can still benefit or trigger Weakspot effects, such as Headseeker, or Heavy Burst Hand Cannon's intrinsic 9.5% Weakspot Damage Buff.\nSimilarly, Precision Hits are not always scored on Weakspots, and may not trigger Weakspot effects.\nOne such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't.",
     "hash": 2578928833,
     "parentHash": "2578928833",
     "hash_warning": "Multiple matches found (4 total)",
@@ -19990,7 +20301,7 @@
         {
           "linesContent": [
             {
-              "text": "Currently, the existence of \"Weakspot Modifiers\" is a bug."
+              "text": "One such example are Shielded Combatants. Weakspot Damage Increases will work when other Precision Hit Increases wouldn't."
             }
           ]
         }
@@ -26510,7 +26821,7 @@
   },
   {
     "Name": "Meganeura",
-    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 == Dragonfly | x2 = 40% [?%] | x3 = 67.4% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMax Damage while at x3 Meganeura:\nAuto Rifle, Bow, Scout Rifle, Sidearm = 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 827\nMachine Gun = 758",
+    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 = Dragonfly | x2 = 40% [?%] | x3 = 67.7% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMeganeura Damage:\nPrimary Weapons = 378 | 530 | 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 493 | 691 | 827\nMachine Gun = 452 | 541 | 758",
     "hash": 1941225610,
     "parentHash": "1941225610",
     "hash_warning": "Multiple matches found (3 total)",
@@ -26602,7 +26913,7 @@
         {
           "linesContent": [
             {
-              "text": "x1 == Dragonfly | x2 = 40% ["
+              "text": "x1 = Dragonfly | x2 = 40% ["
             },
             {
               "text": "?%",
@@ -26611,7 +26922,7 @@
               ]
             },
             {
-              "text": "] | x3 = 67.4% ["
+              "text": "] | x3 = 67.7% ["
             },
             {
               "text": "?%",
@@ -26639,56 +26950,26 @@
         {
           "linesContent": [
             {
-              "text": "Max Damage while at x3 "
-            },
-            {
               "text": "Meganeura",
               "classNames": [
                 "perkname"
               ]
             },
             {
-              "text": ":"
+              "text": " Damage:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Auto Rifle",
+              "text": "Primary Weapons",
               "classNames": [
-                "weapon-auto-rifle"
+                "primary"
               ]
             },
             {
-              "text": ", "
-            },
-            {
-              "text": "Bow",
-              "classNames": [
-                "weapon-bow"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Scout Rifle",
-              "classNames": [
-                "weapon-scout-rifle"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Sidearm",
-              "classNames": [
-                "weapon-sidearm"
-              ]
-            },
-            {
-              "text": " = 634"
+              "text": " = 378 | 530 | 634"
             }
           ]
         },
@@ -26717,7 +26998,7 @@
               ]
             },
             {
-              "text": " = 827"
+              "text": " = 493 | 691 | 827"
             }
           ]
         },
@@ -26730,7 +27011,7 @@
               ]
             },
             {
-              "text": " = 758"
+              "text": " = 452 | 541 | 758"
             }
           ]
         }
@@ -26739,7 +27020,7 @@
   },
   {
     "Name": "Meganeura",
-    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 == Dragonfly | x2 = 40% [?%] | x3 = 67.4% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMax Damage while at x3 Meganeura:\nAuto Rifle, Bow, Scout Rifle, Sidearm = 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 827\nMachine Gun = 758",
+    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 = Dragonfly | x2 = 40% [?%] | x3 = 67.7% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMeganeura Damage:\nPrimary Weapons = 378 | 530 | 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 493 | 691 | 827\nMachine Gun = 452 | 541 | 758",
     "hash": 657025441,
     "parentHash": "657025441",
     "hash_warning": "Multiple matches found (3 total)",
@@ -26831,7 +27112,7 @@
         {
           "linesContent": [
             {
-              "text": "x1 == Dragonfly | x2 = 40% ["
+              "text": "x1 = Dragonfly | x2 = 40% ["
             },
             {
               "text": "?%",
@@ -26840,7 +27121,7 @@
               ]
             },
             {
-              "text": "] | x3 = 67.4% ["
+              "text": "] | x3 = 67.7% ["
             },
             {
               "text": "?%",
@@ -26868,56 +27149,26 @@
         {
           "linesContent": [
             {
-              "text": "Max Damage while at x3 "
-            },
-            {
               "text": "Meganeura",
               "classNames": [
                 "perkname"
               ]
             },
             {
-              "text": ":"
+              "text": " Damage:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Auto Rifle",
+              "text": "Primary Weapons",
               "classNames": [
-                "weapon-auto-rifle"
+                "primary"
               ]
             },
             {
-              "text": ", "
-            },
-            {
-              "text": "Bow",
-              "classNames": [
-                "weapon-bow"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Scout Rifle",
-              "classNames": [
-                "weapon-scout-rifle"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Sidearm",
-              "classNames": [
-                "weapon-sidearm"
-              ]
-            },
-            {
-              "text": " = 634"
+              "text": " = 378 | 530 | 634"
             }
           ]
         },
@@ -26946,7 +27197,7 @@
               ]
             },
             {
-              "text": " = 827"
+              "text": " = 493 | 691 | 827"
             }
           ]
         },
@@ -26959,7 +27210,7 @@
               ]
             },
             {
-              "text": " = 758"
+              "text": " = 452 | 541 | 758"
             }
           ]
         }
@@ -26968,7 +27219,7 @@
   },
   {
     "Name": "Meganeura",
-    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 == Dragonfly | x2 = 40% [?%] | x3 = 67.4% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMax Damage while at x3 Meganeura:\nAuto Rifle, Bow, Scout Rifle, Sidearm = 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 827\nMachine Gun = 758",
+    "Description": "Upon scoring a Precision Hit:\nGrants a stack of Meganeura for 3.5 ↑4 seconds, increasing up to a maximum of 3 stacks.\nBuff persists through stow.\n\nOn Precision Kill:\nTarget explodes, dealing varies [95.3] Weapon-Matching Damage over a 7.5 meter radius, down to a minimum of 50% Damage at the farthest point.\nExplosion Damage is increased by the amount of Meganeura stacks.\nx1 = Dragonfly | x2 = 40% [?%] | x3 = 67.7% [?%]\nDamage against Combatants scales differently by Weapon Type and Combatant Rank :)\n\nMeganeura Damage:\nPrimary Weapons = 378 | 530 | 634\nHeat Primary Weapons = 551 (634/1.15 lol)\nSniper Rifle = 493 | 691 | 827\nMachine Gun = 452 | 541 | 758",
     "hash": 4196156997,
     "parentHash": "4196156997",
     "hash_warning": "Multiple matches found (3 total)",
@@ -27060,7 +27311,7 @@
         {
           "linesContent": [
             {
-              "text": "x1 == Dragonfly | x2 = 40% ["
+              "text": "x1 = Dragonfly | x2 = 40% ["
             },
             {
               "text": "?%",
@@ -27069,7 +27320,7 @@
               ]
             },
             {
-              "text": "] | x3 = 67.4% ["
+              "text": "] | x3 = 67.7% ["
             },
             {
               "text": "?%",
@@ -27097,56 +27348,26 @@
         {
           "linesContent": [
             {
-              "text": "Max Damage while at x3 "
-            },
-            {
               "text": "Meganeura",
               "classNames": [
                 "perkname"
               ]
             },
             {
-              "text": ":"
+              "text": " Damage:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Auto Rifle",
+              "text": "Primary Weapons",
               "classNames": [
-                "weapon-auto-rifle"
+                "primary"
               ]
             },
             {
-              "text": ", "
-            },
-            {
-              "text": "Bow",
-              "classNames": [
-                "weapon-bow"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Scout Rifle",
-              "classNames": [
-                "weapon-scout-rifle"
-              ]
-            },
-            {
-              "text": ", "
-            },
-            {
-              "text": "Sidearm",
-              "classNames": [
-                "weapon-sidearm"
-              ]
-            },
-            {
-              "text": " = 634"
+              "text": " = 378 | 530 | 634"
             }
           ]
         },
@@ -27175,7 +27396,7 @@
               ]
             },
             {
-              "text": " = 827"
+              "text": " = 493 | 691 | 827"
             }
           ]
         },
@@ -27188,7 +27409,7 @@
               ]
             },
             {
-              "text": " = 758"
+              "text": " = 452 | 541 | 758"
             }
           ]
         }
@@ -27197,7 +27418,7 @@
   },
   {
     "Name": "Mega Kill Clip",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload after scoring additional Weapon Kills extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows.\n\n↑Buff duration is increased.",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
     "hash": 2305480722,
     "parentHash": "2305480722",
     "hash_warning": "Multiple matches found (2 total)",
@@ -27229,7 +27450,7 @@
         {
           "linesContent": [
             {
-              "text": "Finishing a reload after scoring additional Weapon Kills extends the buff duration by "
+              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
             },
             {
               "text": "↑+3",
@@ -27245,7 +27466,7 @@
         {
           "linesContent": [
             {
-              "text": "Kill counter persists through stows."
+              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
             }
           ]
         },
@@ -27269,7 +27490,7 @@
   },
   {
     "Name": "Mega Kill Clip",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload after scoring additional Weapon Kills extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows.\n\n↑Buff duration is increased.",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
     "hash": 2260261934,
     "parentHash": "2260261934",
     "hash_warning": "Multiple matches found (2 total)",
@@ -27301,7 +27522,7 @@
         {
           "linesContent": [
             {
-              "text": "Finishing a reload after scoring additional Weapon Kills extends the buff duration by "
+              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
             },
             {
               "text": "↑+3",
@@ -27317,7 +27538,7 @@
         {
           "linesContent": [
             {
-              "text": "Kill counter persists through stows."
+              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
             }
           ]
         },
@@ -30860,7 +31081,7 @@
   },
   {
     "Name": "Precision Instrument",
-    "Description": "Upon scoring a Direct Weapon Hit:\nGrants a stack of Precision Instrument, up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time.\nEach stack grants a 1/6th of the maximum 25% ↑30% increased Precision damage. \nAdditional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing.\n\nAdaptive Burst Linear Fusion Rifle exclusive: Requires 2 hits per stack. All stacks are removed upon missing, except when it doesn't :)\nHeavy Burst Frame exclusive: Can only get 1 stack per burst.\nBuff persists through stow.\n\n4.17% | 8.34% | 12.5% | 16.7% | 20.83% | 25% Increased Precision Damage.\n↑5% | 10% | 15% | 20% | 25% | 30% Increased Precision Damage.",
+    "Description": "Upon scoring a Direct Weapon Hit:\nGrants a stack of Precision Instrument, up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time.\nAdditional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing.\nBuff persists through stow.\n\nAdaptive Burst Linear Fusion Rifle exclusive: Requires 2 hits per stack. All stacks are removed upon missing, except when it doesn't :)\nHeavy Burst Frame exclusive: Can only get 1 stack per burst.\n\n4.17% | 8.34% | 12.5% | 16.7% | 20.83% | 25% Increased Precision Damage.\n↑5% | 10% | 15% | 20% | 25% | 30% Increased Precision Damage.\nAlso increases Weakspot Damage (Precision Hits against Shielded Combatants)",
     "hash": 555281244,
     "parentHash": "555281244",
     "hash_warning": "Multiple matches found (2 total)",
@@ -30892,23 +31113,14 @@
         {
           "linesContent": [
             {
-              "text": "Each stack grants a 1/6th of the maximum 25% "
-            },
-            {
-              "text": "↑30%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " increased Precision damage."
+              "text": "Additional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Additional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing."
+              "text": "Buff persists through stow."
             }
           ]
         },
@@ -30938,13 +31150,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Buff persists through stow."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -30968,13 +31173,20 @@
               "text": " | 10% | 15% | 20% | 25% | 30% Increased Precision Damage."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Also increases Weakspot Damage (Precision Hits against Shielded Combatants)"
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Precision Instrument",
-    "Description": "Upon scoring a Direct Weapon Hit:\nGrants a stack of Precision Instrument, up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time.\nEach stack grants a 1/6th of the maximum 25% ↑30% increased Precision damage. \nAdditional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing.\n\nAdaptive Burst Linear Fusion Rifle exclusive: Requires 2 hits per stack. All stacks are removed upon missing, except when it doesn't :)\nHeavy Burst Frame exclusive: Can only get 1 stack per burst.\nBuff persists through stow.\n\n4.17% | 8.34% | 12.5% | 16.7% | 20.83% | 25% Increased Precision Damage.\n↑5% | 10% | 15% | 20% | 25% | 30% Increased Precision Damage.",
+    "Description": "Upon scoring a Direct Weapon Hit:\nGrants a stack of Precision Instrument, up to a maximum of 6 stacks for 1.1 seconds. Lasts 2.1 seconds on weapons with Draw/Charge Time.\nAdditional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing.\nBuff persists through stow.\n\nAdaptive Burst Linear Fusion Rifle exclusive: Requires 2 hits per stack. All stacks are removed upon missing, except when it doesn't :)\nHeavy Burst Frame exclusive: Can only get 1 stack per burst.\n\n4.17% | 8.34% | 12.5% | 16.7% | 20.83% | 25% Increased Precision Damage.\n↑5% | 10% | 15% | 20% | 25% | 30% Increased Precision Damage.\nAlso increases Weakspot Damage (Precision Hits against Shielded Combatants)",
     "hash": 332733060,
     "parentHash": "332733060",
     "hash_warning": "Multiple matches found (2 total)",
@@ -31006,23 +31218,14 @@
         {
           "linesContent": [
             {
-              "text": "Each stack grants a 1/6th of the maximum 25% "
-            },
-            {
-              "text": "↑30%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " increased Precision damage."
+              "text": "Additional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Additional Direct Weapon Hits refresh the buff duration. All stacks are removed upon missing."
+              "text": "Buff persists through stow."
             }
           ]
         },
@@ -31052,13 +31255,6 @@
           ]
         },
         {
-          "linesContent": [
-            {
-              "text": "Buff persists through stow."
-            }
-          ]
-        },
-        {
           "classNames": [
             "spacer"
           ]
@@ -31080,6 +31276,13 @@
             },
             {
               "text": " | 10% | 15% | 20% | 25% | 30% Increased Precision Damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Also increases Weakspot Damage (Precision Hits against Shielded Combatants)"
             }
           ]
         }
@@ -32348,7 +32551,7 @@
   },
   {
     "Name": "Reaper's Tithe",
-    "Description": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks.\n2 enemies = x2 | 3 enemies = x3 | 4 enemies = x4\nAllows a grace period of 0.85 seconds between kills past the 2nd one.\n\nReaper's Tithe:\n20% | 30% | 40% Increased Weapon Damage for 15 ↑17 seconds. Timer only begins after firing.\nAdditional Weapon Kills extends the buff duration by +6 seconds, up to 15 ↑17 seconds.\nScoring a higher amount of simultaneous kills than the currently active stack amount will not \"upgrade\" the damage buff.",
+    "Description": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks.\n2 enemies = x2 | 3 enemies = x3 | 4 enemies = x4\nAllows a grace period of 1 second between kills past the 2nd one.\n\nReaper's Tithe:\n20% | 30% | 40% Increased Weapon Damage for 15 ↑17 seconds. Timer only begins after firing.\nAdditional Weapon Kills extends the buff duration by +6 seconds, up to 15 ↑17 seconds.\nScoring a higher amount of simultaneous kills than the currently active stack amount will not \"upgrade\" the damage buff.",
     "hash": 113508675,
     "parentHash": "113508675",
     "hash_warning": "Multiple matches found (2 total)",
@@ -32380,7 +32583,7 @@
         {
           "linesContent": [
             {
-              "text": "Allows a grace period of 0.85 seconds between kills past the 2nd one."
+              "text": "Allows a grace period of 1 second between kills past the 2nd one."
             }
           ]
         },
@@ -32446,7 +32649,7 @@
   },
   {
     "Name": "Reaper's Tithe",
-    "Description": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks.\n2 enemies = x2 | 3 enemies = x3 | 4 enemies = x4\nAllows a grace period of 0.85 seconds between kills past the 2nd one.\n\nReaper's Tithe:\n20% | 30% | 40% Increased Weapon Damage for 15 ↑17 seconds. Timer only begins after firing.\nAdditional Weapon Kills extends the buff duration by +6 seconds, up to 15 ↑17 seconds.\nScoring a higher amount of simultaneous kills than the currently active stack amount will not \"upgrade\" the damage buff.",
+    "Description": "Grants stacks of Reaper's Tithe based on the amount of simultaneously killed enemies, up to a maximum of 4 stacks.\n2 enemies = x2 | 3 enemies = x3 | 4 enemies = x4\nAllows a grace period of 1 second between kills past the 2nd one.\n\nReaper's Tithe:\n20% | 30% | 40% Increased Weapon Damage for 15 ↑17 seconds. Timer only begins after firing.\nAdditional Weapon Kills extends the buff duration by +6 seconds, up to 15 ↑17 seconds.\nScoring a higher amount of simultaneous kills than the currently active stack amount will not \"upgrade\" the damage buff.",
     "hash": 177189259,
     "parentHash": "177189259",
     "hash_warning": "Multiple matches found (2 total)",
@@ -32478,7 +32681,7 @@
         {
           "linesContent": [
             {
-              "text": "Allows a grace period of 0.85 seconds between kills past the 2nd one."
+              "text": "Allows a grace period of 1 second between kills past the 2nd one."
             }
           ]
         },
@@ -33066,7 +33269,7 @@
   },
   {
     "Name": "Redirection",
-    "Description": "Upon scoring a hit against Rank-And-File Combatants:\nGrants 2 stacks of Redirection, up to a maximum of 30 stacks.\nStacks persist through stow.\n\nUpon scoring a hit against an Elite, Miniboss, Boss, or Vehicle:\nConsumes up to 3 ↑2 stacks, granting 33% ↑50% increased damage per stack, up to 100% at 3 ↑2 stacks.",
+    "Description": "Upon scoring a hit against Rank-And-File Combatants:\nGrants 2 stacks of Redirection, up to a maximum of 30 stacks.\nStacks persist through stow.\n\nUpon scoring a hit against an Elite, Miniboss, Boss, or Vehicle:\nConsumes up to 3 ↑2 stacks, granting 33% ↑50% increased damage per stack, up to 100% at 3 ↑2 stacks.\nStacks are consumed even on Immune Hits.",
     "hash": 3201496230,
     "parentHash": "3201496230",
     "hash_warning": "Multiple matches found (2 total)",
@@ -33147,13 +33350,20 @@
               "text": " stacks."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks are consumed even on Immune Hits."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Redirection",
-    "Description": "Upon scoring a hit against Rank-And-File Combatants:\nGrants 2 stacks of Redirection, up to a maximum of 30 stacks.\nStacks persist through stow.\n\nUpon scoring a hit against an Elite, Miniboss, Boss, or Vehicle:\nConsumes up to 3 ↑2 stacks, granting 33% ↑50% increased damage per stack, up to 100% at 3 ↑2 stacks.",
+    "Description": "Upon scoring a hit against Rank-And-File Combatants:\nGrants 2 stacks of Redirection, up to a maximum of 30 stacks.\nStacks persist through stow.\n\nUpon scoring a hit against an Elite, Miniboss, Boss, or Vehicle:\nConsumes up to 3 ↑2 stacks, granting 33% ↑50% increased damage per stack, up to 100% at 3 ↑2 stacks.\nStacks are consumed even on Immune Hits.",
     "hash": 1545231802,
     "parentHash": "1545231802",
     "hash_warning": "Multiple matches found (2 total)",
@@ -33232,6 +33442,13 @@
             },
             {
               "text": " stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks are consumed even on Immune Hits."
             }
           ]
         }
@@ -33530,7 +33747,7 @@
   },
   {
     "Name": "Reservoir Burst",
-    "Description": "Passively grants +30 Magazine Size.\n\nWhile at or above 100% Magazine Capacity:\nGrants 30% ↑33% Increased damage.\nKills cause enemies to explode on death, dealing varying [162] Elemental Damage in a ? metre radius.\nDamage against Combatants scales with Combatant Rank Modifiers. Linear Fusion Rifles have an additional 1.3x multiplier against Combatants.\n\nReservoir Burst Explosion Damage:\nHigh-Impact Fusion: 623? (OLD Loaded Question)\nPrecision Fusion: 623\nRapid Fusion: 637\nAggressive Fusion: 758\nPrecision LFR: 308\nAdaptive Burst LFR: 410",
+    "Description": "Passively grants +30 Magazine Size.\n\nWhile at or above 100% Magazine Capacity:\nGrants 30% ↑33% Increased damage.\nDirect Damage Kills cause enemies to explode on death, dealing varying [162] Elemental Damage in a ? metre radius.\nDamage against Combatants scales with Combatant Rank Modifiers. Linear Fusion Rifles have an additional 1.3x multiplier against Combatants.\n\nReservoir Burst Explosion Damage:\nHigh-Impact Fusion: 623? (OLD Loaded Question)\nPrecision Fusion: 623\nRapid Fusion: 637\nAggressive Fusion: 758\nPrecision LFR: 308\nAdaptive Burst LFR: 410",
     "hash": 1427256713,
     "parentHash": "1427256713",
     "hash_warning": "Multiple matches found (2 total)",
@@ -33574,7 +33791,7 @@
         {
           "linesContent": [
             {
-              "text": "Kills cause enemies to explode on death, dealing varying ["
+              "text": "Direct Damage Kills cause enemies to explode on death, dealing varying ["
             },
             {
               "text": "162",
@@ -33683,7 +33900,7 @@
   },
   {
     "Name": "Reservoir Burst",
-    "Description": "Passively grants +30 Magazine Size.\n\nWhile at or above 100% Magazine Capacity:\nGrants 30% ↑33% Increased damage.\nKills cause enemies to explode on death, dealing varying [162] Elemental Damage in a ? metre radius.\nDamage against Combatants scales with Combatant Rank Modifiers. Linear Fusion Rifles have an additional 1.3x multiplier against Combatants.\n\nReservoir Burst Explosion Damage:\nHigh-Impact Fusion: 623? (OLD Loaded Question)\nPrecision Fusion: 623\nRapid Fusion: 637\nAggressive Fusion: 758\nPrecision LFR: 308\nAdaptive Burst LFR: 410",
+    "Description": "Passively grants +30 Magazine Size.\n\nWhile at or above 100% Magazine Capacity:\nGrants 30% ↑33% Increased damage.\nDirect Damage Kills cause enemies to explode on death, dealing varying [162] Elemental Damage in a ? metre radius.\nDamage against Combatants scales with Combatant Rank Modifiers. Linear Fusion Rifles have an additional 1.3x multiplier against Combatants.\n\nReservoir Burst Explosion Damage:\nHigh-Impact Fusion: 623? (OLD Loaded Question)\nPrecision Fusion: 623\nRapid Fusion: 637\nAggressive Fusion: 758\nPrecision LFR: 308\nAdaptive Burst LFR: 410",
     "hash": 254337357,
     "parentHash": "254337357",
     "hash_warning": "Multiple matches found (2 total)",
@@ -33727,7 +33944,7 @@
         {
           "linesContent": [
             {
-              "text": "Kills cause enemies to explode on death, dealing varying ["
+              "text": "Direct Damage Kills cause enemies to explode on death, dealing varying ["
             },
             {
               "text": "162",
@@ -34780,7 +34997,7 @@
   },
   {
     "Name": "Sharp Harvest",
-    "Description": "Upon scoring 3 Powered Sword Hits within 1.5 ↑2 seconds of each:\n Grants 5% Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.",
+    "Description": "Upon scoring 3 Powered Sword Direct Hits within 1.5 ↑2 seconds of each:\n Grants 5% Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.",
     "hash": 4132187021,
     "parentHash": "4132187021",
     "hash_warning": "Multiple matches found (2 total)",
@@ -34798,7 +35015,7 @@
               ]
             },
             {
-              "text": " Hits within 1.5 "
+              "text": " Direct Hits within 1.5 "
             },
             {
               "text": "↑2",
@@ -34848,7 +35065,7 @@
   },
   {
     "Name": "Sharp Harvest",
-    "Description": "Upon scoring 3 Powered Sword Hits within 1.5 ↑2 seconds of each:\n Grants 5% Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.",
+    "Description": "Upon scoring 3 Powered Sword Direct Hits within 1.5 ↑2 seconds of each:\n Grants 5% Special Ammo Reserves.\nEquipping two Special Weapons halves the amount of ammo granted to 2.5%.",
     "hash": 2581144697,
     "parentHash": "2581144697",
     "hash_warning": "Multiple matches found (2 total)",
@@ -34866,7 +35083,7 @@
               ]
             },
             {
-              "text": " Hits within 1.5 "
+              "text": " Direct Hits within 1.5 "
             },
             {
               "text": "↑2",
@@ -35461,7 +35678,7 @@
   },
   {
     "Name": "Slice",
-    "Description": "On Class Ability Usage:\nThe next 5 damage instances on non-Severed Enemies within 8 ↑9 seconds of each inflict sever.\nScoring a damage instance on a non-Severed Enemy refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\nIf the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies.",
+    "Description": "On Class Ability Usage:\nThe next 5 damage instances on non-Severed Enemies within 8 ↑9 seconds of each inflict sever.\nScoring a damage instance on a non-Severed Enemy refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\nIf the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can inflict Sever on Immune Enemies.",
     "hash": 923806249,
     "parentHash": "923806249",
     "hash_warning": "Multiple matches found (2 total)",
@@ -35543,7 +35760,16 @@
               ]
             },
             {
-              "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
+              "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can inflict "
+            },
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " on Immune Enemies."
             }
           ]
         }
@@ -35552,7 +35778,7 @@
   },
   {
     "Name": "Slice",
-    "Description": "On Class Ability Usage:\nThe next 5 damage instances on non-Severed Enemies within 8 ↑9 seconds of each inflict sever.\nScoring a damage instance on a non-Severed Enemy refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\nIf the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies.",
+    "Description": "On Class Ability Usage:\nThe next 5 damage instances on non-Severed Enemies within 8 ↑9 seconds of each inflict sever.\nScoring a damage instance on a non-Severed Enemy refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\nIf the severing hit kills an enemy, the perk will not trigger nor consume a stack. Can inflict Sever on Immune Enemies.",
     "hash": 3422796781,
     "parentHash": "3422796781",
     "hash_warning": "Multiple matches found (2 total)",
@@ -35634,7 +35860,16 @@
               ]
             },
             {
-              "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can trigger on Immune Enemies."
+              "text": " hit kills an enemy, the perk will not trigger nor consume a stack. Can inflict "
+            },
+            {
+              "text": "Sever",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " on Immune Enemies."
             }
           ]
         }
@@ -35779,7 +36014,7 @@
   },
   {
     "Name": "Slideways",
-    "Description": "Upon Sliding:\nRefills 15% of Magazine, and grants +15? ↑+17? Stability and +30 ↑+33? Handling for 3 seconds. \nIncurs a 0.5 seconds cooldown after activation. Buff is removed on stow.",
+    "Description": "Upon Sliding:\nRefills 15% of Magazine/Dissipates 15% Heat, and grants +15? ↑+17? Stability and +30 ↑+33? Handling for 3 seconds. \nIncurs a 0.5 seconds cooldown after activation. Buff is removed on stow.",
     "hash": 2039302152,
     "parentHash": "2039302152",
     "hash_warning": "Multiple matches found (2 total)",
@@ -35795,7 +36030,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 15% of Magazine, and grants +15? "
+              "text": "Refills 15% of Magazine/Dissipates 15% Heat, and grants +15? "
             },
             {
               "text": "↑+17?",
@@ -35829,7 +36064,7 @@
   },
   {
     "Name": "Slideways",
-    "Description": "Upon Sliding:\nRefills 15% of Magazine, and grants +15? ↑+17? Stability and +30 ↑+33? Handling for 3 seconds. \nIncurs a 0.5 seconds cooldown after activation. Buff is removed on stow.",
+    "Description": "Upon Sliding:\nRefills 15% of Magazine/Dissipates 15% Heat, and grants +15? ↑+17? Stability and +30 ↑+33? Handling for 3 seconds. \nIncurs a 0.5 seconds cooldown after activation. Buff is removed on stow.",
     "hash": 2396422520,
     "parentHash": "2396422520",
     "hash_warning": "Multiple matches found (2 total)",
@@ -35845,7 +36080,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills 15% of Magazine, and grants +15? "
+              "text": "Refills 15% of Magazine/Dissipates 15% Heat, and grants +15? "
             },
             {
               "text": "↑+17?",
@@ -36647,7 +36882,7 @@
   },
   {
     "Name": "Stopping Power",
-    "Description": "Grants increased stagger against Combatants.\nDeals increased damage and has increased \"target acquisition\" against enemies on low health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 34 HP.\n\n7% Increased Damage at <34% ↑?% Health.\n10% Increased Damage at <23% Health.\nDOES NOT WORK AT 18% Health. ¯\\_.(ツ)._/¯\n15% Increased Damage at <18% Health.",
+    "Description": "Inflicts increased stagger against Combatants.\n\nUpon damaging an Enemy at <30?% ↑<33% Health:\n+? Aim Assist for 2 seconds.\nInitially grants 7% increased damage at <30% <↑33% Health, increasing up to 10% at <23% Health, then finally 15% increased damage at <18% Health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 33 HP.\nShielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds.",
     "hash": 1517798362,
     "parentHash": "1517798362",
     "hash_warning": "Multiple matches found (2 total)",
@@ -36656,21 +36891,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants increased stagger against Combatants."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Deals increased damage and has increased \"target acquisition\" against enemies on low health."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Shields are ignored, meaning Guardians only receive extra damage if they're under 34 HP."
+              "text": "Inflicts increased stagger against Combatants."
             }
           ]
         },
@@ -36682,37 +36903,53 @@
         {
           "linesContent": [
             {
-              "text": "7% Increased Damage at <34% "
+              "text": "Upon damaging an Enemy at <30?% "
             },
             {
-              "text": "↑?%",
+              "text": "↑<33%",
               "classNames": [
                 "enhancedArrow"
               ]
             },
             {
-              "text": " Health."
+              "text": " Health:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "10% Increased Damage at <23% Health."
+              "text": "+? Aim Assist for 2 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "DOES NOT WORK AT 18% Health. ¯\\_.(ツ)._/¯"
+              "text": "Initially grants 7% increased damage at <30% <"
+            },
+            {
+              "text": "↑33%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Health, increasing up to 10% at <23% Health, then finally 15% increased damage at <18% Health."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "15% Increased Damage at <18% Health."
+              "text": "Shields are ignored, meaning Guardians only receive extra damage if they're under 33 HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Shielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds."
             }
           ]
         }
@@ -36721,7 +36958,7 @@
   },
   {
     "Name": "Stopping Power",
-    "Description": "Grants increased stagger against Combatants.\nDeals increased damage and has increased \"target acquisition\" against enemies on low health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 34 HP.\n\n7% Increased Damage at <34% ↑?% Health.\n10% Increased Damage at <23% Health.\nDOES NOT WORK AT 18% Health. ¯\\_.(ツ)._/¯\n15% Increased Damage at <18% Health.",
+    "Description": "Inflicts increased stagger against Combatants.\n\nUpon damaging an Enemy at <30?% ↑<33% Health:\n+? Aim Assist for 2 seconds.\nInitially grants 7% increased damage at <30% <↑33% Health, increasing up to 10% at <23% Health, then finally 15% increased damage at <18% Health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 33 HP.\nShielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds.",
     "hash": 1011551830,
     "parentHash": "1011551830",
     "hash_warning": "Multiple matches found (2 total)",
@@ -36730,21 +36967,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants increased stagger against Combatants."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Deals increased damage and has increased \"target acquisition\" against enemies on low health."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Shields are ignored, meaning Guardians only receive extra damage if they're under 34 HP."
+              "text": "Inflicts increased stagger against Combatants."
             }
           ]
         },
@@ -36756,37 +36979,53 @@
         {
           "linesContent": [
             {
-              "text": "7% Increased Damage at <34% "
+              "text": "Upon damaging an Enemy at <30?% "
             },
             {
-              "text": "↑?%",
+              "text": "↑<33%",
               "classNames": [
                 "enhancedArrow"
               ]
             },
             {
-              "text": " Health."
+              "text": " Health:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "10% Increased Damage at <23% Health."
+              "text": "+? Aim Assist for 2 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "DOES NOT WORK AT 18% Health. ¯\\_.(ツ)._/¯"
+              "text": "Initially grants 7% increased damage at <30% <"
+            },
+            {
+              "text": "↑33%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Health, increasing up to 10% at <23% Health, then finally 15% increased damage at <18% Health."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "15% Increased Damage at <18% Health."
+              "text": "Shields are ignored, meaning Guardians only receive extra damage if they're under 33 HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Shielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds."
             }
           ]
         }
@@ -36795,7 +37034,7 @@
   },
   {
     "Name": "Strategist",
-    "Description": "On Weapon Kill:\nGrants 10% ↑11% Class Ability Energy.\nFusion Rifles, Glaives, Shotguns, and Sniper Rifles grant 20% ↑22% Class Ability Energy.\n\nOn Class Ability Usage:\nGrants +? Stability for ? seconds.",
+    "Description": "On Weapon Kill:\nGrants 10% ↑11% Class Ability Energy.\nFusion Rifles, Glaives, Shotguns, and Sniper Rifles grant 20% ↑22% Class Ability Energy.\n\nOn Class Ability Usage:\n+? Stability for ? seconds.",
     "hash": 880644845,
     "parentHash": "880644845",
     "hash_warning": "Multiple matches found (2 total)",
@@ -36888,7 +37127,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants +? Stability for ? seconds."
+              "text": "+? Stability for ? seconds."
             }
           ]
         }
@@ -36897,7 +37136,7 @@
   },
   {
     "Name": "Strategist",
-    "Description": "On Weapon Kill:\nGrants 10% ↑11% Class Ability Energy.\nFusion Rifles, Glaives, Shotguns, and Sniper Rifles grant 20% ↑22% Class Ability Energy.\n\nOn Class Ability Usage:\nGrants +? Stability for ? seconds.",
+    "Description": "On Weapon Kill:\nGrants 10% ↑11% Class Ability Energy.\nFusion Rifles, Glaives, Shotguns, and Sniper Rifles grant 20% ↑22% Class Ability Energy.\n\nOn Class Ability Usage:\n+? Stability for ? seconds.",
     "hash": 3120212825,
     "parentHash": "3120212825",
     "hash_warning": "Multiple matches found (2 total)",
@@ -36990,7 +37229,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants +? Stability for ? seconds."
+              "text": "+? Stability for ? seconds."
             }
           ]
         }
@@ -40708,7 +40947,7 @@
   },
   {
     "Name": "Transcendent Moment",
-    "Description": "On Weapon Kill:\nGrants Transcendent Moment for ? ↑? seconds.\nAdditional Kills refresh the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\nTranscendent Moment | Grants Weapon Stats based on the weapon's alignment. \n+? Stability and +? Handling | +? Range and +? Aim Assist\nBoth bonuses are active while Transcendence is active.\n\nLight Alignment = Arc, Solar, and Void.\n Darkness Alignment = Kinetic, Stasis and Strand.",
+    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Trascendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
     "hash": 3731491409,
     "parentHash": "3731491409",
     "hash_warning": "Multiple matches found (2 total)",
@@ -40724,25 +40963,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants "
-            },
-            {
-              "text": "Transcendent Moment",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for ? "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
+              "text": "Grants a Weapon Alignment-Based buff for 7 seconds."
             }
           ]
         },
@@ -40756,7 +40977,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be activated while stowed, and persists through stow."
+              "text": "Buff persists through stow."
             }
           ]
         },
@@ -40768,48 +40989,7 @@
         {
           "linesContent": [
             {
-              "text": "Transcendent Moment",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " | Grants Weapon Stats based on the weapon's alignment."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+? Stability and +? Handling | +? Range and +? Aim Assist"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Both bonuses are active while "
-            },
-            {
-              "text": "Transcendence",
-              "classNames": [
-                "prismatic"
-              ]
-            },
-            {
-              "text": " is active."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Light Alignment = "
+              "text": "Light Weapons ("
             },
             {
               "text": "Arc",
@@ -40836,23 +41016,32 @@
               ]
             },
             {
-              "text": "."
+              "text": ") trigger Transcendent Light | +? "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Stability and +? "
+            },
+            {
+              "text": "↑+20?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Handling"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Darkness Alignment = "
-            },
-            {
-              "text": "Kinetic",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": ", "
+              "text": "Dark Weapons ("
             },
             {
               "text": "Stasis",
@@ -40870,7 +41059,59 @@
               ]
             },
             {
-              "text": "."
+              "text": ") trigger Transcendent Dark | "
+            },
+            {
+              "text": "↑+20",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Range and +? "
+            },
+            {
+              "text": "↑+20",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Aim Assist"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While Trascendence is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Transcendent Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | Grants both alignment buffs passively until "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " ends."
             }
           ]
         }
@@ -40879,7 +41120,7 @@
   },
   {
     "Name": "Transcendent Moment",
-    "Description": "On Weapon Kill:\nGrants Transcendent Moment for ? ↑? seconds.\nAdditional Kills refresh the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\nTranscendent Moment | Grants Weapon Stats based on the weapon's alignment. \n+? Stability and +? Handling | +? Range and +? Aim Assist\nBoth bonuses are active while Transcendence is active.\n\nLight Alignment = Arc, Solar, and Void.\n Darkness Alignment = Kinetic, Stasis and Strand.",
+    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Trascendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
     "hash": 680897173,
     "parentHash": "680897173",
     "hash_warning": "Multiple matches found (2 total)",
@@ -40895,25 +41136,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants "
-            },
-            {
-              "text": "Transcendent Moment",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for ? "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
+              "text": "Grants a Weapon Alignment-Based buff for 7 seconds."
             }
           ]
         },
@@ -40927,7 +41150,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be activated while stowed, and persists through stow."
+              "text": "Buff persists through stow."
             }
           ]
         },
@@ -40939,48 +41162,7 @@
         {
           "linesContent": [
             {
-              "text": "Transcendent Moment",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " | Grants Weapon Stats based on the weapon's alignment."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+? Stability and +? Handling | +? Range and +? Aim Assist"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Both bonuses are active while "
-            },
-            {
-              "text": "Transcendence",
-              "classNames": [
-                "prismatic"
-              ]
-            },
-            {
-              "text": " is active."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Light Alignment = "
+              "text": "Light Weapons ("
             },
             {
               "text": "Arc",
@@ -41007,23 +41189,32 @@
               ]
             },
             {
-              "text": "."
+              "text": ") trigger Transcendent Light | +? "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Stability and +? "
+            },
+            {
+              "text": "↑+20?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Handling"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Darkness Alignment = "
-            },
-            {
-              "text": "Kinetic",
-              "classNames": [
-                "kinetic"
-              ]
-            },
-            {
-              "text": ", "
+              "text": "Dark Weapons ("
             },
             {
               "text": "Stasis",
@@ -41041,7 +41232,59 @@
               ]
             },
             {
-              "text": "."
+              "text": ") trigger Transcendent Dark | "
+            },
+            {
+              "text": "↑+20",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Range and +? "
+            },
+            {
+              "text": "↑+20",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Aim Assist"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While Trascendence is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Transcendent Moment",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " | Grants both alignment buffs passively until "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " ends."
             }
           ]
         }

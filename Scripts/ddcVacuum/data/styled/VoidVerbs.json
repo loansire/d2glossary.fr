@@ -301,7 +301,7 @@
   },
   {
     "Name": "Void Breach",
-    "Description": "Void Elemental Pickup.\n\nGrants 12.5% Class Ability Energy on Pickup. Allies do not receive Void Breaches created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Void Breach spawns.",
+    "Description": "Void Elemental Pickup.\n\nGrants 11.25% Class Ability Energy on Pickup. Allies do not receive Void Breaches created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Void Breach spawns.",
     "hash": 3328352616,
     "parentHash": "3328352616",
     "descriptions": {
@@ -327,7 +327,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 12.5% Class Ability Energy on Pickup. Allies do not receive "
+              "text": "Grants 11.25% Class Ability Energy on Pickup. Allies do not receive "
             },
             {
               "text": "Void Breaches",

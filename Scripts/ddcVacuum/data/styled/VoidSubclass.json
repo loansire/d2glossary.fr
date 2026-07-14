@@ -309,7 +309,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Void Breach",
-    "Description": "Void Elemental Pickup.\n\nGrants 12.5% Class Ability Energy on Pickup. Allies do not receive Void Breaches created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Void Breach spawns.",
+    "Description": "Void Elemental Pickup.\n\nGrants 11.25% Class Ability Energy on Pickup. Allies do not receive Void Breaches created by the user.\nLasts 25 seconds before disappearing. Incurs a 5 second cooldown between Void Breach spawns.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -334,7 +334,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 12.5% Class Ability Energy on Pickup. Allies do not receive "
+              "text": "Grants 11.25% Class Ability Energy on Pickup. Allies do not receive "
             },
             {
               "text": "Void Breaches",
@@ -1416,7 +1416,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Echo of Reprisal",
-    "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant an additional ?% Super Energy.\nIncurs a 1? second cooldown between activations.",
+    "Description": "While surrounded by 3+ enemies within 8 meters:\nKills grant additional Super Energy.\n3 Enemies = +0.3% | 4 = +0.65% | 5 = 1% | 6 = +1.6% | 7 = +2.3%\n\nIncurs a 1 second cooldown between activations.",
     "hash": 2272984669,
     "parentHash": "2272984669",
     "descriptions": {
@@ -1431,14 +1431,26 @@
         {
           "linesContent": [
             {
-              "text": "Kills grant an additional ?% Super Energy."
+              "text": "Kills grant additional Super Energy."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Incurs a 1? second cooldown between activations."
+              "text": "3 Enemies = +0.3% | 4 = +0.65% | 5 = 1% | 6 = +1.6% | 7 = +2.3%"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 1 second cooldown between activations."
             }
           ]
         }

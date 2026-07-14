@@ -3,7 +3,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Tangle",
-    "Description": "Strand Subclass Intrinsic\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects!\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
+    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
   },
   {
     "Class": "General",
@@ -21,7 +21,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Woven Mail",
-    "Description": "Grants 45% [25%] Damage Resist for 10 seconds. \nPrecision Hits and Melee Attacks from Guardians bypass the Damage Resist."
+    "Description": "Grants 45% [25%] Damage Resist for 10 seconds. \nPrecision Hits and Melee Attacks from Guardians bypass the Damage Resist.\n\nWoven Mail is removed upon casting any Super Ability."
   },
   {
     "Class": "General",
@@ -33,7 +33,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Suspend",
-    "Description": "Suspended Enemies are held midair, unable to use abilities.\n\nSuspended Combatants are unable to move, shoot, or use abilities.\nRank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds.\nBoss Combatants are immune to suspension, instead receiving 300 damage after ? seconds.\n\nSuspended Guardians are lifted midair, being able to slowly hover and hipfire their weapons for 2+1 seconds in a third-person perspective.\n\nSuspending Blasts deal up to 120 [40] damage and inflict Suspend to enemies within 10 meters.\n\nUnstoppable Champions are stunned upon being Suspended."
+    "Description": "Suspended Combatants are unable to move, shoot, or use abilities.\nRank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds.\nBoss Combatants are unimpeded by suspension's effects, snapping out of them after 1 second, receiving instead 300 Strand Damage.\nBoss Combatants still count as being afflicted by the Suspend debuff during its brief duration despite not receiving its effects.\n\nSuspended Guardians are lifted midair, being able to slowly hover horizontally and hipfire their weapons for 2+1 seconds in a third-person perspective.\n\nUnstoppable Champions are stunned upon being Suspended."
   },
   {
     "Class": "General",
@@ -57,7 +57,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Thread of Binding",
-    "Description": "Super Kills create a Suspending Blast."
+    "Description": "Super Kills cause the enemy to trigger a damaging Suspending Burst.\nSuspending Burst deals 108 [?] Damage and inflicts Suspension to enemies within 6 meters."
   },
   {
     "Class": "General",
@@ -81,7 +81,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Thread of Fury",
-    "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%"
+    "Description": "Upon dealing damage with Tangles:\nGrants a varying amount of Melee Energy per damage instance.\nTier 1 Combatant = 10% | T2 = 18% | T3 = 20% | T4 = 30% | Guardians = 25%\nIncurs a 1? second cooldown between triggers."
   },
   {
     "Class": "General",
@@ -93,7 +93,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Thread of Isolation",
-    "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, applying Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns"
+    "Description": "Upon scoring multiple Precision Hits within 2 seconds of each:\nEmits a Severing Burst, inflicting Sever to enemies within ? metres. \nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision Hits work on a Counter System, triggering the Severing Burst upon reaching 100%.\nCounter System is exclusively Weapon Archetype based.\n\nCounter Progress per Precision Hit:\n50% Counter: Slug Shotguns\n34% Counter: Bows and Sniper Rifles\n25% Counter: Hand Cannons and Scout Rifles\n20% Counter: Sidearms\n15% Counter: Auto Rifles\n12% Counter: Machine Guns and Pulse Rifles\n10% Counter: Trace Rifles and Submachine Guns"
   },
   {
     "Class": "General",
@@ -159,7 +159,7 @@
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Threaded Spike",
-    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 427 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained.\nCatching the Threaded Spike grants Woven Mail for 2 seconds for each kill it scores, up to a maximum of 10 seconds.\n\nHits | Melee % | Caught %\n0 | 5% | 20% \n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%"
+    "Description": "Bounces on hits or upon striking surfaces, heading towards up to 9 enemies within ? metres of each, dealing 427 [82] damage and severing for ?+? seconds on hit. \nDeals 18% decreased damage on the first bounce, and 42.5% decreased damage on every bounce afterwards.\n\nGrants Melee Energy based on the amount of hits scored upon returning.\n[Melee Attack] while the projectile is nearby to catch it. \nCatching the Threaded Spike increases the amount of Melee Energy gained.\nStrand Subclass Exclusive: Catching the Threaded Spike grants Woven Mail for 2 seconds for each kill it scores, up to a maximum of 10 seconds.\n\nHits | Melee % | Caught %\n0 | 5% | 20% \n1 | 10% | 30%\n2 | 20% | 50%\n3 | 30% | 70%\n4 | 35% | 85%\n5+ | 40% | 100%"
   },
   {
     "Class": "Hunter",
@@ -183,7 +183,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Whirling Maelstrom",
-    "Description": "Upon destroying a regular, boring Tangle:\nSummons a Spinny Tangle, which seeks enemies within ? metres, accelerating as it gets closer, up to a maximum of 6m/s.\nBeyblade Tangles counts as a Grapple Tangle.\n\nWhirling Tangles have ? Construct HP, and last for 12 seconds.\n🛸UFO Tangles deal 35 [?] Strand damage every 0.1 seconds in a 2? meter radius, and release Unraveling Projectiles on kill.\nStabby Tangles kills count as Tangle Kills. Rotating Tangles Hits do not count as Tangle hits nor as Ability Damage."
+    "Description": "Upon destroying a regular, boring Tangle:\nSummons a Spinny Tangle, which seeks enemies within ? metres, accelerating as it gets closer, up to a maximum of 6m/s.\nBeyblade Tangles counts as a Grapple Tangle.\n\nWhirling Tangles have ? Construct HP, and last for 12 seconds.\n🛸UFO Tangles deal 29 [?] Strand damage every 0.1 seconds in a 2? meter radius, and release Unraveling Projectiles on kill.\nStabby Tangles kills count as Tangle Kills. Rotating Tangles Hits do not count as Tangle hits nor as Ability Damage."
   },
   {
     "Class": "Hunter",
@@ -243,13 +243,13 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Mindspun Invocation",
-    "Description": "Enhances Strand Grenades:\n\nGrapple: Grapple Melees create 3 Threadlings.\n\nThreadling Grenade: Hold [Grenade] to throw a Threadling nest.\n\nShackle Grenade: Hold [Grenade]: to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active.\n\nSlicewire Grenade: Hold [Grenade] to overcharge it. The fourth explosion will release 4 submunition in a X formation, each dealing up to 64 [?] damage and spawning a Tangle.\nIgnores Tangle Creation Cooldown."
+    "Description": "Enhances Strand Grenades:\n\nGrapple | Grapple Melees create 3 Threadlings.\n\nThreadling Grenade | Hold [Grenade] to throw a Threadling nest.\n\nShackle Grenade | Hold [Grenade] to consume a Grenade Charge, granting Weaver's Trance for 25 seconds. \nKills create a Suspending Explosion while Weaver's Trance is active that deals 108 [?] Strand Grenade Ability Damage to enemies within 6 meters.\n\nSlicewire Grenade: Hold [Grenade] to overcharge it.\n The fourth explosion will release 4 submunition in a X formation, each dealing up to 64 [?] damage and spawning a Tangle.\nIgnores Tangle Creation Cooldown."
   },
   {
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "The Wanderer",
-    "Description": "Destroying a Tangle creates a Suspending Burst after ? seconds. applying Suspension to enemies within 7 metres.\n\nThrown Tangles now seek and attach to enemies, exploding in a Suspending Burst, applying Suspension to enemies within 7 metres.\nThrown Tangles are unaffected by Gravity.\n\nThreadling Kills spawn a Tangle and decrease the Tangle Cooldown by 1 second."
+    "Description": "Tangles trigger a Suspending Explosion after 1 second of exploding, dealing 324 [?] Damage and inflicting Suspension to enemies within 6 metres.\n\nThrown Tangles now seek and attach to enemies and are unaffected by Gravity.\n\nThreadling Kills spawn a Tangle and decrease the Tangle Cooldown by 1 second."
   },
   {
     "Class": "Warlock",

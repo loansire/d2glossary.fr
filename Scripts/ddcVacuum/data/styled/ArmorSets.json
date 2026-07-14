@@ -473,7 +473,7 @@
   },
   {
     "Name": "Radiolaria Breach",
-    "Description": "On Orb of Power Pickup:\nGrants BUFF NAME.\n\nUpon reaching Critical Health:\nConsumes BUFF NAME.\n+? Health Stat for ? seconds and releases 4 Radiolaria Pools 5 meters away from the user.\nRadiolaria Pools deal ? Arc Damage every ? seconds.",
+    "Description": "On Orb of Power Pickup:\nGrants Radiolaria Breach.\nCan only trigger once per Full Heal.\n\nUpon reaching Critical Health:\nConsumes Radiolaria Breach to trigger an explosion that deals up to 360 [?] Damage over 7 meters.\n+50 Health Stat for 7.5 seconds and releases 4 Radiolaria Pools 5 meters away from the user.\nRadiolaria Pools deal 14 Arc Damage every 0.5 seconds.",
     "Comment": "Vault of Glass\nRaid",
     "SetName": "Atheon's Memory",
     "PieceRequirement": "2 Piece",
@@ -492,7 +492,23 @@
         {
           "linesContent": [
             {
-              "text": "Grants BUFF NAME."
+              "text": "Grants "
+            },
+            {
+              "text": "Radiolaria Breach",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can only trigger once per Full Heal."
             }
           ]
         },
@@ -511,21 +527,39 @@
         {
           "linesContent": [
             {
-              "text": "Consumes BUFF NAME."
+              "text": "Consumes "
+            },
+            {
+              "text": "Radiolaria Breach",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " to trigger an explosion that deals up to 360 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Damage over 7 meters."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "+? Health Stat for ? seconds and releases 4 Radiolaria Pools 5 meters away from the user."
+              "text": "+50 Health Stat for 7.5 seconds and releases 4 Radiolaria Pools 5 meters away from the user."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Radiolaria Pools deal ? "
+              "text": "Radiolaria Pools deal 14 "
             },
             {
               "text": "Arc",
@@ -534,7 +568,7 @@
               ]
             },
             {
-              "text": " Damage every ? seconds."
+              "text": " Damage every 0.5 seconds."
             }
           ]
         }
@@ -543,7 +577,7 @@
   },
   {
     "Name": "Collective Power",
-    "Description": "Upon scoring 5 damage instances within 5 seconds of each while any Elemental Buff is active:\nSpawns an Orb of Power on the user that grants ?% Super Energy.\nIncurs a 5 second cooldown upon activation.",
+    "Description": "Upon scoring 5 damage instances while any Elemental Buff is active:\nSpawns an Orb of Power on the user that grants 0.8?% Super Energy.\nIncurs a 1 second cooldown upon spawning an Orb where additional damage instances will not count.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 4 seconds to trigger. \nConsecutive triggers take a minimum of 5 seconds to reproc.\n\nDamage Instances count on Immune Enemies as well.\n\nElemental Buffs:\nAmplified, Bolt Charge | Cure, Radiant, Restoration | Devour, Invisibility, Overshield\nFrost Armor | Woven Mail\nAnd also standing in a Healing Rift for no reason",
     "Comment": "Vault of Glass\nRaid",
     "SetName": "Atheon's Memory",
     "PieceRequirement": "4 Piece",
@@ -555,21 +589,158 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring 5 damage instances within 5 seconds of each while any Elemental Buff is active:"
+              "text": "Upon scoring 5 damage instances while any Elemental Buff is active:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Spawns an Orb of Power on the user that grants ?% Super Energy."
+              "text": "Spawns an Orb of Power on the user that grants 0.8?% Super Energy."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Incurs a 5 second cooldown upon activation."
+              "text": "Incurs a 1 second cooldown upon spawning an Orb where additional damage instances will not count."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 4 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Consecutive triggers take a minimum of 5 seconds to reproc."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage Instances count on Immune Enemies as well."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elemental Buffs:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Amplified",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Radiant",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Restoration",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Devour",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Invisibility",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "Overshield",
+              "classNames": [
+                "void"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "And also standing in a Healing Rift for no reason"
             }
           ]
         }
@@ -1221,7 +1392,7 @@
   },
   {
     "Name": "Cursed Fist",
-    "Description": "On Melee Kill:\nCauses the enemy to explode, dealing up to ? [?] Arc? Damage over a 4.5 metre radius.\nGlaive Melees also trigger it.",
+    "Description": "On Melee Kill:\nCauses the enemy to explode, dealing up to ? [?] Arc? Damage over a 4.5 metre radius.\nGlaive Melees also trigger it.\nIncurs a 0.5? second cooldown between triggers.",
     "Comment": "Crota's End\nRaid",
     "SetName": "Crota's Memory",
     "PieceRequirement": "2 Piece",
@@ -1272,6 +1443,13 @@
             },
             {
               "text": " Melees also trigger it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 0.5? second cooldown between triggers."
             }
           ]
         }
@@ -1549,7 +1727,7 @@
   },
   {
     "Name": "From the Storm",
-    "Description": "After having maintained a state of not dealing or receiving damage for at least 12 seconds:\nGrants a stack of Frost Armor every 3 seconds.",
+    "Description": "After having maintained a state of not dealing or receiving damage for at least 12 seconds:\nGrants a stack of Frost Armor every 3 seconds.\nStacks up to x5 Frost Armor, refreshing its duration every 3 seconds.",
     "Comment": "Europa\nDestination",
     "SetName": "Crystocrene",
     "PieceRequirement": "4 Piece",
@@ -1580,13 +1758,29 @@
               "text": " every 3 seconds."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks up to x5 "
+            },
+            {
+              "text": "Frost Armor",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": ", refreshing its duration every 3 seconds."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Adrenal Rush",
-    "Description": "Upon sprinting for 0.5 seconds:\nGrants Adrenal Rush for ? seconds.\nScoring Additional Kills extend the buff duration by +? seconds, up to ? seconds.\n\nAdrenal Rush | +? Handling and Reload Speed",
+    "Description": "Upon sprinting for 0.5 seconds:\nGrants Adrenal Rush for 5 seconds.\nScoring a kill or retriggering the perk refreshes the buff duration.\n\nAdrenal Rush | +30? Handling and Reload Speed.\nwill confirm soon-ish don't worry",
     "Comment": "Gambit",
     "SetName": "Cyberserpent Null",
     "PieceRequirement": "2 Piece",
@@ -1614,14 +1808,14 @@
               ]
             },
             {
-              "text": " for ? seconds."
+              "text": " for 5 seconds."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Scoring Additional Kills extend the buff duration by +? seconds, up to ? seconds."
+              "text": "Scoring a kill or retriggering the perk refreshes the buff duration."
             }
           ]
         },
@@ -1639,7 +1833,14 @@
               ]
             },
             {
-              "text": " | +? Handling and Reload Speed"
+              "text": " | +30? Handling and Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "will confirm soon-ish don't worry"
             }
           ]
         }
@@ -1648,7 +1849,7 @@
   },
   {
     "Name": "Bountiful Munitions",
-    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant ?.?x Special Ammo Progress.\nElite+ Combatants, Taken Combatants and Guardian Kills instead grant ?.?x Special Ammo Progress.",
+    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant +3% Special Ammo Progress.\nElite+ Combatants Kills grant +16% Special Ammo Progress.\nElite+ Taken Combatant Kills grant +24% Special Ammo Progress.\nGuardian Kills grant +?% Special Ammo Progress.",
     "Comment": "Gambit",
     "SetName": "Cyberserpent Null",
     "PieceRequirement": "4 Piece",
@@ -1667,7 +1868,7 @@
         {
           "linesContent": [
             {
-              "text": "Rank-and-File Combatant Kills grant ?.?x "
+              "text": "Rank-and-File Combatant Kills grant +3% "
             },
             {
               "text": "Special Ammo",
@@ -1683,7 +1884,39 @@
         {
           "linesContent": [
             {
-              "text": "Elite+ Combatants, Taken Combatants and Guardian Kills instead grant ?.?x "
+              "text": "Elite+ Combatants Kills grant +16% "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Elite+ Taken Combatant Kills grant +24% "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Guardian Kills grant +?% "
             },
             {
               "text": "Special Ammo",
@@ -1701,7 +1934,7 @@
   },
   {
     "Name": "Taking Initiative",
-    "Description": "Upon scoring a Melee or Sword Damage Instance:\nGrants a stack of Initiative for 8 seconds, up to a maximum of 5 stacks.\nInitiative grants +Handling and +Reload Speed.\nStacks decay one at a time.\nCan stack on Immune Enemies and with DoT as well, such as Sword Storm Combo, Smoke Bomb, and Scorch Ticks.\n\nInitiative\n+? | +? | +? | +? | +? Handling and Reload Speed",
+    "Description": "Upon scoring a Melee, Glaive Melee, or Sword Damage Instance:\nGrants a stack of Initiative for 8 seconds, up to a maximum of 5 stacks.\nInitiative grants +Handling and +Reload Speed.\nStacks decay one at a time.\nCan stack on Immune Enemies and with DoT as well, such as Sword Storm Combo, Smoke Bomb, and Scorch Ticks.\n\nInitiative\n+? | +? | +? | +? | +? Handling and Reload Speed",
     "Comment": "Warlord's Ruin\nDungeon",
     "SetName": "Dark Age",
     "PieceRequirement": "2 Piece",
@@ -1713,7 +1946,16 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Melee or "
+              "text": "Upon scoring a Melee, "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee, or "
             },
             {
               "text": "Sword",
@@ -2116,7 +2358,7 @@
   },
   {
     "Name": "Pleas Heard",
-    "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \nCURRENTLY BUGGED AND HEALS 5HP/S OR SO\n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
+    "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 2HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
     "Comment": "Crucible",
     "SetName": "Disaster Corps",
     "PieceRequirement": "2 Piece",
@@ -2162,14 +2404,7 @@
         {
           "linesContent": [
             {
-              "text": "Restores 20HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "CURRENTLY BUGGED AND HEALS 5HP/S OR SO"
+              "text": "Restores 2HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy."
             }
           ]
         },
@@ -2961,7 +3196,7 @@
   },
   {
     "Name": "Stack 'Em Up",
-    "Description": "Scoring a kill with each unique element grants a stack of Stack 'Em Up for 24 seconds.\nStacks up to a maximum of 5 stacks by scoring an Arc, Solar, Void, Stasis, and Strand Kill.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once 5 stacks have been reached.\n\nStack 'Em Up grants 1.2% | 2.4% | 3.6% | 4.8% | 6% Light+Dark Transcendence Energy.\nGrants a minimum of 18% Light+Dark Transcendence Energy over the 5 stacks.\nIncurs a 24 second \"cooldown\" after getting a kill with every element before Stack 'Em Up can be stacked again.",
+    "Description": "Scoring a kill with each unique element grants a stack of Stack 'Em Up for 24 seconds.\nStacks up to a maximum of 5 stacks by scoring an Arc, Solar, Void, Stasis, and Strand Kill.\nBuff duration is refreshed upon gaining a stack, and cannot be refreshed once 5 stacks have been reached.\n\nStack 'Em Up grants x1 = 1.2% | x2 = 2.4% | x3 = 3.6% | x4 = 4.8% | x5 = 6% Light+Dark Transcendence Energy.\nGrants 18% Light+Dark Transcendence Energy after having scored kills with every element over the 5 stacks.\nBuff duration serves as a \"cooldown\", during which additional kills will not grant extra Transcendence energy nor additional stacks with the elements already used.",
     "Comment": "Pale Heart\nDestination",
     "SetName": "First Ascent",
     "PieceRequirement": "2 Piece",
@@ -3059,7 +3294,7 @@
               ]
             },
             {
-              "text": " grants 1.2% | 2.4% | 3.6% | 4.8% | 6% Light+Dark "
+              "text": " grants x1 = 1.2% | x2 = 2.4% | x3 = 3.6% | x4 = 4.8% | x5 = 6% Light+Dark "
             },
             {
               "text": "Transcendence",
@@ -3075,7 +3310,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants a minimum of 18% Light+Dark "
+              "text": "Grants 18% Light+Dark "
             },
             {
               "text": "Transcendence",
@@ -3084,23 +3319,23 @@
               ]
             },
             {
-              "text": " Energy over the 5 stacks."
+              "text": " Energy after having scored kills with every element over the 5 stacks."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Incurs a 24 second \"cooldown\" after getting a kill with every element before "
+              "text": "Buff duration serves as a \"cooldown\", during which additional kills will not grant extra "
             },
             {
-              "text": "Stack 'Em Up",
+              "text": "Transcendence",
               "classNames": [
-                "perkname"
+                "prismatic"
               ]
             },
             {
-              "text": " can be stacked again."
+              "text": " energy nor additional stacks with the elements already used."
             }
           ]
         }
@@ -3144,7 +3379,7 @@
   },
   {
     "Name": "Sinew Stitching",
-    "Description": "Spawns a Threadling after receiving ? damage from Combatants.\nCooldown maybe?",
+    "Description": "Upon receiving ? damage from Combatants or upon reaching Critical Health:\nSpawns a Threadling.\nIncurs a 5 second cooldown between Threadling spawns from damage and a 5 second cooldown between Threadlings spawns from reaching Critical Health.",
     "Comment": "Sundered Doctrine\nDungeon",
     "SetName": "Flain",
     "PieceRequirement": "2 Piece",
@@ -3153,6 +3388,13 @@
     "parentName": "Flain",
     "descriptions": {
       "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon receiving ? damage from Combatants or upon reaching Critical Health:"
+            }
+          ]
+        },
         {
           "linesContent": [
             {
@@ -3165,14 +3407,32 @@
               ]
             },
             {
-              "text": " after receiving ? damage from Combatants."
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Cooldown maybe?"
+              "text": "Incurs a 5 second cooldown between "
+            },
+            {
+              "text": "Threadling",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " spawns from damage and a 5 second cooldown between "
+            },
+            {
+              "text": "Threadlings",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " spawns from reaching Critical Health."
             }
           ]
         }
@@ -3181,7 +3441,7 @@
   },
   {
     "Name": "Knit Together",
-    "Description": "Upon reaching Critical Health:\nThe next ? Threadling hits within ? seconds of reaching Critical Health restore ? HP.",
+    "Description": "Upon reaching Critical Health:\nThe next 3 Threadling hits within 10 seconds of reaching Critical Health restore 50? HP.\nIncurs a 5 second cooldown afterwards.",
     "Comment": "Sundered Doctrine\nDungeon",
     "SetName": "Flain",
     "PieceRequirement": "4 Piece",
@@ -3200,7 +3460,7 @@
         {
           "linesContent": [
             {
-              "text": "The next ? "
+              "text": "The next 3 "
             },
             {
               "text": "Threadling",
@@ -3209,7 +3469,14 @@
               ]
             },
             {
-              "text": " hits within ? seconds of reaching Critical Health restore ? HP."
+              "text": " hits within 10 seconds of reaching Critical Health restore 50? HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 5 second cooldown afterwards."
             }
           ]
         }
@@ -3292,7 +3559,7 @@
   },
   {
     "Name": "Primary Honing",
-    "Description": "Passively grants +? Handling and +? Reload Speed for Primary Weapons.\n\nIncreased Primary Weapon Damage against Non-Boss Combatants based on the Weapons stat.\n\nCompared to the damage dealt at the equivalent Weapon Stat:\n20 Stat = 0.6% | 40 = 1.2% | 60 = 1.8% | 80 = 2.4% | 100 = 3%\n120 = 4.75% | 140 = 6.6% | 160 = 8.35% | 180 = 10.2% | 200 = 12%",
+    "Description": "+? Handling and +? Reload Speed for Primary Weapons.\n\nIncreased Primary Weapon Damage against Non-Boss Combatants based on the Weapons stat.\n\nCompared to the damage dealt at the equivalent Weapons Stat:\n20 Stat = 0.6% | 40 = 1.2% | 60 = 1.8% | 80 = 2.4% | 100 = 3%\n120 = 4.75% | 140 = 6.6% | 160 = 8.35% | 180 = 10.2% | 200 = 12%",
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "2 Piece",
@@ -3304,7 +3571,7 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants +? Handling and +? Reload Speed for "
+              "text": "+? Handling and +? Reload Speed for "
             },
             {
               "text": "Primary Weapons",
@@ -3346,7 +3613,7 @@
         {
           "linesContent": [
             {
-              "text": "Compared to the damage dealt at the equivalent Weapon Stat:"
+              "text": "Compared to the damage dealt at the equivalent Weapons Stat:"
             }
           ]
         },
@@ -3369,7 +3636,7 @@
   },
   {
     "Name": "Supercyclical",
-    "Description": "Upon scoring kills while in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy once it ends.\n\nUpon scoring kills with Super Damage while NOT in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy.",
+    "Description": "Upon scoring kills while in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy once it ends.\n\nUpon scoring kills with Super Damage while NOT in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy.\n\nSuper Ability Refund Cap is reset on Super Ability Cast or upon swaping off of Supercyclical and then reacquiring the 4 Piece Perk by changing gear.",
     "Comment": "Iron Banner",
     "SetName": "Iron Batallion",
     "PieceRequirement": "4 Piece",
@@ -3408,6 +3675,27 @@
           "linesContent": [
             {
               "text": "x1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Super Ability Refund Cap is reset on Super Ability Cast or upon swaping off of "
+            },
+            {
+              "text": "Supercyclical",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " and then reacquiring the 4 Piece Perk by changing gear."
             }
           ]
         }
@@ -3689,7 +3977,7 @@
   },
   {
     "Name": "Augmented Servos",
-    "Description": "On Powered Melee Kill:\nTarget releases a Disorienting Pulse over 10 meters after 0.67 seconds of dying.\nDisorienting Pulse inflicts Disorient for 2.5 seconds",
+    "Description": "On Powered Melee Kill:\nTarget releases a Disorienting Pulse over 10 meters after 0.67 seconds of dying.\nDisorienting Pulse inflicts Disorient for 2.5 seconds.\nIncurs a 0.5? second cooldown between triggers.",
     "Comment": "Deep Stone Crypt\nRaid",
     "SetName": "Legacy's Oath",
     "PieceRequirement": "2 Piece",
@@ -3733,7 +4021,14 @@
               ]
             },
             {
-              "text": " inflicts Disorient for 2.5 seconds"
+              "text": " inflicts Disorient for 2.5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 0.5? second cooldown between triggers."
             }
           ]
         }
@@ -4201,7 +4496,7 @@
   },
   {
     "Name": "Ascendant Escape",
-    "Description": "On Elite+ Kill:\nGrants Ascendant Escape.\n\nAscendant Escape:\nReaching Critical Health grants Invisibility for 6+? seconds.",
+    "Description": "On Elite+ Kill:\nGrants Ascendant Escape.\n\nAscendant Escape: Upon reaching Critical Health or being damaged while at Critical Health:\nInvisibility for 6+? seconds.",
     "Comment": "King's Fall\nRaid",
     "SetName": "Oryx's Memory",
     "PieceRequirement": "4 Piece",
@@ -4247,15 +4542,12 @@
               ]
             },
             {
-              "text": ":"
+              "text": ": Upon reaching Critical Health or being damaged while at Critical Health:"
             }
           ]
         },
         {
           "linesContent": [
-            {
-              "text": "Reaching Critical Health grants "
-            },
             {
               "text": "Invisibility",
               "classNames": [
@@ -4326,7 +4618,7 @@
   },
   {
     "Name": "Down the Line",
-    "Description": "Upon scoring a hit against Miniboss+ Combatants:\nGrants a stack of Down the Line, up to a maximum of 10 stacks. \nIncurs a 1 second cooldown between gaining stacks.\n\nDown the Line:\nGrants 15% increased Weapon Damage against Rank-and-File and Elite Combatants.\nConsumes a stack upon killing Rank-and-File and Elite Combatants.",
+    "Description": "Upon scoring a hit against Miniboss+ Combatants:\nGrants a stack of Down the Line, up to a maximum of 10 stacks. \nIncurs a 1 second cooldown between gaining stacks.\n\nDown the Line:\n15% increased Weapon Damage against Rank-and-File and Elite Combatants.\nConsumes a stack upon killing Rank-and-File and Elite Combatants.",
     "Comment": "Pantheon",
     "SetName": "Pantheos Resplendent",
     "PieceRequirement": "4 Piece",
@@ -4386,7 +4678,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 15% increased Weapon Damage against Rank-and-File and Elite Combatants."
+              "text": "15% increased Weapon Damage against Rank-and-File and Elite Combatants."
             }
           ]
         },
@@ -4402,7 +4694,7 @@
   },
   {
     "Name": "Primary Chain",
-    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain grants +5 Mobility, as well as +5 Range and +10? Handling for Primary Ammo per stack.\nMaxes out at +15 Mobility, +15 Range, and +30? Handling after scoring 3 Primary Ammo Weapon Kills.",
+    "Description": "On Primary Ammo Weapon Kill:\nGrants a stack of Primary Chain, up to a maximum of 3 stacks.\nStacks are only lost on death.\n\nPrimary Chain | +5 Mobility, +5 Range, and +10? Handling for Primary Ammo Weapons per stack.\nMaxes out at +15 Mobility, +15 Range, and +30? Handling after scoring 3 Primary Ammo Weapon Kills.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "2 Piece",
@@ -4464,10 +4756,10 @@
               ]
             },
             {
-              "text": " grants +5 Mobility, as well as +5 Range and +10? Handling for "
+              "text": " | +5 Mobility, +5 Range, and +10? Handling for "
             },
             {
-              "text": "Primary Ammo",
+              "text": "Primary Ammo Weapons",
               "classNames": [
                 "primary"
               ]
@@ -4498,7 +4790,7 @@
   },
   {
     "Name": "Sublime Transit",
-    "Description": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance.",
+    "Description": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Increased Slide Distance.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "4 Piece",
@@ -4510,7 +4802,7 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Slide Distance."
+              "text": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Increased Slide Distance."
             }
           ]
         }
@@ -4519,7 +4811,7 @@
   },
   {
     "Name": "Stable Resonance",
-    "Description": "On Elite+ Kill:\n7% Increased Damage and Resist x2 (25% DR) for 12 seconds.",
+    "Description": "On Elite+ Kill:\n7% Increased Weapon Damage and Resist x2 (25% DR) for 12 seconds.",
     "Comment": "Salvation's Edge\nRaid",
     "SetName": "Promised",
     "PieceRequirement": "2 Piece",
@@ -4538,7 +4830,7 @@
         {
           "linesContent": [
             {
-              "text": "7% Increased Damage and Resist x2 (25% DR) for 12 seconds."
+              "text": "7% Increased Weapon Damage and Resist x2 (25% DR) for 12 seconds."
             }
           ]
         }
@@ -4840,7 +5132,7 @@
   },
   {
     "Name": "Combat Meditation",
-    "Description": "On Sword Hit:\nGrants 3% Grenade and Class Ability Energy.",
+    "Description": "On Sword Hit:\n3% Grenade and Class Ability Energy.",
     "Comment": "Equilibrium \nDungeon",
     "SetName": "Sage Protector",
     "PieceRequirement": "2 Piece",
@@ -4868,7 +5160,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 3% Grenade and Class Ability Energy."
+              "text": "3% Grenade and Class Ability Energy."
             }
           ]
         }
@@ -5011,7 +5303,7 @@
   },
   {
     "Name": "Rasputin's Wrath",
-    "Description": "Upon scoring an Non-Direct, Solar Ability, Seventh Seraph Weapon, IKELOS, Sleeper Simulant or Outbreak Perfected Weapon Kills:\nGrants a Warmind Charge for 10 seconds, up to a maximum of 10 charges.\nAll stacks disappear upon expiry.\n\nEach Warmind Charge grants +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat.",
+    "Description": "Upon scoring a kill with any of the following methods: \nExplosive Damage | Solar Ability Damage | Seventh Seraph Weapons | IKELOS Weapons | Sleeper Simulant | Outbreak Perfected:\nGrants a Warmind Charge for 10 seconds, up to a maximum of 10 charges.\nAll stacks disappear upon expiry.\n\nWarmind Charges each grant +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat at 10 charges.",
     "Comment": "Cosmodrome\nDestination",
     "SetName": "Seventh Seraph",
     "PieceRequirement": "2 Piece",
@@ -5023,7 +5315,14 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring an Non-Direct, "
+              "text": "Upon scoring a kill with any of the following methods:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Explosive Damage | "
             },
             {
               "text": "Solar",
@@ -5032,7 +5331,7 @@
               ]
             },
             {
-              "text": " Ability, Seventh Seraph Weapon, IKELOS, Sleeper Simulant or Outbreak Perfected Weapon Kills:"
+              "text": " Ability Damage | Seventh Seraph Weapons | IKELOS Weapons | Sleeper Simulant | Outbreak Perfected:"
             }
           ]
         },
@@ -5058,7 +5357,7 @@
         {
           "linesContent": [
             {
-              "text": "Each Warmind Charge grants +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat."
+              "text": "Warmind Charges each grant +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat at 10 charges."
             }
           ]
         }
@@ -6157,7 +6456,7 @@
   },
   {
     "Name": "Room Clearing",
-    "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
+    "Description": "Upon scoring 3 Heat Weapons or Primary Weapon Kills within 4 seconds of each:\nGrants Room Cleaning for 10 seconds.\n\nRoom Cleaning | +40 Grenade and +40 Weapons. Additionally, it grants +40 Ammo Generation for Heat Weapons and Primary Ammo Weapons.",
     "Comment": "Lawless Frontier",
     "SetName": "Thriving Survivor",
     "PieceRequirement": "4 Piece",
@@ -6197,7 +6496,7 @@
         {
           "linesContent": [
             {
-              "text": "Room Cleaning | +40 Grenade and +40 Weapon. Additionally, it grants +40 Ammo Generation for Heat Weapons and "
+              "text": "Room Cleaning | +40 Grenade and +40 Weapons. Additionally, it grants +40 Ammo Generation for Heat Weapons and "
             },
             {
               "text": "Primary Ammo Weapons",
@@ -6215,7 +6514,7 @@
   },
   {
     "Name": "License to Thrill",
-    "Description": "On Grenade Ability Usage, or upon triggering either the Nanotech Tracer Missile Origin Trait or Quicksilver Storm's Missile Tracer: \nGrants a stack of License to Thrill for 15 seconds, up to a maximum of 10 stacks.\n\nLicense to Thrill | 12% [2%] Damage Resist against enemies within <5 metres, increased by +?% [?%] per stack afterwards, up to 30% [5%] Damage Resist.",
+    "Description": "On Grenade Ability Usage, or upon triggering either the Nanotech Tracer Missile Origin Trait or Quicksilver Storm's Missile Tracer: \nGrants a stack of License to Thrill for 15 seconds, up to a maximum of 10 stacks.\nBuff duration is refreshed upon retriggering.\n\nLicense to Thrill | 12% [2%] Damage Resist against enemies within <5 metres, increased by +?% [?%] per stack afterwards, up to 30% [5%] Damage Resist.",
     "Comment": "Neomuna\nDestination",
     "SetName": "Thunderhead",
     "PieceRequirement": "2 Piece",
@@ -6244,6 +6543,13 @@
             },
             {
               "text": " for 15 seconds, up to a maximum of 10 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff duration is refreshed upon retriggering."
             }
           ]
         },
@@ -6297,7 +6603,7 @@
   },
   {
     "Name": "Lethal Weave",
-    "Description": "On Unraveled Enemy Kill:\nGrants ?% Grenade Ability Energy.\nGrants +?% Special Ammo Progress if at maximum Grenade Ability Energy.",
+    "Description": "On Unraveled Enemy Kill:\n10% Grenade Ability Energy.\n+10% Special Ammo Progress if at maximum Grenade Ability Energy.",
     "Comment": "Neomuna\nDestination",
     "SetName": "Thunderhead",
     "PieceRequirement": "4 Piece",
@@ -6325,14 +6631,14 @@
         {
           "linesContent": [
             {
-              "text": "Grants ?% Grenade Ability Energy."
+              "text": "10% Grenade Ability Energy."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Grants +?% "
+              "text": "+10% "
             },
             {
               "text": "Special Ammo",
@@ -6385,7 +6691,7 @@
   },
   {
     "Name": "High Noon",
-    "Description": "Upon readying a weapon:\nGrants 7% Increased Precision Damage against Combatants for 3 seconds.\n\nBonus is doubled to 14% Increased Precision Damage for the following:\nWeapons with the Tex Balanced Stock Origin Trait and Tex Mechanica Exotics.\nDead Man's Tale | Huckleberry | Last Word | Tarrabah | Chaperone | Prospector",
+    "Description": "Upon readying a weapon:\n7% Increased Precision Damage against Combatants for 4 seconds.\n\nBonus is doubled to 14% Increased Precision Damage for the following:\nWeapons with the Tex Balanced Stock Origin Trait and Tex Mechanica Exotics.\nDead Man's Tale | Huckleberry | Last Word | Tarrabah | Chaperone | Prospector",
     "Comment": "Spire of the Watcher\nDungeon",
     "SetName": "TM Custom",
     "PieceRequirement": "4 Piece",
@@ -6404,7 +6710,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 7% Increased Precision Damage against Combatants for 3 seconds."
+              "text": "7% Increased Precision Damage against Combatants for 4 seconds."
             }
           ]
         },
@@ -6439,7 +6745,7 @@
   },
   {
     "Name": "Scoot to Loot",
-    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\nGrants +? Handling and +? Reload Speed for 10? seconds.",
+    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\n+? Handling and +? Reload Speed for 10? seconds.",
     "Comment": "Quickplay Crucible",
     "SetName": "Triumphal Anthem",
     "PieceRequirement": "2 Piece",
@@ -6465,7 +6771,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants +? Handling and +? Reload Speed for 10? seconds."
+              "text": "+? Handling and +? Reload Speed for 10? seconds."
             }
           ]
         }
@@ -6474,7 +6780,7 @@
   },
   {
     "Name": "Shoot to Scoot",
-    "Description": "Upon dealing Weapon Damage:\nIncreases Scoot Distance by 33% for 3? seconds.\n\nWhile scooting:\n50% [10%] Damage Resist (Resist x4)",
+    "Description": "Upon dealing Weapon Damage:\nIncreases Slide Distance by 33% for 3? seconds.\n\nWhile scooting:\n50% [10%] Damage Resist (Resist x4)",
     "Comment": "Quickplay Crucible",
     "SetName": "Triumphal Anthem",
     "PieceRequirement": "4 Piece",
@@ -6493,7 +6799,7 @@
         {
           "linesContent": [
             {
-              "text": "Increases Scoot Distance by 33% for 3? seconds."
+              "text": "Increases Slide Distance by 33% for 3? seconds."
             }
           ]
         },
@@ -6558,7 +6864,7 @@
   },
   {
     "Name": "Gift of Sight",
-    "Description": "Upon scoring a Primary Weapon Kill:\nGrants Enhanced Radar for 5 seconds.\n\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs.",
+    "Description": "Upon scoring a Primary Weapon Kill:\nEnhanced Radar for 5 seconds.\n\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs.",
     "Comment": "Trials",
     "SetName": "Twofold Crown",
     "PieceRequirement": "4 Piece",
@@ -6586,7 +6892,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants Enhanced Radar for 5 seconds."
+              "text": "Enhanced Radar for 5 seconds."
             }
           ]
         },
@@ -6918,7 +7224,7 @@
   },
   {
     "Name": "Watchtower",
-    "Description": "Upon scoring a kill while ADS:\nGrants Resist x2 (25% [5%]) until no longer ADS.",
+    "Description": "Upon scoring a kill while ADS:\nResist x2 (25% [5%]) until no longer ADS.",
     "Comment": "EDZ\nDestination",
     "SetName": "Wildwood",
     "PieceRequirement": "2 Piece",
@@ -6937,7 +7243,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants Resist x2 (25% ["
+              "text": "Resist x2 (25% ["
             },
             {
               "text": "5%",
@@ -7069,7 +7375,7 @@
   },
   {
     "Name": "Untold Greed",
-    "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants a stack of Untold Greed, up to a maximum of 100 stacks.\n\nUpon reaching Critical Health:\nRemoves 10 stacks.\n\nUntold Greed:\nUp to +? Reload Speed and 15% Damage Resist at x25 stacks.\nx5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25 = 15% DR",
+    "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants a stack of Untold Greed, up to a maximum of 100 stacks.\n\nUpon reaching Critical Health:\nRemoves 10 stacks.\n\nUntold Greed:\nUp to +? Reload Speed and 15% Damage Resist at x25 stacks.\nx5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25+ = 15% DR",
     "Comment": "Grasp of Avarice",
     "SetName": "Yearning Echo",
     "PieceRequirement": "2 Piece",
@@ -7157,7 +7463,7 @@
         {
           "linesContent": [
             {
-              "text": "x5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25 = 15% DR"
+              "text": "x5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25+ = 15% DR"
             }
           ]
         }
@@ -7166,7 +7472,7 @@
   },
   {
     "Name": "Overflowing Coffers",
-    "Description": "While Untold Greed is active:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups grant +?% Ability Energy.\nStrand Tangles deal 350% increased damage. Affects Whirling Maelstrom.\n\nUpon reaching Critical Health while having x5 Untold Greed or higher:\nRemoves ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy.\nThe Orbs of Power are ejected in front of the user at high speeds, likely clipping inside walls.\n\nLooking upwards/downwards does not affect where the Orbs go.\nAllied AND Enemy Guardians get the Orbs, too.",
+    "Description": "While at x5 Untold Greed or higher:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups are massively improved.\n\nFiresprites (+120%) | 11.25% -> 25% Grenade Energy\nIonic Traces (+100% Class, +85% Grenade/Melee) | 11.25% Grenade/Melee + 13.5% Class -> 21% Grenade/Melee + 27% Class + 2% Super\nVoid Breaches (+120%) | 11.25% -> 25% Class Energy\nStasis Shards (+260%) | 10% -> 36% Melee Energy. Additive to Hunger's +60%, totalling 42.5% Energy per pickup.\nStrand Tangles | 350% increased damage. Affects Whirling Maelstrom too!\n\nUpon reaching Critical Health while having x5 Untold Greed or higher:\nConsumes ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy.\nThe Orbs of Power are ejected in front of the user at high speeds, likely clipping inside walls.\n\nLooking upwards/downwards does not affect where the Orbs go.\nAllied Guardians get the Orbs, too.",
     "Comment": "Grasp of Avarice",
     "SetName": "Yearning Echo",
     "PieceRequirement": "4 Piece",
@@ -7178,7 +7484,7 @@
         {
           "linesContent": [
             {
-              "text": "While Untold Greed is active:"
+              "text": "While at x5 Untold Greed or higher:"
             }
           ]
         },
@@ -7192,7 +7498,64 @@
         {
           "linesContent": [
             {
-              "text": "Elemental Pickups grant +?% Ability Energy."
+              "text": "Elemental Pickups are massively improved."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Firesprites",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " (+120%) | 11.25% -> 25% Grenade Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ionic Traces",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " (+100% Class, +85% Grenade/Melee) | 11.25% Grenade/Melee + 13.5% Class -> 21% Grenade/Melee + 27% Class + 2% Super"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Void Breaches",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " (+120%) | 11.25% -> 25% Class Energy"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stasis Shards",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " (+260%) | 10% -> 36% Melee Energy. Additive to Hunger's +60%, totalling 42.5% Energy per pickup."
             }
           ]
         },
@@ -7214,7 +7577,7 @@
               ]
             },
             {
-              "text": " deal 350% increased damage. Affects Whirling Maelstrom."
+              "text": " | 350% increased damage. Affects Whirling Maelstrom too!"
             }
           ]
         },
@@ -7233,7 +7596,7 @@
         {
           "linesContent": [
             {
-              "text": "Removes ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy."
+              "text": "Consumes ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy."
             }
           ]
         },
@@ -7259,7 +7622,7 @@
         {
           "linesContent": [
             {
-              "text": "Allied AND Enemy Guardians get the Orbs, too."
+              "text": "Allied Guardians get the Orbs, too."
             }
           ]
         }

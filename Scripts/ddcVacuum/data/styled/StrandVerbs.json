@@ -1,7 +1,7 @@
 [
   {
     "Name": "Tangle",
-    "Description": "Strand Subclass Intrinsic\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nLasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a Tangle.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects!\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
+    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
     "hash": 1577394840,
     "parentHash": "1577394840",
     "descriptions": {
@@ -9,13 +9,16 @@
         {
           "linesContent": [
             {
+              "text": "While a "
+            },
+            {
               "text": "Strand",
               "classNames": [
                 "strand"
               ]
             },
             {
-              "text": " Subclass Intrinsic"
+              "text": " Ability is equipped:"
             }
           ]
         },
@@ -92,7 +95,21 @@
         {
           "linesContent": [
             {
-              "text": "Lasts up to 20 seconds on the ground. Lasts up to 20 seconds when held. Incurs a 12 second cooldown upon creating a "
+              "text": "Construct with ? HP that can exist for up to 20 seconds before dissipating."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Can be picked up while within 5 meters, and can be held for up to 20 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Incurs a 12 second cooldown upon creating a "
             },
             {
               "text": "Tangle",
@@ -101,7 +118,7 @@
               ]
             },
             {
-              "text": "."
+              "text": " before additional ones can be created, barring exceptions."
             }
           ]
         },
@@ -138,7 +155,7 @@
         {
           "linesContent": [
             {
-              "text": "Either method counts as an Elemental Interaction for the purposes of perks and effects!"
+              "text": "Either method counts as an Elemental Interaction for the purposes of perks and effects."
             }
           ]
         },
@@ -397,7 +414,7 @@
   },
   {
     "Name": "Woven Mail",
-    "Description": "Grants 45% [25%] Damage Resist for 10 seconds. \nPrecision Hits and Melee Attacks from Guardians bypass the Damage Resist.",
+    "Description": "Grants 45% [25%] Damage Resist for 10 seconds. \nPrecision Hits and Melee Attacks from Guardians bypass the Damage Resist.\n\nWoven Mail is removed upon casting any Super Ability.",
     "hash": 3173573497,
     "parentHash": "3173573497",
     "descriptions": {
@@ -422,6 +439,24 @@
           "linesContent": [
             {
               "text": "Precision Hits and Melee Attacks from Guardians bypass the Damage Resist."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Woven Mail",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " is removed upon casting any Super Ability."
             }
           ]
         }
@@ -465,29 +500,11 @@
   },
   {
     "Name": "Suspend",
-    "Description": "Suspended Enemies are held midair, unable to use abilities.\n\nSuspended Combatants are unable to move, shoot, or use abilities.\nRank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds.\nBoss Combatants are immune to suspension, instead receiving 300 damage after ? seconds.\n\nSuspended Guardians are lifted midair, being able to slowly hover and hipfire their weapons for 2+1 seconds in a third-person perspective.\n\nSuspending Blasts deal up to 120 [40] damage and inflict Suspend to enemies within 10 meters.\n\nUnstoppable Champions are stunned upon being Suspended.",
+    "Description": "Suspended Combatants are unable to move, shoot, or use abilities.\nRank-and-File and Elite Combatants are suspended for up to 6+2 seconds. Minibosses are only suspended for up to 3+1 seconds.\nBoss Combatants are unimpeded by suspension's effects, snapping out of them after 1 second, receiving instead 300 Strand Damage.\nBoss Combatants still count as being afflicted by the Suspend debuff during its brief duration despite not receiving its effects.\n\nSuspended Guardians are lifted midair, being able to slowly hover horizontally and hipfire their weapons for 2+1 seconds in a third-person perspective.\n\nUnstoppable Champions are stunned upon being Suspended.",
     "hash": 2679722414,
     "parentHash": "2679722414",
     "descriptions": {
       "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Suspended",
-              "classNames": [
-                "strand"
-              ]
-            },
-            {
-              "text": " Enemies are held midair, unable to use abilities."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
         {
           "linesContent": [
             {
@@ -529,7 +546,32 @@
         {
           "linesContent": [
             {
-              "text": "Boss Combatants are immune to suspension, instead receiving 300 damage after ? seconds."
+              "text": "Boss Combatants are unimpeded by suspension's effects, snapping out of them after 1 second, receiving instead 300 "
+            },
+            {
+              "text": "Strand",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " Damage."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Boss Combatants still count as being afflicted by the "
+            },
+            {
+              "text": "Suspend",
+              "classNames": [
+                "strand"
+              ]
+            },
+            {
+              "text": " debuff during its brief duration despite not receiving its effects."
             }
           ]
         },
@@ -547,37 +589,7 @@
               ]
             },
             {
-              "text": " Guardians are lifted midair, being able to slowly hover and hipfire their weapons for 2+1 seconds in a third-person perspective."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Suspending Blasts deal up to 120 ["
-            },
-            {
-              "text": "40",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] damage and inflict "
-            },
-            {
-              "text": "Suspend",
-              "classNames": [
-                "strand"
-              ]
-            },
-            {
-              "text": " to enemies within 10 meters."
+              "text": " Guardians are lifted midair, being able to slowly hover horizontally and hipfire their weapons for 2+1 seconds in a third-person perspective."
             }
           ]
         },

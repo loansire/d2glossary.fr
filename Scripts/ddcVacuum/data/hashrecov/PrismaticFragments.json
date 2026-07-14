@@ -79,7 +79,7 @@
   },
   {
     "Name": "Facet of Hope",
-    "Description": "Grants 40% Additional Base Class Ability Regeneration Rate while affected by 1 Elemental Buff.\nEffect is increased to 60% Additional Base Class Ability Regeneration Rate while affected by 2 or more Elemental Buffs.",
+    "Description": "Grants Additional Base Class Ability Regeneration Rate based on the amount of active Elemental Buffs.\nx1 = 40% | x2 = 60%",
     "hash": 2626922122,
     "parentHash": "2626922122"
   },

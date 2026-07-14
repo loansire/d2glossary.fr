@@ -9,13 +9,13 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Bolt Charge",
-    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Floor Splash = 675 Total [36 Bolt Splash + 30 Floor Splash] Arc Damage over ? meters.\nDoes not count as Ability Damage.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Gifted Conviction's Explosives"
+    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Ground Splash = 675 Total [36 Bolt Splash + 30 Ground Splash] Arc Damage over ? meters.\nDoes not count as Ability Damage.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Gifted Conviction's Explosives"
   },
   {
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Ionic Trace",
-    "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s, granting 15% Grenade, Melee, Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user."
+    "Description": "Arc Elemental Pickup.\n\nEnergizing Seekers that home in towards the user at a speed of 6m/s.\nGrants 11.25% Grenade, and Melee Ability Energy, and 13.5% Class Ability Energy on pickup. Allies do not receive Ionic Traces created by the user."
   },
   {
     "Class": "General",
@@ -99,7 +99,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Spark of Momentum",
-    "Description": "Sliding over Ammo Bricks and picking up Ammo refills the equipped weapon and grants x3 Bolt Charge stacks."
+    "Description": "Upon sliding over Ammo Bricks while not on Full Ammo of the respective type:\nRefills the equipped weapon and grants x3 Bolt Charge."
   },
   {
     "Class": "General",
@@ -150,7 +150,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Lightning Grenade",
-    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a laser for 1 second before triggering.\n\nEmits a Lightning Bolt every 1.67 seconds, up to a maximum of 4+1 times.\nLightning Bolts deal 466? [120] damage, up to a total of 1,865? [2,331] [480 [600]] damage.",
+    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a laser for 1 second before triggering.\n\nEmits a Lightning Bolt every 1.67 seconds, up to a maximum of 4+1 times.\nLightning Bolts deal 373 [120] damage, up to a total of 1492 [1865] [480 [600]] damage.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
@@ -226,7 +226,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Tempest Strike",
-    "Description": "Scoring a Jolted Enemy Kill grants x1 Bolt Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, launching an Arc Wave along the ground up to 22 metres away, dealing 739 [125] damage and inflicting Jolt.\nGrants 75% Damage Resist against Combatants for 4? seconds after usage. Unable to use during slide if user shoots.\nCan trigger Combination Blow effects, and benefits from its damage increase."
+    "Description": "Scoring a Jolted Enemy Kill grants x1 Bolt Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, launching an Arc Wave along the ground up to 22 metres away, dealing 739 [125] damage and inflicting Jolt.\nGrants 75% Damage Resist against Combatants for 4? seconds after usage. Unable to use during slide if user shoots.\nCan trigger Combination Blow effects, and benefits from its damage increase. Does not interact with Disorienting Blow."
   },
   {
     "Class": "Titan",
@@ -298,7 +298,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Chain Lightning",
-    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nHas 2 Ability Charges on the Arc Subclass.\n\nDirectly strikes an enemy, dealing 490? [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 266? [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning."
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nArc Subclass Exclusive: Has 2 Ability Charges.\n\nDirectly strikes an enemy, dealing 490? [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 266? [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning."
   },
   {
     "Class": "Warlock",
