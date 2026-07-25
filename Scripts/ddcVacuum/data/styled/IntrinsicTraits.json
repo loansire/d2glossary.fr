@@ -137,7 +137,7 @@
   },
   {
     "Name": "Synergy",
-    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 8.34% ↑12.5% | Elite = 16.7% ↑20% | Miniboss = 34% | Boss = 50% | Guardians = 16.7% ↑25?%\nSpawns a Weapon-Matching Elemental Pickup. Kinetic Weapons spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow. Simultaneous Kills that exceed the counter dont progress into the next counter.\n ↑Enhanced Synergy does not trigger nor is it affected by the global cooldown of pickups.\n\nAll of the following applies only to BASE Synergy.\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one. Synergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds | Firesprites, Void Breaches, and Stasis Shards = 5 seconds | Tangles = 12 seconds\nKills during Synergy's cooldown do not contribute to the activation.",
     "hash": 3820243349,
     "parentHash": "3820243349",
     "hash_warning": "Multiple matches found (2 total)",
@@ -146,30 +146,46 @@
         {
           "linesContent": [
             {
-              "text": "Scoring 12 "
-            },
-            {
-              "text": "↑8",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "6 ↑4?",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+              "text": "Upon reaching 100% Counter Progress by scoring Weapon Kills:"
             }
           ]
         },
         {
           "linesContent": [
+            {
+              "text": "Rank-And-File = 8.34% "
+            },
+            {
+              "text": "↑12.5%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Elite = 16.7% "
+            },
+            {
+              "text": "↑20%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Miniboss = 34% | Boss = 50% | Guardians = 16.7% "
+            },
+            {
+              "text": "↑25?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Weapon-Matching Elemental Pickup. "
+            },
             {
               "text": "Kinetic Weapons",
               "classNames": [
@@ -177,14 +193,24 @@
               ]
             },
             {
-              "text": " instead spawn an Orb of Power that grants 7.15% Super Energy."
+              "text": " spawn an Orb of Power that grants 7.15% Super Energy."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Kill counter persists through stow."
+              "text": "Kill counter persists through stow. Simultaneous Kills that exceed the counter dont progress into the next counter."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Enhanced Synergy does not trigger nor is it affected by the global cooldown of pickups.",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -196,18 +222,30 @@
         {
           "linesContent": [
             {
+              "text": "All of the following applies only to BASE "
+            },
+            {
               "text": "Synergy",
               "classNames": [
                 "perkname"
               ]
             },
             {
-              "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
+            {
+              "text": "Synergy",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one. "
+            },
             {
               "text": "Synergy",
               "classNames": [
@@ -228,12 +266,8 @@
               ]
             },
             {
-              "text": " = 0 seconds"
-            }
-          ]
-        },
-        {
-          "linesContent": [
+              "text": " = 0 seconds | "
+            },
             {
               "text": "Firesprites",
               "classNames": [
@@ -259,12 +293,8 @@
               ]
             },
             {
-              "text": " = 5 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
+              "text": " = 5 seconds | "
+            },
             {
               "text": "Tangles",
               "classNames": [
@@ -274,18 +304,6 @@
             {
               "text": " = 12 seconds"
             }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Can spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
           ]
         },
         {
@@ -309,7 +327,7 @@
   },
   {
     "Name": "Synergy",
-    "Description": "Scoring 12 ↑8 [6 ↑4?] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup.\n Kinetic Weapons instead spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow.\n\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one.\nSynergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds\nFiresprites, Void Breaches, and Stasis Shards = 5 seconds.\nTangles = 12 seconds\nCan spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner.\n\nKills during Synergy's cooldown do not contribute to the activation.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 8.34% ↑12.5% | Elite = 16.7% ↑20% | Miniboss = 34% | Boss = 50% | Guardians = 16.7% ↑25?%\nSpawns a Weapon-Matching Elemental Pickup. Kinetic Weapons spawn an Orb of Power that grants 7.15% Super Energy.\nKill counter persists through stow. Simultaneous Kills that exceed the counter dont progress into the next counter.\n ↑Enhanced Synergy does not trigger nor is it affected by the global cooldown of pickups.\n\nAll of the following applies only to BASE Synergy.\nSynergy ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one. Synergy has its own cooldown depending on the spawned Pickup:\nIonic Traces = 0 seconds | Firesprites, Void Breaches, and Stasis Shards = 5 seconds | Tangles = 12 seconds\nKills during Synergy's cooldown do not contribute to the activation.",
     "hash": 3634656993,
     "parentHash": "3634656993",
     "hash_warning": "Multiple matches found (2 total)",
@@ -318,30 +336,46 @@
         {
           "linesContent": [
             {
-              "text": "Scoring 12 "
-            },
-            {
-              "text": "↑8",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "6 ↑4?",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] Weapon Kills spawns a Weapon Element-Matching Subclass Pickup."
+              "text": "Upon reaching 100% Counter Progress by scoring Weapon Kills:"
             }
           ]
         },
         {
           "linesContent": [
+            {
+              "text": "Rank-And-File = 8.34% "
+            },
+            {
+              "text": "↑12.5%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Elite = 16.7% "
+            },
+            {
+              "text": "↑20%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Miniboss = 34% | Boss = 50% | Guardians = 16.7% "
+            },
+            {
+              "text": "↑25?%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Spawns a Weapon-Matching Elemental Pickup. "
+            },
             {
               "text": "Kinetic Weapons",
               "classNames": [
@@ -349,14 +383,24 @@
               ]
             },
             {
-              "text": " instead spawn an Orb of Power that grants 7.15% Super Energy."
+              "text": " spawn an Orb of Power that grants 7.15% Super Energy."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Kill counter persists through stow."
+              "text": "Kill counter persists through stow. Simultaneous Kills that exceed the counter dont progress into the next counter."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Enhanced Synergy does not trigger nor is it affected by the global cooldown of pickups.",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -368,18 +412,30 @@
         {
           "linesContent": [
             {
+              "text": "All of the following applies only to BASE "
+            },
+            {
               "text": "Synergy",
               "classNames": [
                 "perkname"
               ]
             },
             {
-              "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one."
+              "text": "."
             }
           ]
         },
         {
           "linesContent": [
+            {
+              "text": "Synergy",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " ignores the global cooldown for Pickups, but will trigger the global cooldown upon spawning one. "
+            },
             {
               "text": "Synergy",
               "classNames": [
@@ -400,12 +456,8 @@
               ]
             },
             {
-              "text": " = 0 seconds"
-            }
-          ]
-        },
-        {
-          "linesContent": [
+              "text": " = 0 seconds | "
+            },
             {
               "text": "Firesprites",
               "classNames": [
@@ -431,12 +483,8 @@
               ]
             },
             {
-              "text": " = 5 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
+              "text": " = 5 seconds | "
+            },
             {
               "text": "Tangles",
               "classNames": [
@@ -446,18 +494,6 @@
             {
               "text": " = 12 seconds"
             }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Can spawn 2 Pickups simultaneously if the 12th kill would also trigger a different Pickup spawner."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
           ]
         },
         {

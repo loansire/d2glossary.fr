@@ -3,7 +3,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Tangle",
-    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
+    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing 346 [100] damage over a 8 metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -140,7 +140,7 @@
               ]
             },
             {
-              "text": " through damaging it or throwing it creates an explosion, dealing up to 346 ["
+              "text": " through damaging it or throwing it creates an explosion, dealing 346 ["
             },
             {
               "text": "100",
@@ -149,7 +149,7 @@
               ]
             },
             {
-              "text": "] damage in a 5? metre radius."
+              "text": "] damage over a 8 metre radius."
             }
           ]
         },
@@ -2162,7 +2162,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Shackle Grenade",
-    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 190 [?] damage and inflict Suspension in a ? metre radius to enemies hit, then releases smaller bolas.\n2 Small Bolas are released on direct hit. 3 Smaller Bolas are released if they instead impact a surface.\n\nSmaller Bolas are released towards nearby enemies, each dealing 81 [?] damage and inflicting Suspension on hit.\n",
     "hash": 2809342386,
     "parentHash": "2809342386",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2183,7 +2183,7 @@
         {
           "linesContent": [
             {
-              "text": "Throws a bola, releasing an explosion on impact that deals 211 ["
+              "text": "Throws a bola, releasing an explosion on impact that deals 190 ["
             },
             {
               "text": "?",
@@ -2192,7 +2192,14 @@
               ]
             },
             {
-              "text": "] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas."
+              "text": "] damage and inflict Suspension in a ? metre radius to enemies hit, then releases smaller bolas."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2 Small Bolas are released on direct hit. 3 Smaller Bolas are released if they instead impact a surface."
             }
           ]
         },
@@ -2204,7 +2211,7 @@
         {
           "linesContent": [
             {
-              "text": "Smaller Bolas are released towards nearby enemies, each dealing 91 ["
+              "text": "Smaller Bolas are released towards nearby enemies, each dealing 81 ["
             },
             {
               "text": "?",
@@ -2213,7 +2220,7 @@
               ]
             },
             {
-              "text": "] damage and applying Suspension on hit."
+              "text": "] damage and inflicting Suspension on hit."
             }
           ]
         }
@@ -2224,7 +2231,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Shackle Grenade",
-    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 211 [?] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas.\n\nSmaller Bolas are released towards nearby enemies, each dealing 91 [?] damage and applying Suspension on hit.",
+    "Description": "Bola Trajectory\n\nThrows a bola, releasing an explosion on impact that deals 190 [?] damage and inflict Suspension in a ? metre radius to enemies hit, then releases smaller bolas.\n2 Small Bolas are released on direct hit. 3 Smaller Bolas are released if they instead impact a surface.\n\nSmaller Bolas are released towards nearby enemies, each dealing 81 [?] damage and inflicting Suspension on hit.\n",
     "hash": 1517917190,
     "parentHash": "1517917190",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2245,7 +2252,7 @@
         {
           "linesContent": [
             {
-              "text": "Throws a bola, releasing an explosion on impact that deals 211 ["
+              "text": "Throws a bola, releasing an explosion on impact that deals 190 ["
             },
             {
               "text": "?",
@@ -2254,7 +2261,14 @@
               ]
             },
             {
-              "text": "] damage and applies Suspension in a ? metre radius to enemies hit, then releases 2 smaller bolas."
+              "text": "] damage and inflict Suspension in a ? metre radius to enemies hit, then releases smaller bolas."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "2 Small Bolas are released on direct hit. 3 Smaller Bolas are released if they instead impact a surface."
             }
           ]
         },
@@ -2266,7 +2280,7 @@
         {
           "linesContent": [
             {
-              "text": "Smaller Bolas are released towards nearby enemies, each dealing 91 ["
+              "text": "Smaller Bolas are released towards nearby enemies, each dealing 81 ["
             },
             {
               "text": "?",
@@ -2275,7 +2289,7 @@
               ]
             },
             {
-              "text": "] damage and applying Suspension on hit."
+              "text": "] damage and inflicting Suspension on hit."
             }
           ]
         }
@@ -5631,7 +5645,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Weaver's Call",
-    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated.\n Cannot generate more than 1 Threadling at a time.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
+    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated. Cannot generate more than 1 Threadling at a time.\nDamage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
     "hash": 262821317,
     "parentHash": "262821317",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5692,14 +5706,7 @@
               ]
             },
             {
-              "text": " can be generated."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Cannot generate more than 1 "
+              "text": " can be generated. Cannot generate more than 1 "
             },
             {
               "text": "Threadling",
@@ -5709,6 +5716,13 @@
             },
             {
               "text": " at a time."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta."
             }
           ]
         },
@@ -5784,7 +5798,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Weaver's Call",
-    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated.\n Cannot generate more than 1 Threadling at a time.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
+    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated. Cannot generate more than 1 Threadling at a time.\nDamage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%",
     "hash": 790664810,
     "parentHash": "790664810",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5845,14 +5859,7 @@
               ]
             },
             {
-              "text": " can be generated."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Cannot generate more than 1 "
+              "text": " can be generated. Cannot generate more than 1 "
             },
             {
               "text": "Threadling",
@@ -5862,6 +5869,13 @@
             },
             {
               "text": " at a time."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta."
             }
           ]
         },

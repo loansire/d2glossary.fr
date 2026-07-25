@@ -136,14 +136,14 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Flashbang Grenade",
-    "Description": "Medium Trajectory\n\nExplodes after its speed is sufficiently reduced. Has a brief delay before it can explode.\n\nExplosion deals up to 621 [120] damage in a 7.5 meter radius, and inflicts blind to enemies within 10 meters for up to 5 [3] seconds.\nThe user is immune to self-blind.",
+    "Description": "Medium Trajectory\n\nExplodes after its speed is sufficiently reduced. Has a brief delay before it can explode.\n\nExplosion deals up to 684 [120] damage, down to 0% damage over a 7.5 meter radius, and inflicts blind to enemies within 10 meters for up to 5 [3] seconds.\nThe user is immune to self-blind.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
     "Class": "General",
     "Type": "Grenade",
     "Name": "Flux Grenade",
-    "Description": "Almost Straight Trajectory | Slight Projectile Tracking | Sticky\n\nAttaches to enemies or surfaces, exploding after 1.7 seconds.\n\nExplosion deals up to 901 [150] damage in a 6 meter radius on detonation.\nSticking an enemy increases explosion damage by 66.7% to 1,500 [250] damage.",
+    "Description": "Almost Straight Trajectory | Slight Projectile Tracking | Sticky\n\nAttaches to enemies or surfaces, exploding after 1.7 seconds.\n\nExplosion deals up to 901 [150] damage, down to 0% damage over a 6 meter radius on detonation.\nSticking an enemy increases explosion damage by 66.7% to 1,500 [250] damage.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
@@ -157,7 +157,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Pulse Grenade",
-    "Description": "Medium Trajectory\n\nDetonates on impact, dealing up to 156 [50] damage in a 6 meter radius.\n\nPeriodically pulses every 0.7 seconds, dealing up to 276 [80] damage in a 6 meter radius an additional 5+2 times.\nCan deal up to a total of 1,401 [1,899] [530 [690]] damage.",
+    "Description": "Medium Trajectory\n\nDetonates on impact, dealing up to 156 [50] damage in a 6 meter radius.\n\nPeriodically pulses every 0.7 seconds, dealing up to 249 [80] damage in a 6 meter radius an additional 5+2 times.\nCan deal up to a total of 1,245 [1,743] [530 [690]] damage.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
@@ -171,26 +171,26 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Storm Grenade",
-    "Description": "Medium Trajectory\n\nCalls down a focused strike on impact which hits after 0.85 seconds, dealing up to 440 [70] damage in a 7 meter radius.\n\nAfter 0.6 seconds of the initial strike:\nCalls down a barrage of bolts in a + pattern over 7 meters, dealing up to 311 [50] damage.\nSpark of Magnitude: Calls down a barrage of bolts in an X pattern, dealing up to 311 [50] damage, then calls down a barrage in a + pattern, dealing up to 311 [50] damage.\nCombatants can only be hurt once per barrage, up to a maximum of 751 [1062] damage.\nGuardians can only be hurt once by the barrage of bolts, regardless of pattern, for a maximum of 120 damage.",
+    "Description": "Medium Trajectory\n\nCalls down a focused strike on impact which hits after 0.85 seconds, dealing up to 440 [70] damage in a 7 meter radius.\n\nAfter 0.6 seconds of the initial strike:\nCalls down a barrage of bolts in a X pattern over 7 meters, dealing up to 311 [50] damage.\nSpark of Magnitude: Calls down a second barrage of bolts in an + pattern over 7 meters, dealing up to 311 [50] damage.\nCombatants can only be damaged once per barrage, up to a maximum of 751 [1062] damage.\nGuardians can only be hurt once by the barrage of bolts, regardless of pattern, for a maximum of 120 damage.",
     "Comment": "Numbers in [Smaller Parenthesis] are with Spark of Magnitude equipped!"
   },
   {
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Combination Blow",
-    "Description": "Upon scoring a Melee Kill:\nGrants 100% Class Ability, restores Health, and grants a stack of Combination Blow for 20 seconds, up to 3 stacks.\n\nCombination Blow:\nBasic Melee Attacks now deal Arc Damage.\n133% | 266% | 400% Increased Melee Damage\n23% | 51.3% | 86% Increased Melee Damage\nRestores x0 = 100 HP | x1 = 80 HP | x2 = 60 HP | x3 = 40 HP on Melee Kill."
+    "Description": "Upon scoring a Melee Kill:\nGrants 100% Class Ability, restores 100 Health, and grants a stack of Combination Blow for 20 seconds, up to 3 stacks.\nBasic Melee Attacks count as Arc-Infused Melee Damage while Combination Blow is active.\n70 Class Stat is required for a full Gambler's Dodge refund.\n\nCombination Blow x1 | 133% [23%] Increased Melee Damage. Melee Kills restore 80 HP.\nCombination Blow x2 | 266% [51.3%] Increased Melee Damage. Melee Kills restore 60 HP.\nCombination Blow x3 | 400% [86%] Increased Melee Damage. Melee Kills restore 40 HP."
   },
   {
     "Class": "Hunter",
     "Type": "Melee",
     "Name": "Disorienting Blow",
-    "Description": "Deals 488 [?] Impact Damage. Enemies within 7 meters are dealt up to 488 [?] Splash Damage.\nInflicts Blind for 8.5 seconds to enemies within 9.6 meters on hit.\n\nGrants the user Amplified and x2 Bolt Charge on hit."
+    "Description": "Deals 162 [?] Impact Damage and up to 976 [?] Splash Damage, down to ?% damage over 7 meters.\nInflicts Blind for 8.5 seconds to enemies within 9.6 meters on hit.\n\nGrants Amplified and x2 Bolt Charge on hit."
   },
   {
     "Class": "Hunter",
     "Type": "Super",
     "Name": "Arc Staff",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nKills grant x1 Bolt Charge.\nw\nAerial and Grounded Light Attack\nDrains 2.5% Super Energy.\nHits deal 864 [?] damage.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack\nDrains 8% Super Energy\nDeals 1,264 [?] damage.\n\nPalm Strike\nLight-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ? meter radius.\n\nAirborne Heavy Attack\nDrains 8%? Super Energy\nDeals up to 1,264 [?] damage and inflicts blind up to ? meters away\n\nGuarding\nDrains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability\nDoes not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy."
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 20 seconds, or 5% Super Drain per Second\n\nKills grant x1 Bolt Charge.\n\nAerial and Grounded Light Attack | Drains 2.5% Super Energy.\nHits deal 864 [?] damag up to 8 meters away.\nGrounded Attacks can be chained up to 3 hits.\n\nGrounded Heavy Attack | Drains 8% Super Energy\nDeals 1,264 [?] damage in a ~45° angle up to 8 meters away.\n\nAirborne Heavy Attack | Drains 8%? Super Energy\nDeals 1,264 [?] damage and inflicts blind over 7 meters away\n\nPalm Strike | Light-Light-Heavy Combo.\nDeals 2,950 [?] damage and inflicts blind in a ~45° angle up to 8 meters away.\n\nGuarding | Drains an additional ?% Super Energy per second.\nFully blocks and reflects all attacks in a 180?° Angle, granting x1 Bolt Charge per attack reflected.\nReflected Projectiles are redirected to the reticle and deal 100% increased damage against Combatants.\n\nClass Ability | Does not drain Super Energy.\nPerfoms an evasive dodge. Grants ?% [?%] Damage Resist while dodging. \n Allows the repeated usage of Ascension while the Aspect is equipped at the cost of ?% Super Energy."
   },
   {
     "Class": "Hunter",
@@ -220,7 +220,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Lethal Current",
-    "Description": "Melee Hits on Jolted Enemies inflict Blind.\n\nOn Class Ability Usage:\nMelee Lunge Distance is increased to 7 metres. \nThe next Melee Hit within 10 seconds inflicts Jolt and creates a damaging aftershock, dealing 195 [?] damage to enemies within 6 metres."
+    "Description": "Direct Melee Hits on Jolted Enemies inflict Blind.\n\nOn Class Ability Usage:\nMelee Lunge Distance is increased to 7 metres. \nThe next Melee/Tempest Strike Hit within 10 seconds inflicts Jolt and triggers a damaging aftershock, dealing 195 [?] damage to enemies within 6 metres."
   },
   {
     "Class": "Hunter",
@@ -244,7 +244,7 @@
     "Class": "Titan",
     "Type": "Melee",
     "Name": "Seismic Strike",
-    "Description": "Shared with other Shoulder Charge Abilities:\nRequires sprinting for 1.25 seconds. Drains 15% Melee Ability Energy if no enemy is hit. Unable to use during slide if user shoots. \nGuardians directly hit by Shoulder Charge have their Melee Lunge disabled for 0.5 seconds\nLunges forward 6.8 meters, automatically targeting enemies in range.\n\nHitting an enemy deals 537 [110] impact damage, as well as dealing up to 196 [40] radial damage and inflicting Blind for 5? [1.6] seconds to enemies within 6 meters.\n\nWhile Amplified:\n Blind Radius is increased to 10 metres, and the Blind Duration lasts ? [3] seconds."
+    "Description": "Shared with other Shoulder Charge Abilities:\nRequires sprinting for 1.25 seconds. Drains 15% Melee Ability Energy if no enemy is hit. Unable to use during slide if user shoots. \nGuardians directly hit by Shoulder Charge have their Melee Lunge disabled for 0.5 seconds\nLunges forward 6.8 meters, automatically targeting enemies in range.\n\nHitting an enemy deals 1,073 [110] impact damage, as well as dealing 391 [40] radial damage and inflicting Blind for 8 [1.6] seconds to enemies within 6 meters.\n\nWhile Amplified:\n Blind Radius is increased to 10 metres, and the Blind Duration is increased to 10 [3] seconds."
   },
   {
     "Class": "Titan",
@@ -256,7 +256,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Fists of Havoc",
-    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\n\nLight Attack\nDrains 6% Super Energy.\nHits deal 499 [?] damage and heavily knock enemies back.\nScoring a Light Attack grants the next heavy attack hit 4 additional damage instances of 273 [?] damage each.\n\nHeavy Attack\nDrains 12% Super Energy.\nSlams downwards, dealing 1619 [?] damage and inflicting blind in a 11 metre radius. Super Cast also slams, without the aftershocks\nSlam deals 4 additional damage instances of 273 [?] damage each if the user is in the animation for at least 1 second. Requires inputting a directional key.\nCreates up to 4 aftershocks, each dealing up to 292 [?] damage."
+    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\n\nLight Attack | Drains 6% Super Energy.\nHits deal 499 [?] damage and heavily knock enemies back.\nScoring a Light Attack grants the next heavy attack hit 4 additional damage instances of 273 [?] damage each.\n\nHeavy Attack | Drains 12% Super Energy.\nSlams downwards, dealing 1619 [?] damage and inflicting blind in a 11 metre radius. Super Cast also slams, without the aftershocks\nSlam deals 4 additional damage instances of 273 [?] damage each if the user is in the animation for at least 1 second. Requires inputting a directional key.\nCreates up to 4 aftershocks, each dealing up to 292 [?] damage."
   },
   {
     "Class": "Titan",
@@ -268,7 +268,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Juggernaut",
-    "Description": "While sprinting and with full Class Ability Energy:\nGain an Overshield with 50 HP that absorbs frontal damage, granting x1 Bolt Charge per attack blocked.\nOvershield receives 33% Damage Resist while Amplified, increasing its effective health to 75eHP.\n60% [10%] Splash Damage Resist, and 10% Damage Resist against Combatants while active.\n\nOvershield is able to fully absorb the last hit before being destroyed, depleting all Class Ability Energy.\n\nStacks with other Overshields."
+    "Description": "While sprinting, while Movement Speed is above ~4m/s and with full Class Ability Energy:\nGrants a Frontal Overshield with 50 HP that absorbs damage, granting x1 Bolt Charge per attack blocked.\nOvershield receives 33% Damage Resist while Amplified, increasing its effective health to 75eHP.\n60% [10%] Splash Damage Resist, and 10% Damage Resist against Combatants while active.\n\nOvershield is able to fully absorb the last hit before being destroyed, depleting all Class Ability Energy.\n\nStacks with other Overshields."
   },
   {
     "Class": "Titan",
@@ -286,7 +286,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Touch of Thunder",
-    "Description": "Enhances certain Grenade types:\n\nFlashbang: Explodes an additional time on impact, dealing up to ? [?] damage to enemies and blinding within 5 meters.\n\nLightning: Grants an additional Grenade Charge, lightning strikes after the first apply jolt, and hits grant x5 Bolt Charge.\n\nPulse: Damaging an enemy creates an Ionic Trace with a 1 second cooldown. Deals up to 25% increased damage as it lingers.\n1st = 2% | 2nd = 9% | 3rd = 18.5% | 4th = 24% | 5th onwards = 25%\n\nStorm: Creates a roaming storm for 4.5+1.5 seconds after detonating, chasing after enemies at an initial speed of 2 [1.5] m/s, increasing to 5.5 [3] m/s after 1.6 seconds.\n Roaming Storm fires lightning bolts underneath it that deal 164 [30] damage up to 11+4 times."
+    "Description": "Enhances certain Grenade types:\n\nFlashbang: Explodes an additional time on impact, dealing up to 684 [?] damage, down to 0% damage over 7.5 meters, and inflicting blind to enemies within 5 meters.\n\nLightning: Grants an additional Grenade Charge, lightning strikes after the first inflict jolt, and hits grant x5 Bolt Charge up to once per lightning bolt.\n\nPulse: Damaging an enemy creates an Ionic Trace with a 1 second cooldown. Deals up to 25% increased damage as it lingers.\n1st = 2% | 2nd = 9% | 3rd = 18.5% | 4th = 24% | 5th onwards = 25%\n\nStorm: Creates a roaming storm for 4.5+1.5 seconds after detonating, chasing after enemies at an initial speed of 2 [1.5] m/s, increasing to 5.5 [3] m/s after 1.6 seconds.\n Roaming Storm fires lightning bolts underneath it that deal 164 [30] damage up to 11+4 times."
   },
   {
     "Class": "Warlock",
@@ -310,7 +310,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Stormtrance",
-    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 16 seconds, or 6.25% Super Drain per Second.\n\nOn Super Cast:\nDeals up to 690 [?] damage in a 6 meter radius, knocking enemies back, and releases 5 Lightning Seekers around the caster.\nLightning Seekers deal 440 [150] damage and inflict jolt for 16 seconds.\n\nLight Attack\nDrains ?% Super Energy.\nTargets enemies within 12 meters, releasing chain lighting that deals 178 [90] damage every 0.34 seconds.\nDamage ramps up over time, increasing by 5% every 0.33 seconds, up to 65% increased damage after 3.33 seconds.\n Damage Increase decays after 2 seconds of not dealing damage.\n\nHeavy Attack | Sprint\nPerforms an Ionic Blink, consuming 6.25% Super Energy and teleporting up to 7 meters away towards the currently input movement direction."
+    "Description": "General Super Information\nDamage Resistance: 90% [58%]\nBase Duration: 16 seconds, or 6.25% Super Drain per Second.\n\nOn Super Cast:\nDeals up to 690 [?] damage in a 6 meter radius, knocking enemies back, and releases 5 Lightning Seekers around the caster.\nLightning Seekers deal 440 [150] damage and inflict jolt for 16 seconds.\n\nLight Attack | Drains ?% Super Energy.\nTargets enemies within 12 meters, releasing chain lighting that deals 178 [90] damage every 0.34 seconds.\nDamage ramps up over time, increasing by 5% every 0.33 seconds, up to 65% increased damage after 3.33 seconds.\n Damage Increase decays after 2 seconds of not dealing damage.\n\nHeavy Attack | Sprint\nPerforms an Ionic Blink, consuming 6.25% Super Energy and teleporting up to 7 meters away towards the currently input movement direction."
   },
   {
     "Class": "Warlock",

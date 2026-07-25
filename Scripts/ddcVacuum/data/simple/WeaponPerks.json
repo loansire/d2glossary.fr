@@ -33,7 +33,7 @@
   },
   {
     "Name": "All-Star",
-    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nAdditional Kinetic Synthesis Bricks or Special Ammo Bricks extend the buff duration by 6 ↑7 seconds, up to ? ↑10 seconds.\nTimer only ticks down while the weapon with All-Star is readied.\n\nPicking up a Power Ammo Brick grants 9 ↑10 seconds of All-Star."
+    "Description": "Upon picking up an Ammo Brick:\nRefills Magazine.\n35% [15%] Increased Damage and +100? Reload Speed for 6 ↑7 seconds.\nAdditional Kinetic Synthesis Bricks or Special Ammo Bricks extend the buff duration by 7 seconds, up to 10 seconds.\nTimer only ticks down while the weapon with All-Star is readied.\n\nPicking up a Heavy Ammo Brick grants 9 ↑10 seconds of All-Star."
   },
   {
     "Name": "Alloy Magazine",
@@ -41,7 +41,7 @@
   },
   {
     "Name": "Ancillary Ordinance",
-    "Description": "Upon scoring 3 Elemental Kills within 4 seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of 4? ↑5 stacks.\nKills can be scored through any means. \nScoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with Unravel or Scorching Rounds!\n\nUpon scoring a Weapon Kill while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing varying [100] Kinetic Damage over a tiny radius.\n\nMicro-Missile Damage:\nAuto Rifle: 330? [100]\nSMG: 383 [?]\nScout Rifle: ?\nHand Cannon: ?\nPulse Rifle: ?\nShotgun: ?\nGrenade Launcher: ?\nHeavy Sniper Rifle: 76 [?]"
+    "Description": "Upon scoring 3 Elemental Kills within 4 seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of 4? ↑5 stacks.\nKills can be scored through any means. \nScoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with Unravel or Scorching Rounds!\n\nUpon scoring a Direct Weapon Kill while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing varying [100] Kinetic Damage over a tiny radius.\n\nMicro-Missile Damage:\nPrimary Weapons: 383\nShotgun: 435\nMicro-Missile Sidearm (High Albedo): 348\nGrenade Launcher (Mountaintop): 292\nHeavy Sniper Rifle: 76"
   },
   {
     "Name": "Ambitious Assassin",
@@ -117,7 +117,7 @@
   },
   {
     "Name": "Box Breathing",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS. \nHeavy Sniper Rifles and Glaives receive 30% increased Weakspot Damage instead.\nTimer starts as soon as the Aim Down Sights input is pressed.\nWeakspot damage? Buffs \"Precision Hits\" against Shielded Combatants but does not work on a Divinity Bubble is the least convoluted way of explaining it."
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\n10% Increased Aim Assist Falloff Distance and 40% increased Weakspot Damage for the next shot while ADS. \nHeavy Sniper Rifles and Glaives receive 30% increased Weakspot Damage instead.\nTimer starts as soon as the Aim Down Sights input is pressed.\n\nWeakspot damage? Least convoluted way\nBuffs \"Precision Hits\" against Shielded Combatants and works on weapons without Precision Multipliers as long as they hit the weakspot.\nWeakspot Buffs do not work on a Divinity Bubble"
   },
   {
     "Name": "Built To Blast",
@@ -129,7 +129,7 @@
   },
   {
     "Name": "Burning Ambition",
-    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine ↑-1. \nBow: 2? ↑1 | Sword: 3 ↑2\n\nAdditionally, direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy."
+    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine ↑-1. \nBow: ? ↑2 | Sword: 3 ↑2\n\nAdditionally, direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy."
   },
   {
     "Name": "Butterfly",
@@ -145,11 +145,11 @@
   },
   {
     "Name": "Chain Reaction",
-    "Description": "On Weapon Kill:\nTarget explodes, dealing Weapon-Element Matching Damage in a small radius.\nSpecial Weapons: Up to 67.2 ↑73.9 [44.8 ↑49.3] damage in a 2.4 meter radius. \nPower Weapons: Up to 109 ↑120 [72.8 ↑80] damage in a 3 meter radius.\n\n↑Passively grants +20 Guard Endurance to Swords."
+    "Description": "On Weapon Kill:\nTarget explodes, dealing varying [Special = 44.8? ↑49.3? | Power = 72.8 ↑80?] Weapon-Element Matching Damage, down to 0% damage.\nRocket Pulse: 158 ↑174 | Breech GL: 189 ↑208 | Shotgun, Area Denial GL: 236 ↑260 | Glaive: 284 ↑313 | 2.4m No Falloff, 6m Maximum Falloff on Special Weapons\nWave GL, MG, Sword: 352 ↑387 | Drum GL, LFR: 448 ↑493 | RL: 543 ↑598  | 3m No Falloff, 7m Maximum Falloff for Power Weapons.\n\n↑Passively grants +20 Guard Endurance to Swords."
   },
   {
     "Name": "Chaos Reshaped",
-    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active.\nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nChaos Reshaped x2 Healing Effect\nCharges up a Healing-over-time effect at a rate of 5 HP/s while readied, automatically triggering after either charging 35 HP (7 seconds) or stowing the weapon.\nThe Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds.\nHealing Effect prevents HP gains from non-Chaos Reshaped x2 sources above (200 - Healing Charge Built) HP if active. <100 Health Stat = 200 HP\nHealing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers.\n  In practice, just takes this as a 5HP/s effect as the missing nonrestorable HP is covered by the Healing Effect anyway. Don't overthink it!\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds."
+    "Description": "After having maintained a state of dealing or receiving damage every 5 seconds for at least 12 ↑11.5 seconds:\nChaos Reshaped x1 | 20% Increased damage for 7 seconds. \nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nAfter maintaining Chaos Reshaped x1 for an additional 12 ↑11.5 seconds:\nChaos Reshaped x2 | 35% Increased damage for 7 seconds and triggers a healing effect while active.\nDealing or receiving damage refreshes the buff duration. \nBuff can be activated while stowed, and persists through stow.\n\nChaos Reshaped x2 Healing Effect\nCharges up a Healing-over-time effect at a rate of 5 HP/s while readied, AUTOMATICALLY TRIGGERING after charging 35 HP (7 seconds) or upon stowing the weapon.\nThe Healing Effect restores 5 HP/s equal to the charge built, effectively becoming constant if the weapon is readied for 7 seconds.\nHealing Effect prevents HP gains from non-Chaos Reshaped x2 sources above (200 - Healing Charge Built) Maximum HP if active.\n Healing Effect is not visually reduced by Brawn's Healing Penalties, resulting in a rubberbanding health bar as it triggers.\n  In practice, just takes this as a 5HP/s effect, as the missing \"already restored HP\" is covered by the Healing Effect anyway.\nI KEEP SEEING MORE POSTS ABOUT THIS. IT'S GETTING BLOWN WAY OUT OF PROPORTION\n\n↑Reduces the time needed in-combat to grant a stack of Chaos Reshaped to 11.5 seconds."
   },
   {
     "Name": "Chill Clip",
@@ -257,7 +257,7 @@
   },
   {
     "Name": "Discord",
-    "Description": "Upon readying a weapon within 5 seconds of scoring a kill with a different weapon:\n0.75x ADS Duration Multiplier, -25% Accuracy Cone Size, and +30 Airborne Effectiveness for 7 ↑8 seconds.\nBuff persists through stow.\n\nOn Weapon Kill, while Discord is active:\nRefills Magazine on Primary Weapons | Refunds 1 Ammo per shot on Special and Heavy Weapons."
+    "Description": "Upon readying a weapon within 5 seconds of scoring a kill with a different weapon:\n0.75x ADS Duration Multiplier, -25% Accuracy Cone Size, and +30 Airborne Effectiveness for 7 ↑8 seconds.\nBuff persists through stow.\n\nOn Weapon Kill, while Discord is active:\nRefills Magazine on Primary Weapons | Refunds 1 Ammo per shot on Special and Power Weapons."
   },
   {
     "Name": "Disorienting Grenades",
@@ -445,7 +445,7 @@
   },
   {
     "Name": "High Ground",
-    "Description": "On Weapon Kill:\nGrants 1 [2] stacks of High Ground.\n\nUpon dealing damage while 2? [5 on Primaries | 2 on Special and Heavy weapons] meters above an enemy, while grounded:\nGrants 3 [1 on Primary Weapons | 3 on others] stacks of High Ground. \nThe shot that triggers High Ground does receive the damage increase.\n\nHigh Ground:\n10% [5%] | 17.5% [10%] | 25% [15%] Increased Damage for 7 seconds.\nDealing additional damage while above an enemy, or scoring a kill refreshes the buff duration.\nBuff persists through stow.\n\n↑Passively grants +5 Reload Speed."
+    "Description": "On Weapon Kill:\nGrants 1 [2] stacks of High Ground.\n\nUpon dealing damage while 2? [5 on Primaries | 2 on Special and Power weapons] meters above an enemy, while grounded:\nGrants 3 [1 on Primary Weapons | 3 on others] stacks of High Ground. \nThe shot that triggers High Ground does receive the damage increase.\n\nHigh Ground:\n10% [5%] | 17.5% [10%] | 25% [15%] Increased Damage for 7 seconds.\nDealing additional damage while above an enemy, or scoring a kill refreshes the buff duration.\nBuff persists through stow.\n\n↑Passively grants +5 Reload Speed."
   },
   {
     "Name": "High-Caliber Rounds",
@@ -469,7 +469,7 @@
   },
   {
     "Name": "Impromptu Ammunition",
-    "Description": "On Weapon Kill:\nGrants 1.15x Special Ammo Progress and 1.1x Power Ammo Progress for 5 ↑5.5 seconds.\nAmmo Generation Multiplier is additive to Ammo Finder (Armor Mods) Multipliers.\n\nScoring additional Weapon Kills extends the buff duration to 7 ↑7.5 seconds."
+    "Description": "On Weapon Kill:\nGrants 1.15x Special Ammo Progress and 1.1x Heavy Ammo Progress for 5 ↑5.5 seconds.\nAmmo Generation Multiplier is additive to Ammo Finder (Armor Mods) Multipliers.\n\nScoring additional Weapon Kills extends the buff duration to 7 ↑7.5 seconds."
   },
   {
     "Name": "Impulse Amplifier",
@@ -497,7 +497,7 @@
   },
   {
     "Name": "Jolting Feedback",
-    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt.\nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nHits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nScout Rifles: ↑4 | 2\nHand Cannons (+Uncivil): 7 ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑5 | 4\nRocket Sidearm, Sniper Rifle: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\n\n↑Non-Amplified Hit requirement is decreased."
+    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt. \nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nDirect Hits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nHand Cannons (+Uncivil): 7 ↑4 | 2\nScout Rifles: ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑4 | 3\nRocket Sidearm, Sniper Rifle: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\nShotguns: ↑2 | 1"
   },
   {
     "Name": "Keep Away",
@@ -521,7 +521,7 @@
   },
   {
     "Name": "Kinetic Tremors",
-    "Description": "After 0.25 seconds of scoring multiple direct hits within 3 seconds of each against a single enemy:\nEmits 3 shockwaves underneath the enemy at the place of activation, at a rate of one per second.\nEach Shockwave deals up to 90 [20] Kinetic Damage over a 6 metre radius. Shockwave hits count as weapon damage.\nKinetic Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave.\nHit counter persists through stow.\n\nTremor Damage against Combatants:\nShockwave damage is based off of the Combatant Rank it is initially triggered on. \nDeals 33.3% increased damage if triggered on an Miniboss or Boss.\nDamage is affected by Kinetic Bonus Damage and scales with Combatant Rank Modifiers. \n\nHits needed to activate:\nSubmachine Guns: 14 ↑13\nAuto Rifles: 12 ↑11\n Pulse Rifles: 11 ↑10\nHigh-Impact Auto Rifles: 9 ↑8\nNon-Burst Sidearms: 8 ↑7\n180RPM Hand Cannons and Scout Rifles: 6 ↑5\n120RPM and 150RPM Scout Rifles | 140RPM Hand Cannons : 5 ↑4\n120RPM Hand Cannons and Rocket Sidearms: 4 ↑3\nBows and Sniper Rifles: 3 ↑2"
+    "Description": "After 0.25 seconds of scoring multiple direct hits within 3 seconds of each against a single enemy:\nEmits 3 shockwaves underneath the enemy at the place of activation, at a rate of one per second.\nEach Shockwave deals up to 90 [20] Kinetic Damage over a 6 metre radius. Shockwave hits count as weapon damage.\nKinetic Tremors cannot be re-triggered on the same enemy within 2 seconds of the last shockwave.\nHit counter persists through stow.\n\nTremor Damage against Combatants:\nShockwave damage is based off of the Combatant Rank it is initially triggered on. \nDeals 33.3% increased damage if triggered on an Miniboss or Boss.\nDamage is affected by Kinetic Bonus Damage and scales with Combatant Rank Modifiers. \n\nHits needed to activate:\nSubmachine Guns: 14 ↑13\nAuto Rifles: 12 ↑11\n Pulse Rifles: 11 ↑10\nNon-Burst Sidearms: 8 ↑7\n180RPM Hand Cannons and Scout Rifles: 6 ↑5\n120RPM and 150RPM Scout Rifles | 140RPM Hand Cannons : 5 ↑4\nMicro-Missile Sidearm: 4 ↑3\nBows and Sniper Rifles: 3 ↑2"
   },
   {
     "Name": "Lasting Impression",
@@ -609,7 +609,7 @@
   },
   {
     "Name": "Osmosis",
-    "Description": "On Grenade Ability Usage:\nRefills 50% of Magazine\nChanges Weapon Element to match Equipped Grenade-Element until stowed.\nKinetic Damage Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed.\nEffects that replace Grenade Abilities will trigger Osmosis, replacing the weapon's element with the currently equipped grenade.\n↑Passively grants +5 Handling."
+    "Description": "On Grenade Ability Usage:\nRefills 50% of Magazine\nChanges Weapon Element to match Equipped Grenade-Element until stowed.\nKinetic Damage Weapons lose their Combatant Damage Bonus. Can only refill once per activation until weapon is stowed.\nEffects that replace Grenade Abilities will trigger Osmosis, replacing the weapon's element with the currently equipped grenade.\n\n↑Passively grants +5 Handling."
   },
   {
     "Name": "Outlaw ",
@@ -813,7 +813,7 @@
   },
   {
     "Name": "Stopping Power",
-    "Description": "Inflicts increased stagger against Combatants.\n\nUpon damaging an Enemy at <30?% ↑<33% Health:\n+? Aim Assist for 2 seconds.\nInitially grants 7% increased damage at <30% <↑33% Health, increasing up to 10% at <23% Health, then finally 15% increased damage at <18% Health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 33 HP.\nShielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds."
+    "Description": "Increased Stagger Force against Combatants.\nStagger inflicted is based on the Activity Difficulty.\n\nUpon damaging an Enemy at <30?% ↑<33% Health:\n+? Aim Assist for 2 seconds.\nGrants increased damage based on 3 different Health thresholds.\n7% increased damage at <30% <↑33% Health | 10% at <23% Health | 15% increased damage at <18% Health.\nShields are ignored, meaning Guardians only receive extra damage if they're under 33 HP. \nShielded Enemies are susceptible to the damage buff if their Health is under the aforementioned thresholds."
   },
   {
     "Name": "Strategist",
@@ -929,7 +929,7 @@
   },
   {
     "Name": "Turnabout",
-    "Description": "Upon breaking a Combatant's Elemental Shield or a Guardian's Shield while in Super:\nGrants a 30 HP Overshield for 10 ↑11.5 seconds."
+    "Description": "Upon breaking a Combatant's Elemental Shield or a Guardian's Shield while in Super:\nGrants a 50 HP Overshield for 10 ↑11.5 seconds.\nDamage dealt to Overshields does not stop Health Regeneration.\n\nOvershield can stack with other overshields, such as Void Overshield and Class Stat Overshield. Overshield layers are determined by \"First In, First Out\"."
   },
   {
     "Name": "Under Pressure",

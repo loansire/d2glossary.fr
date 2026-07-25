@@ -11,7 +11,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Stasis Crystal",
-    "Description": "Solid Pillars that can be spawned on surfaces, possessing a varying amounts of health depending on their size, lasting up to 15 seconds.\n\nCrystals, upon being created, inflict freeze [x15 Slow Stacks for 1.5+0.5 seconds] to enemies within 2.6 metres. \n\nStasis Crystals can be destroyed by depleting their health, dealing up to 175 [25] damage in a 8 metre radius.\n\nSmall Crystals: ? HP | Medium Crystal: ? HP | Large Crystal: ? HP\nUser deals double damage to their own Crystals.",
+    "Description": "Solid Pillars that can be spawned on surfaces, possessing a varying amounts of health depending on their size, lasting up to 15 seconds.\n\nCrystals, upon being created, inflict freeze [x15 Slow Stacks for 1.5+0.5 seconds] to enemies within 2.6 metres. \n\nStasis Crystals can be destroyed by depleting their health, dealing up to generally 158 [25] damage over a 8 metre radius.\n\nSmall Crystals: ? HP | Medium Crystal: ? HP | Large Crystal: ? HP\nUser deals double damage to their own Crystals.",
     "hash_warning": "No matching hash found in d2glossary"
   },
   {
@@ -32,14 +32,14 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Freeze",
-    "Description": "Frozen Enemies are completely immobilized, rendering them unable to shoot, use abilities, or move.\nFrozen Enemies receive 10% increased damage from Special and Power Weapons, 5% increased damage from Arc, Solar, and Void Abilities, and 5% [60%] decreased damage from Primary Weapons. \nFrozen Rank-and-File and Elite Combatants, as well as Guardians receive 120% increased Basic Melee and Glaive Melee Attack Damage.\n\nFrozen Enemies shatter after receiving varying [200] damage.\n\nFrozen Enemies are immobilized for 6 [1.35 to 4.75] seconds. \nBoss Combatants are unhindered by freeze and automatically shatter after 3 seconds.\nGrounded Guardians can cast their Super Ability to instantly break out.\n\nBrief Freeze:\nGuardians frozen by other Guardians are frozen for 1.35 seconds\n\nProlonged Freeze:\nGuardians that become frozen by Combatants, or by Stasis Super Abilities, are frozen for 4.75 seconds.\nFrozen Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health.\nGuardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation.",
+    "Description": "Frozen Enemies are completely immobilized, rendering them unable to shoot, use abilities, or move.\nFrozen Enemies receive 10% increased damage from Special and Power Weapons, 5% increased damage from Arc, Solar, and Void Abilities, and 5% [60%] decreased damage from Primary Weapons. \nFrozen Rank-and-File and Elite Combatants and Guardians receive 120% increased Basic Melee and Glaive Melee Attack Damage, on top of the aforementioned effects.\n\nFrozen Enemies shatter after receiving varying [200] damage.\n\nFrozen Enemies are immobilized for 6 [1.35 to 4.75] seconds. \nBoss Combatants are unhindered by freeze and automatically shatter after 3 seconds.\nGrounded Guardians can cast their Super Ability to instantly break out.\n\nBrief Freeze:\nGuardians frozen by other Guardians are frozen for 1.35 seconds\n\nProlonged Freeze:\nGuardians that become frozen by Combatants, or by Stasis Super Abilities, are frozen for 4.75 seconds.\nFrozen Guardians have their Class Ability replaced with Breakout, which allows breaking out of the long-lasting freeze, in exchange for ? Health.\nGuardians that are frozen during a Roaming Super automatically break out after a second, while One-off Supers get deactivated if frozen during the cast animation.",
     "hash_warning": "No matching hash found in d2glossary"
   },
   {
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Shatter",
-    "Description": "Frozen Enemies can be shattered through damage or directly through specific Stasis Aspects, dealing up to 400 [?] damage to enemies within ? metres.\n\nUnstoppable Champions become Stunned upon receiving shatter damage. ",
+    "Description": "Frozen Enemies can be shattered through damage or directly through specific Stasis Aspects, dealing up to 361 [?] damage to enemies within ? metres.\n\nUnstoppable Champions become Stunned upon receiving shatter damage. ",
     "hash_warning": "No matching hash found in d2glossary"
   },
   {
@@ -86,7 +86,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Whisper of Fissures",
-    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 17 [4] damage at the maximum falloff distance.",
+    "Description": "Shattering enemies or destroying Crystals deals an additional damage instance, dealing up to 25 [9] damage in a 10 [8] metre radius. \nFalloff decreases damage dealt down to a minimum of 15 [4] damage at 10 [8] meters.",
     "hash": 3469412971,
     "parentHash": "3469412971"
   },
@@ -174,7 +174,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Coldsnap Grenade",
-    "Description": "Medium Trajectory | Seeker\n\nDirectly hitting an enemy applies x50 [x?] Slow Stacks for 4+2 seconds.\nDirect Hits count as Stasis Grenade Ability Damage.\n\nSpawns a seeker after 0.8 seconds of impacting the ground, tracking the closest enemy within 20 meters at a speed of 17m/s for 1 second.\nTracking strength gets weaker over the seeker's lifespan.\n\nSeeker detonates upon reaching an enemy or expiring, dealing 20 [20] damage and freezing enemies within 3 [1.75] meters.\n\nIf the seeker freezes an enemy, another seeker is spawned, targeting a different enemy, chaining up to 2 times.",
+    "Description": "Medium Trajectory | Seeker\n\nDirectly hitting an enemy inflicts x50 [x?] Slow Stacks for 4+2 seconds.\nDirect Hits count as Stasis Grenade Ability Damage.\n\nSpawns a seeker after 0.8 seconds of impacting the ground, tracking the closest enemy within 20 meters at a speed of 17m/s for 1 second.\nTracking strength gets weaker over the seeker's lifespan.\n\nSeeker detonates upon reaching an enemy or expiring, dealing 20 [20] damage and freezing enemies within 3 [1.75] meters.\n\nIf the seeker freezes an enemy, another seeker is spawned, targeting a different enemy, chaining up to 2 times.",
     "hash": 1399219,
     "parentHash": "1399219",
     "hash_warning": "Multiple matches found (2 total)"
@@ -183,7 +183,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Coldsnap Grenade",
-    "Description": "Medium Trajectory | Seeker\n\nDirectly hitting an enemy applies x50 [x?] Slow Stacks for 4+2 seconds.\nDirect Hits count as Stasis Grenade Ability Damage.\n\nSpawns a seeker after 0.8 seconds of impacting the ground, tracking the closest enemy within 20 meters at a speed of 17m/s for 1 second.\nTracking strength gets weaker over the seeker's lifespan.\n\nSeeker detonates upon reaching an enemy or expiring, dealing 20 [20] damage and freezing enemies within 3 [1.75] meters.\n\nIf the seeker freezes an enemy, another seeker is spawned, targeting a different enemy, chaining up to 2 times.",
+    "Description": "Medium Trajectory | Seeker\n\nDirectly hitting an enemy inflicts x50 [x?] Slow Stacks for 4+2 seconds.\nDirect Hits count as Stasis Grenade Ability Damage.\n\nSpawns a seeker after 0.8 seconds of impacting the ground, tracking the closest enemy within 20 meters at a speed of 17m/s for 1 second.\nTracking strength gets weaker over the seeker's lifespan.\n\nSeeker detonates upon reaching an enemy or expiring, dealing 20 [20] damage and freezing enemies within 3 [1.75] meters.\n\nIf the seeker freezes an enemy, another seeker is spawned, targeting a different enemy, chaining up to 2 times.",
     "hash": 4265391440,
     "parentHash": "4265391440",
     "hash_warning": "Multiple matches found (2 total)"
@@ -192,7 +192,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Duskfield Grenade",
-    "Description": "Medium Trajectory | DoT Field\n\nDetonates on impact, dealing up to 20 [20] damage and applying x20 [x10] Slow Stacks for 2+2 seconds in a ? meter radius, as well as creating a Slowing Field.\n\nSlowing Field:\nDeals 1 damage and applies x10 [x5] Slow Stacks for 2+2 seconds every 0.35 [0.3] seconds for 7+2 seconds in a 4 meter radius.",
+    "Description": "Medium Trajectory | DoT Field\n\nDetonates on impact, dealing up to 20 [20] damage and inflicting x20 [x10] Slow Stacks for 2+2 seconds in a ? meter radius, as well as creating a Slowing Field.\n\nSlowing Field:\nDeals 1 damage and applies x10 [x5] Slow Stacks for 2+2 seconds every 0.35 [0.3] seconds for 7+2 seconds in a 4 meter radius.",
     "hash": 1399216,
     "parentHash": "1399216",
     "hash_warning": "Multiple matches found (2 total)"
@@ -201,7 +201,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Duskfield Grenade",
-    "Description": "Medium Trajectory | DoT Field\n\nDetonates on impact, dealing up to 20 [20] damage and applying x20 [x10] Slow Stacks for 2+2 seconds in a ? meter radius, as well as creating a Slowing Field.\n\nSlowing Field:\nDeals 1 damage and applies x10 [x5] Slow Stacks for 2+2 seconds every 0.35 [0.3] seconds for 7+2 seconds in a 4 meter radius.",
+    "Description": "Medium Trajectory | DoT Field\n\nDetonates on impact, dealing up to 20 [20] damage and inflicting x20 [x10] Slow Stacks for 2+2 seconds in a ? meter radius, as well as creating a Slowing Field.\n\nSlowing Field:\nDeals 1 damage and applies x10 [x5] Slow Stacks for 2+2 seconds every 0.35 [0.3] seconds for 7+2 seconds in a 4 meter radius.",
     "hash": 4051767608,
     "parentHash": "4051767608",
     "hash_warning": "Multiple matches found (2 total)"
@@ -210,7 +210,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Glacier Grenade",
-    "Description": "Medium Trajectory\n\nCreates 5 Stasis Crystals in a straight line on impact, perpendicularly from where it was thrown.",
+    "Description": "Medium Trajectory\n\nCreates 5 Stasis Crystals in a straight line on impact, perpendicularly from where it was thrown.\nGlacier Grenades' Stasis Crystals deal up to 158 [?] Stasis Grenade Damage upon being shattered, down to 66% damage over 8 meters.",
     "hash": 1399217,
     "parentHash": "1399217",
     "hash_warning": "Multiple matches found (2 total)"
@@ -219,7 +219,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Glacier Grenade",
-    "Description": "Medium Trajectory\n\nCreates 5 Stasis Crystals in a straight line on impact, perpendicularly from where it was thrown.",
+    "Description": "Medium Trajectory\n\nCreates 5 Stasis Crystals in a straight line on impact, perpendicularly from where it was thrown.\nGlacier Grenades' Stasis Crystals deal up to 158 [?] Stasis Grenade Damage upon being shattered, down to 66% damage over 8 meters.",
     "hash": 934199459,
     "parentHash": "934199459",
     "hash_warning": "Multiple matches found (2 total)"
@@ -254,7 +254,7 @@
     "Class": "Hunter",
     "Type": "Super",
     "Name": "Silence and Squall",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\n\nSilence\nDeals 338 [847] impact damage and freezes enemies within 8.5 metres.\n\nSquall\nDeals 338 [847] impact damage, and creates a Stasis Storm on detonation.\n\nStasis Storm\nLasts 14+2 seconds, dealing 28 [14] damage and applying x20 Slow Stacks for 1 second every 0.1 [0.17] seconds for 6 seconds in a 5.5 meter radius.\nDeals 300% increased damage against Non-Boss Frozen Enemies.",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\n\nSilence\nDeals 338 [847] impact damage and freezes enemies within 8.5 metres.\n\nSquall\nDeals 338 [847] impact damage, and creates a Stasis Storm on detonation.\n\nStasis Storm\nLasts 14+2 seconds, dealing 28 [14] damage and inflicting x20 Slow Stacks for 1 second every 0.1 [0.17] seconds for 6 seconds in a 5.5 meter radius.\nDeals 300% increased damage against Non-Boss Frozen Enemies.",
     "hash": 2625980631,
     "parentHash": "2625980631",
     "hash_warning": "Multiple matches found (2 total)"
@@ -263,7 +263,7 @@
     "Class": "Hunter",
     "Type": "Super",
     "Name": "Silence and Squall",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\n\nSilence\nDeals 338 [847] impact damage and freezes enemies within 8.5 metres.\n\nSquall\nDeals 338 [847] impact damage, and creates a Stasis Storm on detonation.\n\nStasis Storm\nLasts 14+2 seconds, dealing 28 [14] damage and applying x20 Slow Stacks for 1 second every 0.1 [0.17] seconds for 6 seconds in a 5.5 meter radius.\nDeals 300% increased damage against Non-Boss Frozen Enemies.",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\n\nSilence\nDeals 338 [847] impact damage and freezes enemies within 8.5 metres.\n\nSquall\nDeals 338 [847] impact damage, and creates a Stasis Storm on detonation.\n\nStasis Storm\nLasts 14+2 seconds, dealing 28 [14] damage and inflicting x20 Slow Stacks for 1 second every 0.1 [0.17] seconds for 6 seconds in a 5.5 meter radius.\nDeals 300% increased damage against Non-Boss Frozen Enemies.",
     "hash": 2370269391,
     "parentHash": "2370269391",
     "hash_warning": "Multiple matches found (2 total)"
@@ -288,7 +288,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Touch of Winter",
-    "Description": "Enhances Stasis Grenades.\n\nColdsnap Grenade Seekers duplicate upon freezing an enemy. \nSeekers now spawn a Small, Medium, and Large Stasis Crystal on detonation upon chaining 1, 2, and 3 times respectively.\n\nDuskfield Grenade create a Small Stasis Crystal on impact, and their Slowing Field has 50% Increased Radius.\n\nGlacier Grenades form a heptagon hexagon, and creates an additional 2 Large Stasis Crystal.",
+    "Description": "Enhances Stasis Grenades.\n\nColdsnap Grenade Seekers duplicate upon freezing an enemy. \nSeekers now spawn a Small, Medium, and Large Stasis Crystal on detonation upon chaining 1, 2, and 3 times respectively.\n\nDuskfield Grenade create a Small Stasis Crystal on impact, and their Slowing Field has 50% Increased Radius.\n\nGlacier Grenades form a heptagon hexagon, and creates an additional 2 Large Stasis Crystal.\n\nShatter Grenades release 9 additional Shrapnel and refund ~30% Grenade Ability Energy upon directly hitting a Frozen Enemy.",
     "hash": 4184589900,
     "parentHash": "4184589900"
   },
@@ -314,7 +314,7 @@
     "Class": "Titan",
     "Type": "Melee",
     "Name": "Shiver Strike",
-    "Description": "Leaps through the air, performing an extended lunge distance melee upon releasing [Melee Attack].\nShiver Strike shatters Stasis Crystals on contact. \nFailing to score a hit will refund 80% [40%] Melee Ability Energy.\n\nDeals 567 [105] damage on hit, heavily [moderately] knocking enemies back and applying x50 [x40] Slow.\nHits attach a delayed Stasis Explosive that deals up to 243 [?] damage and inflicting x50? [x40] Slow after 1 second to enemies within 5? meters.\nOnly the Impact Damage portion benefits from Melee Damage Increases. Explosion damage is non-lethal.\nGuardians directly hit by Shiver Strike have their Melee Lunge disabled for 0.5 seconds.",
+    "Description": "Leaps through the air, performing an extended lunge distance melee upon releasing [Melee Attack].\nShiver Strike shatters Stasis Crystals on contact. \nFailing to score a hit will refund 80% [40%] Melee Ability Energy.\n\nDeals 511 [105] impact damage on hit, heavily [moderately] knocking enemies back and inflicting x50 [x40] Slow.\nHits attach a delayed Stasis Explosive that deals up to 219 [?] explosive damage and inflicting x100 [x40] Slow after 1 second to enemies, down to 20% damage over 8 meters.\nBoth the Impact and Explosion benefit from Melee Damage Increases. Impact damage is non-lethal.\nGuardians directly hit by Shiver Strike have their Melee Lunge disabled for 0.5 seconds.",
     "hash": 2028772231,
     "parentHash": "2028772231",
     "hash_warning": "Multiple matches found (2 total)"
@@ -323,7 +323,7 @@
     "Class": "Titan",
     "Type": "Melee",
     "Name": "Shiver Strike",
-    "Description": "Leaps through the air, performing an extended lunge distance melee upon releasing [Melee Attack].\nShiver Strike shatters Stasis Crystals on contact. \nFailing to score a hit will refund 80% [40%] Melee Ability Energy.\n\nDeals 567 [105] damage on hit, heavily [moderately] knocking enemies back and applying x50 [x40] Slow.\nHits attach a delayed Stasis Explosive that deals up to 243 [?] damage and inflicting x50? [x40] Slow after 1 second to enemies within 5? meters.\nOnly the Impact Damage portion benefits from Melee Damage Increases. Explosion damage is non-lethal.\nGuardians directly hit by Shiver Strike have their Melee Lunge disabled for 0.5 seconds.",
+    "Description": "Leaps through the air, performing an extended lunge distance melee upon releasing [Melee Attack].\nShiver Strike shatters Stasis Crystals on contact. \nFailing to score a hit will refund 80% [40%] Melee Ability Energy.\n\nDeals 511 [105] impact damage on hit, heavily [moderately] knocking enemies back and inflicting x50 [x40] Slow.\nHits attach a delayed Stasis Explosive that deals up to 219 [?] explosive damage and inflicting x100 [x40] Slow after 1 second to enemies, down to 20% damage over 8 meters.\nBoth the Impact and Explosion benefit from Melee Damage Increases. Impact damage is non-lethal.\nGuardians directly hit by Shiver Strike have their Melee Lunge disabled for 0.5 seconds.",
     "hash": 1980796561,
     "parentHash": "1980796561",
     "hash_warning": "Multiple matches found (2 total)"
@@ -332,7 +332,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Glacial Quake",
-    "Description": "General Super Information\nDamage Resistance: 90% [47%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\nShatters Frozen Enemies and Stasis Crystals on contact. \nIncreased Jump Height.\nCryoclasm has no cooldown.\nGrants 3 Melee Ability Charges on Super End.\n\nOn Super Cast\nFreezes enemies within 8 [6] meters\n\nLight Attack\nDrains 7.45% Super Energy.\nLeaps through the air forward, dealing 2040 [210] damage and heavily knocking enemies back.\nHits attach a delayed Stasis Explosive that deals up to 997 [?] damage, and applies x50? [x?] Slow after 1 second to enemies within 5? meters.\n Impact Damage does not benefit from Synthocepts' Biotic Enhancements Super Increase.\nImpact Damage is non-lethal.\n\nHeavy Attack\nDrains 7.45% Super Energy.\nSlams the ground, dealing 80 [50] damage and creating 3 waves of Stasis Crystals, each composed of a Medium and Large Crystal.",
+    "Description": "General Super Information\nDamage Resistance: 90% [47%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\nGrants increased Jump Height and Cryoclasm has no cooldown while in Super.\nOn Super Cast: Freezes enemies within 8 [6] meters.\nOn Super End: Grants 3 Melee Ability Charges.\nScoring a kill through any means while Glacial Quake is active spawn an Orbs of Power, each granting 7.15% Ability Energy up to 7 times per Super Cast.\n\nFrozen Enemies and Stasis Crystals are dealt 300 Stasis Super Damage every 0.15 seconds on contact, almost instantly shattering them. \n\nALL STASIS DAMAGE (except for Light Attacks and Contact Damage) against Frozen Enemies is increased by 310%, count as Super Damage, and is displayed in Yellow Numbers.\n\nLight Attack | Drains 7.45% Super Energy.\nLeaps through the air forward, dealing 1,838 [210] impact damage and heavily knocking enemies back.\nHits attach a delayed Stasis Explosive that deals up to 897 [?] explosive damage, and inflicts x100? [x?] Slow after 1 second to enemies, down to 20% damage over 8 meters.\n Impact Damage is non-lethal.\n\nHeavy Attack | Drains 7.45% Super Energy.\nSlams the ground, dealing 73 [50] damage and freezes over 9 meters, as well as creating 3 waves of Stasis Crystals, each composed of a Small, Medium and a Large Crystal.\nEnemies within a ~45 cone ahead of the caster are dealt up to 579 [?] Damage, down to 0% damage over 8 meters.\nGlacial Quake Stasis Crystals deal up to 158 [?] Stasis Super Damage and can be scaled with 100+ Super Stat and other Super Damage Increases.\n\nHowl of The Storm (Glacial Howl) | Drains 15% Super Energy (Up to x5 per Cast).\nBehaves and deals the same base damage as the regular Aspect and is considered \"Super Melee Damage\".\nGlacial Howl stacks Glacial Quake's 310% Frozen Enemy Damage Increase multiplicatively with Howl's intrinsic 1.5x Damage against Frozen Non-Boss Combatants.\nGlacial Howl damage can be further scaled by 100+ Super Stat, Super Melee Damage Buffs (Armorsmith, Shieldcrush, No Backup Plans), and Super Damage Buffs (Synthoceps).\nAll those damage buffs stack multiplicatively with each other. No Backup Plans is additive to Armorsmith/Shieldcrush.\n\nGlacial Howl against Frozen Enemies while Synthoceps' buff is active removes Titan's intrinsic 1.2x Melee Damage, only granting +25% Damage instead of the expected 50%",
     "hash": 2021620139,
     "parentHash": "2021620139",
     "hash_warning": "Multiple matches found (2 total)"
@@ -341,7 +341,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Glacial Quake",
-    "Description": "General Super Information\nDamage Resistance: 90% [47%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\nShatters Frozen Enemies and Stasis Crystals on contact. \nIncreased Jump Height.\nCryoclasm has no cooldown.\nGrants 3 Melee Ability Charges on Super End.\n\nOn Super Cast\nFreezes enemies within 8 [6] meters\n\nLight Attack\nDrains 7.45% Super Energy.\nLeaps through the air forward, dealing 2040 [210] damage and heavily knocking enemies back.\nHits attach a delayed Stasis Explosive that deals up to 997 [?] damage, and applies x50? [x?] Slow after 1 second to enemies within 5? meters.\n Impact Damage does not benefit from Synthocepts' Biotic Enhancements Super Increase.\nImpact Damage is non-lethal.\n\nHeavy Attack\nDrains 7.45% Super Energy.\nSlams the ground, dealing 80 [50] damage and creating 3 waves of Stasis Crystals, each composed of a Medium and Large Crystal.",
+    "Description": "General Super Information\nDamage Resistance: 90% [47%]\nBase Duration: 25 seconds, or 4% Super Drain per Second\nGrants increased Jump Height and Cryoclasm has no cooldown while in Super.\nOn Super Cast: Freezes enemies within 8 [6] meters.\nOn Super End: Grants 3 Melee Ability Charges.\nScoring a kill through any means while Glacial Quake is active spawn an Orbs of Power, each granting 7.15% Ability Energy up to 7 times per Super Cast.\n\nFrozen Enemies and Stasis Crystals are dealt 300 Stasis Super Damage every 0.15 seconds on contact, almost instantly shattering them. \n\nALL STASIS DAMAGE (except for Light Attacks and Contact Damage) against Frozen Enemies is increased by 310%, count as Super Damage, and is displayed in Yellow Numbers.\n\nLight Attack | Drains 7.45% Super Energy.\nLeaps through the air forward, dealing 1,838 [210] impact damage and heavily knocking enemies back.\nHits attach a delayed Stasis Explosive that deals up to 897 [?] explosive damage, and inflicts x100? [x?] Slow after 1 second to enemies, down to 20% damage over 8 meters.\n Impact Damage is non-lethal.\n\nHeavy Attack | Drains 7.45% Super Energy.\nSlams the ground, dealing 73 [50] damage and freezes over 9 meters, as well as creating 3 waves of Stasis Crystals, each composed of a Small, Medium and a Large Crystal.\nEnemies within a ~45 cone ahead of the caster are dealt up to 579 [?] Damage, down to 0% damage over 8 meters.\nGlacial Quake Stasis Crystals deal up to 158 [?] Stasis Super Damage and can be scaled with 100+ Super Stat and other Super Damage Increases.\n\nHowl of The Storm (Glacial Howl) | Drains 15% Super Energy (Up to x5 per Cast).\nBehaves and deals the same base damage as the regular Aspect and is considered \"Super Melee Damage\".\nGlacial Howl stacks Glacial Quake's 310% Frozen Enemy Damage Increase multiplicatively with Howl's intrinsic 1.5x Damage against Frozen Non-Boss Combatants.\nGlacial Howl damage can be further scaled by 100+ Super Stat, Super Melee Damage Buffs (Armorsmith, Shieldcrush, No Backup Plans), and Super Damage Buffs (Synthoceps).\nAll those damage buffs stack multiplicatively with each other. No Backup Plans is additive to Armorsmith/Shieldcrush.\n\nGlacial Howl against Frozen Enemies while Synthoceps' buff is active removes Titan's intrinsic 1.2x Melee Damage, only granting +25% Damage instead of the expected 50%",
     "hash": 2529942645,
     "parentHash": "2529942645",
     "hash_warning": "Multiple matches found (2 total)"
@@ -376,7 +376,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Howl of the Storm",
-    "Description": "Grants an additional Melee Ability Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, dealing ? [?] damage, freezing [Slow x? for ? seconds] enemies within ? meters, and spawning 2 Small, 4 Medium, and 2 Large Crystal in a V formation ahead of the user.\nCan be used during Glacial Quake, consuming 15% Super Energy. Unable to use during slide if user shoots.",
+    "Description": "Grants an additional Melee Ability Charge.\nHowl of the Storm deals 1.5x Damage against Frozen Non-Boss Enemies.\nDoes not apply the 1.5x if Wormgod's Burning Fists is active.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, dealing 146 [?] Melee Damage, freezing [Slow x? for ? seconds] enemies within ? meters, and creating multiple Stasis Crystals.\nCreates 2 Small, 4 Medium, and 2 Large Crystal in a V formation ahead of the user. Uppercut damage scales with Melee Stat and Melee Damage Buffs.\nUnable to use during slide if user shoots.\n\nHowl of the Storm's Stasis Crystals deal 158 [?] Powered Stasis Melee Damage, down to 45% damage over 8 meters.\nHowl's Crystal Damage counts as Powered Stasis Melee Damage and scale normally with Melee Damage Buffs. DOES NOT SCALE WITH 100+ MELEE STAT.\n\nHowl of the Storm during Glacial Quake is complicated and is explained thoroughly in the Glacial Quake Super section.",
     "hash": 1563930741,
     "parentHash": "1563930741"
   },
@@ -410,7 +410,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Winter's Wrath",
-    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack\nDrains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack\nDoes not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
+    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
     "hash": 3683904166,
     "parentHash": "3683904166",
     "hash_warning": "Multiple matches found (2 total)"
@@ -419,7 +419,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Winter's Wrath",
-    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack\nDrains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack\nDoes not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
+    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
     "hash": 1869939006,
     "parentHash": "1869939006",
     "hash_warning": "Multiple matches found (2 total)"

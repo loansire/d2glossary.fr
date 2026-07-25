@@ -473,7 +473,7 @@
   },
   {
     "Name": "Radiolaria Breach",
-    "Description": "On Orb of Power Pickup:\nGrants Radiolaria Breach.\nCan only trigger once per Full Heal.\n\nUpon reaching Critical Health:\nConsumes Radiolaria Breach to trigger an explosion that deals up to 360 [?] Damage over 7 meters.\n+50 Health Stat for 7.5 seconds and releases 4 Radiolaria Pools 5 meters away from the user.\nRadiolaria Pools deal 14 Arc Damage every 0.5 seconds.",
+    "Description": "On Orb of Power Pickup:\nGrants Radiolaria Breach.\nCan only trigger once per Full Heal.\n\nUpon reaching Critical Health:\nConsumes Radiolaria Breach to trigger an explosion that deals up to 360 [11] Damage over 7 meters.\n+50 Health Stat for 7.5 seconds and releases 4 Radiolaria Pools 5 meters away from the user.\nRadiolaria Pools deal 14 Arc Damage every 0.5 seconds.",
     "Comment": "Vault of Glass\nRaid",
     "SetName": "Atheon's Memory",
     "PieceRequirement": "2 Piece",
@@ -539,7 +539,7 @@
               "text": " to trigger an explosion that deals up to 360 ["
             },
             {
-              "text": "?",
+              "text": "11",
               "classNames": [
                 "pvp"
               ]
@@ -577,7 +577,7 @@
   },
   {
     "Name": "Collective Power",
-    "Description": "Upon scoring 5 damage instances while any Elemental Buff is active:\nSpawns an Orb of Power on the user that grants 0.8?% Super Energy.\nIncurs a 1 second cooldown upon spawning an Orb where additional damage instances will not count.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 4 seconds to trigger. \nConsecutive triggers take a minimum of 5 seconds to reproc.\n\nDamage Instances count on Immune Enemies as well.\n\nElemental Buffs:\nAmplified, Bolt Charge | Cure, Radiant, Restoration | Devour, Invisibility, Overshield\nFrost Armor | Woven Mail\nAnd also standing in a Healing Rift for no reason",
+    "Description": "Upon scoring 5 damage instances while any Elemental Buff is active:\nSpawns an Orb of Power on the user that grants 0.8?% Super Energy.\nIncurs a 1 second cooldown upon spawning an Orb where additional damage instances will not count.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 4 seconds to trigger. \nConsecutive triggers take a minimum of 5 seconds to reproc.\n\nDamage Instances dealt to Immune Enemies count towards spawning Orbs.\n\nElemental Buffs:\nAmplified, Bolt Charge | Cure, Radiant, Restoration | Devour, Invisibility, Overshield\nFrost Armor | Woven Mail\nAnd also standing in a Healing Rift for no reason",
     "Comment": "Vault of Glass\nRaid",
     "SetName": "Atheon's Memory",
     "PieceRequirement": "4 Piece",
@@ -629,7 +629,7 @@
         {
           "linesContent": [
             {
-              "text": "Damage Instances count on Immune Enemies as well."
+              "text": "Damage Instances dealt to Immune Enemies count towards spawning Orbs."
             }
           ]
         },
@@ -749,7 +749,7 @@
   },
   {
     "Name": "Iaido",
-    "Description": "Upon scoring a Weapon Kill within ? seconds of reloading or readying a weapon:\nRestores 35 HP.\nIncurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
+    "Description": "Upon scoring a Weapon Kill within 4 seconds of reloading or readying a weapon:\nRestores 40 HP.\nIncurs a 3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
     "Comment": "Pinnacle Ops",
     "SetName": "Bushido",
     "PieceRequirement": "2 Piece",
@@ -761,21 +761,21 @@
         {
           "linesContent": [
             {
-              "text": "Upon scoring a Weapon Kill within ? seconds of reloading or readying a weapon:"
+              "text": "Upon scoring a Weapon Kill within 4 seconds of reloading or readying a weapon:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Restores 35 HP."
+              "text": "Restores 40 HP."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Incurs a ~3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill."
+              "text": "Incurs a 3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill."
             }
           ]
         }
@@ -784,7 +784,7 @@
   },
   {
     "Name": "Unfaltering Focus",
-    "Description": "On Bow, Shotgun, or Sword Kill:\nResist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds.",
+    "Description": "On Bow, Shotgun, or Sword Kill:\nResist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 10 seconds.",
     "Comment": "Pinnacle Ops",
     "SetName": "Bushido",
     "PieceRequirement": "4 Piece",
@@ -837,7 +837,7 @@
         {
           "linesContent": [
             {
-              "text": "Dealing additional Weapon Damage extends the buff duration by +2 seconds, up to 9 seconds."
+              "text": "Dealing additional Weapon Damage extends the buff duration by +2 seconds, up to 10 seconds."
             }
           ]
         }
@@ -1681,7 +1681,7 @@
   },
   {
     "Name": "Resupply",
-    "Description": "Scoring a kill spawns an Orb of Power that grants 1?% Super Energy, as well as +20% Special Ammo Progress and +20% Power Ammo Progress.\nIncurs a 12 second cooldown before it can retrigger.",
+    "Description": "Scoring a kill spawns an Orb of Power that grants 1?% Super Energy, as well as +20% Special Ammo Progress and +20% Heavy Ammo Progress.\nIncurs a 12 second cooldown before it can retrigger.",
     "Comment": "Europa\nDestination",
     "SetName": "Crystocrene",
     "PieceRequirement": "2 Piece",
@@ -1705,7 +1705,7 @@
               "text": " Progress and +20% "
             },
             {
-              "text": "Power Ammo",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
@@ -1780,7 +1780,7 @@
   },
   {
     "Name": "Adrenal Rush",
-    "Description": "Upon sprinting for 0.5 seconds:\nGrants Adrenal Rush for 5 seconds.\nScoring a kill or retriggering the perk refreshes the buff duration.\n\nAdrenal Rush | +30? Handling and Reload Speed.\nwill confirm soon-ish don't worry",
+    "Description": "Upon sprinting for 0.5 seconds:\nGrants Adrenal Rush for 5 seconds.\nScoring a kill or retriggering the perk refreshes the buff duration.\n\nAdrenal Rush | +40 Handling, +30 Reload Speed, and 0.95x Reload Duration Multiplier.",
     "Comment": "Gambit",
     "SetName": "Cyberserpent Null",
     "PieceRequirement": "2 Piece",
@@ -1833,14 +1833,7 @@
               ]
             },
             {
-              "text": " | +30? Handling and Reload Speed."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "will confirm soon-ish don't worry"
+              "text": " | +40 Handling, +30 Reload Speed, and 0.95x Reload Duration Multiplier."
             }
           ]
         }
@@ -1849,7 +1842,7 @@
   },
   {
     "Name": "Bountiful Munitions",
-    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant +3% Special Ammo Progress.\nElite+ Combatants Kills grant +16% Special Ammo Progress.\nElite+ Taken Combatant Kills grant +24% Special Ammo Progress.\nGuardian Kills grant +?% Special Ammo Progress.",
+    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant +3% Special Ammo Progress.\nElite+ Combatants Kills grant +16% Special Ammo Progress.\nElite+ Taken Combatant Kills grant +24% Special Ammo Progress.\nGuardian Kills grant +?% Special Ammo Progress.\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs, granting +16% Special Ammo Progress.\n\nHave fun being Ammo Printers, Rimecoat Howlers of Fealty, don't forget your Scout Mod for your \"friends\".",
     "Comment": "Gambit",
     "SetName": "Cyberserpent Null",
     "PieceRequirement": "4 Piece",
@@ -1926,6 +1919,34 @@
             },
             {
               "text": " Progress."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be triggered by destroying \"destroyable entities\" as well as Constructs, granting +16% "
+            },
+            {
+              "text": "Special Ammo",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " Progress."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Have fun being Ammo Printers, Rimecoat Howlers of Fealty, don't forget your Scout Mod for your \"friends\"."
             }
           ]
         }
@@ -3119,7 +3140,7 @@
   },
   {
     "Name": "Built from Scratch",
-    "Description": "While Power? Ammo Reserves are <% Maximum Total Ammo:\nCombatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars.\n\nPrimary Ammo Weapons grant +3% Special Ammo Progress.\nSpecial Ammo Weapons receive +2% Power Ammo Progress.",
+    "Description": "Combatant Kills grant additional Ammo Progress based on their Ammo Type if Ammo Reserves are low.\n\nPrimary Ammo Weapons grant +3% Special Ammo Progress while Special Ammo Reserves <20%.\nSpecial Ammo Weapons receive +2% Heavy Ammo Progress while Heavy Ammo Reserves <20%.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Ferropotent",
     "PieceRequirement": "4 Piece",
@@ -3131,14 +3152,7 @@
         {
           "linesContent": [
             {
-              "text": "While Power? Ammo Reserves are <% Maximum Total Ammo:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Combatant Kills grant additional Ammo Progress based on their Ammo Type. Bonus Ammo Progress is unaffected by scalars."
+              "text": "Combatant Kills grant additional Ammo Progress based on their Ammo Type if Ammo Reserves are low."
             }
           ]
         },
@@ -3165,7 +3179,16 @@
               ]
             },
             {
-              "text": " Progress."
+              "text": " Progress while "
+            },
+            {
+              "text": "Special Ammo Reserves",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " <20%."
             }
           ]
         },
@@ -3181,13 +3204,22 @@
               "text": " receive +2% "
             },
             {
-              "text": "Power Ammo",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
             },
             {
-              "text": " Progress."
+              "text": " Progress while "
+            },
+            {
+              "text": "Heavy Ammo Reserves",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": " <20%."
             }
           ]
         }
@@ -3522,7 +3554,7 @@
   },
   {
     "Name": "Taken Armaments",
-    "Description": "On Grenade Kill:\n?% Heavy Ammo Progress.",
+    "Description": "On Grenade Kill:\n+10% Heavy Ammo Progress.",
     "Comment": "Last Wish\nRaid",
     "SetName": "Great Hunt",
     "PieceRequirement": "4 Piece",
@@ -3541,7 +3573,7 @@
         {
           "linesContent": [
             {
-              "text": "?% "
+              "text": "+10% "
             },
             {
               "text": "Heavy Ammo",
@@ -3559,9 +3591,9 @@
   },
   {
     "Name": "Primary Honing",
-    "Description": "+? Handling and +? Reload Speed for Primary Weapons.\n\nIncreased Primary Weapon Damage against Non-Boss Combatants based on the Weapons stat.\n\nCompared to the damage dealt at the equivalent Weapons Stat:\n20 Stat = 0.6% | 40 = 1.2% | 60 = 1.8% | 80 = 2.4% | 100 = 3%\n120 = 4.75% | 140 = 6.6% | 160 = 8.35% | 180 = 10.2% | 200 = 12%",
+    "Description": "+15 Handling and 0.9x Reload Duration Multiplier for Primary Weapons.\n\nIncreased Primary Weapon Damage against Non-Boss Combatants based on the Weapons stat.\n\nCompared to the damage dealt at the equivalent Weapons Stat:\n20 Stat = 0.6% | 40 = 1.2% | 60 = 1.8% | 80 = 2.4% | 100 = 3%\n120 = 4.75% | 140 = 6.6% | 160 = 8.35% | 180 = 10.2% | 200 = 12%",
     "Comment": "Iron Banner",
-    "SetName": "Iron Batallion",
+    "SetName": "Iron Battalion",
     "PieceRequirement": "2 Piece",
     "hash": 3575602896,
     "parentHash": "1777208707",
@@ -3571,7 +3603,7 @@
         {
           "linesContent": [
             {
-              "text": "+? Handling and +? Reload Speed for "
+              "text": "+15 Handling and 0.9x Reload Duration Multiplier for "
             },
             {
               "text": "Primary Weapons",
@@ -3638,7 +3670,7 @@
     "Name": "Supercyclical",
     "Description": "Upon scoring kills while in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy once it ends.\n\nUpon scoring kills with Super Damage while NOT in a Super Ability:\nx1 = ~5?% | x2 = ?% | x3 = ?% | x4 = ?% | x5 = ?% | x6 = ~33% Super Ability Energy.\n\nSuper Ability Refund Cap is reset on Super Ability Cast or upon swaping off of Supercyclical and then reacquiring the 4 Piece Perk by changing gear.",
     "Comment": "Iron Banner",
-    "SetName": "Iron Batallion",
+    "SetName": "Iron Battalion",
     "PieceRequirement": "4 Piece",
     "hash": 3575602897,
     "parentHash": "1777208707",
@@ -3758,7 +3790,7 @@
   },
   {
     "Name": "Iron Conviction",
-    "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger until any Shield HP is recovered.",
+    "Description": "Upon reaching Critical Health:\n\n+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 10 meters for 7 seconds.\nAdditional kills while the buff is active refreshes the buff duration.\n\nBuff cannot retrigger until any Shield HP is recovered.",
     "Comment": "Iron Banner",
     "SetName": "Iron Panoply",
     "PieceRequirement": "4 Piece",
@@ -3782,7 +3814,7 @@
         {
           "linesContent": [
             {
-              "text": "+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 15? meters for 7 seconds."
+              "text": "+35 Ammo Generation Stat, ?% Flinch Resist, and 15% Damage Resist against Combatants within 10 meters for 7 seconds."
             }
           ]
         },
@@ -4253,7 +4285,7 @@
   },
   {
     "Name": "Cauterize",
-    "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 35 HP.\nIncurs a ? second cooldown between heals.",
+    "Description": "Upon scoring 3 Solar Kills within 3? seconds of each:\nRestores 30 HP.\nIncurs a 1 second cooldown between heals.",
     "Comment": "Solstice",
     "SetName": "Lustrous",
     "PieceRequirement": "4 Piece",
@@ -4281,14 +4313,14 @@
         {
           "linesContent": [
             {
-              "text": "Restores 35 HP."
+              "text": "Restores 30 HP."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Incurs a ? second cooldown between heals."
+              "text": "Incurs a 1 second cooldown between heals."
             }
           ]
         }
@@ -4450,7 +4482,7 @@
   },
   {
     "Name": "Iron Sharpens Iron",
-    "Description": "On Elite+/Guardian Kill:\n+12% Special and +8% Power Ammo Progress.",
+    "Description": "On Elite+/Guardian Kill:\n+12% Special and +7.5% Heavy Ammo Progress.",
     "Comment": "King's Fall\nRaid",
     "SetName": "Oryx's Memory",
     "PieceRequirement": "2 Piece",
@@ -4478,10 +4510,10 @@
               ]
             },
             {
-              "text": " and +8% "
+              "text": " and +7.5% "
             },
             {
-              "text": "Power Ammo",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
@@ -5689,7 +5721,7 @@
   },
   {
     "Name": "Too Old for This",
-    "Description": "On Elite+ Finisher:\nRestores 35 HP and grants +16% Special Ammo Progress.",
+    "Description": "On Elite+ Finisher:\nRestores 32 HP and +16% Special Ammo Progress.",
     "Comment": "Solo/Fireteam Ops",
     "SetName": "Smoke Jumper",
     "PieceRequirement": "4 Piece",
@@ -5708,7 +5740,7 @@
         {
           "linesContent": [
             {
-              "text": "Restores 35 HP and grants +16% "
+              "text": "Restores 32 HP and +16% "
             },
             {
               "text": "Special Ammo",
@@ -5778,7 +5810,7 @@
   },
   {
     "Name": "Augmented Explosives",
-    "Description": "On Grenade Ability Detonation: \nDisorients enemies within ? meters for ? seconds.",
+    "Description": "On Grenade Ability Detonation: \nDisorients enemies within 10 meters for 2.7 seconds.\nDoes not work on Grapple.",
     "Comment": "Vesper's Host\nDungeon",
     "SetName": "Spacewalk",
     "PieceRequirement": "4 Piece",
@@ -5797,7 +5829,14 @@
         {
           "linesContent": [
             {
-              "text": "Disorients enemies within ? meters for ? seconds."
+              "text": "Disorients enemies within 10 meters for 2.7 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not work on Grapple."
             }
           ]
         }
@@ -6691,7 +6730,7 @@
   },
   {
     "Name": "High Noon",
-    "Description": "Upon readying a weapon:\n7% Increased Precision Damage against Combatants for 4 seconds.\n\nBonus is doubled to 14% Increased Precision Damage for the following:\nWeapons with the Tex Balanced Stock Origin Trait and Tex Mechanica Exotics.\nDead Man's Tale | Huckleberry | Last Word | Tarrabah | Chaperone | Prospector",
+    "Description": "Upon readying a weapon:\n7% Increased Weakspot Damage against Combatants for 4 seconds.\nBuffs \"Precision Hits\" against Shielded Combatants and works on weapons without Precision Multipliers as long as they hit the weakspot.\nWeakspot Buffs do not work on a Divinity Bubble\n\nBonus is doubled to 14% Increased Weakspot Damage for the following:\nWeapons with the Tex Balanced Stock Origin Trait and Tex Mechanica Exotics.\nDead Man's Tale | Huckleberry | Last Word | Tarrabah | Chaperone | Prospector",
     "Comment": "Spire of the Watcher\nDungeon",
     "SetName": "TM Custom",
     "PieceRequirement": "4 Piece",
@@ -6710,7 +6749,21 @@
         {
           "linesContent": [
             {
-              "text": "7% Increased Precision Damage against Combatants for 4 seconds."
+              "text": "7% Increased Weakspot Damage against Combatants for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buffs \"Precision Hits\" against Shielded Combatants and works on weapons without Precision Multipliers as long as they hit the weakspot."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weakspot Buffs do not work on a Divinity Bubble"
             }
           ]
         },
@@ -6722,7 +6775,7 @@
         {
           "linesContent": [
             {
-              "text": "Bonus is doubled to 14% Increased Precision Damage for the following:"
+              "text": "Bonus is doubled to 14% Increased Weakspot Damage for the following:"
             }
           ]
         },
@@ -6745,7 +6798,7 @@
   },
   {
     "Name": "Scoot to Loot",
-    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\n+? Handling and +? Reload Speed for 10? seconds.",
+    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\n+25 Handling and +25 Reload Speed for 10 seconds.",
     "Comment": "Quickplay Crucible",
     "SetName": "Triumphal Anthem",
     "PieceRequirement": "2 Piece",
@@ -6771,7 +6824,7 @@
         {
           "linesContent": [
             {
-              "text": "+? Handling and +? Reload Speed for 10? seconds."
+              "text": "+25 Handling and +25 Reload Speed for 10 seconds."
             }
           ]
         }
@@ -6950,7 +7003,7 @@
   },
   {
     "Name": "Superluminal Motion",
-    "Description": "Upon dealing Super Damage, while Movement Speed isn't 0m/s:\nRestores 30 [15] HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+    "Description": "Upon dealing Super Damage, while Movement Speed isn't 0m/s:\nRestores ? [?] HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
     "Comment": "Desert Perpetual\nEpic Raid",
     "SetName": "Uncaged Deviants",
     "PieceRequirement": "4 Piece",
@@ -6969,10 +7022,10 @@
         {
           "linesContent": [
             {
-              "text": "Restores 30 ["
+              "text": "Restores ? ["
             },
             {
-              "text": "15",
+              "text": "?",
               "classNames": [
                 "pvp"
               ]

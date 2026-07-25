@@ -15,7 +15,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Overshield",
-    "Description": "Void Overshield with up to 45 HP for 10+5 seconds. Overshield has 70% Damage Resist against Combatants.\n\nDamage dealt to Void Overshields does not stop Health Regeneration.\nThis applies to any Overshield.\n\nCannot gain Overshield while in a Healing Rift."
+    "Description": "Void Overshield with up to 45 HP for 10+5 seconds.\nVoid Overshield's HP portion has 70% Damage Resist (150eHP) against Combatants.\n\nDamage dealt to Void Overshields does not stop Health Regeneration.\nOvershield can stack with other overshields, such as Turnabout's OS and Class Stat's OS. Overshield layers are determined by \"First In, First Out\"."
   },
   {
     "Class": "General",
@@ -135,7 +135,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Echo of Undermining",
-    "Description": "Void Grenades apply Weaken on hit for 6 [2.5] seconds."
+    "Description": "Void Grenades inflict Weaken on hit for 6 [2.5] seconds."
   },
   {
     "Class": "General",
@@ -195,7 +195,7 @@
     "Class": "General",
     "Type": "Melee",
     "Name": "Phantom Surge",
-    "Description": "Dashes forward up to ? meters away, slashing through enemies.\nDash can phase through enemies.\n\nDeals 595 [?] Damage within ? meters.\nDamage is increased by 100% [?%] against Void-Debuffed Enemies and On The Prowl's Marked Enemy.\nGrants +10 Void Overshield per enemy hit.\n\nScoring a kill grants an additional +45 Void Overshield and refunds 50% Melee Ability Energy."
+    "Description": "Slashes forward up to 12 meters away, dealing 595 [?] Damage to enemies within 2 meters while phasing through them.\n\nGrants +10 Void Overshield per enemy hit.\n\nAgainst either Void-Debuffed Enemies OR On The Prowl's Marked Enemy:\nDamage is increased by 100% [?%].\n\nScoring a kill grants an additional +45 Void Overshield and refunds 60% Melee Ability Energy."
   },
   {
     "Class": "General",
@@ -207,7 +207,7 @@
     "Class": "General",
     "Type": "Super",
     "Name": "Spectral Blades",
-    "Description": "General Super Information\nDamage Resistance: 90% [59?% Invisible | 58% Visible]\nBase Duration: 23.5 seconds or 4.25% Super Drain per second. Drains 50% faster if not invisible.\n\nLight Attack\nDrains 5?% Super Energy.\nDeals 1107 [?] damage and removes Void Invisibility.\nAttacks ? times per second. Uninterrupted hits against enemies grants up to 25?% Increased Melee Attack Speed\n\nHeavy Attack\nDrains 15?% Super Energy.\n[Heavy Attack] performs an uppercut, dealing 1620 [?] damage and applying Weaken and granting Invisibility.\n\nAllows unlimited Trapper's Ambush usage, at the cost of 15%? Super Energy."
+    "Description": "General Super Information\nDamage Resistance: 90% [59?% Invisible | 58% Visible]\nBase Duration: 23.5 seconds or 4.25% Super Drain per second. Drains 50% faster if not invisible.\n\nLight Attack | Drains 5?% Super Energy.\nDeals 1107 [?] damage and removes Void Invisibility.\nAttacks ? times per second. Uninterrupted hits against enemies grants up to 25?% Increased Melee Attack Speed\n\nHeavy Attack | Drains 15?% Super Energy.\n[Heavy Attack] performs an uppercut, dealing 1620 [?] damage and applying Weaken and granting Invisibility.\n\nAllows unlimited Trapper's Ambush usage, at the cost of 15%? Super Energy."
   },
   {
     "Class": "General",
@@ -243,7 +243,7 @@
     "Class": "General",
     "Type": "Aspect",
     "Name": "Trapper's Ambush",
-    "Description": "[Air Move] triggers Quickfall, consuming a Class Ability Charge.\nTriggers the effects of the equipped Class Ability on usage. Quickfall retriggers Invisibility if said buff is active.\n\nQuickfall:\nPerforms a slam, dealing up to 630 [71] Void Damage over ? meters.\nDamage is increased by 50% while a Void Buff is active.\nRestores ? HP upon dealing damage.\nKills grant Devour for 10+5 seconds.\n–––––\nWhile Vanishing Step is also equipped:\nQuickfall inflicts disorient and weaken to enemies and grants invisibility to the user and allies within 10 meters.\n\nAspect's damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat."
+    "Description": "[Air Move] triggers Quickfall, consuming a Class Ability Charge.\nTriggers the effects of the equipped Class Ability on usage. Quickfall retriggers Invisibility if said buff is active.\n\nQuickfall:\nPerforms a slam, dealing up to 630 [71 Guardians | 700 Constructs] Void Damage over ? meters.\nDamage is increased by 50% while a Void Buff is active.\nRestores ? HP upon dealing damage.\nKills grant Devour for 10+5 seconds.\n–––––\nWhile Vanishing Step is also equipped:\nQuickfall inflicts disorient and weaken to enemies and grants invisibility to the user and allies within 10 meters.\n\nAspect's damage scales with Class Stat above 100, up to 65% [?%] at 200 Stat."
   },
   {
     "Class": "General",
@@ -255,7 +255,7 @@
     "Class": "Titan",
     "Type": "Melee",
     "Name": "Shield Bash",
-    "Description": "Shared with other Shoulder Charge Abilities:\nRequires sprinting for 1.25 seconds. Drains 15% Melee Ability Energy if no enemy is hit. Unable to use during slide if user shoots. \nGuardians directly hit by Shoulder Charge have their Melee Lunge disabled for 0.5 seconds\nLunges forward 6.8 meters, automatically targeting enemies in range.\n\nHitting an enemy deals 595 [110] damage, as well as dealing up to 216 [40] radial damage and applying Suppression to enemies within 2 meters.\n\nScoring a kill with Shield Bash grants 45 HP Void Overshield for 10+5 seconds."
+    "Description": "Shared with other Shoulder Charge Abilities:\nRequires sprinting for 1.25 seconds. Drains 15% Melee Ability Energy if no enemy is hit. Unable to use during slide if user shoots. \nGuardians directly hit by Shoulder Charge have their Melee Lunge disabled for 0.5 seconds\nLunges forward 6.8 meters, automatically targeting enemies in range.\n\nHitting an enemy deals 1,073 [110] impact damage, as well as dealing 391 [40] radial damage to enemies up to 7 meters behind the struck target.\nInflicts Suppression to enemies within 2 meters of the struck target.\n\nScoring a kill with Shield Bash grants 45 HP Void Overshield for 10+5 seconds."
   },
   {
     "Class": "Titan",
@@ -267,7 +267,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Sentinel Shield",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 17 seconds or 5.88% Super Drain per second.\n\nLight Attack\nDrains 4.5% Super Energy per Attack. The Final Hit in the combo drains 2% Super Energy.\nGrounded 3-Hit Combo, dealing 797 [?] and 856 [?] damage. \nAirborne 2-Hit Combo, dealing 797 [?] damage\nThe Final Hit in a combo deals 1516 [?] damage in a ? metre cone.\n\nHeavy Attack\nGenerates an impenetrable barrier that allies can shoot through, at the cost of 20% Decreased Movement Speed.\nEnemies that touch the barrier receive 7 [?] Damage every 0.05 seconds.\nBlocking ? [any] damage generates an Orb of Power that grants 2.5?% Super Energy. Incurs a 1.5 second cooldown between Orb of Power spawns.\nEnhances Shield Throw Damage as more damage is blocked, up to 1787% increased damage after blocking ? damage.\nExtends Super Duration by up to ?% by continuously blocking damage.\n\nAllies standing within 5m behind the barrier are granted 25% Increased Damage, a 45 HP Void Overshield, +50 Handling, and +50 Reload Speed. \nAdditionally, all of their weapons are refilled every 2.5 seconds.\nAlly's Void Overshield begins regenerating at a rate of 9HP/s after not receiving damage for 3 seconds.\n\nPassive Super Energy Drain while Blocking can be decreased by having allies behind the shield.\nx1 = 20% | x2 = 35% | x3 = ?% | x4 = ?% | x5 = 50%\n\nGrenade Ability\nDoes not drain Super Energy. Incurs a 3 second cooldown between Shield Throws.\nPerforms a Shield Throw, tossing the Sentinel Shield towards enemies.\nSentinel Shield deals 723 [?] damage, and can ricochet on impact, up to ? times. Ricochets are aimed towards enemies within ? meters."
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 17 seconds or 5.88% Super Drain per second.\n\nLight Attack | Drains 4.5% Super Energy per Attack. The Final Hit in the combo drains 2% Super Energy.\nGrounded 3-Hit Combo, dealing 797 [?] and 856 [?] damage. \nAirborne 2-Hit Combo, dealing 797 [?] damage\nThe Final Hit in a combo deals 1516 [?] damage in a ? metre cone.\n\nHeavy Attack\nGenerates an impenetrable barrier that allies can shoot through, at the cost of 20% Decreased Movement Speed.\nCaster is granted damage immunity from all frontal damage, including Enemy Guardians.\nEnemies that touch the barrier receive 7 [?] Damage every 0.05 seconds.\nBlocking ? [any] damage generates an Orb of Power that grants 2.5?% Super Energy. Incurs a 1.5 second cooldown between Orb of Power spawns.\nEnhances Shield Throw Damage as more damage is blocked, up to 1787% increased damage after blocking ? damage.\nExtends Super Duration by up to ?% by continuously blocking damage.\nGuardian Damage is completely nullified and do not proc on-hit related effects on the Impenetrable Barrier. \nAbility Damage removes Super Energy but partially extends it at the same time.\n\nAllies standing within 5m behind the barrier are granted 25% Increased Damage, a 45 HP Void Overshield, +50 Handling, and +50 Reload Speed. \nAdditionally, all of their weapons are refilled every 2.5 seconds.\nAllied Guardian's Void Overshield begins regenerating at a rate of 9HP/s after not receiving damage for 3 seconds.\n\nPassive Super Energy Drain while Blocking can be decreased by having allies behind the shield.\nx1 = 20% | x2 = 35% | x3 = ?% | x4 = ?% | x5 = 50%\n\nGrenade Ability | Does not drain Super Energy. Incurs a 3 second cooldown between Shield Throws.\nPerforms a Shield Throw, tossing the Sentinel Shield towards enemies.\nSentinel Shield deals 723 [?] damage, and can ricochet on impact, up to ? times. Ricochets are aimed towards enemies within ? meters."
   },
   {
     "Class": "Titan",
@@ -279,13 +279,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Ward of Dawn",
-    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nConstruct with 8,000 HP. Guardian Weapons deal 50% increased damage towards it, and abilities are uniquely tweaked.\nProjects a dome-shaped barrier with a 3 meter radius that blocks incoming and outgoing projectiles, prevents damage from the outside, and continuously generates 16.5 [11] HP Void Overshield per second to allies within ? meters outside of it.\nInflicts Weaken to enemies within 6 meters on cast.\nCombatants deal 0.25x Damage against the Ward of Dawn.\n\nBeing inside the dome grants Void Overshield, 60% [30%] Damage Resist, +50 Handling, and +50 Reload Speed.\nVoid Overshield regenerates at a rate of 49.5HP/s after 3 seconds of not receiving damage while inside the dome.\nCombatants up to ? meters away are taunted towards Guardians inside the dome.\nCaster can generate up to 5? Orbs of Power by scoring Melee Kills while within the dome."
-  },
-  {
-    "Class": "Titan",
-    "Type": "Super",
-    "Name": "Ward of Dawn",
-    "Description": "ill do this at some point, promise :)\n\nGeneral Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nConstruct with 8,000 HP. Guardian Weapons deal 50% increased damage towards it, and abilities are uniquely tweaked.\nProjects a dome-shaped barrier with a 3 meter radius that blocks incoming and outgoing projectiles, prevents damage from the outside, and continuously generates 16.5 [11] HP Void Overshield per second to allies within ? meters outside of it.\nInflicts Weaken to enemies within 6 meters on cast.\nCombatants deal 0.25x Damage against the Ward of Dawn.\n\nBeing inside the dome grants Void Overshield, 60% [30%] Damage Resist, +50 Handling, and +50 Reload Speed.\nVoid Overshield regenerates at a rate of 49.5HP/s after 3 seconds of not receiving damage while inside the dome.\nCombatants up to ? meters away are taunted towards Guardians inside the dome.\nCaster can generate up to 5? Orbs of Power by scoring Melee Kills while within the dome."
+    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nProjects a 8,000 Construct HP Protective Dome with 75??% NEEDS TESTING Damage Resistance against Combatants alongside an internal core with 200 HP.\nGuardians deal 50% increased damage to the Protective Dome itself. Ability Damage scales uniquely.\nProtective Dome covers an 8 meter radius centered around its internal core for 30 seconds. Destroying the core destroys the Ward of Dawn.\nThe Ward of Dawn prevents all projectiles from entering or leaving the dome unless an enemy is within it.\nWhile a Combatant is inside the dome: The caster and their allies are able to shoot through the dome.\nDeploying or redeploying the Ward of Dawn pulls Combatants within 15 meters inwards.\nSuper Stat scales its duration by up to +10 seconds at 200 Super Stat.\n\nWhile inside the Ward of Dawn Dome:\nWard of Dawn Caster receives +50% Increased Melee Damage. Scoring a Melee Kill as the Caster generates an Orb of Power up to 5 times per Super cast.\nEnemies are constantly weakened. Combatants up to ? meters away are taunted towards Guardians inside the dome.\nArmor of Light | Constantly generates 15 Void Overshield/s and grants 40% [?%] Damage Resist, +50 Handling, and +50 Reload Speed.\n\nRedeployement:\nThe Ward of Dawn Core can be picked up by the caster after 3 seconds of being deployed, up to twice per cast. Swirling orbs represent the amount of pickups left.\nWhile picked up: Remaining Ward of Dawn duration is decreased by 1 second every (77 / Armor of Light seconds left on pickup).\nThe Core can be thrown to redeploy by the caster up to 2 times per cast."
   },
   {
     "Class": "Titan",
@@ -297,19 +291,19 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Controlled Demolition",
-    "Description": "Dealing Void Ability Damage inflicts Volatile.\nVolatile Explosions also count as Void Ability Damage.\n\nUpon triggering a Volatile Explosion:\nRestores 90 HP. \nAllies within 40 meters, centered on the user, are also granted health."
+    "Description": "Void Ability Damage inflicts Volatile.\nVolatile Explosions also count as Void Ability Damage.\n\nVolatile Explosions restore 90 HP to the user and allies within 40 meters of the user."
   },
   {
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Offensive Bulwark",
-    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while affected by a Ward of Dawn's Armor of Light:\n400% [200%] Additional Base Grenade Regeneration Rate, 160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10? HP Void Overshield and grant ?% Melee Ability Energy.\nUnpowered Melee Hits count as Powered Void Melee Hits, except for Doomfang Pauldrons."
+    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while within a Ward of Dawn:\nKills grant 9% Grenade and 9% Melee Ability Energy.\n160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10 HP Void Overshield.\nBasic Melee Hits count as Void Powered Melee Hits, except for Doomfang Pauldrons and Severance Enclosure."
   },
   {
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Unbreakable",
-    "Description": "Hold [Grenade] to summon a Void Shield.\nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [75?%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nContinuously generates ? Void Overshield HP/s. Void Overshield lasts for 5+2.5 seconds.\nDrains 50% Grenade Energy over 1 second, then 25% Grenade Energy per second.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants ?% Fixed Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 495 [64?] damage for not blocking any damage, linearly scaling to 2760? [178?] damage after receiving a lot [?] blocked damage.\n\nUnbreakable Kills grant Devour for ?+? seconds."
+    "Description": "Hold [Grenade] to summon a Void Shield.\nOverrides Grenade Ability Cooldown to 152 seconds at base while equipped.\n\nVoid Shield:\nGrants 95?% [64%] Damage Resist against blocked damage, and taunts Combatants in front of the user. Combatants that come into contact with the shield become disoriented.\nGenerates 10 Void Overshield HP/s that lasts 5+2.5 seconds while draining 7.5% Grenade Energy/s.\nBlocking damage decreases Forward Movement Speed by 50?% for 0.5? seconds.\nBlocking damage grants Grenade Energy. Energy gains are progressively reduced (over time) OR (as Unbreakable gains damage)?, down to ?% Energy after ? seconds.\nVoid Shield has no Movement Speed Penalties, only restricting mantling. Sprinting cancels Void Shield.\n\nWhile Sentinel Shield Super Ability is equipped:\nGuarding against any damage spawns an Orb of Power that grants 2.5% Super Energy to allies.\nIncurs a 4.5 second cooldown between Orb of Power spawns.\n\nReleasing [Grenade] or running out of Grenade Energy releases a frontal blast, consuming 50% Grenade Energy and dealing damage up to 11 meters away.\nDeals a minimum of 430 [64?] Grenade Damage for not blocking any damage, scaling to 1584 [178?] damage after receiving a lot [?] blocked damage.\n\nUnbreakable Kills grant Devour for 10+5 seconds."
   },
   {
     "Class": "Warlock",

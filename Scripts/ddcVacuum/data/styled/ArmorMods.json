@@ -1,7 +1,7 @@
 [
   {
     "Name": "Ammo Scout",
-    "Description": "Upon spawning a Mod-Matching Ammo Brick:\nAllies receive a copy of the Ammo Brick.\n\nAmmo Scout Brick Pickup Amounts:\n37% | 67% | 100% of a regular Ammo Brick's.",
+    "Description": "Upon spawning a Mod-Matching Ammo Brick:\nAllies receive a copy of the Ammo Brick.\n\nAmmo Scout Brick Pickup Amounts:\n37% | 67% | 100% of a regular Ammo Brick's.\n\nEnhanced Brick Chance is determined by the ally's Weapons Stat.",
     "Type": "HelmetMods",
     "Comment": "[1 Energy]",
     "hash_warning": "No matching hash found in d2glossary",
@@ -43,6 +43,18 @@
           "linesContent": [
             {
               "text": "37% | 67% | 100% of a regular Ammo Brick's."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Enhanced Brick Chance is determined by the ally's Weapons Stat."
             }
           ]
         }
@@ -802,7 +814,7 @@
   },
   {
     "Name": "Power Preservation",
-    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 1.5? seconds cooldown between Orbs.",
+    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 2 seconds cooldown between Orbs.",
     "Type": "HelmetMods",
     "Comment": "[3 Energy]",
     "hash": 3149307605,
@@ -851,7 +863,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 1.5? seconds cooldown between Orbs."
+              "text": "Incurs a 2 seconds cooldown between Orbs."
             }
           ]
         }
@@ -860,7 +872,7 @@
   },
   {
     "Name": "Power Preservation",
-    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 1.5? seconds cooldown between Orbs.",
+    "Description": "On Super Kill:\nSpawns a Orb of Power for Allies.\n\nOrb of Power:\n2.5% | 3.75% | 4.4% Super Energy.\n\nIncurs a 2 seconds cooldown between Orbs.",
     "Type": "HelmetMods",
     "Comment": "[3 Energy]",
     "hash": 2982306509,
@@ -909,7 +921,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 1.5? seconds cooldown between Orbs."
+              "text": "Incurs a 2 seconds cooldown between Orbs."
             }
           ]
         }
@@ -2881,7 +2893,7 @@
   },
   {
     "Name": "Resistance",
-    "Description": "Grants 15% | 25% | 30% Damage Resist against Combatants.\n\nElemental Mods reduce Mod-Matching Elemental damage.\nSniper reduces damage from >30 metres.\nMelee reduces damage from <5 metres.\nConcussive Dampener reduces AoE/Blast/Explosive Damage.\n\nDifferent Resist Mods, as well as other sources of Resist all stack multiplicatively with each other.",
+    "Description": "15% | 25% | 30% Damage Resist against Combatants.\n\nElemental Mods reduce Mod-Matching Elemental damage.\nSniper reduces damage from >30 metres.\nMelee reduces damage from <5 metres.\nConcussive Dampener reduces AoE/Blast/Explosive Damage.\n\nDifferent Resist Mods, as well as other sources of Resist all stack multiplicatively with each other.",
     "Type": "ChestMods",
     "Comment": "[1–3 Energy]",
     "hash_warning": "No matching hash found in d2glossary",
@@ -2890,7 +2902,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 15% | 25% | 30% Damage Resist against Combatants."
+              "text": "15% | 25% | 30% Damage Resist against Combatants."
             }
           ]
         },
@@ -3790,7 +3802,7 @@
   },
   {
     "Name": "Stacks on Stacks",
-    "Description": "All sources of Armor Charge now grant an additional stack.",
+    "Description": "All sources of Armor Charge now grant an additional stack unless explicitly stated not to.",
     "Type": "LegsMods",
     "Comment": "[4 Energy]",
     "hash": 3994043492,
@@ -3801,7 +3813,7 @@
         {
           "linesContent": [
             {
-              "text": "All sources of Armor Charge now grant an additional stack."
+              "text": "All sources of Armor Charge now grant an additional stack unless explicitly stated not to."
             }
           ]
         }
@@ -3810,7 +3822,7 @@
   },
   {
     "Name": "Stacks on Stacks",
-    "Description": "All sources of Armor Charge now grant an additional stack.",
+    "Description": "All sources of Armor Charge now grant an additional stack unless explicitly stated not to.",
     "Type": "LegsMods",
     "Comment": "[4 Energy]",
     "hash": 1627901452,
@@ -3821,7 +3833,7 @@
         {
           "linesContent": [
             {
-              "text": "All sources of Armor Charge now grant an additional stack."
+              "text": "All sources of Armor Charge now grant an additional stack unless explicitly stated not to."
             }
           ]
         }

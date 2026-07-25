@@ -9,7 +9,7 @@
   },
   {
     "Name": "Overshield",
-    "Description": "Void Overshield with up to 45 HP for 10+5 seconds. Overshield has 70% Damage Resist against Combatants.\n\nDamage dealt to Void Overshields does not stop Health Regeneration.\nThis applies to any Overshield.\n\nCannot gain Overshield while in a Healing Rift."
+    "Description": "Void Overshield with up to 45 HP for 10+5 seconds.\nVoid Overshield's HP portion has 70% Damage Resist (150eHP) against Combatants.\n\nDamage dealt to Void Overshields does not stop Health Regeneration.\nOvershield can stack with other overshields, such as Turnabout's OS and Class Stat's OS. Overshield layers are determined by \"First In, First Out\"."
   },
   {
     "Name": "Void Breach",

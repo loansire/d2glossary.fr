@@ -3631,7 +3631,7 @@
   },
   {
     "Name": "Dark Ether Reaper",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elites = ?% ↑?% | Minibosses+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nIncurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
     "Comment": "Episode: Revenant",
     "hash": 2041432007,
     "parentHash": "2041432007",
@@ -3657,16 +3657,7 @@
               ]
             },
             {
-              "text": " | Elites = ?% "
-            },
-            {
-              "text": "↑?%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " | Minibosses+ = 100% | Guardians = 25% "
+              "text": " | Elite+ = 100% | Guardians = 25% "
             },
             {
               "text": "↑?%",
@@ -3698,7 +3689,7 @@
         {
           "linesContent": [
             {
-              "text": "Dark Ether Charges can be detonated by either shooting or coming into contact with them."
+              "text": "Dark Ether Charges can be detonated by either shooting at them or coming into contact with them."
             }
           ]
         },
@@ -3714,14 +3705,14 @@
               ]
             },
             {
-              "text": "] Element-Matching Damage over 3? meters."
+              "text": "] Element-Matching Weapon Damage over 3? meters."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter."
             }
           ]
         },
@@ -3768,7 +3759,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count."
+              "text": "Dark Ether Charge Progress is paused if a Dark Ether Charge has spawned."
             }
           ]
         }
@@ -3777,7 +3768,7 @@
   },
   {
     "Name": "Dark Ether Reaper",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elites = ?% ↑?% | Minibosses+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nIncurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
     "Comment": "Episode: Revenant",
     "hash": 118308935,
     "parentHash": "118308935",
@@ -3803,16 +3794,7 @@
               ]
             },
             {
-              "text": " | Elites = ?% "
-            },
-            {
-              "text": "↑?%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " | Minibosses+ = 100% | Guardians = 25% "
+              "text": " | Elite+ = 100% | Guardians = 25% "
             },
             {
               "text": "↑?%",
@@ -3844,7 +3826,7 @@
         {
           "linesContent": [
             {
-              "text": "Dark Ether Charges can be detonated by either shooting or coming into contact with them."
+              "text": "Dark Ether Charges can be detonated by either shooting at them or coming into contact with them."
             }
           ]
         },
@@ -3860,14 +3842,14 @@
               ]
             },
             {
-              "text": "] Element-Matching Damage over 3? meters."
+              "text": "] Element-Matching Weapon Damage over 3? meters."
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Damage against Combatants scales with Combatant Rank Modifiers."
+              "text": "Damage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter."
             }
           ]
         },
@@ -3914,7 +3896,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a ? second cooldown upon spawning a Dark Ether Charge before additional kills count."
+              "text": "Dark Ether Charge Progress is paused if a Dark Ether Charge has spawned."
             }
           ]
         }
@@ -4067,7 +4049,7 @@
   },
   {
     "Name": "Dealer's Choice",
-    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% ↑+?% | x2 = +1.6% ↑+?% | x3 = +3% ↑+?% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X | Still Hunt",
+    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% ↑+?% | x2 = +1.6% ↑+?% | x3 = +3% ↑+?% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X\nErgo Sum | Still Hunt\nMicrocosm",
     "Comment": "The Pale Heart\nDestination",
     "hash": 1988485648,
     "parentHash": "1988485648",
@@ -4160,7 +4142,21 @@
         {
           "linesContent": [
             {
-              "text": "Ace of Spades | Khvostov 7G-0X | Still Hunt"
+              "text": "Ace of Spades | Khvostov 7G-0X"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ergo Sum | Still Hunt"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Microcosm"
             }
           ]
         }
@@ -4169,7 +4165,7 @@
   },
   {
     "Name": "Dealer's Choice",
-    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% ↑+?% | x2 = +1.6% ↑+?% | x3 = +3% ↑+?% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X | Still Hunt",
+    "Description": "Weapon Kills grant additional Super Ability Energy.\nEquipping additional Dealer's Choice Weapons increases the amount of Super Ability Energy gained.\n\nx1 = +0.3% ↑+?% | x2 = +1.6% ↑+?% | x3 = +3% ↑+?% Super Ability Energy.\n\nThe following Exotic Weapons count as additional Dealer's Choice Weapons, but do not benefit from the Super Ability Energy gains.\nAce of Spades | Khvostov 7G-0X\nErgo Sum | Still Hunt\nMicrocosm",
     "Comment": "The Pale Heart\nDestination",
     "hash": 3223868800,
     "parentHash": "3223868800",
@@ -4262,7 +4258,21 @@
         {
           "linesContent": [
             {
-              "text": "Ace of Spades | Khvostov 7G-0X | Still Hunt"
+              "text": "Ace of Spades | Khvostov 7G-0X"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Ergo Sum | Still Hunt"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Microcosm"
             }
           ]
         }
@@ -4903,7 +4913,7 @@
   },
   {
     "Name": "Exhaustive Research",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [50 Primary | 75 Special | 62.5 Heavy] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Description": "Upon ADS near an enemy within 60 meters without firing:\nLoads up a Micro-Missile over 0.6 seconds.\n\nMicro-Missile replaces a regular shot, releasing a Weapon-Matching Missile that deals Ammo Type-Based Explosive Damage, down to 0% damage over 3 meters.\n435 ↑479 [50] Primary | 710 ↑781 [75] Special | 651 ↑716 [62.5] Heavy.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.",
     "Comment": "Kepler\nDestination",
     "hash": 1906137414,
     "parentHash": "1906137414",
@@ -4913,14 +4923,14 @@
         {
           "linesContent": [
             {
-              "text": "While ADS near an enemy within 60 meters:"
+              "text": "Upon ADS near an enemy within 60 meters without firing:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Loads up a Micro-Rocket over 0.6 seconds."
+              "text": "Loads up a Micro-Missile over 0.6 seconds."
             }
           ]
         },
@@ -4932,16 +4942,77 @@
         {
           "linesContent": [
             {
-              "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
+              "text": "Micro-Missile replaces a regular shot, releasing a Weapon-Matching Missile that deals Ammo Type-Based Explosive Damage, down to 0% damage over 3 meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "435 "
             },
             {
-              "text": "50 Primary | 75 Special | 62.5 Heavy",
+              "text": "↑479",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "50",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] Explosive Damage over ? meters."
+              "text": "] Primary | 710 "
+            },
+            {
+              "text": "↑781",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "75",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " | 651 "
+            },
+            {
+              "text": "↑716",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "62.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Heavy."
             }
           ]
         },
@@ -4951,31 +5022,13 @@
               "text": "Incurs a 5.5 second cooldown after firing a missile before it is able to load another rocket."
             }
           ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Rocket Damage is improved.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Damage seems to vary?"
-            }
-          ]
         }
       ]
     }
   },
   {
     "Name": "Exhaustive Research",
-    "Description": "While ADS near an enemy within 60 meters:\nLoads up a Micro-Rocket over 0.6 seconds.\n\nMicro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? [50 Primary | 75 Special | 62.5 Heavy] Explosive Damage over ? meters.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.\n\n↑Rocket Damage is improved. Damage seems to vary?",
+    "Description": "Upon ADS near an enemy within 60 meters without firing:\nLoads up a Micro-Missile over 0.6 seconds.\n\nMicro-Missile replaces a regular shot, releasing a Weapon-Matching Missile that deals Ammo Type-Based Explosive Damage, down to 0% damage over 3 meters.\n435 ↑479 [50] Primary | 710 ↑781 [75] Special | 651 ↑716 [62.5] Heavy.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.",
     "Comment": "Kepler\nDestination",
     "hash": 1278990682,
     "parentHash": "1278990682",
@@ -4985,14 +5038,14 @@
         {
           "linesContent": [
             {
-              "text": "While ADS near an enemy within 60 meters:"
+              "text": "Upon ADS near an enemy within 60 meters without firing:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Loads up a Micro-Rocket over 0.6 seconds."
+              "text": "Loads up a Micro-Missile over 0.6 seconds."
             }
           ]
         },
@@ -5004,16 +5057,77 @@
         {
           "linesContent": [
             {
-              "text": "Micro-Rocket replaces a regular bullet, releasing a Weapon-Matching Missile that deals up to ? ["
+              "text": "Micro-Missile replaces a regular shot, releasing a Weapon-Matching Missile that deals Ammo Type-Based Explosive Damage, down to 0% damage over 3 meters."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "435 "
             },
             {
-              "text": "50 Primary | 75 Special | 62.5 Heavy",
+              "text": "↑479",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "50",
               "classNames": [
                 "pvp"
               ]
             },
             {
-              "text": "] Explosive Damage over ? meters."
+              "text": "] Primary | 710 "
+            },
+            {
+              "text": "↑781",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "75",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Special",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " | 651 "
+            },
+            {
+              "text": "↑716",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "62.5",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] Heavy."
             }
           ]
         },
@@ -5021,24 +5135,6 @@
           "linesContent": [
             {
               "text": "Incurs a 5.5 second cooldown after firing a missile before it is able to load another rocket."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Rocket Damage is improved.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Damage seems to vary?"
             }
           ]
         }
@@ -6099,7 +6195,7 @@
   },
   {
     "Name": "Field-Tested",
-    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
+    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
     "Comment": "Field-Forged Foundry",
     "hash": 2120661319,
     "parentHash": "2120661319",
@@ -6114,11 +6210,6 @@
           ]
         },
         {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
           "linesContent": [
             {
               "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for "
@@ -6321,7 +6412,7 @@
   },
   {
     "Name": "Field-Tested",
-    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
+    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
     "Comment": "Field-Forged Foundry",
     "hash": 1064478151,
     "parentHash": "1064478151",
@@ -6336,11 +6427,6 @@
           ]
         },
         {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
           "linesContent": [
             {
               "text": "Field Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for "
@@ -6543,7 +6629,7 @@
   },
   {
     "Name": "Field-Tested",
-    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \n\nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
+    "Description": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks. \nField Test grants +Range, +Stability, +Handling, and +Reload Speed, or +Charge Rate and +Guard Resistance for Swords.\nBuff is only removed on death.\n\nField Test Stat Bonuses:\n+3 | +6 | +9 | +12 | +20 Range\n+? | +? | +? | +? | +30? Stability\n+? | +? | +? | +? | +? Handling\n+5 | +10 | +20 | +35 | +50 Reload Speed\n+5 | +10 | +20 | +35 | +55 Charge Rate\n+5 | +10 | +20 | +30 | +40 Guard Resistance\n\nCounter Points needed to reach x1 | x2 | x3 | x4 | x5 Stacks:\n x51 | x151 | x351 | x651 | x1001 \nx26 | x76 | x176 | x326 | x501\nx11 | x31 | x71 | x131 | x201\n\nCounter Information:\nEach damage instance counts as 1 hit. Kills count as multiple hits, with the amount varying across Weapon Archetypes and Combatant Rank.\n\nKills for Counter:\nTier 1 and T2 Rank-and-File = x1 | T3+ Combatants = x4 | T1 Elites = x5 | Guardians = x10\n\nPrimary Weapons and Shotguns receive x5 Points from kills.\nSnipers receive x4 Points from hits, and 2.5x from kills.\nBreech-Loaded Grenade Launchers receive x2 Points from kills.",
     "Comment": "Field-Forged Foundry",
     "hash": 43555494,
     "parentHash": "43555494",
@@ -6555,11 +6641,6 @@
             {
               "text": "Scoring Hits and Kills progress a Counter, which grants stacks of Field Test at certain thresholds, up to a maximum of 5 stacks."
             }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
           ]
         },
         {
@@ -7949,7 +8030,7 @@
   },
   {
     "Name": "Hakke Breach Armaments",
-    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.",
+    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑35% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.",
     "Comment": "Häkke\nFoundry",
     "hash": 1607056502,
     "parentHash": "1607056502",
@@ -7990,7 +8071,7 @@
               "text": "30% "
             },
             {
-              "text": "↑?%",
+              "text": "↑35%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8021,7 +8102,7 @@
   },
   {
     "Name": "Hakke Breach Armaments",
-    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑?% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.",
+    "Description": "Passively grants increased damage against Vehicles, Turrets, and Constructs.\n\n15% ↑20% Increased Damage against Vehicles (such as Cyclops, Shriekers, and Tanks).\n30% ↑35% Increased Damage against Turrets and Constructs.\n45?% Increased Damage against Stasis Crystals.",
     "Comment": "Häkke\nFoundry",
     "hash": 250902314,
     "parentHash": "250902314",
@@ -8062,7 +8143,7 @@
               "text": "30% "
             },
             {
-              "text": "↑?%",
+              "text": "↑35%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8094,7 +8175,7 @@
   {
     "Name": "Harmonic Resonance",
     "Description": "Equipping more than one Root of Nightmares Weapon grants increased Handling, Reload Speed, and damage towards enemies wielding Light and Darkness.\n\nList of enemies affected: \nDread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS.\n\nTwo Weapons | +10 ↑+? Handling, 0.95x Reload Duration Multiplier, and 3.33% increased damage.\nThree Weapons | +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.95x Reload Duration Multiplier, and 10% increased damage.",
-    "Comment": "Root of Nightmare\nRaid\n\nEpochal Integration HC",
+    "Comment": "Root of Nightmares\nRaid\n\n+Epochal Integration",
     "hash": 3186078099,
     "parentHash": "3186078099",
     "hash_warning": "Multiple matches found (2 total)",
@@ -8187,7 +8268,7 @@
   {
     "Name": "Harmonic Resonance",
     "Description": "Equipping more than one Root of Nightmares Weapon grants increased Handling, Reload Speed, and damage towards enemies wielding Light and Darkness.\n\nList of enemies affected: \nDread Combatants (+Nezarec) and Lucent Hive Lightbearers | Guardians in their Super Ability or Transcending?. DOES NOT DO ANYTHING TO GUARDIANS.\n\nTwo Weapons | +10 ↑+? Handling, 0.95x Reload Duration Multiplier, and 3.33% increased damage.\nThree Weapons | +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.95x Reload Duration Multiplier, and 10% increased damage.",
-    "Comment": "Root of Nightmare\nRaid\n\nEpochal Integration HC",
+    "Comment": "Root of Nightmares\nRaid\n\n+Epochal Integration",
     "hash": 2600715579,
     "parentHash": "2600715579",
     "hash_warning": "Multiple matches found (2 total)",
@@ -8279,7 +8360,7 @@
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up, after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
+    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
     "Comment": "Season of the Witch",
     "hash": 2565067140,
     "parentHash": "2565067140",
@@ -8289,7 +8370,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon standing up, after crouching for 2 seconds, or after sliding:"
+              "text": "Upon standing up after crouching for 2 seconds, or after sliding:"
             }
           ]
         },
@@ -8323,7 +8404,7 @@
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up, after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
+    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
     "Comment": "Season of the Witch",
     "hash": 2085665100,
     "parentHash": "2085665100",
@@ -8333,7 +8414,7 @@
         {
           "linesContent": [
             {
-              "text": "Upon standing up, after crouching for 2 seconds, or after sliding:"
+              "text": "Upon standing up after crouching for 2 seconds, or after sliding:"
             }
           ]
         },
@@ -8367,8 +8448,8 @@
   },
   {
     "Name": "Heretical Behavior",
-    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 ↑? seconds.\nBeing revived grants Heretical Behavior for ? ↑? seconds.\nBuff can be refreshed by retriggering it.\nGlaive Melee requires 8 hits. Breach GL requires considerably more hits. Support Auto Healing Hits count but require 8 as well.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.",
-    "Comment": "Pit of Heresy\nReprised Heretical Weapons",
+    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 ↑10 seconds.\nBeing revived grants Heretical Behavior for 21 ↑26 seconds.\nBuff can be refreshed to its highest reached duration by retriggering it.\nGlaive Melee requires 8 hits. Support Auto Healing Hits count but require 8 as well.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.",
+    "Comment": "Pit of Heresy\nNether Heretical Weapons",
     "hash": 816963252,
     "parentHash": "816963252",
     "hash_warning": "Multiple matches found (2 total)",
@@ -8396,7 +8477,7 @@
               "text": " for 8 "
             },
             {
-              "text": "↑?",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8418,10 +8499,10 @@
               ]
             },
             {
-              "text": " for ? "
+              "text": " for 21 "
             },
             {
-              "text": "↑?",
+              "text": "↑26",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8434,7 +8515,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be refreshed by retriggering it."
+              "text": "Buff can be refreshed to its highest reached duration by retriggering it."
             }
           ]
         },
@@ -8447,16 +8528,7 @@
               ]
             },
             {
-              "text": " Melee requires 8 hits. Breach "
-            },
-            {
-              "text": "GL",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": " requires considerably more hits. Support Auto Healing Hits count but require 8 as well."
+              "text": " Melee requires 8 hits. Support Auto Healing Hits count but require 8 as well."
             }
           ]
         },
@@ -8490,8 +8562,8 @@
   },
   {
     "Name": "Heretical Behavior",
-    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 ↑? seconds.\nBeing revived grants Heretical Behavior for ? ↑? seconds.\nBuff can be refreshed by retriggering it.\nGlaive Melee requires 8 hits. Breach GL requires considerably more hits. Support Auto Healing Hits count but require 8 as well.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.",
-    "Comment": "Pit of Heresy\nReprised Heretical Weapons",
+    "Description": "Upon scoring a total of 4 hits within 3 seconds of each, counted up to once every 0.4 seconds:\nGrants Heretical Behavior for 8 ↑10 seconds.\nBeing revived grants Heretical Behavior for 21 ↑26 seconds.\nBuff can be refreshed to its highest reached duration by retriggering it.\nGlaive Melee requires 8 hits. Support Auto Healing Hits count but require 8 as well.\n\nHeretical Behavior:\n8% Increased Damage against Combatants, +50?? Handling, +50?? Reload Speed with 0.8x??? Reload Duration Multiplier.",
+    "Comment": "Pit of Heresy\nNether Heretical Weapons",
     "hash": 2710582428,
     "parentHash": "2710582428",
     "hash_warning": "Multiple matches found (2 total)",
@@ -8519,7 +8591,7 @@
               "text": " for 8 "
             },
             {
-              "text": "↑?",
+              "text": "↑10",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8541,10 +8613,10 @@
               ]
             },
             {
-              "text": " for ? "
+              "text": " for 21 "
             },
             {
-              "text": "↑?",
+              "text": "↑26",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8557,7 +8629,7 @@
         {
           "linesContent": [
             {
-              "text": "Buff can be refreshed by retriggering it."
+              "text": "Buff can be refreshed to its highest reached duration by retriggering it."
             }
           ]
         },
@@ -8570,16 +8642,7 @@
               ]
             },
             {
-              "text": " Melee requires 8 hits. Breach "
-            },
-            {
-              "text": "GL",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": " requires considerably more hits. Support Auto Healing Hits count but require 8 as well."
+              "text": " Melee requires 8 hits. Support Auto Healing Hits count but require 8 as well."
             }
           ]
         },
@@ -8613,7 +8676,7 @@
   },
   {
     "Name": "Hot Swap",
-    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 ↑+? Handling for 4 seconds.\n+100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds on Swords.\nBuff persists through stow.",
+    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 ↑+35 Handling for 4 seconds.\n+100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds on Swords.\nBuff persists through stow.",
     "Comment": "Dares of Eternity",
     "hash": 1260401931,
     "parentHash": "1260401931",
@@ -8633,7 +8696,7 @@
               "text": "+30 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+35",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -8671,7 +8734,7 @@
   },
   {
     "Name": "Hot Swap",
-    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 ↑+? Handling for 4 seconds.\n+100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds on Swords.\nBuff persists through stow.",
+    "Description": "Upon readying the gun after receiving any damage within ? seconds:\n+30 ↑+35 Handling for 4 seconds.\n+100 Guard Resistance, +100? Guard Endurance, and +100 Charge Rate for 4 seconds on Swords.\nBuff persists through stow.",
     "Comment": "Dares of Eternity",
     "hash": 1728568819,
     "parentHash": "1728568819",
@@ -8691,7 +8754,7 @@
               "text": "+30 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+35",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -9465,7 +9528,7 @@
   },
   {
     "Name": "Loss",
-    "Description": "Upon reaching Critical Health or on Ally Death:\nGrants a stack of Loss, up to a maximum of 10 stacks.\nStacks persist until death.\n\nLoss:\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Stability.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Handling.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Aim Assist",
+    "Description": "Upon reaching Critical Health or on Ally Death:\nGrants a stack of Loss, up to a maximum of 10 stacks.\nLoss grants up to +35 Stability, +? Handling, and +? Aim Assist.\nStacks persist until death. Can trigger while stowed.\n\nLoss:\n+6 | +14 | +19 | +23 | +27 | +29 | +31 | +33 | +34 | +35 Stability.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Handling.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Aim Assist",
     "Comment": "Moon Reprises",
     "hash": 993575936,
     "parentHash": "993575936",
@@ -9498,7 +9561,20 @@
         {
           "linesContent": [
             {
-              "text": "Stacks persist until death."
+              "text": "Loss",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants up to +35 Stability, +? Handling, and +? Aim Assist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks persist until death. Can trigger while stowed."
             }
           ]
         },
@@ -9523,7 +9599,7 @@
         {
           "linesContent": [
             {
-              "text": "+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Stability."
+              "text": "+6 | +14 | +19 | +23 | +27 | +29 | +31 | +33 | +34 | +35 Stability."
             }
           ]
         },
@@ -9546,7 +9622,7 @@
   },
   {
     "Name": "Loss",
-    "Description": "Upon reaching Critical Health or on Ally Death:\nGrants a stack of Loss, up to a maximum of 10 stacks.\nStacks persist until death.\n\nLoss:\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Stability.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Handling.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Aim Assist",
+    "Description": "Upon reaching Critical Health or on Ally Death:\nGrants a stack of Loss, up to a maximum of 10 stacks.\nLoss grants up to +35 Stability, +? Handling, and +? Aim Assist.\nStacks persist until death. Can trigger while stowed.\n\nLoss:\n+6 | +14 | +19 | +23 | +27 | +29 | +31 | +33 | +34 | +35 Stability.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Handling.\n+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Aim Assist",
     "Comment": "Moon Reprises",
     "hash": 3776798032,
     "parentHash": "3776798032",
@@ -9579,7 +9655,20 @@
         {
           "linesContent": [
             {
-              "text": "Stacks persist until death."
+              "text": "Loss",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants up to +35 Stability, +? Handling, and +? Aim Assist."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Stacks persist until death. Can trigger while stowed."
             }
           ]
         },
@@ -9604,7 +9693,7 @@
         {
           "linesContent": [
             {
-              "text": "+? | +? | +? | +? | +? | +? | +? | +? | +? | +? Stability."
+              "text": "+6 | +14 | +19 | +23 | +27 | +29 | +31 | +33 | +34 | +35 Stability."
             }
           ]
         },
@@ -10121,7 +10210,7 @@
   },
   {
     "Name": "Nail, Meet Hammer",
-    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Heavy Ammo Progress.",
     "Comment": "Renegades\nArms Week Event",
     "hash": 2152442764,
     "parentHash": "2152442764",
@@ -10184,7 +10273,7 @@
               "text": " grant 8% "
             },
             {
-              "text": "Power Ammo",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
@@ -10199,7 +10288,7 @@
   },
   {
     "Name": "Nail, Meet Hammer",
-    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Power Ammo Progress.",
+    "Description": "Passively grants 8% increased damage towards Combatant Shields.\n\nUpon breaking a Combatant Shield:\nPrimary and Power Weapons grant 8% Special Ammo Progress.\nSpecial Weapons grant 8% Heavy Ammo Progress.",
     "Comment": "Renegades\nArms Week Event",
     "hash": 1209885908,
     "parentHash": "1209885908",
@@ -10262,7 +10351,7 @@
               "text": " grant 8% "
             },
             {
-              "text": "Power Ammo",
+              "text": "Heavy Ammo",
               "classNames": [
                 "heavy"
               ]
@@ -10483,7 +10572,7 @@
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nHeavy Weapons = 3 ↑1.5 seconds",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nPower Weapons = 3 ↑1.5 seconds",
     "Comment": "Neomuna\nDestination",
     "hash": 164468655,
     "parentHash": "164468655",
@@ -10742,7 +10831,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Weapons",
+              "text": "Power Weapons",
               "classNames": [
                 "heavy"
               ]
@@ -10766,7 +10855,7 @@
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nHeavy Weapons = 3 ↑1.5 seconds",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nPower Weapons = 3 ↑1.5 seconds",
     "Comment": "Neomuna\nDestination",
     "hash": 1807646319,
     "parentHash": "1807646319",
@@ -11025,7 +11114,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Weapons",
+              "text": "Power Weapons",
               "classNames": [
                 "heavy"
               ]
@@ -11049,7 +11138,7 @@
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nHeavy Weapons = 3 ↑1.5 seconds",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nPower Weapons = 3 ↑1.5 seconds",
     "Comment": "Neomuna\nDestination",
     "hash": 967107980,
     "parentHash": "967107980",
@@ -11308,7 +11397,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Weapons",
+              "text": "Power Weapons",
               "classNames": [
                 "heavy"
               ]
@@ -11332,7 +11421,7 @@
   },
   {
     "Name": "Nanotech Tracer Missiles",
-    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nHeavy Weapons = 3 ↑1.5 seconds",
+    "Description": "Upon scoring a Magazine-based amount of hits within 6 seconds of each:\nAutomatically shoots a Tracking Missile that matches Weapon's Damage Type. \nMissile deals 22.4 [14] Impact Damage and 24 [15] Explosive Damage on hit.\nDamage against Combatants scales with the Weapon Type, as well as Combatant Rank Multipliers.\nGrenade Launcher: 25% Increased Damage\n Machine Gun: 50% Increased Damage \nSniper Rifle: 100% Increased Damage\nFusion Rifle and Shotgun: 150% Increased Damage\n\nHits required to trigger Tracking Missile:\nHand Cannon, Pulse Rifle, and Submachine Gun: 40% of Magazine + 1.\nFusion Rifle: ?% of Magazine.\nShotgun: 5 at Close Range, 4–3 at Medium Range.\nSniper Rifle: 40% of Magazine + 2.\nGrenade Launcher: 30% of Magazine.\nMachine Gun: 25% of Magazine + 1.\n\nIncurs a cooldown between firing a missile and additional hits counting towards the next missile.\nPrimary Weapons = ~2 ↑? seconds.\nPower Weapons = 3 ↑1.5 seconds",
     "Comment": "Neomuna\nDestination",
     "hash": 3906784980,
     "parentHash": "3906784980",
@@ -11591,7 +11680,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Weapons",
+              "text": "Power Weapons",
               "classNames": [
                 "heavy"
               ]
@@ -12299,8 +12388,8 @@
   },
   {
     "Name": "Photoinhibition",
-    "Description": "Passively increases damage against shielded enemies.\n\n34.3% ↑?% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% ↑?% Increased Damage against Combatant Overshields.\n15.6% ↑?% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
-    "Comment": "Garden of Salvation Reprises\nRaid",
+    "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% ↑?% Increased Damage against Combatant Overshields.\n15.6% ↑?% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
+    "Comment": "Garden of Salvation\nRaid",
     "hash": 511914882,
     "parentHash": "511914882",
     "hash_warning": "Multiple matches found (2 total)",
@@ -12321,16 +12410,7 @@
         {
           "linesContent": [
             {
-              "text": "34.3% "
-            },
-            {
-              "text": "↑?%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Increased Damage against Combatant Elemental Shields and "
+              "text": "34.3% Increased Damage against Combatant Elemental Shields and "
             },
             {
               "text": "Barrier Champion",
@@ -12436,8 +12516,8 @@
   },
   {
     "Name": "Photoinhibition",
-    "Description": "Passively increases damage against shielded enemies.\n\n34.3% ↑?% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% ↑?% Increased Damage against Combatant Overshields.\n15.6% ↑?% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
-    "Comment": "Garden of Salvation Reprises\nRaid",
+    "Description": "Passively increases damage against shielded enemies.\n\n34.3% Increased Damage against Combatant Elemental Shields and Barrier Champion Shields.\n21.6% ↑?% Increased Damage against Combatant Overshields.\n15.6% ↑?% Increased Damage against Guardian Overshields.\n\nUpon breaking a Combatant Shield:\nDisorients for 5 seconds.\n\nUpon breaking a Matching Combatant Shield:\nDisorients enemies within ? meters for ? seconds.",
+    "Comment": "Garden of Salvation\nRaid",
     "hash": 988031486,
     "parentHash": "988031486",
     "hash_warning": "Multiple matches found (2 total)",
@@ -12458,16 +12538,7 @@
         {
           "linesContent": [
             {
-              "text": "34.3% "
-            },
-            {
-              "text": "↑?%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Increased Damage against Combatant Elemental Shields and "
+              "text": "34.3% Increased Damage against Combatant Elemental Shields and "
             },
             {
               "text": "Barrier Champion",
@@ -16201,7 +16272,7 @@
   },
   {
     "Name": "Rasputin's Arsenal",
-    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% ↑? of Magazine.",
+    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% ↑60% of Magazine.",
     "Comment": "Season of the Seraph:\nIKELOS_v1.0.3\nSeraph",
     "hash": 566815328,
     "parentHash": "566815328",
@@ -16230,7 +16301,7 @@
               "text": "Refills 50% "
             },
             {
-              "text": "↑?",
+              "text": "↑60%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -16245,7 +16316,7 @@
   },
   {
     "Name": "Rasputin's Arsenal",
-    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% ↑? of Magazine.",
+    "Description": "On Elemental, Barrier Champion, or Guardian Shield Break:\nRefills 50% ↑60% of Magazine.",
     "Comment": "Season of the Seraph:\nIKELOS_v1.0.3\nSeraph",
     "hash": 1934285616,
     "parentHash": "1934285616",
@@ -16274,7 +16345,7 @@
               "text": "Refills 50% "
             },
             {
-              "text": "↑?",
+              "text": "↑60%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -16449,7 +16520,7 @@
   },
   {
     "Name": "Right Hook",
-    "Description": "Upon dealing Melee Damage:\n +10 ↑+? Range and +10 ↑+? Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
+    "Description": "Upon dealing Melee Damage:\n +10 ↑+12? Range and +10 ↑+12? Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
     "Comment": "Season of Plunder",
     "hash": 3907865655,
     "parentHash": "3907865655",
@@ -16469,7 +16540,7 @@
               "text": "+10 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+12?",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -16478,7 +16549,7 @@
               "text": " Range and +10 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+12?",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -16507,7 +16578,7 @@
   },
   {
     "Name": "Right Hook",
-    "Description": "Upon dealing Melee Damage:\n +10 ↑+? Range and +10 ↑+? Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
+    "Description": "Upon dealing Melee Damage:\n +10 ↑+12? Range and +10 ↑+12? Aim Assistance for 10 seconds\nAdditional Melee Damage extends the duration by +10 seconds, up to 20 seconds.\nBuff persists through stow.",
     "Comment": "Season of Plunder",
     "hash": 3601732055,
     "parentHash": "3601732055",
@@ -16527,7 +16598,7 @@
               "text": "+10 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+12?",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -16536,7 +16607,7 @@
               "text": " Range and +10 "
             },
             {
-              "text": "↑+?",
+              "text": "↑+12?",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -17385,7 +17456,7 @@
   },
   {
     "Name": "Stunning Recovery",
-    "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP and begins Health Regeneration for 3 seconds.",
+    "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP, and begins Health Regeneration.",
     "Comment": "Nightfall\nRitual",
     "hash": 1281216113,
     "parentHash": "1281216113",
@@ -17402,7 +17473,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills Magazine, restores 60 HP and begins Health Regeneration for 3 seconds."
+              "text": "Refills Magazine, restores 60 HP, and begins Health Regeneration."
             }
           ]
         }
@@ -17411,7 +17482,7 @@
   },
   {
     "Name": "Stunning Recovery",
-    "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP and begins Health Regeneration for 3 seconds.",
+    "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP, and begins Health Regeneration.",
     "Comment": "Nightfall\nRitual",
     "hash": 3764430901,
     "parentHash": "3764430901",
@@ -17428,7 +17499,7 @@
         {
           "linesContent": [
             {
-              "text": "Refills Magazine, restores 60 HP and begins Health Regeneration for 3 seconds."
+              "text": "Refills Magazine, restores 60 HP, and begins Health Regeneration."
             }
           ]
         }
@@ -18063,7 +18134,7 @@
   },
   {
     "Name": "Tex Balanced Stock",
-    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 ↑+? Range, +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.9x ↑0.?x Reload Duration Multiplier\n+1.5° Hip-Fire Precision Angle Threshold, and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
+    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 ↑+? Range, +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.9x ↑0.?x Reload Duration Multiplier\n+1.5° Hip-Fire Precision Angle Threshold, 10% ↑?% Decreased ADS Movement Speed Penalty, and 35% Increased Stagger Force.\nBuff persists through stow.",
     "Comment": "Tex Mechanica\nFoundry",
     "hash": 2437618208,
     "parentHash": "2437618208",
@@ -18157,7 +18228,7 @@
         {
           "linesContent": [
             {
-              "text": "+1.5° Hip-Fire Precision Angle Threshold, and 10% "
+              "text": "+1.5° Hip-Fire Precision Angle Threshold, 10% "
             },
             {
               "text": "↑?%",
@@ -18166,7 +18237,7 @@
               ]
             },
             {
-              "text": " Decreased ADS Movement Speed Penalty."
+              "text": " Decreased ADS Movement Speed Penalty, and 35% Increased Stagger Force."
             }
           ]
         },
@@ -18182,7 +18253,7 @@
   },
   {
     "Name": "Tex Balanced Stock",
-    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 ↑+? Range, +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.9x ↑0.?x Reload Duration Multiplier\n+1.5° Hip-Fire Precision Angle Threshold, and 10% ↑?% Decreased ADS Movement Speed Penalty.\nBuff persists through stow.",
+    "Description": "Upon scoring 4 Hipfire Hits within 4? seconds of each:\nGrants Tex Balanced Stock for 4 seconds. Scoring additional hipfired hits refresh the buff duration.\n\nTex Balanced Stock:\n+20 ↑+? Range, +20 ↑+? Handling, +20 ↑+? Reload Speed, 0.9x ↑0.?x Reload Duration Multiplier\n+1.5° Hip-Fire Precision Angle Threshold, 10% ↑?% Decreased ADS Movement Speed Penalty, and 35% Increased Stagger Force.\nBuff persists through stow.",
     "Comment": "Tex Mechanica\nFoundry",
     "hash": 1043703792,
     "parentHash": "1043703792",
@@ -18276,7 +18347,7 @@
         {
           "linesContent": [
             {
-              "text": "+1.5° Hip-Fire Precision Angle Threshold, and 10% "
+              "text": "+1.5° Hip-Fire Precision Angle Threshold, 10% "
             },
             {
               "text": "↑?%",
@@ -18285,7 +18356,7 @@
               ]
             },
             {
-              "text": " Decreased ADS Movement Speed Penalty."
+              "text": " Decreased ADS Movement Speed Penalty, and 35% Increased Stagger Force."
             }
           ]
         },

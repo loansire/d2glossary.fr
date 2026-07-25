@@ -1,7 +1,7 @@
 [
   {
     "Name": "Tangle",
-    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing up to 346 [100] damage in a 5? metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
+    "Description": "While a Strand Ability is equipped:\n Killing an enemy affected by a Strand Debuff (Sever, Suspend, Unravel) spawns a Tangle, adhering to the standard cooldown. \n\nStrand Elemental Pickup:\nConstruct with ? HP that can exist for up to 20 seconds before dissipating.\nCan be picked up while within 5 meters, and can be held for up to 20 seconds.\n Incurs a 12 second cooldown upon creating a Tangle before additional ones can be created, barring exceptions.\n\nDetonating a Tangle through damaging it or throwing it creates an explosion, dealing 346 [100] damage over a 8 metre radius.\nEither method counts as an Elemental Interaction for the purposes of perks and effects.\n\nGrappling a Tangle fully refunds Grenade Energy and pulls the user towards it."
   },
   {
     "Name": "Grapple Tangle",

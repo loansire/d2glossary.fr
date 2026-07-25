@@ -1560,7 +1560,7 @@
   },
   {
     "Name": "Bastion",
-    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 136 [31.2] damage per pellet x 7 = 952 [218.4] per burst x 3 = 2,856 [655.2] damage per Ammo spent.\n\nUpon scoring 14 pellets in a burst:\n300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
+    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 136 [31.2] damage per pellet x 7 = 952 [218.4] per burst x 3 = 2,856 [655.2] damage per Ammo spent.\n\nUpon scoring 14 pellets in a burst:\n300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n35% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
     "Type": "KineticExotics",
     "Comment": "Saint's Fists\nBreakthrough\n↑Cast No Shadows",
     "hash": 1602994569,
@@ -1676,7 +1676,7 @@
         {
           "linesContent": [
             {
-              "text": "45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds."
+              "text": "35% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds."
             }
           ]
         },
@@ -1711,7 +1711,7 @@
   },
   {
     "Name": "Bastion",
-    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 136 [31.2] damage per pellet x 7 = 952 [218.4] per burst x 3 = 2,856 [655.2] damage per Ammo spent.\n\nUpon scoring 14 pellets in a burst:\n300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
+    "Description": "Kinetic Fusion Rifle\n\nFires a 3-round burst of 7 pellets each.\nDeals 136 [31.2] damage per pellet x 7 = 952 [218.4] per burst x 3 = 2,856 [655.2] damage per Ammo spent.\n\nUpon scoring 14 pellets in a burst:\n300% [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\n\nUpon dealing Melee Damage:\n35% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds.\nAdditional Melee Damage refreshes Saint's Fury duration. \nBuff is removed on stow.\n\n↑Catalyst: Grants the Cast No Shadows Origin Trait",
     "Type": "KineticExotics",
     "Comment": "Saint's Fists\nBreakthrough\n↑Cast No Shadows",
     "hash": 2415517654,
@@ -1827,7 +1827,7 @@
         {
           "linesContent": [
             {
-              "text": "45% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds."
+              "text": "35% increased damage, +? Reload Speed, and 0.85x Charge Time Multiplier for 8.5 seconds."
             }
           ]
         },
@@ -2586,7 +2586,7 @@
   },
   {
     "Name": "Cull's Shadow",
-    "Description": "Kinetic Aggressive Fusion Rifle\nCounts as a Weapon of Sorrow.\n\nReplaces Melee Ability with the weapon's Frontal Blades capable of performing a swift two-hit combo with an extended 7 meter lunge.\nEach strike deals 543 [84] Kinetic Damage. Frontal Blades deal 50% increased Melee Damage on Corrupted Enemies.\nFrontal Blade Damage scales with Melee Stat and Melee Damage Buffs. It is NOT a Glaive Melee.\n\nUpon scoring 2 Frontal Blade Strikes within 2? seconds of each or a Frontal Blade Kill:\nGrants a stack of Soulfire Charges, up to a maximum of 6 stacks and restores 40 HP.\nStacks are only consumed upon firing or on death.\n\nFires an increasingly wider 3 round burst of 4 projectiles each.\nProjectiles deal 143 [?] Kinetic Damage.\nConsumes a stack of Soulfire Charge to inflict Potent Corruption on enemies.\nPotent Corruption deals 65 [?] Kinetic Damage every 0.5 seconds, ramping up by ~8.7% per tick over 20 ticks, up to a final tick of 300 [?] Damage, totalling 2,985 [?] Damage.\n\nSoulfire Charge's Potent Corruption causes enemies to create a Soulfire Crystal on death.\n\nSoulfire Crystals are Constructs with 400? HP that linger for 15 seconds, exploding upon being reduced to 0 HP.\nSoulfire Crystal Explosion deals up to 1,065 [?] Kinetic Damage over 8 meters, down to 75% Damage.\n\n↑Catalyst grants 4 selectable traits:\nSoulfire Succor | Destroying Soulfire Crystals with Frontal Blades grants a Soulfire Charge and refills +1 Ammo.\n\nSoulfire Rancor | Soulfire Crystals explode when an enemy is within 7 meters, dealing 5% increased damage and inflicting the aforementioned Potent Corruption.\n\nSoulfire Zeal | Soulfire Crystal Explosions within 15 meters grant maximized movement speed and 20?% Damage Resist for +7 seconds, up to 20 seconds.\n\nSoulfire Skewer | Soulfire Crystal Explosions within 15 meters grant Frontal Blades the ability to inflict Corruption for +7 seconds, up to 20 seconds.\nCorruption deals 16 per tick every 0.5 seconds up to 10 times per infliction and can stack.",
+    "Description": "Kinetic Aggressive Fusion Rifle\nCounts as a Weapon of Sorrow.\n\nReplaces Melee Ability with the weapon's Frontal Blades capable of performing a swift two-hit combo with an extended 7 meter lunge.\nEach strike deals ? [84] Kinetic Damage. Frontal Blades deal 50% increased Melee Damage on Corrupted Enemies.\nFrontal Blade Damage scales with Melee Stat and Melee Damage Buffs. It is NOT a Glaive Melee.\n\nUpon scoring 2 Frontal Blade Strikes within 2? seconds of each or a Frontal Blade Kill:\nGrants a stack of Soulfire Charges, up to a maximum of 6 stacks and restores 40 HP.\nStacks are only consumed upon firing or on death.\n\nFires an increasingly wider 3 round burst of 4 projectiles each.\nProjectiles deal 143 [?] Kinetic Damage.\nConsumes a stack of Soulfire Charge to inflict Potent Corruption on enemies.\nPotent Corruption deals 65 [?] Kinetic Damage every 0.5 seconds, ramping up by ~8.7% per tick over 20 ticks, up to a final tick of 300 [?] Damage, totalling 2,985 [?] Damage.\n\nSoulfire Charge's Potent Corruption causes enemies to create a Soulfire Crystal on death.\n\nSoulfire Crystals are Constructs with 400? HP that linger for 15 seconds, exploding upon being reduced to 0 HP.\nSoulfire Crystal Explosion deals up to 1,065 [?] Kinetic Damage over 8 meters, down to 75% Damage.\n\n↑Catalyst grants 4 selectable traits:\nSoulfire Succor | Destroying Soulfire Crystals with Frontal Blades grants a Soulfire Charge and refills +1 Ammo.\n\nSoulfire Rancor | Soulfire Crystals explode when an enemy is within 7 meters, dealing 5% increased damage and inflicting the aforementioned Potent Corruption.\n\nSoulfire Zeal | Soulfire Crystal Explosions within 15 meters grant maximized movement speed and 20?% Damage Resist for +7 seconds, up to 20 seconds.\n\nSoulfire Skewer | Soulfire Crystal Explosions within 15 meters grant Frontal Blades the ability to inflict Corruption for +7 seconds, up to 20 seconds.\nCorruption deals 16 per tick every 0.5 seconds up to 10 times per infliction and can stack.",
     "Type": "KineticExotics",
     "Comment": "Soulburn\nSoulforge\nBlades of Unmaking\n↑Selectable Trait",
     "hash": 2200470033,
@@ -2634,7 +2634,7 @@
         {
           "linesContent": [
             {
-              "text": "Each strike deals 543 ["
+              "text": "Each strike deals ? ["
             },
             {
               "text": "84",
@@ -4149,7 +4149,7 @@
   },
   {
     "Name": "Izanagi's Burden",
-    "Description": "Kinetic Adaptive Sniper Rifle\n\nHold [Reload] to perform a slower Reload that consumes up to 4 Ammo and grants a single, high-damage Honed Edge shot.\nHoned Edge persists through stow until it is fired.\n\nHoned Edge x2 = 12% [20%] Increased Damage and +1.92 Precision Multiplier. Total: 79% [91%]\nHoned Edge x3 = 25% [45%] Increased Damage and +2.74 Precision Multiplier. Total: 131% [167%]\nHoned Edge x4 = 112% [165%] Increased Damage and +2.74 Precision Multiplier. Total: 291% [389%]\n↑Peerless Edge x4 = 155% [218%] Increased Damage and +2.74 Precision Multiplier. Total: 370% [487%]\nHoned Edge's Reload Animation Speed is the same as a regular reload's.\n\n↑Peerless Edge:\nHoned Edge x4's Damage Increase is multiplied by 1.2x.",
+    "Description": "Kinetic Adaptive Sniper Rifle\n\nHold [Reload] to perform a slower Reload that consumes up to 4 Ammo and grants a single, high-damage Honed Edge shot that deals up to ↑7739 Precision Damage.\nHoned Edge persists through stow until it is fired.\n\nHoned Edge x2 = 12% [20%] Increased Damage and +1.92 Precision Multiplier. Total: 79% [91%]\nHoned Edge x3 = 25% [45%] Increased Damage and +2.74 Precision Multiplier. Total: 131% [167%]\nHoned Edge x4 = 112% [165%] Increased Damage and +2.74 Precision Multiplier. Total: 291% [389%]\n↑Peerless Edge x4 = 155% [218%] Increased Damage and +2.74 Precision Multiplier. Total: 370% [487%]\nHoned Edge's Reload Animation Speed is the same as a regular reload's.\n\n↑Peerless Edge:\nHoned Edge x4's Damage Increase is multiplied by 1.2x.",
     "Type": "KineticExotics",
     "Comment": "Honed Edge\nNo Distractions\n↑Peerless Edge",
     "hash": 3211806999,
@@ -4192,7 +4192,16 @@
               ]
             },
             {
-              "text": "] to perform a slower Reload that consumes up to 4 Ammo and grants a single, high-damage Honed Edge shot."
+              "text": "] to perform a slower Reload that consumes up to 4 Ammo and grants a single, high-damage Honed Edge shot that deals up to "
+            },
+            {
+              "text": "↑7739",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Precision Damage."
             }
           ]
         },
@@ -17212,7 +17221,7 @@
   },
   {
     "Name": "Delicate Tomb",
-    "Description": "Solar Adaptive Sidearm\n\nKills spawn a Firesprite.\nPicking up a Firesprite grants Pyrogenesis Available.\n\nHits against Suspended Enemies inflict x20+10 Scorch.\n\nHold [Reload] while Pyrogenesis Available is active to perform a special reload that grants Pyrogenesis Ready.\nPyrogenesis Available and Ready persists through stow.\n\nPyrogenesis:\nContinuous beam that charges over 0.5 seconds.\nDeals 104 [22] Damage with a 1.6x Precision Multiplier, as well as inflicting x20+10 Scorch per hit up to 15 times over 0.95 seconds at 900RPM.\nLaser Kills trigger an ignition.\nMagazine is refilled upon firing Pyrogenesis.\n\n↑Catalyst: Grants the Collective Action trait.",
+    "Description": "Solar Adaptive Sidearm\n\nKills spawn a Firesprite.\nPicking up a Firesprite grants Pyrogenesis Available.\n\nHits against Suspended Enemies inflict x20+10 Scorch.\n\nHold [Reload] while Pyrogenesis Available is active to perform a special reload that grants Pyrogenesis Ready.\nPyrogenesis Available and Ready persists through stow.\n\nPyrogenesis:\nContinuous beam that charges over 0.5 seconds.\nDeals 104 [22] Damage with a 1.6x Precision Multiplier, as well as inflicting x20+10 Scorch per hit up to 16 times over 0.95 seconds at 900RPM.\nLaser Kills trigger an ignition.\nMagazine is refilled upon firing Pyrogenesis.\n\n↑Catalyst: Grants the Collective Action trait.",
     "Type": "EnergyExotic",
     "Comment": "Traitor's Vessel\nTempest Cascade\n↑Ionic Interment",
     "hash": 374573733,
@@ -17382,7 +17391,7 @@
               ]
             },
             {
-              "text": " per hit up to 15 times over 0.95 seconds at 900RPM."
+              "text": " per hit up to 16 times over 0.95 seconds at 900RPM."
             }
           ]
         },
@@ -18073,7 +18082,7 @@
   },
   {
     "Name": "Duality",
-    "Description": "Craftable Void Adaptive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nRemote Shield:\nLasts 20 seconds and has 2,400 Construct HP with 85% Damage Resist against non-Boss Combatants, and 15% Damage Resist against Bosses.\nRemote Shield blocks incoming and outgoing projectiles, preventing damage from the outside.\nWhile in the Remote Shield: Grants a 45 HP Void Overshield for 10+5 seconds at a rate of once per second and Stat Boost for 10 seconds.\nStat Boost | +? Handling, +? Reload Speed, and 5% Increased Weapon Damage. Buff duration is refreshed while inside. \nHelm of Saint-14 Interaction | Dealing Kinetic and Void Damage while the Stat Boost is active inflicts Suppression to Combatants.\n\n↑Catalyst: Grants the Repulsor Brace trait.",
+    "Description": "Craftable Void Adaptive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nRemote Shield:\nLasts 20 seconds and has 2,400 Construct HP with 85% Damage Resist against non-Boss Combatants, and 15% Damage Resist against Bosses.\nRemote Shield blocks incoming and outgoing projectiles, preventing damage from the outside.\nWhile in the Remote Shield: Grants a 45 HP Void Overshield for 10+5 seconds at a rate of once per second and Stat Boost for 10 seconds.\nStat Boost | +? Handling, +? Reload Speed, and 5% Increased Weapon Damage. Buff duration is refreshed while inside. \nHelm of Saint-14 Interaction | Dealing Kinetic and Void Damage while the Stat Boost is active inflicts Suppression to Combatants.\n\n↑Catalyst: Grants the Repulsor Brace trait.",
     "Type": "EnergyExotic",
     "Comment": "Compression Chamber\nOn Black Wings",
     "hash": 2639743396,
@@ -18127,7 +18136,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18241,7 +18250,7 @@
   },
   {
     "Name": "Duality",
-    "Description": "Craftable Void Adaptive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nRemote Shield:\nLasts 20 seconds and has 2,400 Construct HP with 85% Damage Resist against non-Boss Combatants, and 15% Damage Resist against Bosses.\nRemote Shield blocks incoming and outgoing projectiles, preventing damage from the outside.\nWhile in the Remote Shield: Grants a 45 HP Void Overshield for 10+5 seconds at a rate of once per second and Stat Boost for 10 seconds.\nStat Boost | +? Handling, +? Reload Speed, and 5% Increased Weapon Damage. Buff duration is refreshed while inside. \nHelm of Saint-14 Interaction | Dealing Kinetic and Void Damage while the Stat Boost is active inflicts Suppression to Combatants.\n\n↑Catalyst: Grants the Repulsor Brace trait.",
+    "Description": "Craftable Void Adaptive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nRemote Shield:\nLasts 20 seconds and has 2,400 Construct HP with 85% Damage Resist against non-Boss Combatants, and 15% Damage Resist against Bosses.\nRemote Shield blocks incoming and outgoing projectiles, preventing damage from the outside.\nWhile in the Remote Shield: Grants a 45 HP Void Overshield for 10+5 seconds at a rate of once per second and Stat Boost for 10 seconds.\nStat Boost | +? Handling, +? Reload Speed, and 5% Increased Weapon Damage. Buff duration is refreshed while inside. \nHelm of Saint-14 Interaction | Dealing Kinetic and Void Damage while the Stat Boost is active inflicts Suppression to Combatants.\n\n↑Catalyst: Grants the Repulsor Brace trait.",
     "Type": "EnergyExotic",
     "Comment": "Compression Chamber\nOn Black Wings",
     "hash": 3460576091,
@@ -18295,7 +18304,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Gumdrop Protective Shield for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18409,7 +18418,7 @@
   },
   {
     "Name": "Edge of Action",
-    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
+    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
     "Type": "EnergyExotic",
     "Comment": "Remote Shield\nDestabilizing Rounds\n↑Repulsor Brace",
     "hash": 1900919151,
@@ -18463,7 +18472,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18531,7 +18540,7 @@
   },
   {
     "Name": "Edge of Action",
-    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
+    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
     "Type": "EnergyExotic",
     "Comment": "Remote Shield\nDestabilizing Rounds\n↑Repulsor Brace",
     "hash": 2535142413,
@@ -18585,7 +18594,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18653,7 +18662,7 @@
   },
   {
     "Name": "Edge of Action",
-    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
+    "Description": "Craftable Arc Rapid-Fire Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grant 2 stacks.\n\nLightning Seeker chases after the closest enemy within 32 metres, dealing 1634 [a lot] damage, inflicting Jolt, and releasing Chain Lightning on impact.\nChain Lightning damages up to 4 enemies within 10 metres, dealing 65 damage to each enemy.\n\n↑Catalyst: Grants the Eddy Current trait.",
     "Type": "EnergyExotic",
     "Comment": "Remote Shield\nDestabilizing Rounds\n↑Repulsor Brace",
     "hash": 4284608583,
@@ -18707,7 +18716,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Lightning Seeker for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18775,7 +18784,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped | Seekers bestow x2 Cure and x2 Restoration for 6+3 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health.\nA Healing Turret can release up to 3 Healing Seekers over its lifetime.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+2 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 Cure and x2 Restoration for 4+2 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 3551884421,
@@ -18829,7 +18838,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -18848,7 +18857,14 @@
         {
           "linesContent": [
             {
-              "text": "Healing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters."
+              "text": "Healing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "A Healing Turret can release up to 3 Healing Seekers over its lifetime."
             }
           ]
         },
@@ -18878,7 +18894,7 @@
               ]
             },
             {
-              "text": " for 4+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "3+1.5",
@@ -18894,7 +18910,7 @@
         {
           "linesContent": [
             {
-              "text": "While Touch of Flame is equipped | Seekers bestow x2 "
+              "text": "While Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 "
             },
             {
               "text": "Cure",
@@ -18912,7 +18928,7 @@
               ]
             },
             {
-              "text": " for 6+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "?+?",
@@ -18945,7 +18961,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped | Seekers bestow x2 Cure and x2 Restoration for 6+3 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health.\nA Healing Turret can release up to 3 Healing Seekers over its lifetime.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+2 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 Cure and x2 Restoration for 4+2 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 542203595,
@@ -18999,7 +19015,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -19018,7 +19034,14 @@
         {
           "linesContent": [
             {
-              "text": "Healing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters."
+              "text": "Healing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "A Healing Turret can release up to 3 Healing Seekers over its lifetime."
             }
           ]
         },
@@ -19048,7 +19071,7 @@
               ]
             },
             {
-              "text": " for 4+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "3+1.5",
@@ -19064,7 +19087,7 @@
         {
           "linesContent": [
             {
-              "text": "While Touch of Flame is equipped | Seekers bestow x2 "
+              "text": "While Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 "
             },
             {
               "text": "Cure",
@@ -19082,7 +19105,7 @@
               ]
             },
             {
-              "text": " for 6+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "?+?",
@@ -19115,7 +19138,7 @@
   },
   {
     "Name": "Edge of Concurrence",
-    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+3 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped | Seekers bestow x2 Cure and x2 Restoration for 6+3 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
+    "Description": "Craftable Solar Aggressive Glaive\n\nAfter scoring 6 Hits, either through Projectile or Melee Damage:\nHold [Reload] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo.\nProjectile hits grants 2 stacks.\n\nHealing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health.\nA Healing Turret can release up to 3 Healing Seekers over its lifetime.\n\nHealing Seekers bestow x1 Cure and x1 Restoration for 4+2 [3+1.5] seconds in a 7.5 metre radius.\nWhile Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 Cure and x2 Restoration for 4+2 [?+?] seconds.\n\n↑Catalyst: Grants the Heal Clip trait.",
     "Type": "EnergyExotic",
     "Comment": "Lightning Seeker\nJolting Feedback\n↑Eddy Current",
     "hash": 3127165437,
@@ -19169,7 +19192,7 @@
               ]
             },
             {
-              "text": "] to switch fire mode, fully consuming Weapon Energy to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
+              "text": "] to prepare a Healing Turret for the next shot, refilling the magazine and granting +1 Ammo."
             }
           ]
         },
@@ -19188,7 +19211,14 @@
         {
           "linesContent": [
             {
-              "text": "Healing Turret lasts 15 seconds and shoots Healing Seekers every 3 seconds to the user and allies within 30 meters."
+              "text": "Healing Turret lasts 9 seconds and releases a Healing Seeker every 3 seconds to the user and allies within 30 meters if they're not at Full Health."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "A Healing Turret can release up to 3 Healing Seekers over its lifetime."
             }
           ]
         },
@@ -19218,7 +19248,7 @@
               ]
             },
             {
-              "text": " for 4+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "3+1.5",
@@ -19234,7 +19264,7 @@
         {
           "linesContent": [
             {
-              "text": "While Touch of Flame is equipped | Seekers bestow x2 "
+              "text": "While Touch of Flame is equipped by the wearer and ONLY for the wearer | Seekers bestow x2 "
             },
             {
               "text": "Cure",
@@ -19252,7 +19282,7 @@
               ]
             },
             {
-              "text": " for 6+3 ["
+              "text": " for 4+2 ["
             },
             {
               "text": "?+?",
@@ -21013,7 +21043,7 @@
   },
   {
     "Name": "Ergo Sum",
-    "Description": "Arc Moth-Grenade Launcher \nDoes not require reloading. Moths count as Weapon Damage.\n\nShoots arcing projectiles that deal 422 [21] impact damage, and up to 355 [119] explosive damage, down to 30% damage over a 4.5 meter radius.\n\nBuilds up 25% Enrage on hit, gradually granting up to 0.6x Decreased Fire Recovery Delay. Reaching Critical Health maxes out Enrage.\nCharge decays over 9.5 seconds. Charge doesn't decay while at Critical Health.\n\nUpon scoring a kill, or 2 Direct Hits within ? seconds of each: \nCreates a Loyal Arc Moth, which seeks the closest enemy and detonates on contact.\nArc Moth deals up to 596 [31 Guardians | 201 Constructs] explosive damage over 7 meters, down to ?% damage and blinding.\nMoths don't deal self-damage. Incurs a 3 second cooldown between Moth spawns.\nMothkeeper's Wraps creates a Loyal Void Moth alongside the Loyal Arc Moth. Loyal Void Moths grant 22.5HP Void Overshield to the nearest ally.\n\n↑Berserk Rush:\nGrants Amplified on kill. \nHits while Amplified grant 50% Enrage on hit.",
+    "Description": "Arc Moth-Grenade Launcher \nDoes not require reloading. Moths count as Weapon Damage.\n\nShoots arcing projectiles that deal 422 [21] impact damage, and up to 355 [119] explosive damage, down to 30% damage over a 4.5 meter radius.\n\nBuilds up 25% Enrage on hit, gradually granting up to 0.6x Fire Recovery Delay.\nReaching Critical Health maxes out Enrage.\nCharge decays over 9.5 seconds. Charge doesn't decay while at Critical Health.\n\nUpon scoring a kill, or 2 Direct Hits within ? seconds of each: \nCreates a Loyal Arc Moth, which seeks the closest enemy and detonates on contact.\nArc Moth deals up to 596 [31 Guardians | 201 Constructs] explosive Arc Weapon Damage over 7 meters, down to ?% damage and blinding.\nMoths don't deal self-damage. Incurs a 3 second cooldown between Moth spawns.\nMothkeeper's Wraps creates a Loyal Void Moth alongside the Loyal Arc Moth. Loyal Void Moths grant 22.5HP Void Overshield to the nearest ally.\n\n↑Berserk Rush:\nGrants Amplified on kill. \nHits while Amplified grant 50% Enrage on hit.",
     "Type": "EnergyExotic",
     "Comment": "Void Element",
     "hash": 1681583613,
@@ -21084,7 +21114,14 @@
         {
           "linesContent": [
             {
-              "text": "Builds up 25% Enrage on hit, gradually granting up to 0.6x Decreased Fire Recovery Delay. Reaching Critical Health maxes out Enrage."
+              "text": "Builds up 25% Enrage on hit, gradually granting up to 0.6x Fire Recovery Delay."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reaching Critical Health maxes out Enrage."
             }
           ]
         },
@@ -21141,7 +21178,16 @@
               ]
             },
             {
-              "text": "] explosive damage over 7 meters, down to ?% damage and blinding."
+              "text": "] explosive "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Weapon Damage over 7 meters, down to ?% damage and blinding."
             }
           ]
         },
@@ -26485,7 +26531,7 @@
   },
   {
     "Name": "Prometheus Lens",
-    "Description": "Solar High-Impact Pulse Rifle\nUses Auto Rifle Recoil Animations.\n\nScoring a Weapon Kill applies Cure x2 and grants +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds. \nFinishing a reload within ? seconds of a kill grants Cure x? to allies within ? metres.\n\nScoring hits grants increased Handling, Flinch Resist, and Movement Speed for 3 seconds. Stacks up to 6? times.\nx1 = +? Handling | ?% Flinch Resist | ?% Increased Movement Speed \nx2 = +? | ?% | +?% | x3 = +? | ?% | +?% | x4 = +? | ?% | +?% | x5 = +? | ?% | +?% | x6 = +? | ?% | +?%\n\nDeals increasingly higher damage as Shield HP is decreased.\n10% [2%] while Shield HP is <114 | 20% [4%] while Shield HP is <60 | 40% [6%] while Shield HP is 0.\n\n↑Helping Hand:\nScoring 2 [1?] Weapon Kills grants Red Death Charged.\nKill counter, and Red Death Charged buff both persist through stow.\n\nUpon scoring a Weapon Kill while Red Death Charged is active:\nTriggers a healing burst and spawns a Restoration Orb on top of the user.\nHealing Burst applies Cure x2 to allies within 7.5? meters. Restoration Orb grants Restoration x2 for 4+2 seconds.\nUser does not benefit from the Healing Burst as Cure has a cooldown, but will receive Restoration.\nIt's practically the same as a Touch of Flame Healing Grenade spawning on top of the user. ",
+    "Description": "Solar High-Impact Pulse Rifle\nUses Auto Rifle Recoil Animations. Cure x2 is downgraded to x1 on the wielder if On Your Mark x10 is active.\n\nUpon scoring a Weapon Kill:\nGrants Cure x2, +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds. \nFinishing a reload within ? seconds of a kill grants Cure x? to allies within ? metres.\n\nScoring hits grants increased Handling, Flinch Resist, and Movement Speed for 3 seconds. Stacks up to 6? times.\nx1 = +? Handling | ?% Flinch Resist | ?% Increased Movement Speed \nx2 = +? | ?% | +?% | x3 = +? | ?% | +?% | x4 = +? | ?% | +?% | x5 = +? | ?% | +?% | x6 = +? | ?% | +?%\n\nDeals increasingly higher damage as Shield HP is decreased.\n10% [2%] while Shield HP is <114 | 20% [4%] while Shield HP is <60 | 40% [6%] while Shield HP is 0.\n\n↑Helping Hand:\nScoring 2 [1?] Weapon Kills grants Red Death Charged.\nKill counter, and Red Death Charged buff both persist through stow.\n\nUpon scoring a Weapon Kill while Red Death Charged is active:\nTriggers a healing burst and spawns a Restoration Orb on top of the user.\nHealing Burst bestows Cure x2 to allies within 7.5? meters. Restoration Orb grants Restoration x2 for 4+2 seconds.\nUser does not benefit from the Healing Burst as Cure has a cooldown, but will receive Restoration.",
     "Type": "EnergyExotic",
     "Comment": "Prismatic Inferno\nFlame Refraction\n↑Incandescent",
     "hash": 2146650065,
@@ -26524,7 +26570,16 @@
               ]
             },
             {
-              "text": " Recoil Animations."
+              "text": " Recoil Animations. "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x2 is downgraded to x1 on the wielder if On Your Mark x10 is active."
             }
           ]
         },
@@ -26536,7 +26591,14 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a Weapon Kill applies "
+              "text": "Upon scoring a Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
             },
             {
               "text": "Cure",
@@ -26545,7 +26607,7 @@
               ]
             },
             {
-              "text": " x2 and grants +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds."
+              "text": " x2, +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds."
             }
           ]
         },
@@ -26703,7 +26765,7 @@
         {
           "linesContent": [
             {
-              "text": "Healing Burst applies "
+              "text": "Healing Burst bestows "
             },
             {
               "text": "Cure",
@@ -26758,20 +26820,13 @@
               "text": "."
             }
           ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "It's practically the same as a Touch of Flame Healing Grenade spawning on top of the user."
-            }
-          ]
         }
       ]
     }
   },
   {
     "Name": "Prometheus Lens",
-    "Description": "Solar High-Impact Pulse Rifle\nUses Auto Rifle Recoil Animations.\n\nScoring a Weapon Kill applies Cure x2 and grants +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds. \nFinishing a reload within ? seconds of a kill grants Cure x? to allies within ? metres.\n\nScoring hits grants increased Handling, Flinch Resist, and Movement Speed for 3 seconds. Stacks up to 6? times.\nx1 = +? Handling | ?% Flinch Resist | ?% Increased Movement Speed \nx2 = +? | ?% | +?% | x3 = +? | ?% | +?% | x4 = +? | ?% | +?% | x5 = +? | ?% | +?% | x6 = +? | ?% | +?%\n\nDeals increasingly higher damage as Shield HP is decreased.\n10% [2%] while Shield HP is <114 | 20% [4%] while Shield HP is <60 | 40% [6%] while Shield HP is 0.\n\n↑Helping Hand:\nScoring 2 [1?] Weapon Kills grants Red Death Charged.\nKill counter, and Red Death Charged buff both persist through stow.\n\nUpon scoring a Weapon Kill while Red Death Charged is active:\nTriggers a healing burst and spawns a Restoration Orb on top of the user.\nHealing Burst applies Cure x2 to allies within 7.5? meters. Restoration Orb grants Restoration x2 for 4+2 seconds.\nUser does not benefit from the Healing Burst as Cure has a cooldown, but will receive Restoration.\nIt's practically the same as a Touch of Flame Healing Grenade spawning on top of the user. ",
+    "Description": "Solar High-Impact Pulse Rifle\nUses Auto Rifle Recoil Animations. Cure x2 is downgraded to x1 on the wielder if On Your Mark x10 is active.\n\nUpon scoring a Weapon Kill:\nGrants Cure x2, +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds. \nFinishing a reload within ? seconds of a kill grants Cure x? to allies within ? metres.\n\nScoring hits grants increased Handling, Flinch Resist, and Movement Speed for 3 seconds. Stacks up to 6? times.\nx1 = +? Handling | ?% Flinch Resist | ?% Increased Movement Speed \nx2 = +? | ?% | +?% | x3 = +? | ?% | +?% | x4 = +? | ?% | +?% | x5 = +? | ?% | +?% | x6 = +? | ?% | +?%\n\nDeals increasingly higher damage as Shield HP is decreased.\n10% [2%] while Shield HP is <114 | 20% [4%] while Shield HP is <60 | 40% [6%] while Shield HP is 0.\n\n↑Helping Hand:\nScoring 2 [1?] Weapon Kills grants Red Death Charged.\nKill counter, and Red Death Charged buff both persist through stow.\n\nUpon scoring a Weapon Kill while Red Death Charged is active:\nTriggers a healing burst and spawns a Restoration Orb on top of the user.\nHealing Burst bestows Cure x2 to allies within 7.5? meters. Restoration Orb grants Restoration x2 for 4+2 seconds.\nUser does not benefit from the Healing Burst as Cure has a cooldown, but will receive Restoration.",
     "Type": "EnergyExotic",
     "Comment": "Prismatic Inferno\nFlame Refraction\n↑Incandescent",
     "hash": 19024058,
@@ -26810,7 +26865,16 @@
               ]
             },
             {
-              "text": " Recoil Animations."
+              "text": " Recoil Animations. "
+            },
+            {
+              "text": "Cure",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " x2 is downgraded to x1 on the wielder if On Your Mark x10 is active."
             }
           ]
         },
@@ -26822,7 +26886,14 @@
         {
           "linesContent": [
             {
-              "text": "Scoring a Weapon Kill applies "
+              "text": "Upon scoring a Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants "
             },
             {
               "text": "Cure",
@@ -26831,7 +26902,7 @@
               ]
             },
             {
-              "text": " x2 and grants +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds."
+              "text": " x2, +100 Reload Speed, and 0.8x Reload Duration Multiplier for ? seconds."
             }
           ]
         },
@@ -26989,7 +27060,7 @@
         {
           "linesContent": [
             {
-              "text": "Healing Burst applies "
+              "text": "Healing Burst bestows "
             },
             {
               "text": "Cure",
@@ -27042,13 +27113,6 @@
             },
             {
               "text": "."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "It's practically the same as a Touch of Flame Healing Grenade spawning on top of the user."
             }
           ]
         }
@@ -27618,7 +27682,7 @@
   },
   {
     "Name": "Ruinous Effigy",
-    "Description": "Solar High-Impact Cabal Slug Rifle\n\nHip-fire | Fires arcing projectiles that deal 43 [22] impact damage with a 2.97x Precision Multiplier and up to 55 [22] splash damage, down to 0% damage, and inflicting x5+5 Scorch per hit over a 3.5 meter radius.\nADS | Fires hitscan explosive projectiles that deal the aforementioned damage over 3 meters.\n\nDeals 11% Increased Damage against Cabal Combatants, and pierces Phalanx Shields.\n\n↑Catalyst:\nPassively grants +20 Reload Speed, the Incandescent trait, and the Burning Ambition trait.",
+    "Description": "Solar High-Impact Cabal Slug Rifle\n\nHip-fire | Fires arcing projectiles that deal 43 [22] impact damage with a 2.97x Precision Multiplier and up to 55 [22] splash damage, down to 0% damage, inflicting x5+5 Scorch over a 3.5 meter radius.\nADS | Fires hitscan explosive projectiles that deal the aforementioned damage over 3 meters.\n\nDeals 11% Increased Damage against Cabal Combatants, and pierces Phalanx Shields.\n\n↑Catalyst:\nPassively grants +20 Reload Speed, the Incandescent trait, and the Burning Ambition trait.",
     "Type": "EnergyExotic",
     "Comment": "Transmutation\nEvolution\n↑Deconstruction",
     "hash": 1363238943,
@@ -27664,7 +27728,7 @@
               ]
             },
             {
-              "text": "] splash damage, down to 0% damage, and inflicting x5+5 "
+              "text": "] splash damage, down to 0% damage, inflicting x5+5 "
             },
             {
               "text": "Scorch",
@@ -27673,7 +27737,7 @@
               ]
             },
             {
-              "text": " per hit over a 3.5 meter radius."
+              "text": " over a 3.5 meter radius."
             }
           ]
         },
@@ -33540,7 +33604,7 @@
   },
   {
     "Name": "Dragon's Breath",
-    "Description": "Void Linear Fusion Rifle\nHold [Reload] to trigger Quantum Nova while having Ammo in reserves.\nThe last Exotic Weapon added to Destiny 2.\n\nHits deal 368 [?] Damage with a 3.44x Precision Multiplier.\nHits lacerate enemies, dealing 344 [?] Damage 3 times (1032 [☠️]) after 0.75 seconds.\nDeals a total of 2297 [📁.zip] Damage on a Precision Hit.\n\nQuantum Nova:\nConsumes up to 9 Ammo in reserves to grant Quantum Nova for up to 20 seconds. Also refills the magazine.\n1 Ammo = 4 seconds | 3 Ammo = 8s | 6 Ammo = 14s | 9 Ammo = 20s\nDeals 1,420 [?] Damage and inflicts a 30% [?%] Weaken for 5 seconds over 10 meters upon triggering Quantum Nova, regardless of ammo consumption.\nTimer is paused while stowed. Buff can be retriggered to extend its duration.\n\nHits while Quantum Nova is active inflict 30% [?%] Weaken for 5 seconds.\n\n↑Catalyst: Grants the No Distractions trait.",
+    "Description": "Void Linear Fusion Rifle\nHold [Reload] to trigger Quantum Nova while having Ammo in reserves.\nThe last Exotic Weapon added to Destiny 2.\n\nHits deal 368 [?] Damage with a 3.44x Precision Multiplier.\nHits lacerate enemies, dealing 344 [?] Damage 3 times (1032 [☠️]) after 0.75 seconds.\nDeals a total of 2297 [📁.zip] Damage on a Precision Hit.\n\nQuantum Nova:\nConsumes up to 9 Ammo in reserves to grant Quantum Nova for up to 20 seconds. Also refills the magazine.\n1 Ammo = 4 seconds | 3 Ammo = 8s | 6 Ammo = 14s | 9 Ammo = 20s\nDeals 1,420 [?] Damage and inflicts a 30% [?%] Weaken for 5 seconds over 10 meters upon triggering Quantum Nova, regardless of ammo consumption.\nTimer is paused while stowed. Buff can be retriggered to extend its duration.\n\nHits while Quantum Nova is active inflict a stronger weaken that increases damage received by 30% [?%] for 5 seconds.\n\n↑Catalyst: Grants the No Distractions trait.",
     "Type": "PowerExotics",
     "Comment": "Composite Propellant\nHigh Octane\n↑Pyromancer",
     "hash": 17096506,
@@ -33726,7 +33790,16 @@
         {
           "linesContent": [
             {
-              "text": "Hits while Quantum Nova is active inflict 30% ["
+              "text": "Hits while Quantum Nova is active inflict a stronger "
+            },
+            {
+              "text": "weaken",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " that increases damage received by 30% ["
             },
             {
               "text": "?%",
@@ -33735,16 +33808,7 @@
               ]
             },
             {
-              "text": "] "
-            },
-            {
-              "text": "Weaken",
-              "classNames": [
-                "void"
-              ]
-            },
-            {
-              "text": " for 5 seconds."
+              "text": "] for 5 seconds."
             }
           ]
         },
@@ -35327,7 +35391,7 @@
   },
   {
     "Name": "Microcosm",
-    "Description": "Stasis Grenade Launcher\n\nDeals 25% increased damage to Frozen Enemies and always destroys Stasis Crystals.\nDamage Buff stacks with Frozen Enemy Modifiers.\n\nUncharged Shots fire Stasis Grenades that destroy Stasis Crystals on hit.\nShattering 3 crystals within ? seconds of each with the uncharged shot refills the magazine. \nDestroying a large amount of Stasis Crystals does not result in all of them exploding instantly, presumably for performance reasons. \n\nCharged Shots create Stasis Crystals in a ▼ shape.\nCreates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals further back diagonally, with the middle one being behind the Small Crystal.\nDisplays a preview of where the projectile will land while [Fire] is held.\n\n↑Catalyst:\nGrants the Rimestealer trait.",
+    "Description": "Stasis Grenade Launcher\n\nDeals 25% increased damage to Frozen Enemies and always destroys Stasis Crystals.\nDamage Buff stacks with Frozen Enemy Modifiers.\n\nUncharged Shots fire Stasis Grenades that destroy Stasis Crystals on hit.\nShattering 3 crystals within ? seconds of each with uncharged shots refills the magazine. \nDestroying a large amount of Stasis Crystals does not result in all of them exploding instantly for performance reasons. \n\nCharged Shots create Stasis Crystals in a ▼ shape.\nSalvation's Grip's Stasis Crystals deal up to 183 [?] Stasis Weapon Damage, down to 60% damage over 8 meters upon being shattered.\nCreates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals diagonally, with the middle one being behind the Small Crystal.\nDisplays a preview of where the projectile will land while [Fire] is held.\n\n↑Catalyst:\nGrants the Rimestealer trait.",
     "Type": "PowerExotics",
     "Comment": "Paracausal Beam\nParacausal Imbuement\n↑Stopping Power\n↑Thresh",
     "hash": 4207066264,
@@ -35438,7 +35502,7 @@
               ]
             },
             {
-              "text": " 3 crystals within ? seconds of each with the uncharged shot refills the magazine."
+              "text": " 3 crystals within ? seconds of each with uncharged shots refills the magazine."
             }
           ]
         },
@@ -35454,7 +35518,7 @@
               ]
             },
             {
-              "text": " does not result in all of them exploding instantly, presumably for performance reasons."
+              "text": " does not result in all of them exploding instantly for performance reasons."
             }
           ]
         },
@@ -35482,7 +35546,50 @@
         {
           "linesContent": [
             {
-              "text": "Creates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals further back diagonally, with the middle one being behind the Small Crystal."
+              "text": "Salvation's Grip's "
+            },
+            {
+              "text": "Stasis Crystals",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " deal up to 183 ["
+            },
+            {
+              "text": "?",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] "
+            },
+            {
+              "text": "Stasis",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Weapon Damage, down to 60% damage over 8 meters upon being "
+            },
+            {
+              "text": "shattered",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Creates a Small Crystal on impact, with 2 Medium Crystals spread out in a V formation, followed by 3 Large Crystals diagonally, with the middle one being behind the Small Crystal."
             }
           ]
         },
