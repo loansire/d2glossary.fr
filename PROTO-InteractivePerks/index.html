@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D2 Glossary — Guide Perks</title>
+<link rel="icon" href="./favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* =========================================================================
+     THÈME
+     ========================================================================= */
+  :root{
+    --bg-0:#0a0908;
+    --bg-1:#12110b;
+    --bg-2:#1d1a11;
+    --frame:#15130c;
+    --frame-border:#544a29;
+    --line:#37311d;
+    --text:#ece5cf;
+    --text-dim:#a2966c;
+    --accent:#ecdf9c;
+    --accent-soft:#b8aa79;
+    --shadow:0 0 0 1px rgba(226,210,150,.06), 0 18px 50px rgba(0,0,0,.6);
+
+    /* accents par doctrine (repris via data-accent) */
+    --c-cinetique:#e7ecf5;
+    --c-solaire:#ff7a2e;
+    --c-arc:#6fd0ff;
+    --c-abyssale:#a26bff;
+    --c-stase:#5b8bff;
+    --c-filobscur:#4bd07a;
+    --c-recharge:#66d6a1;
+    --c-competence:#c9a24a;
+    --c-degats:#ff5a5a;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Rajdhani',system-ui,sans-serif;
+    color:var(--text);
+    background:
+      radial-gradient(1200px 700px at 50% -10%, rgba(226,210,150,.10), transparent 60%),
+      radial-gradient(900px 600px at 100% 10%, rgba(200,140,40,.07), transparent 55%),
+      linear-gradient(180deg,var(--bg-1),var(--bg-0));
+    min-height:100dvh;
+    padding:clamp(14px,2.5vw,32px);
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* =========================================================================
+     EN-TÊTE
+     ========================================================================= */
+  header.top{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    margin-bottom:22px;flex-wrap:wrap;
+  }
+  .title-block{display:flex;align-items:center;gap:14px;min-width:0;}
+  .brand{
+    height:clamp(30px,4.6vw,50px);width:auto;max-width:min(78vw,560px);
+    object-fit:contain;display:block;
+    filter:drop-shadow(0 0 16px rgba(226,210,150,.22));
+  }
+  .brand-emblem{aspect-ratio:1;max-width:none;border-radius:8px;}
+
+
+  /* =========================================================================
+     GRILLE DE CADRES
+     ========================================================================= */
+  .grid{
+    display:grid;
+    grid-template-columns:1fr;              /* mobile : 1 colonne */
+    gap:clamp(12px,1.5vw,20px);
+    width:100%;
+    max-width:1500px;
+    margin:0 auto;
+  }
+  /* tablette / desktop : hauteurs égales + remplissage vertical */
+  @media (min-width:720px){
+    body{height:100dvh;overflow:hidden;}
+    .grid{
+      grid-template-columns:repeat(2,1fr);
+      grid-auto-rows:1fr;                   /* rangées de hauteur identique */
+      flex:1 1 auto;min-height:0;
+    }
+  }
+  /* large / 16:9 : les 4 cadres sur une seule rangée */
+  @media (min-width:1200px){
+    .grid{grid-template-columns:repeat(4,1fr);}
+  }
+
+  .frame{
+    background:linear-gradient(180deg,var(--frame),#0d0b07);
+    border:1px solid var(--frame-border);
+    border-radius:16px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    display:flex;flex-direction:column;
+    min-height:0;
+    max-height:72vh;                        /* mobile : plafond + scroll page */
+  }
+  @media (min-width:720px){
+    .frame{max-height:none;}                /* desktop : la grille impose la hauteur */
+  }
+  .frame-head{
+    padding:14px 18px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(226,210,150,.10),transparent);
+    display:flex;align-items:center;gap:10px;flex:0 0 auto;
+  }
+  .frame-head .bar{width:4px;height:20px;border-radius:2px;background:var(--accent);box-shadow:0 0 10px var(--accent);}
+  .frame-head h2{
+    margin:0;font-family:'Chakra Petch',sans-serif;font-weight:700;
+    text-transform:uppercase;letter-spacing:.08em;font-size:15px;color:#fff4d8;
+  }
+  .frame-head .count{
+    margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:11px;
+    color:var(--text-dim);border:1px solid var(--line);border-radius:6px;padding:2px 8px;
+  }
+
+  .frame-body{
+    padding:12px 14px 16px;
+    flex:1 1 auto;min-height:0;        /* remplit le cadre → scroll interne */
+    overflow-y:auto;                  /* SCROLL par cadre */
+    scrollbar-width:thin;
+    scrollbar-color:var(--accent-soft) transparent;
+  }
+  .frame-body::-webkit-scrollbar{width:10px;}
+  .frame-body::-webkit-scrollbar-track{background:transparent;}
+  .frame-body::-webkit-scrollbar-thumb{
+    background:linear-gradient(180deg,var(--accent-soft),#6b4e1a);
+    border-radius:999px;border:2px solid var(--frame);
+  }
+  .frame-body::-webkit-scrollbar-thumb:hover{background:var(--accent);}
+
+  /* =========================================================================
+     SECTIONS (doctrines) + PERKS
+     ========================================================================= */
+  .section{margin-bottom:14px;}
+  .section:last-child{margin-bottom:0;}
+  .section-head{
+    display:flex;align-items:center;gap:8px;
+    margin:6px 2px 8px;
+  }
+  .section-head .tick{width:10px;height:10px;border-radius:2px;background:var(--sec,var(--accent));box-shadow:0 0 10px var(--sec,var(--accent));transform:rotate(45deg);}
+  .section-head h3{
+    margin:0;font-family:'Chakra Petch',sans-serif;font-weight:600;
+    text-transform:uppercase;letter-spacing:.12em;font-size:12px;
+    color:var(--sec,var(--accent));
+  }
+  .section-head .sline{flex:1;height:1px;background:linear-gradient(90deg,var(--sec,var(--line)),transparent);opacity:.5;}
+
+  .perk{
+    display:flex;align-items:center;gap:12px;
+    padding:9px 10px;border-radius:10px;
+    border:1px solid transparent;
+    transition:background .15s,border-color .15s,transform .15s;
+  }
+  .perk:hover{
+    background:rgba(226,210,150,.06);
+    border-color:var(--sec,var(--line));
+    transform:translateX(2px);
+  }
+  .perk .icon{
+    width:44px;height:44px;flex:0 0 auto;border-radius:8px;
+    background:var(--bg-2);border:1px solid var(--line);
+    object-fit:cover;overflow:hidden;position:relative;
+    box-shadow:0 0 12px rgba(0,0,0,.4) inset;
+  }
+  .perk .icon.ph{
+    display:grid;place-items:center;color:var(--text-dim);
+    font-family:'JetBrains Mono',monospace;font-size:9px;text-align:center;line-height:1.1;
+    background:repeating-linear-gradient(45deg,#0d1730,#0d1730 6px,#0f1c3a 6px,#0f1c3a 12px);
+  }
+  .perk .meta{min-width:0;display:flex;flex-direction:column;gap:2px;}
+  .perk .name{
+    font-weight:600;font-size:15px;color:var(--text);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .perk .name.unresolved{color:var(--text-dim);font-style:italic;}
+  .perk .hash{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text-dim);}
+
+  .empty{
+    font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-dim);
+    padding:10px;border:1px dashed var(--line);border-radius:8px;text-align:center;
+  }
+
+  /* =========================================================================
+     PIED DE PAGE
+     ========================================================================= */
+  .foot{
+    flex:0 0 auto;
+    margin-top:clamp(12px,1.6vw,20px);
+    padding-top:12px;border-top:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;
+    font-family:'JetBrains Mono',monospace;font-size:11px;line-height:1.5;
+    color:var(--text-dim);text-align:center;
+  }
+  .foot .tag{
+    color:#ffbf47;border:1px solid #6a5220;background:rgba(255,191,71,.09);
+    padding:2px 9px;border-radius:6px;letter-spacing:.16em;font-weight:600;
+    box-shadow:0 0 12px rgba(255,191,71,.15);
+  }
+</style>
+</head>
+<body>
+
+  <header class="top">
+    <div class="title-block">
+      <img class="brand" src="./logo-d2glossaire.png" alt="D2 Glossary"
+           onerror="this.onerror=null;this.src='./favicon.svg';this.classList.add('brand-emblem')">
+    </div>
+  </header>
+
+  <main id="grid" class="grid"></main>
+
+  <footer class="foot">
+    <span class="tag">ALPHA</span>
+    <span>Prototype expérimental — interface générée par IA, perks du manifest Destiny 2 configurés à la main. Outil non officiel, non affilié à Bungie.</span>
+  </footer>
+
+<script>
+/* ===========================================================================
+   1) CONFIGURATION
+   ---------------------------------------------------------------------------
+   - manifestPath : chemin LOCAL vers le JSON component
+                    DestinyInventoryItemDefinition (objet { hash: definition }).
+   - bungieBase   : préfixe des icônes (displayProperties.icon est relatif).
+   - frames[]     : chaque cadre = { id, title, accent?, sections[] }
+   - sections[]   : chaque section = { title?, accent?, hashes:[...] }
+                    → title omis/"" = pas d'en-tête de section (liste à plat).
+
+   TU REMPLIS LES `hashes` À LA MAIN. Les valeurs ci-dessous sont des
+   placeholders et n'existent pas dans le manifest (elles s'afficheront en
+   "non résolu" tant que tu ne mets pas de vrais hash).
+   =========================================================================== */
+const CONFIG = {
+  manifestPath: "./DestinyInventoryItemDefinition.json",
+  bungieBase:   "https://www.bungie.net",
+
+  frames: [
+    {
+      id: "elementaires",
+      title: "Perks Élémentaires",
+      sections: [
+        { title: "Cinétique",  accent: "var(--c-cinetique)", hashes: [1549370717] },
+        { title: "Solaire",    accent: "var(--c-solaire)",   hashes: [2675184851, 2890807135, 3017780555] },
+        { title: "Arc",        accent: "var(--c-arc)",       hashes: [2633604463, 717070634, 1720528630, 65604327, 511499160] },
+        { title: "Abyssale",   accent: "var(--c-abyssale)",  hashes: [2541826827, 1926441324] },
+        { title: "Stase",      accent: "var(--c-stase)",     hashes: [2617553311, 124408337, 2922950962] },
+        { title: "Filobscur",  accent: "var(--c-filobscur)", hashes: [102912326, 923806249, 960997401] },
+      ]
+    },
+    {
+      id: "chargeur",
+      title: "Perks de rechargement (chargeur)",
+      accent: "var(--c-recharge)",
+      sections: [
+        { hashes: [3300816228, 424370782, 2817499044, 573122728, 2284787283, 461595545, 4245865861, 777589559, 1421772400, 2037312142, 2275087323] }
+      ]
+    },
+    {
+      id: "competences",
+      title: "Perks de recharge de compétences",
+      accent: "var(--c-competence)",
+      sections: [
+        { hashes: [1906147653, 536173722] }
+      ]
+    },
+    {
+      id: "degats",
+      title: "Perks de Dégâts",
+      accent: "var(--c-degats)",
+      sections: [
+        { hashes: [1546637391, 3078487919, 496047945, 3192447905, 365154968, 1167468626, 1771339417, 1817983009, 332733060] }
+      ]
+    },
+  ]
+};
+
+/* ===========================================================================
+   2) CHARGEMENT DU MANIFEST (fetch, chemin en dur)
+   =========================================================================== */
+let MANIFEST = null;
+
+async function loadManifest(){
+  const res = await fetch(CONFIG.manifestPath, { cache: "force-cache" });
+  if(!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
+
+/* Résout un hash → { name, icon } via le manifest. */
+function resolvePerk(hash){
+  const def = MANIFEST ? MANIFEST[hash] : null;
+  const dp  = def && def.displayProperties;
+  const name = dp && dp.name ? dp.name : null;
+  let icon = null;
+  if(dp && dp.icon){
+    icon = /^https?:\/\//.test(dp.icon) ? dp.icon : CONFIG.bungieBase + dp.icon;
+  }
+  return { name, icon };
+}
+
+/* ===========================================================================
+   3) RENDU
+   =========================================================================== */
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if(cls) n.className = cls;
+  if(html != null) n.innerHTML = html;
+  return n;
+}
+
+function renderPerk(hash, accent){
+  const { name, icon } = resolvePerk(hash);
+  const perk = el("div", "perk");
+  if(accent) perk.style.setProperty("--sec", accent);
+
+  if(icon){
+    const img = el("img", "icon");
+    img.src = icon; img.alt = "";
+    img.loading = "lazy";
+    img.onerror = () => { const ph = placeholderIcon(hash); img.replaceWith(ph); };
+    perk.appendChild(img);
+  } else {
+    perk.appendChild(placeholderIcon(hash));
+  }
+
+  const meta = el("div", "meta");
+  const nm = el("div", "name" + (name ? "" : " unresolved"), name ? escapeHtml(name) : "Perk non résolu");
+  const hs = el("div", "hash", "#" + hash);
+  meta.appendChild(nm); meta.appendChild(hs);
+  perk.appendChild(meta);
+  return perk;
+}
+
+function placeholderIcon(hash){
+  return el("div", "icon ph", "N/A");
+}
+
+function renderSection(section){
+  const wrap = el("div", "section");
+  const accent = section.accent || null;
+
+  if(section.title){
+    const head = el("div", "section-head");
+    head.style.setProperty("--sec", accent || "var(--accent)");
+    head.appendChild(el("span", "tick"));
+    head.appendChild(el("h3", null, escapeHtml(section.title)));
+    head.appendChild(el("span", "sline"));
+    wrap.appendChild(head);
+  }
+
+  const hashes = Array.isArray(section.hashes) ? section.hashes : [];
+  if(hashes.length === 0){
+    wrap.appendChild(el("div", "empty", "Aucun hash — à remplir"));
+  } else {
+    hashes.forEach(h => wrap.appendChild(renderPerk(h, accent)));
+  }
+  return wrap;
+}
+
+function renderFrame(frame){
+  const f = el("div", "frame");
+
+  const head = el("div", "frame-head");
+  const bar = el("span", "bar");
+  if(frame.accent){
+    bar.style.background = frame.accent;
+    bar.style.boxShadow = "0 0 10px " + frame.accent;
+  }
+  head.appendChild(bar);
+  head.appendChild(el("h2", null, escapeHtml(frame.title)));
+  const total = (frame.sections || []).reduce((s, sec) => s + (sec.hashes ? sec.hashes.length : 0), 0);
+  head.appendChild(el("span", "count", total + " perk" + (total > 1 ? "s" : "")));
+  f.appendChild(head);
+
+  const body = el("div", "frame-body");
+  (frame.sections || []).forEach(sec => body.appendChild(renderSection(sec)));
+  f.appendChild(body);
+  return f;
+}
+
+function renderAll(){
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  CONFIG.frames.forEach(fr => grid.appendChild(renderFrame(fr)));
+}
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+}
+
+/* ===========================================================================
+   4) BOOTSTRAP
+   =========================================================================== */
+/* Alimente MANIFEST + re-rend. */
+function ingestManifest(data){
+  MANIFEST = data;
+  renderAll();
+}
+
+(async function init(){
+  renderAll(); // rendu immédiat en mode placeholder
+  try{
+    ingestManifest(await loadManifest());
+  }catch(err){
+    /* manifest non chargé → la page reste en mode placeholder */
+  }
+})();
+</script>
+</body>
+</html>
