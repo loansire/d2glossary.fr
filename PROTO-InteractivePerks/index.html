@@ -220,7 +220,7 @@
 
   <footer class="foot">
     <span class="tag">ALPHA</span>
-    <span>Prototype expérimental — interface générée par IA, perks du manifest Destiny 2 configurés à la main. Outil non officiel, non affilié à Bungie.</span>
+    <span>Prototype expérimental — interface générée par IA, perks du manifest Destiny 2 configurés à la main.</span>
   </footer>
 
 <script>
@@ -245,38 +245,52 @@ const CONFIG = {
   frames: [
     {
       id: "elementaires",
-      title: "Perks Élémentaires",
+      title: "Effets Élémentaires",
       sections: [
-        { title: "Cinétique",  accent: "var(--c-cinetique)", hashes: [1549370717] },
+        { title: "Cinétique",  accent: "var(--c-cinetique)", hashes: [1549370717, 2289534249] },
         { title: "Solaire",    accent: "var(--c-solaire)",   hashes: [2675184851, 2890807135, 3017780555] },
-        { title: "Arc",        accent: "var(--c-arc)",       hashes: [2633604463, 717070634, 1720528630, 65604327, 511499160] },
-        { title: "Abyssale",   accent: "var(--c-abyssale)",  hashes: [2541826827, 1926441324] },
-        { title: "Stase",      accent: "var(--c-stase)",     hashes: [2617553311, 124408337, 2922950962] },
+        { title: "Cryo",       accent: "var(--c-arc)",       hashes: [717070634, 1720528630, 511499160, 2633604463] },
+        { title: "Abyssale",   accent: "var(--c-abyssale)",  hashes: [2541826827, 1926441324, 1134488199] },
+        { title: "Stase",      accent: "var(--c-stase)",     hashes: [2617553311, 124408337, 2922950962, 2978966579] },
         { title: "Filobscur",  accent: "var(--c-filobscur)", hashes: [102912326, 923806249, 960997401] },
       ]
     },
     {
       id: "chargeur",
-      title: "Perks de rechargement (chargeur)",
+      title: "Rechargement",
       accent: "var(--c-recharge)",
       sections: [
-        { hashes: [3300816228, 424370782, 2817499044, 573122728, 2284787283, 461595545, 4245865861, 777589559, 1421772400, 2037312142, 2275087323] }
+        {hashes: [2817499044, 424370782, 3300816228, 461595545, 1563455254, 573122728, 848860060, 2284787283, 4245865861, 777589559, 1421772400, 1119449540, 2682205016] },
+        {title: "Cryo", accent: "var(--c-arc)", hashes: [1511100135,]}
       ]
     },
     {
       id: "competences",
-      title: "Perks de recharge de compétences",
+      title: "Compétences",
       accent: "var(--c-competence)",
       sections: [
-        { hashes: [1906147653, 536173722] }
+        { title:"Energie", hashes: [1906147653, 536173722, 880644845] },
+        { title:"Dégâts", hashes: [788178929] },
+        { title:"Statistique", hashes: [1017229899] },
       ]
     },
     {
       id: "degats",
-      title: "Perks de Dégâts",
+      title: "Dégâts/DPS",
       accent: "var(--c-degats)",
       sections: [
-        { hashes: [1546637391, 3078487919, 496047945, 3192447905, 365154968, 1167468626, 1771339417, 1817983009, 332733060] }
+        { title: "Incontournable", hashes: [3078487919, 496047945, 3192447905] },
+        { title: "Rocket/LanceGrenade", accent: "var(--c-cinetique)", hashes:[1167468626, 2275087323]},
+        { title: "Cryo", accent: "var(--c-arc)", hashes:[654512643]},
+        { title: "Abyssale", accent: "var(--c-abyssale)", hashes:[332733060]},
+        {title: "Situationnel", hashes: [781192741, 2037312142, 1545231802, 1817983009, 1546637391, 365154968, 1771339417, 2360754333]}
+      ]
+    },
+    {
+      id: "utilitaire",
+      title: "Utilitaire",
+      sections: [
+        { hashes: [243981275, 254337357, 598607952, 64866129, 331667533] },
       ]
     },
   ]
@@ -357,7 +371,7 @@ function renderSection(section){
 
   const hashes = Array.isArray(section.hashes) ? section.hashes : [];
   if(hashes.length === 0){
-    wrap.appendChild(el("div", "empty", "Aucun hash — à remplir"));
+    wrap.appendChild(el("div", "empty", "Aucun hash - à remplir"));
   } else {
     hashes.forEach(h => wrap.appendChild(renderPerk(h, accent)));
   }
