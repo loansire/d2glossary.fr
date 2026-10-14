@@ -55,10 +55,10 @@ SOURCE_MANUAL_MAP = {
 # Une valeur vide ("") ou absente est ignorée → comportement automatique conservé.
 SOURCE_SET_OVERRIDE = {
     "239346083":  {"fr": "Vendeur Zavala", "en": "Zavala Vendor"},
-    "1083114430": {"fr": "Vendeur Zavala", "en": "Zavala Vendor"},
+    "1083114430": {"fr": "Vendeur Zavala // Xur", "en": "Zavala Vendor // Xur"},
     "2751989785": {"fr": "Vendeur Zavala", "en": "Zavala Vendor"},
     "3734029045": {"fr": "Vendeur Zavala", "en": "Zavala Vendor"},
-    "2391762223": {"fr": "Vendeur Zavala", "en": "Zavala Vendor"},
+    "2391762223": {"fr": "Vendeur Zavala // Xur", "en": "Zavala Vendor // Xur"},
     "499993704":  {"fr": "Vendeur Zavala // Opération Solo/Escouade", "en": "Zavala Vendor // Solo/FireTeam ops"},
     "2461275960": {"fr": "Vendeur Zavala // Opération en Arène/Prestige", "en": "Zavala Vendor // Arena/Pinnacle ops"},
     "3252452908": {"fr": "Vendeur Shaxx", "en": "Vendor Shaxx"},
