@@ -5103,7 +5103,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Cryoclasm",
-    "Description": "Sliding into Stasis Crystals and Frozen Enemies shatters them and other Frozen Enemies within ? meters instantly.\n\nPassively grants 50% Increased Slide Distance.\nIncurs a 2 second cooldown after an extended slide.\n\nSliding launches a Stasis wave that deals 18 [?] Damage, shatters Stasis Crystals and Frozen Enemies.",
+    "Description": "Sliding into Stasis Crystals and Frozen Enemies shatters on contact.\n\nPassively increases Slide Distance from 6.5 meters to 11 meters.\nIncurs a 2 second cooldown after an extended slide.\n\nSliding launches a Stasis wave that deals 18 [?] Damage, shatters Stasis Crystals and Frozen Enemies.",
     "hash": 2031919265,
     "parentHash": "2031919265",
     "descriptions": {
@@ -5129,16 +5129,7 @@
               ]
             },
             {
-              "text": " Enemies shatters them and other "
-            },
-            {
-              "text": "Frozen",
-              "classNames": [
-                "stasis"
-              ]
-            },
-            {
-              "text": " Enemies within ? meters instantly."
+              "text": " Enemies shatters on contact."
             }
           ]
         },
@@ -5150,7 +5141,7 @@
         {
           "linesContent": [
             {
-              "text": "Passively grants 50% Increased Slide Distance."
+              "text": "Passively increases Slide Distance from 6.5 meters to 11 meters."
             }
           ]
         },
@@ -6332,7 +6323,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Winter's Wrath",
-    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
+    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are dealt 3,453 [?] Stasis Damage.\n Combatants of all ranks are dealt an additional Shatter Damage Instance of 361 damage, totalling 3814 Damage.",
     "hash": 3683904166,
     "parentHash": "3683904166",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6489,16 +6480,7 @@
               ]
             },
             {
-              "text": " Enemies hit by the shockwave are "
-            },
-            {
-              "text": "shattered",
-              "classNames": [
-                "stasis"
-              ]
-            },
-            {
-              "text": ", dealing 3,453 ["
+              "text": " Enemies hit by the shockwave are dealt 3,453 ["
             },
             {
               "text": "?",
@@ -6510,7 +6492,7 @@
               "text": "] "
             },
             {
-              "text": "Shatter",
+              "text": "Stasis",
               "classNames": [
                 "stasis"
               ]
@@ -6523,7 +6505,16 @@
         {
           "linesContent": [
             {
-              "text": "Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage."
+              "text": "Combatants of all ranks are dealt an additional "
+            },
+            {
+              "text": "Shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Damage Instance of 361 damage, totalling 3814 Damage."
             }
           ]
         }
@@ -6534,7 +6525,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Winter's Wrath",
-    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are shattered, dealing 3,453 [?] Shatter Damage.\n Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage.",
+    "Description": "General Super Information\nDamage Resistance: 90% [51%]\nBase Duration: 24.5 seconds, or 4.08% Super Drain per Second\nGlide becomes a variant of Strafe Glide with unlimited duration.\n\nLight Attack | Drains 4.5% Super Energy per twin-shards.\nCasts two freezing homing twin-shards, one after another. Each projectile deals 11 impact damage and up to 50 [33] splash damage over ? meters to unfrozen enemies.\nFrozen enemies receive 90% decreased damage.\n\nHeavy Attack | Does not drain Super Energy.\nCasts a shockwave that deals 45 [? and Non-Lethal] damage and heavily staggers enemies within 30 metres. Shockwave travels 45 meters per second.\nStasis Crystals and Frozen Enemies hit by the shockwave are dealt 3,453 [?] Stasis Damage.\n Combatants of all ranks are dealt an additional Shatter Damage Instance of 361 damage, totalling 3814 Damage.",
     "hash": 1869939006,
     "parentHash": "1869939006",
     "hash_warning": "Multiple matches found (2 total)",
@@ -6691,16 +6682,7 @@
               ]
             },
             {
-              "text": " Enemies hit by the shockwave are "
-            },
-            {
-              "text": "shattered",
-              "classNames": [
-                "stasis"
-              ]
-            },
-            {
-              "text": ", dealing 3,453 ["
+              "text": " Enemies hit by the shockwave are dealt 3,453 ["
             },
             {
               "text": "?",
@@ -6712,7 +6694,7 @@
               "text": "] "
             },
             {
-              "text": "Shatter",
+              "text": "Stasis",
               "classNames": [
                 "stasis"
               ]
@@ -6725,7 +6707,16 @@
         {
           "linesContent": [
             {
-              "text": "Combatants are dealt an additional damage instance of 361 damage, totalling 3814 Damage."
+              "text": "Combatants of all ranks are dealt an additional "
+            },
+            {
+              "text": "Shatter",
+              "classNames": [
+                "stasis"
+              ]
+            },
+            {
+              "text": " Damage Instance of 361 damage, totalling 3814 Damage."
             }
           ]
         }

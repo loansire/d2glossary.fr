@@ -1271,7 +1271,7 @@
   },
   {
     "Name": "Firepower",
-    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Heavy Handed.",
+    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Heavy Handed if equipped before it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]",
     "hash": 2485657760,
@@ -1327,7 +1327,14 @@
         {
           "linesContent": [
             {
-              "text": "Cannot simultaneously benefit with Heavy Handed."
+              "text": "Can trigger alongside Heavy Handed if equipped before it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "From left to right order."
             }
           ]
         }
@@ -1336,7 +1343,7 @@
   },
   {
     "Name": "Firepower",
-    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Heavy Handed.",
+    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Heavy Handed if equipped before it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]",
     "hash": 965934024,
@@ -1392,7 +1399,14 @@
         {
           "linesContent": [
             {
-              "text": "Cannot simultaneously benefit with Heavy Handed."
+              "text": "Can trigger alongside Heavy Handed if equipped before it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "From left to right order."
             }
           ]
         }
@@ -1735,7 +1749,7 @@
   },
   {
     "Name": "Heavy Handed",
-    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Firepower.",
+    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Firepower if equipped after it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]",
     "hash": 2447449706,
@@ -1791,7 +1805,14 @@
         {
           "linesContent": [
             {
-              "text": "Cannot simultaneously benefit with Firepower."
+              "text": "Can trigger alongside Firepower if equipped after it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "From left to right order."
             }
           ]
         }
@@ -1800,7 +1821,7 @@
   },
   {
     "Name": "Heavy Handed",
-    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Firepower.",
+    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Firepower if equipped after it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]",
     "hash": 1709236482,
@@ -1856,7 +1877,14 @@
         {
           "linesContent": [
             {
-              "text": "Cannot simultaneously benefit with Firepower."
+              "text": "Can trigger alongside Firepower if equipped after it."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "From left to right order."
             }
           ]
         }
@@ -4694,7 +4722,7 @@
   },
   {
     "Name": "Powerful Attraction",
-    "Description": "On Class Ability Usage:\nCollects Orbs of Power within 12.5 | 18.5 metres.\n\nAlso works on Motes and Crests.",
+    "Description": "On Class Ability Usage:\nCollects Orbs of Power within 12.5 | 18.5 metres.\n\nWill also pick up Motes and Crests.",
     "Type": "ClassMods",
     "Comment": "[2 Energy]",
     "hash": 11126525,
@@ -4723,7 +4751,7 @@
         {
           "linesContent": [
             {
-              "text": "Also works on Motes and Crests."
+              "text": "Will also pick up Motes and Crests."
             }
           ]
         }
@@ -4804,7 +4832,7 @@
   },
   {
     "Name": "Reaper",
-    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% [1.1%] {1.25%} <1.5> Super Energy.\n\nIncurs a 10 [5] {1} second cooldown between Orbs.",
+    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]",
     "hash": 40751621,
@@ -4841,16 +4869,7 @@
         {
           "linesContent": [
             {
-              "text": "0.8% ["
-            },
-            {
-              "text": "1.1%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] {1.25%} <1.5> Super Energy."
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
             }
           ]
         },
@@ -4862,16 +4881,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 10 ["
-            },
-            {
-              "text": "5",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] {1} second cooldown between Orbs."
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
             }
           ]
         }
@@ -4880,7 +4890,7 @@
   },
   {
     "Name": "Reaper",
-    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% [1.1%] {1.25%} <1.5> Super Energy.\n\nIncurs a 10 [5] {1} second cooldown between Orbs.",
+    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]",
     "hash": 4149682173,
@@ -4917,16 +4927,7 @@
         {
           "linesContent": [
             {
-              "text": "0.8% ["
-            },
-            {
-              "text": "1.1%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] {1.25%} <1.5> Super Energy."
+              "text": "0.8% | 1.1% | 1.25% | 1.5% Super Energy."
             }
           ]
         },
@@ -4938,16 +4939,7 @@
         {
           "linesContent": [
             {
-              "text": "Incurs a 10 ["
-            },
-            {
-              "text": "5",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] {1} second cooldown between Orbs."
+              "text": "Incurs a 10 | 5 | 1 second cooldown between Orbs."
             }
           ]
         }
@@ -4956,7 +4948,7 @@
   },
   {
     "Name": "Restorative Finisher",
-    "Description": "On Finisher:\nConsumes x2 Armor Charge.\n\nGrants 50% Ability Energy to the least-charged Ability.",
+    "Description": "On Finisher:\nConsumes x2 Armor Charge.\n\n50% Ability Energy to the least-charged Ability.",
     "Type": "ClassMods",
     "Comment": "[1 Energy]",
     "hash": 1170405455,
@@ -4985,7 +4977,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 50% Ability Energy to the least-charged Ability."
+              "text": "50% Ability Energy to the least-charged Ability."
             }
           ]
         }
@@ -5034,7 +5026,7 @@
     "Name": "Special Finisher",
     "Description": "On Finisher:\nConsumes x3 Armor Charge.\n\nGenerates a Special Ammo Brick for the user and allies.",
     "Type": "ClassMods",
-    "Comment": "[2 Energy]",
+    "Comment": "[1 Energy]",
     "hash": 4004774872,
     "parentHash": "4004774872",
     "descriptions": {
@@ -5079,7 +5071,7 @@
   },
   {
     "Name": "Time Dilation",
-    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Description": "Armor Charges decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]",
     "hash": 3735294183,
@@ -5090,7 +5082,7 @@
         {
           "linesContent": [
             {
-              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+              "text": "Armor Charges decay every 15 | 18 | 20 seconds."
             }
           ]
         },
@@ -5111,7 +5103,7 @@
   },
   {
     "Name": "Time Dilation",
-    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Description": "Armor Charges decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]",
     "hash": 1755737153,
@@ -5122,7 +5114,7 @@
         {
           "linesContent": [
             {
-              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+              "text": "Armor Charges decay every 15 | 18 | 20 seconds."
             }
           ]
         },
@@ -5143,7 +5135,7 @@
   },
   {
     "Name": "Time Dilation",
-    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Description": "Armor Charges decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]",
     "hash": 1783952505,
@@ -5154,7 +5146,7 @@
         {
           "linesContent": [
             {
-              "text": "Armor Charges now decay every 15 | 18 | 20 seconds."
+              "text": "Armor Charges decay every 15 | 18 | 20 seconds."
             }
           ]
         },

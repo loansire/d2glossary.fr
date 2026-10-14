@@ -9,7 +9,7 @@
   },
   {
     "Name": "Radiant",
-    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nDeal 10% increased Weapon Damage against Champions while Radiant is active."
+    "Description": "Increases Weapon Damage by 20% [10%] for 10 seconds and can be extended up to 15 seconds by default. \nAlso affects Golden Gun's Damage.\n\nReapplying Radiant will refresh its duration to its longest achieved duration.\n\nDamage Buff effect is increased to 30% against Champions. Well of Radiance's 25% overrides the 30% against Champions."
   },
   {
     "Name": "Restoration",
@@ -21,7 +21,7 @@
   },
   {
     "Name": "Scorch",
-    "Description": "Scorched Enemies are dealt Scorch-stack based damage every 0.56 seconds after being scorched for 0.5 seconds. \nAll Scorch is removed upon reaching x100 Scorch to trigger an Ignition.\nThe 2nd Scorch tick has a 0.93s delay for some reason.\n\nScorch Stack Damage Scaling per Tick:\n2.7 + (0.175 * Scorch Stacks) | Non-Boss Combatants receive 20% increased damage.\n x1 = 3 | x30 = 5 | x50 = 6.5 | x60 = 7.21 | x80 = 8.64 | Scorch Damage is non-lethal.\nDeals 2.5% increased damage upon reaching at least x60 Scorch, indicated by Yellow Damage Numbers.\n\nScorch Decay:\nScorch lasts for 4.5 seconds, then decreases by x5.67 stacks every 0.56 seconds. (~-10/s)\n Scorch lasts for 2.3 seconds, then decreases by x1 stacks every 0.04 seconds (-25/s)"
+    "Description": "Scorched Enemies are dealt Scorch-stack based damage every 0.56 seconds after being scorched for 0.5 seconds. \nAll Scorch is removed upon reaching x100 Scorch to trigger an Ignition.\nThe 2nd Scorch tick has a 0.93s delay for some reason.\n\nScorch Stack Damage Scaling per Tick:\n2.7 + (0.175 * Scorch Stacks) | Non-Boss Combatants receive 20% increased damage.\n x1 = 3 | x30 = 5 | x50 = 6.5 | x60 = 7.21 | x80 = 8.64 | Scorch Damage is non-lethal.\nDeals 2.5% increased damage upon reaching at least x60 Scorch, indicated by Yellow Damage Numbers.\n\nScorch Decay:\nScorch duration and decay rate is difficulty-dependent. \n Scorch lasts for 2.3 seconds, then decreases by x1 stacks every 0.04 seconds (-25/s)"
   },
   {
     "Name": "Solar Effect\nDamage Scaling",

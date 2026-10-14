@@ -9,13 +9,13 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Grapple Tangle",
-    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nStrand and Prismatic Subclasses allow using Grapple Melee. Prismatic Warlocks need to equip Arcane Needle to receive Grapple Melee.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
+    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nGrapple Melee can only be performed on Grapple Tangles if a Grapple Grenade Ability Charge is readied. Works on Prismatic Hunters, too.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
   },
   {
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Threadling",
-    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range."
+    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nReleases a Threadling upon dealing weapon damage or scoring a Powered Melee Hit, with a 0.5 second cooldown between releases. Instantly killing an enemy won't release Threadlings.\nThreadlings released this way will track at any range."
   },
   {
     "Class": "General",
@@ -45,7 +45,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Unraveling Rounds",
-    "Description": "Strand Weapons apply Unravel upon dealing damage, and Barrier Champion Shields are able to be damaged while Unraveling Rounds are active, stunning the Champion when destroyed."
+    "Description": "Strand Weapons inflict Unravel upon dealing damage."
   },
   {
     "Class": "General",
@@ -87,7 +87,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Thread of Generation",
-    "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant."
+    "Description": "Upon dealing damage:\nGrants a variable amount of Grenade Ability Energy.\nDoes not grant Slicewire Grenade Energy.\n\nGrenade Ability Energy Gains vary depending on the source, as well as the amount of damage.\nGenerally, the more damage something deals, the more Ability Energy it will grant."
   },
   {
     "Class": "General",
@@ -255,7 +255,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Weaver's Call",
-    "Description": "Threadling hits grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated. Cannot generate more than 1 Threadling at a time.\nDamage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%"
+    "Description": "Threadling damage instances grant 10% Class Ability Energy.\n\nDealing an accumulated total of 700 [?] damage grants a Perched Threadling.\nIncurs a 2 second cooldown before additional threadlings can be generated. Cannot generate more than 1 Threadling at a time.\nDamage requirement is based on the displayed damage numbers, and is penalized by Power Level Delta.\n\nOn Class Ability Usage:\nCreates 3 Threadlings, and deploys all Perched Threadlings.\n\nKills progress a counter that grants a Perched Threadling upon reaching 100%.\n Miniboss and below = 34% | Boss = 100% | Guardians = 67%"
   },
   {
     "Class": "Warlock",

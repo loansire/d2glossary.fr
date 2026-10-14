@@ -1,5 +1,693 @@
 [
   {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.\n\nHas no effect on Swords.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 3713579091,
+    "parentHash": "3713579091",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the buff duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Has no effect on "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.\n\nHas no effect on Swords.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 2671305723,
+    "parentHash": "2671305723",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the buff duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Has no effect on "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.\n\nHas no effect on Swords.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 2697390518,
+    "parentHash": "2697390518",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the buff duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Has no effect on "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Accelerated Assault",
+    "Description": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.\n\nHas no effect on Swords.",
+    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
+    "hash": 1847323754,
+    "parentHash": "1847323754",
+    "hash_warning": "Multiple matches found (4 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon scoring a total of 3 damage instances, with a maximum of 1.2 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage for 4 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% "
+            },
+            {
+              "text": "↑6%",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " ["
+            },
+            {
+              "text": "?%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] increased damage and +? Reload Speed for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Dealing damage extends the buff duration to 2 seconds if the "
+            },
+            {
+              "text": "Accelerated Assault",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " buff timer is ≤2 seconds."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Has no effect on "
+            },
+            {
+              "text": "Swords",
+              "classNames": [
+                "weapon-sword"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Advanced Reflexes",
+    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\n5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 ↑+? seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Comment": "Dreaming City Reprises\nDestination",
+    "hash": 930692523,
+    "parentHash": "930692523",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon ADS or Guarding within 1 second of receiving damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be refreshed until its duration expires. Buff persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Advanced Reflexes",
+    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\n5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 ↑+? seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
+    "Comment": "Dreaming City Reprises\nDestination",
+    "hash": 1771914899,
+    "parentHash": "1771914899",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon ADS or Guarding within 1 second of receiving damage:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 "
+            },
+            {
+              "text": "↑+?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff cannot be refreshed until its duration expires. Buff persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Air-Cooled Core",
     "Description": "While at Full Magazine or Heat <=10%?:\n+? ↑+? Handling and ?% ↑?% Decreased ADS Movement Speed Penalty.\n\nUpon sprinting for 0.5 seconds:\n+? Reload/Vent Speed for 6? seconds",
     "Comment": "Lawless Frontier\nDestination",
@@ -119,610 +807,6 @@
           "linesContent": [
             {
               "text": "+? Reload/Vent Speed for 6? seconds"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Accelerated Assault",
-    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
-    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
-    "hash": 3713579091,
-    "parentHash": "3713579091",
-    "hash_warning": "Multiple matches found (4 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage for 4 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage and +? Reload Speed for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing damage extends the buff duration to 2 seconds if the "
-            },
-            {
-              "text": "Accelerated Assault",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " buff timer is ≤2 seconds."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Accelerated Assault",
-    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
-    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
-    "hash": 2671305723,
-    "parentHash": "2671305723",
-    "hash_warning": "Multiple matches found (4 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage for 4 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage and +? Reload Speed for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing damage extends the buff duration to 2 seconds if the "
-            },
-            {
-              "text": "Accelerated Assault",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " buff timer is ≤2 seconds."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Accelerated Assault",
-    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
-    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
-    "hash": 2697390518,
-    "parentHash": "2697390518",
-    "hash_warning": "Multiple matches found (4 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage for 4 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage and +? Reload Speed for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing damage extends the buff duration to 2 seconds if the "
-            },
-            {
-              "text": "Accelerated Assault",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " buff timer is ≤2 seconds."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Accelerated Assault",
-    "Description": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:\nRefills 10% of Magazine/Dissipates 10% Heat.\n5% ↑6% [?%] increased damage for 4 seconds.\nOnly counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger.\n\nFor Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:\n 5% ↑6% [?%] increased damage and +? Reload Speed for 8 seconds.\nDealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left.\nOnly counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger.\n\nDealing damage extends the buff duration to 2 seconds if the Accelerated Assault buff timer is ≤2 seconds.",
-    "Comment": "Shiny Renegade Drops\nVanguard Alerts",
-    "hash": 1847323754,
-    "parentHash": "1847323754",
-    "hash_warning": "Multiple matches found (4 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon scoring a total of 3 hits, with a maximum of 1.2 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 10% of Magazine/Dissipates 10% Heat."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage for 4 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 0.8s, meaning the perk takes AT LEAST 1.6 seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "For Single-Shot Weapon | Upon scoring a total of 3 hits, with a maximum of 4 seconds between each hit:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% "
-            },
-            {
-              "text": "↑6%",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " ["
-            },
-            {
-              "text": "?%",
-              "classNames": [
-                "pvp"
-              ]
-            },
-            {
-              "text": "] increased damage and +? Reload Speed for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing Additional Damage extends the buff duration by +4 seconds, up to 4 seconds. Cannot extend beyond 4s timer left."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Only counts a hit up to once every 1.2?s, meaning the perk takes AT LEAST ? seconds to trigger."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Dealing damage extends the buff duration to 2 seconds if the "
-            },
-            {
-              "text": "Accelerated Assault",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " buff timer is ≤2 seconds."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Advanced Reflexes",
-    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\n5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 ↑+? seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
-    "Comment": "Dreaming City Reprises\nDestination",
-    "hash": 930692523,
-    "parentHash": "930692523",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon ADS or Guarding within 1 second of receiving damage:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 "
-            },
-            {
-              "text": "↑+?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff cannot be refreshed until its duration expires. Buff persists through stow."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Advanced Reflexes",
-    "Description": "Upon ADS or Guarding within 1 second of receiving damage:\n5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 ↑+? seconds.\nBuff cannot be refreshed until its duration expires. Buff persists through stow.",
-    "Comment": "Dreaming City Reprises\nDestination",
-    "hash": 1771914899,
-    "parentHash": "1771914899",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon ADS or Guarding within 1 second of receiving damage:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "5% increased damage, +30 Mobility, +40 Handling, and +35 Charge Rate for 7.5 "
-            },
-            {
-              "text": "↑+?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff cannot be refreshed until its duration expires. Buff persists through stow."
             }
           ]
         }
@@ -2403,7 +2487,7 @@
   },
   {
     "Name": "Cast No Shadows",
-    "Description": "Upon dealing Melee Damage:\n+? ↑+? Handling for ? seconds\nRefills 20% of Magazine.",
+    "Description": "Upon dealing Melee Damage:\nRefills 20% of Magazine. No cooldown.\n+? ↑+? Handling for ? seconds.",
     "Comment": "Season of Dawn Reprises",
     "hash": 2838996248,
     "parentHash": "2838996248",
@@ -2420,6 +2504,13 @@
         {
           "linesContent": [
             {
+              "text": "Refills 20% of Magazine. No cooldown."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "+? "
             },
             {
@@ -2429,14 +2520,7 @@
               ]
             },
             {
-              "text": " Handling for ? seconds"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 20% of Magazine."
+              "text": " Handling for ? seconds."
             }
           ]
         }
@@ -2445,7 +2529,7 @@
   },
   {
     "Name": "Cast No Shadows",
-    "Description": "Upon dealing Melee Damage:\n+? ↑+? Handling for ? seconds\nRefills 20% of Magazine.",
+    "Description": "Upon dealing Melee Damage:\nRefills 20% of Magazine. No cooldown.\n+? ↑+? Handling for ? seconds.",
     "Comment": "Season of Dawn Reprises",
     "hash": 3212300392,
     "parentHash": "3212300392",
@@ -2462,6 +2546,13 @@
         {
           "linesContent": [
             {
+              "text": "Refills 20% of Magazine. No cooldown."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
               "text": "+? "
             },
             {
@@ -2471,14 +2562,7 @@
               ]
             },
             {
-              "text": " Handling for ? seconds"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Refills 20% of Magazine."
+              "text": " Handling for ? seconds."
             }
           ]
         }
@@ -3631,7 +3715,7 @@
   },
   {
     "Name": "Dark Ether Reaper",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑34?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nUpon interacting with a Dark Ether Charge:\nRefills the Magazine.\nGrants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
     "Comment": "Episode: Revenant",
     "hash": 2041432007,
     "parentHash": "2041432007",
@@ -3651,7 +3735,7 @@
               "text": "Rank-And-File = 25% "
             },
             {
-              "text": "↑?%",
+              "text": "↑34?%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -3731,7 +3815,21 @@
         {
           "linesContent": [
             {
-              "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped "
+              "text": "Upon interacting with a Dark Ether Charge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills the Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 40% Increased Magazine Capacity of all equipped "
             },
             {
               "text": "Dark Ether Reaper",
@@ -3768,7 +3866,7 @@
   },
   {
     "Name": "Dark Ether Reaper",
-    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nInteracting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
+    "Description": "Upon reaching 100% Counter Progress by scoring Weapon Kills:\nRank-And-File = 25% ↑34?% | Elite+ = 100% | Guardians = 25% ↑?%\nCounter persists through stow.\n\n Spawns an Element-Matching Dark Ether Charge that floats in the air for 5? seconds before expiring.\nDark Ether Charges can be detonated by either shooting at them or coming into contact with them.\nDark Ether Charges deal up to 386 [50] Element-Matching Weapon Damage over 3? meters. \nDamage against Combatants scales with Combatant Rank Modifiers. Kills with Dark Ether Charges progress the counter.\nDark Ether Charge damage counts as Weapon Damage. Damage is always attributed to the creator, regardless of who destroys the Dark Ether Charge.\n \nUpon interacting with a Dark Ether Charge:\nRefills the Magazine.\nGrants 40% Increased Magazine Capacity of all equipped Dark Ether Reaper Weapons.\nMagazine increases are rounded up.\n\nDark Ether Charge Progress is paused if a Dark Ether Charge has spawned.",
     "Comment": "Episode: Revenant",
     "hash": 118308935,
     "parentHash": "118308935",
@@ -3788,7 +3886,7 @@
               "text": "Rank-And-File = 25% "
             },
             {
-              "text": "↑?%",
+              "text": "↑34?%",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -3868,7 +3966,21 @@
         {
           "linesContent": [
             {
-              "text": "Interacting with a Dark Ether Charge refills the Magazine, and grants 40% Increased Magazine Capacity of all equipped "
+              "text": "Upon interacting with a Dark Ether Charge:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Refills the Magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Grants 40% Increased Magazine Capacity of all equipped "
             },
             {
               "text": "Dark Ether Reaper",
@@ -4690,228 +4802,6 @@
     }
   },
   {
-    "Name": "Eyes Up",
-    "Description": "After having maintained a state of dealing or receiving damage for at least ??? seconds:\nScoring a kill within 3? seconds of dealing or receiving damage grants Eyes Up x1 for 8 seconds.\nNo idea, inconsistent :) Definitely kill based though!\n\nAdditional Kills grant a stack of Eyes Up for 8 seconds, up to a maximum of 15 stacks.\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +4 seconds, up to a maximum 25 seconds.\nBuff persists through stow.\n\nEyes Up grants +Range, +Reload Speed, and increased damage against Combatants.\nInitially grants 1.5% increased damage, scaling up to 5%.",
-    "Comment": "Cosmodrome\nDestination",
-    "hash": 3879154694,
-    "parentHash": "3879154694",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "After having maintained a state of dealing or receiving damage for at least ??? seconds:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Scoring a kill within 3? seconds of dealing or receiving damage grants "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " x1 for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "No idea, inconsistent :) Definitely kill based though!"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Kills grant a stack of "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for 8 seconds, up to a maximum of 15 stacks."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Weapons Kills while "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " is active extend the buff duration by +4 seconds, up to a maximum 25 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " grants +Range, +Reload Speed, and increased damage against Combatants."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Initially grants 1.5% increased damage, scaling up to 5%."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Eyes Up",
-    "Description": "After having maintained a state of dealing or receiving damage for at least ??? seconds:\nScoring a kill within 3? seconds of dealing or receiving damage grants Eyes Up x1 for 8 seconds.\nNo idea, inconsistent :) Definitely kill based though!\n\nAdditional Kills grant a stack of Eyes Up for 8 seconds, up to a maximum of 15 stacks.\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +4 seconds, up to a maximum 25 seconds.\nBuff persists through stow.\n\nEyes Up grants +Range, +Reload Speed, and increased damage against Combatants.\nInitially grants 1.5% increased damage, scaling up to 5%.",
-    "Comment": "Cosmodrome\nDestination",
-    "hash": 3128171290,
-    "parentHash": "3128171290",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "After having maintained a state of dealing or receiving damage for at least ??? seconds:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Scoring a kill within 3? seconds of dealing or receiving damage grants "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " x1 for 8 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "No idea, inconsistent :) Definitely kill based though!"
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Kills grant a stack of "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " for 8 seconds, up to a maximum of 15 stacks."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Weapons Kills while "
-            },
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " is active extend the buff duration by +4 seconds, up to a maximum 25 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Eyes Up",
-              "classNames": [
-                "perkname"
-              ]
-            },
-            {
-              "text": " grants +Range, +Reload Speed, and increased damage against Combatants."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Initially grants 1.5% increased damage, scaling up to 5%."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Name": "Exhaustive Research",
     "Description": "Upon ADS near an enemy within 60 meters without firing:\nLoads up a Micro-Missile over 0.6 seconds.\n\nMicro-Missile replaces a regular shot, releasing a Weapon-Matching Missile that deals Ammo Type-Based Explosive Damage, down to 0% damage over 3 meters.\n435 ↑479 [50] Primary | 710 ↑781 [75] Special | 651 ↑716 [62.5] Heavy.\nIncurs a 5.5 second cooldown after firing a missile before it is able to load another rocket.",
     "Comment": "Kepler\nDestination",
@@ -5639,6 +5529,228 @@
           "linesContent": [
             {
               "text": "Incurs a 3 second cooldown after activation."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Eyes Up",
+    "Description": "After having maintained a state of dealing or receiving damage for at least ??? seconds:\nScoring a kill within 3? seconds of dealing or receiving damage grants Eyes Up x1 for 8 seconds.\nNo idea, inconsistent :) Definitely kill based though!\n\nAdditional Kills grant a stack of Eyes Up for 8 seconds, up to a maximum of 15 stacks.\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +4 seconds, up to a maximum 25 seconds.\nBuff persists through stow.\n\nEyes Up grants +Range, +Reload Speed, and increased damage against Combatants.\nInitially grants 1.5% increased damage, scaling up to 5%.",
+    "Comment": "Cosmodrome\nDestination",
+    "hash": 3879154694,
+    "parentHash": "3879154694",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of dealing or receiving damage for at least ??? seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring a kill within 3? seconds of dealing or receiving damage grants "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "No idea, inconsistent :) Definitely kill based though!"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Kills grant a stack of "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 8 seconds, up to a maximum of 15 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapons Kills while "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " is active extend the buff duration by +4 seconds, up to a maximum 25 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants +Range, +Reload Speed, and increased damage against Combatants."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Initially grants 1.5% increased damage, scaling up to 5%."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Eyes Up",
+    "Description": "After having maintained a state of dealing or receiving damage for at least ??? seconds:\nScoring a kill within 3? seconds of dealing or receiving damage grants Eyes Up x1 for 8 seconds.\nNo idea, inconsistent :) Definitely kill based though!\n\nAdditional Kills grant a stack of Eyes Up for 8 seconds, up to a maximum of 15 stacks.\nAdditional Weapons Kills while Eyes Up is active extend the buff duration by +4 seconds, up to a maximum 25 seconds.\nBuff persists through stow.\n\nEyes Up grants +Range, +Reload Speed, and increased damage against Combatants.\nInitially grants 1.5% increased damage, scaling up to 5%.",
+    "Comment": "Cosmodrome\nDestination",
+    "hash": 3128171290,
+    "parentHash": "3128171290",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "After having maintained a state of dealing or receiving damage for at least ??? seconds:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring a kill within 3? seconds of dealing or receiving damage grants "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " x1 for 8 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "No idea, inconsistent :) Definitely kill based though!"
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Kills grant a stack of "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " for 8 seconds, up to a maximum of 15 stacks."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapons Kills while "
+            },
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " is active extend the buff duration by +4 seconds, up to a maximum 25 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Eyes Up",
+              "classNames": [
+                "perkname"
+              ]
+            },
+            {
+              "text": " grants +Range, +Reload Speed, and increased damage against Combatants."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Initially grants 1.5% increased damage, scaling up to 5%."
             }
           ]
         }
@@ -7782,7 +7894,7 @@
   },
   {
     "Name": "Gravity Well",
-    "Description": "Upon finishing a reload:\nPick ups Ammo Bricks within 15 meters.\nTriggers On-Ammo Pickup Synergies. Also works on Motes and Crests.",
+    "Description": "Upon finishing a reload:\nPick ups Ammo Bricks within 15 meters.\nTriggers On-Ammo Pickup Synergies. Will also pick up Motes and Crests.",
     "Comment": "Rites of the Nine",
     "hash": 59871045,
     "parentHash": "59871045",
@@ -7805,7 +7917,7 @@
         {
           "linesContent": [
             {
-              "text": "Triggers On-Ammo Pickup Synergies. Also works on Motes and Crests."
+              "text": "Triggers On-Ammo Pickup Synergies. Will also pick up Motes and Crests."
             }
           ]
         }
@@ -8360,7 +8472,7 @@
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
+    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.\nBuff can be triggered while stowed and persists through stow.",
     "Comment": "Season of the Witch",
     "hash": 2565067140,
     "parentHash": "2565067140",
@@ -8398,13 +8510,20 @@
               "text": " Reload Speed for 5 seconds."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be triggered while stowed and persists through stow."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Head Rush",
-    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.",
+    "Description": "Upon standing up after crouching for 2 seconds, or after sliding:\n15% Increased damage against Hive Combatants, +30? ↑+? Handling, and +30? ↑+? Reload Speed for 5 seconds.\nBuff can be triggered while stowed and persists through stow.",
     "Comment": "Season of the Witch",
     "hash": 2085665100,
     "parentHash": "2085665100",
@@ -8440,6 +8559,13 @@
             },
             {
               "text": " Reload Speed for 5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be triggered while stowed and persists through stow."
             }
           ]
         }
@@ -8784,132 +8910,6 @@
           "linesContent": [
             {
               "text": "Buff persists through stow."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Indomitability",
-    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Melee Ability Energy.",
-    "Comment": "Brave Foundry\nOnslaught",
-    "hash": 2489430594,
-    "parentHash": "2489430594",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "While a Light Super Ability is equipped:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Weapon Kills grant 5% "
-            },
-            {
-              "text": "↑6%?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Grenade Ability Energy."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "While a Darkness Super Ability is equipped:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Weapon Kills grant 5% "
-            },
-            {
-              "text": "↑6%?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Melee Ability Energy."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Indomitability",
-    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Melee Ability Energy.",
-    "Comment": "Brave Foundry\nOnslaught",
-    "hash": 2544048574,
-    "parentHash": "2544048574",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "While a Light Super Ability is equipped:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Weapon Kills grant 5% "
-            },
-            {
-              "text": "↑6%?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Grenade Ability Energy."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "While a Darkness Super Ability is equipped:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Weapon Kills grant 5% "
-            },
-            {
-              "text": "↑6%?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " Melee Ability Energy."
             }
           ]
         }
@@ -9436,6 +9436,132 @@
             },
             {
               "text": "] increased damage."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Indomitability",
+    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Melee Ability Energy.",
+    "Comment": "Brave Foundry\nOnslaught",
+    "hash": 2489430594,
+    "parentHash": "2489430594",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While a Light Super Ability is equipped:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapon Kills grant 5% "
+            },
+            {
+              "text": "↑6%?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While a Darkness Super Ability is equipped:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapon Kills grant 5% "
+            },
+            {
+              "text": "↑6%?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Melee Ability Energy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Indomitability",
+    "Description": "While a Light Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Grenade Ability Energy.\n\nWhile a Darkness Super Ability is equipped:\nWeapon Kills grant 5% ↑6%? Melee Ability Energy.",
+    "Comment": "Brave Foundry\nOnslaught",
+    "hash": 2544048574,
+    "parentHash": "2544048574",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "While a Light Super Ability is equipped:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapon Kills grant 5% "
+            },
+            {
+              "text": "↑6%?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Grenade Ability Energy."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "While a Darkness Super Ability is equipped:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapon Kills grant 5% "
+            },
+            {
+              "text": "↑6%?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Melee Ability Energy."
             }
           ]
         }
@@ -12644,7 +12770,7 @@
   },
   {
     "Name": "Problem Solver",
-    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3",
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds, reducing Combatant Damage Output by 25%.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3",
     "Comment": "Pinnacle Ops\nPortal Playlist",
     "hash": 3454102905,
     "parentHash": "3454102905",
@@ -12661,7 +12787,7 @@
         {
           "linesContent": [
             {
-              "text": "Inflicts Exhaust for 5 seconds."
+              "text": "Inflicts Exhaust for 5 seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -12753,7 +12879,7 @@
   },
   {
     "Name": "Problem Solver",
-    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3",
+    "Description": "Upon scoring multiple direct hits within 5 seconds of each against a Champion, Miniboss, or Boss Combatant:\nInflicts Exhaust for 5 seconds, reducing Combatant Damage Output by 25%.\n+50? Reload Speed and +50? Handling for 10 ↑12.5 seconds.\nExhaust and buff can be refreshed by retriggering the perk. Buff persists through stow.\n\nHit Requirement:\nFusion Rifle: 12\nRocket Pulse: 11\nBow & both GLs: 3",
     "Comment": "Pinnacle Ops\nPortal Playlist",
     "hash": 2223800157,
     "parentHash": "2223800157",
@@ -12770,7 +12896,7 @@
         {
           "linesContent": [
             {
-              "text": "Inflicts Exhaust for 5 seconds."
+              "text": "Inflicts Exhaust for 5 seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -12862,7 +12988,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 883366072,
     "parentHash": "883366072",
@@ -12888,7 +13014,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13023,7 +13149,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 2485411080,
     "parentHash": "2485411080",
@@ -13049,7 +13175,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13184,7 +13310,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 3754350707,
     "parentHash": "3754350707",
@@ -13210,7 +13336,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13345,7 +13471,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 1793292443,
     "parentHash": "1793292443",
@@ -13371,7 +13497,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13506,7 +13632,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 79448657,
     "parentHash": "79448657",
@@ -13532,7 +13658,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13667,7 +13793,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 173402773,
     "parentHash": "173402773",
@@ -13693,7 +13819,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13828,7 +13954,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 567997816,
     "parentHash": "567997816",
@@ -13854,7 +13980,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -13989,7 +14115,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 2844792520,
     "parentHash": "2844792520",
@@ -14015,7 +14141,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14150,7 +14276,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 2171055345,
     "parentHash": "2171055345",
@@ -14176,7 +14302,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14311,7 +14437,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 3710358197,
     "parentHash": "3710358197",
@@ -14337,7 +14463,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14472,7 +14598,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 82180537,
     "parentHash": "82180537",
@@ -14498,7 +14624,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14633,7 +14759,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 80178333,
     "parentHash": "80178333",
@@ -14659,7 +14785,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14794,7 +14920,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 1471995745,
     "parentHash": "1471995745",
@@ -14820,7 +14946,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -14955,7 +15081,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 2703413509,
     "parentHash": "2703413509",
@@ -14981,7 +15107,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15116,7 +15242,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 1598147670,
     "parentHash": "1598147670",
@@ -15142,7 +15268,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15277,7 +15403,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 4165014538,
     "parentHash": "4165014538",
@@ -15303,7 +15429,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15438,7 +15564,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 3717985200,
     "parentHash": "3717985200",
@@ -15464,7 +15590,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15599,7 +15725,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 3597924384,
     "parentHash": "3597924384",
@@ -15625,7 +15751,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15760,7 +15886,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 357495645,
     "parentHash": "357495645",
@@ -15786,7 +15912,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -15921,7 +16047,7 @@
   },
   {
     "Name": "Psychohack",
-    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
+    "Description": "Upon scoring multiple hits within 3 seconds of each against an enemy:\nInflicts Exhaust for ? ↑? seconds, reducing Combatant Damage Output by 25%.\n\nHit Requirement:\n3 Hits: Bow, Glaive (Projectile/Melee), Grenade Launcher, Rocket Launcher, Sniper Rifle\n7 Hits: Scout Rifle\n12 Hits: Sidearm\n13 Hits: Submachine Gun\n14 Hits: Fusion Rifle\n16 Hits: Auto Rifle",
     "Comment": "Throne World\nDestination",
     "hash": 353498217,
     "parentHash": "353498217",
@@ -15947,7 +16073,7 @@
               ]
             },
             {
-              "text": " seconds"
+              "text": " seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -17027,6 +17153,154 @@
     }
   },
   {
+    "Name": "Souldrinker",
+    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 ↑55 HP.\n Each Grenade Launcher damage instance counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
+    "Comment": "Vow of the Disciple\nRaid",
+    "hash": 3363267119,
+    "parentHash": "3363267119",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores Health based on the amount of hits scored, relative to the Magazine Size."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 100% of Magazine as Hits restores 50 "
+            },
+            {
+              "text": "↑55",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " damage instance counts as 50% of Magazine. "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee Attacks do not count."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit counter persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Souldrinker",
+    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 ↑55 HP.\n Each Grenade Launcher damage instance counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
+    "Comment": "Vow of the Disciple\nRaid",
+    "hash": 3989173487,
+    "parentHash": "3989173487",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Restores Health based on the amount of hits scored, relative to the Magazine Size."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scoring 100% of Magazine as Hits restores 50 "
+            },
+            {
+              "text": "↑55",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " HP."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Each "
+            },
+            {
+              "text": "Grenade Launcher",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
+              ]
+            },
+            {
+              "text": " damage instance counts as 50% of Magazine. "
+            },
+            {
+              "text": "Glaive",
+              "classNames": [
+                "weapon-glaive"
+              ]
+            },
+            {
+              "text": " Melee Attacks do not count."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Hit counter persists through stow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Splicer Surge",
     "Description": "Upon finishing a reload after having dealt damage:\nGrants a stack of Splicer Surge, up to 3 stacks.\nBuff is removed on stow.\n\nSplicer Surge x1 = +10? ↑+? Handling, +10 ↑+? Reload Speed, and 0.967x Reload Duration Multiplier.\nSplicer Surge x2 = +20? ↑+? Handling, +20 ↑+? Reload Speed, and 0.934x Reload Duration Multiplier.\nSplicer Surge x3 = +45? ↑+? Handling, +45 ↑+? Reload Speed, and 0.9x Reload Duration Multiplier.",
     "Comment": "Season of the Splicer\nReprises",
@@ -17307,154 +17581,6 @@
     }
   },
   {
-    "Name": "Souldrinker",
-    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 ↑55 HP.\n Each Grenade Launcher damage instance counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
-    "Comment": "Vow of the Disciple\nRaid",
-    "hash": 3363267119,
-    "parentHash": "3363267119",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Restores Health based on the amount of hits scored, relative to the Magazine Size."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Scoring 100% of Magazine as Hits restores 50 "
-            },
-            {
-              "text": "↑55",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " HP."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Each "
-            },
-            {
-              "text": "Grenade Launcher",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": " damage instance counts as 50% of Magazine. "
-            },
-            {
-              "text": "Glaive",
-              "classNames": [
-                "weapon-glaive"
-              ]
-            },
-            {
-              "text": " Melee Attacks do not count."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Hit counter persists through stow."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Souldrinker",
-    "Description": "Upon finishing a reload:\nRestores Health based on the amount of hits scored, relative to the Magazine Size.\n Scoring 100% of Magazine as Hits restores 50 ↑55 HP.\n Each Grenade Launcher damage instance counts as 50% of Magazine. Glaive Melee Attacks do not count.\nHit counter persists through stow.",
-    "Comment": "Vow of the Disciple\nRaid",
-    "hash": 3989173487,
-    "parentHash": "3989173487",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Restores Health based on the amount of hits scored, relative to the Magazine Size."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Scoring 100% of Magazine as Hits restores 50 "
-            },
-            {
-              "text": "↑55",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " HP."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Each "
-            },
-            {
-              "text": "Grenade Launcher",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": " damage instance counts as 50% of Magazine. "
-            },
-            {
-              "text": "Glaive",
-              "classNames": [
-                "weapon-glaive"
-              ]
-            },
-            {
-              "text": " Melee Attacks do not count."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Hit counter persists through stow."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Name": "Stunning Recovery",
     "Description": "Upon Stunning a Champion:\nRefills Magazine, restores 60 HP, and begins Health Regeneration.",
     "Comment": "Nightfall\nRitual",
@@ -17508,7 +17634,7 @@
   },
   {
     "Name": "Subjugation",
-    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 ↑? (32.5 ↑? on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n\nAgainst Miniboss+:\nInflicts exhaustion for 5 seconds on hit.\n\nGuardians:\n?% Flinch Resist for ? ↑? seconds.",
+    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 (32.5 ↑? on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n↑Explosion Damage is 25% higher.\n\nAgainst Champions, Minibosses, and Bosses:\nInflicts Exhaust for 5 seconds on hit, reducing Combatant Damage Output by 25%.\n\nGuardians:\n?% Flinch Resist for ? ↑? seconds.",
     "Comment": "Sundered Doctrine\nDungeon",
     "hash": 1298135794,
     "parentHash": "1298135794",
@@ -17537,16 +17663,7 @@
         {
           "linesContent": [
             {
-              "text": "Shots explode on hit, dealing 6.5 "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " (32.5 "
+              "text": "Shots explode on hit, dealing 6.5 (32.5 "
             },
             {
               "text": "↑?",
@@ -17589,6 +17706,16 @@
           ]
         },
         {
+          "linesContent": [
+            {
+              "text": "↑Explosion Damage is 25% higher.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
           "classNames": [
             "spacer"
           ]
@@ -17596,14 +17723,14 @@
         {
           "linesContent": [
             {
-              "text": "Against Miniboss+:"
+              "text": "Against Champions, Minibosses, and Bosses:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Inflicts exhaustion for 5 seconds on hit."
+              "text": "Inflicts Exhaust for 5 seconds on hit, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -17640,7 +17767,7 @@
   },
   {
     "Name": "Subjugation",
-    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 ↑? (32.5 ↑? on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n\nAgainst Miniboss+:\nInflicts exhaustion for 5 seconds on hit.\n\nGuardians:\n?% Flinch Resist for ? ↑? seconds.",
+    "Description": "Perk behavior changes depending on the enemy rank when dealing damage:\n\nAgainst Rank-and-File and Elite Combatants: \nShots explode on hit, dealing 6.5 (32.5 ↑? on Shotgun) additional damage as an Explosive Payload, damaging enemies within 3? meters.\nTrace Rifle: Once every 4 hits, after 4 hits.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Weapon Damage.\n↑Explosion Damage is 25% higher.\n\nAgainst Champions, Minibosses, and Bosses:\nInflicts Exhaust for 5 seconds on hit, reducing Combatant Damage Output by 25%.\n\nGuardians:\n?% Flinch Resist for ? ↑? seconds.",
     "Comment": "Sundered Doctrine\nDungeon",
     "hash": 3057611278,
     "parentHash": "3057611278",
@@ -17669,16 +17796,7 @@
         {
           "linesContent": [
             {
-              "text": "Shots explode on hit, dealing 6.5 "
-            },
-            {
-              "text": "↑?",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " (32.5 "
+              "text": "Shots explode on hit, dealing 6.5 (32.5 "
             },
             {
               "text": "↑?",
@@ -17721,6 +17839,16 @@
           ]
         },
         {
+          "linesContent": [
+            {
+              "text": "↑Explosion Damage is 25% higher.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
           "classNames": [
             "spacer"
           ]
@@ -17728,14 +17856,14 @@
         {
           "linesContent": [
             {
-              "text": "Against Miniboss+:"
+              "text": "Against Champions, Minibosses, and Bosses:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "Inflicts exhaustion for 5 seconds on hit."
+              "text": "Inflicts Exhaust for 5 seconds on hit, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -18373,7 +18501,7 @@
   {
     "Name": "Timelost Magazine",
     "Description": "Weapon Kills grant additional +1?% ↑+?% Super Ability Energy.\n\nOn Super Ability End:\nRefills Magazine.\n100% Increased Base Magazine Capacity for 20 ↑+21 seconds. Found Verdict reloads 2 shells at a time.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.\nBuff can be activated while stowed, and persists through stow.",
-    "Comment": "Vault of Glass Reprises\nRaid",
+    "Comment": "Vault of Glass\nRaid",
     "hash": 2589407652,
     "parentHash": "2589407652",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18466,7 +18594,7 @@
   {
     "Name": "Timelost Magazine",
     "Description": "Weapon Kills grant additional +1?% ↑+?% Super Ability Energy.\n\nOn Super Ability End:\nRefills Magazine.\n100% Increased Base Magazine Capacity for 20 ↑+21 seconds. Found Verdict reloads 2 shells at a time.\nBase Magazine Increases change the base value, meaning it stacks with Increased Magazine Capacity effects like Overflow.\nThis also means it changes mag-based effects such as gaining Bolt Charge.\nBuff can be activated while stowed, and persists through stow.",
-    "Comment": "Vault of Glass Reprises\nRaid",
+    "Comment": "Vault of Glass\nRaid",
     "hash": 716643564,
     "parentHash": "716643564",
     "hash_warning": "Multiple matches found (2 total)",
@@ -19596,7 +19724,7 @@
   },
   {
     "Name": "Veteran's Wisdom",
-    "Description": "Upon scoring a Precision Kill OR 3 Weapon Kills within 3 seconds of each:\nTriggers a Kinetic Shockwave at Enemy Death Location.\nKinetic Shockwave deals damage over 8 ↑9 meters without falloff, and inflicts Exhaustion for 10 seconds.\n\nKinetic Shockwave Damage:\nAuto Rifle, Pulse Rifle = 20\nSMG = ?\nSniper = 23\nFusion Rifle = ?\nSword = ?",
+    "Description": "Upon scoring a Precision Kill OR 3 Weapon Kills within 3 seconds of each:\nTriggers a Kinetic Shockwave at Enemy Death Location.\nKinetic Shockwave deals damage over 8 ↑9 meters without falloff, and inflicts Exhaust for 10 seconds, reducing Combatant Damage Output by 25%.\n\nKinetic Shockwave Damage:\nAuto Rifle, Pulse Rifle = 20\nSMG = ?\nSniper = 23\nFusion Rifle = ?\nSword = ?",
     "Comment": "EDZ Weapons",
     "hash": 2897898513,
     "parentHash": "2897898513",
@@ -19644,7 +19772,7 @@
               ]
             },
             {
-              "text": " meters without falloff, and inflicts Exhaustion for 10 seconds."
+              "text": " meters without falloff, and inflicts Exhaust for 10 seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },
@@ -19739,7 +19867,7 @@
   },
   {
     "Name": "Veteran's Wisdom",
-    "Description": "Upon scoring a Precision Kill OR 3 Weapon Kills within 3 seconds of each:\nTriggers a Kinetic Shockwave at Enemy Death Location.\nKinetic Shockwave deals damage over 8 ↑9 meters without falloff, and inflicts Exhaustion for 10 seconds.\n\nKinetic Shockwave Damage:\nAuto Rifle, Pulse Rifle = 20\nSMG = ?\nSniper = 23\nFusion Rifle = ?\nSword = ?",
+    "Description": "Upon scoring a Precision Kill OR 3 Weapon Kills within 3 seconds of each:\nTriggers a Kinetic Shockwave at Enemy Death Location.\nKinetic Shockwave deals damage over 8 ↑9 meters without falloff, and inflicts Exhaust for 10 seconds, reducing Combatant Damage Output by 25%.\n\nKinetic Shockwave Damage:\nAuto Rifle, Pulse Rifle = 20\nSMG = ?\nSniper = 23\nFusion Rifle = ?\nSword = ?",
     "Comment": "EDZ Weapons",
     "hash": 4225294165,
     "parentHash": "4225294165",
@@ -19787,7 +19915,7 @@
               ]
             },
             {
-              "text": " meters without falloff, and inflicts Exhaustion for 10 seconds."
+              "text": " meters without falloff, and inflicts Exhaust for 10 seconds, reducing Combatant Damage Output by 25%."
             }
           ]
         },

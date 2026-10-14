@@ -865,7 +865,7 @@
     "Class": "General",
     "Type": "Fragment",
     "Name": "Echo of Cessation",
-    "Description": "Finishers apply Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach.",
+    "Description": "Finishers inflicting Volatile to enemies within ? metres.\nKilling Volatile Enemies spawns a Void Breach.",
     "hash": 3854948620,
     "parentHash": "3854948620",
     "descriptions": {
@@ -873,7 +873,7 @@
         {
           "linesContent": [
             {
-              "text": "Finishers apply "
+              "text": "Finishers inflicting "
             },
             {
               "text": "Volatile",
@@ -1806,7 +1806,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Scatter Grenade",
-    "Description": "Heavy Trajectory\n\nExplodes on impact, dealing 5 [1] damage and releasing 8 submunitions over 4 meters.\n\nSubmunitions explode twice, each dealing up to 70 [16] damage over 4 meters on their first explosion.\nAfter 0.5 seconds of exploding, each submunition detonates again, dealing up to 115 [20] damage over 4 meters on their second explosion.\n\nDeals up to 1480 [288] damage with all 8 submunitions dealing their maximum damage.",
+    "Description": "Heavy Trajectory\n\nExplodes on impact, dealing 5 [1] damage and releasing 8 submunitions over 4 meters.\n\nSubmunitions explode twice, each dealing up to 70 [16] damage over 4 meters on their first explosion.\nAfter 0.5 seconds of exploding, each submunition detonates again, dealing up to 115 [20] damage over 4 meters on their second explosion.\n\nDeals up to 1,480 [288] damage with all 8 submunitions dealing their maximum damage.",
     "hash": 1514173218,
     "parentHash": "1514173218",
     "descriptions": {
@@ -1884,7 +1884,7 @@
         {
           "linesContent": [
             {
-              "text": "Deals up to 1480 ["
+              "text": "Deals up to 1,480 ["
             },
             {
               "text": "288",
@@ -2078,7 +2078,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Void Spike",
-    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a torrent of Void Light after 0.67-0.1 seconds.\n\nVoid Light deals 80 [28] damage every 0.217 seconds up to 16+9 times over 3.5+1.75 seconds.\n\nVoid Light deals up to 1280 [2000] [448 [700]] over its duration.",
+    "Description": "Medium Trajectory | Wall-Mounted\n\nAttaches to surfaces and enemies, projecting a torrent of Void Light after 0.67-0.1 seconds.\n\nVoid Light deals 80 [28] damage every 0.217 seconds up to 16+9 times over 3.5+1.75 seconds.\n\nVoid Light deals up to 1,280 [2,000] [448 [700]] over its duration.",
     "hash": 1255073825,
     "parentHash": "1255073825",
     "descriptions": {
@@ -2152,10 +2152,10 @@
               ]
             },
             {
-              "text": " Light deals up to 1280 ["
+              "text": " Light deals up to 1,280 ["
             },
             {
-              "text": "2000",
+              "text": "2,000",
               "classNames": [
                 "pvp"
               ]
@@ -2181,7 +2181,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Void Wall",
-    "Description": "Medium Trajectory | DoT Field\n\nExplodes on impact, creating a perpendicular wall of Void Light over ? meters that deals up to 173 [46] damage as it spreads.\n\nAfter 0.85 seconds of being created, Void Light deals 120 [35] damage every 0.2 seconds up to 18+9 times over its 3.75+1.875 second duration\n\nVoid Light deals up to 2160 [3240] [630 [945]] damage over its duration.",
+    "Description": "Medium Trajectory | DoT Field\n\nExplodes on impact, creating a perpendicular wall of Void Light over ? meters that deals up to 173 [46] damage as it spreads.\n\nAfter 0.85 seconds of being created, Void Light deals 120 [35] damage every 0.2 seconds up to 18+9 times over its 3.75+1.875 second duration\n\nVoid Light deals up to 2,160 [3,240] [630 [945]] damage over its duration.",
     "hash": 2809141585,
     "parentHash": "2809141585",
     "descriptions": {
@@ -2267,10 +2267,10 @@
               ]
             },
             {
-              "text": " Light deals up to 2160 ["
+              "text": " Light deals up to 2,160 ["
             },
             {
-              "text": "3240",
+              "text": "3,240",
               "classNames": [
                 "pvp"
               ]
@@ -2296,7 +2296,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Vortex Grenade",
-    "Description": "Medium Trajectory | DoT Field\n\nDeals up to 195 [25] damage over 5 metres on impact, as well as creating a Void Vortex. \n\nVoid Vortex\nPulls enemies within 5? meters after 0.833 seconds of impacting.\nAfter 1.45-0.13 seconds of being created, deals 78 [20] damage every 0.267 seconds up to 12+7 times over its 4+1 second duration to enemies within its 4 meter radius.\nThe 13th 20th tick has falloff and deals up to 54 [?] damage.\n\nDeals up to 990 [1536] [240 [380]] damage with the Void Vortex field.",
+    "Description": "Medium Trajectory | DoT Field\n\nDeals up to 195 [25] damage over 5 metres on impact, as well as creating a Void Vortex. \n\nVoid Vortex\nPulls enemies within 5? meters after 0.833 seconds of impacting.\nAfter 1.45-0.13 seconds of being created, deals 78 [20] damage every 0.267 seconds up to 12+7 times over its 4+1 second duration to enemies within its 4 meter radius.\nThe 13th 20th tick has falloff and deals up to 54 [?] damage.\n\nDeals up to 990 [1,536] [240 [380]] damage with the Void Vortex field.",
     "hash": 1016030582,
     "parentHash": "1016030582",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2407,7 +2407,7 @@
               "text": "Deals up to 990 ["
             },
             {
-              "text": "1536",
+              "text": "1,536",
               "classNames": [
                 "pvp"
               ]
@@ -2442,7 +2442,7 @@
     "Class": "General",
     "Type": "Grenade",
     "Name": "Vortex Grenade",
-    "Description": "Medium Trajectory | DoT Field\n\nDeals up to 195 [25] damage over 5 metres on impact, as well as creating a Void Vortex. \n\nVoid Vortex\nPulls enemies within 5? meters after 0.833 seconds of impacting.\nAfter 1.45-0.13 seconds of being created, deals 78 [20] damage every 0.267 seconds up to 12+7 times over its 4+1 second duration to enemies within its 4 meter radius.\nThe 13th 20th tick has falloff and deals up to 54 [?] damage.\n\nDeals up to 990 [1536] [240 [380]] damage with the Void Vortex field.",
+    "Description": "Medium Trajectory | DoT Field\n\nDeals up to 195 [25] damage over 5 metres on impact, as well as creating a Void Vortex. \n\nVoid Vortex\nPulls enemies within 5? meters after 0.833 seconds of impacting.\nAfter 1.45-0.13 seconds of being created, deals 78 [20] damage every 0.267 seconds up to 12+7 times over its 4+1 second duration to enemies within its 4 meter radius.\nThe 13th 20th tick has falloff and deals up to 54 [?] damage.\n\nDeals up to 990 [1,536] [240 [380]] damage with the Void Vortex field.",
     "hash": 1048847436,
     "parentHash": "1048847436",
     "hash_warning": "Multiple matches found (2 total)",
@@ -2553,7 +2553,7 @@
               "text": "Deals up to 990 ["
             },
             {
-              "text": "1536",
+              "text": "1,536",
               "classNames": [
                 "pvp"
               ]
@@ -3054,7 +3054,7 @@
     "Class": "General",
     "Type": "Super",
     "Name": "Spectral Blades",
-    "Description": "General Super Information\nDamage Resistance: 90% [59?% Invisible | 58% Visible]\nBase Duration: 23.5 seconds or 4.25% Super Drain per second. Drains 50% faster if not invisible.\n\nLight Attack | Drains 5?% Super Energy.\nDeals 1107 [?] damage and removes Void Invisibility.\nAttacks ? times per second. Uninterrupted hits against enemies grants up to 25?% Increased Melee Attack Speed\n\nHeavy Attack | Drains 15?% Super Energy.\n[Heavy Attack] performs an uppercut, dealing 1620 [?] damage and applying Weaken and granting Invisibility.\n\nAllows unlimited Trapper's Ambush usage, at the cost of 15%? Super Energy.",
+    "Description": "General Super Information\nDamage Resistance: 90% [59?% Invisible | 58% Visible]\nBase Duration: 23.5 seconds or 4.25% Super Drain per second. Drains 50% faster if not invisible.\n\nLight Attack | Drains 5?% Super Energy.\nDeals 1,107 [?] damage and removes Void Invisibility.\nAttacks ? times per second. Uninterrupted hits against enemies grants up to 25?% Increased Melee Attack Speed\n\nHeavy Attack | Drains 15?% Super Energy.\n[Heavy Attack] performs an uppercut, dealing 1,620 [?] damage and applying Weaken and granting Invisibility.\n\nAllows unlimited Trapper's Ambush usage, at the cost of 15%? Super Energy.",
     "hash": 2722573682,
     "parentHash": "2722573682",
     "descriptions": {
@@ -3113,7 +3113,7 @@
         {
           "linesContent": [
             {
-              "text": "Deals 1107 ["
+              "text": "Deals 1,107 ["
             },
             {
               "text": "?",
@@ -3175,7 +3175,7 @@
               ]
             },
             {
-              "text": "] performs an uppercut, dealing 1620 ["
+              "text": "] performs an uppercut, dealing 1,620 ["
             },
             {
               "text": "?",
@@ -3587,7 +3587,7 @@
     "Class": "General",
     "Type": "Super",
     "Name": "Shadowshot: Moebius Quiver",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nSuper Duration: 16 seconds [20 with Orpheus Rigs]\n\nShadowshot fires 3 Moebius Anchors up to 2 times per activation.\nDealing damage while Shadowshot is active linearly grants increased Moebius Anchor and Bow Weapon Damage.\nMaxes out at 127% increased Moebius Anchor Damage and 150% [75% Crossbow] increased Bow Weapon Damage after dealing ~3000 damage.\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\n\nMoebius Anchor:\nDeals 1076 [?] Damage and inflicts Suppression, Volatile, and Weaken on impact. Counts as a Construct with ? HP.\nEnemies within 7 meters of the anchor are tethered. Deals 20% increased damage to tethered enemies. Tethered enemies are inflicted with Weaken and Suppression.\n50% of the Bodyshot (Base) Damage dealt to tethered enemies is also inflicted to other tethered enemies.\n\nMoebius Anchor lasts for 6 seconds by default. Tethered Enemy kills increase its duration by 0.5 seconds, up to a maximum of 25 seconds.",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nSuper Duration: 16 seconds [20 with Orpheus Rigs]\n\nShadowshot fires 3 Moebius Anchors up to 2 times per activation.\nDealing damage while Shadowshot is active linearly grants increased Moebius Anchor and Bow Weapon Damage.\nMaxes out at 127% increased Moebius Anchor Damage and 150% [75% Crossbow] increased Bow Weapon Damage after dealing ~3000 damage.\nDamage requirement IGNORES Power-Delta, but considers ACTUAL DAMAGE DEALT.\n\nMoebius Anchor:\nDeals 1,076 [?] Damage and inflicts Suppression, Volatile, and Weaken on impact. Counts as a Construct with ? HP.\nEnemies within 7 meters of the anchor are tethered. Deals 20% increased damage to tethered enemies. Tethered enemies are inflicted with Weaken and Suppression.\n50% of the Bodyshot (Base) Damage dealt to tethered enemies is also inflicted to other tethered enemies.\n\nMoebius Anchor lasts for 6 seconds by default. Tethered Enemy kills increase its duration by 0.5 seconds, up to a maximum of 25 seconds.",
     "hash": 2722573681,
     "parentHash": "2722573681",
     "descriptions": {
@@ -3706,7 +3706,7 @@
         {
           "linesContent": [
             {
-              "text": "Deals 1076 ["
+              "text": "Deals 1,076 ["
             },
             {
               "text": "?",
@@ -4890,7 +4890,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Sentinel Shield",
-    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 17 seconds or 5.88% Super Drain per second.\n\nLight Attack | Drains 4.5% Super Energy per Attack. The Final Hit in the combo drains 2% Super Energy.\nGrounded 3-Hit Combo, dealing 797 [?] and 856 [?] damage. \nAirborne 2-Hit Combo, dealing 797 [?] damage\nThe Final Hit in a combo deals 1516 [?] damage in a ? metre cone.\n\nHeavy Attack\nGenerates an impenetrable barrier that allies can shoot through, at the cost of 20% Decreased Movement Speed.\nCaster is granted damage immunity from all frontal damage, including Enemy Guardians.\nEnemies that touch the barrier receive 7 [?] Damage every 0.05 seconds.\nBlocking ? [any] damage generates an Orb of Power that grants 2.5?% Super Energy. Incurs a 1.5 second cooldown between Orb of Power spawns.\nEnhances Shield Throw Damage as more damage is blocked, up to 1787% increased damage after blocking ? damage.\nExtends Super Duration by up to ?% by continuously blocking damage.\nGuardian Damage is completely nullified and do not proc on-hit related effects on the Impenetrable Barrier. \nAbility Damage removes Super Energy but partially extends it at the same time.\n\nAllies standing within 5m behind the barrier are granted 25% Increased Damage, a 45 HP Void Overshield, +50 Handling, and +50 Reload Speed. \nAdditionally, all of their weapons are refilled every 2.5 seconds.\nAllied Guardian's Void Overshield begins regenerating at a rate of 9HP/s after not receiving damage for 3 seconds.\n\nPassive Super Energy Drain while Blocking can be decreased by having allies behind the shield.\nx1 = 20% | x2 = 35% | x3 = ?% | x4 = ?% | x5 = 50%\n\nGrenade Ability | Does not drain Super Energy. Incurs a 3 second cooldown between Shield Throws.\nPerforms a Shield Throw, tossing the Sentinel Shield towards enemies.\nSentinel Shield deals 723 [?] damage, and can ricochet on impact, up to ? times. Ricochets are aimed towards enemies within ? meters.",
+    "Description": "General Super Information\nDamage Resistance: 90% [53%]\nBase Duration: 17 seconds or 5.88% Super Drain per second.\n\nLight Attack | Drains 4.5% Super Energy per Attack. The Final Hit in the combo drains 2% Super Energy.\nGrounded 3-Hit Combo, dealing 797 [?] and 856 [?] damage. \nAirborne 2-Hit Combo, dealing 797 [?] damage\nThe Final Hit in a combo deals 1,516 [?] damage in a ? metre cone.\n\nHeavy Attack\nGenerates an impenetrable barrier that allies can shoot through, at the cost of 20% Decreased Movement Speed.\nCaster is granted damage immunity from all frontal damage, including Enemy Guardians.\nEnemies that touch the barrier receive 7 [?] Damage every 0.05 seconds.\nBlocking ? [any] damage generates an Orb of Power that grants 2.5?% Super Energy. Incurs a 1.5 second cooldown between Orb of Power spawns.\nEnhances Shield Throw Damage as more damage is blocked, up to 1787% increased damage after blocking ? damage.\nExtends Super Duration by up to ?% by continuously blocking damage.\nGuardian Damage is completely nullified and do not proc on-hit related effects on the Impenetrable Barrier. \nAbility Damage removes Super Energy but partially extends it at the same time.\n\nAllies standing within 5m behind the barrier are granted 25% Increased Damage, a 45 HP Void Overshield, +50 Handling, and +50 Reload Speed. \nAdditionally, all of their weapons are refilled every 2.5 seconds.\nAllied Guardian's Void Overshield begins regenerating at a rate of 9HP/s after not receiving damage for 3 seconds.\n\nPassive Super Energy Drain while Blocking can be decreased by having allies behind the shield.\nx1 = 20% | x2 = 35% | x3 = ?% | x4 = ?% | x5 = 50%\n\nGrenade Ability | Does not drain Super Energy. Incurs a 3 second cooldown between Shield Throws.\nPerforms a Shield Throw, tossing the Sentinel Shield towards enemies.\nSentinel Shield deals 723 [?] damage, and can ricochet on impact, up to ? times. Ricochets are aimed towards enemies within ? meters.",
     "hash": 4260353952,
     "parentHash": "4260353952",
     "descriptions": {
@@ -4981,7 +4981,7 @@
         {
           "linesContent": [
             {
-              "text": "The Final Hit in a combo deals 1516 ["
+              "text": "The Final Hit in a combo deals 1,516 ["
             },
             {
               "text": "?",
@@ -5200,7 +5200,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Twilight Arsenal",
-    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [%]\n\nSummons 3 Void Axes and throws them towards the reticle.\nAxes deal up to 1250 [?] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1750 [?] damage and weakening over ? meters.\nAfter exploding, axes become carriable weapons, lingering up to 20 seconds on the ground.\n\nCarriable Axes:\nMelee Weapons with 10 Ammo that can be held for up to 15 seconds.\nLight Attack swings deal 581 [175] damage and weaken, consuming 1 Ammo.\nHeavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1337 [?] damage on impact, and up to 830 [250] damage over ? meters with its explosion, weakening damaged enemies.\nAxe damage can only be increased through the Void Surge modifier and debuffs.",
+    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [%]\n\nSummons 3 Void Axes and throws them towards the reticle.\nAxes deal up to 1,250 [?] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1,750 [?] damage and weakening over ? meters.\nAfter exploding, axes become carriable weapons, lingering up to 20 seconds on the ground.\n\nCarriable Axes:\nMelee Weapons with 10 Ammo that can be held for up to 15 seconds.\nLight Attack swings deal 581 [175] damage and weaken, consuming 1 Ammo.\nHeavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1,337 [?] damage on impact, and up to 830 [250] damage over ? meters with its explosion, weakening damaged enemies.\nAxe damage can only be increased through the Void Surge modifier and debuffs.",
     "hash": 4260353955,
     "parentHash": "4260353955",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5253,7 +5253,7 @@
         {
           "linesContent": [
             {
-              "text": "Axes deal up to 1250 ["
+              "text": "Axes deal up to 1,250 ["
             },
             {
               "text": "?",
@@ -5262,7 +5262,7 @@
               ]
             },
             {
-              "text": "] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1750 ["
+              "text": "] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1,750 ["
             },
             {
               "text": "?",
@@ -5338,7 +5338,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1337 ["
+              "text": "Heavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1,337 ["
             },
             {
               "text": "?",
@@ -5392,7 +5392,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Twilight Arsenal",
-    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [%]\n\nSummons 3 Void Axes and throws them towards the reticle.\nAxes deal up to 1250 [?] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1750 [?] damage and weakening over ? meters.\nAfter exploding, axes become carriable weapons, lingering up to 20 seconds on the ground.\n\nCarriable Axes:\nMelee Weapons with 10 Ammo that can be held for up to 15 seconds.\nLight Attack swings deal 581 [175] damage and weaken, consuming 1 Ammo.\nHeavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1337 [?] damage on impact, and up to 830 [250] damage over ? meters with its explosion, weakening damaged enemies.\nAxe damage can only be increased through the Void Surge modifier and debuffs.",
+    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [%]\n\nSummons 3 Void Axes and throws them towards the reticle.\nAxes deal up to 1,250 [?] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1,750 [?] damage and weakening over ? meters.\nAfter exploding, axes become carriable weapons, lingering up to 20 seconds on the ground.\n\nCarriable Axes:\nMelee Weapons with 10 Ammo that can be held for up to 15 seconds.\nLight Attack swings deal 581 [175] damage and weaken, consuming 1 Ammo.\nHeavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1,337 [?] damage on impact, and up to 830 [250] damage over ? meters with its explosion, weakening damaged enemies.\nAxe damage can only be increased through the Void Surge modifier and debuffs.",
     "hash": 2529942646,
     "parentHash": "2529942646",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5445,7 +5445,7 @@
         {
           "linesContent": [
             {
-              "text": "Axes deal up to 1250 ["
+              "text": "Axes deal up to 1,250 ["
             },
             {
               "text": "?",
@@ -5454,7 +5454,7 @@
               ]
             },
             {
-              "text": "] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1750 ["
+              "text": "] damage over ? meters on impact, pulling enemies inwards, and explode after 0.6 seconds, dealing up to 1,750 ["
             },
             {
               "text": "?",
@@ -5530,7 +5530,7 @@
         {
           "linesContent": [
             {
-              "text": "Heavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1337 ["
+              "text": "Heavy Attacks throws the axe as an explosive projectile, consuming all ammo, dealing 1,337 ["
             },
             {
               "text": "?",
@@ -5584,7 +5584,7 @@
     "Class": "Titan",
     "Type": "Super",
     "Name": "Ward of Dawn",
-    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nProjects a 8,000 Construct HP Protective Dome with 75??% NEEDS TESTING Damage Resistance against Combatants alongside an internal core with 200 HP.\nGuardians deal 50% increased damage to the Protective Dome itself. Ability Damage scales uniquely.\nProtective Dome covers an 8 meter radius centered around its internal core for 30 seconds. Destroying the core destroys the Ward of Dawn.\nThe Ward of Dawn prevents all projectiles from entering or leaving the dome unless an enemy is within it.\nWhile a Combatant is inside the dome: The caster and their allies are able to shoot through the dome.\nDeploying or redeploying the Ward of Dawn pulls Combatants within 15 meters inwards.\nSuper Stat scales its duration by up to +10 seconds at 200 Super Stat.\n\nWhile inside the Ward of Dawn Dome:\nWard of Dawn Caster receives +50% Increased Melee Damage. Scoring a Melee Kill as the Caster generates an Orb of Power up to 5 times per Super cast.\nEnemies are constantly weakened. Combatants up to ? meters away are taunted towards Guardians inside the dome.\nArmor of Light | Constantly generates 15 Void Overshield/s and grants 40% [?%] Damage Resist, +50 Handling, and +50 Reload Speed.\n\nRedeployement:\nThe Ward of Dawn Core can be picked up by the caster after 3 seconds of being deployed, up to twice per cast. Swirling orbs represent the amount of pickups left.\nWhile picked up: Remaining Ward of Dawn duration is decreased by 1 second every (77 / Armor of Light seconds left on pickup).\nThe Core can be thrown to redeploy by the caster up to 2 times per cast.",
+    "Description": "General Super Information\nDamage Resistance while in Cast Animation: ?% [26.5%]\nGrants 1 Grenade Ability Charge and creates 3 Orbs of Power that each grant 2.3% Super Energy on Super Cast.\n\nWard of Dawn:\nProjects a 8,000 Construct HP Protective Dome with 75??% NEEDS TESTING Damage Resistance against Combatants alongside an internal core with 200 HP.\nGuardians deal 50% increased damage to the Protective Dome itself. Ability Damage scales uniquely.\nProtective Dome covers an 8 meter radius centered around its internal core for 30 seconds. Destroying the core destroys the Ward of Dawn.\nThe Ward of Dawn prevents all projectiles from entering or leaving the dome unless an enemy is within it.\nWhile a Combatant is inside the dome: The caster and their allies are able to shoot through the dome.\nDeploying or redeploying the Ward of Dawn pulls Combatants within 15 meters inwards.\nSuper Stat scales its duration by up to +10 seconds at 200 Super Stat.\n\nWhile inside the Ward of Dawn Dome:\nWard of Dawn Caster receives +50% Increased Melee Damage. Scoring a Melee Kill as the Caster generates an Orb of Power up to 5 times per Super cast.\nEnemies are constantly weakened. Combatants up to ? meters away are taunted towards Guardians inside the dome.\nArmor of Light | Constantly generates 15 Void Overshield/s and grants 40% [?%] Damage Resist, +50 Handling, and +50 Reload Speed.\nWeapons of Light | 25% Damage Increase that lingers for 0.3 seconds. Helm of Saint-14 allows it to linger for 15 seconds.\n\nRedeployement:\nThe Ward of Dawn Core can be picked up by the caster after 3 seconds of being deployed, up to twice per cast. Swirling orbs represent the amount of pickups left.\nWhile picked up: Remaining Ward of Dawn duration is decreased by 1 second every (77 / Armor of Light seconds left on pickup).\nThe Core can be thrown to redeploy by the caster up to 2 times per cast.",
     "hash": 4260353953,
     "parentHash": "4260353953",
     "descriptions": {
@@ -5785,6 +5785,13 @@
             },
             {
               "text": "] Damage Resist, +50 Handling, and +50 Reload Speed."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Weapons of Light | 25% Damage Increase that lingers for 0.3 seconds. Helm of Saint-14 allows it to linger for 15 seconds."
             }
           ]
         },
@@ -6170,7 +6177,7 @@
     "Class": "Titan",
     "Type": "Aspect",
     "Name": "Offensive Bulwark",
-    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while within a Ward of Dawn:\nKills grant 9% Grenade and 9% Melee Ability Energy.\n160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10 HP Void Overshield.\nBasic Melee Hits count as Void Powered Melee Hits, except for Doomfang Pauldrons and Severance Enclosure.",
+    "Description": "Grants an additional Shield Throw to Sentinel Shield Super.\n\nWhile Void Overshield is active or while within a Ward of Dawn:\nKills grant 9% Grenade and 9% Melee Ability Energy.\n160% [20%] increased Melee Damage, and increases Melee Lunge Range to 5.5 metres.\nMelee Kills generate 10 HP Void Overshield.\nBasic Melee Hits count as Void Powered Melee Hits. \nDoes not count as Powered Melee for the effects of Doomfang Pauldrons and Severance Enclosure.",
     "hash": 1602994570,
     "parentHash": "1602994570",
     "descriptions": {
@@ -6254,7 +6261,14 @@
               ]
             },
             {
-              "text": " Powered Melee Hits, except for Doomfang Pauldrons and Severance Enclosure."
+              "text": " Powered Melee Hits."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not count as Powered Melee for the effects of Doomfang Pauldrons and Severance Enclosure."
             }
           ]
         }
@@ -7015,7 +7029,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Nova Bomb: Cataclysm",
-    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3241 [?] damage in a 12 meter radius.\nNova Bomb has 400 Construct HP. Caster deals 300% increased damage towards their own Nova Bomb.\n\nReleases 6 seekers on detonation, which slowly track enemies, each dealing up to 649 [?] damage in a ~4 meter radius.\nSeekers have 100 Construct HP.\n\nNova Bomb and its Seekers can be detonated mid-air by dealing damage towards it. Caster deals significantly more damage against it.",
+    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3,241 [?] damage in a 12 meter radius.\nNova Bomb has 400 Construct HP. Caster deals 300% increased damage towards their own Nova Bomb.\n\nReleases 6 seekers on detonation, which slowly track enemies, each dealing up to 649 [?] damage in a ~4 meter radius.\nSeekers have 100 Construct HP.\n\nNova Bomb and its Seekers can be detonated mid-air by dealing damage towards it. Caster deals significantly more damage against it.",
     "hash": 1656118682,
     "parentHash": "1656118682",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7052,7 +7066,7 @@
         {
           "linesContent": [
             {
-              "text": "Releases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3241 ["
+              "text": "Releases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3,241 ["
             },
             {
               "text": "?",
@@ -7119,7 +7133,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Nova Bomb: Cataclysm",
-    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3241 [?] damage in a 12 meter radius.\nNova Bomb has 400 Construct HP. Caster deals 300% increased damage towards their own Nova Bomb.\n\nReleases 6 seekers on detonation, which slowly track enemies, each dealing up to 649 [?] damage in a ~4 meter radius.\nSeekers have 100 Construct HP.\n\nNova Bomb and its Seekers can be detonated mid-air by dealing damage towards it. Caster deals significantly more damage against it.",
+    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3,241 [?] damage in a 12 meter radius.\nNova Bomb has 400 Construct HP. Caster deals 300% increased damage towards their own Nova Bomb.\n\nReleases 6 seekers on detonation, which slowly track enemies, each dealing up to 649 [?] damage in a ~4 meter radius.\nSeekers have 100 Construct HP.\n\nNova Bomb and its Seekers can be detonated mid-air by dealing damage towards it. Caster deals significantly more damage against it.",
     "hash": 1869939004,
     "parentHash": "1869939004",
     "hash_warning": "Multiple matches found (2 total)",
@@ -7156,7 +7170,7 @@
         {
           "linesContent": [
             {
-              "text": "Releases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3241 ["
+              "text": "Releases a slowly moving, tracking Nova Bomb that detonates on impact, or upon being detonated, dealing up to 3,241 ["
             },
             {
               "text": "?",
@@ -7223,7 +7237,7 @@
     "Class": "Warlock",
     "Type": "Super",
     "Name": "Nova Bomb: Vortex",
-    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a fast moving, arcing Nova Bomb that detonates on impact, dealing up to 3021 [?] damage in a ? meter radius.\nCreates a singularity after 0.43 seconds of detonating, instantly pulling enemies inwards.\n\nSingularity deals 52 [?] damage every 0.13 seconds for 10 seconds to enemies within ? metres, and repeatedly pulls enemies within ? meters every ? seconds towards it.",
+    "Description": "General Super Information\nDamage Resistance: 90% [49%]\n\nReleases a fast moving, arcing Nova Bomb that detonates on impact, dealing up to 3,021 [?] damage in a ? meter radius.\nCreates a singularity after 0.43 seconds of detonating, instantly pulling enemies inwards.\n\nSingularity deals 52 [?] damage every 0.13 seconds for 10 seconds to enemies within ? metres, and repeatedly pulls enemies within ? meters every ? seconds towards it.",
     "hash": 1656118681,
     "parentHash": "1656118681",
     "descriptions": {
@@ -7259,7 +7273,7 @@
         {
           "linesContent": [
             {
-              "text": "Releases a fast moving, arcing Nova Bomb that detonates on impact, dealing up to 3021 ["
+              "text": "Releases a fast moving, arcing Nova Bomb that detonates on impact, dealing up to 3,021 ["
             },
             {
               "text": "?",
@@ -8086,7 +8100,7 @@
     "Class": "Warlock",
     "Type": "Aspect",
     "Name": "Soul Siphon",
-    "Description": "On Powered Melee Hit:\nReplaces Melee Ability with Soul Siphon for 20 seconds.\n\nOn Soul Siphon Usage:\nTethers up to 4 enemies within 20 meters, dealing increasingly higher Melee Damage Ticks every 0.2 seconds and pulling enemies towards the user over 3.2 seconds.\nThe final pull (after 0.6 seconds from the first tick) is guaranteed to stagger enemies.\n\nGrants +15 Void Overshield for 15+7.5 seconds and ?% Class Ability Energy per enemy per tick.\nWith Echo of Persistence equipped, the Overshield Duration cannot be refreshed to 22.5s unless it is ≤15 seconds.\n\nSoul Siphon Damage is slightly randomized but averages ~1320 Melee Damage per cast per enemy.\n2 | 11 | 26 | 62 | 100 | 137 Ticks + 879 Finish\n? | ?? | ?? | ?? | ?? | ?? Ticks + ? Finish",
+    "Description": "On Powered Melee Hit:\nReplaces Melee Ability with Soul Siphon for 20 seconds.\n\nOn Soul Siphon Usage:\nTethers up to 4 enemies within 20 meters, dealing increasingly higher Melee Damage Ticks every 0.2 seconds and pulling enemies towards the user over 3.2 seconds.\nThe final pull (after 0.6 seconds from the first tick) is guaranteed to stagger enemies.\n\nGrants +15 Void Overshield for 15+7.5 seconds and ?% Class Ability Energy per enemy per tick.\nWith Echo of Persistence equipped, the Overshield Duration cannot be refreshed to 22.5s unless it is ≤15 seconds.\n\nSoul Siphon Damage is slightly randomized but averages ~1,320 Melee Damage per cast per enemy.\n2 | 11 | 26 | 62 | 100 | 137 Ticks + 879 Finish\n? | ?? | ?? | ?? | ?? | ?? Ticks + ? Finish",
     "hash": 2321824286,
     "parentHash": "2321824286",
     "descriptions": {
@@ -8209,7 +8223,7 @@
               ]
             },
             {
-              "text": " Damage is slightly randomized but averages ~1320 Melee Damage per cast per enemy."
+              "text": " Damage is slightly randomized but averages ~1,320 Melee Damage per cast per enemy."
             }
           ]
         },

@@ -58,14 +58,14 @@
   {
     "Name": "Iaido",
     "Description": "Upon scoring a Weapon Kill within 4 seconds of reloading or readying a weapon:\nRestores 40 HP.\nIncurs a 3 second cooldown upon triggering. Must reload or swap weapons after the cooldown is over for the effect to trigger on kill.",
-    "Comment": "Pinnacle Ops",
+    "Comment": "Xûr\r\nVendor",
     "SetName": "Bushido",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Unfaltering Focus",
     "Description": "On Bow, Shotgun, or Sword Kill:\nResist x1 (10% | 2.5%) for 7 seconds.\nDealing additional Weapon Damage extends the buff duration by +2 seconds, up to 10 seconds.",
-    "Comment": "Pinnacle Ops",
+    "Comment": "Xûr\r\nVendor",
     "SetName": "Bushido",
     "PieceRequirement": "4 Piece"
   },
@@ -78,7 +78,7 @@
   },
   {
     "Name": "Dielectric Drift",
-    "Description": "While Speed Booster is active:\nSliding inflicts Jolt to Combatants within ? meters.",
+    "Description": "While Speed Booster is active:\nSliding inflicts Jolt to Combatants within 10 meters in a frontal cone.",
     "Comment": "Sparrow Racing League",
     "SetName": "Circuit",
     "PieceRequirement": "4 Piece"
@@ -162,7 +162,7 @@
   },
   {
     "Name": "Bountiful Munitions",
-    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant +3% Special Ammo Progress.\nElite+ Combatants Kills grant +16% Special Ammo Progress.\nElite+ Taken Combatant Kills grant +24% Special Ammo Progress.\nGuardian Kills grant +?% Special Ammo Progress.\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs, granting +16% Special Ammo Progress.\n\nHave fun being Ammo Printers, Rimecoat Howlers of Fealty, don't forget your Scout Mod for your \"friends\".",
+    "Description": "While Adrenal Rush is active:\nRank-and-File Combatant Kills grant +3% Special Ammo Progress.\nElite+ Combatants Kills grant +16% Special Ammo Progress.\nElite+ Taken Combatant Kills grant +24% Special Ammo Progress.\nGuardian Kills grant +?% Special Ammo Progress.\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs, granting +16% Special Ammo Progress.",
     "Comment": "Gambit",
     "SetName": "Cyberserpent Null",
     "PieceRequirement": "4 Piece"
@@ -198,14 +198,14 @@
   {
     "Name": "Pleas Heard",
     "Description": "Upon finishing an Auto Rifle, Scout Rifle, or Sidearm reload within 3 seconds of a kill:\nRestores 2HP/s until firing any weapon, casting Grenade, Melee, Class, or Super Ability, or upon taking damage from an enemy. \n\nCan be triggered multiple times from a single kill if another reload is performed within the time window.\nReceiving Environmental Damage, or dealing damage through other means does not stop the health regen.",
-    "Comment": "Crucible",
+    "Comment": "Legacy Crucible Vendor",
     "SetName": "Disaster Corps",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Magnificent Duty",
     "Description": "Upon reaching Critical Health or healing an ally at Critical Health:\n\nFor Auto Rifles, Scout Rifles, and Sidearms:\n+20 Range, +20 Stability, +30 Reload Speed, and 0.9x Reload Duration Multiplier for 11 seconds.\n\nUsing a Support Frame Auto to heal a Critical Health Ally after triggering the Pleas Heard effect removes the healing effect as it requires firing to heal... Bungie?",
-    "Comment": "Crucible",
+    "Comment": "Legacy Crucible Vendor",
     "SetName": "Disaster Corps",
     "PieceRequirement": "4 Piece"
   },
@@ -372,7 +372,7 @@
   },
   {
     "Name": "God-Like Judgment",
-    "Description": "Upon reaching Critical Health through Combatant Damage, or on Super Cast:\nFires multiple Seeking Micro-Missiles, each dealing 680 [31] Kinetic Damage.\nCritical Health = 2 Missiles | Super Cast = 4 Missiles",
+    "Description": "Upon reaching Critical Health through Combatant Damage, or on Super Cast:\nFires multiple Seeking Micro-Missiles, each dealing Class-based [31] Kinetic Damage.\nCritical Health = 2 Missiles | Super Cast = 4 Missiles\n\nHunters = 217 Damage | Titan = 680 Damage | Warlocks = 217 Damage",
     "Comment": "Deep Stone Crypt\nRaid",
     "SetName": "Legacy's Oath",
     "PieceRequirement": "4 Piece"
@@ -450,14 +450,14 @@
   {
     "Name": "Well Prepared",
     "Description": "On Ammo Brick Pickup: \nGrants a stack of Armor Charge.\n\nEach Armor Charge stack grants +10 Health Stat.\nGrants up to +30 Health Stat with x3 Armor Charge.\nMaxes out at +60 Health Stat with x6 Armor Charges.",
-    "Comment": "Pantheon",
+    "Comment": "Pantheon Raids",
     "SetName": "Pantheos Resplendent",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Down the Line",
     "Description": "Upon scoring a hit against Miniboss+ Combatants:\nGrants a stack of Down the Line, up to a maximum of 10 stacks. \nIncurs a 1 second cooldown between gaining stacks.\n\nDown the Line:\n15% increased Weapon Damage against Rank-and-File and Elite Combatants.\nConsumes a stack upon killing Rank-and-File and Elite Combatants.",
-    "Comment": "Pantheon",
+    "Comment": "Pantheon Raids",
     "SetName": "Pantheos Resplendent",
     "PieceRequirement": "4 Piece"
   },
@@ -470,7 +470,7 @@
   },
   {
     "Name": "Sublime Transit",
-    "Description": "Passively grants +20 Mobility, 6.25% Increased Sprint Speed, and 33% Increased Slide Distance.",
+    "Description": "Passively grants +20 Mobility, increases Sprint Speed from 8 m/s to 8.5m/s, and increases Slide Distance from 6.5 meters to 8.5 meters.",
     "Comment": "Competitive \nCrucible",
     "SetName": "Per Audacia",
     "PieceRequirement": "4 Piece"
@@ -484,7 +484,7 @@
   },
   {
     "Name": "Resonance Redirection",
-    "Description": "While Stable Resonance is active:\nDealing 600? Weapon Damage within ? seconds of each triggers an Exhausting Blast, centered on the enemy.\nIncurs an 2? second cooldown between Exhausting Blasts.\n\nExhausting Blast deals ? Damage and inflicts Exhaustion over 8 meters.",
+    "Description": "While Stable Resonance is active:\nDealing 600? Weapon Damage within ? seconds of each triggers an Exhausting Blast, centered on the enemy.\nIncurs an 2? second cooldown between Exhausting Blasts.\n\nExhausting Blast deals ? Damage and inflicts Exhaust over 8 meters, reducing Combatant Damage Output by 25%.",
     "Comment": "Salvation's Edge\nRaid",
     "SetName": "Promised",
     "PieceRequirement": "4 Piece"
@@ -498,7 +498,7 @@
   },
   {
     "Name": "Siphoning Touch",
-    "Description": "Upon scoring weapon damage instances or a Glaive Melee Attack:\nGrants a stack of Siphoning Touch, up to a maximum of 5 stacks.\nx1 = ~26.7% of Mag | x2 = ~53.4% | x3 = ~80% | x4 = ~106% | x5 = ~133%\nScorch does not count for damage instances. Always rounds down\n\nOn Weapon Stow:\nConsumes all Siphoning Touch to restores HP, based on the stack amount.\n30 | 60 | 90 | 105 | 120 HP restored.",
+    "Description": "Upon scoring weapon damage instances or a Glaive Melee Attack:\nGrants a stack of Siphoning Touch, up to a maximum of 5 stacks.\nx1 = ~26.7% of Mag | x2 = ~53.4% | x3 = ~80% | x4 = ~106% | x5 = ~133%\nScorch does not count for damage instances. Always rounds down.\n\nOn Weapon Stow:\nConsumes all Siphoning Touch to restores HP, based on the stack amount.\n30 | 60 | 90 | 105 | 120 HP restored.",
     "Comment": "Vow of the Disciple\nRaid",
     "SetName": "Resonant Fury",
     "PieceRequirement": "4 Piece"
@@ -533,7 +533,7 @@
   },
   {
     "Name": "Rasputin's Wrath",
-    "Description": "Upon scoring a kill with any of the following methods: \nExplosive Damage | Solar Ability Damage | Seventh Seraph Weapons | IKELOS Weapons | Sleeper Simulant | Outbreak Perfected:\nGrants a Warmind Charge for 10 seconds, up to a maximum of 10 charges.\nAll stacks disappear upon expiry.\n\nWarmind Charges each grant +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat at 10 charges.",
+    "Description": "Upon scoring a kill with any of the following methods: \nExplosive Damage | Solar Ability Damage | Seventh Seraph Weapons | IKELOS Weapons | Sleeper Simulant | Outbreak Perfected:\n\nGrants a Warmind Charge for 10 seconds, up to a maximum of 10 charges.\nAll stacks disappear upon expiry.\n\nWarmind Charges each grant +3 Grenade Stat and +3 Weapons Stat, up to +30 Grenade Stat and +30 Weapons Stat at 10 charges.",
     "Comment": "Cosmodrome\nDestination",
     "SetName": "Seventh Seraph",
     "PieceRequirement": "2 Piece"
@@ -562,42 +562,42 @@
   {
     "Name": "Ride Together, Die Together",
     "Description": "On Orb of Power Pickup:\nGrants Ride Together, Die Together for 3 seconds.\nRide Together, Die Together initially grants 40% [5%] Damage Resist.\nDamage Resist scales down to ~30?% with 1.5 seconds left, further reduced to 24?% with 1 second left, decreasing down to 0% over the remaining second.",
-    "Comment": "Solo/Fireteam Ops",
+    "Comment": "Lost Sectors",
     "SetName": "Smoke Jumper",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Too Old for This",
     "Description": "On Elite+ Finisher:\nRestores 32 HP and +16% Special Ammo Progress.",
-    "Comment": "Solo/Fireteam Ops",
+    "Comment": "Lost Sectors",
     "SetName": "Smoke Jumper",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Augmented Armaments",
-    "Description": "Primary Ammo Weapons deal 15% increased damage against Disoriented Combatants.\nDoes NOT work with Arc Blind.",
+    "Description": "Primary Ammo Weapons deal 15% increased damage against Disoriented Combatants.\nDisorient Duration is shorter than the animation, generally lasting for ~2.7 seconds.\nDoes NOT work with Arc Blind.",
     "Comment": "Vesper's Host\nDungeon",
     "SetName": "Spacewalk",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Augmented Explosives",
-    "Description": "On Grenade Ability Detonation: \nDisorients enemies within 10 meters for 2.7 seconds.\nDoes not work on Grapple.",
+    "Description": "On Grenade Ability Detonation: \nDisorients enemies within 10 meters for 2.7 seconds.\nDoes not work on Grapple. \nDoes not work on Young Ahamkara Spine's Tripmines.",
     "Comment": "Vesper's Host\nDungeon",
     "SetName": "Spacewalk",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Balestra",
-    "Description": "Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for ? seconds.",
-    "Comment": "Pinnacle Ops",
+    "Description": "Upon damaging an enemy with a Sword, Glaive, or Melee Attack:\nInflicts Exhaustion for 5 seconds, reducing Combatant Damage Output by 25%.",
+    "Comment": "Xûr\r\nVendor",
     "SetName": "Swordmaster",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Stesso Tempo",
     "Description": "Upon blocking damage with a Glaive or a Sword:\n50% [10%] Damage Resist (Resist x4) for 3 seconds upon no longer guarding. \nDamage Resist can be reset by blocking and dropping the guard before buff expires.",
-    "Comment": "Pinnacle Ops",
+    "Comment": "Xûr\r\nVendor",
     "SetName": "Swordmaster",
     "PieceRequirement": "4 Piece"
   },
@@ -610,7 +610,7 @@
   },
   {
     "Name": "Lucent Swarm",
-    "Description": "On Orb of Power Pickup:\nExtends the Ceremony duration to 30 seconds.\n\nWhile Ceremony is active:\nScoring 2 Ability Kills spawns a Loyal Arc Moth that lingers for 8 seconds.\nLoyal Arc Moths relentlessly chase the closest enemy within 60+👀 meters, dealing up to 180 Arc Damage and inflicting blind for 8 seconds over ~6? meters.\nAnything that would discharge Bolt Charge counts, including Unpowered Melee Kills and Forerunner's Rock EXCEPT FOR PRAXIC BLADE😔.",
+    "Description": "On Orb of Power Pickup:\nExtends the Ceremony duration to 30 seconds.\n\nWhile Ceremony is active:\nScoring 2 Ability Kills spawns a Loyal Arc Moth that lingers for 8 seconds.\nLoyal Arc Moths relentlessly chase the closest enemy within 60+👀 meters, dealing up to 180 Arc Damage and inflicting blind for 8 seconds over ~6? meters.\nAnything that would discharge Bolt Charge counts, including Unpowered Melee Kills and Forerunner's Rock EXCEPT FOR PRAXIC BLADE😔.\nArc Moth Damage is considered Generic Arc Damage. Does not benefit from Grenade, Melee, or Ability buffs nor does it interact with them.",
     "Comment": "Ghosts of the Deep\nDungeon",
     "SetName": "Taken King",
     "PieceRequirement": "4 Piece"
@@ -618,28 +618,28 @@
   {
     "Name": "Queensfoil Rush",
     "Description": "Finishers grant a 200? HP Overshield for the duration of the finisher (+0.3s).\n\nOn Finisher:\nInflicts x? Slow to enemies within 7 meters.",
-    "Comment": "Shattered Throne",
+    "Comment": "Shattered Throne\nDungeon",
     "SetName": "Techeun's Regalia",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Truth to Power",
     "Description": "Each damage instance scored grants a stack of Truth, up to a maximum of x999 stacks. wherein it gets renamed to Power.\nKills and Finishers grant many more stacks, although it seems to have different gains depending on the stack amount.\nKills tend to be within 20-35 stacks. Finishers tend to give around 60-90 stacks. \nALL stacks are removed on death.\n\nTruth grants Damage Resist per stack, up to 15% DR at maximum.\n250 = 3.75% | 500 = 7.5% | 750 = 10% | 999 = 15% Damage Resist\n\nTruth to Power Effect at x999 stacks:\n+50% Additional Base Grenade, and Melee Regeneration Rate.\n+35% Additional Base Class Regeneration Rate\n15% Damage Resist.",
-    "Comment": "Shattered Throne",
+    "Comment": "Shattered Throne\nDungeon",
     "SetName": "Techeun's Regalia",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Wrecker",
-    "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Poison, Praxic Blade, and Unpowered/Glaive Melee!",
-    "Comment": "Solo/Fireteam Ops",
+    "Description": "Passively grants increased Kinetic Damage towards Combatant Shields, Overshields, Vehicles, and Constructs.\n200% increased Kinetic Damage towards Combatant Shields and Combatant Overshields. Damage shows up as Yellow Numbers.\n15% increased Kinetic Damage towards Constructs. Koregos is not a Construct lol\nIt's ALL Kinetic Damage, including Corruption, Praxic Blade, and Unpowered/Glaive Melee!",
+    "Comment": "Lost Sectors",
     "SetName": "Techsec",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Concussive Rounds",
     "Description": "Upon killing an Elite+ Combatant, or breaking a Combatant Shield with Kinetic Damage:\nTriggers a disorienting Kinetic blast, dealing up to 162 Kinetic Damage, heavily staggering, and inflicting disorient to enemies within 10 meters for ? seconds.",
-    "Comment": "Solo/Fireteam Ops",
+    "Comment": "Lost Sectors",
     "SetName": "Techsec",
     "PieceRequirement": "4 Piece"
   },
@@ -673,7 +673,7 @@
   },
   {
     "Name": "Old Martian Diplomacy",
-    "Description": "On Weapon Stow after scoring an Elite+ or Guardian Kill:\nRestores 40? HP and disorients Combatants within 12 meters.\nIncurs a 2? second cooldown between activations",
+    "Description": "On Weapon Stow after scoring an Elite+ or Guardian Weapon Kill:\nRestores 40? HP and disorients Combatants within 12 meters.\nIncurs a 2? second cooldown between activations",
     "Comment": "Spire of the Watcher\nDungeon",
     "SetName": "TM Custom",
     "PieceRequirement": "2 Piece"
@@ -687,29 +687,29 @@
   },
   {
     "Name": "Scoot to Loot",
-    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters.\n+25 Handling and +25 Reload Speed for 10 seconds.",
-    "Comment": "Quickplay Crucible",
+    "Description": "Upon scooting:\nPick ups Ammo Bricks within 15 meters. Will also pick up Motes and Crests.\n+25 Handling and +25 Reload Speed for 10 seconds.",
+    "Comment": "Quickplay\nCrucible",
     "SetName": "Triumphal Anthem",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Shoot to Scoot",
-    "Description": "Upon dealing Weapon Damage:\nIncreases Slide Distance by 33% for 3? seconds.\n\nWhile scooting:\n50% [10%] Damage Resist (Resist x4)",
-    "Comment": "Quickplay Crucible",
+    "Description": "Upon dealing Weapon Damage:\nIncreases Scoot Distance from 6.5 meters to 8.5 meters for 3? seconds.\n\nWhile scooting:\n50% [10%] Damage Resist (Resist x4)",
+    "Comment": "Quickplay\nCrucible",
     "SetName": "Triumphal Anthem",
     "PieceRequirement": "4 Piece"
   },
   {
     "Name": "Crook and Flail",
     "Description": "On Ammo Brick Pickup:\nRestores 70 HP.",
-    "Comment": "Trials",
+    "Comment": "Legacy Trials Vendor",
     "SetName": "Twofold Crown",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Gift of Sight",
     "Description": "Upon scoring a Primary Weapon Kill:\nEnhanced Radar for 5 seconds.\n\nBuff can be triggered by destroying \"destroyable entities\" as well as Constructs.",
-    "Comment": "Trials",
+    "Comment": "Legacy Trials Vendor",
     "SetName": "Twofold Crown",
     "PieceRequirement": "4 Piece"
   },
@@ -722,7 +722,7 @@
   },
   {
     "Name": "Superluminal Motion",
-    "Description": "Upon dealing Super Damage, while Movement Speed isn't 0m/s:\nRestores ? [?] HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
+    "Description": "Upon dealing Super Damage, while Movement Speed isn't 0m/s:\nRestores 2? [?] HP/s for 11 seconds. \nDealing Additional Super Damage refreshes the buff duration.",
     "Comment": "Desert Perpetual\nEpic Raid",
     "SetName": "Uncaged Deviants",
     "PieceRequirement": "4 Piece"
@@ -744,14 +744,14 @@
   {
     "Name": "Fanfare",
     "Description": "While Ammo = ≤50% of Magazine AND Ammo ≠ 0:\n+15 Reload Speed and 0.95x Reload Duration Multiplier.\n\nDoes not trigger at 0 Ammo. rip bows, GLs, and Rockets",
-    "Comment": "Crucible",
+    "Comment": "Legacy Crucible Vendor",
     "SetName": "Wild Anthem",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Suros Harmony",
     "Description": "Upon finishing a reload:\nSUROS Harmony | +30? Handling and ?% Flinch Resist for 6 seconds.\nWeapons that have the SUROS Synergy Origin Trait equipped, as well as SUROS Regime are additionally granted +15 Range. \nFor some reason, the +Range benefit's timer begins only once you are able to shoot in the reload animation instead of when the ammo is refilled.\n\nSUROS Harmony persists through stow, but only on the weapon that it was triggered on. \nCan be refreshed by retriggering the buff unless it is a SUROS Weapon lmao.",
-    "Comment": "Crucible",
+    "Comment": "Legacy Crucible Vendor",
     "SetName": "Wild Anthem",
     "PieceRequirement": "4 Piece"
   },
@@ -772,14 +772,14 @@
   {
     "Name": "Untold Greed",
     "Description": "Upon picking up an Ammo Brick, an Orb of Power, on Elemental Pickup, or destroying a Tangle:\nGrants a stack of Untold Greed, up to a maximum of 100 stacks.\n\nUpon reaching Critical Health:\nRemoves 10 stacks.\n\nUntold Greed:\nUp to +? Reload Speed and 15% Damage Resist at x25 stacks.\nx5 = 6% DR | x10 = 9% DR | x15 = 11% DR | x20 = 13% DR | x25+ = 15% DR",
-    "Comment": "Grasp of Avarice",
+    "Comment": "Grasp of Avarice\nDungeon",
     "SetName": "Yearning Echo",
     "PieceRequirement": "2 Piece"
   },
   {
     "Name": "Overflowing Coffers",
-    "Description": "While at x5 Untold Greed or higher:\nOrbs of Power grant +?% Super Energy.\nElemental Pickups are massively improved.\n\nFiresprites (+120%) | 11.25% -> 25% Grenade Energy\nIonic Traces (+100% Class, +85% Grenade/Melee) | 11.25% Grenade/Melee + 13.5% Class -> 21% Grenade/Melee + 27% Class + 2% Super\nVoid Breaches (+120%) | 11.25% -> 25% Class Energy\nStasis Shards (+260%) | 10% -> 36% Melee Energy. Additive to Hunger's +60%, totalling 42.5% Energy per pickup.\nStrand Tangles | 350% increased damage. Affects Whirling Maelstrom too!\n\nUpon reaching Critical Health while having x5 Untold Greed or higher:\nConsumes ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy.\nThe Orbs of Power are ejected in front of the user at high speeds, likely clipping inside walls.\n\nLooking upwards/downwards does not affect where the Orbs go.\nAllied Guardians get the Orbs, too.",
-    "Comment": "Grasp of Avarice",
+    "Description": "While at x5 Untold Greed or higher:\nElemental Pickups are massively improved.\nNo discernible effect on Orbs of Power.\n\nFiresprites (+120%) | 11.25% -> 25% Grenade Energy\nIonic Traces (+100% Class, +85% Grenade/Melee) | 11.25% Grenade/Melee + 13.5% Class -> 21% Grenade/Melee + 27% Class + 2% Super\nVoid Breaches (+120%) | 11.25% -> 25% Class Energy\nStasis Shards (+260%) | 10% -> 36% Melee Energy. Additive to Hunger's +60%, totalling 42.5% Energy per pickup.\nStrand Tangles | 350% increased damage. Affects Whirling Maelstrom too!\n\nUpon reaching Critical Health while having x5 Untold Greed or higher:\nConsumes ALL STACKS to spawn 4 Orbs of Power that each grant ~3.15% Super Energy.\nThe Orbs of Power are ejected in front of the user at high speeds, likely clipping inside walls.\n\nLooking upwards/downwards does not affect where the Orbs go.\nAllied Guardians get the Orbs, too.",
+    "Comment": "Grasp of Avarice\nDungeon",
     "SetName": "Yearning Echo",
     "PieceRequirement": "4 Piece"
   }

@@ -645,7 +645,7 @@
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 843 \nSniper Rifle: 1149",
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [70 ↑77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 766 ↑843\nSniper Rifle: 1,044 ↑1,149",
     "hash": 3252937884,
     "parentHash": "3252937884",
     "hash_warning": "Multiple matches found (2 total)",
@@ -699,7 +699,7 @@
               "text": "Sticky Bomb detonates after 0.8 seconds, dealing varying ["
             },
             {
-              "text": "77",
+              "text": "70 ↑77",
               "classNames": [
                 "pvp"
               ]
@@ -752,7 +752,13 @@
               ]
             },
             {
-              "text": ": 843"
+              "text": ": 766 "
+            },
+            {
+              "text": "↑843",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -765,7 +771,13 @@
               ]
             },
             {
-              "text": ": 1149"
+              "text": ": 1,044 "
+            },
+            {
+              "text": "↑1,149",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -774,7 +786,7 @@
   },
   {
     "Name": "Adhesive Ordnance",
-    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 843 \nSniper Rifle: 1149",
+    "Description": "Upon picking up an Ammo Brick:\nGenerates +1 Ammo.\nThe next shot fired adheres a Sticky Bomb on impact. \nCan trigger from Kinetic Synthesis Ammo Bricks.\n\nSticky Bomb detonates after 0.8 seconds, dealing varying [70 ↑77] Kinetic Damage and inflicting Exhaust over 6 meters, down to 50% Damage at the furthest point.\nDamage against Combatants scales with Combatant Rank Modifiers and counts as Kinetic Weapon Damage.\nHand Cannon, Scout Rifle: 766 ↑843\nSniper Rifle: 1,044 ↑1,149",
     "hash": 122204356,
     "parentHash": "122204356",
     "hash_warning": "Multiple matches found (2 total)",
@@ -828,7 +840,7 @@
               "text": "Sticky Bomb detonates after 0.8 seconds, dealing varying ["
             },
             {
-              "text": "77",
+              "text": "70 ↑77",
               "classNames": [
                 "pvp"
               ]
@@ -881,7 +893,13 @@
               ]
             },
             {
-              "text": ": 843"
+              "text": ": 766 "
+            },
+            {
+              "text": "↑843",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -894,7 +912,13 @@
               ]
             },
             {
-              "text": ": 1149"
+              "text": ": 1,044 "
+            },
+            {
+              "text": "↑1,149",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -2020,6 +2044,180 @@
     }
   },
   {
+    "Name": "Ambitious Assassin",
+    "Description": "Upon finishing a reload after scoring Weapon Kills:\nOverflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity. \nAlways rounds magazine up. Kill Counter persists through stow.\n\nPrimary Weapons: 20% Increased Magazine Capacity per Kill.\nSpecial Weapons | Power Weapons: 10% Increased Magazine Capacity per Kill.\n\n↑Passively grants +5 Reload Speed.",
+    "hash": 2010801679,
+    "parentHash": "2010801679",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload after scoring Weapon Kills:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Overflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Always rounds magazine up. Kill Counter persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": ": 20% Increased Magazine Capacity per Kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Power Weapons",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": ": 10% Increased Magazine Capacity per Kill."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +5 Reload Speed.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Ambitious Assassin",
+    "Description": "Upon finishing a reload after scoring Weapon Kills:\nOverflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity. \nAlways rounds magazine up. Kill Counter persists through stow.\n\nPrimary Weapons: 20% Increased Magazine Capacity per Kill.\nSpecial Weapons | Power Weapons: 10% Increased Magazine Capacity per Kill.\n\n↑Passively grants +5 Reload Speed.",
+    "hash": 3797647183,
+    "parentHash": "3797647183",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload after scoring Weapon Kills:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Overflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Always rounds magazine up. Kill Counter persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Primary Weapons",
+              "classNames": [
+                "primary"
+              ]
+            },
+            {
+              "text": ": 20% Increased Magazine Capacity per Kill."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Special Weapons",
+              "classNames": [
+                "special"
+              ]
+            },
+            {
+              "text": " | "
+            },
+            {
+              "text": "Power Weapons",
+              "classNames": [
+                "heavy"
+              ]
+            },
+            {
+              "text": ": 10% Increased Magazine Capacity per Kill."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +5 Reload Speed.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Ancillary Ordinance",
     "Description": "Upon scoring 3 Elemental Kills within 4 seconds of each, or upon killing an Elementally-Debuffed Enemy:\nGrants a stack of Ancillary Ordinance, up to a maximum of 4? ↑5 stacks.\nKills can be scored through any means. \nScoring a Kinetic Weapon Kill against an Elementally-Debuffed Enemy will also instantly spawn a Micro-Missile. Try it with Unravel or Scorching Rounds!\n\nUpon scoring a Direct Weapon Kill while having stacks of Ancillary Ordinance:\nConsumes a stack of Ancillary Ordinance to spawn a homing Kinetic Micro-Missile over the Enemy Death Location.\nMicro-missile aggressively tracks the closest enemy within 30 meters, exploding on impact, dealing varying [100] Kinetic Damage over a tiny radius.\n\nMicro-Missile Damage:\nPrimary Weapons: 383\nShotgun: 435\nMicro-Missile Sidearm (High Albedo): 348\nGrenade Launcher (Mountaintop): 292\nHeavy Sniper Rifle: 76",
     "hash": 1202584452,
@@ -2490,180 +2688,6 @@
     }
   },
   {
-    "Name": "Ambitious Assassin",
-    "Description": "Upon finishing a reload after scoring Weapon Kills:\nOverflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity. \nAlways rounds magazine up. Kill Counter persists through stow.\n\nPrimary Weapons: 20% Increased Magazine Capacity per Kill.\nSpecial Weapons | Power Weapons: 10% Increased Magazine Capacity per Kill.\n\n↑Passively grants +5 Reload Speed.",
-    "hash": 2010801679,
-    "parentHash": "2010801679",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload after scoring Weapon Kills:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Overflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Always rounds magazine up. Kill Counter persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": ": 20% Increased Magazine Capacity per Kill."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Special Weapons",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": " | "
-            },
-            {
-              "text": "Power Weapons",
-              "classNames": [
-                "heavy"
-              ]
-            },
-            {
-              "text": ": 10% Increased Magazine Capacity per Kill."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Passively grants +5 Reload Speed.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Ambitious Assassin",
-    "Description": "Upon finishing a reload after scoring Weapon Kills:\nOverflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity. \nAlways rounds magazine up. Kill Counter persists through stow.\n\nPrimary Weapons: 20% Increased Magazine Capacity per Kill.\nSpecial Weapons | Power Weapons: 10% Increased Magazine Capacity per Kill.\n\n↑Passively grants +5 Reload Speed.",
-    "hash": 3797647183,
-    "parentHash": "3797647183",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload after scoring Weapon Kills:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Overflows Magazine from reserves based on the amount of kills achieved, up to a maximum of 150% Increased Magazine Capacity."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Always rounds magazine up. Kill Counter persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Primary Weapons",
-              "classNames": [
-                "primary"
-              ]
-            },
-            {
-              "text": ": 20% Increased Magazine Capacity per Kill."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Special Weapons",
-              "classNames": [
-                "special"
-              ]
-            },
-            {
-              "text": " | "
-            },
-            {
-              "text": "Power Weapons",
-              "classNames": [
-                "heavy"
-              ]
-            },
-            {
-              "text": ": 10% Increased Magazine Capacity per Kill."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Passively grants +5 Reload Speed.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Name": "Archer's Gambit",
     "Description": "On Hipfired Precision Hit:\n+100? Reload Speed, 0.x? Reload Duration Multiplier, and 0.4x Draw Time Multiplier for 4 ↑5 seconds.\nScoring additional Hipfired Precision Hits extends the buff duration by +4 seconds, up to 8 ↑? seconds.\nBuff persists through stow.",
     "hash": 3414324643,
@@ -3077,7 +3101,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n57% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nDamage instances required to make the next damage instance spawn an Orb of Power:\n55.55% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
     "hash": 243981275,
     "parentHash": "243981275",
     "hash_warning": "Multiple matches found (2 total)",
@@ -3121,14 +3145,14 @@
         {
           "linesContent": [
             {
-              "text": "Hits required to make the next damage instance spawn an Orb:"
+              "text": "Damage instances required to make the next damage instance spawn an Orb of Power:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "57% of Magazine + 1, rounded down."
+              "text": "55.55% of Magazine + 1, rounded down."
             }
           ]
         },
@@ -3219,7 +3243,7 @@
   },
   {
     "Name": "Attrition Orbs",
-    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nHits required to make the next damage instance spawn an Orb:\n57% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
+    "Description": "Upon scoring a Magazine-Based amount of damage instances within 5 seconds of each:\nThe next damage instance creates an Orb of Power that grants 0.87% ↑1.1% Super Energy.\nCounter persists through stow.\n\nDamage instances required to make the next damage instance spawn an Orb of Power:\n55.55% of Magazine + 1, rounded down.\nBows: 4 | Swords: 5 | Grenade Launchers: 3 | Rocket Launchers: 2 | Area-Denial Grenade Launchers: 26\nSupport Auto Rifles healing hits on injured teammates count as 2 hits. (33.5% of Magazine + 1), rounded down on healing hits on damaged allies.\nScorch ticks from Weapon Perks do not count.\n Incurs a 0.5 second cooldown upon spawning an Orb. Damage instances during the cooldown will not be counted.",
     "hash": 984655331,
     "parentHash": "984655331",
     "hash_warning": "Multiple matches found (2 total)",
@@ -3263,14 +3287,14 @@
         {
           "linesContent": [
             {
-              "text": "Hits required to make the next damage instance spawn an Orb:"
+              "text": "Damage instances required to make the next damage instance spawn an Orb of Power:"
             }
           ]
         },
         {
           "linesContent": [
             {
-              "text": "57% of Magazine + 1, rounded down."
+              "text": "55.55% of Magazine + 1, rounded down."
             }
           ]
         },
@@ -5674,7 +5698,7 @@
   },
   {
     "Name": "Burning Ambition",
-    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine ↑-1. \nBow: ? ↑2 | Sword: 3 ↑2\n\nAdditionally, direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy.",
+    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch within 2 seconds.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine, rounded down.\nBow: ↑2 | Sword: 2 ↑1\nLinear FR | Precision: ↑1, Burst: ↑2?\nRocket Sidearm: ↑3 Missiles\nScouts | Precision: ↑5, Rapid: ↑8\nFusion Rifles: ↑11 Bolts\nMGs | Adaptive: ↑13, Aggressive: ↑19, Rapid: ↑28?\nAutos | Heat, Precision: ↑14 | Adaptive, Support: ↑19 | Rapid: ↑23\nTrace Rifle: ↑29\n\nScorching Shot and direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy.",
     "hash": 2890807135,
     "parentHash": "2890807135",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5699,7 +5723,7 @@
               ]
             },
             {
-              "text": "."
+              "text": " within 2 seconds."
             }
           ]
         },
@@ -5756,13 +5780,7 @@
         {
           "linesContent": [
             {
-              "text": "55% of Magazine "
-            },
-            {
-              "text": "↑-1.",
-              "classNames": [
-                "enhancedArrow"
-              ]
+              "text": "55% of Magazine, rounded down."
             }
           ]
         },
@@ -5775,7 +5793,7 @@
               ]
             },
             {
-              "text": ": ? "
+              "text": ": "
             },
             {
               "text": "↑2",
@@ -5793,10 +5811,191 @@
               ]
             },
             {
-              "text": ": 3 "
+              "text": ": 2 "
             },
             {
-              "text": "↑2",
+              "text": "↑1",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Linear",
+              "classNames": [
+                "weapon-linear-fusion-rifle"
+              ]
+            },
+            {
+              "text": " FR | Precision: "
+            },
+            {
+              "text": "↑1,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Burst: "
+            },
+            {
+              "text": "↑2?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Missiles"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scouts | Precision: "
+            },
+            {
+              "text": "↑5,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Rapid: "
+            },
+            {
+              "text": "↑8",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifles",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑11",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Bolts"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "MGs",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": " | Adaptive: "
+            },
+            {
+              "text": "↑13,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Aggressive: "
+            },
+            {
+              "text": "↑19,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Rapid: "
+            },
+            {
+              "text": "↑28?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Autos | Heat, Precision: "
+            },
+            {
+              "text": "↑14",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Adaptive, Support: "
+            },
+            {
+              "text": "↑19",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Rapid: "
+            },
+            {
+              "text": "↑23",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Trace Rifle",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑29",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -5811,7 +6010,13 @@
         {
           "linesContent": [
             {
-              "text": "Additionally, direct hits against "
+              "text": "Scorching",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Shot and direct hits against "
             },
             {
               "text": "Scorched",
@@ -5925,7 +6130,7 @@
   },
   {
     "Name": "Burning Ambition",
-    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine ↑-1. \nBow: ? ↑2 | Sword: 3 ↑2\n\nAdditionally, direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy.",
+    "Description": "Upon scoring a Magazine-based amount of direct hits within 2 seconds of each:\nThe next direct hit inflicts Scorch within 2 seconds.\nHit counter persists through stow. Hits do not have to be on the same target.\nScorch inflicted by Burning Ambition counts as Weapon Damage.\n\nHits needed to prepare Scorching Shot:\n55% of Magazine, rounded down.\nBow: ↑2 | Sword: 2 ↑1\nLinear FR | Precision: ↑1, Burst: ↑2?\nRocket Sidearm: ↑3 Missiles\nScouts | Precision: ↑5, Rapid: ↑8\nFusion Rifles: ↑11 Bolts\nMGs | Adaptive: ↑13, Aggressive: ↑19, Rapid: ↑28?\nAutos | Heat, Precision: ↑14 | Adaptive, Support: ↑19 | Rapid: ↑23\nTrace Rifle: ↑29\n\nScorching Shot and direct hits against Scorched Enemies inflict Scorch.\nPrimary Weapons inflict x10+5 [x4+5? against Scorched Guardians] Scorch.\nSpecial and Power Weapons inflict x20+10 Scorch.\nIncurs a 0.5 second cooldown upon inflicting Scorch before additional Scorch can be inflicted. Cooldown is GLOBAL, not per-enemy.",
     "hash": 3581929919,
     "parentHash": "3581929919",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5950,7 +6155,7 @@
               ]
             },
             {
-              "text": "."
+              "text": " within 2 seconds."
             }
           ]
         },
@@ -6007,13 +6212,7 @@
         {
           "linesContent": [
             {
-              "text": "55% of Magazine "
-            },
-            {
-              "text": "↑-1.",
-              "classNames": [
-                "enhancedArrow"
-              ]
+              "text": "55% of Magazine, rounded down."
             }
           ]
         },
@@ -6026,7 +6225,7 @@
               ]
             },
             {
-              "text": ": ? "
+              "text": ": "
             },
             {
               "text": "↑2",
@@ -6044,10 +6243,191 @@
               ]
             },
             {
-              "text": ": 3 "
+              "text": ": 2 "
             },
             {
-              "text": "↑2",
+              "text": "↑1",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Linear",
+              "classNames": [
+                "weapon-linear-fusion-rifle"
+              ]
+            },
+            {
+              "text": " FR | Precision: "
+            },
+            {
+              "text": "↑1,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Burst: "
+            },
+            {
+              "text": "↑2?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Rocket Sidearm",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Missiles"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Scouts | Precision: "
+            },
+            {
+              "text": "↑5,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Rapid: "
+            },
+            {
+              "text": "↑8",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fusion Rifles",
+              "classNames": [
+                "weapon-fusion-rifle"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑11",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Bolts"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "MGs",
+              "classNames": [
+                "weapon-machine-gun"
+              ]
+            },
+            {
+              "text": " | Adaptive: "
+            },
+            {
+              "text": "↑13,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Aggressive: "
+            },
+            {
+              "text": "↑19,",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " Rapid: "
+            },
+            {
+              "text": "↑28?",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Autos | Heat, Precision: "
+            },
+            {
+              "text": "↑14",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Adaptive, Support: "
+            },
+            {
+              "text": "↑19",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " | Rapid: "
+            },
+            {
+              "text": "↑23",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Trace Rifle",
+              "classNames": [
+                "weapon-trace-rifle"
+              ]
+            },
+            {
+              "text": ": "
+            },
+            {
+              "text": "↑29",
               "classNames": [
                 "enhancedArrow"
               ]
@@ -6062,7 +6442,13 @@
         {
           "linesContent": [
             {
-              "text": "Additionally, direct hits against "
+              "text": "Scorching",
+              "classNames": [
+                "solar"
+              ]
+            },
+            {
+              "text": " Shot and direct hits against "
             },
             {
               "text": "Scorched",
@@ -9390,7 +9776,7 @@
   },
   {
     "Name": "Collective Demolition",
-    "Description": "On Elemental-Pickup Interaction:\nScoring hits grants ↑increased Grenade Ability Energy for an Elemental-Pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nGrenade Ability Gains:\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)",
+    "Description": "On Elemental-Pickup Interaction:\nScoring damage instances grants ↑increased Grenade Ability Energy for an Elemental-Pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nGrenade Ability Gains:\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)",
     "hash": 4019266109,
     "parentHash": "4019266109",
     "hash_warning": "Multiple matches found (2 total)",
@@ -9406,7 +9792,7 @@
         {
           "linesContent": [
             {
-              "text": "Scoring hits grants "
+              "text": "Scoring damage instances grants "
             },
             {
               "text": "↑increased Grenade Ability Energy for an Elemental-Pickup based duration.",
@@ -9535,7 +9921,7 @@
   },
   {
     "Name": "Collective Demolition",
-    "Description": "On Elemental-Pickup Interaction:\nScoring hits grants ↑increased Grenade Ability Energy for an Elemental-Pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nGrenade Ability Gains:\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)",
+    "Description": "On Elemental-Pickup Interaction:\nScoring damage instances grants ↑increased Grenade Ability Energy for an Elemental-Pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nGrenade Ability Gains:\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)\nPENDING AT SOME POINT :)",
     "hash": 2613226185,
     "parentHash": "2613226185",
     "hash_warning": "Multiple matches found (2 total)",
@@ -9551,7 +9937,7 @@
         {
           "linesContent": [
             {
-              "text": "Scoring hits grants "
+              "text": "Scoring damage instances grants "
             },
             {
               "text": "↑increased Grenade Ability Energy for an Elemental-Pickup based duration.",
@@ -9680,7 +10066,7 @@
   },
   {
     "Name": "Collective Pugilism",
-    "Description": "On Elemental-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy. for an Elemental-pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration seconds, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%",
+    "Description": "On Elemental-Pickup Interaction:\nScoring damage instances grants ↑increased Melee Ability Energy for an Elemental-pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration seconds, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%",
     "hash": 1888882410,
     "parentHash": "1888882410",
     "hash_warning": "Multiple matches found (2 total)",
@@ -9696,16 +10082,13 @@
         {
           "linesContent": [
             {
-              "text": "Scoring hits grants "
+              "text": "Scoring damage instances grants "
             },
             {
-              "text": "↑increased Melee Ability Energy.",
+              "text": "↑increased Melee Ability Energy for an Elemental-pickup based duration.",
               "classNames": [
                 "enhancedArrow"
               ]
-            },
-            {
-              "text": " for an Elemental-pickup based duration."
             }
           ]
         },
@@ -9931,7 +10314,7 @@
   },
   {
     "Name": "Collective Pugilism",
-    "Description": "On Elemental-Pickup Interaction:\nScoring hits grants ↑increased Melee Ability Energy. for an Elemental-pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration seconds, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%",
+    "Description": "On Elemental-Pickup Interaction:\nScoring damage instances grants ↑increased Melee Ability Energy for an Elemental-pickup based duration.\n\nFiresprites and Void Breaches grant +8 seconds. \nIonic Traces, Stasis Shards, and both the Pickup AND Explosion of Tangles/Arc Elemental Orbs grant +4 seconds. \nAdditional pickups extend the buff duration by their corresponding duration seconds, up to 16 seconds.\nBuff can be activated while stowed, and persists through stow.\n\nMelee Ability Gains:\nSpreadshot HC: 0.5% ↑0.55%\nBurst Sidearm: 0.78% ↑0.86%\nFusion Rifle: 1.15% ↑1.27%\nRocket Pulse: 1.95% ↑2.15%\nSidearm: 2.34% ↑2.57%\nScout: 3.34% ↑3.67%\nRocket Launcher: 12.9% ↑14.2%",
     "hash": 3684445958,
     "parentHash": "3684445958",
     "hash_warning": "Multiple matches found (2 total)",
@@ -9947,16 +10330,13 @@
         {
           "linesContent": [
             {
-              "text": "Scoring hits grants "
+              "text": "Scoring damage instances grants "
             },
             {
-              "text": "↑increased Melee Ability Energy.",
+              "text": "↑increased Melee Ability Energy for an Elemental-pickup based duration.",
               "classNames": [
                 "enhancedArrow"
               ]
-            },
-            {
-              "text": " for an Elemental-pickup based duration."
             }
           ]
         },
@@ -10754,7 +11134,7 @@
   },
   {
     "Name": "Danger Zone",
-    "Description": "While within 15 metres of 3 enemies:\n?% Increased Blast Radius and decreased self damage.\nBuff lingers for 3.5 seconds once criteria isn't met.\n\nGrenade Launchers: 40% Decreased Self Damage.\nRocket Launchers: 99.99% Decreased Self Damage, and allows Rocket Jumping.\n\n↑Passively grants +5 Blast Radius.",
+    "Description": "While within 15 metres of 3 enemies:\n?% Increased Blast Radius and decreased self damage.\nBuff lingers for 3.5 seconds once criteria isn't met.\n\nGrenade Launchers: 40% Decreased Self Damage.\nRocket Launchers and Rocket Sidearms: 99.99% Decreased Self Damage, and allows Rocket Jumping.\n\n↑Passively grants +5 Blast Radius.",
     "hash": 960810156,
     "parentHash": "960810156",
     "hash_warning": "Multiple matches found (2 total)",
@@ -10808,6 +11188,15 @@
               ]
             },
             {
+              "text": " and "
+            },
+            {
+              "text": "Rocket Sidearms",
+              "classNames": [
+                "weapon-sidearm"
+              ]
+            },
+            {
               "text": ": 99.99% Decreased Self Damage, and allows Rocket Jumping."
             }
           ]
@@ -10832,7 +11221,7 @@
   },
   {
     "Name": "Danger Zone",
-    "Description": "While within 15 metres of 3 enemies:\n?% Increased Blast Radius and decreased self damage.\nBuff lingers for 3.5 seconds once criteria isn't met.\n\nGrenade Launchers: 40% Decreased Self Damage.\nRocket Launchers: 99.99% Decreased Self Damage, and allows Rocket Jumping.\n\n↑Passively grants +5 Blast Radius.",
+    "Description": "While within 15 metres of 3 enemies:\n?% Increased Blast Radius and decreased self damage.\nBuff lingers for 3.5 seconds once criteria isn't met.\n\nGrenade Launchers: 40% Decreased Self Damage.\nRocket Launchers and Rocket Sidearms: 99.99% Decreased Self Damage, and allows Rocket Jumping.\n\n↑Passively grants +5 Blast Radius.",
     "hash": 1077019636,
     "parentHash": "1077019636",
     "hash_warning": "Multiple matches found (2 total)",
@@ -10883,6 +11272,15 @@
               "text": "Rocket Launchers",
               "classNames": [
                 "weapon-rocket-launcher"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Rocket Sidearms",
+              "classNames": [
+                "weapon-sidearm"
               ]
             },
             {
@@ -12768,7 +13166,7 @@
   },
   {
     "Name": "Disorienting Grenades",
-    "Description": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius.\n\nRank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses are unaffected by disorient. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
+    "Description": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius.\n\nRank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses can be considered disoriented but will not be impaired by its effects. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
     "hash": 3032599245,
     "parentHash": "3032599245",
     "hash_warning": "Multiple matches found (2 total)",
@@ -12796,7 +13194,7 @@
         {
           "linesContent": [
             {
-              "text": "Champions and Bosses are unaffected by disorient. Disorient radius cannot be altered."
+              "text": "Champions and Bosses can be considered disoriented but will not be impaired by its effects. Disorient radius cannot be altered."
             }
           ]
         },
@@ -12817,7 +13215,7 @@
   },
   {
     "Name": "Disorienting Grenades",
-    "Description": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius.\n\nRank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses are unaffected by disorient. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
+    "Description": "Passively grants -200 Blast Radius, 25% decreased damage, and 15% decreased explosion damage radius.\n\nRank-and-File, Elite, and Miniboss Combatants within 6 metres of the explosion are disoriented for 4.5 seconds.\nChampions and Bosses can be considered disoriented but will not be impaired by its effects. Disorient radius cannot be altered.\n\nGuardians briefly lose their HUD and have their screen distorted for up to ? seconds. Duration varies depending on the distance from the blast.",
     "hash": 745577913,
     "parentHash": "745577913",
     "hash_warning": "Multiple matches found (2 total)",
@@ -12845,7 +13243,7 @@
         {
           "linesContent": [
             {
-              "text": "Champions and Bosses are unaffected by disorient. Disorient radius cannot be altered."
+              "text": "Champions and Bosses can be considered disoriented but will not be impaired by its effects. Disorient radius cannot be altered."
             }
           ]
         },
@@ -15709,6 +16107,100 @@
     }
   },
   {
+    "Name": "Envious Arsenal",
+    "Description": "Upon dealing ANY damage with both other weapons, and then readying the weapon:\nFully refills magazine.\nDamage-Over-Time effects also work.\n\n↑Passively grants +10 Ammo Generation.",
+    "hash": 3987942396,
+    "parentHash": "3987942396",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing ANY damage with both other weapons, and then readying the weapon:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fully refills magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage-Over-Time effects also work."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +10 Ammo Generation.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Envious Arsenal",
+    "Description": "Upon dealing ANY damage with both other weapons, and then readying the weapon:\nFully refills magazine.\nDamage-Over-Time effects also work.\n\n↑Passively grants +10 Ammo Generation.",
+    "hash": 2817499044,
+    "parentHash": "2817499044",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon dealing ANY damage with both other weapons, and then readying the weapon:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Fully refills magazine."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Damage-Over-Time effects also work."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Passively grants +10 Ammo Generation.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Envious Assassin",
     "Description": "Upon readying the weapon after scoring kills with a different weapon:\nOverflows Magazine from reserves based on the amount of kills achieved, up to 200% Increased Magazine Size.\n\nPrimary Weapons: 10% ↑12.5% Increased Magazine Capacity per Kill.\nSpecial Weapons | Power Weapons: 20% ↑22.5% Increased Magazine Capacity per Kill.\n\nEach activation can grant up to 100% Increased Magazine Capacity if activated with a full magazine. Always rounds magazine up.\n Can overflow based on the magazine size at the moment of swapping, i.e. if empty and after reaching the max bonus, magazine capacity will be fully refilled. ",
     "hash": 968510818,
@@ -15906,100 +16398,6 @@
           "linesContent": [
             {
               "text": "Can overflow based on the magazine size at the moment of swapping, i.e. if empty and after reaching the max bonus, magazine capacity will be fully refilled."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Envious Arsenal",
-    "Description": "Upon dealing ANY damage with both other weapons, and then readying the weapon:\nFully refills magazine.\nDamage-Over-Time effects also work.\n\n↑Passively grants +10 Ammo Generation.",
-    "hash": 3987942396,
-    "parentHash": "3987942396",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon dealing ANY damage with both other weapons, and then readying the weapon:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Fully refills magazine."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Damage-Over-Time effects also work."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Passively grants +10 Ammo Generation.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Envious Arsenal",
-    "Description": "Upon dealing ANY damage with both other weapons, and then readying the weapon:\nFully refills magazine.\nDamage-Over-Time effects also work.\n\n↑Passively grants +10 Ammo Generation.",
-    "hash": 2817499044,
-    "parentHash": "2817499044",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon dealing ANY damage with both other weapons, and then readying the weapon:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Fully refills magazine."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Damage-Over-Time effects also work."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Passively grants +10 Ammo Generation.",
-              "classNames": [
-                "enhancedArrow"
-              ]
             }
           ]
         }
@@ -18548,7 +18946,7 @@
   },
   {
     "Name": "Gear Shift",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill or becoming Amplified:\nGrants a stack of Gear Shift for ? ↑15 seconds, up to a maximum of 5 stacks.\nBuff can be triggered and persists through stow.\n\nGear Shift x1 | 15% Increased Weapon Damage.\nGear Shift x2 | 20% Increased Weapon Damage\nGear Shift x3 | 25% Increased Weapon Damage\nGear Shift x4 | 30% Increased Weapon Damage\nGear Shift x5 | 35% Increased Weapon Damage",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill or becoming Amplified:\nGrants a stack of Gear Shift for ↑15 seconds, up to a maximum of 5 stacks.\nBuff can be triggered and persists through stow.\n\nGear Shift x1 | 15% Increased Weapon Damage.\nGear Shift x2 | 20% Increased Weapon Damage\nGear Shift x3 | 25% Increased Weapon Damage\nGear Shift x4 | 30% Increased Weapon Damage\nGear Shift x5 | 35% Increased Weapon Damage",
     "hash": 654512643,
     "parentHash": "654512643",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18582,7 +18980,7 @@
               ]
             },
             {
-              "text": " for ? "
+              "text": " for "
             },
             {
               "text": "↑15",
@@ -18677,7 +19075,7 @@
   },
   {
     "Name": "Gear Shift",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill or becoming Amplified:\nGrants a stack of Gear Shift for ? ↑15 seconds, up to a maximum of 5 stacks.\nBuff can be triggered and persists through stow.\n\nGear Shift x1 | 15% Increased Weapon Damage.\nGear Shift x2 | 20% Increased Weapon Damage\nGear Shift x3 | 25% Increased Weapon Damage\nGear Shift x4 | 30% Increased Weapon Damage\nGear Shift x5 | 35% Increased Weapon Damage",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill or becoming Amplified:\nGrants a stack of Gear Shift for ↑15 seconds, up to a maximum of 5 stacks.\nBuff can be triggered and persists through stow.\n\nGear Shift x1 | 15% Increased Weapon Damage.\nGear Shift x2 | 20% Increased Weapon Damage\nGear Shift x3 | 25% Increased Weapon Damage\nGear Shift x4 | 30% Increased Weapon Damage\nGear Shift x5 | 35% Increased Weapon Damage",
     "hash": 4065965131,
     "parentHash": "4065965131",
     "hash_warning": "Multiple matches found (2 total)",
@@ -18711,7 +19109,7 @@
               ]
             },
             {
-              "text": " for ? "
+              "text": " for "
             },
             {
               "text": "↑15",
@@ -22935,7 +23333,7 @@
   },
   {
     "Name": "Jolting Feedback",
-    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt. \nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nDirect Hits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nHand Cannons (+Uncivil): 7 ↑4 | 2\nScout Rifles: ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑4 | 3\nRocket Sidearm, Sniper Rifle: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\nShotguns: ↑2 | 1",
+    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt. \nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nDirect Hits needed to grant Jolting Shot | Amplified:\nSMGs, Traces: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nHCs (+Uncivil): 7 ↑4 | 2\nScout Rifles: ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑4 | 3\nRocket Sidearm: ? ↑3 | 2\nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\nShotguns, Snipers: ↑2 | 1",
     "hash": 3966416502,
     "parentHash": "3966416502",
     "hash_warning": "Multiple matches found (2 total)",
@@ -23029,22 +23427,13 @@
         {
           "linesContent": [
             {
-              "text": "Submachine Gun",
+              "text": "SMGs",
               "classNames": [
                 "weapon-smg"
               ]
             },
             {
-              "text": " and "
-            },
-            {
-              "text": "Trace Rifle",
-              "classNames": [
-                "weapon-trace-rifle"
-              ]
-            },
-            {
-              "text": ": 18 "
+              "text": ", Traces: 18 "
             },
             {
               "text": "↑17",
@@ -23148,13 +23537,7 @@
         {
           "linesContent": [
             {
-              "text": "Hand Cannons",
-              "classNames": [
-                "weapon-hand-cannon"
-              ]
-            },
-            {
-              "text": " (+Uncivil): 7 "
+              "text": "HCs (+Uncivil): 7 "
             },
             {
               "text": "↑4",
@@ -23264,15 +23647,6 @@
               ]
             },
             {
-              "text": ", "
-            },
-            {
-              "text": "Sniper Rifle",
-              "classNames": [
-                "weapon-sniper-rifle"
-              ]
-            },
-            {
               "text": ": ? "
             },
             {
@@ -23361,7 +23735,7 @@
               ]
             },
             {
-              "text": ": "
+              "text": ", Snipers: "
             },
             {
               "text": "↑2",
@@ -23379,7 +23753,7 @@
   },
   {
     "Name": "Jolting Feedback",
-    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt. \nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nDirect Hits needed to grant Jolting Shot | Amplified:\nSubmachine Gun and Trace Rifle: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nHand Cannons (+Uncivil): 7 ↑4 | 2\nScout Rifles: ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑4 | 3\nRocket Sidearm, Sniper Rifle: ? ↑3 | 2 \nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\nShotguns: ↑2 | 1",
+    "Description": "Upon scoring multiple direct hits within 3 seconds of each:\nThe next direct hit inflicts Jolt. \nBeing Amplified reduces the amount of hits needed to trigger Jolting Feedback.\nHit counter persists through stow. Hits do not have to be on the same target.\n\nDirect Hits needed to grant Jolting Shot | Amplified:\nSMGs, Traces: 18 ↑17 | 13\nMachine Gun: 16 ↑14 | 11\nAuto Rifle: 15 ↑14 | 11\nPulse Rifles: ↑11 | 9\nSidearm: ↑9 | 7\nHCs (+Uncivil): 7 ↑4 | 2\nScout Rifles: ↑4 | 2\nBow: ? ↑2 | 1\nRocket Pulse: ↑7 | 5\nSword: 7 ↑4 | 3\nRocket Sidearm: ? ↑3 | 2\nGlaive: 4 ↑3 | 3\nLinear Fusion Rifle: 4? ↑3 | 2\nHeavy Grenade Launcher: 3 ↑2 | 2\nShotguns, Snipers: ↑2 | 1",
     "hash": 717070634,
     "parentHash": "717070634",
     "hash_warning": "Multiple matches found (2 total)",
@@ -23473,22 +23847,13 @@
         {
           "linesContent": [
             {
-              "text": "Submachine Gun",
+              "text": "SMGs",
               "classNames": [
                 "weapon-smg"
               ]
             },
             {
-              "text": " and "
-            },
-            {
-              "text": "Trace Rifle",
-              "classNames": [
-                "weapon-trace-rifle"
-              ]
-            },
-            {
-              "text": ": 18 "
+              "text": ", Traces: 18 "
             },
             {
               "text": "↑17",
@@ -23592,13 +23957,7 @@
         {
           "linesContent": [
             {
-              "text": "Hand Cannons",
-              "classNames": [
-                "weapon-hand-cannon"
-              ]
-            },
-            {
-              "text": " (+Uncivil): 7 "
+              "text": "HCs (+Uncivil): 7 "
             },
             {
               "text": "↑4",
@@ -23708,15 +24067,6 @@
               ]
             },
             {
-              "text": ", "
-            },
-            {
-              "text": "Sniper Rifle",
-              "classNames": [
-                "weapon-sniper-rifle"
-              ]
-            },
-            {
               "text": ": ? "
             },
             {
@@ -23805,7 +24155,7 @@
               ]
             },
             {
-              "text": ": "
+              "text": ", Snipers: "
             },
             {
               "text": "↑2",
@@ -25976,6 +26326,132 @@
     }
   },
   {
+    "Name": "Loose Change",
+    "Description": "Upon inflicting an Elemental Debuff:\n+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 ↑10 seconds.\nReactivating the perk refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff duration is increased to 5 seconds.",
+    "hash": 1119449540,
+    "parentHash": "1119449540",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon inflicting an Elemental Debuff:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 "
+            },
+            {
+              "text": "↑10",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reactivating the perk refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be activated while stowed, and persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to 5 seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Loose Change",
+    "Description": "Upon inflicting an Elemental Debuff:\n+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 ↑10 seconds.\nReactivating the perk refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff duration is increased to 5 seconds.",
+    "hash": 561986700,
+    "parentHash": "561986700",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon inflicting an Elemental Debuff:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 "
+            },
+            {
+              "text": "↑10",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Reactivating the perk refreshes the buff duration."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff can be activated while stowed, and persists through stow."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased to 5 seconds.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Lucky Shot",
     "Description": "Upon finishing a reload within ? seconds of a Precision Kill:\nGrants Lucky Shot Ready.\nBuff persists through stow.\n\nUpon scoring a Precision Hit while Lucky Shot is readied:\n Grants Lucky Shot for 7 seconds.\nPrecision Hits refill +1 Ammo while Lucky Shot is active.",
     "hash": 896553940,
@@ -26251,132 +26727,6 @@
             },
             {
               "text": " is active."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Loose Change",
-    "Description": "Upon inflicting an Elemental Debuff:\n+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 ↑10 seconds.\nReactivating the perk refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff duration is increased to 5 seconds.",
-    "hash": 1119449540,
-    "parentHash": "1119449540",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon inflicting an Elemental Debuff:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 "
-            },
-            {
-              "text": "↑10",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Reactivating the perk refreshes the buff duration."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff can be activated while stowed, and persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Buff duration is increased to 5 seconds.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Loose Change",
-    "Description": "Upon inflicting an Elemental Debuff:\n+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 ↑10 seconds.\nReactivating the perk refreshes the buff duration.\nBuff can be activated while stowed, and persists through stow.\n\n↑Buff duration is increased to 5 seconds.",
-    "hash": 561986700,
-    "parentHash": "561986700",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon inflicting an Elemental Debuff:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+50 Reload Speed, +20 Aim Assist, and 20% Decreased ADS Movement Speed Penalty for 9 "
-            },
-            {
-              "text": "↑10",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Reactivating the perk refreshes the buff duration."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff can be activated while stowed, and persists through stow."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Buff duration is increased to 5 seconds.",
-              "classNames": [
-                "enhancedArrow"
-              ]
             }
           ]
         }
@@ -26937,6 +27287,150 @@
             },
             {
               "text": " x1 to 8 seconds, and x2 to 5? seconds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Mega Kill Clip",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
+    "hash": 2305480722,
+    "parentHash": "2305480722",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload within ? seconds of a Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "40% Increased damage for ? "
+            },
+            {
+              "text": "↑3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " + (2 x Kills) seconds, up to a maximum of 20 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
+            },
+            {
+              "text": "↑+3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " + (2 x Kills) seconds to the timer, up to 20 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased.",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Mega Kill Clip",
+    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
+    "hash": 2260261934,
+    "parentHash": "2260261934",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "Upon finishing a reload within ? seconds of a Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "40% Increased damage for ? "
+            },
+            {
+              "text": "↑3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " + (2 x Kills) seconds, up to a maximum of 20 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
+            },
+            {
+              "text": "↑+3",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " + (2 x Kills) seconds to the timer, up to 20 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
+            }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "↑Buff duration is increased.",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         }
@@ -27534,150 +28028,6 @@
             },
             {
               "text": " = 452 | 541 | 758"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Mega Kill Clip",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
-    "hash": 2305480722,
-    "parentHash": "2305480722",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload within ? seconds of a Weapon Kill:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "40% Increased damage for ? "
-            },
-            {
-              "text": "↑3",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " + (2 x Kills) seconds, up to a maximum of 20 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
-            },
-            {
-              "text": "↑+3",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " + (2 x Kills) seconds to the timer, up to 20 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Buff duration is increased.",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Mega Kill Clip",
-    "Description": "Upon finishing a reload within ? seconds of a Weapon Kill:\n40% Increased damage for ? ↑3 + (2 x Kills) seconds, up to a maximum of 20 seconds.\nFinishing a reload within ? seconds of the last Weapon Kill extends the buff duration by ↑+3 + (2 x Kills) seconds to the timer, up to 20 seconds.\nKill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill.\n\n↑Buff duration is increased.",
-    "hash": 2260261934,
-    "parentHash": "2260261934",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "Upon finishing a reload within ? seconds of a Weapon Kill:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "40% Increased damage for ? "
-            },
-            {
-              "text": "↑3",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " + (2 x Kills) seconds, up to a maximum of 20 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Finishing a reload within ? seconds of the last Weapon Kill extends the buff duration by "
-            },
-            {
-              "text": "↑+3",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " + (2 x Kills) seconds to the timer, up to 20 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Kill counter persists through stows. Kill counter is reset upon finishing a reload. Can be procced multiple times as long as the reload is finished within ? seconds of the last kill."
-            }
-          ]
-        },
-        {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "↑Buff duration is increased.",
-              "classNames": [
-                "enhancedArrow"
-              ]
             }
           ]
         }
@@ -28902,7 +29252,7 @@
   },
   {
     "Name": "One-Two Punch",
-    "Description": "Upon scoring a hit with 12 ↑10 pellets:\nGrants 150% Shotgun | 75% Hand Cannon [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10.",
+    "Description": "Upon scoring a hit with 12 ↑10 pellets:\nShotgun: 150% [100%] | Hand Cannon: 75% [50%] increased Melee Damage for the next Melee Hit within 3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10.",
     "hash": 2679249093,
     "parentHash": "2679249093",
     "hash_warning": "Multiple matches found (2 total)",
@@ -28927,16 +29277,22 @@
         {
           "linesContent": [
             {
-              "text": "Grants 150% "
-            },
-            {
               "text": "Shotgun",
               "classNames": [
                 "weapon-shotgun"
               ]
             },
             {
-              "text": " | 75% "
+              "text": ": 150% ["
+            },
+            {
+              "text": "100%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] | "
             },
             {
               "text": "Hand Cannon",
@@ -28945,10 +29301,10 @@
               ]
             },
             {
-              "text": " ["
+              "text": ": 75% ["
             },
             {
-              "text": "100%?",
+              "text": "50%",
               "classNames": [
                 "pvp"
               ]
@@ -29012,7 +29368,7 @@
   },
   {
     "Name": "One-Two Punch",
-    "Description": "Upon scoring a hit with 12 ↑10 pellets:\nGrants 150% Shotgun | 75% Hand Cannon [100%?] increased Melee Damage for the next Melee Hit within 3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10.",
+    "Description": "Upon scoring a hit with 12 ↑10 pellets:\nShotgun: 150% [100%] | Hand Cannon: 75% [50%] increased Melee Damage for the next Melee Hit within 3 seconds.\nBuff is removed on stow.\n\nOne-Two Punch does not stack with the passive Melee Damage Increase against Frozen non-Boss targets. The higher buff of the two takes precedence.\n\n↑Pellet Activation Requirement is decreased from 12 to 10.",
     "hash": 788178929,
     "parentHash": "788178929",
     "hash_warning": "Multiple matches found (2 total)",
@@ -29037,16 +29393,22 @@
         {
           "linesContent": [
             {
-              "text": "Grants 150% "
-            },
-            {
               "text": "Shotgun",
               "classNames": [
                 "weapon-shotgun"
               ]
             },
             {
-              "text": " | 75% "
+              "text": ": 150% ["
+            },
+            {
+              "text": "100%",
+              "classNames": [
+                "pvp"
+              ]
+            },
+            {
+              "text": "] | "
             },
             {
               "text": "Hand Cannon",
@@ -29055,10 +29417,10 @@
               ]
             },
             {
-              "text": " ["
+              "text": ": 75% ["
             },
             {
-              "text": "100%?",
+              "text": "50%",
               "classNames": [
                 "pvp"
               ]
@@ -36867,6 +37229,102 @@
     }
   },
   {
+    "Name": "Steady Hands",
+    "Description": "On Weapon Kill:\n+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 ↑9.5 seconds.\nAdditional Weapon Kills refresh the buff duration to 6.5 seconds.\nBuff remains active while stowed.",
+    "hash": 509074078,
+    "parentHash": "509074078",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 "
+            },
+            {
+              "text": "↑9.5",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapon Kills refresh the buff duration to 6.5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff remains active while stowed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Steady Hands",
+    "Description": "On Weapon Kill:\n+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 ↑9.5 seconds.\nAdditional Weapon Kills refresh the buff duration to 6.5 seconds.\nBuff remains active while stowed.",
+    "hash": 843318450,
+    "parentHash": "843318450",
+    "hash_warning": "Multiple matches found (2 total)",
+    "descriptions": {
+      "en": [
+        {
+          "linesContent": [
+            {
+              "text": "On Weapon Kill:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 "
+            },
+            {
+              "text": "↑9.5",
+              "classNames": [
+                "enhancedArrow"
+              ]
+            },
+            {
+              "text": " seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Additional Weapon Kills refresh the buff duration to 6.5 seconds."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Buff remains active while stowed."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "Name": "Sticky Grenades",
     "Description": "Grenades stick to surfaces for up to 10 seconds on impact, and detonate once an enemy is within ? meters.\nExplosive Light increases Blast Radius to 100, increasing the effect of Sticky Grenades.\n\nGrants 30% Increased Explosive Damage and 85% Decreased Impact Damage.\n20 Blast Radius = -6% total decreased damage.\n48 Blast Radius = Unchanged damage.\n100 Blast Radius = 11% total increased damage.\n\n↑Passively grants +2 Reload Speed",
     "hash": 3373736292,
@@ -37402,102 +37860,6 @@
           "linesContent": [
             {
               "text": "+? Stability for ? seconds."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Steady Hands",
-    "Description": "On Weapon Kill:\n+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 ↑9.5 seconds.\nAdditional Weapon Kills refresh the buff duration to 6.5 seconds.\nBuff remains active while stowed.",
-    "hash": 509074078,
-    "parentHash": "509074078",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "On Weapon Kill:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 "
-            },
-            {
-              "text": "↑9.5",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Weapon Kills refresh the buff duration to 6.5 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff remains active while stowed."
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "Name": "Steady Hands",
-    "Description": "On Weapon Kill:\n+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 ↑9.5 seconds.\nAdditional Weapon Kills refresh the buff duration to 6.5 seconds.\nBuff remains active while stowed.",
-    "hash": 843318450,
-    "parentHash": "843318450",
-    "hash_warning": "Multiple matches found (2 total)",
-    "descriptions": {
-      "en": [
-        {
-          "linesContent": [
-            {
-              "text": "On Weapon Kill:"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "+100 Handling and 0.825x Handling Duration Multiplier for all equipped weapons for 8.5 "
-            },
-            {
-              "text": "↑9.5",
-              "classNames": [
-                "enhancedArrow"
-              ]
-            },
-            {
-              "text": " seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Additional Weapon Kills refresh the buff duration to 6.5 seconds."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Buff remains active while stowed."
             }
           ]
         }
@@ -38042,7 +38404,7 @@
   },
   {
     "Name": "Surrounded",
-    "Description": "While within 15 meters of 3 enemies:\n40% ↑47% Increased Damage. Swords are granted 35% ↑41.8% Increased Damage.\nRocket Launchers and Grenade Launchers are granted 35% ↑41.8% Increased Explosive Damage and 40% ↑47% Increased Impact Damage.\nWolfpack Rounds are granted 35% ↑41.8% Increased Explosive Damage.\n Buff lingers for 1.5 seconds once criteria isn't met.",
+    "Description": "While within 15 meters of 3 enemies:\n40% ↑47% Increased Damage. Swords are granted 35% ↑41.8% Increased Damage.\nRocket Launchers and Grenade Launchers are granted 35% ↑41.8% Increased Explosive Damage and 40% ↑47% Increased Impact Damage.\nWolfpack Rounds are granted 35% ↑41.8% Increased Explosive Damage. ↑Wolfpack Round Impact Damage is increased by 5%.\n Buff lingers for 1.5 seconds once criteria isn't met.",
     "hash": 3708227201,
     "parentHash": "3708227201",
     "hash_warning": "Multiple matches found (2 total)",
@@ -38141,7 +38503,13 @@
               ]
             },
             {
-              "text": " Increased Explosive Damage."
+              "text": " Increased Explosive Damage. "
+            },
+            {
+              "text": "↑Wolfpack Round Impact Damage is increased by 5%.",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -38157,7 +38525,7 @@
   },
   {
     "Name": "Surrounded",
-    "Description": "While within 15 meters of 3 enemies:\n40% ↑47% Increased Damage. Swords are granted 35% ↑41.8% Increased Damage.\nRocket Launchers and Grenade Launchers are granted 35% ↑41.8% Increased Explosive Damage and 40% ↑47% Increased Impact Damage.\nWolfpack Rounds are granted 35% ↑41.8% Increased Explosive Damage.\n Buff lingers for 1.5 seconds once criteria isn't met.",
+    "Description": "While within 15 meters of 3 enemies:\n40% ↑47% Increased Damage. Swords are granted 35% ↑41.8% Increased Damage.\nRocket Launchers and Grenade Launchers are granted 35% ↑41.8% Increased Explosive Damage and 40% ↑47% Increased Impact Damage.\nWolfpack Rounds are granted 35% ↑41.8% Increased Explosive Damage. ↑Wolfpack Round Impact Damage is increased by 5%.\n Buff lingers for 1.5 seconds once criteria isn't met.",
     "hash": 781192741,
     "parentHash": "781192741",
     "hash_warning": "Multiple matches found (2 total)",
@@ -38256,7 +38624,13 @@
               ]
             },
             {
-              "text": " Increased Explosive Damage."
+              "text": " Increased Explosive Damage. "
+            },
+            {
+              "text": "↑Wolfpack Round Impact Damage is increased by 5%.",
+              "classNames": [
+                "enhancedArrow"
+              ]
             }
           ]
         },
@@ -41119,7 +41493,7 @@
   },
   {
     "Name": "Transcendent Moment",
-    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Trascendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
+    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Transcendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
     "hash": 3731491409,
     "parentHash": "3731491409",
     "hash_warning": "Multiple matches found (2 total)",
@@ -41261,7 +41635,16 @@
         {
           "linesContent": [
             {
-              "text": "While Trascendence is active:"
+              "text": "While "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " is active:"
             }
           ]
         },
@@ -41292,7 +41675,7 @@
   },
   {
     "Name": "Transcendent Moment",
-    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Trascendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
+    "Description": "On Weapon Kill:\nGrants a Weapon Alignment-Based buff for 7 seconds.\nAdditional Kills refresh the buff duration.\nBuff persists through stow.\n\nLight Weapons (Arc, Solar, and Void) trigger Transcendent Light | +? ↑+? Stability and +? ↑+20? Handling\nDark Weapons (Stasis and Strand) trigger Transcendent Dark | ↑+20 Range and +? ↑+20 Aim Assist\n\nWhile Transcendence is active: \nTranscendent Moment | Grants both alignment buffs passively until Transcendence ends.",
     "hash": 680897173,
     "parentHash": "680897173",
     "hash_warning": "Multiple matches found (2 total)",
@@ -41434,7 +41817,16 @@
         {
           "linesContent": [
             {
-              "text": "While Trascendence is active:"
+              "text": "While "
+            },
+            {
+              "text": "Transcendence",
+              "classNames": [
+                "prismatic"
+              ]
+            },
+            {
+              "text": " is active:"
             }
           ]
         },
@@ -43816,7 +44208,7 @@
   },
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\nThe weakening shot benefits from the 7.5% damage increase against Guardians.",
     "hash": 1134488199,
     "parentHash": "1134488199",
     "hash_warning": "Multiple matches found (2 total)",
@@ -43860,13 +44252,29 @@
               "text": "Timer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " shot benefits from the 7.5% damage increase against Guardians."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\nThe weakening shot benefits from the 7.5% damage increase against Guardians.",
     "hash": 2904194311,
     "parentHash": "2904194311",
     "hash_warning": "Multiple matches found (2 total)",
@@ -43908,6 +44316,22 @@
           "linesContent": [
             {
               "text": "Timer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " shot benefits from the 7.5% damage increase against Guardians."
             }
           ]
         }

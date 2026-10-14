@@ -1,7 +1,7 @@
 [
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\nThe weakening shot benefits from the 7.5% damage increase against Guardians.",
     "hash": 1134488199,
     "parentHash": "1134488199",
     "hash_warning": "Multiple matches found (2 total)",
@@ -45,13 +45,29 @@
               "text": "Timer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit."
             }
           ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " shot benefits from the 7.5% damage increase against Guardians."
+            }
+          ]
         }
       ]
     }
   },
   {
     "Name": "Withering Gaze",
-    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.",
+    "Description": "After 1.5 ↑1.4 seconds of ADS without firing while Magazine is >0:\nThe next direct damage shot fired while ADS inflicts weaken.\nTimer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit.\nThe weakening shot benefits from the 7.5% damage increase against Guardians.",
     "hash": 2904194311,
     "parentHash": "2904194311",
     "hash_warning": "Multiple matches found (2 total)",
@@ -93,6 +109,22 @@
           "linesContent": [
             {
               "text": "Timer starts as soon as the Aim Down Sights input is pressed, and is reset upon scoring a hit."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The "
+            },
+            {
+              "text": "weakening",
+              "classNames": [
+                "void"
+              ]
+            },
+            {
+              "text": " shot benefits from the 7.5% damage increase against Guardians."
             }
           ]
         }

@@ -1,7 +1,7 @@
 [
   {
     "Name": "Facet of Awakening",
-    "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup.",
+    "Description": "Killing 3 enemies with Elemental Damage within 6 seconds of each, or a Super Kill spawns an Element-Matching Elemental Pickup.\nElemental Pickup is determined by the Damage Type of the final kill.\n\nIncurs a 5 second cooldown between spawning the same Non-Tangle Elemental Pickups.\nKills with the element of the spawned pickup while the cooldown is active do not count towards spawning another Elemental Pickup.",
     "hash": 124726505,
     "parentHash": "124726505",
     "descriptions": {
@@ -18,6 +18,11 @@
             {
               "text": "Elemental Pickup is determined by the Damage Type of the final kill."
             }
+          ]
+        },
+        {
+          "classNames": [
+            "spacer"
           ]
         },
         {
@@ -48,7 +53,7 @@
   },
   {
     "Name": "Facet of Balance",
-    "Description": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy.",
+    "Description": "Killing 3 enemies within 3 seconds of each with Light Damage grants 10% Melee Energy.\n\nKilling 3 enemies within 3 seconds of each with Dark Damage grants 10% Grenade Energy.",
     "hash": 2626922114,
     "parentHash": "2626922114",
     "descriptions": {
@@ -56,7 +61,7 @@
         {
           "linesContent": [
             {
-              "text": "Killing 3 enemies within 3? seconds of each with Light Damage grants 10% Melee Energy."
+              "text": "Killing 3 enemies within 3 seconds of each with Light Damage grants 10% Melee Energy."
             }
           ]
         },
@@ -68,7 +73,7 @@
         {
           "linesContent": [
             {
-              "text": "Killing 3 enemies within 3? seconds of each with Dark Damage grants 10% Grenade Energy."
+              "text": "Killing 3 enemies within 3 seconds of each with Dark Damage grants 10% Grenade Energy."
             }
           ]
         }
@@ -184,7 +189,7 @@
   },
   {
     "Name": "Facet of Command",
-    "Description": "Freezing or Suppressing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively.",
+    "Description": "Suppressing or Freezing an enemy refills the readied weapon and grants +20? Stability, +? Aim Assist, and +40 Airborne Effectiveness for 11 seconds. \nIncurs a 4 second cooldown before it can be reactivated.\n\nKilling Frozen or Suppressed Enemies spawns a Stasis Shard or Void Breach respectively.",
     "hash": 124726497,
     "parentHash": "124726497",
     "descriptions": {
@@ -192,18 +197,18 @@
         {
           "linesContent": [
             {
-              "text": "Freezing",
+              "text": "Suppressing",
               "classNames": [
-                "stasis"
+                "void"
               ]
             },
             {
               "text": " or "
             },
             {
-              "text": "Suppressing",
+              "text": "Freezing",
               "classNames": [
-                "void"
+                "stasis"
               ]
             },
             {
@@ -271,7 +276,7 @@
   },
   {
     "Name": "Facet of Courage",
-    "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs.\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage.",
+    "Description": "Against enemies inflicted with Stasis or Strand Elemental Debuffs:\nLight Abilities deal 10% increased damage.\nLight Powered Melee Abilities deal 50% [10%] increased damage.",
     "hash": 2626922124,
     "parentHash": "2626922124",
     "descriptions": {
@@ -297,7 +302,7 @@
               ]
             },
             {
-              "text": " Elemental Debuffs."
+              "text": " Elemental Debuffs:"
             }
           ]
         },
@@ -536,7 +541,7 @@
   },
   {
     "Name": "Facet of Dominance",
-    "Description": "Void Grenade Ability Damage applies Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage applies Jolt.\nArc Soul has a 4 second cooldown before being able to inflict Jolt again.",
+    "Description": "Void Grenade Ability Damage inflicts Weaken for 6 [?] seconds.\n\nArc Grenade Ability Damage inflicts Jolt.\nArc Soul has a 4 second cooldown before being able to inflict Jolt again.",
     "hash": 124726504,
     "parentHash": "124726504",
     "descriptions": {
@@ -550,7 +555,7 @@
               ]
             },
             {
-              "text": " Grenade Ability Damage applies "
+              "text": " Grenade Ability Damage inflicts "
             },
             {
               "text": "Weaken",
@@ -586,7 +591,7 @@
               ]
             },
             {
-              "text": " Grenade Ability Damage applies "
+              "text": " Grenade Ability Damage inflicts "
             },
             {
               "text": "Jolt",
@@ -1259,7 +1264,7 @@
   },
   {
     "Name": "Facet of Solitude",
-    "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example.",
+    "Description": "Upon scoring a Magazine-Based amount of Precision Hits within 3 seconds of each:\nThe next damage instance from any source within 3 seconds will emit a Severing Burst.\nSever Burst inflicts Sever to enemies within 3 metres. Radius is increased to 6 meters while Transcendent.\nIncurs a 4 second cooldown upon Severing. Precision Hits during the cooldown will not be counted.\n\nPrecision hits required to prepare the Severing Burst:\n20% of Magazine + 1, rounded down.\nBows: 2 hits\nThe Precision Hit that prepares the Severing Burst can't trigger the effect through simultaneous damage instances. Trinity Ghoul and the Explosive Payload perk, for example.",
     "hash": 2626922123,
     "parentHash": "2626922123",
     "descriptions": {
@@ -1378,7 +1383,7 @@
               ]
             },
             {
-              "text": " Burst can't trigger the effect. Trinity Ghoul and the Explosive Payload perk, for example."
+              "text": " Burst can't trigger the effect through simultaneous damage instances. Trinity Ghoul and the Explosive Payload perk, for example."
             }
           ]
         }

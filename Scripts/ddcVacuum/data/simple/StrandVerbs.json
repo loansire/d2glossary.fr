@@ -5,11 +5,11 @@
   },
   {
     "Name": "Grapple Tangle",
-    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nStrand and Prismatic Subclasses allow using Grapple Melee. Prismatic Warlocks need to equip Arcane Needle to receive Grapple Melee.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
+    "Description": "Tangle Equivalent that exclusively interacts with Grapple, behaving identically to a Tangle for Grappling.\n\nLasts for up to 20 seconds. Duration is refreshed by 5 seconds upon using Grapple on it. Cannot be destroyed, nor picked up.\nTargeting a Grapple Tangle within 27 meters (32m with Grapple Grenade equipped) for 0.3 seconds overrides Grenade Ability to a Non-Offensive Grapple.\nGrapple Melee can only be performed on Grapple Tangles if a Grapple Grenade Ability Charge is readied. Works on Prismatic Hunters, too.\n\nGrappling a Grapple Tangle 5 consecutive times reduces the duration refresh to 1 second."
   },
   {
     "Name": "Threadling",
-    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nThreadlings are individually released upon dealing weapon damage or scoring a Melee Hit, with a 0.5 second cooldown between releases. \nThreadlings released this way will track at any range."
+    "Description": "Strand minions that chase enemies within 20? metres, leaping towards the targeted enemy upon being within ? metres.\n\nThreadlings explode on contact or after leaping, dealing up to 366 [35] damage in a small radius.\nThreadlings that lose their target before impact will land and look for another combatant instead of exploding.\nThreadlings count as damage from the source they were spawned, but will lose that inheritance if they perch.\n\nWarlock Interaction:\nThreadlings return after travelling 14 metres if they do not start chasing an enemy, remaining perched on the Warlock, up to a maximum of 5 Threadlings. \nReleases a Threadling upon dealing weapon damage or scoring a Powered Melee Hit, with a 0.5 second cooldown between releases. Instantly killing an enemy won't release Threadlings.\nThreadlings released this way will track at any range."
   },
   {
     "Name": "Woven Mail",
@@ -29,6 +29,6 @@
   },
   {
     "Name": "Unraveling Rounds",
-    "Description": "Strand Weapons apply Unravel upon dealing damage, and Barrier Champion Shields are able to be damaged while Unraveling Rounds are active, stunning the Champion when destroyed."
+    "Description": "Strand Weapons inflict Unravel upon dealing damage."
   }
 ]

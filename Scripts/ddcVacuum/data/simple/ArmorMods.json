@@ -79,7 +79,7 @@
   },
   {
     "Name": "Firepower",
-    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Heavy Handed.",
+    "Description": "On Grenade Kill:\nSpawns a Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Heavy Handed if equipped before it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]"
   },
@@ -103,7 +103,7 @@
   },
   {
     "Name": "Heavy Handed",
-    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCannot simultaneously benefit with Firepower.",
+    "Description": "On Powered Melee Kill:\nSpawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.\nCan trigger alongside Firepower if equipped after it.\nFrom left to right order.",
     "Type": "ArmsMods",
     "Comment": "[3 Energy]"
   },
@@ -313,7 +313,7 @@
   },
   {
     "Name": "Powerful Attraction",
-    "Description": "On Class Ability Usage:\nCollects Orbs of Power within 12.5 | 18.5 metres.\n\nAlso works on Motes and Crests.",
+    "Description": "On Class Ability Usage:\nCollects Orbs of Power within 12.5 | 18.5 metres.\n\nWill also pick up Motes and Crests.",
     "Type": "ClassMods",
     "Comment": "[2 Energy]"
   },
@@ -325,13 +325,13 @@
   },
   {
     "Name": "Reaper",
-    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% [1.1%] {1.25%} <1.5> Super Energy.\n\nIncurs a 10 [5] {1} second cooldown between Orbs.",
+    "Description": "On Class Ability Usage:\nThe next Weapon Kill within 10 seconds spawns an Orb of Power.\n\nOrb of Power:\n0.8% | 1.1% | 1.25% | 1.5% Super Energy.\n\nIncurs a 10 | 5 | 1 second cooldown between Orbs.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]"
   },
   {
     "Name": "Restorative Finisher",
-    "Description": "On Finisher:\nConsumes x2 Armor Charge.\n\nGrants 50% Ability Energy to the least-charged Ability.",
+    "Description": "On Finisher:\nConsumes x2 Armor Charge.\n\n50% Ability Energy to the least-charged Ability.",
     "Type": "ClassMods",
     "Comment": "[1 Energy]"
   },
@@ -345,11 +345,11 @@
     "Name": "Special Finisher",
     "Description": "On Finisher:\nConsumes x3 Armor Charge.\n\nGenerates a Special Ammo Brick for the user and allies.",
     "Type": "ClassMods",
-    "Comment": "[2 Energy]"
+    "Comment": "[1 Energy]"
   },
   {
     "Name": "Time Dilation",
-    "Description": "Armor Charges now decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
+    "Description": "Armor Charges decay every 15 | 18 | 20 seconds.\n\nBy default, an Armor Charge stack is removed every 10 seconds if a Passive Mod is equipped.",
     "Type": "ClassMods",
     "Comment": "[3 Energy]"
   },

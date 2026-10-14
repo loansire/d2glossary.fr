@@ -3,7 +3,7 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Amplified",
-    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while active.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\n\nBeing Amplified enhances certain Abilities.",
+    "Description": "Intrinsic Arc Subclass Buff\nObtained by reaching 100% Counter Progress through Arc Kills within 6 seconds of each, or through Aspects.\nRank-And-File = 25% | Elite = 50% | Miniboss+ = 100% | Guardians = 50%\n\nAmplified:\n+50 Mobility, increases Slide Distance to 8.5 meters, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds. \nCombatants are less accurate at targeting the wearer and grants 15% Damage Resist against Combatants while active.\nWhile Amplified, sprinting for 2.5 seconds grants Speed Booster.\n\nSpeed Booster:\nMaximizes Movement Speed, increased Slide Distance to 11 meters, 25% Increased Jump Height, and 15% Damage Resist against Combatants.\nSpeed Booster lingers for 2 seconds until no longer sprinting, even after Amplified runs out.\nPerforming a Speed Booster Slide permanently increases base Slide Distance from 6.5 meters to 8.5 meters until death.",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
@@ -67,7 +67,7 @@
         {
           "linesContent": [
             {
-              "text": "+50 Mobility, 33% Increased Slide Distance, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds."
+              "text": "+50 Mobility, increases Slide Distance to 8.5 meters, +40 Handling, and 0.95x Handling Duration Multiplier for 15 seconds."
             }
           ]
         },
@@ -124,7 +124,7 @@
         {
           "linesContent": [
             {
-              "text": "Maximized Movement Speed, 50% Increased Slide Distance, 25% Increased Jump Height, and 15% Damage Resist against Combatants."
+              "text": "Maximizes Movement Speed, increased Slide Distance to 11 meters, 25% Increased Jump Height, and 15% Damage Resist against Combatants."
             }
           ]
         },
@@ -151,23 +151,18 @@
           ]
         },
         {
-          "classNames": [
-            "spacer"
-          ]
-        },
-        {
           "linesContent": [
             {
-              "text": "Being "
+              "text": "Performing a "
             },
             {
-              "text": "Amplified",
+              "text": "Speed Booster",
               "classNames": [
                 "arc"
               ]
             },
             {
-              "text": " enhances certain Abilities."
+              "text": " Slide permanently increases base Slide Distance from 6.5 meters to 8.5 meters until death."
             }
           ]
         }
@@ -178,14 +173,14 @@
     "Class": "General",
     "Type": "SubClassVerb",
     "Name": "Bolt Charge",
-    "Description": "Damage instances scored within 3 seconds of each while Bolt Charge is active increments a Magazine-capacity based counter towards gaining a stack of Bolt Charge.\nGrants 2.5% Melee Ability Energy per Bolt Charge stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge.\nSwapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 2\nArea-Denial GLs: 3 or 4?\nSwords: 2\n3-Ammo Snipers: 1\nGlaive Melee, as well as Damage-over-Time sources all count.\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Ground Splash = 675 Total [36 Bolt Splash + 30 Ground Splash] Arc Damage over ? meters.\nDoes not count as Ability Damage.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Gifted Conviction's Explosives",
+    "Description": "Upon scoring a Magazine-Based amount of Weapon Damage Instances within 5 seconds of each while Bolt Charge is active:\nThe next damage instance from any source will grant a stack of Bolt Charge.\nSwapping weapons resets the counter. Can only gain up to 1 stack per simultaneous damage instance.\n\nDamage instances needed to gain a stack:\n(15% of Magazine, rounded down) + 1\nSwords and GLs: 2\n3-Ammo Snipers: 1\n\nGaining a Bolt Charge stack grants 2.5% Melee Ability Energy per Bolt Charge stack obtained, generally granting 25% Melee Ability Energy over the 10 stacks needed to discharge.\nAcquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)\n\nAfter 0.5 seconds of scoring an Ability Hit or dealing Unpowered Melee Damage while at x10 Bolt Charge stacks:\nDischarges an Arc Bolt over the damaged enemy, dealing up to 405 Bolt Splash + 270 Ground Splash = 675 Total [36 Bolt Splash + 30 Ground Splash] Arc Damage over ? meters.\nDoes not count as Ability Damage, only as Generic Arc Damage.\n\nTriggers Discharge:\nVolatile Explosions | Freeze Shatter (Not auto-shatter on Bosses) | Tangle Explosions | Threadlings | Unraveling Threads | Suspend Snap on Bosses | Forerunner's The Rock\n\nDo NOT trigger Discharge:\n Jolt's Chain Lightning | Scorch and Ignitions (from Non-Abilities) | Crystal Shatter (from Non-Abilities) | Gifted Conviction's Explosives",
     "hash_warning": "No matching hash found in d2glossary",
     "descriptions": {
       "en": [
         {
           "linesContent": [
             {
-              "text": "Damage instances scored within 3 seconds of each while "
+              "text": "Upon scoring a Magazine-Based amount of Weapon Damage Instances within 5 seconds of each while "
             },
             {
               "text": "Bolt Charge",
@@ -194,7 +189,14 @@
               ]
             },
             {
-              "text": " is active increments a Magazine-capacity based counter towards gaining a stack of "
+              "text": " is active:"
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "The next damage instance from any source will grant a stack of "
             },
             {
               "text": "Bolt Charge",
@@ -210,30 +212,7 @@
         {
           "linesContent": [
             {
-              "text": "Grants 2.5% Melee Ability Energy per "
-            },
-            {
-              "text": "Bolt Charge",
-              "classNames": [
-                "arc"
-              ]
-            },
-            {
-              "text": " stack obtained, up to 25% Melee Ability Energy over the 10 stacks needed to discharge."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Swapping weapons resets the counter. Gaining a stack through damage prevents simultaneous damage instances from incrementing the counter."
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Acquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)"
+              "text": "Swapping weapons resets the counter. Can only gain up to 1 stack per simultaneous damage instance."
             }
           ]
         },
@@ -252,23 +231,7 @@
         {
           "linesContent": [
             {
-              "text": "(15% of Magazine, rounded down) + 2"
-            }
-          ]
-        },
-        {
-          "linesContent": [
-            {
-              "text": "Area-Denial "
-            },
-            {
-              "text": "GLs",
-              "classNames": [
-                "weapon-heavy-grenade-launcher"
-              ]
-            },
-            {
-              "text": ": 3 or 4?"
+              "text": "(15% of Magazine, rounded down) + 1"
             }
           ]
         },
@@ -278,6 +241,15 @@
               "text": "Swords",
               "classNames": [
                 "weapon-sword"
+              ]
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "GLs",
+              "classNames": [
+                "weapon-heavy-grenade-launcher"
               ]
             },
             {
@@ -293,15 +265,39 @@
           ]
         },
         {
+          "classNames": [
+            "spacer"
+          ]
+        },
+        {
           "linesContent": [
             {
-              "text": "Glaive",
+              "text": "Gaining a "
+            },
+            {
+              "text": "Bolt Charge",
               "classNames": [
-                "weapon-glaive"
+                "arc"
               ]
             },
             {
-              "text": " Melee, as well as Damage-over-Time sources all count."
+              "text": " stack grants 2.5% Melee Ability Energy per "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " stack obtained, generally granting 25% Melee Ability Energy over the 10 stacks needed to discharge."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Acquiring over x10 stacks through abilities will still grant the corresponding Ability Gains (For example, being at x9 and acquiring x4 will still grant 10% Melee Energy)"
             }
           ]
         },
@@ -363,7 +359,16 @@
         {
           "linesContent": [
             {
-              "text": "Does not count as Ability Damage."
+              "text": "Does not count as Ability Damage, only as Generic "
+            },
+            {
+              "text": "Arc",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": " Damage."
             }
           ]
         },
@@ -3838,7 +3843,7 @@
     "Class": "Hunter",
     "Type": "Aspect",
     "Name": "Tempest Strike",
-    "Description": "Scoring a Jolted Enemy Kill grants x1 Bolt Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, launching an Arc Wave along the ground up to 22 metres away, dealing 739 [125] damage and inflicting Jolt.\nGrants 75% Damage Resist against Combatants for 4? seconds after usage. Unable to use during slide if user shoots.\nCan trigger Combination Blow effects, and benefits from its damage increase. Does not interact with Disorienting Blow.",
+    "Description": "Scoring a Jolted Enemy Kill grants x1 Bolt Charge.\nDoes not stack alongside Dielectric's x1 Bolt Charge.\n\nWhile Sliding:\n[Melee Ability] performs an uppercut, launching an Arc Wave along the ground up to 22 metres away, dealing 739 [125] damage and inflicting Jolt.\nGrants 75% Damage Resist against Combatants for 4? seconds after usage. Unable to use during slide if user shoots.\nCan trigger Combination Blow effects, and benefits from its damage increase. Does not interact with Disorienting Blow.",
     "hash": 4194622037,
     "parentHash": "4194622037",
     "descriptions": {
@@ -3856,6 +3861,22 @@
             },
             {
               "text": " Enemy Kill grants x1 "
+            },
+            {
+              "text": "Bolt Charge",
+              "classNames": [
+                "arc"
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "linesContent": [
+            {
+              "text": "Does not stack alongside Dielectric's x1 "
             },
             {
               "text": "Bolt Charge",
@@ -5529,7 +5550,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Chain Lightning",
-    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nArc Subclass Exclusive: Has 2 Ability Charges.\n\nDirectly strikes an enemy, dealing 490? [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 266? [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nArc Subclass Exclusive: Has 2 Ability Charges.\n\nDirectly strikes an enemy, dealing 390 [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 265 [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
     "hash": 1232050831,
     "parentHash": "1232050831",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5563,7 +5584,7 @@
         {
           "linesContent": [
             {
-              "text": "Directly strikes an enemy, dealing 490? ["
+              "text": "Directly strikes an enemy, dealing 390 ["
             },
             {
               "text": "100",
@@ -5603,7 +5624,7 @@
               ]
             },
             {
-              "text": " deals 266? ["
+              "text": " deals 265 ["
             },
             {
               "text": "54",
@@ -5669,7 +5690,7 @@
     "Class": "Warlock",
     "Type": "Melee",
     "Name": "Chain Lightning",
-    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nArc Subclass Exclusive: Has 2 Ability Charges.\n\nDirectly strikes an enemy, dealing 490? [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 266? [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
+    "Description": "Melee Attack with an extended lunge distance of 6 meters.\nArc Subclass Exclusive: Has 2 Ability Charges.\n\nDirectly strikes an enemy, dealing 390 [100] damage, inflicting Jolt, and causing them to release chain lightning.\nChain lightning deals 265 [54] damage to enemies within 9 metres, chaining towards enemies up to a maximum of 5 times. Cannot chain to the most recently targeted enemy.\n\nWhile Amplified:\nReleases two sets of chain lightning, each targeting a different enemy, doubling the maximum amount of enemies hit. Enemies can still only be hit once by chain lightning.",
     "hash": 3644045868,
     "parentHash": "3644045868",
     "hash_warning": "Multiple matches found (2 total)",
@@ -5703,7 +5724,7 @@
         {
           "linesContent": [
             {
-              "text": "Directly strikes an enemy, dealing 490? ["
+              "text": "Directly strikes an enemy, dealing 390 ["
             },
             {
               "text": "100",
@@ -5743,7 +5764,7 @@
               ]
             },
             {
-              "text": " deals 266? ["
+              "text": " deals 265 ["
             },
             {
               "text": "54",
